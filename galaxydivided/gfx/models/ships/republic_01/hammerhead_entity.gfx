@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "hammerhead_entity_mesh"
+		file = "gfx/models/ships/republic_01/hammerhead_entity.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "Hammerhead:Hull1|Hammerhead:HullShape"
+			index = 0
+			texture_diffuse = "hammerhead_diffuse.dds"
+			texture_normal = "hammerhead_normal.dds"
+			texture_specular = "hammerhead_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "sith_corvette_entity_mesh"
+		file = "gfx/models/ships/sith_01/sith_corvette_entity.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "Sith_Corvette:HullShape"
+			index = 0
+			texture_diffuse = "sith_corvette_diffuse.dds"
+			texture_normal = "sith_corvette_normal.dds"
+			texture_specular = "sith_corvette_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

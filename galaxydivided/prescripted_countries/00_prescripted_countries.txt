@@ -1,0 +1,1538 @@
+
+###### REPUBLIC CORE WORLDS
+
+"Jedi Council"
+={
+	name="Jedi Council"
+	name_list="Jedi"
+	ship_prefix=""
+	species_name="Jedi"
+	species_plural="Jedi"
+	species_class="MAM"
+	species_adjective="Jedi"
+	species_bio="[Ally of the Republic] The Jedi Order, is an ancient monastic peacekeeping organization unified by its belief and observance of the Force, specifically the light side. The Jedi are the guardians of peace and justice in the Galactic Republic, and became perhaps the most well known of the various groups that relied on the Force for their power. Led by a series of Jedi Councils, the Order grew over the millennia despite facing many trials. Most often these threats were engineered by the Sith, the most prominent group of Force sensitives who wielded the dark side of the Force."
+	portrait="human"	
+	adjective="Jedi"
+	government="theocratic_oligarchy"
+	flags={jedi_council SWGD jedi_order}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Tython"
+	planet_class="pc_continental"
+	system_name="Tython"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="dirty_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="flag_series_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Annor Kessler"
+		portrait="human_male_04"
+		texture=0
+		hair=5
+		clothes=4
+		ruler_title="Grand Master"
+		ruler_title_female="Grand Master"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_spiritualist"
+	trait="trait_charismatic"
+	trait="trait_talented"
+	trait="trait_slow_breeders"
+}
+"Coruscant City Authority"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Coruscanti"
+	species_plural="Coruscanti"
+	species_class="MAM"
+	species_adjective="Coruscanti"
+	species_bio="[Core founder of the Republic] Coruscant is the captial of the ruling government of much of the galaxy that has existed for more than 25 thousand years. The Republic is a representative democracy, composed of various star systems, sectors and member worlds throughout most of the known galaxy. Its central government consisted of three branches: legislative, executive and judicial. The first was the Galactic Senate, a body of elected or appointed representatives. Its main duties included mediating disputes over issues ranging from planetary to galactic-scale, regulating trade routes between star systems, and in theory, represented the interests of Republic citizens. "
+	portrait="human"
+	name="Coruscant City Authority"
+	adjective="Coruscanti"
+	government="indirect_democracy"
+	flags={coruscant core_founder SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Coruscant"
+	planet_class="pc_continental"
+	system_name="Coruscant"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="flag_series_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Zeven Pax"
+		portrait="human_male_01"
+		texture=0
+		hair=5
+		clothes=4
+		ruler_title="Chancellor"
+		ruler_title_female="Chancellor"
+	}
+	spawn_enabled=always
+	ethic="ethic_fanatic_individualist"
+	ethic="ethic_xenophile"
+	trait="trait_industrious"
+	trait="trait_deviants"
+	trait="trait_quick_learners"
+}
+
+"Anaxes Commonwealth"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Anaxsi"
+	species_plural="Anaxsi"
+	species_class="MAM"
+	species_adjective="Anaxsi"
+	species_bio="[Core founder of the Republic] Known as the Defender of the Core, for millennia it was the site of the Republic Navy's primary fleet base and War College. It was considered the site of naval power, tradition and prestige bythe Galactic Republic."
+	portrait="human"
+	name="Anaxes Commonwealth"
+	adjective="Anaxsi"
+	government="indirect_democracy"
+	flags={anaxes core_founder SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Anaxes"
+	planet_class="pc_continental"
+	system_name="Anaxes"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"turquoise"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Cyrus Blackmoor"
+		portrait="human_male_03"
+		texture=0
+		hair=11
+		clothes=4
+		ruler_title="President"
+		ruler_title_female="President"
+	}
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_materialist"
+	ethic="ethic_militarist"
+	trait="trait_industrious"
+	trait="trait_deviants"
+	trait="trait_quick_learners"
+}
+
+"Brentaal Houses"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Brentaalan"
+	species_plural="Brentaalan"
+	species_class="MAM"
+	species_adjective="Brentaalan"
+	species_bio="[Core founder of the Republic] The Brentaal Houses were the influential families that ran the planet Brentaal's trade guilds. They represented the citizens in Brentaal's democratic government."
+	portrait="human"
+	name="Brentaal Houses"
+	adjective="Brentaalan"
+	government="plutocratic_oligarchy"
+	flags={brentaal core_founder SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Brentaal"
+	planet_class="pc_continental"
+	system_name="Brentaal"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Carth Brentioch"
+		portrait="human_female_01"
+		texture=0
+		hair=6
+		clothes=3
+		ruler_title="House Patriarch"
+		ruler_title_female="House Matriarch"
+	}
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_materialist"
+	ethic="ethic_xenophile"
+	trait="trait_industrious"
+	trait="trait_deviants"
+	trait="trait_quick_learners"
+}
+
+
+"Kingdom of Alderaan"
+={
+	name_list="sw_hu"
+	ship_prefix=""
+	species_name="Alderaanian"
+	species_plural="Alderaanians"
+	species_class="MAM"
+	species_adjective="Alderaanian"
+	species_bio="[Core founder of the Republic] The Alderaanian Parliament was a governing body of the Kingdom of Alderaan. The parliament was founded after King Darrus Alde united the planet under his rule early in its history, prior to the formation of the Galactic Republic. Only members from the noble houses of Alderaan were eligible to serve in the parliament. The nobility of Alderaan were responsible for ruling the planet and choosing the reigning monarch in often vicious, always intricate games of local politics. "
+	portrait="human"
+	name="Kingdom of Alderaan"
+	adjective="Alderaanian"
+	government="enlightened_monarchy"
+	flags={alderaan_kingdom	core_founder SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Alderaan"
+	planet_class="pc_continental"
+	system_name="Alderaan"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="asari_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_7.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"orange"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Alyssa Organa"
+		portrait="human_female_01"
+		texture=0
+		hair=9
+		clothes=5
+		heir_title="Prince"
+		heir_title_female=" Princess"
+	}
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_pacifist"
+	trait="trait_talented"
+	trait="trait_charismatic"
+	trait="trait_deviants"
+}
+"Corellian Empire"
+={
+	name_list="sw_hu"
+	ship_prefix=""
+	species_name="Corellian"
+	species_plural="Corellians"
+	species_class="MAM"
+	species_adjective="Corellian"
+	species_bio="[Core founder of the Republic] The Corellian Empire is the government of the Corellian sector. It is ruled by a King from the House of Solo, who controls matters of state."
+	portrait="human"
+	name="Corellian Empire"
+	adjective="Corellian"
+	government="military_junta"
+	flags={corellian_empire core_founder SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Corellia"
+	planet_class="pc_continental"
+	system_name="Corellia"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_22.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"red_orange"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Rowan Solo"
+		portrait="human_male_01"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="King"
+		ruler_title_female="Queen"
+	}
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	ethic="ethic_individualist"
+	trait="trait_deviants"
+	trait="trait_sedentary"
+	trait="trait_talented"
+	trait="trait_natural_engineers"
+}
+
+"Duro Consortium"
+={
+	name_list="MAM1"
+	ship_prefix=""
+	species_name="Duros"
+	species_plural="Duros"
+	species_class="MOL"
+	species_adjective="Duros"
+	species_bio="[Core founder of the Republic] One of the earliest starfaring races, the Duros established a vast, grand starship constuction industry in the Duro system that rivaled the one in the Corellian system. The Duros set up their government around a consortium of starship construction corporations, with all important political decisions made by the stockholders of the corporations. This meant that any Duros that held stock in a company could participate in the administration of the system. Many Duros were pilots and explorers, and were adventurous, though sometimes rash."
+	portrait="mol5"
+	name="Duro Corporate Alliance"
+	adjective="Duro"
+	government="plutocratic_oligarchy"
+	flags={duro core_founder SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Duro"
+	planet_class="pc_tropical"
+	system_name="Duro"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Etro Vookto"
+		portrait="mol5"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="Chairman"
+		ruler_title_female="Chairwoman"
+	}
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	trait="trait_nomadic"
+	trait="trait_industrious"
+	trait="trait_deviants"
+}
+
+
+"Kuat Aristocracy"
+={
+	key="Kuat Aristocracy"
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Kuati"
+	species_plural="Kuati"
+	species_class="HUM"
+	species_adjective="Kuati"
+	species_bio="[Core founder of the Republic] Kuat was a vital shipbuilding and industrial planet located in the Kuat system of the galaxy's Core Worlds region. Known for the prestigious Kuat Drive Yards corporation and its large shipyards, the planet notably produced warships for the Galactic Republic."
+	portrait="human"
+	name="Kuat Aristocracy"
+	adjective="Kuati"
+	government="plutocratic_oligarchy"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Kuat"
+	planet_class="pc_continental"
+	system_name="Kuat"
+	initializer=""
+	flags={kuat SWGD core_founder SWGD}
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="starwarssilver"
+			file="44.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Sarna Lerann"
+		portrait="human_female_04"
+		texture=0
+		hair=15
+		clothes=3
+		ruler_title="Ambassador"
+		ruler_title_female="Matriarch"
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_natural_engineers"
+	trait="trait_thrifty"
+	trait="trait_nonadaptive"
+}
+
+"Rendili Jurisdictions"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Rendili"
+	species_plural="Rendili"
+	species_class="MAM"
+	species_adjective="Rendili"
+	species_bio="[Core founder of the Republic] Rendili was one of the core founders of the Republic, ruled by an Arch-Provost. It was the headquarters of Rendili Stardrive founded in 20,000 BBY and the shipwrights Rendili Hyperworks."
+	portrait="human"
+	name="Rendili Shipwrights"
+	adjective="Rendili"
+	government="plutocratic_oligarchy"
+	flags={rendili core_founder SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Rendili"
+	planet_class="pc_continental"
+	system_name="Rendili"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Alistar Dayne"
+		portrait="human_male_04"
+		texture=0
+		hair=7
+		clothes=1
+		ruler_title="Arch-Provost"
+		ruler_title_female="Arch-Provost"
+	}
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	trait="trait_industrious"
+	trait="trait_deviants"
+	trait="trait_natural_engineers"
+}
+
+"Alsakan Kingdom"
+={
+	key="Alsakan Kingdom"
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Alsakan"
+	species_plural="Alsakans"
+	species_class="HUM"
+	species_adjective="Alsakan"
+	species_bio="[Core founder of the Republic] Alsakan was an ecumenopolis world in the Alsakan system in the Core Worlds. A Core Founder on the Perlemian Trade Route, Alsakan was an ancient, wealthy world that had been a major political player for centuries, and was responsible for the seventeen Alsakan Conflicts that had been fought with Coruscant over the nature and shape of the early Galactic Republic."
+	portrait="human"
+	name="Alsakan Kingdom"
+	adjective="Alsakan"
+	government="plutocratic_oligarchy"
+	flags={alsakan SWGD core_founder}
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Alsakan"
+	planet_class="pc_continental"
+	system_name="Alsakan"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"indigo"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Vania Drayven"
+		portrait="human_female_03"
+		texture=0
+		hair=15
+		clothes=3
+		ruler_title="Ambassador"
+		ruler_title_female="Ambassador"
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	trait="trait_natural_engineers"
+	trait="trait_thrifty"
+	trait="trait_nonadaptive"
+}
+
+
+
+
+
+
+
+###### OTHER EMPIRES
+
+"Sith Empire"
+={
+	name_list="Sith"
+	ship_prefix=""
+	species_name="Sith"
+	species_plural="Sith"
+	species_class="sith"
+	species_adjective="Sith"
+	species_bio="The Sith, also known as the Sith Order, are an order of Force users who utilize the dark side of the Force in an effort to gain power over the galaxy. The Sith are the ancient enemies of the Jedi Order and have fought numerous wars with them for thousands of years."
+	portrait="sith"
+	name="Sith Empire"
+	adjective="Sith"
+	government="despotic_empire"
+	flags={	sith_empire	custom_start_screen SWGD }
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Dromund Kaas"
+	planet_class="pc_tropical"
+	system_name="Dromund"
+	initializer=""
+	graphical_culture="sith_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="starwarssilver"
+			file="flag_series_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Vitiate"
+		portrait="sith_male_03"
+		texture=0
+		hair=27
+		clothes=1
+		heir_title=" "
+		heir_title_female=" "
+	}
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	ethic="ethic_xenophobe"
+	trait="trait_resilient"
+	trait="trait_deviants"
+	trait="trait_talented"	
+}
+
+"Mon Calamari Territories"
+={
+	name_list="ART2"
+	ship_prefix=""
+	species_name="Mon Calamari"
+	species_plural="Mon Calamari"
+	species_class="MOL"
+	species_adjective="Mon Calamarian"
+	species_bio=""
+	portrait="mol13"
+	name="Mon Calamari Territories"
+	adjective="Mon calamari"
+	government="indirect_democracy"
+	flags={mon_calamari SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Mon Calamari"
+	planet_class="pc_ocean"
+	system_name="Mon Calamari"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="13.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"dark_blue"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name=""
+		portrait="mol13"
+		texture=1
+		hair=0
+		clothes=3
+		ruler_title="Senator"
+		ruler_title_female="Senator"
+	}
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_intelligent"
+	trait="trait_natural_engineers"
+	trait="trait_deviants"
+}
+
+
+"Hutt Clans"
+={
+	name_list="FUN2"
+	ship_prefix=""
+	species_name="Hutt"
+	species_plural="Hutt"
+	species_class="FUN"
+	species_adjective="Hutt"
+	species_bio="The Hutt Ruling Council, alternatively known as the Council of Elders, Hutt Council, Great Hutt Council, or the Grand Council of Nal Hutta, is a five-member council that is the primary ruling body of the Hutt species. The five members were often known informally as the Five Hutt Families, but due to internal politics, individual clans could control more than one seat on the council. The Ruling Council was sometimes referred to as the Grand Council, but that term more accurately applied to the larger Hutt Grand Council; the Ruling Council handled the day-to-day affairs of the Hutt species, and its leader spoke on behalf of all Hutts in treaties and dealings with other empires."
+	portrait="fun12"
+	name="Hutt Clans"
+	adjective="Hutt"
+	government="plutocratic_oligarchy"
+	flags={hutt_clans SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Nal Hutta"
+	planet_class="pc_continental"
+	system_name="Nal hutta"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="factory_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Shunbloor the Hutt"
+		portrait="fun12"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Supreme Mogul"
+		ruler_title_female="Supreme Mogul"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_repugnant"
+	trait="trait_enduring"
+	trait="trait_thrifty"
+	trait="trait_decadent"
+}
+"Utapauan Committee"
+={
+	name_list="MAM3"
+	ship_prefix=""
+	species_name="Pau'an"
+	species_plural="Pau'an"
+	species_class="ART"
+	species_adjective="Pau'an"
+	species_bio="The Utapauan Committee is the governing body of Utapau. It consists of Pau'an representatives from each of Utapau's cities."
+	portrait="art6"
+	name="Utapauan Committee"
+	adjective="Utapauan"
+	government="plutocratic_oligarchy"
+	flags={utapauan_committee trade_guild SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Utapau"
+	planet_class="pc_desert"
+	system_name="Utapau"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="sangheili_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_15.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"dark_brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Thaloth"
+		portrait="art6"
+		texture=0
+		hair=0
+		clothes=2
+		ruler_title="Port Administrator"
+		ruler_title_female="Port Administrator"
+	}
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_venerable"
+	trait="trait_solitary"
+	trait="trait_nonadaptive"
+}
+"Kingdom of Naboo"
+={
+	name_list="sw_hu"
+	ship_prefix=""
+	species_name="Naaboian"
+	species_plural="Nabooians"
+	species_class="MAM"
+	species_adjective="Naaboian"
+	species_bio="The Kingdom of Naboo, led by the Monarch of Naboo, rules over the planet of Naboo and its territories."
+	portrait="human"
+	name="Kingdom of Naboo"
+	adjective="Nabooian"
+	government="enlightened_monarchy"
+	flags={naboo_kingdom SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Naboo"
+	planet_class="pc_continental"
+	system_name="Naboo"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="dirty_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="flag_series_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"red"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Elias Thorne"
+		portrait="human_male_03"
+		texture=0
+		hair=7
+		clothes=4
+		heir_title="Prince"
+		heir_title_female="Princess"
+	}
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_pacifist"
+	trait="trait_intelligent"
+	trait="trait_sedentary"
+	trait="trait_charismatic"
+}
+"Council of Kamino"
+={
+	name_list="ART1"
+	ship_prefix=""
+	species_name="Kaminoan"
+	species_plural="Kaminoan"
+	species_class="REP"
+	species_adjective="Kaminoan"
+	species_bio="The Ruling Council is the governing body of the planet Kamino. The Council maintains administrative offices in the capital, Tipoca City, which is governed by a Prime Minister. The Prime Minister is the head of the Kamino colony governors that comprises the Ruling Council."
+	portrait="rep1"
+	name="Council of Kamino"
+	adjective="Kaminoan"
+	government="science_directorate"
+	flags={kamino_council trade_guild SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Kamino"
+	planet_class="pc_ocean"
+	system_name="Kamino"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_20.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"dark_blue"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Taun Wa"
+		portrait="rep1"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="Prime Minister"
+		ruler_title_female="Prime Minister"
+	}
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_intelligent"
+	trait="trait_natural_sociologists"
+	trait="trait_sedentary"
+}
+"Bespin Trade Guilds"
+={
+	name_list="sw_hu"
+	ship_prefix=""
+	species_name="Bespinian"
+	species_plural="Bespinians"
+	species_class="MAM"
+	species_adjective="Bespinian"
+	species_bio="The Bespin Trade Guilds, led by a Guildmaster, represents the various cities and facilities on the planet Bespin."
+	portrait="human"
+	name="Bespin Trade Guilds"
+	adjective="Bespinian"
+	government="plutocratic_oligarchy"
+	flags={bespin_guilds trade_guild SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Bespin"
+	planet_class="pc_continental"
+	system_name="Bespin"
+	initializer=""
+	graphical_culture="factory_01"
+	city_graphical_culture="factory_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_10.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Aeron Magnus"
+		portrait="human_male_01"
+		texture=0
+		hair=7
+		clothes=1
+		ruler_title="Guildmaster"
+		ruler_title_female="Guildmaster"
+	}
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	trait="trait_thrifty"
+	trait="trait_deviants"
+	trait="trait_charismatic"
+}
+"Cathar Tribes"
+={
+	name_list="MAM3"
+	ship_prefix=""
+	species_name="Cathar"
+	species_plural="Cathar"
+	species_class="MAM"
+	species_adjective="Cathar"
+	species_bio="The Cathar Tribes live in cities built into giant trees, and are organized into clans governed by Elders. "
+	portrait="mam14"
+	name="Cathar Tribes"
+	adjective="Cathar"
+	government="military_junta"
+	flags={cathar_tribes SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Cathar"
+	planet_class="pc_continental"
+	system_name="Cathar"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="overgrown_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_12.dds"
+		}
+		background={
+			category="backgrounds"
+			file="diagonal.dds"
+		}
+		colors={
+			"dark_brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Jesslur"
+		portrait="mam14"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Elder"
+		ruler_title_female="Elder"
+	}
+	spawn_enabled=always	
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	trait="trait_strong"
+	trait="trait_deviants"
+	trait="trait_communal"
+}
+"United Wookiee Clans"
+={
+	name_list="MAM3"
+	ship_prefix=""
+	species_name="Wookiee"
+	species_plural="Wookiees"
+	species_class="MAM"
+	species_adjective="Wookiee"
+	species_bio="The numerous cities scattered across the surface of Kashyyyk are each led by a Chieftain, who oversaw the civil and military matters of his community. Those Chieftains, also referred to as Elders, occupied a high position at the local scale. At planetary level, the entire world was ruled over by a King coming from a patrician family and whose court was held at the Royal City. One of the Wookiee monarch's roles was to determine Kashyyyk's stance in time of interplanetary war."
+	portrait="mam13"
+	name="United Wookiee Clans"
+	adjective="Wookiee"
+	government="military_junta"
+	flags={wookiee_clans SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Kashyyk"
+	planet_class="pc_tropical"
+	system_name="Kashyyyk"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="overgrown_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_14.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"dark_green"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Vrashkarr"
+		portrait="mam13"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="King"
+		ruler_title_female="King"
+	}
+	spawn_enabled=always	
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	trait="trait_enduring"
+	trait="trait_strong"
+	trait="trait_communal"
+	trait="trait_sedentary"
+}
+"Combined Bothan Clans"
+={
+	name_list="MAM3"
+	ship_prefix=""
+	species_name="Bothan"
+	species_plural="Bothan"
+	species_class="MAM"
+	species_adjective="Bothan"
+	species_bio="The Bothan Council, also known as the Combined Clans and Combined Bothan Clans, is the primary political body of Bothawui and the Bothan species. The Council is composed of members of 608 registered clans, with other clans petitioning for membership. The Council has legislative control over all of Bothan Space. The Council elects one of their own members to serve as First Secretary, also called the Council Chief. "
+	portrait="mam10"
+	name="Combined Bothan Clans"
+	flags={bothan_clans SWGD_START SWGD}
+	adjective="Bothan"
+	government="indirect_democracy"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Bothawui"
+	planet_class="pc_continental"
+	system_name="Bothawui"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_20.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"burgundy"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Thaloth"
+		portrait="mam10"
+		texture=0
+		hair=0
+		clothes=4
+		ruler_title="First Secretary"
+		ruler_title_female="First Secretary"
+	}
+	spawn_enabled=always
+	ethic="ethic_fanatic_individualist"
+	ethic="ethic_materialist"
+	trait="trait_talented"
+	trait="trait_quick_learners"
+	trait="trait_deviants"
+}
+"Mandalorian Warrior Clans"
+={
+	name_list="Mandalorian"
+	ship_prefix=""
+	species_name="Mandalorian"
+	species_plural="Mandalorian"
+	species_class="MAM"
+	species_adjective="Mandalorian"
+	species_bio="A society of traditionally nomadic warriors, the Mandalorians do not recognize bureaucracy. Division of labor sorted itself out organically. A warrior needed to be self-sufficient and competent, and each warrior was responsible for their own feeding and supplying. Mandalorian clans were led by chieftains—usually senior members of the clans chosen for their wisdom—and the loose affiliation and cooperation between them was the closest the Mandalorians had to a standard government; the clans and their chieftains were all subordinate to the Mand'alor, the one individual recognized as sole ruler of the Mandalorians and the nearest Mandalorian parallel for a proper head-of-state."
+	portrait="mando"
+	name="Mandalorian Warrior Clans"
+	adjective="Mandalorian"
+	government="military_dictatorship"
+	flags={	mandalorian_clans custom_start_screen SWGD}
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Mandalore"
+	planet_class="pc_continental"
+	system_name="Mandalore"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="dirty_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="flag_series_10.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="the Ultimate"
+		portrait="mando_male_04"
+		texture=0
+		hair=9
+		clothes=2
+		ruler_title="Mand'alor"
+		ruler_title_female="Mand'alor"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_militarist"
+	trait="trait_strong"
+	trait="trait_natural_engineers"
+}
+"Geonosian Hives"
+={
+	name_list="MOL3"
+	ship_prefix=""
+	species_name="Geonosian"
+	species_plural="Geonosians"
+	species_class="ART"
+	species_adjective="Geonosian"
+	species_bio="The Geonosians are a caste dominated civilization, led by an Archduke, ruler of Geonosis. In Geonosian society there are two main types of Geonosians: the wingless drones that mostly worked as laborers and the winged aristocracy, which include royal warriors serving as scouts and providing security to the hive. Geonosian society exists for the benefit of the elite of Geonosian society. Their caste system has evolved over millennia. Geonosians are born into specific castes divided along the lines of their physical attributes."
+	portrait="art1"
+	name="Geonosian Hives"
+	adjective="Geonosian"
+	government="despotic_hegemony"
+	flags={geonosian_hives SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Geonosis"
+	planet_class="pc_desert"
+	system_name="Geonosis"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_19.dds"
+		}
+		background={
+			category="backgrounds"
+			file="pattern_01.dds"
+		}
+		colors={
+			"dark_brown"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Sirthi"
+		portrait="art1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Archduke"
+		ruler_title_female="Archduke"
+	}
+	spawn_enabled=always
+	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_materialist"
+	trait="trait_fleeting"
+	trait="trait_rapid_breeders"
+	trait="trait_natural_engineers"
+}
+"Chiss Ascendancy"
+={
+	name_list="Chiss"
+	ship_prefix=""
+	species_name="Chiss"
+	species_plural="Chiss"
+	species_class="MAM"
+	species_adjective="Chiss"
+	species_bio="The Chiss Ascendancy, sometimes termed Chiss Space or the Chiss Empire by outsiders, is a portion of the galaxy just inside the Unknown Regions that is ruled by the Chiss. The Chiss are governed by an oligarchy of extended Ruling Families from House Palace, located in the city of Csaplar. Each clan with the families is headed by leaders known as Aristocra who wear particular colors to indicate their clan and family loyalties."
+	portrait="chiss"
+	name="Chiss Ascendancy"
+	adjective="Chiss"
+	government="military_junta"
+	flags={chiss_ascendancy SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Csilla"
+	planet_class="pc_arctic"
+	system_name="Csilla"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="asari_01"
+	empire_flag={
+		icon={
+			category="custom"
+			file="chiss_logo.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Hess'ras'inrokini"
+		portrait="chiss_male_01"
+		texture=0
+		hair=6
+		clothes=1
+		ruler_title="Aristocra"
+		ruler_title_female="Aristocra"
+	}
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	ethic="ethic_collectivist"
+	trait="trait_intelligent"
+	trait="trait_talented"
+	trait="trait_solitary"
+	trait="trait_sedentary"
+}
+"Ssi-ruuvi Imperium"
+={
+	key="Ssi-ruuvi Imperium"
+	name_list="REP2"
+	ship_prefix=""
+	species_name="Ssi-ruu"
+	species_plural="Ssi-ruuk"
+	species_class="REP"
+	species_adjective="Ssi-ruu"
+	species_bio="The Ssi-ruuvi Imperium is the government and holdings of the Ssi-ruuvi. The Shreeftut, leader of the Imperium, reigns over a swathe of the Unknown Regions known as the Ssi-ruuk Star Cluster from the capital of the Imperium, Lwhekk. The Imperium was also governed by the Conclave and the Elders Council, who elected the Shreeftut."
+	portrait="rep14"
+	name="Ssi-ruuvi Imperium"
+	adjective="Ssi-ruuvi"
+	government="theocratic_oligarchy"
+	flags={ssi_ruuvi SWGD SWGD_START }
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Lwhekk"
+	planet_class="pc_tropical"
+	system_name="Lwhekk"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="23.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"orange"
+			"turquoise"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name=""
+		portrait="rep14"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Shreeftut"
+		ruler_title_female="Shreeftut,"
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_spiritualist"
+	trait="trait_strong"
+	trait="trait_enduring"
+	trait="trait_resilient"
+	trait="trait_sedentary"
+}
+"Kingdom of Onderon"
+={
+	key="Kingdom of Onderon"
+	name_list="sw_hu"
+	ship_prefix="ISS"
+	species_name="Onderonian"
+	species_plural="Onderonians"
+	species_class="HUM"
+	species_adjective="Onderonian"
+	species_bio="The native Humans of Onderon have long struggled against the beasts that inhabit the planet. Eventually building a huge walled city, Iziz, to protect themselves. Like people of many other fringe worlds, the Onderonians have a distrust of non-Humans. Long ago, Freedon Nadd conquered the planet and sent his opponents into the wilderness without any protection from the animals. These outcasts soon learned to defend themselves, and eventually formed a society.  Many of the wilderness Beast Lords prospered in recent decades since the end of the Great Sith War, thanks to off-world trade going back two generations. And due to the merging of the two societies."
+	portrait="human"
+	name="Kingdom of Onderon"
+	adjective="Onderonian"
+	government="despotic_empire"
+	flags={onderon SWGD SWGD_START}
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Onderon"
+	planet_class="pc_tropical"
+	system_name="Onderon"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"dark_brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Talia"
+		portrait="human_female_04"
+		texture=0
+		hair=4
+		clothes=5
+		ruler_title="King"
+		ruler_title_female="Queen"
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	trait="trait_quick_learners"
+	trait="trait_deviants"
+	trait="trait_resilient"
+	trait="trait_natural_sociologists"
+}
+
+"Rodian Clans"
+={
+	key="Rodian Clans"
+	name_list="MOL3"
+	ship_prefix=""
+	species_name="Rodian"
+	species_plural="Rodians"
+	species_class="REP"
+	species_adjective="Rodian"
+	species_bio="Rodians were infamous for their violent culture, which sprang from the difficulties of life in the jungles of their homeworld. Though they were often relegated to the fringes of galactic society as bounty hunters or criminal henchmen, Rodians were not merely simple-minded thugs. As Rodian society developed and their technology improved, the leader of the most powerful clan, the Soammei clan, eventually proclaimed himself Inta'si'rin'na, or Grand Protector of the Rodians. Through the rest of Rodian history, the title of Grand Protector shifted from clan to clan as loyalties and power shifted. Grand Protectors ruled all of Rodia as dictators."
+	portrait="rep4"
+	name="Rodian Clans"
+	adjective="Rodian"
+	government="despotic_empire"
+	flags={rodian SWGD SWGD_START}
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Rodia"
+	planet_class="pc_tropical"
+	system_name="Rodia"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"burgundy"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Hako Tan"
+		portrait="rep4"
+		texture=0
+		hair=0
+		clothes=2
+		ruler_title="Grand Protector"
+		ruler_title_female="Grand Protector"
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_militarist"
+	trait="trait_deviants"
+	trait="trait_adaptive"
+	trait="trait_resilient"
+}
+
+"Neimoidian Trade Collective"
+={
+	key="Neimoidian Trade Collective"
+	name_list="FUN2"
+	ship_prefix=""
+	species_name="Neimoidian"
+	species_plural="Neimoidians"
+	species_class="MOL"
+	species_adjective="Neimoidian"
+	species_bio="Neimoidians placed tremendous value on wealth and material possessions, and would go to great lengths to gain money and power, resulting in a stereotype of being greedy and cowardly; however, they are very easily intimidated, and hate combat."
+	portrait="mol5"
+	name="Neimoidian Trade Collective"
+	adjective="Neimoidian"
+	government="plutocratic_oligarchy"
+	flags={neimoidian SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Neimoidia"
+	planet_class="pc_continental"
+	system_name="Neimoidia"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="factory_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="flag_series_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="pattern_01.dds"
+		}
+		colors={
+			"teal"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Rune Tuuk"
+		portrait="mol5"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Trade Monarch"
+		ruler_title_female="Trade Monarch"
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_weak"
+	trait="trait_thrifty"
+	trait="trait_communal"
+}

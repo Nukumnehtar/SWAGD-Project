@@ -1,0 +1,486 @@
+kashyyyk_system_initializer = {
+    name = "Kashyyyk"
+    class = "rl_standard_stars"
+    asteroids_distance = 89
+	flags={wookiee_clans}
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+
+    planet = {
+        name = "Taakarroo"
+        class = "pc_molten"
+        orbit_distance = 22
+        orbit_angle = 193
+        has_ring = no
+
+
+        moon = {
+            name = "Taakarroo II"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 180
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Kallalarra"
+        class = "pc_toxic"
+        orbit_distance = 25
+        orbit_angle = 0
+        has_ring = no
+
+
+        moon = {
+            name = "Kaliar"
+            class = random
+            orbit_distance = 7
+            orbit_angle = 247
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Kantolir"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 293
+            has_ring = no
+
+        }
+
+        moon = {
+	    name = "Kalartion"
+            class = random
+            orbit_distance = 0
+            orbit_angle = 0
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Kashyyyk"
+        class = "pc_tropical"
+        orbit_distance = 26
+        orbit_angle = 280
+        has_ring = no	
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+     	init_effect = {
+			prevent_anomaly = yes
+		}		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+
+
+        moon = {
+            name = "Karchiwroo"
+            class = random
+            orbit_distance = 7
+            orbit_angle = 74
+            size = 10
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Warranurr"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 91
+			size = 5
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Rawrroo"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 20
+			size = 7
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Gryyyl Asteroid Belt"
+        class = "pc_asteroid"
+        orbit_distance = 16
+        orbit_angle = 91
+        size = 8
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Trandosha"
+        class = "pc_arid"
+		flags={}
+        orbit_distance = 37
+        orbit_angle = 340
+        size = 20
+        has_ring = no
+		
+
+        moon = {
+            name = "Akoshissss"
+            class = "pc_barren"
+            orbit_distance = 10
+            orbit_angle = 180
+            size = 6
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Wasskah"
+            class = "pc_continental"
+            orbit_distance = 8
+            orbit_angle = 36
+            size = 8
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Alaris"
+        class = "pc_gas_giant"
+        orbit_distance = 40
+        orbit_angle = 35
+        size = 20
+        has_ring = no
+
+
+        moon = {
+            name = "Alaris Prime"
+            class = "pc_tropical"
+            orbit_distance = 11
+            orbit_angle = 332
+            size = 10
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Alaris Minor"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 175
+            size = 3
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Alaris IV"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 263
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Alaris V"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 79
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Alaris VI"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 14
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Shurr"
+        class = "pc_gas_giant"
+        orbit_distance = 28
+        orbit_angle = 78
+        size = 18
+        has_ring = no
+
+
+        moon = {
+            name = "Shurr II"
+            class = random
+            orbit_distance = 7
+            orbit_angle = 284
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Shurr III"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 192
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Shurr IV"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 70
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Shurr V"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 192
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Shurr VI"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 273
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Shurr VII"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 254
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Shurr VIII"
+            class = random
+            orbit_distance = 5
+            orbit_angle = 5
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Kuhurrik"
+        class = "pc_gas_giant"
+        orbit_distance = 60
+        orbit_angle = 202
+        size = 30
+        has_ring = no
+
+
+        moon = {
+            name = "Kuhurrik II"
+            class = random
+            orbit_distance = 6
+            orbit_angle = 271
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Kuhurrik III"
+            class = random
+            orbit_distance = 6
+            orbit_angle = 267
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Kuhurrik IV"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 127
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Kuhurrik V"
+            class = random
+            orbit_distance = 6
+            orbit_angle = 302
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Kuhurrik VI"
+            class = random
+            orbit_distance = 6
+            orbit_angle = 275
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Kuhurrik VII"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 37
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Kuhurrik VIII"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 287
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Kuhurrik IX"
+            class = random
+            orbit_distance = 7
+            orbit_angle = 21
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Kuhurrik X"
+            class = random
+            orbit_distance = 5
+            orbit_angle = 64
+            has_ring = no
+
+        }
+    }
+}

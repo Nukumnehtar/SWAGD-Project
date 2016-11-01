@@ -1,0 +1,291 @@
+### Sith names
+Sith = {
+	
+
+	ship_names = {
+
+		generic = {
+			Mystic Naiad Nautilus Nebula Nimble "North Star" Nymph Obdurate Ocean Onward Oracle Paradox Paragon  
+			Peregrine Perseverance Marksman Trident Truncheon Typhoon Undaunted Venture Versatile Vigorous Viper 
+			Wyvern Wolfhound Devastator Warhammer Retribution Senator Tornado Infinity Usurper Utmost Valorous Whirlwind Athena Artemis Vigilance Decimator Indomitable Goliath Sentinel Brilliant Blazer Audacity Gallant Nova Shadow Allegiance Challenger Fearless Protector Guardian Victorious Courageous Defiance Valorous Azrael
+			"Adamantine" "Aralanni" "Ardent IV" "Armistice" "Avengeance" "Ballista" "Bloodstripe" "Borealis"
+			"Caelus" "Caravan" "Chaf Envoy" "Commenor" "Corbantis" "Corellia" "Courteous" "Dauntless" "Defiant"
+			"Deliverance" "Derapha" "Devout" "Empirical" "Empyrean" "Era Daimanos" "Eye of the Storm" "Farstar"
+			"Fastblast" "Galaaron" "Garrote" "Gilagimar" "Halleck" "Hunter" "Intractable" "Ithor Lady"
+			"Crusader" "Kana's Steel" "Lathir" "Maelstrom" "Malachite Scent"
+			"Mercy" "Myrkos" "Nebula Chaser" "Nova" "Nova Viper" "Obedience" "Olemp" "Pegasus" "Perspicacity"
+			"Phalanx" "Plooriod Bodkin" "Predominance" "Prosperity" "Purity" "Recalcitrant" "Red Nova" "Redma"
+			"Reliable" "Reliant" "Reluctant" "Republic" "Republic's Return" "Resolve" "Respectable" "Revenge"
+			"Shadowblade" "Spritespray" "Star Dream" "Stark Wing" "Starveil" "Undying" "Vaathkree" "Vainglorious"
+			"Valiant" "Valor" "Vanquisher" "Vinsor" "Visseon" "Wennis" "Yavin's Glory" "Moldy Crow" "Raven's Claw" 
+		}
+
+		corvette = {
+			Agile Archer Arrow Bruiser Cherub Chimera Claymore Broadsword Battleaxe Crossbow Cutlass Deterrent Errant Faithful Fierce Gladius Longbow 
+			Grappler Hammer Vampire Velox Venator Vendetta Venerable Venomous Taciturn Supreme Success Shredder Seraph Serpent Spitfire Stalker Stratagem
+			Scimitar Scorcher Scourge Scythe Revenant Redoubtable Raptor Reaver Prodigal Rapier Prudent Persistent Peerless Myrmidon Indignant Javelin Knight
+			Starwolf Bonaventure Adventure Boxer Buccaneer Cavalier Celestial Chariot Comet Crucible Cyclone Decisive Dexterous Diadem Earnest Eclipse Forger Fortune 
+			Gauntlet Griffin Horizon Hotspur Hurricane Hussar Jubilant Lancer Lightning Magic Mediator Mermaid Meteor Minstrel Miranda Mustang Sharpshooter
+		}
+		
+		destroyer = {
+			Cyclops Centaur Adversary Assassin Dagger Daring Duty Havoc Hero Hunter Impeccable Interceptor Infernal Loyal Matchless Mauler Mayhem Malice
+			Menace Merciless Mischief Monarch Patriot Predator Powerful Punisher Ravager Reaper Savage Spiteful Templar Terminator Terror Thrasher Minotaur
+			Manticore Interdictor Intruder Hydra Enfield Harasser Unbeaten Werewolf Zealous Petulant Phantom Phoenix Pike Pursuer Raider Rainbow Rapid Redemption 
+			Relentless Rigorous Robust Sabre Salvation Sanguine Scarab Scepter "Sea Witch" Siren Sorceress Spearhead Specter Spirit Splendid Stallion Stalwart 
+			Steadfast Strenuous Superb Supernova Surprise Swiftsure Talent Talisman Talon Taurus Tenacious "Thunder Child" Thunderous Tireless Trenchant Righteous
+		}
+		
+		cruiser = {
+			Acheron Achilles Agamemnon Amphion Aquilon Argonaut Argus Ariel Aurora Avernus Bacchus Bucephalus Calliope Calypso Castor Charybdis Circe
+			Cleopatra Constantine Cordelia Cyrus Damocles Daedalus Darius Diomede Dryad Electra Endymion Erebus Fenris Freya Gilgamesh Gorgon Halcyon Hecate
+			Hector Hesperus Janus Jason Juno Jupiter Lancelot Lazarus Leander Leonidas Lysander Maenad Mars Medea Medusa Menestheus Mercury Merlin Minerva
+			Minos Neptune Nessus Nestor Nimrod Niobe Oberon Odin Ophelia Orestes Orpheus Osiris Pandora Penelope Persephone Perseus Phoebe Pluto Poseidon
+			Proteus Pylades Serapis Stygian Tantalus Telemachus Theseus Thor Trajan Triton Venus Adamant Ardent Assail Austere Archon Adroit Aegis Anchor 
+			Corsair Banshee Enchantress Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord 
+		}
+		
+		battleship = {
+			Vengeance Ravager Triumphant Nemesis Avenger Champion Conqueror Crusader Glory Immortal Judicator Vanguard Renown Demolisher Dragon Executor Furious Gladiator
+			Magnificent Ogre Onslaught Revenge Vanquisher Vehement Basilisk Tempest Overlord Warrior Titan Colossus Prometheus  Paladin Sovereign Repulse
+			Majestic Avatar Behemoth Centurion Citadel Dreadnought Harbinger Juggernaut Leviathan Katana Kraken Cerberus Valkyrie Hyperion Galatea Ambush Vindicator
+		}
+		
+		science = {
+			Crescent Diligent Zephyr Enigma  Scylla Arbiter Asperity Eminence Astute Alacrity Satyr Prospero Untiring Zenith Torch Remembrance Pilgrim
+			Trailblazer Vagabond Wayfarer Ambassador Emissary Nomad Pathfinder Wanderer Traveler
+		}
+		
+		colonizer = {
+			Godspeed Prophecy "Manifest Destiny" Potential Expansion "Pioneer Spirit" Prosperity Summit Pinnacle Seeder Harvest Demeter Isis Ceres Exodus
+			Foundation Scion Progeny Obligation Purpose Provider "Shining City" Acquirer Cultivator "Dawn of Civilization" Purity Community Brotherhood
+		}
+		
+		constructor = {
+			Industry Assiduity Effort Laborer Builder Craftsman "Hard Hat" Progress Engineer Promise Service Shelter Beast Creator Developer Forger Foundry 
+			Factory Anvil Pillar Architect Accommodator Ptah Ilmarinen Creidhne Gobannus Luchtaine Goibniu Vishvakarman Tvastar Ikenga Qaynan Ucuetis Ogoun
+		}
+		
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }		
+		observation_station = { }
+		outpost_station = {			
+			sequential_name = "%O% Frontier Outpost"
+		}
+		
+		transport = {
+			"501st Battalion" "301st Battalion" "Black Watch Battalion" "212th Assault Battallion" "41st Elite Corps" "7th Sky Corps"
+			"91st Battallion" "231st Assault Battallion" "Alpha Battallion" "Bravo Battallion" "Delta Battallion" "203rd Assault Battallion"
+			"22nd Elite Corps" "71st Elite Corps"
+		}
+		
+		military_station_small = {
+		
+		Outpost "Orbital Defense" Spacedock
+		
+		}
+		
+		military_station_medium = {
+		"Orbital Security" Port
+		
+		}
+		
+		military_station_large = {
+			Battlestation Citadel Shipyard
+		}
+				
+		 
+		
+	}
+
+	fleet_names = {
+		random_names = {
+			 "15th Korriban Fleet" "27th Dromuund Kaas Fleet"   "Black Fleet" 
+			 "Korriban Defense Fleet" "Centrality Navy" 
+			 "Dromund Kaas Defense Fleet" "Charis Fleet"
+			 "Crimson Command" "Death Squadron" "Digit Squadron" "Sith Replenishment Fleet DK-209" 
+			 "First Naval Fleet" "Hammer Group" "Sith Fourth Attack Squadron" 
+			 "Outer Territories Patrol Fleet" "Inner fleet"
+			 "Shadow Hand Fleet""Task Force Vengeance" "Task Force Whirlwind" "Vengeance Battle Group"
+		}
+		
+			}
+			
+		
+	
+	army_names = {
+		generic = { 
+			sequential_name = "%O% Sith Planetary Guard"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Sith Infantry Company"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Units"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Clone Battalion"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Battledroid Platoon"
+		}
+		
+		android_army = {
+			sequential_name = "%O% HK Assassin Unit"
+		}
+		
+		psionic_army = { 			
+			sequential_name = "%O% Sith Warriors"
+		}
+		
+		xenomorph_army = {
+			random_names = { 
+				"Sith Leviathan" "Tuk'ata Horde" "Yozusk Horde" "Jurgoran Horde" "Gundark Horde"
+			}
+			
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Sithspawn Warriors"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 25
+		
+			first_names_male = {
+				  Darth 
+				}
+			first_names_female = {
+			 Darth 
+				
+			}
+			second_names = { 
+				Andeddu Bane Caedus Desolous Krayt Maladi Malak Malgus Nihilus
+				Nihl Phobos Plagueis Rivan Ruin Sion Talon Traya Tenebrous Tyranus Vader Wyrrlok
+				Zannah Sadow Nadd Qel-Droma Kun Pall Glovoc Mekhis Lachris Thanaton Mekhis Marr 
+				Minax Angral Baras Chratis Kressh Scourge Karrid Howl Tarnis Serrok Jaga Thul Bandon Voren
+				Acharon Andru Angral Arctis Decimus Cendence Ekkage Iratus Jadus Synar Vengean Lydeck
+				Tiberius Vowrawn Zhorrid Galaksi Mortis Ravage Nyriss Ouzal Morias
+				Scabrous Skotia Torment Xalek Zyn Calphayus Renning Skar harkun Althe Andru Arzanon Hord Val 
+				
+			}  		
+		
+			
+		}
+		
+		names2 = {
+			weight = 70
+		
+			first_names_male = {
+				  Lord 
+				}
+			first_names_female = {
+				Lady 
+				
+			}
+			second_names = { 
+				Andeddu Bane Caedus Desolous Krayt Maladi Malak Malgus Nihilus
+				Nihl Phobos Plagueis Rivan Ruin Sion Talon Traya Tenebrous Tyranus Vader Wyrrlok
+				Zannah Sadow Nadd Qel-Droma Kun Pall Glovoc Mekhis Lachris Thanaton Mekhis Marr 
+				Minax Angral Baras Chratis Kressh Scourge Karrid Howl Tarnis Serrok Jaga Thul Bandon Voren
+				Acharon Andru Angral Arctis Decimus Cendence Ekkage Iratus Jadus Synar Vengean Lydeck
+				Tiberius Vowrawn Zhorrid Galaksi Mortis Ravage Nyriss Ouzal Morias Scabrous Skotia
+				Torment Xalek Zyn Calphayus Renning Skar harkun Althe Andru Arzanon Hord Val 
+			 		}  	
+			
+			
+		}
+		names3 = {
+			weight = 5
+		
+			first_names_male = {
+				  Apprentice 
+				}
+			first_names_female = {
+				Apprentice 
+				
+			}
+			second_names = { 
+				Andeddu Bane Caedus Desolous Krayt Maladi Malak Malgus Nihilus
+				Nihl Phobos Plagueis Rivan Ruin Sion Talon Traya Tenebrous Tyranus Vader Wyrrlok
+				Zannah Sadow Nadd Qel-Droma Kun Pall Glovoc Mekhis Lachris Thanaton Mekhis Marr 
+				Minax Angral Baras Chratis Kressh Scourge Karrid Howl Tarnis Serrok Jaga Thul Bandon Voren
+				Acharon Andru Angral Arctis Decimus Cendence Ekkage Iratus Jadus Synar Vengean Lydeck
+				Tiberius Vowrawn Zhorrid Galaksi Mortis Ravage Nyriss Ouzal Morias Scabrous Skotia Torment
+				Xalek Zyn Calphayus Renning Skar harkun Althe Andru Arzanon Hord Val 
+			 		}  	
+			
+			
+		}
+	}	
+}
