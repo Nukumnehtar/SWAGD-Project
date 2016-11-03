@@ -333,3 +333,15 @@ empire_name_format = {
 	format = "Neimodian Trade Collective"
 	noun = "Neimodian"	
 }
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = taris
+		}
+	}
+	format = "Taris Civil Authority"
+	noun = "Tarisian"	
+}

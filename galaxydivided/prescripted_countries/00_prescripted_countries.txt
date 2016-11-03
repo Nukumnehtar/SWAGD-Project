@@ -1536,3 +1536,60 @@
 	trait="trait_thrifty"
 	trait="trait_communal"
 }
+
+"Taris Civil Authority"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Tarisian"
+	species_plural="Tarisian"
+	species_class="MAM"
+	species_adjective="Tarisian"
+	species_bio="Taris is an urban planet in the fifth orbit of its star, located in the Taris system, within the Ojoster sector, of the Outer Rim Territories, in turn Taris is orbited by four moons, including Rogue. The planet's ecumenopolis quickly developed over a century of prosperity, and as a result the planet suffered from massive overpopulation. Once a galactic nexus that earned great wealth from its strategic position on hyperspace routes, Taris' importance declined with the discovery of improved trade routes, and the planet rapidly fell into decay. The remainder of the planet's history was wrought with civil disorder and social unrest. As it turned to industry as a means of compensation for its economic troubles, its oceans became polluted, eliminating the planet's main food source. Famine spread among the lower classes while the rich hoarded what few supplies remained. The resulting strife led to the Tarisian Civil War, the start of lasting prejudices between the Humanocentric Tarisian nobles and the largely alien underclass. The city became segmented, and the lower classes were banned from living in the upper levels of Taris."
+	portrait="human"
+	name="Taris Civil Authority"
+	adjective="Tarisian"
+	government="plutocratic_oligarchy"
+	flags={taris SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Taris"
+	planet_class="pc_continental"
+	system_name="Taris"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="35.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"light_blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Jorrah Norn"
+		portrait="human_male_02"
+		texture=0
+		hair=6
+		clothes=4
+		ruler_title="Chancellor"
+		ruler_title_female="Chancellor"
+	}
+	spawn_enabled=always
+	ethic="ethic_materialist"
+	ethic="ethic_xenophobe"
+	trait="trait_industrious"
+	trait="trait_deviants"
+	trait="trait_quick_learners"
+}
+
