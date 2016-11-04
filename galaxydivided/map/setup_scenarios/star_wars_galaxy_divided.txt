@@ -1390,7 +1390,7 @@ static_galaxy_scenario = {
 		system = { id = "316" name = "Huldamun" position = { x = -263 y = 297 } }
 		system = { id = "317" name = "Najiba" position = { x = -264 y = 296 } }
 		system = { id = "318" name = "Tarnoonga" position = { x = -282 y = 296 } }
-		system = { id = "319" name = "Ryloth" position = { x = -282 y = 320 } }
+		system = { id = "319" name = "Ryloth" position = { x = -282 y = 320 } initializer = ryloth_system_initializer}
 		system = { id = "321" name = "Smuggler's Run" position = { x = -306 y = 337 } }
 		system = { id = "322" name = "Hypori" position = { x = -304 y = 271 } }
 		system = { id = "324" name = "Lur" position = { x = -282 y = -250 } }
@@ -1465,7 +1465,7 @@ static_galaxy_scenario = {
 		system = { id = "409" name = "Ruuria" position = { x = -244 y = -255 } }
 		system = { id = "410" name = "Tiss'sharl" position = { x = -260 y = -251 } }
 		system = { id = "412" name = "Ranroon" position = { x = -288 y = -203 } }
-		system = { id = "415" name = "Zygerria" position = { x = -297 y = -230 } }
+		system = { id = "415" name = "Zygerria" position = { x = -297 y = -230 } initializer = zygerria_system_initializer}
 		system = { id = "417" name = "Ziost" position = { x = -260 y = -218 } }
 		system = { id = "418" name = "Korriz" position = { x = -254 y = -220 } }
 		system = { id = "419" name = "Athiss" position = { x = -259 y = -221 } }
@@ -1585,7 +1585,7 @@ static_galaxy_scenario = {
 		system = { id = "543" name = "Lant" position = { x = -321 y = -45 } }
 		system = { id = "544" name = "Yoribuunt" position = { x = -335 y = -43 } }
 		system = { id = "545" name = "Iotra" position = { x = -314 y = -46 } }
-		system = { id = "546" name = "Ossus" position = { x = -294 y = -134 } }
+		system = { id = "546" name = "Ossus" position = { x = -294 y = -134 } initializer = ossus_system_initializer}
 		system = { id = "547" name = "Murkhana" position = { x = -308 y = -137 } }
 		system = { id = "548" name = "Trogan" position = { x = -283 y = -119 } }
 		system = { id = "549" name = "Jomark" position = { x = -286 y = -112 } }

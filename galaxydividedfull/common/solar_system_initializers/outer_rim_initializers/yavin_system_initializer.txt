@@ -87,7 +87,7 @@ yavin_system_initializer = {
         }
         moon = {
             name = "Yavin VII"
-            class = "pc_tomb"
+            class = "pc_nuked"
             orbit_distance = 3
             orbit_angle = 200
             has_ring = no

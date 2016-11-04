@@ -29,7 +29,7 @@ taris_system_initializer = {
         has_ring = no
 
         moon = {
-            name = "Thrail II"
+            name = "Thrail I"
             class = random
             orbit_distance = 6
             orbit_angle = 102
@@ -47,7 +47,7 @@ taris_system_initializer = {
         has_ring = no
 
         moon = {
-            name = "Rexor II"
+            name = "Rexor I"
             class = random
             orbit_distance = 5
             orbit_angle = 56
@@ -55,7 +55,7 @@ taris_system_initializer = {
 	    size = 4
         }
         moon = {
-            name = "Rexor III"
+            name = "Rexor II"
             class = random
             orbit_distance = 3
             orbit_angle = 189
@@ -63,7 +63,7 @@ taris_system_initializer = {
 	    size = 7
         }
         moon = {
-            name = "Rexor IV"
+            name = "Rexor III"
             class = random
             orbit_distance = 3
             orbit_angle = 100
@@ -91,7 +91,7 @@ taris_system_initializer = {
         has_ring = no
 
         moon = {
-            name = "Ojoram II"
+            name = "Ojoram I"
             class = random
             orbit_distance = 6
             orbit_angle = 87
@@ -99,7 +99,7 @@ taris_system_initializer = {
 	    size = 6
         }
         moon = {
-            name = "Ojoram III"
+            name = "Ojoram II"
             class = random
             orbit_distance = 3
             orbit_angle = 135
@@ -238,7 +238,7 @@ taris_system_initializer = {
 		}
 
         moon = {
-            name = "Taris II"
+            name = "Taris I"
             class = random
             orbit_distance = 8
             orbit_angle = 135
@@ -248,7 +248,7 @@ taris_system_initializer = {
         }
 
         moon = {
-            name = "Taris III"
+            name = "Taris II"
             class = random
             orbit_distance = 3
             orbit_angle = 113
@@ -257,7 +257,7 @@ taris_system_initializer = {
 
         }
         moon = {
-            name = "Taris IV"
+            name = "Taris III"
             class = random
             orbit_distance = 3
             orbit_angle = 223
@@ -266,7 +266,7 @@ taris_system_initializer = {
 
         }
         moon = {
-            name = "Taris V"
+            name = "Taris IV"
             class = random
             orbit_distance = 3
             orbit_angle = 352
