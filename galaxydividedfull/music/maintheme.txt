@@ -1,0 +1,6 @@
+song = {
+	name = "maintheme"
+	chance = {
+		factor = 0
+	}
+}

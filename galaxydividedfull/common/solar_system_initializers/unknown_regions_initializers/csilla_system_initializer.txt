@@ -1,0 +1,310 @@
+csilla_system_initializer = {
+    name = "Csilla"
+    class = "rl_standard_stars"
+	flags={chiss_ascendancy}
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+
+    planet = {
+        name = "Cessed"
+        class = "pc_molten"
+        orbit_distance = 37
+        orbit_angle = 229
+        size = 10
+        has_ring = no
+
+
+        moon = {
+            name = "Cessed II"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 180
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Csilla"
+        class = "pc_arctic"
+        orbit_distance = 60
+        orbit_angle = 339
+        size = 20
+        has_ring = no
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+     	init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+
+
+        moon = {
+            name = "Csilla Minor"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 180
+            size = 5
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Csilla III"
+            class = random
+            orbit_distance = 5
+            orbit_angle = 61
+            size = 4
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Csilla Major"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 223
+            size = 8
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Repplic"
+        class = "pc_gas_giant"
+        orbit_distance = 34
+        orbit_angle = 273
+        size = 22
+        has_ring = no
+
+
+        moon = {
+            name = "Repplic II"
+            class = random
+            orbit_distance = 8
+            orbit_angle = 255
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Repplic III"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 281
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Repplic IV"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 29
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Repplic V"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 119
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Repplic VI"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 97
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Repplic VII"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 64
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Repplic VIII"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 97
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Repplic IX"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 276
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Csorb"
+        class = "pc_frozen"
+        orbit_distance = 61
+        orbit_angle = 22
+        size = 24
+        has_ring = no
+
+
+        moon = {
+            name = "Csorb II"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 43
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Csorb III"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 268
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Formac"
+        class = "pc_frozen"
+        orbit_distance = 109
+        orbit_angle = 261
+        size = 16
+        has_ring = no
+
+    }
+}

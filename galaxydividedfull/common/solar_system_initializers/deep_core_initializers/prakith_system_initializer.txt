@@ -1,0 +1,152 @@
+prakith_system_initializer = {
+    name = "Prakith"
+    class = "rl_standard_stars"
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+
+    planet = {
+        name = "Rake"
+        class = "pc_barren"
+        orbit_distance = 33
+        orbit_angle = 220
+        size = 16
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Mekith"
+        class = "pc_toxic"
+        orbit_distance = 31
+        orbit_angle = 13
+        size = 15
+        has_ring = no
+
+
+        moon = {
+            name = "Luthien"
+            class = "pc_nuked"
+            orbit_distance = 10
+            orbit_angle = 180
+            size = 8
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Prakith"
+        class = "pc_tundra"
+        orbit_distance = 14
+        orbit_angle = 102
+        size = 20
+        has_ring = no
+		
+	
+
+
+        moon = {
+            name = "Inner Moon"
+            class = "pc_barren_cold"
+            orbit_distance = 8
+            orbit_angle = 181
+            size = 5
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Outer Moon"
+            class = "pc_tundra"
+            orbit_distance = 9
+            orbit_angle = 132
+            size = 7
+            has_ring = no
+
+        }
+    }
+	
+
+    planet = {
+        name = "Delanoth"
+        class = "pc_gas_giant"
+        orbit_distance = 14
+        orbit_angle = 207
+        size = 20
+        has_ring = no
+
+
+        moon = {
+            name = "Thata"
+            class = "pc_arctic"
+            orbit_distance = 10
+            orbit_angle = 180
+            size = 4
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Anthuan"
+            class = "pc_barren_cold"
+            orbit_distance = 4
+            orbit_angle = 35
+            size = 6
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "H-77-AT"
+            class = random_asteroid
+            orbit_distance = 3
+            orbit_angle = 207
+            size = 4
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Huldra"
+            class = "pc_frozen"
+            orbit_distance = 7
+            orbit_angle = 59
+            size = 7
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Prakess"
+        class = "pc_frozen"
+        orbit_distance = 53
+        orbit_angle = 38
+        has_ring = no
+
+
+        moon = {
+            name = "Mot"
+            class = "pc_toxic"
+            orbit_distance = 8
+            orbit_angle = 181
+            size = 5
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Pallas"
+            class = "pc_ocean"
+            orbit_distance = 11
+            orbit_angle = 91
+            size = 10
+            has_ring = no
+
+        }
+    }
+}

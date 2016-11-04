@@ -1,0 +1,386 @@
+anaxes_system_initializer = {
+    name = "Anaxes"
+    class = "rl_standard_stars"
+	flags = {anaxes}
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+
+    planet = {
+        name = "Selgon"
+        class = "pc_molten"
+        orbit_distance = 31
+        orbit_angle = 225
+        size = 10
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Grastes"
+        class = "pc_toxic"
+        orbit_distance = 25
+        orbit_angle = 347
+        size = 8
+        has_ring = no
+
+
+        moon = {
+			name = "Grastes Minor"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 180
+            size = 4
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Axum"
+        class = "pc_continental"
+        orbit_distance = 23
+        orbit_angle = 280
+        size = 14
+        has_ring = no
+
+
+        moon = {
+			name = "Axum II"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 180
+            size = 5
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Axum III"
+            class = random
+            orbit_distance = 0
+            orbit_angle = 0
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Anaxes"
+        class = "pc_continental"
+        orbit_distance = 27
+        orbit_angle = 40
+        size = 20
+        has_ring = no
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+     	init_effect = {
+			prevent_anomaly = yes
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+
+
+        moon = {
+			name = "Anaxes Minor"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 180
+            size = 4
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Urfon"
+        class = "pc_frozen"
+        orbit_distance = 47
+        orbit_angle = 324
+        has_ring = no
+
+
+        moon = {
+			name = "Urfon II"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 180
+            size = 4
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Phlors Rex"
+        class = "pc_gas_giant"
+        orbit_distance = 32
+        orbit_angle = 43
+        size = 17
+        has_ring = no
+
+
+        moon = {
+			name = "Phlors Rex II"
+            class = random
+            orbit_distance = 7
+            orbit_angle = 186
+            size = 3
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Phlors Rex III"
+            class = random
+            orbit_distance = 5
+            orbit_angle = 289
+            size = 4
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Phlors Rex IV"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 63
+            size = 2
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Phlors Rex V"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 63
+            size = 4
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Phlors Rex VI"
+            class = random
+            orbit_distance = 5
+            orbit_angle = 228
+            size = 4
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Phlors Rex VII"
+            class = random
+            orbit_distance = 6
+            orbit_angle = 131
+            size = 3
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Phlors Rex VIII"
+            class = random
+            orbit_distance = 5
+            orbit_angle = 216
+            size = 3
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Phlors Regina"
+        class = "pc_gas_giant"
+        orbit_distance = 64
+        orbit_angle = 356
+        size = 16
+        has_ring = no
+
+
+        moon = {
+			name = "Regina II"
+            class = random
+            orbit_distance = 9
+            orbit_angle = 169
+            size = 3
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Regina III"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 301
+            size = 4
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Regina IV"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 87
+            size = 4
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Regina V"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 234
+            size = 2
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Regina VI"
+            class = random
+            orbit_distance = 6
+            orbit_angle = 100
+            size = 2
+            has_ring = no
+
+        }
+
+        moon = {
+			name = "Regina VII"
+            class = random
+            orbit_distance = 5
+            orbit_angle = 326
+            size = 4
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Ichium"
+        class = "pc_barren_cold"
+        orbit_distance = 83
+        orbit_angle = 30
+        has_ring = no
+
+    }
+}

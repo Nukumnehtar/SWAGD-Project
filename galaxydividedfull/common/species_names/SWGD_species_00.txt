@@ -1,0 +1,141 @@
+# Generated species derive their names from here
+
+### Species
+
+sith = {
+	sith = {
+		name = Sith	
+		plural = Sith
+		home_planet = "Emperor's Throne"
+		home_system = "Sith World"
+		name_list = "Sith"
+	}
+	}
+	
+	
+MAM = {
+
+	mando = {
+		name = Mandalorian	
+		plural = Mandalorians
+		home_planet = "Clan Homeworld"
+		home_system = "Clan Home System"
+		name_list = "Mandalorian"
+	}
+	}
+	
+SWGD_humanoid = {
+	
+	revanites = {
+		name = Revanite
+		plural = Revanites
+		home_planet = Rishi
+		home_system = Rishi
+		name_list = "sw_hu"
+	}
+	togruta = {
+		name = Togruta
+		plural = Togruta
+		home_planet = Shili
+		home_system = Shili
+		name_list = "MAM1"
+	}
+	miraluka = {
+		name = Miraluka
+		plural = Miralukan
+		home_planet = Alpheridies
+		home_system = Abron
+		name_list = "MAM2"
+	}
+	zabrak = {
+		name = Zabrak
+		plural = Zabraks
+		home_planet = Iridonia
+		home_system = Iridonia
+		name_list = "MAM3"
+	}
+		mirialan = {
+		name = Mirialan
+		plural = Mirialans
+		home_planet = Mirial
+		home_system = Mirial
+		name_list = "MAM2"
+	}
+	twi'lek = {
+		name = Twi'lek
+		plural = Twi'lek
+		home_planet = Ryloth
+		home_system = Ryloth
+		name_list = "MAM1"
+	}
+	
+		
+}
+	
+SWGD = {
+	ithorian = {
+		name = Ithorian
+		plural = Ithorians
+		home_planet = Ithor
+		home_system = Ottega
+		name_list = "MAM1"
+	}
+	
+	abyssin = {
+		name = Abyssin
+		plural = Abyssin
+		home_planet = Byss
+		home_system = Byss
+		name_list = "MAM1"
+	}
+	devaronian = {
+		name = Devaronian
+		plural = Devaronians
+		home_planet = Devaron
+		home_system = Devaron
+		name_list = "MAM1"
+	}
+	kaleesh = {
+		name = Kaleesh
+		plural = Kaleesh
+		home_planet = Kalee
+		home_system = Kalee
+		name_list = "MAM1"
+	}
+	nautolan = {
+		name = Nautolan
+		plural = Nautolans
+		home_planet = "Glee Anselm"
+		home_system = "Glee Anselm"
+		name_list = "MAM1"
+	}
+	
+	weequay = {
+		name = Weequay
+		plural = Weequay
+		home_planet = Sriluur
+		home_system = Sriluur
+		name_list = "MAM1"
+	}
+	dashade = {
+		name = Dashade
+		plural = Dashades
+		home_planet = Urkupp
+		home_system = Urkupp
+		name_list = "MAM1"
+	}
+	
+}
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+

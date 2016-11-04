@@ -1,0 +1,210 @@
+lwhekk_system_initializer= {
+    name = "Lwhekk" 
+	class = "rl_standard_stars"
+	flags={ssi_ruuvi}
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+
+    planet = {
+        name = "Tikwa"
+        class = "pc_molten"
+        orbit_distance = 50
+        orbit_angle = 219
+        size = 12
+        has_ring = no
+
+    }
+
+    planet = {
+        class = "pc_toxic"
+        orbit_distance = 43
+        orbit_angle = 273
+        has_ring = yes
+
+    }
+
+    planet = {
+        name = "Kerawik"
+        class = "pc_toxic"
+        orbit_distance = 17
+        orbit_angle = 253
+        size = 14
+        has_ring = no
+
+
+        moon = {
+            name = "Kerawik II"
+            class = "pc_continental"
+            orbit_distance = 10
+            orbit_angle = 180
+            size = 8
+            has_ring = no
+
+        }
+
+        moon = {
+            name = "Kerawik III"
+            class = random
+            orbit_distance = 6
+            orbit_angle = 115
+            size = 4
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Lwhekk"
+        class = "pc_tropical"
+        orbit_distance = 30
+        orbit_angle = 195
+        size = 20
+        has_ring = no
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+     	init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+
+
+
+        moon = {
+            name = "Lwhekk Minor"
+            class = random
+            orbit_distance = 12
+            orbit_angle = 194
+            size = 8
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Sh'tiku"
+        class = "pc_frozen"
+        orbit_distance = 103
+        orbit_angle = 345
+        size = 27
+        has_ring = no
+
+    }
+}

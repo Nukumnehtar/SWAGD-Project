@@ -1,0 +1,119 @@
+music = {
+	name = "occupationofbalmorra"
+	file = "occupationofbalmorra.ogg"
+	volume = 0.60
+}
+
+music = {
+	name = "swgdmaintheme"
+	file = "swgdmaintheme.ogg"
+	volume = 0.80
+}
+music = {
+	name = "creationandbeyond"
+	file = "creationandbeyond.ogg"
+	volume = 0.44
+}
+
+music = {
+	name = "thebirthofastar"
+	file = "thebirthofastar.ogg"
+	volume = 0.44
+}
+
+music = {
+	name = "gravitationalconstant"
+	file = "gravitationalconstant.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "sigmatauri"
+	file = "sigmatauri.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "luminescence"
+	file = "luminescence_endcredits.ogg"
+	volume = 0.4
+}
+
+music = {
+	name = "spatiallullaby"
+	file = "spatiallullaby.ogg"
+	volume = 0.46
+}
+
+music = {
+	name = "genesis"
+	file = "genesis.ogg"
+	volume = 0.45
+}
+
+music = {
+	name = "distantnebula"
+	file = "distantnebula.ogg"
+	volume = 0.44
+}
+
+music = {
+	name = "insearchoflife"
+	file = "insearchoflife.ogg"
+	volume = 0.47
+}
+
+
+music = {
+	name = "journeythroughthegalaxy"
+	file = "journeythroughthegalaxy.ogg"
+	volume = 0.39
+}
+
+music = {
+	name = "fasterthanlight"
+	file = "fasterthanlight.ogg"
+	volume = 0.48
+}
+
+music = {
+	name = "thecelestialcity"
+	file = "thecelestialcity.ogg"
+	volume = 0.4
+}
+
+music = {
+	name = "infinitebeing"
+	file = "infinitebeing.ogg"
+	volume = 0.4
+}
+
+music = {
+	name = "totheendsofthegalaxy"
+	file = "totheendsofthegalaxy.ogg"
+	volume = 0.48
+}
+
+music = {
+	name = "alphacentauri"
+	file = "alphacentauri.ogg"
+	volume = 0.49
+}
+
+music = {
+	name = "pillarsofcreation"
+	file = "pillarsofcreation.ogg"
+	volume = 0.55
+}
+
+music = {
+	name = "deepspacetravels"
+	file = "deepspacetravels.ogg"
+	volume = 0.48
+}
+
+music = {
+	name = "ridingthesolarwind"
+	file = "ridingthesolarwind.ogg"
+	volume = 0.46
+}
