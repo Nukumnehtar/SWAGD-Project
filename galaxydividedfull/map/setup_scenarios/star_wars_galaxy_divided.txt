@@ -539,7 +539,7 @@ static_galaxy_scenario = {
 		system = { id = "806" name = "Ithull" position = { x = -158 y = 10 } }
 		system = { id = "807" name = "Merson" position = { x = -154 y = 15 } }
 		system = { id = "808" name = "Virujansi" position = { x = -155 y = 22 } }
-		system = { id = "809" name = "Zeltros" position = { x = -148 y = 29 } }
+		system = { id = "809" name = "Zeltros" position = { x = -148 y = 29 } initializer = zeltros_system_initializer}
 		system = { id = "811" name = "Rasterous" position = { x = -129 y = 38 } }
 		system = { id = "1062" name = "Jakku" position = { x = 116 y = 133 } }
 

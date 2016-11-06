@@ -1,7 +1,11 @@
 Missing Systems:
-Manaan - Knights of the Old Republic/Selkath
-Shili - Clone Wars/Togruta
-Mortis - Clone Wars
-Lothal - Rebels
-Lasan - Rebels/Lasat
-Lira San - Rebels/Lasat
+Manaan - Knights of the Old Republic/Selkath/Inner Rim
+Shili - Clone Wars/Togruta/Expansion Region
+Peragus - Knights of the Old Republic II/Outer Rim
+Mortis - Clone Wars/Wild Space
+Lothal - Rebels/Outer Rim
+Lasan - Rebels/Lasat/Outer Rim
+Lira San - Rebels/Lasat/Wild Space
+Takodana - Mid-rim/SW 7
+Hosnian - Core World/SW 7
+Ileenium - Outer Rim/SW 7
