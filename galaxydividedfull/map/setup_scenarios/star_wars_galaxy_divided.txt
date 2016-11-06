@@ -660,7 +660,7 @@ static_galaxy_scenario = {
 		system = { id = "657" name = "Belassar" position = { x = 65 y = -76 } }
 		system = { id = "658" name = "Mondress" position = { x = 79 y = -88 } }
 		system = { id = "661" name = "Myomar" position = { x = 53 y = -86 } }
-		system = { id = "662" name = "Dorin" position = { x = 60 y = -81 } }
+		system = { id = "662" name = "Dorin" position = { x = 60 y = -81 } initializer = dorin_system_initializer}
 		system = { id = "667" name = "Tynna" position = { x = -121 y = 170 } }
 		system = { id = "668" name = "Rhommamool" position = { x = -117 y = 152 } }
 		system = { id = "670" name = "Tlactehon" position = { x = -128 y = 166 } }
