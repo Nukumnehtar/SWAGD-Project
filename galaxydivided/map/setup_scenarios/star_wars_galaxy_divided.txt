@@ -1492,7 +1492,7 @@ static_galaxy_scenario = {
 		system = { id = "433" name = "Telos" position = { x = -213 y = -240 } }
 		system = { id = "434" name = "Tantive" position = { x = -219 y = -246 } }
 		system = { id = "435" name = "Listehol" position = { x = -225 y = -248 } }
-		system = { id = "438" name = "Mirial" position = { x = -229 y = -237 } }
+		system = { id = "438" name = "Mirial" position = { x = -229 y = -237 } initializer = mirial_system_initializer}
 		system = { id = "439" name = "Sikurd" position = { x = -236 y = -229 } }
 		system = { id = "440" name = "Ord Radama" position = { x = -211 y = -206 } }
 		system = { id = "442" name = "Tangrene" position = { x = -147 y = -213 } }
