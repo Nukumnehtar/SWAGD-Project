@@ -3,6 +3,7 @@ coruscant_system_initializer = {
     class = "rl_standard_stars"
 
     planet = {
+        name = "Coruscant Prime"
         class = star
         orbit_distance = 0
         size = 30
@@ -208,6 +209,16 @@ coruscant_system_initializer = {
         }
 
         moon = {
+            name = "Centax-3"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 134
+            size = 4
+            has_ring = no
+
+        }
+
+        moon = {
             name = "Hesperidium"
             class = "pc_tropical"
             orbit_distance = 7
@@ -221,7 +232,7 @@ coruscant_system_initializer = {
     planet = {
         name = "Muscave"
         class = "pc_gas_giant"
-        orbit_distance = 51
+        orbit_distance = 61
         orbit_angle = 75
         size = 18
         has_ring = no
@@ -266,12 +277,21 @@ coruscant_system_initializer = {
             has_ring = no
 
         }
+        moon = {
+            name = "Muscave XXI"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 211
+            size = 4
+            has_ring = no
+
+        }
     }
 
     planet = {
         name = "Stentat"
         class = "pc_gas_giant"
-        orbit_distance = 32
+        orbit_distance = 62
         orbit_angle = 13
         size = 16
         has_ring = no
@@ -316,12 +336,21 @@ coruscant_system_initializer = {
             has_ring = no
 
         }
+        moon = {
+            name = "Stentat XXIII"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 56
+            size = 5
+            has_ring = no
+
+        }
     }
 
     planet = {
         name = "Improcco"
         class = "pc_arctic"
-        orbit_distance = 20
+        orbit_distance = 40
         orbit_angle = 74
         size = 18
         has_ring = no

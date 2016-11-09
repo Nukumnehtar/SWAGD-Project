@@ -1,10 +1,12 @@
 lehon_system_initializer = {
+	name = "Lehon"
    usage = fallen_empire_init
 	class = "rl_standard_stars"
 	flags = {fallen_empire_3}
 
     planet = {
-        class = star
+	name = "Abo"
+        class = "pc_g_star"
         orbit_distance = 0
         size = 35
 		
@@ -38,7 +40,7 @@ lehon_system_initializer = {
     }
 
     planet = {
-        name = "Rakata Prime"
+        name = "Lehon (Rakata Prime)"
         class = "pc_tropical"
         orbit_distance = 26
         orbit_angle = 116
@@ -1087,12 +1089,11 @@ lehon_system_initializer = {
             class = "pc_barren"
 			entity = "barren_planet_01_destroyed_entity"
             orbit_distance = 10
-            orbit_angle = 2
+            orbit_angle = 50
             size = 7
             has_ring = no
 
         }
-
         moon = {
             name = "Rakata Major"
             class = "pc_gaia"
@@ -1110,10 +1111,11 @@ lehon_system_initializer = {
         orbit_distance = 30
         orbit_angle = 147
         has_ring = no
+	size=14
 
 
         moon = {
-            name = "Desten II"
+            name = "Desten I"
             class = random
             orbit_distance = 8
             orbit_angle = 229
@@ -1121,31 +1123,37 @@ lehon_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Desten III"
+            name = "Desten II"
             class = random
-            orbit_distance = 6
+            orbit_distance = 2.5
             orbit_angle = 188
             size = 4
             has_ring = no
 
         }
+        moon = {
+            name = "Desten III"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 38
+            size = 6
+            has_ring = no
 
+        }
         moon = {
             name = "Desten IV"
             class = random
-            orbit_distance = 5
-            orbit_angle = 38
+            orbit_distance = 2.5
+            orbit_angle = 257
             size = 4
             has_ring = no
 
         }
-
         moon = {
             name = "Desten V"
             class = random
-            orbit_distance = 8
+            orbit_distance = 4
             orbit_angle = 6
             size = 2
             has_ring = no
@@ -1159,74 +1167,105 @@ lehon_system_initializer = {
         orbit_distance = 41
         orbit_angle = 284
         has_ring = no
+	size = 20
 
 
         moon = {
-            name = "Geraps II"
+            name = "Geraps I"
             class = random
-            orbit_distance = 8
+            orbit_distance = 12
             orbit_angle = 196
-            size = 2
+            size = 6
             has_ring = no
 
         }
-
         moon = {
-            name = "Geraps III"
+            name = "Geraps II"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 66
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Geraps IV"
+            name = "Geraps III"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 288
             size = 6
             has_ring = no
 
         }
-
         moon = {
-            name = "Geraps V"
+            name = "Geraps IV"
             class = random
-            orbit_distance = 2
+            orbit_distance = 2.5
             orbit_angle = 142
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Geraps VI"
+            name = "Geraps V"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 114
             size = 5
             has_ring = no
 
         }
-
         moon = {
-            name = "Geraps VII"
+            name = "Geraps VI"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 71
             size = 4
             has_ring = no
 
         }
+        moon = {
+            name = "Geraps VII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 76
+            size = 5
+            has_ring = no
 
+        }
         moon = {
             name = "Geraps VIII"
             class = random
-            orbit_distance = 3
-            orbit_angle = 76
+            orbit_distance = 2.5
+            orbit_angle = 113
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Geraps IX"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 42
             size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Geraps X"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 223
+            size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Geraps XI"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 304
+            size = 3
             has_ring = no
 
         }
@@ -1235,45 +1274,42 @@ lehon_system_initializer = {
     planet = {
         name = "Verla Klest"
         class = "pc_gas_giant"
-        orbit_distance = 46
+        orbit_distance = 60
         orbit_angle = 202
         has_ring = no
-
+	size = 26
 
         moon = {
-            name = "Verla II"
+            name = "Verla I"
             class = random
             orbit_distance = 11
             orbit_angle = 254
-            size = 2
+            size = 5
             has_ring = no
 
         }
-
         moon = {
-            name = "Verla III"
+            name = "Verla II"
             class = random
-            orbit_distance = 2
+            orbit_distance = 2.5
             orbit_angle = 274
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Verla IV"
+            name = "Verla III"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 288
             size = 5
             has_ring = no
 
         }
-
         moon = {
-            name = "Verla V"
+            name = "Verla IV"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 129
             size = 7
             has_ring = no
@@ -1281,38 +1317,35 @@ lehon_system_initializer = {
         }
 
         moon = {
-            name = "Verla VI"
+            name = "Verla V"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 103
             size = 5
             has_ring = no
 
         }
-
         moon = {
-            name = "Verla VII"
+            name = "Verla VI"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 291
             has_ring = no
 
         }
-
         moon = {
-            name = "Verla VIII"
+            name = "Verla VII"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 329
             size = 2
             has_ring = no
 
         }
-
         moon = {
             name = "Verla IX"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 158
             size = 7
             has_ring = no
@@ -1323,13 +1356,13 @@ lehon_system_initializer = {
     planet = {
         name = "Ding Briar"
         class = "pc_gas_giant"
-        orbit_distance = 45
+        orbit_distance = 90
         orbit_angle = 70
         has_ring = no
-
+	size = 23
 
         moon = {
-            name = "Ding II"
+            name = "Ding I"
             class = random
             orbit_distance = 10
             orbit_angle = 264
@@ -1337,7 +1370,6 @@ lehon_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Ding II"
             class = random
@@ -1347,7 +1379,6 @@ lehon_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Ding III"
             class = random
@@ -1357,83 +1388,75 @@ lehon_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Ding IV"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 237
             size = 4
             has_ring = no
 
         }
-
         moon = {
             name = "Ding V"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 203
             size = 5
             has_ring = no
 
         }
-
         moon = {
             name = "Ding VI"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 81
             size = 4
             has_ring = no
 
         }
-
         moon = {
             name = "Ding VII"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 278
             size = 4
             has_ring = no
 
         }
-
         moon = {
             name = "Ding VIII"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 53
             size = 2
             has_ring = no
 
         }
-
         moon = {
             name = "Ding IX"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 162
             size = 5
             has_ring = no
 
         }
-
         moon = {
             name = "Ding X"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 55
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Ding XI"
+            name = "Ding XVIII"
             class = random
-            orbit_distance = 5
-            orbit_angle = 144
-            size = 8
+            orbit_distance = 10
+            orbit_angle = 231
+            size = 5
             has_ring = no
 
         }

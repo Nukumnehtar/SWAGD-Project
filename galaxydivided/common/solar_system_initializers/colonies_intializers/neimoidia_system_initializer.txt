@@ -5,6 +5,7 @@ neimoidia_system_initializer = {
 	flags= {neimoidian}
 
     planet = {
+	name = "Nen"
         class = star
         orbit_distance = 0
         size = 25
@@ -181,7 +182,7 @@ neimoidia_system_initializer = {
 
 
         moon = {
-            name = "Neimoidia II"
+            name = "Neimoidia Minor"
             class = random
             orbit_distance = 10
             orbit_angle = 180
@@ -204,90 +205,111 @@ neimoidia_system_initializer = {
     planet = {
         name = "Partainu"
         class = "pc_gas_giant"
-        orbit_distance = 45
+        orbit_distance = 90
         orbit_angle = 194
 	size = 14
         has_ring = no
 
 
         moon = {
-            name = "Partainu II"
+            name = "Partainu I"
             class = random
             orbit_distance = 10
             orbit_angle = 158
-            size = 3
-            has_ring = no
-
-        }
-
-        moon = {
-            name = "Partainu III"
-            class = random
-            orbit_distance = 9
-            orbit_angle = 239
             size = 6
             has_ring = no
 
         }
-
         moon = {
-            name = "Partainu IV"
+            name = "Partainu II"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
+            orbit_angle = 239
+            size = 3
+            has_ring = no
+
+        }
+        moon = {
+            name = "Partainu III"
+            class = random
+            orbit_distance = 2.5
             orbit_angle = 163
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Partainu V"
+            name = "Partainu IV"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 54
             size = 5
             has_ring = no
 
         }
-
         moon = {
-            name = "Partainu VI"
+            name = "Partainu V"
             class = random
-            orbit_distance = 6
+            orbit_distance = 2.5
             orbit_angle = 95
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Partainu VII"
+            name = "Partainu VI"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 95
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Partainu VIII"
+            name = "Partainu VII"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 219
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Partainu IX"
+            name = "Partainu VIII"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 302
             size = 6
             has_ring = no
 
         }
+        moon = {
+            name = "Partainu IX"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 112
+            size = 3
+            has_ring = no
+
+        }
+        moon = {
+            name = "Partainu X"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = -16
+            size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Partainu XXII"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 77
+            size = 5
+            has_ring = no
+
+        }
+
     }
 }

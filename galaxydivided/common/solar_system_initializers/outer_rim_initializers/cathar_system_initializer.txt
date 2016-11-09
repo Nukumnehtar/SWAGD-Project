@@ -156,7 +156,15 @@ cathar_system_initializer = {
 			}			
 		}
 
+        moon = {
+	    name = "Cathar Minor"
+            class = random
+            orbit_distance = 5
+            orbit_angle = 357
+            has_ring = no
+	    size = 6
 
+        }
     }
 
     planet = {

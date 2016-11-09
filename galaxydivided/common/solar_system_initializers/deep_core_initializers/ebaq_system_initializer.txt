@@ -1,5 +1,5 @@
 ebaq_system_initializer = {
-    name = "Ebaq"
+    name = "Ebaq (Treskov)"
     class = "rl_standard_stars"
 
     planet = {
@@ -27,7 +27,7 @@ ebaq_system_initializer = {
         has_ring = no        
 
         moon = {
-            name = "Alox I"
+            name = "Alox Minor"
             class = "pc_barren_cold"
             orbit_distance = 10
             orbit_angle = 180
@@ -37,7 +37,7 @@ ebaq_system_initializer = {
         }
 
         moon = {
-            name = "Alox II"
+            name = "Alox Major"
             class = "pc_barren_cold"
             orbit_distance = 6
             orbit_angle = 36
@@ -70,16 +70,88 @@ ebaq_system_initializer = {
     planet = {
         name = "Ebaq"
         class = "pc_gas_giant"
-        orbit_distance = 29
+        orbit_distance = 50
         orbit_angle = 225
         size = 14
         has_ring = no
 
 
         moon = {
-            name = "Ebaq 9"
-            class = "pc_barren"
+            name = "Ebaq I"
+            class = random
             orbit_distance = 10
+            orbit_angle = 245
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ebaq II"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 56
+            size = 8
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ebaq III"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 311
+            size = 8
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ebaq IV"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 76
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ebaq V"
+            class = random
+            orbit_distance = 3
+            orbit_angle = -66
+            size = 3
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ebaq VI"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 148
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ebaq VII"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 76
+            size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ebaq VIII"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 97
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ebaq IX"
+            class = "pc_barren"
+            orbit_distance = 5
             orbit_angle = 193
             size = 7
             has_ring = no

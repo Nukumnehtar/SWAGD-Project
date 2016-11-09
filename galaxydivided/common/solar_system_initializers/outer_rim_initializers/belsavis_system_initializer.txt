@@ -3,9 +3,29 @@ belsavis_system_initializer = {
     class = "rl_standard_stars"
 
     planet = {
-        class = star
+        class = none
         orbit_distance = 0
         size = 15
+    }
+
+    planet = {
+        name = "Belsavis I"
+        class = star
+        orbit_distance = 12
+        orbit_angle = 308
+        size = 20
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Belsavis II"
+        class = star
+        orbit_distance = 12
+        orbit_angle = 186
+        size = 16
+        has_ring = no
+
     }
 
     planet = {
@@ -40,25 +60,23 @@ belsavis_system_initializer = {
 	}
 
         moon = {
-            name = "Belsavis II"
+            name = "Belsavis I"
             class = random
             orbit_distance = 12
             orbit_angle = 149
             has_ring = no
 
         }
-
         moon = {
-            name = "Belsavis III"
+            name = "Belsavis II"
             class = random
             orbit_distance = 8
             orbit_angle = 53
             has_ring = no
 
         }
-
         moon = {
-            name = "Belsavis IV"
+            name = "Belsavis III"
             class = random
             orbit_distance = 6
             orbit_angle = 67

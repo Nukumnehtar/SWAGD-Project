@@ -21,44 +21,57 @@ dromund_system_initializer = {
     planet = {
         name = "Dromund Kalakar"
         class = "pc_gas_giant"
-        orbit_distance = 33
+        orbit_distance = 35
         orbit_angle = 341
         size = 16
         has_ring = no
 
 
         moon = {
-            name = "Kalakar II"
+            name = "Kalakar I"
             class = random
             orbit_distance = 8
             orbit_angle = 48
             has_ring = no
 
         }
-
         moon = {
-            name = "Kalakar III"
+            name = "Kalakar II"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 137
             has_ring = no
 
         }
-
         moon = {
-            name = "Kalakar IV"
+            name = "Kalakar III"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 281
             has_ring = no
 
         }
+        moon = {
+            name = "Kalakar IV"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 154
+            has_ring = no
 
+        }
         moon = {
             name = "Kalakar V"
             class = random
-            orbit_distance = 5
-            orbit_angle = 154
+            orbit_distance = 2.5
+            orbit_angle = -76
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kalakar VI"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 66
             has_ring = no
 
         }
@@ -201,7 +214,6 @@ dromund_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Kaas Major"
             class = random
@@ -222,7 +234,7 @@ dromund_system_initializer = {
 
 
         moon = {
-            name = "Fels II"
+            name = "Fels Minor"
             class = random
             orbit_distance = 10
             orbit_angle = 162

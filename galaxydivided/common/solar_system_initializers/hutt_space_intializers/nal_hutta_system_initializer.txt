@@ -1,5 +1,5 @@
 nal_hutta_system_initializer = {
-    name = "Nal Hutta"
+    name = "Y'Toub"
     class = "sc_g"
 	flags = {hutt_clans}
 	usage = custom_empire
@@ -39,7 +39,6 @@ nal_hutta_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Bririr"
             class = random
@@ -49,15 +48,16 @@ nal_hutta_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
-        name = "Nal Hutta"
+        name = "Nal Hutta (Evocar)"
 		class = "pc_continental"
         orbit_distance = 31
         orbit_angle = 64
         size = 20
-        has_ring = no
+        has_ring = yes
 		starting_planet = yes
 		tile_blockers = none
 		modifiers = none
@@ -195,7 +195,6 @@ nal_hutta_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Nar Shaddaa"
             class = "pc_arid"
@@ -326,7 +325,6 @@ nal_hutta_system_initializer = {
 			}
 
         }
-
         moon = {
             name = "Nar Ruta"
             class = random
@@ -336,7 +334,6 @@ nal_hutta_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Nar Prak"
             class = random
@@ -346,7 +343,6 @@ nal_hutta_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Dudrun"
             class = random
@@ -356,6 +352,7 @@ nal_hutta_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
@@ -375,7 +372,6 @@ nal_hutta_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Yaclichi"
             class = random
@@ -384,103 +380,114 @@ nal_hutta_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
         name = "Kiskua"
         class = "pc_gas_giant"
-        orbit_distance = 73
+        orbit_distance = 75
         orbit_angle = 356
         size = 22
         has_ring = no
 
 
         moon = {
-            name = "Kiskua II"
+            name = "Kiskua I"
             class = random
             orbit_distance = 8
             orbit_angle = 123
             has_ring = no
 
         }
-
         moon = {
-            name = "Kiskua III"
+            name = "Kiskua II"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 308
             has_ring = no
 
         }
-
         moon = {
-            name = "Kiskua IV"
+            name = "Kiskua III"
             class = random
-            orbit_distance = 7
+            orbit_distance = 2.5
             orbit_angle = 72
             has_ring = no
 
         }
-
         moon = {
-            name = "Kiskua V"
+            name = "Kiskua IV"
             class = random
-            orbit_distance = 6
+            orbit_distance = 2.5
             orbit_angle = 57
             has_ring = no
 
         }
+        moon = {
+            name = "Kiskua V"
+            class = "pc_ocean"
+            orbit_distance = 2.5
+            orbit_angle = 262
+            has_ring = no
+	    size = 9
 
+        }
         moon = {
             name = "Kiskua VI"
             class = random
-            orbit_distance = 5
-            orbit_angle = 262
-            has_ring = no
-
-        }
-
-        moon = {
-            name = "Kiskua VII"
-            class = random
-            orbit_distance = 6
+            orbit_distance = 2.5
             orbit_angle = 350
             has_ring = no
 
         }
-
         moon = {
-            name = "Kiskua VIII"
+            name = "Kiskua VII"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 162
             has_ring = no
 
         }
-
         moon = {
-            name = "Kiskua IX"
+            name = "Kiskua VIII"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 195
             has_ring = no
 
         }
-
         moon = {
-            name = "Kiskua X"
+            name = "Kiskua IX"
             class = random
-            orbit_distance = 10
+            orbit_distance = 2.5
             orbit_angle = 213
             has_ring = no
 
         }
+        moon = {
+            name = "Kiskua X"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 57
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kiskua XVIII"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 235
+            has_ring = no
+
+        }
+
     }
 
     planet = {
         name = "Nar Hekka"
         class = "pc_frozen"
-        orbit_distance = 60
+        orbit_distance = 70
         orbit_angle = 18
         size = 14
         has_ring = no

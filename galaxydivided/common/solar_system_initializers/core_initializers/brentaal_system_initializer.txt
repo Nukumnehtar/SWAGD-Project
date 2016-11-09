@@ -5,6 +5,7 @@ brentaal_system_initializer = {
 
 
     planet = {
+        name = "Brenta"
         class = star
         orbit_distance = 0
         size = 20
@@ -49,7 +50,7 @@ brentaal_system_initializer = {
 
 
         moon = {
-            name = "Gastol II"
+            name = "Gastol I"
             class = random
             orbit_distance = 10
             orbit_angle = 218
@@ -59,7 +60,7 @@ brentaal_system_initializer = {
         }
 
         moon = {
-            name = "Gastol III"
+            name = "Gastol II"
             class = random
             orbit_distance = 6
             orbit_angle = 297
@@ -69,7 +70,7 @@ brentaal_system_initializer = {
         }
 
         moon = {
-            name = "Gastol IV"
+            name = "Gastol III"
             class = random
             orbit_distance = 3
             orbit_angle = 237
@@ -232,14 +233,14 @@ brentaal_system_initializer = {
     planet = {
         name = "Gumbus"
         class = "pc_gas_giant"
-        orbit_distance = 35
+        orbit_distance = 45
         orbit_angle = 209
         size = 20
         has_ring = no
 
 
         moon = {
-            name = "Gumbus II"
+            name = "Gumbus I"
             class = random
             orbit_distance = 10
             orbit_angle = 199
@@ -249,9 +250,9 @@ brentaal_system_initializer = {
         }
 
         moon = {
-            name = "Gumbus III"
+            name = "Gumbus II"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2
             orbit_angle = 69
             size = 4
             has_ring = no
@@ -259,7 +260,7 @@ brentaal_system_initializer = {
         }
 
         moon = {
-            name = "Gumbus IV"
+            name = "Gumbus III"
             class = random
             orbit_distance = 2
             orbit_angle = 214
@@ -269,9 +270,9 @@ brentaal_system_initializer = {
         }
 
         moon = {
-            name = "Gumbus V"
+            name = "Gumbus IV"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2
             orbit_angle = 180
             size = 7
             has_ring = no
@@ -279,7 +280,7 @@ brentaal_system_initializer = {
         }
 
         moon = {
-            name = "Gumbus VI"
+            name = "Gumbus V"
             class = random
             orbit_distance = 2
             orbit_angle = 269
@@ -289,9 +290,9 @@ brentaal_system_initializer = {
         }
 
         moon = {
-            name = "Gumbus VII"
+            name = "Gumbus VI"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2
             orbit_angle = 58
             size = 5
             has_ring = no
@@ -299,9 +300,9 @@ brentaal_system_initializer = {
         }
 
         moon = {
-            name = "Gumbus VIII"
+            name = "Gumbus VII"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2
             orbit_angle = 37
             size = 4
             has_ring = no
@@ -309,11 +310,29 @@ brentaal_system_initializer = {
         }
 
         moon = {
-            name = "Gumbus IX"
+            name = "Gumbus VIII"
             class = random
             orbit_distance = 3
             orbit_angle = 119
             size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Gumbus IX"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 46
+            size = 3
+            has_ring = no
+
+        }
+        moon = {
+            name = "Gumbus XVI"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 46
+            size = 4
             has_ring = no
 
         }
@@ -322,14 +341,14 @@ brentaal_system_initializer = {
     planet = {
         name = "Cavas"
         class = "pc_gas_giant"
-        orbit_distance = 17
+        orbit_distance = 40
         orbit_angle = 177
         size = 18
         has_ring = no
 
 
         moon = {
-            name = "Cavas II"
+            name = "Cavas Minor"
             class = random
             orbit_distance = 10
             orbit_angle = 180
@@ -339,7 +358,7 @@ brentaal_system_initializer = {
         }
 
         moon = {
-            name = "Cavas III"
+            name = "Cavas Major"
             class = random
             orbit_distance = 7
             orbit_angle = 39

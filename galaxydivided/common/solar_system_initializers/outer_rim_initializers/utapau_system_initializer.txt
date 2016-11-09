@@ -4,7 +4,7 @@ utapau_system_initializer = {
 	flags={utapau_committee}
 
     planet = {
-        class = star
+        class = "pc_f_star"
         orbit_distance = 0
         size = 20
     }
@@ -12,102 +12,115 @@ utapau_system_initializer = {
     planet = {
         name = "Persoro"
         class = "pc_molten"
-        orbit_distance = 37
+        orbit_distance = 50
         orbit_angle = 205
         has_ring = no
+	size = 14
 
 
         moon = {
             name = "Persoro I"
             class = random
-            orbit_distance = 5
+            orbit_distance = 6
             orbit_angle = 58
             size = 2
             has_ring = no
 
         }
-
         moon = {
             name = "Persoro II"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 176
             size = 3
             has_ring = no
 
         }
-
         moon = {
             name = "Persoro III"
             class = random
-            orbit_distance = 2
+            orbit_distance = 2.5
             orbit_angle = 305
             size = 2
             has_ring = no
 
         }
-
         moon = {
             name = "Persoro IV"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 175
             size = 4
             has_ring = no
 
         }
-
         moon = {
             name = "Persoro V"
             class = random
-            orbit_distance = 2
+            orbit_distance = 2.5
             orbit_angle = 82
             size = 3
             has_ring = no
 
         }
-
         moon = {
             name = "Persoro VI"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 49
             size = 6
             has_ring = no
 
         }
-
         moon = {
             name = "Persoro VII"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 20
             size = 4
             has_ring = no
 
         }
-
         moon = {
             name = "Persoro VIII"
             class = random
-            orbit_distance = 2
+            orbit_distance = 2.5
             orbit_angle = 247
             size = 3
             has_ring = no
 
         }
+        moon = {
+            name = "Persoro IX"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 123
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Persoro X"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 123
+            size = 2
+            has_ring = no
+
+        }
+
     }
 
     planet = {
         name = "Taktos"
         class = "pc_molten"
-        orbit_distance = 29
+        orbit_distance = 40
         orbit_angle = 311
         has_ring = no
-
+	size = 12
 
         moon = {
-            name = "Taktos II"
+            name = "Taktos I"
             class = random
             orbit_distance = 5
             orbit_angle = 204
@@ -115,9 +128,8 @@ utapau_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Taktos III"
+            name = "Taktos II"
             class = random
             orbit_distance = 2
             orbit_angle = 89
@@ -125,21 +137,19 @@ utapau_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Taktos IV"
+            name = "Taktos III"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 278
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Taktos V"
+            name = "Taktos IV"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 234
             size = 5
             has_ring = no
@@ -150,18 +160,20 @@ utapau_system_initializer = {
     planet = {
         name = "Unistros"
         class = "pc_continental"
-        orbit_distance = 16
+        orbit_distance = 30
         orbit_angle = 179
         has_ring = no
+	size = 18
 
     }
 
     planet = {
         name = "Utapau"
         class = "pc_desert"
-        orbit_distance = 43
+        orbit_distance = 53
         orbit_angle = 147
         has_ring = no
+	size = 20
 		starting_planet = yes
 		tile_blockers = none
 		modifiers = none
@@ -286,7 +298,7 @@ utapau_system_initializer = {
 
 
         moon = {
-            name = "Utapau II"
+            name = "Utapau I"
             class = random
             orbit_distance = 8
             orbit_angle = 147
@@ -294,48 +306,43 @@ utapau_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Utapau III"
+            name = "Utapau II"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 126
             size = 2
             has_ring = no
 
         }
-
         moon = {
-            name = "Utapau IV"
+            name = "Utapau III"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 323
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Utapau V"
+            name = "Utapau IV"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 177
             has_ring = no
 
         }
-
         moon = {
-            name = "Utapau VI"
+            name = "Utapau V"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 126
             size = 5
             has_ring = no
 
         }
-
         moon = {
-            name = "Utapau VII"
+            name = "Utapau VI"
             class = random
             orbit_distance = 2
             orbit_angle = 280
@@ -343,9 +350,8 @@ utapau_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Utapau VIII"
+            name = "Utapau VII"
             class = random
             orbit_distance = 2
             orbit_angle = 279
@@ -353,9 +359,8 @@ utapau_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Utapau IX"
+            name = "Utapau VIII"
             class = random
             orbit_distance = 2
             orbit_angle = 281
@@ -363,24 +368,25 @@ utapau_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "X"
+            name = "Utapau IX"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2
             orbit_angle = 285
             size = 3
             has_ring = no
 
         }
+
     }
 
     planet = {
         name = "Flauss"
         class = "pc_toxic"
-        orbit_distance = 29
+        orbit_distance = 40
         orbit_angle = 121
         has_ring = no
+	size = 15
 
     }
 
@@ -394,27 +400,25 @@ utapau_system_initializer = {
 
 
         moon = {
-            name = "Barbilly II"
+            name = "Barbilly I"
             class = random
-            orbit_distance = 6
+            orbit_distance = 10
             orbit_angle = 115
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Barbilly III"
+            name = "Barbilly II"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 88
             size = 2
             has_ring = no
 
         }
-
         moon = {
-            name = "Barbilly IV"
+            name = "Barbilly III"
             class = random
             orbit_distance = 2
             orbit_angle = 128
@@ -422,56 +426,52 @@ utapau_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Barbilly V"
+            name = "Barbilly IV"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 48
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Barbilly VI"
+            name = "Barbilly V"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 59
             size = 5
             has_ring = no
 
         }
-
         moon = {
-            name = "Barbilly VII"
+            name = "Barbilly VI"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 153
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Barbilly VIII"
+            name = "Barbilly VII"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 279
             size = 6
             has_ring = no
 
         }
-
         moon = {
-            name = "Barbilly IX"
+            name = "Barbilly VIII"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 52
             size = 4
             has_ring = no
 
         }
+
     }
 
     planet = {
@@ -484,17 +484,16 @@ utapau_system_initializer = {
 
 
         moon = {
-            name = "Chem Minor"
+            name = "Chem I"
             class = random
-            orbit_distance = 8
+            orbit_distance = 11
             orbit_angle = 129
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Chem III"
+            name = "Chem II"
             class = random
             orbit_distance = 8
             orbit_angle = 239
@@ -502,9 +501,8 @@ utapau_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Chem IV"
+            name = "Chem III"
             class = random
             orbit_distance = 6
             orbit_angle = 227
@@ -512,9 +510,8 @@ utapau_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Chem Major"
+            name = "Chem IV"
             class = random
             orbit_distance = 6
             orbit_angle = 69
@@ -522,5 +519,6 @@ utapau_system_initializer = {
             has_ring = no
 
         }
+
     }
 }

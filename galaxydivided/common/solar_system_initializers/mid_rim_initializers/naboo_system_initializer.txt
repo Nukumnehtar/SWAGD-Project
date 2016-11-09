@@ -29,7 +29,7 @@ naboo_system_initializer = {
 
 
         moon = {
-            name = "Erep II"
+            name = "Erep Minor"
             class = random
             orbit_distance = 8
             orbit_angle = 35
@@ -178,7 +178,6 @@ naboo_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Roro"
             class = "pc_tropical"
@@ -188,9 +187,8 @@ naboo_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Naboo IV"
+            name = "Naboo III"
             class = "pc_barren_cold"
             orbit_distance = 5
             orbit_angle = 241
@@ -198,6 +196,7 @@ naboo_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
@@ -223,14 +222,14 @@ naboo_system_initializer = {
     planet = {
         name = "Storm"
         class = "pc_gas_giant"
-        orbit_distance = 34
+        orbit_distance = 70
         orbit_angle = 195
         size = 24
         has_ring = no
 
 
         moon = {
-            name = "Storm 1"
+            name = "Storm I"
             class = random
             orbit_distance = 7
             orbit_angle = 16
@@ -238,19 +237,17 @@ naboo_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Storm 2"
+            name = "Storm II"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 151
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Storm 3"
+            name = "Storm III"
             class = "pc_tundra"
             orbit_distance = 2
             orbit_angle = 56
@@ -258,28 +255,25 @@ naboo_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Storm 4"
+            name = "Storm IV"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 71
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Storm 5"
+            name = "Storm V"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 173
             has_ring = no
 
         }
-
         moon = {
-            name = "Storm 6"
+            name = "Storm VI"
             class = random
             orbit_distance = 2
             orbit_angle = 155
@@ -287,46 +281,61 @@ naboo_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Storm 7"
+            name = "Storm VII"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 138
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Storm 8"
+            name = "Storm VIII"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 69
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Storm 9"
+            name = "Storm IX"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 76
             size = 5
             has_ring = no
 
         }
-
         moon = {
-            name = "Storm 10"
+            name = "Storm X"
             class = "pc_tundra"
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 279
             size = 6
             has_ring = no
 
         }
+        moon = {
+            name = "Storm XXVI"
+            class = "pc_arctic”
+            orbit_distance = 10
+            orbit_angle = 89
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm XXXII"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 89
+            size = 4
+            has_ring = no
+
+        }
+
     }
 
     planet = {

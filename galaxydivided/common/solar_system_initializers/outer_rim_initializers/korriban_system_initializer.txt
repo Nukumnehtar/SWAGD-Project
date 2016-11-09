@@ -1,5 +1,5 @@
 korriban_system_initializer = {
-    name = "Korriban"
+    name = "Horuset"
     class = "rl_standard_stars"
     asteroids_distance = 113
 	flags = {sith_empire}
@@ -81,7 +81,7 @@ korriban_system_initializer = {
     }
 
     planet = {
-        name = "Korriban"		
+        name = "Korriban (Moraband)"		
         class = "pc_arid"
         orbit_distance = 35
 		orbit_angle = 159
@@ -220,7 +220,7 @@ korriban_system_initializer = {
 
         moon = {
             class = random
-			name = "Korriban II"
+		name = "Korriban I"
             orbit_distance = 9
             orbit_angle = 186
             has_ring = no
@@ -229,7 +229,7 @@ korriban_system_initializer = {
 
         moon = {
             class = random
-			name = "Korriban III"
+			name = "Korriban II"
             orbit_distance = 5
             orbit_angle = 38
             has_ring = no
@@ -238,7 +238,7 @@ korriban_system_initializer = {
 
         moon = {
             class = random
-			name = "Korriban IV"
+			name = "Korriban III"
             orbit_distance = 2
             orbit_angle = 310
             has_ring = no
@@ -247,7 +247,7 @@ korriban_system_initializer = {
 
         moon = {
             class = random
-			name = "Korriban V"
+			name = "Korriban IV"
             orbit_distance = 4
             orbit_angle = 12
             has_ring = no
@@ -256,7 +256,7 @@ korriban_system_initializer = {
 
         moon = {
             class = random
-			name = "Korriban VI"
+			name = "Korriban V"
             orbit_distance = 4
             orbit_angle = 310
             has_ring = no
@@ -265,7 +265,7 @@ korriban_system_initializer = {
 
         moon = {
             class = random
-			name = "Korriban VII"
+			name = "Korriban VI"
             orbit_distance = 4
             orbit_angle = 31
             has_ring = no
@@ -274,7 +274,7 @@ korriban_system_initializer = {
 
         moon = {
             class = random
-			name = "Korriban VIII"
+			name = "Korriban VII"
             orbit_distance = 5
             orbit_angle = 11
             has_ring = no

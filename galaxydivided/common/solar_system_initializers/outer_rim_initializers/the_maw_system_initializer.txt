@@ -240,6 +240,16 @@ the_maw_system_initializer = {
     }
 
     planet = {
+	name = "Abeloth"
+        class = "pc_tropical"
+        orbit_distance = 20
+        orbit_angle = 200
+        has_ring = no
+	size = 15
+
+    }
+
+    planet = {
         class = "pc_black_hole"
         orbit_distance = 15
         orbit_angle = 114

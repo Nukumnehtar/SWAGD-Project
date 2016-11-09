@@ -49,7 +49,7 @@ kamino_system_initializer = {
 
 
         moon = {
-            name = "Faa II"
+            name = "Faa Major"
             class = random
             orbit_distance = 8
             orbit_angle = 55
@@ -207,24 +207,23 @@ kamino_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Kamino III"
+            name = "Kamine"
             class = random
             orbit_distance = 3
             orbit_angle = 229
             has_ring = no
 
         }
-
         moon = {
-            name = "Kamino IV"
+            name = "Kloneia"
             class = random
             orbit_distance = 3
             orbit_angle = 180
             has_ring = no
 
         }
+
     }
 
     planet = {
@@ -240,358 +239,429 @@ kamino_system_initializer = {
     planet = {
         name = "Miyuu"
         class = "pc_barren"
-        orbit_distance = 15
+        orbit_distance = 28
         orbit_angle = 146
         size = 10
         has_ring = no
+
+        moon = {
+            name = "Miyuu I"
+            class = random
+            orbit_distance = 6
+            orbit_angle = 140
+            size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Miyuu II"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 329
+            has_ring = no
+            size = 2
+
+        }
+        moon = {
+            name = "Miyuu III"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 80
+            has_ring = no
+            size = 4
+
+        }
+        moon = {
+            name = "Miyuu IV"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 145
+            has_ring = no
+            size = 3
+
+        }
+        moon = {
+            name = "Miyuu V"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 245
+            has_ring = no
+            size = 4
+
+        }
 
     }
 
     planet = {
         name = "Donoa"
         class = "pc_barren_cold"
-        orbit_distance = 26
+        orbit_distance = 50
         orbit_angle = 250
         size = 14
         has_ring = no
 
 
         moon = {
-            name = "Donoa II"
+            name = "Donoa I"
             class = random
             orbit_distance = 6
             orbit_angle = 246
             has_ring = no
 
         }
-
         moon = {
-            name = "Donoa III"
+            name = "Donoa II"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 186
             has_ring = no
 
         }
-
         moon = {
-            name = "Donoa IV"
+            name = "Donoa III"
             class = random
-            orbit_distance = 6
+            orbit_distance = 2.5
             orbit_angle = 247
             has_ring = no
 
         }
-
         moon = {
-            name = "Donoa V"
+            name = "Donoa IV"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 263
             has_ring = no
 
         }
+        moon = {
+            name = "Donoa V"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 34
+            has_ring = no
+
+        }
+        moon = {
+            name = "Donoa XVII"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 320
+            has_ring = no
+
+        }
+
     }
 
     planet = {
         name = "Casna Aure"
-        class = random
-        orbit_distance = 40
+        class = "pc_gas_giant"
+        orbit_distance = 100
         orbit_angle = 39
         size = 21
         has_ring = no
 
 
         moon = {
-            name = "Aure II"
+            name = "Aure I"
             class = random
             orbit_distance = 9
             orbit_angle = 169
             has_ring = no
 
         }
-
         moon = {
-            name = "Aure III"
+            name = "Aure II"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 322
             has_ring = no
 
         }
-
         moon = {
-            name = "Aure IV"
+            name = "Aure III"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 26
             has_ring = no
 
         }
-
         moon = {
-            name = "Aure V"
+            name = "Aure IV"
             class = random
             orbit_distance = 2
             orbit_angle = 307
             has_ring = no
 
         }
-
         moon = {
-            name = "Aure VI"
+            name = "Aure V"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 327
             has_ring = no
 
         }
-
         moon = {
-            name = "Aure VII"
+            name = "Aure VI"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 275
             has_ring = no
 
         }
-
         moon = {
-            name = "Aure VIII"
+            name = "Aure VII"
             class = random
-            orbit_distance = 6
+            orbit_distance = 2.5
             orbit_angle = 67
             has_ring = no
 
         }
-
         moon = {
-            name = "Aure IX"
+            name = "Aure XXVIII"
             class = random
-            orbit_distance = 3
-            orbit_angle = 147
+            orbit_distance = 10
+            orbit_angle = 55
             has_ring = no
 
         }
 
-        moon = {
-            name = "Aure X"
-            class = random
-            orbit_distance = 4
-            orbit_angle = 257
-            has_ring = no
-
-        }
     }
 
     planet = {
         name = "Casna Besh"
         class = "pc_gas_giant"
-        orbit_distance = 39
+        orbit_distance = 100
         orbit_angle = 184
         size = 25
         has_ring = no
 
 
         moon = {
-            name = "Besh II"
+            name = "Besh I"
             class = random
-            orbit_distance = 8
+            orbit_distance = 10
             orbit_angle = 73
             has_ring = no
 
         }
-
         moon = {
-            name = "Besh III"
+            name = "Besh II"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 91
             has_ring = no
 
         }
-
         moon = {
-            name = "Besh IV"
+            name = "Besh III"
             class = random
             orbit_distance = 2
             orbit_angle = 310
             has_ring = no
 
         }
-
         moon = {
-            name = "Besh V"
+            name = "Besh IV"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 296
             has_ring = no
 
         }
-
         moon = {
-            name = "Besh VI"
+            name = "Besh V"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 159
             has_ring = no
 
         }
-
         moon = {
-            name = "Besh VII"
+            name = "Besh VI"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 190
             has_ring = no
 
         }
-
         moon = {
-            name = "Besh VIII"
+            name = "Besh VII"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 141
             has_ring = no
 
         }
-
         moon = {
-            name = "Besh IX"
+            name = "Besh VIII"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 35
             has_ring = no
 
         }
-
         moon = {
-            name = "Besh X"
+            name = "Besh IX"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 44
             has_ring = no
 
         }
-
         moon = {
-            name = "Besh XI"
+            name = "Besh X"
             class = random
-            orbit_distance = 6
+            orbit_distance = 2.5
             orbit_angle = 340
             has_ring = no
 
         }
-
         moon = {
-            name = "Besh XII"
+            name = "Besh XLIII"
             class = random
-            orbit_distance = 7
-            orbit_angle = 245
-            has_ring = no
-
-        }
-
-        moon = {
-            name = "Besh XIII"
-            class = random
-            orbit_distance = 5
+            orbit_distance = 10
             orbit_angle = 297
             has_ring = no
 
         }
+
     }
 
     planet = {
         name = "Imoco"
         class = "pc_frozen"
-        orbit_distance = 54
+        orbit_distance = 80
         orbit_angle = 238
         size = 12
         has_ring = no
 
 
         moon = {
-            name = "Imoco II"
+            name = "Imoco I"
             class = random
             orbit_distance = 7
             orbit_angle = 245
             has_ring = no
 
         }
-
         moon = {
-            name = "Imoco III"
+            name = "Imoco II"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 83
             has_ring = no
 
         }
-
         moon = {
-            name = "Imoco IV"
+            name = "Imoco III"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 51
             has_ring = no
 
         }
-
         moon = {
-            name = "Imoco V"
+            name = "Imoco IV"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 34
             has_ring = no
 
         }
-
         moon = {
-            name = "Imoco VI"
+            name = "Imoco V"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 39
             has_ring = no
 
         }
+        moon = {
+            name = "Imoco VI"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 177
+            has_ring = no
+
+        }
+        moon = {
+            name = "Imoco VII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 43
+            has_ring = no
+
+        }
+        moon = {
+            name = "Imoco VIII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 288
+            has_ring = no
+
+        }
+
     }
 
     planet = {
         name = "Talita"
         class = "pc_frozen"
-        orbit_distance = 23
+        orbit_distance = 40
         orbit_angle = 235
         size = 8
         has_ring = no
 
 
         moon = {
-            name = "Talita II"
+            name = "Talita I"
             class = random
-            orbit_distance = 11
+            orbit_distance = 9
             orbit_angle = 202
             has_ring = no
 
         }
-
         moon = {
-            name = "Talita III"
+            name = "Talita II"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 56
             has_ring = no
 
         }
-
         moon = {
-            name = "Talita IV"
+            name = "Talita III"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 178
             has_ring = no
 
         }
+        moon = {
+            name = "Talita IV"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 35
+            has_ring = no
+
+        }
+        moon = {
+            name = "Talita V"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 255
+            has_ring = no
+
+        }
+        moon = {
+            name = "Talita VI"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 147
+            has_ring = no
+
+        }
+
     }
 
     planet = {

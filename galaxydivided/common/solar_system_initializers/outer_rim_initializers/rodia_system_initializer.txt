@@ -1,5 +1,5 @@
 rodia_system_initializer = {
-    name = "Rodia"
+    name = "Tyrius"
     class = "rl_standard_stars"
 	flags={rodian}
 
@@ -15,6 +15,7 @@ rodia_system_initializer = {
         orbit_distance = 42
         orbit_angle = 223
         has_ring = no
+        size = 10
 
     }
 
@@ -157,7 +158,6 @@ rodia_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Enak"
             class = random
@@ -167,17 +167,15 @@ rodia_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Eiska"
             class = random
-            orbit_distance = 8
+            orbit_distance = 4
             orbit_angle = 139
             size = 4
             has_ring = no
 
         }
-
         moon = {
             name = "Soomana"
             class = random
@@ -192,26 +190,25 @@ rodia_system_initializer = {
     planet = {
         name = "Pirdia"
         class = "pc_gas_giant"
-        orbit_distance = 30
+        orbit_distance = 70
         orbit_angle = 88
         size = 14
         has_ring = no
 
 
         moon = {
-            name = "Pirdia II"
+            name = "Pirdia I"
             class = random
-            orbit_distance = 8
+            orbit_distance = 10
             orbit_angle = 309
             size = 2
             has_ring = no
 
         }
-
         moon = {
-            name = "Pirdia III"
+            name = "Pirdia II"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 319
             size = 5
             has_ring = no
@@ -219,17 +216,16 @@ rodia_system_initializer = {
         }
 
         moon = {
-            name = "Pirdia IV"
+            name = "Pirdia III"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 282
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Pirdia V"
+            name = "Pirdia IV"
             class = random
             orbit_distance = 2
             orbit_angle = 311
@@ -237,43 +233,66 @@ rodia_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Pirdia VI"
+            name = "Pirdia V"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 253
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Pirdia VII"
+            name = "Pirdia VI"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 270
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Pirdia VIII"
+            name = "Pirdia VII"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 260
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Pirdia IX"
+            name = "Pirdia VIII"
             class = random
             orbit_distance = 2
             orbit_angle = 326
             size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Pirdia IX"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 19
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Pirdia X"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 177
+            size = 2
+            has_ring = no
+
+        }
+        moon = {
+            name = "Pirdia XI"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 211
+            size = 4
             has_ring = no
 
         }
@@ -282,44 +301,41 @@ rodia_system_initializer = {
     planet = {
         name = "Toosma"
         class = "pc_gas_giant"
-        orbit_distance = 29
+        orbit_distance = 85
         orbit_angle = 152
         size = 18
         has_ring = no
 
 
         moon = {
-            name = "Toosma II"
+            name = "Toosma I"
             class = random
-            orbit_distance = 8
+            orbit_distance = 10
             orbit_angle = 266
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Toosma III"
+            name = "Toosma II"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 292
             size = 6
             has_ring = no
 
         }
-
         moon = {
-            name = "Toosma IV"
+            name = "Toosma III"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 123
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Toosma V"
+            name = "Toosma IV"
             class = random
             orbit_distance = 2
             orbit_angle = 145
@@ -327,9 +343,8 @@ rodia_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Toosma VI"
+            name = "Toosma V"
             class = random
             orbit_distance = 2
             orbit_angle = 122
@@ -337,9 +352,8 @@ rodia_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Toosma VII"
+            name = "Toosma VI"
             class = random
             orbit_distance = 2
             orbit_angle = 214
@@ -347,9 +361,8 @@ rodia_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Toosma VIII"
+            name = "Toosma VII"
             class = random
             orbit_distance = 2
             orbit_angle = 185
@@ -357,12 +370,49 @@ rodia_system_initializer = {
             has_ring = no
 
         }
+        moon = {
+            name = "Toosma VIII"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 54
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Toosma IX"
+            class = random
+            orbit_distance = 2
+            orbit_angle = -75
+            size = 3
+            has_ring = no
+
+        }
+        moon = {
+            name = "Toosma X"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 117
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Toosma XVIII"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 12
+            size = 4
+            has_ring = no
+
+        }
+
     }
 
     planet = {
         name = "Taoska"
         class = "pc_frozen"
-        orbit_distance = 46
+        orbit_distance = 65
         orbit_angle = 192
         size = 24
         has_ring = no

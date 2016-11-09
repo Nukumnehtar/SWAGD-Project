@@ -4,7 +4,8 @@ corellia_system_initializer = {
 	flags={corellian_empire}
 
     planet = {
-        class = star
+        name = "Corell"
+        class = "pc_g_star"
         orbit_distance = 0
         size = 20
     }
@@ -150,7 +151,7 @@ corellia_system_initializer = {
         }
 
         moon = {
-            name = "Corellia III"
+            name = "Corellia Minor"
             class = random
             orbit_distance = 6
             orbit_angle = 273

@@ -1,7 +1,6 @@
 ryloth_system_initializer = {
     name = "Ryloth"
     class = "rl_standard_stars"
-	flags = { taris }
     asteroids_distance = 205
 
     planet = {

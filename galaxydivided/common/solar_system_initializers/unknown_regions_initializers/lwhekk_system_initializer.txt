@@ -1,5 +1,5 @@
 lwhekk_system_initializer= {
-    name = "Lwhekk" 
+    name = "Ssi'kaat" 
 	class = "rl_standard_stars"
 	flags={ssi_ruuvi}
 
@@ -10,7 +10,7 @@ lwhekk_system_initializer= {
     }
 
     planet = {
-        name = "Tikwa"
+        name = "Ssi'kaat"
         class = "pc_molten"
         orbit_distance = 50
         orbit_angle = 219
@@ -20,6 +20,7 @@ lwhekk_system_initializer= {
     }
 
     planet = {
+        name = "Tikwa"
         class = "pc_toxic"
         orbit_distance = 43
         orbit_angle = 273
@@ -37,7 +38,7 @@ lwhekk_system_initializer= {
 
 
         moon = {
-            name = "Kerawik II"
+            name = "Kerawik Major"
             class = "pc_continental"
             orbit_distance = 10
             orbit_angle = 180
@@ -47,7 +48,7 @@ lwhekk_system_initializer= {
         }
 
         moon = {
-            name = "Kerawik III"
+            name = "Kerawik Minor"
             class = random
             orbit_distance = 6
             orbit_angle = 115

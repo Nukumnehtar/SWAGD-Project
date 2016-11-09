@@ -48,7 +48,7 @@ hakassi_system_initializer = {
 
 
         moon = {
-            name = "Pandora III"
+            name = "Pandora Minor"
             class = "pc_barren_cold"
             orbit_distance = 10
             orbit_angle = 180
@@ -58,7 +58,7 @@ hakassi_system_initializer = {
         }
 
         moon = {
-            name = "Pandora IV"
+            name = "Pandora Major"
             class = "pc_frozen"
             orbit_distance = 11
             orbit_angle = 61

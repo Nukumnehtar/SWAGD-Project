@@ -3,7 +3,8 @@ prakith_system_initializer = {
     class = "rl_standard_stars"
 
     planet = {
-        class = star
+        name = "Prak"
+        class = "pc_m_star"
         orbit_distance = 0
         size = 20
     }
@@ -74,7 +75,7 @@ prakith_system_initializer = {
     planet = {
         name = "Delanoth"
         class = "pc_gas_giant"
-        orbit_distance = 14
+        orbit_distance = 60
         orbit_angle = 207
         size = 20
         has_ring = no
@@ -89,36 +90,70 @@ prakith_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Anthuan"
             class = "pc_barren_cold"
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 35
             size = 6
             has_ring = no
 
         }
-
         moon = {
             name = "H-77-AT"
             class = random_asteroid
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 207
             size = 4
             has_ring = no
 
         }
-
         moon = {
             name = "Huldra"
             class = "pc_frozen"
-            orbit_distance = 7
+            orbit_distance = 2.5
             orbit_angle = 59
             size = 7
             has_ring = no
 
         }
+        moon = {
+            name = "Joltarir"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 133
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Anthomist"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 235
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Iriosl"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 55
+            size = 7
+            has_ring = no
+
+        }
+        moon = {
+            name = "Sango"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 55
+            size = 4
+            has_ring = no
+
+        }
+
     }
 
     planet = {

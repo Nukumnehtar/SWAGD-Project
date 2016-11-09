@@ -1,15 +1,16 @@
 empress_teta_system_initializer = {
-    name = "Empress Teta"
+    name = "Empress Teta (Koros)"
     class = "rl_standard_stars"
 
     planet = {
+        name = "Koros"
         class = star
         orbit_distance = 0
         size = 17
     }
 
     planet = {
-        name = "Keres"
+        name = "Keres I"
         class = "pc_molten"
         orbit_distance = 22
         orbit_angle = 246
@@ -69,7 +70,7 @@ empress_teta_system_initializer = {
     }
 
     planet = {
-        name = "Empress Teta"
+        name = "Empress Teta (Koros Major)"
         class = "pc_continental"
         orbit_distance = 22
         orbit_angle = 30
@@ -78,11 +79,11 @@ empress_teta_system_initializer = {
 
 
         moon = {
-            name = "H'Tenctu"
-            class = "pc_barren_cold"
+            name = "Atale"
+            class = "pc_arid"
             orbit_distance = 10
             orbit_angle = 180
-            size = 4
+            size = 6
             has_ring = no
 
         }
@@ -92,7 +93,7 @@ empress_teta_system_initializer = {
             class = "pc_barren"
             orbit_distance = 5
             orbit_angle = 19
-            size = 6
+            size = 4
             has_ring = no
 
         }

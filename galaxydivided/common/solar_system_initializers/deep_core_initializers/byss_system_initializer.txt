@@ -1,5 +1,5 @@
 byss_system_initializer = {
-    name = "Byss"
+    name = "Beshqek (Byss)"
     class = "rl_standard_stars"
 
     planet = {
@@ -15,7 +15,6 @@ byss_system_initializer = {
         orbit_angle = 223
         size = 10
         has_ring = no
-		home_planet = no
 
     }
 
@@ -25,8 +24,7 @@ byss_system_initializer = {
         orbit_distance = 10
         orbit_angle = 265
         size = 12
-        has_ring = no
-		home_planet = no		
+        has_ring = no		
 
 
         moon = {
@@ -36,7 +34,6 @@ byss_system_initializer = {
             orbit_angle = 185
             size = 5
             has_ring = no
-			home_planet = no
 
         }
     }
@@ -48,7 +45,6 @@ byss_system_initializer = {
         orbit_angle = 194
         size = 10
         has_ring = no
-		home_planet = no
 	
 
         moon = {
@@ -58,7 +54,6 @@ byss_system_initializer = {
             orbit_angle = 182
             size = 5
             has_ring = no
-			home_planet = no
 
         }
     }
@@ -70,7 +65,6 @@ byss_system_initializer = {
         orbit_angle = 266
         size = 15
         has_ring = no
-		home_planet = no
 
 
         moon = {
@@ -80,7 +74,6 @@ byss_system_initializer = {
             orbit_angle = 181
             size = 5
             has_ring = no
-			home_planet = no
 
         }
     }
@@ -102,10 +95,26 @@ byss_system_initializer = {
             orbit_angle = 320
             size = 8
             has_ring = no
-			home_planet = no
 
         }
+        moon = {
+            name = "Ute"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 123
+            size = 3
+            has_ring = no
 
+        }
+        moon = {
+            name = "Platyrst"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 67
+            size = 4
+            has_ring = no
+
+        }
         moon = {
             name = "Oba"
             class = "pc_molten"
@@ -113,10 +122,8 @@ byss_system_initializer = {
             orbit_angle = 214
             size = 4
             has_ring = no
-			home_planet = no
 
         }
-
         moon = {
             name = "Alkonost"
             class = "pc_barren_cold"
@@ -124,7 +131,6 @@ byss_system_initializer = {
             orbit_angle = 293
             size = 5
             has_ring = no
-			home_planet = no
 
         }
     }
@@ -136,7 +142,6 @@ byss_system_initializer = {
         orbit_angle = 129
         size = 20
         has_ring = no
-		home_planet = no
 
 
         moon = {
@@ -146,18 +151,61 @@ byss_system_initializer = {
             orbit_angle = 84
             size = 4
             has_ring = no
-			home_planet = no
 
         }
 
         moon = {
             name = "D'Randa"
             class = "pc_barren_cold"
-            orbit_distance = 4
+            orbit_distance = 3
             orbit_angle = 129
             size = 6
             has_ring = no
-			home_planet = no
+
+        }
+        moon = {
+            name = "Illiar"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 287
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Tandonol"
+            class = random
+            orbit_distance = 3
+            orbit_angle = -56
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Gou"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 136
+            size = 3
+            has_ring = no
+
+        }
+        moon = {
+            name = "Uitcha"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 265
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Hanjor"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 113
+            size = 4
+            has_ring = no
 
         }
 
@@ -168,7 +216,6 @@ byss_system_initializer = {
             orbit_angle = 262
             size = 8
             has_ring = no
-			home_planet = no
 
         }
 
@@ -179,7 +226,6 @@ byss_system_initializer = {
             orbit_angle = 70
             size = 2
             has_ring = no
-			home_planet = no
 
         }
     }
@@ -200,19 +246,41 @@ byss_system_initializer = {
             orbit_angle = 235
             size = 4
             has_ring = no
-			home_planet = no
 
         }
-
         moon = {
             name = "Titania"
             class = "pc_barren_cold"
             orbit_distance = 6
             orbit_angle = 189
             has_ring = no
-			home_planet = no
 
         }
+        moon = {
+            name = "Joarat"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 56
+            has_ring = no
+
+        }
+        moon = {
+            name = "Chat"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 207
+            has_ring = no
+
+        }
+        moon = {
+            name = "Oliop"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 43
+            has_ring = no
+
+        }
+
     }
 
     planet = {
@@ -221,7 +289,6 @@ byss_system_initializer = {
         orbit_distance = 79
         orbit_angle = 348
         has_ring = no
-		home_planet = no
 
 
         moon = {
@@ -230,7 +297,14 @@ byss_system_initializer = {
             orbit_distance = 14
             orbit_angle = 211
             has_ring = no
-			home_planet = no
+
+        }
+        moon = {
+            name = "Hitorite"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 123
+            has_ring = no
 
         }
     }

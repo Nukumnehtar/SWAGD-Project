@@ -4,7 +4,8 @@ bothawui_system_initializer = {
 	flags={bothan_clans}
 
     planet = {
-        class = star
+        name = "Both"
+        class = "pc_g_star"
         orbit_distance = 0
         size = 20
     }
@@ -180,7 +181,7 @@ bothawui_system_initializer = {
 
 
         moon = {
-            name = "Bothawui Minor"
+            name = "Bothawui I"
             class = random
             orbit_distance = 6
             orbit_angle = 164
@@ -188,9 +189,8 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Bothawui III"
+            name = "Bothawui II"
             class = random
             orbit_distance = 5
             orbit_angle = 67
@@ -198,9 +198,8 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Bothawui IV"
+            name = "Bothawui III"
             class = random
             orbit_distance = 4
             orbit_angle = 219
@@ -208,19 +207,20 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
         name = "Golm"
         class = "pc_gas_giant"
-        orbit_distance = 38
+        orbit_distance = 60
         orbit_angle = 30
         size = 18
         has_ring = no
 
 
         moon = {
-            name = "Golm II"
+            name = "Golm I"
             class = random
             orbit_distance = 8
             orbit_angle = 308
@@ -228,9 +228,8 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Golm III"
+            name = "Golm II"
             class = random
             orbit_distance = 2
             orbit_angle = 250
@@ -238,9 +237,8 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Golm IV"
+            name = "Golm III"
             class = random
             orbit_distance = 2
             orbit_angle = 78
@@ -248,9 +246,8 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Golm V"
+            name = "Golm IV"
             class = random
             orbit_distance = 2
             orbit_angle = 209
@@ -258,9 +255,8 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Golm VI"
+            name = "Golm V"
             class = random
             orbit_distance = 2
             orbit_angle = 99
@@ -268,9 +264,8 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Golm VII"
+            name = "Golm VI"
             class = random
             orbit_distance = 2
             orbit_angle = 291
@@ -278,9 +273,8 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Golm VIII"
+            name = "Golm VII"
             class = random
             orbit_distance = 2
             orbit_angle = 305
@@ -288,9 +282,8 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Golm IX"
+            name = "Golm VIII"
             class = random
             orbit_distance = 2
             orbit_angle = 204
@@ -298,9 +291,8 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Golm X"
+            name = "Golm IX"
             class = random
             orbit_distance = 2
             orbit_angle = 121
@@ -308,19 +300,38 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
+        moon = {
+            name = "Golm X"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 55
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Golm XXIII"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 144
+            size = 4
+            has_ring = no
+
+        }
+
     }
 
     planet = {
         name = "Ganash"
         class = "pc_gas_giant"
-        orbit_distance = 42
+        orbit_distance = 70
         orbit_angle = 137
         size = 20
         has_ring = no
 
 
         moon = {
-            name = "Ganash II"
+            name = "Ganash I"
             class = random
             orbit_distance = 10
             orbit_angle = 27
@@ -328,19 +339,17 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Ganash III"
+            name = "Ganash II"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 300
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Ganash IV"
+            name = "Ganash III"
             class = random
             orbit_distance = 2
             orbit_angle = 165
@@ -348,43 +357,102 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Ganash V"
+            name = "Ganash IV"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 134
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Ganash VI"
+            name = "Ganash V"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 118
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Ganash VII"
+            name = "Ganash VI"
             class = random
-            orbit_distance = 3
+            orbit_distance = 2.5
             orbit_angle = 170
             size = 6
             has_ring = no
 
         }
+        moon = {
+            name = "Ganash VII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 136
+            size = 3
+            has_ring = no
 
+        }
         moon = {
             name = "Ganash VIII"
             class = random
-            orbit_distance = 3
-            orbit_angle = 136
+            orbit_distance = 2.5
+            orbit_angle = 234
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ganash IX"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 103
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ganash X"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 44
+            size = 2
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ganash XI"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = -35
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ganash XII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 143
             size = 3
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ganash XIII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 309
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Ganash XIV"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 224
+            size = 5
             has_ring = no
 
         }
@@ -393,14 +461,14 @@ bothawui_system_initializer = {
     planet = {
         name = "Hoppawui"
         class = "pc_barren_cold"
-        orbit_distance = 38
+        orbit_distance = 78
         orbit_angle = 123
         size = 17
         has_ring = no
 
 
         moon = {
-            name = "Hoppawui II"
+            name = "Hoppawui I"
             class = random
             orbit_distance = 8
             orbit_angle = 357
@@ -408,56 +476,70 @@ bothawui_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Hoppawui III"
+            name = "Hoppawui II"
             class = random
-            orbit_distance = 6
+            orbit_distance = 2.5
             orbit_angle = 337
             size = 6
             has_ring = no
 
         }
-
         moon = {
-            name = "Hoppawui IV"
+            name = "Hoppawui III"
             class = random
-            orbit_distance = 7
+            orbit_distance = 2.5
             orbit_angle = 243
             size = 4
             has_ring = no
 
         }
-
         moon = {
-            name = "Hoppawui V"
+            name = "Hoppawui IV"
             class = random
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 94
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Hoppawui VI"
+            name = "Hoppawui V"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 141
             size = 3
             has_ring = no
 
         }
-
         moon = {
-            name = "Hoppawui VII"
+            name = "Hoppawui VI"
             class = random
-            orbit_distance = 5
+            orbit_distance = 2.5
             orbit_angle = 281
             size = 2
             has_ring = no
 
         }
+        moon = {
+            name = "Hoppawui VII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 34
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Hoppawui VIII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 137
+            size = 5
+            has_ring = no
+
+        }
+
     }
 
     planet = {

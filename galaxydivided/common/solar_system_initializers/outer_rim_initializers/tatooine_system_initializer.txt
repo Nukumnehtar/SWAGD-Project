@@ -1,5 +1,5 @@
 tatooine_system_initializer = {
-    name = "Tatooine"
+    name = "Tatoo"
     class = "rl_standard_stars"
 
     planet = {
@@ -71,7 +71,6 @@ tatooine_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Guermessa"
             class = "pc_barren_cold"
@@ -81,29 +80,29 @@ tatooine_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Chenini"
             class = random
-            orbit_distance = 12
+            orbit_distance = 8
             orbit_angle = 202
             size = 5
             has_ring = no
 
         }
+
     }
 
     planet = {
         name = "Ohann"
         class = "pc_gas_giant"
-        orbit_distance = 21
+        orbit_distance = 50
         orbit_angle = 294
         size = 15
         has_ring = no
 
 
         moon = {
-            name = "Ohann II"
+            name = "Ohann I"
             class = random
             orbit_distance = 7
             orbit_angle = 261
@@ -111,9 +110,8 @@ tatooine_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Ohann III"
+            name = "Ohann II"
             class = random
             orbit_distance = 3
             orbit_angle = 291
@@ -121,17 +119,8 @@ tatooine_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            class = random
-            orbit_distance = 0
-            orbit_angle = 0
-            has_ring = no
-
-        }
-
-        moon = {
-            name = "Ohann IV"
+            name = "Ohann III"
             class = random
             orbit_distance = 3
             orbit_angle = 237
@@ -139,19 +128,20 @@ tatooine_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
         name = "Adriana"
         class = "pc_gas_giant"
-        orbit_distance = 17
+        orbit_distance = 37
         orbit_angle = 204
         size = 25
         has_ring = yes
 
 
         moon = {
-            name = "Adriana II"
+            name = "Adriana I"
             class = random
             orbit_distance = 9
             orbit_angle = 60
@@ -159,9 +149,8 @@ tatooine_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Adriana III"
+            name = "Adriana II"
             class = random
             orbit_distance = 3
             orbit_angle = 123
@@ -169,9 +158,8 @@ tatooine_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Adriana IV"
+            name = "Adriana III"
             class = random
             orbit_distance = 3
             orbit_angle = 94
@@ -179,9 +167,8 @@ tatooine_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-            name = "Adriana V"
+            name = "Adriana IV"
             class = random
             orbit_distance = 3
             orbit_angle = 200
@@ -189,5 +176,6 @@ tatooine_system_initializer = {
             has_ring = no
 
         }
+
     }
 }

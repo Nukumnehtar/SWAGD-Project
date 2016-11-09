@@ -1,6 +1,0 @@
-song = {
-	name = "maintheme1"
-	chance = {
-		factor = 0
-	}
-}

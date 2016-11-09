@@ -1,5 +1,5 @@
 kashyyyk_system_initializer = {
-    name = "Kashyyyk"
+    name = "Kashyyyk (Hsskassi)"
     class = "rl_standard_stars"
     asteroids_distance = 100
 	flags={wookiee_clans}
@@ -429,7 +429,33 @@ kashyyyk_system_initializer = {
             has_ring = no
 
         }
+        moon = {
+            name = "Shurr IX"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 222
+            size = 4
+            has_ring = no
 
+        }
+        moon = {
+            name = "Shurr X"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = -46
+            size = 8
+            has_ring = no
+
+        }
+        moon = {
+            name = "Shurr XIV"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 113
+            size = 4
+            has_ring = no
+
+        }
     }
 
     planet = {
@@ -513,6 +539,32 @@ kashyyyk_system_initializer = {
             has_ring = no
 
         }
+        moon = {
+            name = "Kuhurrik IX"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 64
+            size = 4
+            has_ring = no
 
+        }
+        moon = {
+            name = "Kuhurrik X"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = -50
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kuhurrik XXVI"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 243
+            size = 3
+            has_ring = no
+
+        }
     }
 }

@@ -17,13 +17,13 @@ csilla_system_initializer = {
         size = 10
         has_ring = no
 
-
         moon = {
-            name = "Cessed II"
+            name = "Cessed Minor"
             class = random
             orbit_distance = 10
             orbit_angle = 180
             has_ring = no
+	    size = 5
 
         }
     }
@@ -166,7 +166,15 @@ csilla_system_initializer = {
             has_ring = no
 
         }
+        moon = {
+            name = "Csilla Major"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 223
+            size = 8
+            has_ring = no
 
+        }
         moon = {
             name = "Csilla III"
             class = random
@@ -177,123 +185,145 @@ csilla_system_initializer = {
 
         }
 
-        moon = {
-            name = "Csilla Major"
-            class = random
-            orbit_distance = 4
-            orbit_angle = 223
-            size = 8
-            has_ring = no
-
-        }
     }
 
     planet = {
         name = "Repplic"
         class = "pc_gas_giant"
-        orbit_distance = 34
+        orbit_distance = 90
         orbit_angle = 273
         size = 22
         has_ring = no
 
 
         moon = {
-            name = "Repplic II"
+            name = "Repplic I"
             class = random
-            orbit_distance = 8
+            orbit_distance = 10
             orbit_angle = 255
             has_ring = no
+            size = 6
 
         }
+        moon = {
+            name = "Repplic II"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 281
+            has_ring = no
+            size = 4
 
+        }
         moon = {
             name = "Repplic III"
             class = random
-            orbit_distance = 3
-            orbit_angle = 281
+            orbit_distance = 2.5
+            orbit_angle = 29
             has_ring = no
+            size = 8
 
         }
-
         moon = {
             name = "Repplic IV"
             class = random
-            orbit_distance = 3
-            orbit_angle = 29
+            orbit_distance = 2.5
+            orbit_angle = 119
             has_ring = no
+            size = 5
 
         }
-
         moon = {
             name = "Repplic V"
             class = random
-            orbit_distance = 3
-            orbit_angle = 119
+            orbit_distance = 2.5
+            orbit_angle = 97
             has_ring = no
+            size = 2
 
         }
-
         moon = {
             name = "Repplic VI"
             class = random
-            orbit_distance = 4
-            orbit_angle = 97
+            orbit_distance = 2.5
+            orbit_angle = 64
             has_ring = no
+            size = 4
 
         }
-
         moon = {
             name = "Repplic VII"
             class = random
-            orbit_distance = 4
-            orbit_angle = 64
+            orbit_distance = 2.5
+            orbit_angle = 97
             has_ring = no
+            size = 6
 
         }
-
         moon = {
             name = "Repplic VIII"
             class = random
-            orbit_distance = 4
-            orbit_angle = 97
+            orbit_distance = 2.5
+            orbit_angle = 276
             has_ring = no
+            size = 5
 
         }
-
         moon = {
             name = "Repplic IX"
             class = random
-            orbit_distance = 3
-            orbit_angle = 276
+            orbit_distance = 2.5
+            orbit_angle = 124
             has_ring = no
+            size = 6
 
         }
+        moon = {
+            name = "Repplic X"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 288
+            has_ring = no
+            size = 4
+
+        }
+        moon = {
+            name = "Repplic XXII"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 89
+            has_ring = no
+            size = 5
+
+        }
+
     }
 
     planet = {
         name = "Csorb"
         class = "pc_frozen"
-        orbit_distance = 61
+        orbit_distance = 90
         orbit_angle = 22
         size = 24
         has_ring = no
 
 
         moon = {
-            name = "Csorb II"
+            name = "Csorb Minor"
             class = random
             orbit_distance = 10
             orbit_angle = 43
             has_ring = no
+            size = 3
 
         }
 
         moon = {
-            name = "Csorb III"
+            name = "Csorb Major"
             class = random
             orbit_distance = 10
             orbit_angle = 268
             has_ring = no
+            size = 5
 
         }
     }
@@ -301,7 +331,7 @@ csilla_system_initializer = {
     planet = {
         name = "Formac"
         class = "pc_frozen"
-        orbit_distance = 109
+        orbit_distance = 50
         orbit_angle = 261
         size = 16
         has_ring = no

@@ -166,23 +166,26 @@ duro_system_initializer= {
         orbit_distance = 89
         orbit_angle = 196
         has_ring = no
+	size = 10
 
 
         moon = {
-	    name = "Koli II"
+	    name = "Koli Major"
             class = random
             orbit_distance = 14
             orbit_angle = 227
             has_ring = no
+	    size = 6
 
         }
 
         moon = {
-	    name = "Koli III"
+	    name = "Koli Minor"
             class = random
             orbit_distance = 14
             orbit_angle = 149
             has_ring = no
+	    size = 3
 
         }
     }

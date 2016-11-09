@@ -181,7 +181,7 @@ alderaan_system_initializer = {
 
 
         moon = {
-			name = "Avirandel Minor"
+	    name = "Avirandel Minor"
             class = random
             orbit_distance = 10
             orbit_angle = 262

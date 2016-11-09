@@ -3,6 +3,7 @@ tython_system_initializer = {
     class = "sc_k"
 
     planet = {
+        name = "Tythos"
         class = "pc_k_star"
         orbit_distance = 0
         size = 20
@@ -40,7 +41,7 @@ tython_system_initializer = {
 
     planet = {
         name = "Krev Coeur"
-        class = "pc_barren"
+        class = "pc_arid"
         orbit_distance = 17
         orbit_angle = 106
         size = 11
@@ -251,7 +252,6 @@ tython_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Bogan"
             class = "pc_nuked"
@@ -261,6 +261,7 @@ tython_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
@@ -281,7 +282,6 @@ tython_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Ahemait"
             class = "pc_barren_cold"
@@ -291,7 +291,6 @@ tython_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Ashvin"
             class = "pc_arctic"
@@ -301,6 +300,7 @@ tython_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
@@ -320,6 +320,7 @@ tython_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
@@ -340,6 +341,7 @@ tython_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
@@ -360,7 +362,6 @@ tython_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Zerist"
             class = "pc_barren_cold"
@@ -370,9 +371,8 @@ tython_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
-			name = "Alakor"
+	    name = "Alakor"
             class = "pc_barren_cold"
             orbit_distance = 13
             orbit_angle = 206
@@ -380,6 +380,7 @@ tython_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
@@ -400,26 +401,61 @@ tython_system_initializer = {
             has_ring = no
 
         }
-
         moon = {
             name = "Anapel II"
             class = "pc_ocean"
-            orbit_distance = 8
+            orbit_distance = 2.5
             orbit_angle = 7
             size = 6
             has_ring = no
 
         }
-
         moon = {
             name = "Anapel III"
             class = "pc_barren_cold"
-            orbit_distance = 4
+            orbit_distance = 2.5
             orbit_angle = 279
             size = 5
             has_ring = no
 
         }
+        moon = {
+            name = "Anapel IV"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 133
+            size = 3
+            has_ring = no
+
+        }
+        moon = {
+            name = "Anapel V"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 78
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Anapel VI"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 165
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Anapel VII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 376
+            size = 6
+            has_ring = no
+
+        }
+
     }
 
     planet = {

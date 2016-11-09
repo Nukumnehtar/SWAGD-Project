@@ -1,8 +1,10 @@
 anaxes_system_initializer = {
-    name = "Anaxes"
+    name = "Axum (Anaxes)"
     class = "rl_standard_stars"
 	flags = {anaxes}
+
     planet = {
+        name = "Solis Axum"
         class = star
         orbit_distance = 0
         size = 20
@@ -28,7 +30,7 @@ anaxes_system_initializer = {
 
 
         moon = {
-			name = "Grastes Minor"
+	    name = "Grastes Minor"
             class = random
             orbit_distance = 10
             orbit_angle = 180
@@ -48,7 +50,7 @@ anaxes_system_initializer = {
 
 
         moon = {
-			name = "Axum II"
+	    name = "Axum Major"
             class = random
             orbit_distance = 10
             orbit_angle = 180
@@ -58,11 +60,12 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Axum III"
+	    name = "Axum Minor"
             class = random
-            orbit_distance = 0
-            orbit_angle = 0
+            orbit_distance = 4
+            orbit_angle = 6
             has_ring = no
+	    size = 3
 
         }
     }
@@ -196,7 +199,7 @@ anaxes_system_initializer = {
 
 
         moon = {
-			name = "Anaxes Minor"
+	    name = "Anaxes Minor"
             class = random
             orbit_distance = 10
             orbit_angle = 180
@@ -215,7 +218,7 @@ anaxes_system_initializer = {
 
 
         moon = {
-			name = "Urfon II"
+	    name = "Urfon Minor"
             class = random
             orbit_distance = 10
             orbit_angle = 180
@@ -235,7 +238,7 @@ anaxes_system_initializer = {
 
 
         moon = {
-			name = "Phlors Rex II"
+	    name = "Rex I"
             class = random
             orbit_distance = 7
             orbit_angle = 186
@@ -245,7 +248,7 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Phlors Rex III"
+	    name = "Rex II"
             class = random
             orbit_distance = 5
             orbit_angle = 289
@@ -255,7 +258,7 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Phlors Rex IV"
+	    name = "Rex III"
             class = random
             orbit_distance = 2
             orbit_angle = 63
@@ -265,7 +268,7 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Phlors Rex V"
+	    name = "Rex IV"
             class = random
             orbit_distance = 3
             orbit_angle = 63
@@ -275,7 +278,7 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Phlors Rex VI"
+	    name = "Rex V"
             class = random
             orbit_distance = 5
             orbit_angle = 228
@@ -285,7 +288,7 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Phlors Rex VII"
+	    name = "Rex VI"
             class = random
             orbit_distance = 6
             orbit_angle = 131
@@ -295,11 +298,21 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Phlors Rex VIII"
+	    name = "Rex VII"
             class = random
             orbit_distance = 5
             orbit_angle = 216
             size = 3
+            has_ring = no
+
+        }
+
+        moon = {
+	    name = "Rex XVIII"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 120
+            size = 4
             has_ring = no
 
         }
@@ -315,7 +328,7 @@ anaxes_system_initializer = {
 
 
         moon = {
-			name = "Regina II"
+	    name = "Regina I"
             class = random
             orbit_distance = 9
             orbit_angle = 169
@@ -325,7 +338,7 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Regina III"
+	    name = "Regina II"
             class = random
             orbit_distance = 4
             orbit_angle = 301
@@ -335,7 +348,7 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Regina IV"
+	    name = "Regina III"
             class = random
             orbit_distance = 4
             orbit_angle = 87
@@ -345,7 +358,7 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Regina V"
+	    name = "Regina IV"
             class = random
             orbit_distance = 2
             orbit_angle = 234
@@ -355,7 +368,7 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Regina VI"
+	    name = "Regina V"
             class = random
             orbit_distance = 6
             orbit_angle = 100
@@ -365,11 +378,21 @@ anaxes_system_initializer = {
         }
 
         moon = {
-			name = "Regina VII"
+	    name = "Regina VI"
             class = random
             orbit_distance = 5
             orbit_angle = 326
             size = 4
+            has_ring = no
+
+        }
+
+        moon = {
+	    name = "Regina XV"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 103
+            size = 5
             has_ring = no
 
         }
