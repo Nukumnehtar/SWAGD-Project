@@ -1,9 +1,10 @@
 rodia_system_initializer = {
-    name = "Tyrius"
+    name = "Tyrius (Rodia)"
     class = "rl_standard_stars"
 	flags={rodian}
 
     planet = {
+        name = "Tyrius"
         class = star
         orbit_distance = 0
         size = 40

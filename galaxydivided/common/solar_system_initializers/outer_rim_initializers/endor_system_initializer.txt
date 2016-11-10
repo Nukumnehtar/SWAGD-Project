@@ -4,26 +4,9 @@ endor_system_initializer = {
     asteroids_distance = 160
 
     planet = {
-        class = none
+        name = "Ibleam"
+        class = star
         orbit_distance = 0
-        size = 15
-    }
-
-    planet = {
-        name = "Endor I"
-        class = star
-        orbit_distance = 12
-        orbit_angle = 308
-        size = 15
-        has_ring = no
-
-    }
-
-    planet = {
-        name = "Endor II (Ibleam)"
-        class = star
-        orbit_distance = 12
-        orbit_angle = 186
         size = 18
         has_ring = no
 

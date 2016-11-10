@@ -1,5 +1,5 @@
 ossus_system_initializer = {
-    name = "Adega"
+    name = "Adega (Ossus)"
     class = "rl_standard_stars"
 
     planet = {

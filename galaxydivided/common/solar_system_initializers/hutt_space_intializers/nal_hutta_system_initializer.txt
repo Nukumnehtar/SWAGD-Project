@@ -1,11 +1,12 @@
 nal_hutta_system_initializer = {
-    name = "Y'Toub"
+    name = "Y'Toub (Nal Hutta)"
     class = "sc_g"
 	flags = {hutt_clans}
 	usage = custom_empire
 	max_instances = 1
 
     planet = {
+        name = "Y'Toub"
         class = "pc_g_star"
         orbit_distance = 0
         size = 20

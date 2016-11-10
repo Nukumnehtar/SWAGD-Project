@@ -699,7 +699,7 @@ static_galaxy_scenario = {
 					}}
 		system = { id = "720" name = "Serroco" position = { x = -107 y = -101 } }
 		system = { id = "722" name = "Aquaris" position = { x = -126 y = -93 } }
-		system = { id = "725" name = "Alpheridies" position = { x = -152 y = -77 } }
+		system = { id = "725" name = "Alpheridies" position = { x = -152 y = -77 } initializer = alpheridies_system_initializer}
 		system = { id = "726" name = "Thisspias" position = { x = -147 y = -73 } }
 		system = { id = "728" name = "Von-Alai" position = { x = -161 y = -63 } }
 		system = { id = "729" name = "Sermeria" position = { x = -157 y = -46 } }
@@ -1489,7 +1489,7 @@ static_galaxy_scenario = {
 		system = { id = "430" name = "Syngia" position = { x = -288 y = -189 } }
 		system = { id = "431" name = "Yutusk" position = { x = -292 y = -192 } }
 		system = { id = "432" name = "Sembla" position = { x = -301 y = -183 } }
-		system = { id = "433" name = "Telos" position = { x = -213 y = -240 } }
+		system = { id = "433" name = "Telos" position = { x = -213 y = -240 }initializer = telos_system_initializer}
 		system = { id = "434" name = "Tantive" position = { x = -219 y = -246 } }
 		system = { id = "435" name = "Listehol" position = { x = -225 y = -248 } }
 		system = { id = "438" name = "Mirial" position = { x = -229 y = -237 } initializer = mirial_system_initializer}
@@ -1516,7 +1516,7 @@ static_galaxy_scenario = {
 		system = { id = "468" name = "Felucia" position = { x = -286 y = -160 } }
 		system = { id = "469" name = "Mossak" position = { x = -285 y = -155 } }
 		system = { id = "471" name = "Thanium" position = { x = -291 y = -162 } }
-		system = { id = "472" name = "Rhen Var" position = { x = -278 y = -148 } }
+		system = { id = "472" name = "Rhen Var" position = { x = -278 y = -148 }initializer = rhen_var_system_initializer}
 		system = { id = "473" name = "Belderone" position = { x = -285 y = -131 } }
 		system = { id = "475" name = "Columex" position = { x = -284 y = -138 } }
 		system = { id = "476" name = "Antemeridias" position = { x = -271 y = -114 } }
