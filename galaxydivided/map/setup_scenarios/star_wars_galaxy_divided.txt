@@ -917,7 +917,7 @@ static_galaxy_scenario = {
 		system = { id = "896" name = "Vaced" position = { x = 69 y = -93 } }
 		system = { id = "898" name = "Dalron" position = { x = 65 y = -139 } }
 		system = { id = "899" name = "Keitum" position = { x = 69 y = -134 } }
-		system = { id = "900" name = "Iridonia" position = { x = 48 y = -123 } }
+		system = { id = "900" name = "Iridonia" position = { x = 48 y = -123 } initializer = iridonia_system_initializer}
 		system = { id = "901" name = "Fornax" position = { x = 42 y = -111 } }
 		system = { id = "902" name = "Vortex" position = { x = 38 y = -93 } }
 		system = { id = "903" name = "Nentan" position = { x = 29 y = -98 } }
@@ -1035,7 +1035,7 @@ static_galaxy_scenario = {
 		system = { id = "1014" name = "Ubrikkia" position = { x = -250 y = 27 } }
 		system = { id = "1015" name = "Blimph" position = { x = -229 y = 19 } }
 		system = { id = "1016" name = "Yitabo" position = { x = -248 y = 12 } }
-		system = { id = "1017" name = "Chalacta" position = { x = -275 y = 9 } }
+		system = { id = "1017" name = "Chalacta" position = { x = -275 y = 9 } initializer = chalacta_system_initializer}
 		system = { id = "1019" name = "Thoksia" position = { x = -229 y = 128 } }
 		system = { id = "1020" name = "Shador" position = { x = -226 y = 132 } }
 		system = { id = "1021" name = "Chokan" position = { x = -219 y = 139 } }
@@ -1658,7 +1658,7 @@ static_galaxy_scenario = {
 						 has_country_flag = kamino_council
 						}
 					}}
-		system = { id = "1066" name = "Malachor" position = { x = -302 y = -220 } }
+		system = { id = "1066" name = "Malachor" position = { x = -302 y = -220 } initializer = malachor_system_initializer}
 		system = { id = "1068" name = "Florrum" position = { x = -277 y = -185 } }
 		system = { id = "2000" name = "Dolla" position = { x = -11 y = 354 } }
 		system = { id = "2001" name = "Rishi" position = { x = -301 y = 219 } }
