@@ -1,7 +1,6 @@
 telos_system_initializer = {
     name = "Telos"
     class = "rl_standard_stars"
-	flags = { taris }
     asteroids_distance = 30
 
     planet = {
@@ -42,7 +41,7 @@ telos_system_initializer = {
 
     planet = {
         name = "Telos IV"
-        class = "pc_barren"
+        class = "pc_continental"
         orbit_distance = 20
         orbit_angle = 180
         size = 20
