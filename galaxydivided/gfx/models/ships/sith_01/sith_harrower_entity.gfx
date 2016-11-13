@@ -17,8 +17,8 @@ objectTypes = {
 			name = "LightsShape"
 			index = 0
 			texture_diffuse = "sith_harrower_lights_diffuse.dds"
-			texture_normal = "sith_harrower_lights_normal2.dds"
-			texture_specular = "sith_harrower_lights_normal2.dds"
+			texture_normal = "sith_harrower_lights_normal.dds"
+			texture_specular = "sith_harrower_lights_specular.dds"
 			shader = "PdxMeshAlphaAdditive"
 		}
 	}

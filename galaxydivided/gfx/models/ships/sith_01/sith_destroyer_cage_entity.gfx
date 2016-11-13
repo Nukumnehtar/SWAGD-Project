@@ -1,0 +1,25 @@
+objectTypes = {
+	pdxmesh = {
+		name = "sith_destroyer_cage_entity_mesh"
+		file = "gfx/models/ships/sith_01/sith_destroyer_cage_entity.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "Sith_Terminus_Cage:HullShape"
+			index = 0
+			texture_diffuse = "sith_frigate_diffuse.dds"
+			texture_normal = "sith_frigate_normal.dds"
+			texture_specular = "sith_frigate_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Sith_Terminus_Cage:LightsShape"
+			index = 0
+			texture_diffuse = "sith_terminus_frigate_lights.dds"
+			texture_normal = "sith_terminus_frigate_lights_normal.dds"
+			texture_specular = "sith_terminus_frigate_lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}

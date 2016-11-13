@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "sith_fury_entity_mesh"
+		file = "gfx/models/ships/sith_01/sith_fury_entity.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "Sith_Fury:Wing_TLShape"
+			index = 0
+			texture_diffuse = "sith_fury_diffuse.dds"
+			texture_normal = "sith_fury_normal.dds"
+			texture_specular = "sith_fury_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

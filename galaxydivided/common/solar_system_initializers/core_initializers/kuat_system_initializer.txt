@@ -71,7 +71,9 @@ kuat_system_initializer = {
 
     planet = {
         name = "Kuat"
-        class = "pc_continental"
+		class = "kuat_shipyards" 			# rwc planet class
+		entity = "planetary_ring1_entity" 	# planets dont inherit entity from class like stars do, need to manually set it, can be different from class!
+		entity_scale = 0.02	
         orbit_distance = 25
         orbit_angle = 85
         size = 20
@@ -83,6 +85,10 @@ kuat_system_initializer = {
 			prevent_anomaly = yes
 		}		
 		init_effect = {
+			add_modifier = {
+			modifier = "orbital_shipyards" 
+			
+			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
@@ -195,11 +201,10 @@ kuat_system_initializer = {
 				}				
 			}			
 		}
-
-
+       
         moon = {
             name = "Bador"
-            class = "pc_barren_cold"
+            class = "pc_barren"
             orbit_distance = 10
             orbit_angle = 180
             size = 8
@@ -227,7 +232,7 @@ kuat_system_initializer = {
 
 
         moon = {
-            name = "Gortis I"
+            name = "Gortis II"
             class = random
             orbit_distance = 9
             orbit_angle = 172
@@ -237,7 +242,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Gortis II"
+            name = "Gortis III"
             class = random
             orbit_distance = 5
             orbit_angle = 212
@@ -247,7 +252,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Gortis III"
+            name = "Gortis IV"
             class = random
             orbit_distance = 6
             orbit_angle = 243
@@ -267,7 +272,7 @@ kuat_system_initializer = {
 
 
         moon = {
-            name = "Rasapan I"
+            name = "Rasapan II"
             class = random
             orbit_distance = 8
             orbit_angle = 70
@@ -277,7 +282,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan II"
+            name = "Rasapan III"
             class = random
             orbit_distance = 4
             orbit_angle = 150
@@ -287,7 +292,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan III"
+            name = "Rasapan IV"
             class = random
             orbit_distance = 4
             orbit_angle = 187
@@ -297,7 +302,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan IV"
+            name = "Rasapan V"
             class = random
             orbit_distance = 3
             orbit_angle = 244
@@ -307,7 +312,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan V"
+            name = "Rasapan VI"
             class = random
             orbit_distance = 3
             orbit_angle = 226
@@ -317,7 +322,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan VI"
+            name = "Rasapan VII"
             class = random
             orbit_distance = 3
             orbit_angle = 264
@@ -327,7 +332,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan VII"
+            name = "Rasapan VIII"
             class = random
             orbit_distance = 3
             orbit_angle = 180
@@ -337,38 +342,11 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan VIII"
+            name = "IX"
             class = random
             orbit_distance = 4
             orbit_angle = 322
             size = 7
-            has_ring = no
-
-        }
-        moon = {
-            name = "Rasapan IX"
-            class = random
-            orbit_distance = 3
-            orbit_angle = 322
-            size = 4
-            has_ring = no
-
-        }
-        moon = {
-            name = "Rasapan X"
-            class = random
-            orbit_distance = 3
-            orbit_angle = 322
-            size = 5
-            has_ring = no
-
-        }
-        moon = {
-            name = "Rasapan XXII"
-            class = random
-            orbit_distance = 10
-            orbit_angle = 322
-            size = 5
             has_ring = no
 
         }

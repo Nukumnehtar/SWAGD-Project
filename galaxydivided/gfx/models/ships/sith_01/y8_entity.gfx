@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "y8_entity_mesh"
+		file = "gfx/models/ships/sith_01/y8_entity.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "Y8:Box01Shape"
+			index = 0
+			texture_diffuse = "Y8_diffuse.dds"
+			texture_normal = "Y8_normal.dds"
+			texture_specular = "Y8_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
