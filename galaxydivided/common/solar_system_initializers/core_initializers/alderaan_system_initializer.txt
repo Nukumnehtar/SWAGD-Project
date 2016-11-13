@@ -21,7 +21,7 @@ alderaan_system_initializer = {
 
     planet = {
         name = "Alderaan"
-        class = "pc_continental"
+        class = "pc_alpine"
         orbit_distance = 43
         orbit_angle = 291
         size = 20

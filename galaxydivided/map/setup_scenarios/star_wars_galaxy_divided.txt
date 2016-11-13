@@ -1460,7 +1460,7 @@ static_galaxy_scenario = {
 		system = { id = "400" name = "Trassitan" position = { x = -10 y = -278 } }
 		system = { id = "401" name = "Veragi" position = { x = -16 y = -283 } }
 		system = { id = "402" name = "Plesstil" position = { x = -16 y = -288 } }
-		system = { id = "403" name = "Dantooine" position = { x = 0 y = -235 } }
+		system = { id = "403" name = "Dantooine" position = { x = 0 y = -235 } initializer = dantooine_system_initializer}
 		system = { id = "404" name = "Sinsang" position = { x = -8 y = -230 } }		
 		system = { id = "409" name = "Ruuria" position = { x = -244 y = -255 } }
 		system = { id = "410" name = "Tiss'sharl" position = { x = -260 y = -251 } }

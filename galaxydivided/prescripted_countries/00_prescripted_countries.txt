@@ -244,7 +244,7 @@
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Alderaan"
-	planet_class="pc_continental"
+	planet_class="pc_alpine"
 	system_name="Alderaan"
 	initializer=""
 	graphical_culture="republic_01"
