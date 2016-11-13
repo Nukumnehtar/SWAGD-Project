@@ -201,11 +201,7 @@ kuat_system_initializer = {
 				}				
 			}			
 		}
-<<<<<<< HEAD
-       
-=======
 
->>>>>>> origin/master
         moon = {
             name = "Bador"
             class = "pc_barren"
@@ -236,7 +232,7 @@ kuat_system_initializer = {
 
 
         moon = {
-            name = "Gortis II"
+            name = "Gortis I"
             class = random
             orbit_distance = 9
             orbit_angle = 172
@@ -246,7 +242,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Gortis III"
+            name = "Gortis II"
             class = random
             orbit_distance = 5
             orbit_angle = 212
@@ -256,7 +252,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Gortis IV"
+            name = "Gortis III"
             class = random
             orbit_distance = 6
             orbit_angle = 243
@@ -264,6 +260,7 @@ kuat_system_initializer = {
             has_ring = no
 
         }
+
     }
 
     planet = {
@@ -276,7 +273,7 @@ kuat_system_initializer = {
 
 
         moon = {
-            name = "Rasapan II"
+            name = "Rasapan I"
             class = random
             orbit_distance = 8
             orbit_angle = 70
@@ -286,7 +283,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan III"
+            name = "Rasapan II"
             class = random
             orbit_distance = 4
             orbit_angle = 150
@@ -296,7 +293,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan IV"
+            name = "Rasapan III"
             class = random
             orbit_distance = 4
             orbit_angle = 187
@@ -306,7 +303,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan V"
+            name = "Rasapan IV"
             class = random
             orbit_distance = 3
             orbit_angle = 244
@@ -316,7 +313,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan VI"
+            name = "Rasapan V"
             class = random
             orbit_distance = 3
             orbit_angle = 226
@@ -326,7 +323,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan VII"
+            name = "Rasapan VI"
             class = random
             orbit_distance = 3
             orbit_angle = 264
@@ -336,7 +333,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "Rasapan VIII"
+            name = "Rasapan VII"
             class = random
             orbit_distance = 3
             orbit_angle = 180
@@ -346,7 +343,7 @@ kuat_system_initializer = {
         }
 
         moon = {
-            name = "IX"
+            name = "Rasapan VIII"
             class = random
             orbit_distance = 4
             orbit_angle = 322
@@ -354,5 +351,33 @@ kuat_system_initializer = {
             has_ring = no
 
         }
+        moon = {
+            name = "Rasapan IX"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 322
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Rasapan X"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 322
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Rasapan XXII"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 322
+            size = 5
+            has_ring = no
+
+        }
+
     }
 }
