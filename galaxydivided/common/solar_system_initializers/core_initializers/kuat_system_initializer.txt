@@ -196,7 +196,6 @@ kuat_system_initializer = {
 			}			
 		}
 
-
         moon = {
             name = "Bador"
             class = "pc_barren_cold"
@@ -221,7 +220,7 @@ kuat_system_initializer = {
     planet = {
         name = "Gortis"
         class = "pc_barren_cold"
-        orbit_distance = 22
+        orbit_distance = 38
         orbit_angle = 324
         has_ring = no
 
@@ -260,7 +259,7 @@ kuat_system_initializer = {
     planet = {
         name = "Rasapan"
         class = "pc_gas_giant"
-        orbit_distance = 36
+        orbit_distance = 68
 	size = 17
         orbit_angle = 30
         has_ring = no
