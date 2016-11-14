@@ -2,8 +2,8 @@ static_galaxy_scenario = {
 	name = "Star Wars A Galaxy Divided"
 	priority = 0					#priority decides in which order the scenarios are listed
 	default = yes
-	num_empires = { min = 26 max = 40 }	#limits player customization
-	num_empire_default = 26
+	num_empires = { min = 27 max = 40 }	#limits player customization
+	num_empire_default = 27
 	fallen_empire_default = 1
 	fallen_empire_max = 1
 	advanced_empire_default = 0
