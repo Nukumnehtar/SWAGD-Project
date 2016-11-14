@@ -12,7 +12,7 @@ static_galaxy_scenario = {
 	##num_nebulas	= 6
 	##nebula_size = 60
 	##nebula_min_dist = 200
-	
+	###new ids after 2018
 
 	
 	##Deep Core
@@ -229,7 +229,7 @@ static_galaxy_scenario = {
 						 has_country_flag = rendili
 						}
 					}}
-
+		system = { id = "2025" name = "Hosnian" position = { x = -63 y = 116 } }
 
 
 		
@@ -304,7 +304,7 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "127" to = "128" }
 				add_hyperlane = { from = "128" to = "126" }
 				add_hyperlane = { from = "128" to = "132" }
-				add_hyperlane = { from = "132" to = "133" }
+
 				add_hyperlane = { from = "60" to = "61" }
 				add_hyperlane = { from = "72" to = "79" }
 				add_hyperlane = { from = "79" to = "96" }
@@ -332,7 +332,9 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "29" to = "45" }
 				add_hyperlane = { from = "29" to = "56" }
 				add_hyperlane = { from = "111" to = "107" }
-				add_hyperlane = { from = "77" to = "134" }				
+				add_hyperlane = { from = "77" to = "134" }
+				add_hyperlane = { from = "132" to = "2025" }
+				add_hyperlane = { from = "2025" to = "133" }				
 				
 				
 	
@@ -403,7 +405,7 @@ static_galaxy_scenario = {
 		system = { id = "207" name = "Koensayr" position = { x = -88 y = 101 } }
 		system = { id = "208" name = "Aquilae" position = { x = -90 y = 110 } }
 		system = { id = "209" name = "Havricus" position = { x = -88 y = 122 } }
-
+		system = { id = "2024" name = "Arkania" position = { x = -46 y = -43 } }
 
 
 
@@ -468,6 +470,8 @@ static_galaxy_scenario = {
 					add_hyperlane = { from = "160" to = "152" }
 					add_hyperlane = { from = "152" to = "144" }
 					add_hyperlane = { from = "208" to = "786" }
+					add_hyperlane = { from = "148" to = "2024" }
+					add_hyperlane = { from = "2024" to = "163" }
 							
 
 					
@@ -541,8 +545,9 @@ static_galaxy_scenario = {
 		system = { id = "808" name = "Virujansi" position = { x = -155 y = 22 } }
 		system = { id = "809" name = "Zeltros" position = { x = -148 y = 29 } initializer = zeltros_system_initializer}
 		system = { id = "811" name = "Rasterous" position = { x = -129 y = 38 } }
+		system = { id = "2018" name = "Manaan" position = { x = -134 y = 61 } }
 		system = { id = "1062" name = "Jakku" position = { x = 116 y = 133 } }
-
+		system = { id = "2021" name = "Kiffu" position = { x = -12 y = 181 } }
 
 
 
@@ -615,8 +620,9 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "144" to = "747" }
 				add_hyperlane = { from = "747" to = "1062" }
 				add_hyperlane = { from = "1062" to = "1048"}
-				
-				
+				add_hyperlane = { from = "811" to = "2018"}
+				add_hyperlane = { from = "2018" to = "702"}
+				add_hyperlane = { from = "759" to = "2021"}				
 				
 				
 				
@@ -707,6 +713,8 @@ static_galaxy_scenario = {
 		system = { id = "731" name = "Pirin" position = { x = -164 y = -47 } }
 		system = { id = "732" name = "Gizer" position = { x = -171 y = -48 } }
 		system = { id = "733" name = "Attahox" position = { x = -199 y = 92 } }
+		system = { id = "2019" name = "Shili" position = { x = -30 y = -80 } }
+		system = { id = "2030" name = "Kiros" position = { x = -22 y = -96 } }
 
 
 
@@ -791,6 +799,10 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "616" to = "627" }
 				add_hyperlane = { from = "657" to = "662" }    
 				add_hyperlane = { from = "634" to = "983" }
+				add_hyperlane = { from = "764" to = "2019" }
+				add_hyperlane = { from = "2019" to = "2030" }
+				add_hyperlane = { from = "2030" to = "936" }
+
 				
 					
 	##Hutt Space
@@ -861,7 +873,7 @@ static_galaxy_scenario = {
 		system = { id = "836" name = "Koba" position = { x = 82 y = 290 } }
 		system = { id = "837" name = "Riflor" position = { x = 77 y = 293 } }
 		system = { id = "838" name = "Chalcedon" position = { x = 89 y = 268 } }
-		system = { id = "839" name = "Tashtor Seneca" position = { x = 82 y = 266 } }
+		system = { id = "839" name = "Tashtor Seneca" position = { x = 85 y = 266 } }
 		system = { id = "840" name = "Halm" position = { x = 72 y = 265 } }
 		system = { id = "841" name = "Petabys Station" position = { x = 78 y = 265 } }
 		system = { id = "842" name = "Kaal" position = { x = 31 y = 312 } }
@@ -1056,9 +1068,9 @@ static_galaxy_scenario = {
 		system = { id = "1042" name = "Druckenwell" position = { x = -184 y = 224 } }
 		system = { id = "1067" name = "Makeb" position = { x = -236 y = 135 } }
 		system = { id = "2016" name = "Anzat" position = { x = -286 y = -87 } }
-
-
-
+		system = { id = "2020" name = "Haruun Kal" position = { x = -75 y = 297 } }
+		system = { id = "2022" name = "Katarr" position = { x = -162 y = -71 } }
+		system = { id = "2026" name = "Takodana" position = { x = 81 y = 266 } }
 
 
 
@@ -1248,7 +1260,7 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "845" to = "846" }
 				add_hyperlane = { from = "609" to = "840" }
 				add_hyperlane = { from = "840" to = "841" }
-				add_hyperlane = { from = "841" to = "839" }
+
 				add_hyperlane = { from = "839" to = "838" }
 				add_hyperlane = { from = "838" to = "833" }
 				add_hyperlane = { from = "833" to = "834" }
@@ -1259,7 +1271,12 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "848" to = "847" }			
 				add_hyperlane = { from = "976" to = "1012" }	
 				add_hyperlane = { from = "1067" to = "1019" }
-				
+				add_hyperlane = { from = "725" to = "2022" }
+				add_hyperlane = { from = "2022" to = "728" }
+				add_hyperlane = { from = "874" to = "2020" }
+				add_hyperlane = { from = "2020" to = "879" }
+				add_hyperlane = { from = "841" to = "2026" }
+				add_hyperlane = { from = "2026" to = "839" }
 				
 				
 	##Outer Rim
@@ -1675,7 +1692,15 @@ static_galaxy_scenario = {
 		system = { id = "2013" name = "Stenos" position = { x = -262 y = -171 } }
 		system = { id = "2014" name = "Maridun" position = { x = -215 y = -150 } }
 		system = { id = "2015" name = "The Maw" position = { x = -353 y = 5 } initializer = the_maw_system_initializer }
-
+		system = { id = "2023" name = "Peragus" position = { x = -251 y = -252 } }
+		system = { id = "2027" name = "Ileenium" position = { x = -142 y = 330 } }
+		system = { id = "2028" name = "Gree" position = { x = -2 y = -298 } }
+		system = { id = "2029" name = "Astion" position = { x = 4 y = -292 } }
+		system = { id = "2031" name = "Karazak" position = { x = -198 y = 407 } }
+		system = { id = "2032" name = "Cotellier" position = { x = -115 y = 437 } }
+		system = { id = "2033" name = "Vestar" position = { x = -109 y = 450 } }
+		system = { id = "2034" name = "Lasan" position = { x = -172 y = 425 } }
+		system = { id = "2035" name = "Elrood" position = { x = -66 y = 422 } }
 
 
 
@@ -1732,7 +1757,7 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "240" to = "241" }
 				add_hyperlane = { from = "241" to = "242" }
 				add_hyperlane = { from = "242" to = "232" }
-				add_hyperlane = { from = "232" to = "235" }
+
 				add_hyperlane = { from = "235" to = "236" }
 				add_hyperlane = { from = "236" to = "237" }
 				add_hyperlane = { from = "263" to = "251" }
@@ -2121,14 +2146,34 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "360" to = "362" }
 				add_hyperlane = { from = "456" to = "451" }
 				add_hyperlane = { from = "456" to = "455" }
-				
-				
-				
+				add_hyperlane = { from = "409" to = "2023" }
+				add_hyperlane = { from = "2023" to = "410" }
+				add_hyperlane = { from = "277" to = "2027" }
+				add_hyperlane = { from = "402" to = "2028" }						add_hyperlane = { from = "2028" to = "2029" }
+				add_hyperlane = { from = "283" to = "2031" }
+				add_hyperlane = { from = "275" to = "2032" }
+				add_hyperlane = { from = "2032" to = "2033" }
+				add_hyperlane = { from = "232" to = "2035" }
+				add_hyperlane = { from = "2035" to = "235" }
+				add_hyperlane = { from = "278" to = "2034" }					
 				
 				
 				
 							
+	##Wild Space
+		system = { id = "2036" name = "Lira San" position = { x = -199 y = 452 } }
+
+
+
+
+		##HYPERLANES
+				add_hyperlane = { from = "2034" to = "2036" }
+
+
+
+
 		
+
 	##Unknown Regions
 		system = { id = "1046" name = "Lwhekk" position = { x = 342 y = 267 }
 			initializer = lwhekk_system_initializer	
