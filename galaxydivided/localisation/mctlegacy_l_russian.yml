@@ -1,0 +1,42 @@
+﻿l_russian:
+
+ # Перевел Draft3dd (перевод посвящается ОсобоНубасену так как он редиска и нехороший человек)
+
+####################################
+ # Здесь должен быть текст дипломатии, но его нет :(
+ ####################################
+ 
+ # Общие настройки
+ DIRTY:1 "Некрофаги"
+ AQUATIC:1 "Гидрофитный"
+ EVIL:1 "Гибридный"
+ ASARI:1 "Азари"
+ FACTORY:1 "Кибернетический"
+ OVERGROWN:1 "Древний"
+ COVENANT:1 "Ковенант"
+ SANGHEILI:1 "Сангхейли"
+ TAU:1 "Тау"
+ name_list_DIRTY1: "Некрофаги"
+ name_list_AQUATIC1: "Гидрофитный"
+ name_list_EVIL1: "Гибридный"
+ name_list_ASARI1: "Азари"
+ name_list_FACTORY1: "Кибернетический"
+ name_list_OVERGROWN1: "Древний"
+ name_list_COVENANT1: "Ковенант"
+ name_list_SANGHEILI1: "Сангхейли"
+ name_list_TAU1: "Тау"
+ 
+ FALLENGOOD:0 "Светлая Угасшая Империя"
+ name_list_FALLENGOOD1:0 "Светлая Угасшая Империя"
+ 
+ FALLENGREEN:0 "Зеленая Угасшая Империя"
+ name_list_FALLENGREEN1:0 "Зеленая Угасшая Империя"
+ 
+ FALLENRED:0 "Красная Угасшая Империя"
+ name_list_FALLENRED1:0 "Красная Угасшая Империя"
+ 
+ FALLENEVIL:0 "Темная Угасшая Империя"
+ name_list_FALLENEVIL1:0 "Темная Угасшая Империя"
+ 
+ FALLENHUMAN:0 "Угасшая Империя Людей"
+ name_list_FALLENHUMAN1:0 "Угасшая Империя Людей"

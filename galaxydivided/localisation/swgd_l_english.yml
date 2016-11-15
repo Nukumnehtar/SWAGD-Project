@@ -13,6 +13,15 @@
  mando: "Mandalorian"
  SWGD_humanoid: "Humanoid"
  SWGD: "Humanoid"
+ 
+ orbital_shipyards: "Orbital Shipyard" 
+ orbital_shipyards: "This planet has a shipyard encircling the planet, providing a production boost for spacecraft."
+ 
+ kuat_shipyards: "Orbital Shipyard"
+ kuat_shipyards_desc: "The famous Kuat Drive Yards is a group of connected space stations that orbit and completely encircle the planet Kuat as an immense ring."
+ kuat_shipyards_tile:0 "Temperate Terrain"
+ kuat_shipyards_tile_desc:0 "Diverse forested terrain with a mild climate."
+ 
  prethoryn_scourge_chain_desc:0 "Our galaxy has been invaded by a ravenous swarm of spacefaring creatures that seem intent on consuming all life in their path. The rampage of these Yuuzhan Vong invaders must be stopped before their numbers overwhelm us."
 CAPTURE_QUEEN_DESC:0 "After a recent space battle in the [queen_system.GetName] system, a Yuuzhan Vong Queen was badly injured and left for dead by the rest of the Vong. The creature is still alive, however. Capturing it would be a major intelligence coup."
  
@@ -43,8 +52,9 @@ trait_ruler_immortal_desc:0 "This character is immortal, whether naturally or th
 
  
  sith.2.name:0 "The Immortal Emperor"
- sith.2.desc:0 "Over the course of the thousand years following the Great Hyperspace War, the Sith Empire recovered its strength. The Emperor developed a massive Imperial military, a fleet of advanced warships, and undertook dark rituals which prolonged his life and his undisputed rule."
+ sith.2.desc:0 "Over the course of the thousand years following the Great Hyperspace War, the Sith Empire began to recover its strength. The Emperor set in motion plans to construct a massive Imperial military, a fleet of advanced warships, and undertook dark rituals which prolonged his life and his undisputed rule."
  sith.2.a:0 "There is no death; there is only the Force-and I am its master."
+
 
  republic.1.name:0 "The Republic"
  republic.1.desc:0 "nigga please this tech"

@@ -2,7 +2,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "harrower_entity_mesh"
 		file = "gfx/models/ships/sith_01/sith_harrower_entity.mesh"
-		scale = 1.0
+		scale = 0.8
 
 		meshsettings = {
 			name = "Turret_BaseShape"

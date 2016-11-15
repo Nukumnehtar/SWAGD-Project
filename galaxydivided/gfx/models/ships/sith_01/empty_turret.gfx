@@ -1,6 +1,6 @@
 objectTypes = {
 	pdxmesh = {
-		name = "st_empty_turret_mesh"
+		name = "empty_turret_mesh"
 		file = "gfx/models/ships/sith_01/empty_turret.mesh"
 		scale = 1.0
 	}

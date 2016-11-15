@@ -2,7 +2,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "phantom_entity_mesh"
 		file = "gfx/models/ships/sith_01/phantom_entity.mesh"
-		scale = 0.5
+		scale = 0.4
 
 		meshsettings = {
 			name = "Phantom:HullShape"

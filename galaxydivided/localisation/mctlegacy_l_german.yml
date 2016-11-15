@@ -22,3 +22,18 @@
  name_list_COVENANT1: "Covenant 1"
  name_list_SANGHEILI1: "Sangheili 1"
  name_list_TAU1: "Tau 1"
+ 
+ FALLENGOOD:0 "Fallen Empire Good"
+ name_list_FALLENGOOD1:0 "Fallen Empire 1"
+ 
+ FALLENGREEN:0 "Fallen Empire Green"
+ name_list_FALLENGREEN1:0 "Fallen Empire 2"
+ 
+ FALLENRED:0 "Fallen Empire Red"
+ name_list_FALLENRED1:0 "Fallen Empire 3"
+ 
+ FALLENEVIL:0 "Fallen Empire Evil"
+ name_list_FALLENEVIL1:0 "Fallen Empire 4"
+ 
+ FALLENHUMAN:0 "Fallen Empire Human"
+ name_list_FALLENHUMAN1:0 "Fallen Empire Hum"

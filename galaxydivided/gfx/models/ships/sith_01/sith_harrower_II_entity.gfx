@@ -2,7 +2,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "sith_harrower_II_entity_mesh"
 		file = "gfx/models/ships/sith_01/sith_harrower_II_entity.mesh"
-		scale = 2.0
+		scale = 1.0
 
 		meshsettings = {
 			name = "Sith_Harrower_II:Star_DestroyerShape"

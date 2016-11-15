@@ -2,7 +2,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "y8_entity_mesh"
 		file = "gfx/models/ships/sith_01/y8_entity.mesh"
-		scale = 1.0
+		scale = 0.4
 
 		meshsettings = {
 			name = "Y8:Box01Shape"
