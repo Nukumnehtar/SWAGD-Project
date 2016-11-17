@@ -76,11 +76,22 @@ guiTypes = {
 			format = left
 		}
 
+		containerWindowType = {
+			name = "setting_bg_box"
+			size = { width = 150 height = 265 }
+			position = { x = 12 y = 50 }
+			
+				background = {
+					name = "choose_race_cat_bg"
+					spriteType = "GFX_tiles_frame"
+				}
+		}
+		
 		smoothListboxType = {
 			name = "categories"
-			position = { x = 12 y = 50 }
+			position = { x = 12 y = 52 }
 			size = { x = 150 y = 265 }
-			backGround = "GFX_tiles_frame"
+			backGround = ""
 			scrollbarType = "standardlistbox_slider"
 			borderSize = { x = 0 y = 0 }
 			orientation = "UPPER_LEFT"
@@ -145,7 +156,7 @@ guiTypes = {
 	###
 	containerWindowType = {
 		name = "species_portrait_category_entry"
-		size = { width = 152 height = 34 }
+		size = { width = 152 height = 28 }
 		
 		background = {
 			name = "background"
@@ -156,15 +167,15 @@ guiTypes = {
 		buttonType = {
 			name = "selected"
 			spriteType = "GFX_glow_tile_orange"
-			position = { x = -1 y = 0 }
-			size = { x = 152 y = 38 }
+			position = { x = -1 y = -3 }
+			size = { x = 152 y = 36 }
 			alwaysTransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "label"
 			font = "malgun_goth_24"
-			position = { x = 10 y = 7 }
+			position = { x = 10 y = 2 }
 			maxWidth = 132
 			text =	 "CAT_NAME"
 			format = left
@@ -304,33 +315,6 @@ guiTypes = {
 			size = { x = 300 y = 24 }
 			font = "malgun_goth_24"
 		}
-		
-		instantTextBoxType = {
-			name = "lblbio"
-			font = "malgun_goth_24"
-			position = { x = 395 y = 5 }
-			maxWidth = 400
-			text =	 "BIOGRAPHY"
-			alwaysTransparent = yes
-		}			
-		containerWindowType = {
-			name = "black_background_box_01"
-			size = { width = 295 height = 300 }
-			position = { x = 400 y = 35 }
-			
-			background = {
-				name = "black"
-				spriteType = "GFX_tiles_dark_area_cut_8"
-				alwaysTransparent = yes
-			}
-		}
-		editBoxType = {
-			name = "bio"
-			position = { x = 405 y = 38 }
-			size = { x = 280 y = 300 }
-			font = "cg_16b"
-			allow_multi_line = yes
-		}
 
 		###
 		instantTextBoxType = {
@@ -361,6 +345,33 @@ guiTypes = {
 			pdx_tooltip = "EDIT_SPECIES_NAME_GENERATE_ADJECTIVE"
 		}
 		
+		###
+		instantTextBoxType = {
+			name = "lblbio"
+			font = "malgun_goth_24"
+			position = { x = 395 y = 5 }
+			maxWidth = 400
+			text =	 "BIOGRAPHY"
+			alwaysTransparent = yes
+		}			
+		containerWindowType = {
+			name = "black_background_box_01"
+			size = { width = 295 height = 300 }
+			position = { x = 400 y = 35 }
+			
+			background = {
+				name = "black"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+				alwaysTransparent = yes
+			}
+		}
+		editBoxType = {
+			name = "bio"
+			position = { x = 405 y = 38 }
+			size = { x = 280 y = 300 }
+			font = "cg_16b"
+			allow_multi_line = yes
+		}		
 			
 		buttonType = {
 			name = "cancel"
@@ -619,7 +630,7 @@ guiTypes = {
 				font = "malgun_goth_24"
 				position = { x = 10 y = 5 }
 				maxWidth = 230
-				text =	 "Resilient"
+				text =	 ""
 				format = left
 				alwaysTransparent = yes
 				#text_color_code = "E"
@@ -630,7 +641,7 @@ guiTypes = {
 				font = "cg_16b"
 				position = { x = 10 y = 40 }
 				maxWidth = 395
-				text =	 "Text describing the trait you have currently chosen. Lorem ipsum dolar sit amet, Lorem ipsum dolar sit amet, Lorem ipsum dolar sit amet, Lorem ipsum dolar sit amet"
+				text = ""
 				format = left
 				#alwaysTransparent = yes
 				text_color_code = "L"
@@ -641,7 +652,7 @@ guiTypes = {
 				font = "cg_16b"
 				position = { x = 10 y = 100 }
 				maxWidth = 395
-				text =	 "+10% to Planet Habitability"
+				text =	 ""
 				format = left
 				#alwaysTransparent = yes
 			}
@@ -743,7 +754,7 @@ guiTypes = {
 			name = "name"
 			font = "malgun_goth_24"
 			position = { x = 40 y = 6 }
-			maxWidth = 190Â§Â§
+			maxWidth = 190§§
 			maxHeight = 20
 			text =	 "Resilient"
 			format = left
@@ -1543,7 +1554,7 @@ guiTypes = {
 				maxWidth = 290
 				text = ""
 				format = left
-				#Â§galwaysTransparent = yes
+				#§galwaysTransparent = yes
 				text_color_code = "L"
 			}
 
@@ -1855,7 +1866,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ethic_points_left"
-				position = { x = -70 y = 94 }
+				position = { x = -85 y = 70 }
 				font = "malgun_goth_24"
 				maxWidth = 220
 				maxHeight = 20
@@ -1865,338 +1876,135 @@ guiTypes = {
 				#alwaysTransparent = yes
 			}
 
-			
-			
-	        ####Traditions####
-					
-			
-#			buttonType = {
-#				name = "ethic_energy"
-#				spriteType = "GFX_ethic_energy"				
-#				position = { x = 140 y = 124 }
-#				clicksound = interface
-#			}				
-		
-			
-			buttonType = {
-				name = "ethic_space_engineering"
-				spriteType = "GFX_ethic_space_engineering"
-				position = { x = 100 y = 165 }
-				clicksound = interface
-			}
-			
-			buttonType = {
-				name = "ethic_education"
-				spriteType = "GFX_ethic_education"
-				position = { x = 123 y = 140 }
-				clicksound = interface
-			}
-			
-			buttonType = {
-				name = "ethic_transport"
-				spriteType = "GFX_ethic_transport"
-				position = { x = 157 y = 140 }
-				clicksound = interface
-			}	
-			
-			buttonType = {
-				name = "ethic_medicine"
-				spriteType = "GFX_ethic_medicine"
-				position = { x = 180 y = 165 }
-				clicksound = interface
-			}			
+			### NON-FANATIC ETHICS ###
 
 			buttonType = {
-				name = "ethic_comms"
-				spriteType = "GFX_ethic_comms"
-				position = { x = 157 y = 223 }
-				clicksound = interface
-			}	
-			
-			buttonType = {
-				name = "ethic_culture"
-				spriteType = "GFX_ethic_culture"
-				position = { x = 180 y = 197 }
-				clicksound = interface
-			}		
-
-			buttonType = {
-				name = "ethic_hospitality"
-				spriteType = "GFX_ethic_hospitality"
-				position = { x = 123 y = 223 }
-				clicksound = interface
-			}		
-
-			buttonType = {
-				name = "ethic_land_engineering"
-				spriteType = "GFX_ethic_land_engineering"				
-				position = { x = 100 y = 197 }
-				clicksound = interface
-			}					
-
-			
-			buttonType = {
-				name = "ethic_light_side"
-				spriteType = "GFX_ethic_light_side"
-				position = { x = 140 y = 165 }
-				clicksound = interface
-			}
-			
-			buttonType = {
-				name = "ethic_dark_side"
-				spriteType = "GFX_ethic_dark_side"
-				position = { x = 140 y = 197 }
-				clicksound = interface
-			}
-
-			
-		
-			
-			### NON-FANATIC ETHICS ###	
-			
-		####mod ethic rebuild####
-		#########################	
-		
-			buttonType = {
-				name = "ethic_pluralist"
-				spriteType = "GFX_ethic_pluralist"
-				position = { x = 124 y = 96 }
-				clicksound = interface
-			}				
-
-			buttonType = {
-				name = "ethic_elitist"
-				spriteType = "GFX_ethic_elitist"
-				position = { x = 156 y = 266 }			
-				clicksound = interface
-			}		
-		
-		
-
-		    buttonType = {
-				name = "ethic_capitalism"
-				spriteType = "GFX_ethic_capitalism"
-				position = { x = 224 y = 165 }
-				clicksound = interface
-			}
-			
-			
-			buttonType = {
-				name = "ethic_socialism"
-				spriteType = "GFX_ethic_socialism"
-				position = { x = 56 y = 197 }
-				clicksound = interface
-			}
-			
-
-			buttonType = {
-				name = "ethic_isolationist"
-				spriteType = "GFX_ethic_isolationist"
-				position = { x = 124 y = 266 }
-				clicksound = interface
-			}
-			
-
-			
-			buttonType = {
-				name = "ethic_expansionist"
-				spriteType = "GFX_ethic_expansionist"
-				position = { x = 156 y = 96 }
-				clicksound = interface
-			}
-
-			buttonType = {
-				name = "ethic_green"
-				spriteType = "GFX_ethic_green"
-				position = { x = 95 y = 111 }
-				clicksound = interface
-			}
-			
-
-			buttonType = {
-				name = "ethic_industrial"
-				spriteType = "GFX_ethic_industrial"
-				position = { x = 185 y = 254 }
-				clicksound = interface
-			}
-			
-		
-			
-			buttonType = {
-				name = "ethic_individualist"
-				spriteType = "GFX_ethics_individualist"
-				position = { x = 224 y = 197 }
+				name = "ethic_militarist"
+				spriteType = "GFX_ethics_militarist"
+				position = { x = 125 y = 125 }
 				clicksound = interface
 			}
 			
 			buttonType = {
 				name = "ethic_xenophobe"
 				spriteType = "GFX_ethics_xenophobe"
-				position = { x = 208 y = 133 }
+				position = { x = 155 y = 140 }
 				clicksound = interface
 			}
 			
 			buttonType = {
-				name = "ethic_militarist"
-				spriteType = "GFX_ethics_militarist"
-				position = { x = 185 y = 111 }
+				name = "ethic_individualist"
+				spriteType = "GFX_ethics_individualist"
+				position = { x = 170 y = 170 }
 				clicksound = interface
 			}
 			
 			buttonType = {
 				name = "ethic_materialist"
 				spriteType = "GFX_ethics_materialist"
-				position = { x = 208 y = 229 }
+				position = { x = 155 y = 200 }
 				clicksound = interface
 			}
 			
 			buttonType = {
-				name = "ethic_collectivist"
-				spriteType = "GFX_ethics_collectivist"
-				position = { x = 56 y = 165 }
+				name = "ethic_pacifist"
+				spriteType = "GFX_ethics_pacifist"
+				position = { x = 125 y = 215 }
 				clicksound = interface
 			}
 			
 			buttonType = {
 				name = "ethic_xenophile"
 				spriteType = "GFX_ethics_xenophile"
-				position = { x = 72 y = 229 }
+				position = { x = 95 y = 200 }
 				clicksound = interface
 			}
 			
 			buttonType = {
-				
-				name = "ethic_pacifist"
-				spriteType = "GFX_ethics_pacifist"
-				position = { x = 95 y = 254 }
+				name = "ethic_collectivist"
+				spriteType = "GFX_ethics_collectivist"
+				position = { x = 80 y = 170 }
 				clicksound = interface
 			}
 			
 			buttonType = {
 				name = "ethic_spiritualist"
 				spriteType = "GFX_ethics_spiritualist"
-				position = { x = 72 y = 133 }
+				position = { x = 95 y = 140 }
 				clicksound = interface
 			}
-			
 
 			### FANATIC ETHICS ###
-			
-			buttonType = {
-				name = "ethic_fanatic_elitist"
-				spriteType = "GFX_ethic_fanatic_elitist"
-				position = { x = 164 y = 298 }
-				clicksound = interface
-			}	
 
 			buttonType = {
-				name = "ethic_fanatic_pluralist"
-				spriteType = "GFX_ethic_fanatic_pluralist"
-				position = { x = 117 y = 65 }
-				clicksound = interface
-			}			
-			
-			buttonType = {
-				name = "ethic_fanatic_capitalism"
-				spriteType = "GFX_ethic_fanatic_capitalism"
-				position = { x = 256 y = 161 }				
-				clicksound = interface
-			}
-			
-			 buttonType = {
-				name = "ethic_fanatic_socialism"
-				spriteType = "GFX_ethic_fanatic_socialism"
-				position = { x = 24 y = 201 }
-				clicksound = interface
-			}
-			
-            buttonType = {
-				name = "ethic_fanatic_industrial"
-				spriteType = "GFX_ethic_fanatic_industrial"
-				position = { x = 205 y = 280 }
-				clicksound = interface
-			}		
-
-            buttonType = {
-				name = "ethic_fanatic_green"
-				spriteType = "GFX_ethic_fanatic_green"
-				position = { x = 79 y = 82 }
-				clicksound = interface
-			}					
-			
-			buttonType = {
-				name = "ethic_fanatic_isolationist"
-				spriteType = "GFX_ethic_fanatic_isolationist"
-				position = { x = 117 y = 298 }								
-				clicksound = interface
-			}
-			
-            buttonType = {
-				name = "ethic_fanatic_expansionist"
-				spriteType = "GFX_ethic_fanatic_expansionist"
-				position = { x = 164 y = 65 }				
-				clicksound = interface
-			}
-			
-			buttonType = {
-				name = "ethic_fanatic_individualist"
-				spriteType = "GFX_ethics_fanatic_individualist"
-				position = { x = 256 y = 201 }
+				name = "ethic_fanatic_militarist"
+				spriteType = "GFX_ethics_fanatic_militarist"
+				position = { x = 125 y = 90 }
 				clicksound = interface
 			}
 			
 			buttonType = {
 				name = "ethic_fanatic_xenophobe"
 				spriteType = "GFX_ethics_fanatic_xenophobe"
-				position = { x = 232 y = 113 }
+				position = { x = 180 y = 115 }
 				clicksound = interface
 			}
 			
 			buttonType = {
-			name = "ethic_fanatic_militarist"
-				spriteType = "GFX_ethics_fanatic_militarist"
-				position = { x = 201 y = 82 }
+				name = "ethic_fanatic_individualist"
+				spriteType = "GFX_ethics_fanatic_individualist"
+				position = { x = 205 y = 170 }
 				clicksound = interface
 			}
 			
 			buttonType = {
 				name = "ethic_fanatic_materialist"
 				spriteType = "GFX_ethics_fanatic_materialist"
-				position = { x = 232 y = 249 }
+				position = { x = 180 y = 225 }
 				clicksound = interface
 			}
 			
 			buttonType = {
-				name = "ethic_fanatic_collectivist"
-				spriteType = "GFX_ethics_fanatic_collectivist"
-				position = { x = 24 y = 161 }
+				name = "ethic_fanatic_pacifist"
+				spriteType = "GFX_ethics_fanatic_pacifist"
+				position = { x = 125 y = 250 }
 				clicksound = interface
 			}
 			
 			buttonType = {
 				name = "ethic_fanatic_xenophile"
 				spriteType = "GFX_ethics_fanatic_xenophile"
-				position = { x = 48 y = 249 }
+				position = { x = 70 y = 225 }
 				clicksound = interface
 			}
 			
 			buttonType = {
-			name = "ethic_fanatic_pacifist"
-				spriteType = "GFX_ethics_fanatic_pacifist"
-		        position = { x = 79 y = 283 }
+				name = "ethic_fanatic_collectivist"
+				spriteType = "GFX_ethics_fanatic_collectivist"
+				position = { x = 45 y = 170 }
 				clicksound = interface
 			}
 			
 			buttonType = {
 				name = "ethic_fanatic_spiritualist"
 				spriteType = "GFX_ethics_fanatic_spiritualist"
-				position = { x = 48 y = 113 }
+				position = { x = 70 y = 115 }
 				clicksound = interface
 			}
 			
-
-
-
+			buttonType = {
+				name = "ethic_light_side"
+				spriteType = "GFX_ethic_dark_side"
+				position = {  x = 205 y = 90 }
+				clicksound = interface
+			}
+			
+			buttonType = {
+				name = "ethic_dark_side"
+				spriteType = "GFX_ethic_light_side"
+				position = {  x = 45 y = 90 }
+				clicksound = interface
+			}
 			
 			### SELECTED ETHICS ###
 
@@ -2219,106 +2027,36 @@ guiTypes = {
 				name = "ethic_spi_selected"
 				spriteType = "GFX_ethic_selected"
 			}
-			
-			iconType = {
-				name = "ethic_soc_selected"
-				spriteType = "GFX_ethic_selected"
-			}
-
-			iconType = {
-				name = "ethic_grn_selected"
-				spriteType = "GFX_ethic_selected"
-			}
-			
-			iconType = {
-				name = "ethic_exp_selected"
-				spriteType = "GFX_ethic_selected"
-			}
-
-			iconType = {
-				name = "ethic_elt_selected"
-				spriteType = "GFX_ethic_selected"
-			}	
-
-			iconType = {
-				name = "ethic_cons_selected"
-				spriteType = "GFX_ethic_selected"
-			}	
-
-			iconType = {
-				name = "ethic_engi_selected"
-				spriteType = "GFX_ethic_selected"
-			}	
-
-			iconType = {
-				name = "ethic_edu_selected"
-				spriteType = "GFX_ethic_selected"
-			}	
-
-			iconType = {
-				name = "ethic_tra_selected"
-				spriteType = "GFX_ethic_selected"
-			}	
-
-			iconType = {
-				name = "ethic_med_selected"
-				spriteType = "GFX_ethic_selected"
-			}	
-
-			iconType = {
-				name = "ethic_comm_selected"
-				spriteType = "GFX_ethic_selected"
-			}	
-
-			iconType = {
-				name = "ethic_ene_selected"
-				spriteType = "GFX_ethic_selected"
-			}	
-
-			iconType = {
-				name = "ethic_hos_selected"
-				spriteType = "GFX_ethic_selected"
-			}	
-
-			iconType = {
-				name = "ethic_cul_selected"
-				spriteType = "GFX_ethic_selected"
-			}	
-				
 			iconType = {
 				name = "ethic_frc_selected"
 				spriteType = "GFX_ethic_selected"
-			}	
-
-			
-			
-
+			}
 		}
 
 		smoothListboxType = {
 			name = "ethic_description_list"
-			position = { x = 266 y = 50 }
-			size = { x = 224 y = 275 }
+			position = { x = 235 y = 50 }
+			size = { x = 350 y = 260 }
 			scrollbarType = "standardlistbox_slider"
 			orientation = "UPPER_LEFT"
 			#autohide_scrollbar = no
 		}
 
-		### GOVERNMENT - X-position modified ###
+		### GOVERNMENT ###
 
 		gridBoxType = {
 			name = "government_grid"
 			slotSize = { width = 50 height = 50 }
-			max_slots_horizontal = 6
+			max_slots_horizontal = 3
 			format = UPPER_LEFT
-			position = { x = 472 y = 5 }
+			position = { x = 595 y = 50 }
 			add_horizontal = yes
 		}
 		
 		containerWindowType = {
 			name = "government_entry"
-			size = { width = 290 height = 300 }
-			position = { x = 770 y = 50 }
+			size = { width = 268 height = 265 }
+			position = { x = 752 y = 50 }
 			
 			background = {
 				name = "background"
@@ -2330,8 +2068,8 @@ guiTypes = {
 				name = "name"
 				font = "malgun_goth_24"
 				position = { x = 10 y = 5 }
-				maxWidth = 250
-				text =	 "Military Dictatorship"
+				maxWidth = 230
+				text =	""
 				format = center
 				alwaysTransparent = yes
 				#text_color_code = "E"
@@ -2340,9 +2078,9 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "desc"
 				font = "cg_16b"
-				position = { x = 10 y = 50 }
-				maxWidth = 250
-				text =	 "Text describing the government type you have currently chosen. Lorem ipsum dolar sit amet, Lorem ipsum dolar sit amet, Lorem ipsum dolar sit amet, Lorem ipsum dolar sit amet"
+				position = { x = 5 y = 60 }
+				maxWidth = 255
+				text = ""
 				format = center
 				#alwaysTransparent = yes
 				text_color_code = "L"
@@ -2374,7 +2112,7 @@ guiTypes = {
 			font = "cg_16b"
 			spriteType = "GFX_galactic_object_button"
 			buttonText = "NEXT"
-			position = { x = -270 y = -40 }
+			position = { x = -290 y = -40 }
 			orientation = LOWER_RIGHT
 			shortcut = "RETURN"
 		}
@@ -2384,12 +2122,12 @@ guiTypes = {
 	### ethic desc entry
 	containerWindowType = {
 		name = "ethic_description_entry"
-		size = { width = 200 height = 325 }
+		size = { width = 350 height = 160 }
 
 		buttonType = {
 			name = "background"
 			spriteType = "GFX_tiles_dark_area_cut_8"
-			size = { x = 210 y = 320 }
+			size = { x = 350 y = 157 }
 		}
 		
 		iconType = {
@@ -2402,10 +2140,10 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "name"
 			font = "malgun_goth_24"
-			position = { x = 42 y = 3 }
+			position = { x = 42 y = 8 }
 			maxWidth = 215
 			maxHeight = 20
-			text =	 "Individualist"
+			text =	 ""
 			format = left
 			alwaysTransparent = yes
 			#text_color_code = "E"
@@ -2417,7 +2155,7 @@ guiTypes = {
 			font = "cg_16b"
 			format = right
 			orientation = upper_right
-			position = { x = -160 y = 24 }
+			position = { x = -160 y = 12 }
 			maxWidth = 150
 			text =	 "-1"
 			alwaysTransparent = yes
@@ -2428,8 +2166,8 @@ guiTypes = {
 			name = "desc"
 			font = "cg_16b"
 			position = { x = 10 y = 40 }
-			maxWidth = 190
-			text =	 "Text describing the ethic you have currently chosen. Lorem ipsum dolar sit amet, Lorem ipsum dolar sit amet, Lorem ipsum dolar sit amet, Lorem ipsum dolar sit amet"
+			maxWidth = 330
+			text =	""
 			format = left
 			alwaysTransparent = yes
 			text_color_code = "L"
@@ -2458,8 +2196,227 @@ guiTypes = {
 		}
 	}
 
+	#######################
+	# empire flag
+	#######################
+	containerWindowType = {
+		name = "empire_flag_editor"
+		moveable = @movable_editors
+		position = { x = -400 y = -10 }
+		size = { width = 1030 height = 360 }
+		orientation = center
+		
+		background = {
+			name = "background"
+			spriteType = "GFX_subwindow_tile_plain_solid"
+		}
+
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_bg"
+			position = { x = -10 y = -8 }
+			alwaysTransparent = yes
+		}
+		
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line"
+			position = { x = 6 y = 26 }
+		}
+		
+		instantTextBoxType = {
+			name = "label"
+			font = "malgun_goth_24"
+			position = { x = 16 y = 7 }
+			maxWidth = 230
+			text =	 "empire_flag_editor"
+			format = left
+			alwaysTransparent = yes
+		}
+		
+		smoothListboxType = {
+			name = "categories"
+			position = { x = 10 y = 50 }
+			size = { x = 150 y = 270 }
+			scrollbarType = "standardlistbox_slider"
+			borderSize = { x = 0 y = 0 }
+			spacing = 5
+			backGround = "GFX_tiles_dark_area_cut_8"
+		}
+		
+		containerWindowType = {
+			name = "symbols_window"
+			position = { x = 170 y = 50 }
+			size = { width = 364 height = 270 }
+			orientation = upper_left
+			verticalScrollBar = "right_vertical_slider"
+			margin = { top = 2 bottom = 2 }
+
+			backGround = {
+				name = "bg"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+
+			gridBoxType = {
+				name = "symbols"
+				slotSize = { width = 60 height = 60 }
+				position = { x = 2 y = 8 }
+				max_slots_horizontal = 6
+				format = UPPER_LEFT
+			}
+		}
+
+		gridBoxType = {
+			name = "colors"
+			slotSize = { width = 40 height = 40 }
+			max_slots_horizontal = 5
+			format = UPPER_LEFT
+			position = { x = 548 y = 120 }
+			size = { width = 210 height = 210 }
+			padding = { left = 5 top = 5 bottom = 5 }
+			backGround = {
+				name = "bg"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+				position = { x = -10 y = -10 }
+			}
+		}
+		buttonType={
+			name = "primary_color"
+			font = "cg_16b"
+			spriteType = "GFX_standard_button_200_24"
+			buttonText = "PRIMARY_COLOR"
+			position = { x = 532 y = 45 }
+		}
+		buttonType={
+			name = "secondary_color"
+			font = "cg_16b"
+			spriteType = "GFX_standard_button_200_24"
+			buttonText = "SECONDARY_COLOR"
+			position = { x = 532 y = 75 }
+		}
+
+		containerWindowType = {
+			name = "patterns_window"
+			position = { x = 752 y = 50 }
+			size = { width = 268 height = 270 }
+			orientation = upper_left
+			verticalScrollBar = "right_vertical_slider"
+			margin = { top = 2 bottom = 2 }
+
+			backGround = {
+				name = "bg"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+
+			gridBoxType = {
+				name = "patterns"
+				position = { x = 8 y = 8 }
+				slotSize = { width = 64 height = 64 }
+				max_slots_horizontal = 4
+				format = UPPER_LEFT
+			}
+		}	
+		
+		buttonType = {
+			name = "cancel"
+			quadTextureSprite = "GFX_close"
+			position = { x = -45 y = 8 }
+			Orientation = "UPPER_RIGHT"
+			shortCut = "ESCAPE"
+			pdx_tooltip = "CLOSE_TITLE"
+			clicksound = "back_click"
+		}
+		buttonType={
+			name = "back"
+			font = "cg_16b"
+			spriteType = "GFX_galactic_object_button"
+			buttonText = "BACK"
+			position = { x = 0 y = -40 }
+			orientation = LOWER_LEFT
+			shortcut = "BACKSPACE"
+		}
+		buttonType={
+			name = "apply_and_close"
+			font = "cg_16b"
+			spriteType = "GFX_galactic_object_button"
+			buttonText = "NEXT"
+			position = { x = -290 y = -40 }
+			orientation = LOWER_RIGHT
+			shortcut = "RETURN"
+		}
+	}
 	
+	###
+	containerWindowType = {
+		name = "flag_symbol_category_entry"
+		size = { width = 150 height = 30 }
+		
+		backGround = {
+			name = "bg"
+			spriteType = "GFX_invisible"
+			clicksound = "click_outliner"
+		}
+		
+		instantTextBoxType = {
+			name = "name"
+			font = "malgun_goth_24"
+			position = { x = 10 y = 3 }
+			maxWidth = 140
+			text =	 "CATEGORY"
+			format = left
+			alwaysTransparent = yes
+		}
+		
+		containerWindowType = {
+			name = "selected"
+			size = { width = 150 height = 35 }
+			backGround = {
+				name = "bg"
+				spriteType = "GFX_glow_tile_orange"
+			}
+		}
+	}
 	
+	###
+	containerWindowType = {
+		name = "flag_texture_entry"
+		size = { width = 60 height = 60 }
+		
+		buttonType = {
+			name = "flag"
+			quadTextureSprite = "GFX_flag_no_mask"
+			scale = 5
+			clicksound = "tab_click"
+		}
+
+		iconType = {
+			name = "highlight"
+			spriteType = "GFX_flag_highlight"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+			scale = 0.6
+		}
+	}
+
+	###	
+	containerWindowType = {
+		name = "color_entry"
+		size = { width = 40 height = 40 }
+		
+		buttonType = {
+			name = "select_color"
+			quadTextureSprite = "GFX_gamesetup_colorpicker"
+			clicksound = "interface"
+		}
+
+		iconType = {
+			name = "highlight"
+			spriteType = "GFX_gamesetup_colorpicker_highlight"
+			position = { x = -4 y = -4 }
+			alwaystransparent = yes
+		}
+	}
 	
 	#######################
 	# name list
@@ -3407,7 +3364,7 @@ guiTypes = {
 		buttonType = {
 			name = "render_target"
 			quadTextureSprite = "GFX_dummy_3d_graphical_culture_preview"
-			position = { x = -10 y = -10 }
+			position = { x = -10 y = -6 }
 			size = { x = 350 y = 130 }
 			alwaysTransparent = yes
 		}

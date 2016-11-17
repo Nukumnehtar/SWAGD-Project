@@ -1,0 +1,128 @@
+############################
+#######SWGD CHANGELOG#######
+############################
+
+############################
+#######Version 0.1#########
+############################
+
+-Accurate positioning and names for 1000 systems. 
+-All major and minor hyperlane routes (all planets connected) 
+-Random and Custom empire spawning
+
+############################
+#######Version 0.2##########
+############################
+
+#######Map#######
+-Added accurate The Maw system and nebulae
+-Added Akkat system
+-Removed some lingering planets with no hyperlanes
+-Fixed unconnected systems
+-Added Deep Core accurate systemsFactions
+-Added 16 playable empires
+>Sith Empire
+>Jedi Council
+>Galactic Republic
+>Kingdom of Alderaan
+>Corellian Empire
+>Mandalorian Warrior Clans
+>Hutt Clans
+>Utapau Committee
+>Bespin Trade Guilds
+>Combined Bothan Clans
+>Chiss Ascendancy
+>Cathar Tribes
+>Kamino Council
+>Geonosian Hives
+>Kingdom of Naboo
+>Wookie Clans
+-Added lore accurate starting systems for empires
+-Added temporary descriptions (Source: Wookiepedia)
+-Added temporary Star Wars namelist for humans
+-Renamed prethoryn to Yuzhang vong
+
+#######Models & Graphics#######
+-Added Chiss species models
+-Added more city sets
+-Added Star Wars flags
+
+#######Other#######
+-Removed random spawn capability due to clash with static spawn code (if you wish to play with random spawning, it still remains on the standalone map mod) 
+-Added 9 Star Wars themed loading screens
+-Added main menu music (1 song)
+
+
+############################
+#######Version 0.3##########
+############################
+
+-Fixed unconnected systems (Shouldn't be any not connected to the hyperlane network).
+-Added pc_ai visual to Coruscant.
+-Added gaia visual to Alderaan.
+-Added in four namelists: Jedi, Sith, Republic and Mandalorian.
+-Changed cathar portrait to proper cat.
+
+
+############################
+#######Version 0.4##########
+############################
+
+-Changes to ethos of Mandalorians (Xenophile removed for collectivist), Sith (Added xenophobe), Republic (Now fanatic Individualist, no longer pacifist) and Jedi (Fanatic Spiritualist, no longer pacifist).
+-Korriban changed to arid
+-Sith capital changed to dromund system
+-Sith species portraits added
+-Fixed republic namelist
+
+
+############################
+#######Version 0.5##########
+############################
+
+-Changes to ethos of Mandalorians (Xenophile removed for collectivist), Sith (Added xenophobe), Republic (Now fanatic Individualist, no longer pacifist) and Jedi (Fanatic Spiritualist, no longer pacifist).
+-Korriban changed to arid
+-Sith capital changed to dromund system
+-Sith species portraits added
+-Fixed republic namelist
+-start date is now 3980 BBY (marked as -3980), just prior to mandalorian wars
+-Removed Conquistador ship name from Sith namelist. Oops.
+-Added armour to Mandalorian portraits.
+-Added some randomly generated lore race names.
+
+############################
+#######Version 1.0##########
+############################
+
+-Updates all files for 1.3
+-Added custom and random empire spawning capability. Create an empire and have it join the Star Wars universe. Only issue right now is that you might spawn in a hostile system. Also known as Challenge mode.
+-Added empire name fix (Thanks to Osito for that)
+-Adjusted habitability numbers (Otherwise Sith would not be able to live on Korriban & Dromuund Kaas)
+-Reduced border width and growth
+-Added Main Menu background
+-Edited Main Menu song
+-Fixes to map
+-Added some special personalities
+-Map recolour towards Star Wars Atlas styled blue
+-Added 11 new factions with accurate systems & temporary vanilla portraits
+-Removed Republic faction and replaced it with Coruscant, all core members are now in a federation together named the Galactic Republic.
+-Added 4 iconic systems with inhabitants. (Hoth, Endor, Tatooine & Belsavis)
+-Added some owned planets to some empires (Korriban to the Sith, Dxun to Mandalorians)
+-Added 2 ship cultures for combat ships: Republic & Sith (Thanks to Jeronimo for the models, they are basic right now but will be updated asap)
+-Ensured Guardian compatibility
+-Some localization additions and changes
+
+############################
+#######Version 1.1##########
+############################
+
+-Edited localisation
+-Allowed players to select new ship cultures.
+-Ewoks no longer have skyscrapers to worship
+-Can now have up to 40 empires spawn.
+-Primitives no longer have capital buildings when spawned. Forgot to ensure to add their exception to the code for custom empire spawning.
+
+############################
+#######Version 2.0##########
+############################
+
+

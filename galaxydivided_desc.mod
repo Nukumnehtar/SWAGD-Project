@@ -1,4 +1,4 @@
-name="Star Wars: A Galaxy Divided"
+name="A Galaxy Divided: Star Wars"
 path="mod/galaxydivided"
 tags={
 	"Galaxy Generation"
