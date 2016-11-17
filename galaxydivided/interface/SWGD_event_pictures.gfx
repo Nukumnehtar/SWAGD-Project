@@ -1,0 +1,10 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_sith_emperor"
+		texturefile = "gfx/event_pictures/sith_emperor.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}

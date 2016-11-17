@@ -14,6 +14,11 @@
  SWGD_humanoid: "Humanoid"
  SWGD: "Humanoid"
  
+ ethic_dark_side:0 "Dark Side Servants"
+ ethic_dark_side_desc:1 "§LThis society has a connection with the Dark side of the Force, either through genetic predispositions, culture or their past."
+ ethic_light_side:0 "Light Side Servants"
+ ethic_light_side_desc:1 "§LThis society has a connection with the Light side of the Force, either through genetic predispositions, culture or their past."
+ 
  orbital_shipyards: "Orbital Shipyard" 
  orbital_shipyards: "This planet has a shipyard encircling the planet, providing a production boost for spacecraft."
  
