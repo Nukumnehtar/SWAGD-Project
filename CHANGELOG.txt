@@ -135,3 +135,4 @@
 -Added in 5 new loading screens
 -Added Dark/Light Side ethics
 -Expanded territory/systems for Sith, Mandalorians and Hutts.
+-Created compatibility for Ethics & Governments Mod.

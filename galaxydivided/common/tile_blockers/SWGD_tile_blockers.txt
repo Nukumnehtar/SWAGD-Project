@@ -1,0 +1,139 @@
+tb_asteroid_mountains = {
+	
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		
+		modifier = {
+			add = 20.0
+			planet = {
+				is_planet_class = pc_asteroid 
+				
+			}
+		}
+		
+	}
+	
+	prerequisites = { "tech_tb_mountain_range" }
+}
+
+
+
+tb_asteroid_crater = {	
+	
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		
+		modifier = {
+			add = 50.0
+			planet = {
+				is_planet_class = pc_asteroid 
+				
+			}
+		}
+		
+	}
+	
+	prerequisites = { "tech_tb_deep_sinkhole" }
+}
+
+tb_asteroid_sinkhole_worm = {	
+	
+	time = 100
+	cost = {
+		energy = 500
+		minerals = 500
+	}
+
+	spawn_chance = {
+		
+		modifier = {
+			add = 15.0
+			planet = {
+				is_planet_class = pc_asteroid 
+				
+			}
+		}
+		
+	}
+	
+	
+}
+
+tb_lava_lake = {
+	
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		
+		modifier = {
+			add = 60.0
+			planet = {
+				is_planet_class = pc_molten
+				
+			}
+		}
+		
+	}
+	
+	prerequisites = { "tech_tb_molten_tech" }
+}
+
+tb_massive_volcano = {
+	
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		
+		modifier = {
+			add = 60.0
+			planet = {
+				is_planet_class = pc_molten 
+				
+			}
+		}
+		
+	}
+	
+	prerequisites = { "tech_tb_molten_tech" }
+}
+
+tb_lava_waterfall = {
+	
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		
+		modifier = {
+			add = 25.0
+			planet = {
+				is_planet_class = pc_molten 
+				
+			}
+		}
+		
+	}
+	
+	prerequisites = { "tech_tb_molten_tech" }
+}
