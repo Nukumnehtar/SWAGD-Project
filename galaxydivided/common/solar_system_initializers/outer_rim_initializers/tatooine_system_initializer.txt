@@ -1,6 +1,7 @@
 tatooine_system_initializer = {
     name = "Tatoo"
     class = "rl_standard_stars"
+	flags = {hutt_clans}
 
     planet = {
         class = none

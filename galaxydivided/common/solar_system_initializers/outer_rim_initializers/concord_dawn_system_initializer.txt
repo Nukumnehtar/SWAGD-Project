@@ -1,0 +1,267 @@
+concord_dawn_system_initializer = {
+    name = "Concord Dawn"
+    class = "rl_standard_stars"
+	flags = {mandalorian_clans}
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+
+    planet = {
+        name = "Sorg"
+        class = "pc_molten"
+        orbit_distance = 28
+        orbit_angle = 136
+        size = 11
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Magog"
+        class = "pc_toxic"
+        orbit_distance = 27
+        orbit_angle = 256
+        size = 8
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Scorip"
+        class = "pc_barren"
+        orbit_distance = 31
+        orbit_angle = 136
+        size = 13
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Concord Dawn"
+	class = "pc_continental"
+        orbit_distance = 23
+        orbit_angle = 201
+        size = 20
+        has_ring = no
+			tile_blockers = none
+			init_effect = {
+			every_country = {
+					limit = {
+						has_country_flag = mandalorian_clans
+					}
+					save_event_target_as = mandalorian_clans
+				}
+			set_owner = event_target:mandalorian_clans	
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+				set_building = "building_colony_shelter"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}
+				
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 2
+						replace = yes
+					}						
+				}
+				}
+				random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dense_jungle"
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dense_jungle"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dense_jungle"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dangerous_wildlife"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dangerous_wildlife"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+						
+			
+			}
+
+
+        moon = {
+            name = "Concord Dawn I"
+            class = random
+            orbit_distance = 9
+            orbit_angle = 24
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Concord Dawn II"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 256
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Concord Dawn III"
+            class = "pc_alpine"
+            orbit_distance = 5
+            orbit_angle = 132
+            size = 8
+            has_ring = no
+			tile_blockers = none
+			init_effect = {
+			every_country = {
+					limit = {
+						has_country_flag = mandalorian_clans
+					}
+					save_event_target_as = mandalorian_clans
+				}
+			set_owner = event_target:mandalorian_clans	
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+				set_building = "building_colony_shelter"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}
+				
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 2
+						replace = yes
+					}						
+				}
+				}
+				random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_mountain_range"
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_mountain_range"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_mountain_range"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dangerous_wildlife"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dangerous_wildlife"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+						
+			
+			}
+
+        }
+
+    }
+
+    planet = {
+        name = "Izat"
+        class = "pc_frozen"
+        orbit_distance = 100
+        orbit_angle = 144
+        size = 12
+        has_ring = no
+
+    }
+
+}

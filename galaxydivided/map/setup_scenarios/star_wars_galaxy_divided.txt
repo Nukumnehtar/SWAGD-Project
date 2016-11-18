@@ -12,7 +12,7 @@ static_galaxy_scenario = {
 	##num_nebulas	= 6
 	##nebula_size = 60
 	##nebula_min_dist = 200
-	###new ids after 2055
+	###new ids after 2056
 
 	
 	##Deep Core
@@ -804,6 +804,7 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "764" to = "2019" }
 				add_hyperlane = { from = "2019" to = "2030" }
 				add_hyperlane = { from = "2030" to = "936" }
+				add_hyperlane = { from = "673" to = "678" }
 
 				
 					
@@ -1000,7 +1001,6 @@ static_galaxy_scenario = {
 		system = { id = "964" name = "Talcene" position = { x = -243 y = -81 } }
 		system = { id = "965" name = "Orleon" position = { x = -237 y = -77 } }
 		system = { id = "967" name = "Aargonar" position = { x = -241 y = -105 } }
-		system = { id = "968" name = "Concord Dawn" position = { x = -147 y = -103 } }
 		system = { id = "970" name = "Kromus" position = { x = -196 y = -99 } }
 		system = { id = "974" name = "Nixor" position = { x = -223 y = 101 } }
 		system = { id = "975" name = "Nanth'ri" position = { x = -222 y = 87 } }
@@ -1485,7 +1485,7 @@ static_galaxy_scenario = {
 		system = { id = "410" name = "Tiss'sharl" position = { x = -260 y = -251 } }
 		system = { id = "412" name = "Ranroon" position = { x = -288 y = -203 } }
 		system = { id = "415" name = "Zygerria" position = { x = -297 y = -230 } initializer = zygerria_system_initializer}
-		system = { id = "417" name = "Ziost" position = { x = -260 y = -218 } }
+		system = { id = "417" name = "Ziost" position = { x = -260 y = -218 } initializer = ziost_system_initializer}
 		system = { id = "418" name = "Korriz" position = { x = -254 y = -220 } }
 		system = { id = "419" name = "Athiss" position = { x = -259 y = -221 } }
 		system = { id = "420" name = "Ch'hodos" position = { x = -265 y = -216 } }
@@ -1640,7 +1640,7 @@ static_galaxy_scenario = {
 						}
 					}}
 		system = { id = "581" name = "Bandomeer" position = { x = -134 y = -135 } }
-		system = { id = "582" name = "Gargon" position = { x = -134 y = -121 } }
+		system = { id = "582" name = "Gargon" position = { x = -134 y = -121 } initializer = gargon_system_initializer }
 		system = { id = "583" name = "Phindar" position = { x = -177 y = -127 } }
 		system = { id = "584" name = "Mandalore" position = { x = -153 y = -114 } initializer = mandalore_system_initializer
 			spawn_weight = {
@@ -1650,6 +1650,7 @@ static_galaxy_scenario = {
 						 has_country_flag = mandalorian_clans
 						}
 					}}
+		system = { id = "968" name = "Concord Dawn" position = { x = -147 y = -103 } initializer = concord_dawn_system_initializer }
 		system = { id = "585" name = "Harloen" position = { x = -138 y = -139 } }
 		system = { id = "586" name = "Kessel" position = { x = -351 y = 5 } }
 		system = { id = "587" name = "Honoghr" position = { x = -356 y = 12 } }
@@ -1710,7 +1711,8 @@ static_galaxy_scenario = {
 		system = { id = "2052" name = "Garel" position = { x = -87 y = 429 } }
 		system = { id = "2053" name = "Oon" position = { x = -97 y = 434 } }
 		system = { id = "2054" name = "Alzoc" position = { x = -186 y = 396 } }
-		system = { id = "2055" name = "Nathema" position = { x = -288 y = -224 } }
+		system = { id = "2055" name = "Nathema" position = { x = -288 y = -224 } initializer = nathema_system_initializer }
+		system = { id = "2056" name = "Thule" position = { x = -248 y = -207 } initializer = thule_system_initializer }
 
 
 
@@ -2175,6 +2177,7 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "234" to = "2052" }
 				add_hyperlane = { from = "2052" to = "2053" }
 				add_hyperlane = { from = "2052" to = "2051" }
+				add_hyperlane = { from = "426" to = "2056" }
 				
 				
 				

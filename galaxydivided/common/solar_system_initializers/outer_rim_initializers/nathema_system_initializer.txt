@@ -1,0 +1,296 @@
+nathema_system_initializer = {
+    name = "Nathema (Medriaas)"
+    class = "rl_standard_stars"
+	flags = {sith_empire}
+
+    planet = {
+        name = "Medriaas"
+        class = "pc_k_star"
+        orbit_distance = 0
+        size = 18
+    }
+
+    planet = {
+        name = "Porthon"
+        class = "pc_molten"
+        orbit_distance = 23
+        orbit_angle = 244
+        size = 11
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Torros"
+        class = "pc_molten"
+        orbit_distance = 20
+        orbit_angle = 135
+        size = 14
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Nathema (Medriaas)"		
+        class = "pc_continental"
+        orbit_distance = 33
+	orbit_angle = 114
+        size = 20
+        has_ring = no
+	tile_blockers = none
+	init_effect = {
+			every_country = {
+					limit = {
+						has_country_flag = sith_empire
+					}
+					save_event_target_as = sith_empire
+				}
+			set_owner = event_target:sith_empire	
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}
+			}
+				random_tile = {
+						limit = { has_blocker = no has_building = no }
+						create_pop = {
+									species = owner_main_species
+									ethos = owner
+								}
+									set_building = "building_great_pyramid"
+									add_resource = {
+										resource = minerals
+										amount = 1
+										replace = yes
+								}						
+							}
+				random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dangerous_wildlife"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_quicksand_basin"
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dangerous_wildlife"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_mountain_range"
+				add_resource = {
+					resource = minerals
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_mountain_range"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			every_tile = {
+				limit = { has_building = no has_blocker = no has_pop = no }			
+				set_blocker = tb_ancient_ruins
+			}		
+			}
+		
+
+
+        moon = {
+	    name = "Medriaas Minor"
+            class = random
+            orbit_distance = 5
+            orbit_angle = 98
+            has_ring = no
+	    size = 6
+
+        }
+
+    }
+
+    planet = {
+        name = "Mendississ"
+        class = "pc_barren"
+        orbit_distance = 35
+        orbit_angle = 124
+        size = 25
+        has_ring = yes
+
+        moon = {
+	    name = "Mendississ I"
+            class = random
+            orbit_distance = 9
+            orbit_angle = 48
+	    size = 6
+            has_ring = no
+
+        }
+        moon = {
+	    name = "Mendississ II"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 183
+	    size = 4
+            has_ring = no
+
+        }
+        moon = {
+	    name = "Mendississ III"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 68
+	    size = 5
+            has_ring = no
+
+        }
+        moon = {
+	    name = "Mendississ IV"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = -89
+	    size = 3
+            has_ring = no
+
+        }
+        moon = {
+	    name = "Mendississ V"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 309
+	    size = 5
+            has_ring = no
+
+        }
+       moon = {
+	    name = "Mendississ VI"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 65
+	    size = 6
+            has_ring = no
+
+        }
+
+    }
+
+    planet = {
+        name = "Jukaassim"
+        class = "pc_frozen"
+        orbit_distance = 67
+        orbit_angle = 227
+        size = 13
+        has_ring = no
+
+        moon = {
+	    name = "Jukaassim I"
+            class = random
+            orbit_distance = 7
+            orbit_angle = 146
+	    size = 4
+            has_ring = no
+
+        }
+        moon = {
+	    name = "Jukaassim II"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 287
+	    size = 6
+            has_ring = no
+
+        }
+        moon = {
+	    name = "Jukaassim III"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 58
+	    size = 5
+            has_ring = no
+
+        }
+
+    }
+
+    planet = {
+        name = "Leutug"
+        class = "pc_frozen"
+        orbit_distance = 54
+        orbit_angle = 46
+        size = 8
+        has_ring = no
+
+    }
+
+}
