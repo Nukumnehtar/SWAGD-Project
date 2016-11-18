@@ -27,6 +27,25 @@
  kuat_shipyards_tile:0 "Temperate Terrain"
  kuat_shipyards_tile_desc:0 "Diverse forested terrain with a mild climate."
  
+ tb_asteroid_mountains:0 "£blocker   Mountain Range"
+ tb_asteroid_mountains_desc:0 "A vast range of tall and impassable mountains stretches across this region of the Asteroid."
+ tb_asteroid_sinkhole_worm:0 "£blocker  Giant Space Slug"
+ tb_asteroid_sinkhole_worm_desc:0 "A giant space slug has taken residence within this hollow of the asteroid."
+ tb_asteroid_crater:0 "£blocker  Massive Crater"
+ tb_asteroid_crater_desc:0 "Something collided with the surface of this asteroid, creating this massive impact crater."
+ tb_lava_lake:0 "£blocker  Lava Lake"
+ tb_lava_lake_desc:0 "A large lake of scorching lava dominates this region."
+ tb_lava_waterfall:0 "£blocker  Lava Waterfall"
+ tb_lava_waterfall_desc:0 "Numerous waterfalls of scorching lava flow down from cliffs in this region."
+ tb_massive_volcano:0 "£blocker  Massive Volcano"
+ tb_massive_volcano_desc:0 "There is a massive active volcano in this region, spewing forth lava and volcanic gases."
+ pc_asteroid_tile:0 "Barren Terrain"
+ pc_asteroid_tile_desc:0 "Barren and rocky terrain with numerous craters."
+ pc_molten_tile:0 "Molten Terrain"
+ pc_molten_tile_desc:0 "Scorching and rocky terrain surrounded by numerous lava lakes and rivers."
+ 
+   
+ 
  prethoryn_scourge_chain_desc:0 "Our galaxy has been invaded by a ravenous swarm of spacefaring creatures that seem intent on consuming all life in their path. The rampage of these Yuuzhan Vong invaders must be stopped before their numbers overwhelm us."
 CAPTURE_QUEEN_DESC:0 "After a recent space battle in the [queen_system.GetName] system, a Yuuzhan Vong Queen was badly injured and left for dead by the rest of the Vong. The creature is still alive, however. Capturing it would be a major intelligence coup."
  
