@@ -14,6 +14,26 @@
  SWGD_humanoid: "Humanoid"
  SWGD: "Humanoid"
  
+ building_life_support_system:0 "Life Support System"
+ building_life_support_system_desc:0 "Life support systems utilize technology that allows it to produce necessary chemicals and gases needed to sustain life, it also filters out toxic gases and chemicals."
+ building_mining_colony:0 "Mining Colony"
+ building_mining_colony_desc:0 "A mining colony is a small settlement that has the primary purpose of harvesting ores and other resources found usually below the surface of a celestial body or asteroid."
+ building_penal_colony:0 "Penal Colony"
+ building_penal_colony_desc:0 "A penal colony is a settlement used to exile prisoners and separate them from the general population by placing them in a remote location, often an outer or distant colony."
+ building_recruiting_world:0 "Recruiting World"
+ building_recruiting_world:0 "Recruiting worlds are colonies where militaries draw a large number of recruits."
+ building_research_colony:0 "Research Colony"
+ building_research_colony_desc:0 "A research colony is a small outpost built in the effort of conducting research on worlds away from an empire's core systems."
+
+ 
+ tech_breathing_masks:0 "Breathing Masks" 
+ tech_breathing_masks_desc:0 "Latest developments in breathing mask technology has allowed our species to live more comfortably on other planets." 
+ tech_enviro_suits:0 "Environment Suits"
+ tech_enviro_suits:0 "Next generation EVA suits have been modified for mass production for the populace, allowing them for greater production in less than ideal atmospheric condition."
+ tech_offworld_habitats:0 "Offworld Habitats" 
+ tech_offworld_habitats:0 "Advances in atmospheric simulation now allow the construction of habitats on entities with little to no atmosphere." 
+ 
+ 
  ethic_dark_side:0 "Dark Side Servants"
  ethic_dark_side_desc:1 "§LThis society has a connection with the Dark side of the Force, either through genetic predispositions, culture or their past."
  ethic_light_side:0 "Light Side Servants"
