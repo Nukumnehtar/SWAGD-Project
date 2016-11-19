@@ -12,7 +12,7 @@ static_galaxy_scenario = {
 	##num_nebulas	= 6
 	##nebula_size = 60
 	##nebula_min_dist = 200
-	###new ids after 2056
+	###new ids after 2061
 
 	
 	##Deep Core
@@ -1713,6 +1713,11 @@ static_galaxy_scenario = {
 		system = { id = "2054" name = "Alzoc" position = { x = -186 y = 396 } }
 		system = { id = "2055" name = "Nathema" position = { x = -288 y = -224 } initializer = nathema_system_initializer }
 		system = { id = "2056" name = "Thule" position = { x = -248 y = -207 } initializer = thule_system_initializer }
+		system = { id = "2057" name = "Ordo" position = { x = -138 y = -109 } }
+		system = { id = "2058" name = "Shogun" position = { x = -140 y = 364 } }
+		system = { id = "2059" name = "Jakelia" position = { x = -155 y = -127 } }
+		system = { id = "2060" name = "Lola Sayu" position = { x = -268 y = -151 } }
+
 
 
 
@@ -2124,7 +2129,7 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "582" to = "584" }
 				add_hyperlane = { from = "582" to = "581" }
 				add_hyperlane = { from = "584" to = "968" }
-				add_hyperlane = { from = "584" to = "774" }
+				add_hyperlane = { from = "584" to = "2057" }
 				add_hyperlane = { from = "774" to = "579" }
 				add_hyperlane = { from = "774" to = "720" }
 				add_hyperlane = { from = "579" to = "720" }
@@ -2178,6 +2183,12 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "2052" to = "2053" }
 				add_hyperlane = { from = "2052" to = "2051" }
 				add_hyperlane = { from = "426" to = "2056" }
+				add_hyperlane = { from = "2057" to = "774" }
+				add_hyperlane = { from = "584" to = "2059" }
+				add_hyperlane = { from = "282" to = "2058" }
+				add_hyperlane = { from = "472" to = "2060" }
+				add_hyperlane = { from = "2060" to = "468" }
+
 				
 				
 				
@@ -2191,6 +2202,7 @@ static_galaxy_scenario = {
 		system = { id = "2045" name = "Anoth" position = { x = 73 y = 461 } }
 		system = { id = "2046" name = "Kinooine" position = { x = 81 y = 481 } }
 		system = { id = "2049" name = "Mortis" position = { x = 42 y = -334 } }
+		system = { id = "2061" name = "Kesh" position = { x = -77 y = 466 } }
 
 
 
@@ -2205,6 +2217,7 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "2043" to = "2044" }
 				add_hyperlane = { from = "219" to = "2042" }
 				add_hyperlane = { from = "2042" to = "1046" }
+				add_hyperlane = { from = "2042" to = "2061" }
 
 
 
@@ -2279,7 +2292,7 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "2038" to = "2039" }
 				add_hyperlane = { from = "2039" to = "2037" }
 				add_hyperlane = { from = "2038" to = "1048" }
-				add_hyperlane = { from = "1048" to = "2040" }
+				add_hyperlane = { from = "237" to = "2040" }
 
 
 

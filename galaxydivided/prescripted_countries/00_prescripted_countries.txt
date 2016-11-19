@@ -1,5 +1,5 @@
 
-###### REPUBLIC CORE WORLDS
+###### Interesting Realms
 
 "Jedi Council"
 ={
@@ -56,6 +56,176 @@
 	trait="trait_talented"
 	trait="trait_slow_breeders"
 }
+
+"Sith Empire"
+={
+	name_list="Sith"
+	ship_prefix=""
+	species_name="Sith"
+	species_plural="Sith"
+	species_class="sith"
+	species_adjective="Sith"
+	species_bio="The Sith, also known as the Sith Order, are an order of Force users who utilize the dark side of the Force in an effort to gain power over the galaxy. The Sith are the ancient enemies of the Jedi Order and have fought numerous wars with them for thousands of years."
+	portrait="sith"
+	name="Sith Empire"
+	adjective="Sith"
+	government="despotic_empire"
+	flags={	sith_empire	custom_start_screen SWGD }
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Dromund Kaas"
+	planet_class="pc_tropical"
+	system_name="Dromund"
+	initializer=""
+	graphical_culture="sith_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="starwarssilver"
+			file="flag_series_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Vitiate"
+		portrait="sith_male_03"
+		texture=0
+		hair=27
+		clothes=1
+		heir_title=" "
+		heir_title_female=" "
+	}
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	ethic="ethic_xenophobe"
+	trait="trait_resilient"
+	trait="trait_deviants"
+	trait="trait_talented"	
+}
+
+"Mandalorian Warrior Clans"
+={
+	name_list="Mandalorian"
+	ship_prefix=""
+	species_name="Mandalorian"
+	species_plural="Mandalorian"
+	species_class="MAM"
+	species_adjective="Mandalorian"
+	species_bio="A society of traditionally nomadic warriors, the Mandalorians do not recognize bureaucracy. Division of labor sorted itself out organically. A warrior needed to be self-sufficient and competent, and each warrior was responsible for their own feeding and supplying. Mandalorian clans were led by chieftains—usually senior members of the clans chosen for their wisdom—and the loose affiliation and cooperation between them was the closest the Mandalorians had to a standard government; the clans and their chieftains were all subordinate to the Mand'alor, the one individual recognized as sole ruler of the Mandalorians and the nearest Mandalorian parallel for a proper head-of-state."
+	portrait="mando"
+	name="Mandalorian Warrior Clans"
+	adjective="Mandalorian"
+	government="military_dictatorship"
+	flags={	mandalorian_clans custom_start_screen SWGD}
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Mandalore"
+	planet_class="pc_continental"
+	system_name="Mandalore"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="dirty_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="flag_series_10.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="the Ultimate"
+		portrait="mando_male_04"
+		texture=0
+		hair=9
+		clothes=2
+		ruler_title="Mand'alor"
+		ruler_title_female="Mand'alor"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_militarist"
+	trait="trait_strong"
+	trait="trait_natural_engineers"
+}
+"Chiss Ascendancy"
+={
+	name_list="Chiss"
+	ship_prefix=""
+	species_name="Chiss"
+	species_plural="Chiss"
+	species_class="MAM"
+	species_adjective="Chiss"
+	species_bio="The Chiss Ascendancy, sometimes termed Chiss Space or the Chiss Empire by outsiders, is a portion of the galaxy just inside the Unknown Regions that is ruled by the Chiss. The Chiss are governed by an oligarchy of extended Ruling Families from House Palace, located in the city of Csaplar. Each clan with the families is headed by leaders known as Aristocra who wear particular colors to indicate their clan and family loyalties."
+	portrait="chiss"
+	name="Chiss Ascendancy"
+	adjective="Chiss"
+	government="military_junta"
+	flags={chiss_ascendancy SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Csilla"
+	planet_class="pc_arctic"
+	system_name="Csilla"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="asari_01"
+	empire_flag={
+		icon={
+			category="custom"
+			file="chiss_logo.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Hess'ras'inrokini"
+		portrait="chiss_male_01"
+		texture=0
+		hair=6
+		clothes=1
+		ruler_title="Aristocra"
+		ruler_title_female="Aristocra"
+	}
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	ethic="ethic_collectivist"
+	trait="trait_intelligent"
+	trait="trait_talented"
+	trait="trait_solitary"
+	trait="trait_sedentary"
+}
+###### REPUBLIC CORE WORLDS
 "Coruscant City Authority"
 ={
 	name_list="Republic"
@@ -580,62 +750,7 @@
 
 ###### OTHER EMPIRES
 
-"Sith Empire"
-={
-	name_list="Sith"
-	ship_prefix=""
-	species_name="Sith"
-	species_plural="Sith"
-	species_class="sith"
-	species_adjective="Sith"
-	species_bio="The Sith, also known as the Sith Order, are an order of Force users who utilize the dark side of the Force in an effort to gain power over the galaxy. The Sith are the ancient enemies of the Jedi Order and have fought numerous wars with them for thousands of years."
-	portrait="sith"
-	name="Sith Empire"
-	adjective="Sith"
-	government="despotic_empire"
-	flags={	sith_empire	custom_start_screen SWGD }
-	ftl=hyperdrive
-	weapon="tech_lasers_1"
-	planet_name="Dromund Kaas"
-	planet_class="pc_tropical"
-	system_name="Dromund"
-	initializer=""
-	graphical_culture="sith_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="starwarssilver"
-			file="flag_series_6.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
-			"red"
-			"black"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name="Vitiate"
-		portrait="sith_male_03"
-		texture=0
-		hair=27
-		clothes=1
-		heir_title=" "
-		heir_title_female=" "
-	}
-	spawn_enabled=always
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
-	ethic="ethic_xenophobe"
-	trait="trait_resilient"
-	trait="trait_deviants"
-	trait="trait_talented"	
-}
+
 
 "Mon Calamari Territories"
 ={
@@ -1137,60 +1252,7 @@
 	trait="trait_quick_learners"
 	trait="trait_deviants"
 }
-"Mandalorian Warrior Clans"
-={
-	name_list="Mandalorian"
-	ship_prefix=""
-	species_name="Mandalorian"
-	species_plural="Mandalorian"
-	species_class="MAM"
-	species_adjective="Mandalorian"
-	species_bio="A society of traditionally nomadic warriors, the Mandalorians do not recognize bureaucracy. Division of labor sorted itself out organically. A warrior needed to be self-sufficient and competent, and each warrior was responsible for their own feeding and supplying. Mandalorian clans were led by chieftains—usually senior members of the clans chosen for their wisdom—and the loose affiliation and cooperation between them was the closest the Mandalorians had to a standard government; the clans and their chieftains were all subordinate to the Mand'alor, the one individual recognized as sole ruler of the Mandalorians and the nearest Mandalorian parallel for a proper head-of-state."
-	portrait="mando"
-	name="Mandalorian Warrior Clans"
-	adjective="Mandalorian"
-	government="military_dictatorship"
-	flags={	mandalorian_clans custom_start_screen SWGD}
-	ftl=hyperdrive
-	weapon="tech_mass_drivers_1"
-	planet_name="Mandalore"
-	planet_class="pc_continental"
-	system_name="Mandalore"
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="dirty_01"
-	empire_flag={
-		icon={
-			category="starwars"
-			file="flag_series_10.dds"
-		}
-		background={
-			category="backgrounds"
-			file="circle.dds"
-		}
-		colors={
-			"red"
-			"black"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name="the Ultimate"
-		portrait="mando_male_04"
-		texture=0
-		hair=9
-		clothes=2
-		ruler_title="Mand'alor"
-		ruler_title_female="Mand'alor"
-	}
-	spawn_enabled=always
-	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_militarist"
-	trait="trait_strong"
-	trait="trait_natural_engineers"
-}
+
 "Geonosian Hives"
 ={
 	name_list="MOL3"
@@ -1246,63 +1308,7 @@
 	trait="trait_rapid_breeders"
 	trait="trait_natural_engineers"
 }
-"Chiss Ascendancy"
-={
-	name_list="Chiss"
-	ship_prefix=""
-	species_name="Chiss"
-	species_plural="Chiss"
-	species_class="MAM"
-	species_adjective="Chiss"
-	species_bio="The Chiss Ascendancy, sometimes termed Chiss Space or the Chiss Empire by outsiders, is a portion of the galaxy just inside the Unknown Regions that is ruled by the Chiss. The Chiss are governed by an oligarchy of extended Ruling Families from House Palace, located in the city of Csaplar. Each clan with the families is headed by leaders known as Aristocra who wear particular colors to indicate their clan and family loyalties."
-	portrait="chiss"
-	name="Chiss Ascendancy"
-	adjective="Chiss"
-	government="military_junta"
-	flags={chiss_ascendancy SWGD_START SWGD}
-	ftl=hyperdrive
-	weapon="tech_lasers_1"
-	planet_name="Csilla"
-	planet_class="pc_arctic"
-	system_name="Csilla"
-	initializer=""
-	graphical_culture="avian_01"
-	city_graphical_culture="asari_01"
-	empire_flag={
-		icon={
-			category="custom"
-			file="chiss_logo.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
-			"dark_grey"
-			"black"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name="Hess'ras'inrokini"
-		portrait="chiss_male_01"
-		texture=0
-		hair=6
-		clothes=1
-		ruler_title="Aristocra"
-		ruler_title_female="Aristocra"
-	}
-	spawn_enabled=always
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	ethic="ethic_collectivist"
-	trait="trait_intelligent"
-	trait="trait_talented"
-	trait="trait_solitary"
-	trait="trait_sedentary"
-}
+
 "Ssi-ruuvi Imperium"
 ={
 	key="Ssi-ruuvi Imperium"
