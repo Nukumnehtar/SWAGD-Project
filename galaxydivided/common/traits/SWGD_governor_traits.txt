@@ -1,3 +1,4 @@
+
 # All leaders will have a common trait-point value set in defines, which they use to grab traits
 
 # leader_trait = yes - this tags the trait as a leader-trait and not a species-trait
@@ -7,37 +8,55 @@
 # requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
 # prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
 
-#################
-#  Ruler Traits #
-#################
+###################
+# Governor Traits #
+###################
 
-# Ruler-traits have the same parameters as leader-traits
-# leader_class has to be set to include "ruler" for a ruler to be valid for a trait
-# modifiers granted to rulers are applied to the entire Empire
-
-trait_ruler_immortal = {
+leader_trait_gov_force_user_I = {
 	cost = 1
 	modification = no
-	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_immortal.dds"
-	modifier = { 
-	leader_age = 9000 
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_force_user.dds"
+	modifier = {
+		
+		planet_building_cost_mult = -0.05
+		planet_army_build_cost_mult = -0.10
+		tile_resource_society_research_mult = 0.20
+		
 	}
 	leader_trait = yes
-	leader_class = { ruler }
-	initial = no 
-	
+	leader_class = { governor }
 }
 
-leader_trait_ruler_force_user_I  = {
+
+leader_trait_gov_force_user_I = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_force_user.dds"
+	modifier = {
+		
+		planet_building_cost_mult = -0.10
+		planet_army_build_cost_mult = -0.2
+		tile_resource_society_research_mult = 0.25
+		
+	}
+	leader_trait = yes
+	leader_class = { governor }
+}
+
+
+leader_trait_gov_force_user_I = {
 	cost = 1
 	modification = no
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_powerful_force_user.dds"
 	modifier = {
-		influence_gain_add = 1.5
-		edict_influence_cost = -0.25
-		pop_happiness = 0.12
+		
+		planet_building_cost_mult = -0.15
+		planet_army_build_cost_mult = -0.2
+		tile_resource_society_research_mult = 0.5
+		
 	}
 	leader_trait = yes
-	leader_class = { ruler }
+	leader_class = { governor }
 }
+
 
