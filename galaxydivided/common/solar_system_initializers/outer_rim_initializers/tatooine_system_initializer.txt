@@ -32,10 +32,11 @@ tatooine_system_initializer = {
     planet = {
         name = "Tatooine"
         class = "pc_desert"
-        orbit_distance = 24
+        orbit_distance = 42
         orbit_angle = 102
-        size = 16
+        size = 20
         has_ring = no
+		tile_blockers = none
 		init_effect = {
 			set_planet_flag = SW
 			every_country = {
@@ -95,6 +96,50 @@ tatooine_system_initializer = {
 				}				
 			}
 			create_species = {
+				name = "Jawa"
+				class = "HUM"
+				portrait = "humanoid_02"
+				traits = {
+					trait = random_sentient_trait
+				}
+				homeworld = FROM
+				sentient = yes
+			}
+			while = {
+				limit = {
+					count_pops = {
+						limit = { is_sentient = yes }
+						count < 6
+					}
+					free_pop_tiles > 0
+				}
+				best_tile_for_pop = {
+					create_pop = { species = last_created }
+				}
+			}
+			create_species = {
+				name = "Ghorfa (Sandpeople)"
+				class = "HUM"
+				portrait = "humanoid_02"
+				traits = {
+					trait = random_sentient_trait
+				}
+				homeworld = FROM
+				sentient = yes
+			}
+			while = {
+				limit = {
+					count_pops = {
+						limit = { is_sentient = yes }
+						count < 10
+					}
+					free_pop_tiles > 0
+				}
+				best_tile_for_pop = {
+					create_pop = { species = last_created }
+				}
+			}
+			create_species = {
 				name = "Krayt Dragon"
 				class = "PRE_REP"
 				portrait = "pre_rep09"
@@ -108,7 +153,7 @@ tatooine_system_initializer = {
 				limit = {
 					count_pops = {
 						limit = { is_sentient = no }
-						count < 3
+						count < 1
 					}
 					free_pop_tiles > 0
 				}
