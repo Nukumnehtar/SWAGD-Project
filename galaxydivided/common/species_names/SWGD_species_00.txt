@@ -29,6 +29,13 @@ MAM = {
 		home_system = "Chiss Space"
 		name_list = "Chiss"
 	}
+	human = {
+		name = "Human"	
+		plural = "Human"
+		home_planet = "Coruscant"
+		home_system = "Coruscant"
+		name_list = "Republic"
+	}
 }
 	
 SWGD_humanoid = {

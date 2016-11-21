@@ -12,7 +12,7 @@ static_galaxy_scenario = {
 	##num_nebulas	= 6
 	##nebula_size = 60
 	##nebula_min_dist = 200
-	###new ids after 2062
+	###new ids after 2072
 
 	
 	##Deep Core
@@ -834,6 +834,10 @@ static_galaxy_scenario = {
 			system = { id = "831" name = "The Godsheart" position = { x = -349 y = 56 } }
 			system = { id = "832" name = "Outland Transit" position = { x = -376 y = 91 } }
 			system = { id = "2007" name = "Sleheyron" position = { x = -323 y = 10 } }
+		system = { id = "2063" name = "Nimban" position = { x = -304 y = 14 } }
+		system = { id = "2064" name = "Quesh" position = { x = -309 y = 27 } }
+		system = { id = "2065" name = "Darvannis" position = { x = -338 y = -6 } }
+		
 
 
 
@@ -860,12 +864,19 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "827" to = "2007" }
 				add_hyperlane = { from = "2007" to = "821" }
 				add_hyperlane = { from = "2007" to = "822" }
-				add_hyperlane = { from = "2007" to = "824" }
+				add_hyperlane = { from = "2007" to = "2063" }
 				add_hyperlane = { from = "2007" to = "588" }
 				add_hyperlane = { from = "2007" to = "588" }
 				add_hyperlane = { from = "2004" to = "538" }
 				add_hyperlane = { from = "2004" to = "543" }
 				add_hyperlane = { from = "2007" to = "538" }
+				add_hyperlane = { from = "2063" to = "824" }
+				add_hyperlane = { from = "2063" to = "2064" }
+				add_hyperlane = { from = "2064" to = "827" }
+				add_hyperlane = { from = "2064" to = "2007" }
+				add_hyperlane = { from = "2007" to = "2065" }
+				add_hyperlane = { from = "588" to = "2065" }
+				add_hyperlane = { from = "2065" to = "822" }
 	
 				
 				
@@ -1717,6 +1728,10 @@ static_galaxy_scenario = {
 		system = { id = "2058" name = "Shogun" position = { x = -140 y = 364 } }
 		system = { id = "2059" name = "Jakelia" position = { x = -155 y = -127 } }
 		system = { id = "2060" name = "Lola Sayu" position = { x = -268 y = -151 } }
+		system = { id = "2066" name = "Oricon" position = { x = -225 y = -273 } }
+		system = { id = "2067" name = "Voss" position = { x = -328 y = -148 } }
+		system = { id = "2068" name = "Bunduki" position = { x = 158 y = 265 } }
+		system = { id = "2071" name = "Arda" position = { x = -234 y = -161 } }
 
 
 
@@ -1862,7 +1877,7 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "589" to = "588" }
 				add_hyperlane = { from = "588" to = "586" }				
 				add_hyperlane = { from = "830" to = "588" }
-				add_hyperlane = { from = "822" to = "588" }
+
 				add_hyperlane = { from = "590" to = "591" }
 				add_hyperlane = { from = "591" to = "2003" }
 				add_hyperlane = { from = "2003" to = "544" }
@@ -2058,7 +2073,7 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "349" to = "353" }
 				add_hyperlane = { from = "353" to = "350" }
 				add_hyperlane = { from = "349" to = "358" }
-				add_hyperlane = { from = "358" to = "357" }
+
 				add_hyperlane = { from = "357" to = "356" }
 				add_hyperlane = { from = "356" to = "479" }
 				add_hyperlane = { from = "479" to = "480" }
@@ -2188,6 +2203,12 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "282" to = "2058" }
 				add_hyperlane = { from = "472" to = "2060" }
 				add_hyperlane = { from = "2060" to = "468" }
+				add_hyperlane = { from = "217" to = "2068" }
+				add_hyperlane = { from = "409" to = "2066" }
+				add_hyperlane = { from = "358" to = "2071" }
+				add_hyperlane = { from = "2071" to = "357" }
+				add_hyperlane = { from = "547" to = "2067" }
+				add_hyperlane = { from = "2067" to = "459" }
 
 				
 				
@@ -2239,6 +2260,10 @@ static_galaxy_scenario = {
 		system = { id = "2038" name = "Zonama Sekot" position = { x = 214 y = 147 } }
 		system = { id = "2039" name = "Odessen" position = { x = 224 y = 140 } }
 		system = { id = "2040" name = "Ahch-To" position = { x = 172 y = 46 } }
+		system = { id = "2069" name = "CZ-198" position = { x = 172 y = -67 } }
+		system = { id = "2070" name = "O'reen" position = { x = 159 y = 150 } }
+		system = { id = "2072" name = "Yoggoy" position = { x = 171 y = -126 } }
+
 
 
 
@@ -2263,7 +2288,11 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "2038" to = "2039" }
 				add_hyperlane = { from = "2039" to = "2037" }
 				add_hyperlane = { from = "2038" to = "1048" }
-				add_hyperlane = { from = "237" to = "2040" }
+				add_hyperlane = { from = "1062" to = "2040" }
+				add_hyperlane = { from = "1062" to = "2070" }
+				add_hyperlane = { from = "2070" to = "2038" }
+				add_hyperlane = { from = "1049" to = "2069" }
+				add_hyperlane = { from = "1047" to = "2072" }
 
 
 

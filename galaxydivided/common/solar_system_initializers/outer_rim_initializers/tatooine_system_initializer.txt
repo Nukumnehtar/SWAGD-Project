@@ -66,7 +66,7 @@ tatooine_system_initializer = {
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
 					create_pop = {
-					species = owner_main_species
+					species = "Human"
 					ethos = owner
 				}
 					set_building = "building_hydroponics_farm_1"
@@ -99,9 +99,12 @@ tatooine_system_initializer = {
 				name = "Jawa"
 				class = "HUM"
 				portrait = "humanoid_02"
-				traits = {
-					trait = random_sentient_trait
-				}
+			traits = { trait = "trait_pc_desert_preference" 
+			trait = "trait_nomadic" 
+			trait = "trait_thrifty" 
+			trait = "trait_natural_engineers"
+					}
+			extra_trait_points = 2
 				homeworld = FROM
 				sentient = yes
 			}
@@ -114,16 +117,25 @@ tatooine_system_initializer = {
 					free_pop_tiles > 0
 				}
 				best_tile_for_pop = {
-					create_pop = { species = last_created }
+					create_pop = { 
+						species = last_created
+						ethos = {
+							ethic = ethic_collectivist
+							ethic = ethic_fanatic_materialist
+						}
+					}
 				}
 			}
 			create_species = {
 				name = "Ghorfa (Sandpeople)"
 				class = "HUM"
 				portrait = "humanoid_02"
-				traits = {
-					trait = random_sentient_trait
-				}
+			traits = { trait = "trait_pc_desert_preference" 
+			trait = "trait_solitary" 
+			trait = "trait_sedentary"
+			trait = "trait_strong"
+					}
+			extra_trait_points = 2
 				homeworld = FROM
 				sentient = yes
 			}
@@ -136,7 +148,13 @@ tatooine_system_initializer = {
 					free_pop_tiles > 0
 				}
 				best_tile_for_pop = {
-					create_pop = { species = last_created }
+					create_pop = { 
+						species = last_created
+						ethos = {
+							ethic = ethic_fanatic_xenophobe
+							ethic = ethic_fanatic_militarist
+						}
+					}
 				}
 			}
 			create_species = {
