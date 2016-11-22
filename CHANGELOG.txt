@@ -136,3 +136,8 @@
 -Added Dark/Light Side ethics
 -Expanded territory/systems for Sith, Mandalorians and Hutts.
 -Created compatibility for Ethics & Governments Mod.
+-Fixed vassal opinion
+-added new techs and buildings for habitability and colonies
+-added force traits for all leaders and one for species
+
+
