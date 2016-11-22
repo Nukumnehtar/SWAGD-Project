@@ -1102,7 +1102,7 @@
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Cathar"
-	planet_class="pc_continental"
+	planet_class="pc_savannah"
 	system_name="Cathar"
 	initializer=""
 	graphical_culture="mammalian_01"
