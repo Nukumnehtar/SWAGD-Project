@@ -10,7 +10,7 @@ sith = {
 		home_system = "Sith World"
 		name_list = "Sith"
 	}
-	}
+}
 	
 	
 MAM = {
@@ -22,7 +22,21 @@ MAM = {
 		home_system = "Clan Home System"
 		name_list = "Mandalorian"
 	}
+	chiss = {
+		name = "Chiss"	
+		plural = "Chiss"
+		home_planet = "Chiss Ascendancy"
+		home_system = "Chiss Space"
+		name_list = "Chiss"
 	}
+	human = {
+		name = "Human"	
+		plural = "Human"
+		home_planet = "Coruscant"
+		home_system = "Coruscant"
+		name_list = "Republic"
+	}
+}
 	
 SWGD_humanoid = {
 	

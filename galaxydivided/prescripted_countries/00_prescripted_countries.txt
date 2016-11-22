@@ -1,5 +1,5 @@
 
-###### Interesting Realms
+###### Popular Starts
 
 "Jedi Council"
 ={
@@ -224,6 +224,62 @@
 	trait="trait_talented"
 	trait="trait_solitary"
 	trait="trait_sedentary"
+}
+"Hutt Clans"
+={
+	name_list="FUN2"
+	ship_prefix=""
+	species_name="Hutt"
+	species_plural="Hutt"
+	species_class="FUN"
+	species_adjective="Hutt"
+	species_bio="The Hutt Ruling Council, alternatively known as the Council of Elders, Hutt Council, Great Hutt Council, or the Grand Council of Nal Hutta, is a five-member council that is the primary ruling body of the Hutt species. The five members were often known informally as the Five Hutt Families, but due to internal politics, individual clans could control more than one seat on the council. The Ruling Council was sometimes referred to as the Grand Council, but that term more accurately applied to the larger Hutt Grand Council; the Ruling Council handled the day-to-day affairs of the Hutt species, and its leader spoke on behalf of all Hutts in treaties and dealings with other empires."
+	portrait="fun12"
+	name="Hutt Clans"
+	adjective="Hutt"
+	government="plutocratic_oligarchy"
+	flags={hutt_clans SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Nal Hutta"
+	planet_class="pc_continental"
+	system_name="Nal hutta"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="factory_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Shunbloor the Hutt"
+		portrait="fun12"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Supreme Mogul"
+		ruler_title_female="Supreme Mogul"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_repugnant"
+	trait="trait_enduring"
+	trait="trait_thrifty"
+	trait="trait_decadent"
 }
 ###### REPUBLIC CORE WORLDS
 "Coruscant City Authority"
@@ -808,63 +864,6 @@
 	trait="trait_deviants"
 }
 
-
-"Hutt Clans"
-={
-	name_list="FUN2"
-	ship_prefix=""
-	species_name="Hutt"
-	species_plural="Hutt"
-	species_class="FUN"
-	species_adjective="Hutt"
-	species_bio="The Hutt Ruling Council, alternatively known as the Council of Elders, Hutt Council, Great Hutt Council, or the Grand Council of Nal Hutta, is a five-member council that is the primary ruling body of the Hutt species. The five members were often known informally as the Five Hutt Families, but due to internal politics, individual clans could control more than one seat on the council. The Ruling Council was sometimes referred to as the Grand Council, but that term more accurately applied to the larger Hutt Grand Council; the Ruling Council handled the day-to-day affairs of the Hutt species, and its leader spoke on behalf of all Hutts in treaties and dealings with other empires."
-	portrait="fun12"
-	name="Hutt Clans"
-	adjective="Hutt"
-	government="plutocratic_oligarchy"
-	flags={hutt_clans SWGD_START SWGD}
-	ftl=hyperdrive
-	weapon="tech_missiles_1"
-	planet_name="Nal Hutta"
-	planet_class="pc_continental"
-	system_name="Nal hutta"
-	initializer=""
-	graphical_culture="fungoid_01"
-	city_graphical_culture="factory_01"
-	empire_flag={
-		icon={
-			category="starwars"
-			file="16.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
-			"black"
-			"black"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name="Shunbloor the Hutt"
-		portrait="fun12"
-		texture=0
-		hair=0
-		clothes=0
-		ruler_title="Supreme Mogul"
-		ruler_title_female="Supreme Mogul"
-	}
-	spawn_enabled=always
-	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_materialist"
-	trait="trait_repugnant"
-	trait="trait_enduring"
-	trait="trait_thrifty"
-	trait="trait_decadent"
-}
 "Utapauan Committee"
 ={
 	name_list="MAM3"
