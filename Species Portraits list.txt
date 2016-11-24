@@ -1,0 +1,270 @@
+Species that possibly need portrait artwork:
+
+Order Clothing:
+Jedi
+Sith
+
+Human:
+Republic - mostly complete?
+Imperial
+Mandalorian - mostly complete?
+Dathomiri Nightsisters
+Dathomiri Witches (could use human?)
+Kiffar (Quinlan Vos)
+Korunnai (Mace Windu)
+Chalactan (Depa Billaba)
+Ming Po
+
+
+Near-Human:
+Chiss - mostly complete
+Cyborgs?
+Arkanian
+Echani
+Thyrsian
+Mirilan
+Miraluka
+Zeltron
+Rattataki
+Pau’an/Utapauan
+Sarkhai
+Tholothian (Adi Gallia)
+Pantoran
+Kage
+Keshiri
+Celestial
+Umbaran
+Ferron
+Langhesi
+Wroonian
+Icarii
+Ubese
+Aruzan
+Berchestian
+
+
+Humanoid:
+Sith - mostly complete?
+Zabrak/Nightbrothers
+Twi'lek
+Togruta
+Evocii
+Jawa
+Ghorfa (Sandpeople/Tusken Raider)
+Cerean (Ki-Adi-Mundi)
+Iktotchi (Saesee Tiin)
+Devaronian
+Sephi (could use the elf-like humanoid portraits from Paradox)
+Ardan (elf-like humans/Arda an appropriate system for them)
+Melodie
+Weequay
+Squamatan
+Vultan
+Theelin
+Codru-Ji
+Balosar
+Anzat
+Koorivar
+Askajian
+Felacatian
+Jazbinan
+Red Nebula species
+
+Mammilian (Hairy):
+Wookiee
+Bothan
+Talid
+Cathar
+Zygerrian
+Farghul
+Ewok
+Yoda’s Species
+Sullustan
+Selonian
+Amaran
+Chadra-Fan
+Massassi (Sith mutation)
+Gamorrean
+Gran
+Ugnaught
+Lurmen
+Talz
+Nelvaanian
+Kubaz
+Lasat
+Whiphid
+Iakaru (Bistan)
+Caamasi
+Gotal
+Yarkora
+Shistavanen
+Gerb
+Kushiban
+Yuzzum
+Snivvian
+
+Mammilian (Hairless or few hair):
+Kel Dor
+Duros
+Neimoidian
+Taung
+Voss
+Gormak
+Muun
+Ithorian
+Asogian
+Dug
+Memit Nadill’s Species
+Xexto
+Quermian
+Chevin
+Abyssin
+Ortolan
+Noghri
+Klatooinian
+Aing-Tii
+Utai
+Yevetha
+
+Avian:
+Besalisk
+Rishii
+Diathim
+Toydarian
+Houk
+Shaliz'Na
+S'kytri
+Omwati
+Ayrou
+Fosh
+Calibop
+Quor'sav
+Mrlssi
+Tikiarri
+
+Aquatic:
+Mon Calamari
+Kaminoan
+Nautolan
+Selkath
+Ankura Gungan
+Otolla Gungan
+Aqualish
+Chagrian
+Vurk
+Karkarodon
+Patrolian
+Belugan
+Herglic
+Ishi Tib
+Blubreen
+Crolute
+Jungle Felucian
+Pa'lowick
+Zarian
+
+Reptilian:
+Rodian
+Ssi-ruu
+Trandoshan
+Rakata
+Flesh Raiders (Rakata mutation)
+Kwa
+Chistori
+Nikto
+Thisspiasian
+Falleen
+Clawdite
+Felucian
+Cosian
+Feeorin
+Dashade
+Vodran
+Columi
+Vulptereen
+Gossam
+Kaleesh
+Anx
+Phindian
+Hysalrian
+Tchuukthai
+Draethos
+Aleena
+Barabel
+Arcona
+Duinuogwuin
+Glymphid
+Stenax
+Slith
+Elders
+Nosaurian
+Nimbanel
+
+Arthropoid:
+Geonosian
+Killik
+Gand
+Mustafarian
+Harch
+Krevaaki
+Sugi
+Verpine
+Bartokk
+Brizzit
+Kobok
+Melitto
+
+Molluscoid:
+Hutt
+Gree
+Quarren
+Ongree
+Khil
+Khramboan
+
+Crustaciod:
+Tarc
+Rellarin
+Sauvax
+
+Craniopoid:
+Bith
+Celegian
+Y'bith
+Nekghoul
+Pulra
+
+Plantoid:
+Yuuzhan Vong
+Neti
+Zelosian
+Sylphe
+Kindalo
+M'shinn
+Yarin (Can use Paradox “Groot” Portrait)
+
+Fungoid:
+Parwan
+Revwien
+Wirutid
+
+Pre-Sentient:
+Krayt Dragon
+Rancor
+Wampa
+Tauntaun
+Terentatek
+Tuk'ata
+Kwi
+Kowakian (monkey-lizard)
+Rakghoul
+Kinrath
+Tach
+Zillo Beast
+Arkanian Dragon
+Nerf
+Bantha
+Gundark
+Nexu
+Reek
+Acklay

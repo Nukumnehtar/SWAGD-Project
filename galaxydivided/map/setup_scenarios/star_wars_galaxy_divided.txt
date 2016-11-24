@@ -1734,7 +1734,7 @@ static_galaxy_scenario = {
 		system = { id = "2015" name = "The Maw" position = { x = -353 y = 5 } initializer = the_maw_system_initializer }
 		system = { id = "2023" name = "Peragus" position = { x = -251 y = -252 } }
 		system = { id = "2027" name = "Ileenium" position = { x = -142 y = 330 } }
-		system = { id = "2028" name = "Gree" position = { x = -2 y = -298 } }
+		system = { id = "2028" name = "Gree" position = { x = -2 y = -298 }initializer = gree_system_initializer }
 		system = { id = "2029" name = "Astion" position = { x = 4 y = -292 } }
 		system = { id = "2031" name = "Karazak" position = { x = -198 y = 407 } }
 		system = { id = "2032" name = "Cotellier" position = { x = -115 y = 437 } }
