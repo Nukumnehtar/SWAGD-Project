@@ -81,6 +81,7 @@ Ewok
 Yoda’s Species
 Sullustan
 Selonian
+Drall
 Amaran
 Chadra-Fan
 Massassi (Sith mutation)
@@ -176,6 +177,7 @@ Thisspiasian
 Falleen
 Clawdite
 Felucian
+Bardottan
 Cosian
 Feeorin
 Dashade
