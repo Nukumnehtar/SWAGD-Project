@@ -1784,7 +1784,7 @@ static_galaxy_scenario = {
 		system = { id = "2067" name = "Voss" position = { x = -328 y = -148 } }
 		system = { id = "2068" name = "Bunduki" position = { x = 158 y = 265 } }
 		system = { id = "2071" name = "Arda" position = { x = -234 y = -161 } }
-		system = { id = "2077" name = "Pantora" position = { x = -180 y = 393 } }
+		system = { id = "2077" name = "Pantora" position = { x = -180 y = 393 } initializer = pantora_system_initializer }
 		system = { id = "2082" name = "Ferro" position = { x = -227 y = -230 } }
 		system = { id = "2083" name = "Ventooine" position = { x = -200 y = -261 } }
 		system = { id = "2084" name = "Langhesa" position = { x = -196 y = -243 } }

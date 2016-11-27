@@ -3,10 +3,10 @@ Lucas Canon:
 Chandrila - Core
 Humbarine - Core
 Uyter - Mid Rim
-Neelanon - Mid Rim-system
-Sern Prime - Colonies-system
-Bardotta - Colonies-system
-Lorrd - Outer Rim-system
+Neelanon - Mid Rim
+Sern Prime - Colonies
+Bardotta - Colonies
+Lorrd - Outer Rim
 Filoni Canon:
 Legends:
 Kynachi
