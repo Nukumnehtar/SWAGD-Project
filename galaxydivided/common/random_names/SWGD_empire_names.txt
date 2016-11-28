@@ -75,11 +75,23 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = corellian_empire
+			has_country_flag = alderaan_kingdom
 		}
 	}
-	format = "Corellian Empire"
-	noun = "Corellian"	
+	format = "Kingdom of Alderaan"
+	noun = "Alderaanian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = chandrila
+		}
+	}
+	format = "Chandrilan House"
+	noun = "Chandrilan"	
 }
 
 empire_name_format = {

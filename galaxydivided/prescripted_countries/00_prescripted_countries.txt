@@ -286,10 +286,10 @@
 ={
 	name_list="Republic"
 	ship_prefix=""
-	species_name="Coruscanti"
-	species_plural="Coruscanti"
+	species_name="Human"
+	species_plural="Human"
 	species_class="MAM"
-	species_adjective="Coruscanti"
+	species_adjective="Human"
 	species_bio="[Core founder of the Republic] Coruscant is the captial of the ruling government of much of the galaxy that has existed for more than 25 thousand years. The Republic is a representative democracy, composed of various star systems, sectors and member worlds throughout most of the known galaxy. Its central government consisted of three branches: legislative, executive and judicial. The first was the Galactic Senate, a body of elected or appointed representatives. Its main duties included mediating disputes over issues ranging from planetary to galactic-scale, regulating trade routes between star systems, and in theory, represented the interests of Republic citizens. "
 	portrait="human"
 	name="Coruscant City Authority"
@@ -337,7 +337,173 @@
 	trait="trait_deviants"
 	trait="trait_quick_learners"
 }
-
+"Kingdom of Alderaan"
+={
+	name_list="sw_hu"
+	ship_prefix=""
+	species_name="Alderaanian"
+	species_plural="Alderaanians"
+	species_class="MAM"
+	species_adjective="Alderaanian"
+	species_bio="[Core founder of the Republic] The Alderaanian Parliament was a governing body of the Kingdom of Alderaan. The parliament was founded after King Darrus Alde united the planet under his rule early in its history, prior to the formation of the Galactic Republic. Only members from the noble houses of Alderaan were eligible to serve in the parliament. The nobility of Alderaan were responsible for ruling the planet and choosing the reigning monarch in often vicious, always intricate games of local politics. "
+	portrait="human"
+	name="Kingdom of Alderaan"
+	adjective="Alderaanian"
+	government="enlightened_monarchy"
+	flags={alderaan_kingdom	core_founder SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Alderaan"
+	planet_class="pc_alpine"
+	system_name="Alderaan"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="asari_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_7.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"orange"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Alyssa Organa"
+		portrait="human_female_01"
+		texture=0
+		hair=9
+		clothes=5
+		heir_title="Prince"
+		heir_title_female=" Princess"
+	}
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_pacifist"
+	trait="trait_talented"
+	trait="trait_charismatic"
+	trait="trait_deviants"
+}
+"Chandrilan House"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Chandrilan"
+	species_plural="Chandrilan"
+	species_class="MAM"
+	species_adjective="Chandrilan"
+	species_bio="[Core founder of the Republic] Known as a jewel of the Core World, Chandrila was a natural beauty protected and nurtured by its people. The Chandrilan House, a democratically moral governing body, were dedicated to keeping a balanced ecosystem and environment for the planet."
+	portrait="human"
+	name="Chandrilan House"
+	adjective="Chandrilan"
+	government="moral_democracy"
+	flags={chandrila core_founder SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Chandrila"
+	planet_class="pc_continental"
+	system_name="Chandrila"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="45.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"yellow"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Elenna Horil"
+		portrait="human_female_01"
+		texture=0
+		hair=6
+		clothes=5
+		ruler_title="President"
+		ruler_title_female="President"
+	}
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_pacifist"
+	trait="trait_talented"
+	trait="trait_charismatic"
+	trait="trait_deviants"
+}
+"Corellian Empire"
+={
+	name_list="sw_hu"
+	ship_prefix=""
+	species_name="Corellian"
+	species_plural="Corellians"
+	species_class="MAM"
+	species_adjective="Corellian"
+	species_bio="[Core founder of the Republic] The Corellian Empire is the government of the Corellian sector. It is ruled by a King from the House of Solo, who controls matters of state."
+	portrait="human"
+	name="Corellian Empire"
+	adjective="Corellian"
+	government="military_junta"
+	flags={corellian_empire core_founder SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Corellia"
+	planet_class="pc_continental"
+	system_name="Corellia"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_22.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"red_orange"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Rowan Solo"
+		portrait="human_male_01"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="King"
+		ruler_title_female="Queen"
+	}
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	ethic="ethic_individualist"
+	trait="trait_deviants"
+	trait="trait_sedentary"
+	trait="trait_talented"
+	trait="trait_natural_engineers"
+}
 "Anaxes Commonwealth"
 ={
 	name_list="Republic"
@@ -451,121 +617,6 @@
 	trait="trait_deviants"
 	trait="trait_quick_learners"
 }
-
-
-"Kingdom of Alderaan"
-={
-	name_list="sw_hu"
-	ship_prefix=""
-	species_name="Alderaanian"
-	species_plural="Alderaanians"
-	species_class="MAM"
-	species_adjective="Alderaanian"
-	species_bio="[Core founder of the Republic] The Alderaanian Parliament was a governing body of the Kingdom of Alderaan. The parliament was founded after King Darrus Alde united the planet under his rule early in its history, prior to the formation of the Galactic Republic. Only members from the noble houses of Alderaan were eligible to serve in the parliament. The nobility of Alderaan were responsible for ruling the planet and choosing the reigning monarch in often vicious, always intricate games of local politics. "
-	portrait="human"
-	name="Kingdom of Alderaan"
-	adjective="Alderaanian"
-	government="enlightened_monarchy"
-	flags={alderaan_kingdom	core_founder SWGD}
-	ftl=hyperdrive
-	weapon="tech_lasers_1"
-	planet_name="Alderaan"
-	planet_class="pc_alpine"
-	system_name="Alderaan"
-	initializer=""
-	graphical_culture="republic_01"
-	city_graphical_culture="asari_01"
-	empire_flag={
-		icon={
-			category="pointy"
-			file="flag_pointy_7.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
-			"orange"
-			"brown"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Alyssa Organa"
-		portrait="human_female_01"
-		texture=0
-		hair=9
-		clothes=5
-		heir_title="Prince"
-		heir_title_female=" Princess"
-	}
-	spawn_enabled=always
-	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_pacifist"
-	trait="trait_talented"
-	trait="trait_charismatic"
-	trait="trait_deviants"
-}
-"Corellian Empire"
-={
-	name_list="sw_hu"
-	ship_prefix=""
-	species_name="Corellian"
-	species_plural="Corellians"
-	species_class="MAM"
-	species_adjective="Corellian"
-	species_bio="[Core founder of the Republic] The Corellian Empire is the government of the Corellian sector. It is ruled by a King from the House of Solo, who controls matters of state."
-	portrait="human"
-	name="Corellian Empire"
-	adjective="Corellian"
-	government="military_junta"
-	flags={corellian_empire core_founder SWGD}
-	ftl=hyperdrive
-	weapon="tech_lasers_1"
-	planet_name="Corellia"
-	planet_class="pc_continental"
-	system_name="Corellia"
-	initializer=""
-	graphical_culture="republic_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="domination"
-			file="domination_22.dds"
-		}
-		background={
-			category="backgrounds"
-			file="sinus.dds"
-		}
-		colors={
-			"red_orange"
-			"orange"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name="Rowan Solo"
-		portrait="human_male_01"
-		texture=0
-		hair=0
-		clothes=0
-		ruler_title="King"
-		ruler_title_female="Queen"
-	}
-	spawn_enabled=always
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	ethic="ethic_individualist"
-	trait="trait_deviants"
-	trait="trait_sedentary"
-	trait="trait_talented"
-	trait="trait_natural_engineers"
-}
-
 "Duro Consortium"
 ={
 	name_list="MAM1"
@@ -1575,7 +1626,7 @@
 		}
 		colors={
 			"light_blue"
-			"black"
+			"light_blue"
 			"null"
 			"null"
 		}

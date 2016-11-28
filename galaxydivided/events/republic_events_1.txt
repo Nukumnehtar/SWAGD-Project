@@ -143,6 +143,15 @@ country_event = {
 				country_event = { id = republic.18 }
 				
 			}
+			every_country = {
+				limit = { 							
+					has_country_flag = chandrila
+					NOT = { has_country_flag = republic_member }
+				}		
+				
+				country_event = { id = republic.19 }
+				
+			}
 
 		}
 	}
@@ -514,6 +523,43 @@ country_event = {
 			every_country  = {
 				limit = {
 				has_country_flag = alsakan
+				NOT = {has_country_flag = republic_member}
+				NOT = { is_in_federation_with = root }
+				}
+				from = {	
+						country_event = { id = republic.2 } 
+						
+								
+						
+					}		
+				}
+			}
+	}
+ } 
+
+#Chandrila
+ country_event = {
+	id = republic.19
+	title = republic.19.name
+	desc = republic.19.desc
+	picture = GFX_evt_galactic_senate
+	show_sound = event_alien_signal	
+	location = from
+	is_triggered_only = yes
+	fire_only_once = yes
+	hide_window = yes
+		
+	
+		
+	option = {
+		ai_chance = { 
+			factor = 100
+			}
+	
+		hidden_effect = {
+			every_country  = {
+				limit = {
+				has_country_flag = chandrila
 				NOT = {has_country_flag = republic_member}
 				NOT = { is_in_federation_with = root }
 				}
