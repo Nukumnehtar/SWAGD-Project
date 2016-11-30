@@ -1649,3 +1649,57 @@
 	trait="trait_quick_learners"
 }
 
+"Echani Command"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Echani"
+	species_plural="Echani"
+	species_class="MAM"
+	species_adjective="Echani"
+	species_bio="Echani Command"
+	portrait="echani"
+	name="Echani Command"
+	adjective="Echani"
+	government="military_junta"
+	flags={	echani custom_start_screen SWGD}
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Eshan"
+	planet_class="pc_continental"
+	system_name="Eshan"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="dirty_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="34.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"light_purple"
+			"light_purple"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Kirinna Scirn"
+		portrait="echani_female_02"
+		texture=0
+		hair=6
+		clothes=4
+		ruler_title="Chancellor"
+		ruler_title_female="Chancellor"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_militarist"
+	trait="trait_strong"
+	trait="trait_natural_engineers"
+}

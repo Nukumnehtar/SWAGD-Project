@@ -29,6 +29,7 @@ MAM = {
 	portraits = {
 		"chiss"
 		"mando"
+		"echani"
 	}
 
 	graphical_culture = mammalian_01
@@ -42,6 +43,7 @@ SWGD_humanoid = {
 		"human"
 		"sith"
 		"mando"
+		"echani"
 				}
 		graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"

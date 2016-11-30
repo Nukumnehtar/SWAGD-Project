@@ -1,0 +1,79 @@
+yoggoy_system_initializer = {
+    name = "Yoggoy"
+    class = "rl_standard_stars"
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+
+    planet = {
+        name = "Krikshiss"
+        class = "pc_toxic"
+        orbit_distance = 32
+        orbit_angle = 143
+        size = 14
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Yoggoy"
+        class = "pc_alpine"
+        orbit_distance = 45
+        orbit_angle = 35
+        size = 20
+        has_ring = no
+
+        moon = {
+            name = "Kiliksis"
+            class = random
+            orbit_distance = 9
+            orbit_angle = 132
+            size = 6
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Qaaq"
+        class = "pc_tropical"
+        orbit_distance = 25
+        orbit_angle = 276
+        size = 14
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Nukkun"
+        class = "pc_barren_cold"
+        orbit_distance = 48
+        orbit_angle = 76
+        size = 15
+        has_ring = no
+
+
+        moon = {
+	    name = "Nukkun Minor"
+            class = random
+            orbit_distance = 8
+            orbit_angle = 187
+	    size = 5
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Hsisus"
+        class = "pc_frozen"
+        orbit_distance = 58
+        orbit_angle = 264
+        size = 20
+        has_ring = no
+
+    }
+}

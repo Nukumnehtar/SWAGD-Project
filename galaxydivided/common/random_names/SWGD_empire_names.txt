@@ -357,3 +357,15 @@ empire_name_format = {
 	format = "Taris Civil Authority"
 	noun = "Tarisian"	
 }
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = echani
+		}
+	}
+	format = "Echani Command"
+	noun = "Echani"	
+}
