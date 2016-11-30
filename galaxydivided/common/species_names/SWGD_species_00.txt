@@ -75,7 +75,7 @@ SWGD_humanoid = {
 		home_system = Iridonia
 		name_list = "MAM3"
 	}
-		mirialan = {
+	mirialan = {
 		name = Mirialan
 		plural = Mirialans
 		home_planet = Mirial

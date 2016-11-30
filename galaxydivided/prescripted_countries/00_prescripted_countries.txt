@@ -100,7 +100,7 @@
 		name="Vitiate"
 		portrait="sith_male_03"
 		texture=0
-		hair=27
+		hair=0
 		clothes=1
 		heir_title=" "
 		heir_title_female=" "
