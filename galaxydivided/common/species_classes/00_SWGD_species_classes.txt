@@ -24,26 +24,29 @@ republic = {
 	
 }
 
-
-MAM = {
+SWGD_human = {
 	portraits = {
-		"chiss"
+		"human"
 		"mando"
-		"echani"
-	}
-
-	graphical_culture = mammalian_01
+				}
+		graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 	
-}
+		}
 
+SWGD_near_human = {
+	portraits = {
+		"chiss"
+		"echani"
+				}
+		graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+	
+		}
 
 SWGD_humanoid = {
 	portraits = {
-		"human"
 		"sith"
-		"mando"
-		"echani"
 				}
 		graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"

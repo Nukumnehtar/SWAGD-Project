@@ -13,7 +13,7 @@ sith = {
 }
 	
 	
-MAM = {
+SWGD_human = {
 
 	mando = {
 		name = Mandalorian	
@@ -22,6 +22,17 @@ MAM = {
 		home_system = "Clan Home System"
 		name_list = "Mandalorian"
 	}
+	human = {
+		name = "Human"	
+		plural = "Human"
+		home_planet = "Coruscant"
+		home_system = "Coruscant"
+		name_list = "Republic"
+	}
+}
+
+SWGD_near_human = {
+
 	echani = {
 		name = Echani	
 		plural = Echani
@@ -35,13 +46,6 @@ MAM = {
 		home_planet = "Chiss Ascendancy"
 		home_system = "Chiss Space"
 		name_list = "Chiss"
-	}
-	human = {
-		name = "Human"	
-		plural = "Human"
-		home_planet = "Coruscant"
-		home_system = "Coruscant"
-		name_list = "Republic"
 	}
 }
 	
