@@ -5,46 +5,19 @@
 # can specify randomized=no to filter specified class from randomization.
 
 
-
-
-SWGD_HUMAN = {
-	portraits = {
-		"human"
-		"mando"
-		
-	}
-
-	graphical_culture = mammalian_01
+republic = {	
+	
+	randomized=no
+	graphical_culture = republic_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 	
 }
 
-SWGD_NEAR_HUMAN = {
-	portraits = {
-		"chiss"
-		"echani"
-				}
-		graphical_culture = mammalian_01
+
+sith = {	
+	
+	randomized=no
+	graphical_culture = sith_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 	
-		}
-
-
-
-		
-SWGD_HUMANOID = {
-
-
-portraits = {
-		"sith"
-			}
-		
-		
-
-graphical_culture = mammalian_01
-	move_pop_sound_effect = "moving_pop_confirmation"
-	
-
 }
-
-

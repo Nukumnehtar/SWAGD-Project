@@ -2,6 +2,16 @@
 
 ### Species
 
+republic = {
+	republic = {
+		name = Human	
+		plural = Humans
+		home_planet = "Coruscant"
+		home_system = "Coruscant"
+		name_list = "Republic"
+	}
+}
+
 sith = {
 	sith = {
 		name = Sith	
@@ -12,8 +22,7 @@ sith = {
 	}
 }
 	
-	
-SWGD_human = {
+SWGD_HUMAN = {
 
 	mando = {
 		name = Mandalorian	
@@ -29,10 +38,17 @@ SWGD_human = {
 		home_system = "Coruscant"
 		name_list = "Republic"
 	}
+	revanites = {
+		name = Revanite
+		plural = Revanites
+		home_planet = Rishi
+		home_system = Rishi
+		name_list = "sw_hu"
+	}
 }
-
-SWGD_near_human = {
-
+	
+SWGD_NEAR_HUMAN = {
+	
 	echani = {
 		name = Echani	
 		plural = Echani
@@ -47,30 +63,34 @@ SWGD_near_human = {
 		home_system = "Chiss Space"
 		name_list = "Chiss"
 	}
-}
-	
-SWGD_humanoid = {
-	
-	revanites = {
-		name = Revanite
-		plural = Revanites
-		home_planet = Rishi
-		home_system = Rishi
-		name_list = "sw_hu"
-	}
-	togruta = {
-		name = Togruta
-		plural = Togruta
-		home_planet = Shili
-		home_system = Shili
-		name_list = "MAM1"
-	}
+		
 	miraluka = {
 		name = Miraluka
 		plural = Miralukan
 		home_planet = Alpheridies
 		home_system = Abron
 		name_list = "MAM2"
+	}
+	
+		mirialan = {s
+		name = Mirialan
+		plural = Mirialans
+		home_planet = Mirial
+		home_system = Mirial
+		name_list = "MAM2"
+	}
+
+		
+}
+	
+SWGD_HUMANOID = {
+
+	twi'lek = {
+		name = Twi'lek
+		plural = Twi'lek
+		home_planet = Ryloth
+		home_system = Ryloth
+		name_list = "MAM1"
 	}
 	zabrak = {
 		name = Zabrak
@@ -79,25 +99,20 @@ SWGD_humanoid = {
 		home_system = Iridonia
 		name_list = "MAM3"
 	}
-	mirialan = {
-		name = Mirialan
-		plural = Mirialans
-		home_planet = Mirial
-		home_system = Mirial
-		name_list = "MAM2"
-	}
-	twi'lek = {
-		name = Twi'lek
-		plural = Twi'lek
-		home_planet = Ryloth
-		home_system = Ryloth
+	togruta = {
+		name = Togruta
+		plural = Togruta
+		home_planet = Shili
+		home_system = Shili
 		name_list = "MAM1"
 	}
-	
-		
-}
-	
-SWGD = {
+	sith = {
+		name = Sith	
+		plural = Sith
+		home_planet = "Emperor's Throne"
+		home_system = "Sith World"
+		name_list = "Sith"
+	}
 	ithorian = {
 		name = Ithorian
 		plural = Ithorians
@@ -149,10 +164,11 @@ SWGD = {
 		home_system = Urkupp
 		name_list = "MAM1"
 	}
+}	
 	
-}
 	
 	
+
 	
 	
 	
