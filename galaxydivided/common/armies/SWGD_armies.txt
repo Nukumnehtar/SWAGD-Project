@@ -1,0 +1,113 @@
+#Defensive armies can't transport of the planet
+#Garrison armies are created by pops
+#maintenance is directly scripted here. 0.25 translates to 0.25 monthly cost (excluding other upkeep modifiers)
+
+
+# Psionic Armies
+force_adept = {
+	damage = 1.75
+	morale_damage = 1.5
+	health = 1.25
+	morale = 3.0
+	time = 360
+	maintenance = 0.8
+	icon_frame = 9
+	
+	cost = {
+		minerals = 250
+		energy = 50
+	}
+	
+	prerequisites = { "tech_force_I" }
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+force_warrior = {
+	damage = 1.75
+	morale_damage = 1.5
+	health = 1.25
+	morale = 3.0
+	time = 360
+	maintenance = 0.8
+	icon_frame = 9
+	
+	cost = {
+		minerals = 250
+		energy = 50
+	}
+	
+	prerequisites = { "tech_force_II" }
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+force_inquisitor = {
+	damage = 1.75
+	morale_damage = 1.5
+	health = 1.25
+	morale = 3.0
+	time = 360
+	maintenance = 0.8
+	icon_frame = 9
+	
+	cost = {
+		minerals = 250
+		energy = 50
+	}
+	
+	prerequisites = { "tech_force_III" }
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+force_master = {
+	damage = 1.75
+	morale_damage = 1.5
+	health = 1.25
+	morale = 3.0
+	time = 360
+	maintenance = 0.8
+	icon_frame = 9
+	
+	cost = {
+		minerals = 250
+		energy = 50
+	}
+	
+	prerequisites = { "tech_force_IV" }
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}

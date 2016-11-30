@@ -29,6 +29,7 @@ leader_trait_sci_force_user_I = {
 		ship_anomaly_generation_chance_mult = 0.05
 		ship_anomaly_fail_risk = -0.10
 		category_psionics_research_speed_mult = 0.10
+		category_force_research_speed_mult = 0.10
 	}
 	initial = yes
 	leader_trait = yes
@@ -54,6 +55,7 @@ leader_trait_sci_force_user_II = {
 		ship_anomaly_generation_chance_mult = 0.15
 		ship_anomaly_fail_risk = -0.10
 		category_psionics_research_speed_mult = 0.20
+		category_force_research_speed_mult = 0.20
 	}
 	initial = yes
 	leader_trait = yes
@@ -79,6 +81,7 @@ leader_trait_sci_force_user_III = {
 		ship_anomaly_generation_chance_mult = 0.20
 		ship_anomaly_fail_risk = -0.20
 		category_psionics_research_speed_mult = 0.20
+		category_force_research_speed_mult = 0.20
 	}
 	initial = yes
 	leader_trait = yes

@@ -1,0 +1,455 @@
+# Do not remove or rename this
+
+# Possible Variables for Buildings:
+# strategic_resource: strategic resource, deprecated, strategic resource used by the building.
+# allow: trigger to check for allowing construction of building.
+# prerequisites: Tech requirements for building.
+# empire_unique: boolean, can only build one if set to true.
+# cost: resource table, cost of building.
+# is_orbital: boolean, can only be built in orbital station.
+# modifier: modifier, deprecated, applies a modifier to planet.
+# base_buildtime: int, number of days for construction.
+# requires_pop, boolean, building will require a pop for production.
+# required_resources, resource table, required resources for production.
+# produced_resources, resource table, produced resources in production.
+# upgrades, buildings list, buildings this building can upgrade into.
+# is_listed, boolean, toggles if this building is shown in the non-upgrade buildable list.
+# planet_unique, toggles if one can build multiple of this type on a single planet.
+
+#
+# BALANCE
+# can change the time and cost of all common buildings with these variables below
+
+@b0time = 120
+@b0cost = 30
+@b0effect = 1
+@b0upkeep = 1
+
+@b1time = 210
+@b1cost = 60
+@b1effect = 2
+@b1upkeep = 1
+
+@b2time = 180
+@b2cost = 90
+@b2effect = 3
+@b2upkeep = 1.5
+
+@b3time = 180
+@b3cost = 120
+@b3effect = 4
+@b3upkeep = 2
+
+@b4time = 180
+@b4cost = 150
+@b4effect = 5
+@b4upkeep = 2.5
+
+@b5time = 180
+@b5cost = 180
+@b5effect = 8
+@b5upkeep = 3
+
+@feupkeep = 4
+@feproduction = 12
+
+@science1 = 1
+@science2 = 2
+@science3 = 3
+@science4 = 4
+@science5 = 6
+
+
+###############################
+### Planet Unique buildings ###
+###############################
+
+#Asteroid and barren planet support system
+building_life_support_system = {
+	base_buildtime = 90
+	planet_unique = yes
+	
+	cost = {
+		minerals = 150
+	}
+
+	potential = {
+		planet = {
+			is_planet_class = pc_asteroid
+		}
+	}
+	
+	allow = {
+		planet = {
+			is_planet_class = pc_asteroid
+		}		
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	produced_resources = {
+		food = 2
+	}
+	
+	planet_modifier = {
+		pop_environment_tolerance = 0.80
+		pop_growth_req_mult = 0.75	
+	}
+	
+	prerequisites = {
+		"tech_offworld_habitats"
+	}
+}
+
+#support system for molten and toxis
+building_hazardous_life_support_system = {
+	base_buildtime = 90
+	planet_unique = yes
+	
+	cost = {
+		minerals = 150
+	}
+
+	potential = {
+		planet = {
+			is_planet_class = pc_molten
+		}
+	}
+	
+	allow = {
+		planet = {
+			is_planet_class = pc_molten
+		}		
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	produced_resources = {
+		food = 2
+	}
+	
+	planet_modifier = {
+		pop_environment_tolerance = 0.80
+		pop_growth_req_mult = 0.75	
+	}
+	
+	prerequisites = {
+		"tech_offworld_habitats"
+	}
+}
+
+
+	
+# Colony Shelter
+building_colony_shelter = {
+	base_buildtime = 180
+	
+	cost = {
+	}
+	
+	planet_modifier = {
+		pop_ethic_shift = -0.05
+	}
+	
+	potential = {
+		planet = {
+			NOT = {
+				has_building = "building_colony_shelter"
+				has_building = "building_capital_1"
+				has_building = "building_capital_2"
+				has_building = "building_capital_3"
+				has_building = "building_exo_ops"
+				has_building = "building_commerce_coord"
+				has_building = "building_mining_guild"
+				has_building = "building_central_databank"
+				has_building = "building_farming_guild"
+				
+			}
+		}
+	}
+	
+	allow = {
+		always = yes
+	}
+	
+	planet_unique = yes
+	capital = yes
+	level = 0
+	
+	produced_resources = {
+		food = 3
+	}
+	
+	adjacency_bonus = {
+		resource_food_add = 1
+	}
+	
+	upgrades = {
+		building_capital_1
+		building_exo_ops
+		building_mining_colony
+		building_recruiting_world
+		building_research_colony
+		building_penal_colony
+	}
+	
+	ai_replace = no
+}
+
+#Mining Colony
+building_mining_colony = {
+		
+	base_buildtime = 360
+	
+	cost = {
+		minerals = 350
+		
+	}
+	
+	planet_modifier = {
+		max_minerals = 250
+		tile_resource_minerals_mult = 0.10
+		pop_ethic_shift = 0.10
+	}
+	
+	allow = {
+		custom_tooltip = {
+			text = "requires_pops_5"
+			planet = {
+				count_pops = {
+					count > 4
+					limit = {
+						is_colony_pop = yes
+					}
+				}
+			}
+		}
+	}
+	
+	planet_unique = yes
+	capital = yes
+	level = 1
+	
+	produced_resources = {
+		food = 3		
+		}
+	
+	adjacency_bonus = {
+		resource_minerals_add = 2
+	
+	}
+	
+		
+	prerequisites = {
+		"tech_colonization_1"
+	}
+	upgrades = {
+				
+				building_capital_2
+				building_commerce_coord
+				building_mining_guild
+				building_central_databank
+				building_farming_guild
+		}
+	ai_replace = no
+}
+
+#Recruiting World
+building_recruiting_world = {
+	
+	base_buildtime = 360
+	
+	cost = {
+		minerals = 350
+		
+	}
+	
+	
+	planet_modifier = {
+		planet_army_build_speed_mult = 0.15
+		pop_ethic_shift = -0.05
+		army_damage_mult = 0.10
+		tile_resource_engineering_research_mult = 0.15
+		pop_ethic_shift = -0.05
+		tile_resource_minerals_mult = -0.25
+	}
+	
+	allow = {
+		custom_tooltip = {
+			text = "requires_pops_5"
+			planet = {
+				count_pops = {
+					count > 4
+					limit = {
+						is_colony_pop = yes
+					}
+				}
+			}
+		}
+	}
+	
+	planet_unique = yes
+	capital = yes
+	level = 1
+	
+	army_modifier = {
+		army_damage_mult = 0.10
+	}
+	
+	produced_resources = {
+		food = 3
+		minerals = 3
+		energy = 3
+	}
+	
+	adjacency_bonus = {
+		resource_minerals_add = 4
+	
+	}
+	
+	
+	
+	prerequisites = {
+		 "tech_colonization_1" 
+	}
+	ai_replace = no
+}
+	
+
+# Research_colony
+building_research_colony = {
+	
+	base_buildtime = 360
+	
+	cost = {
+		minerals = 350
+		
+	}
+	
+		
+	planet_modifier = {
+		tile_resource_society_research_mult = 0.1
+		tile_resource_engineering_research_mult = 0.1
+		tile_resource_physics_research_mult = 0.1
+		pop_ethic_shift = -0.10
+		tile_resource_minerals_mult = -0.25
+	}
+	
+	
+	allow = {
+		custom_tooltip = {
+			text = "requires_pops_5"
+			planet = {
+				count_pops = {
+					count > 4
+					limit = {
+						is_colony_pop = yes
+					}
+				}
+			}
+		}
+	}
+	
+	planet_unique = yes
+	capital = yes
+	level = 1
+	
+	
+	
+	produced_resources = {
+		food = 3
+		energy = 3
+		engineering_research = 3
+		physics_research = 3
+		society_research = 3
+	}
+	
+		
+	prerequisites = {
+		"tech_colonization_1" 
+	}
+
+	upgrades = {
+				building_capital_2
+				building_commerce_coord
+				building_mining_guild
+				building_central_databank
+				building_farming_guild
+		}
+	
+	ai_replace = no
+}
+	
+	
+# Penal Colony
+building_penal_colony = {
+	
+	base_buildtime = 360
+	
+	cost = {
+		minerals = 350
+		
+	}
+	
+	
+	planet_modifier = {
+		tile_resource_minerals_mult = 0.05
+		slave_production_output = 0.25
+		slave_food_output = 0.25
+		all_technology_research_speed = -0.50
+		planet_migration_all_pull = -1.0
+	}
+	
+	
+	allow = {
+		custom_tooltip = {
+			text = "requires_pops_5"
+			planet = {
+				count_pops = {
+					count > 4
+					limit = {
+						is_colony_pop = yes
+					}
+				}
+			}
+		}
+	}
+	
+	planet_unique = yes
+	capital = yes
+	level = 1
+	
+	
+	
+	produced_resources = {
+		food = 3
+		minerals = 3
+	}
+	
+	adjacency_bonus = {
+		resource_minerals_add = 1
+		resource_food_add = 1
+		resource_energy_add = 1
+	}
+	
+	upgrades = {
+				building_capital_2
+				building_commerce_coord
+				building_mining_guild
+				building_central_databank
+				building_farming_guild 
+		}
+	
+	prerequisites = {
+		"tech_colonization_1" 
+	}
+
+	ai_replace = no
+}
+	
+	
+	

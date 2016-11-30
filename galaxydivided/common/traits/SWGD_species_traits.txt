@@ -1,9 +1,9 @@
 trait_force_attuned = {
-	cost = 2	
+	cost = 3	
 	
 	modifier = {
 		tile_resource_society_research_mult = 0.10
 		leader_age = 30 
-		army_damage_mult = 0.15
+		army_damage_mult = 0.10
 	}
 }
