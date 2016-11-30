@@ -1670,7 +1670,7 @@
 	system_name="Eshan"
 	initializer=""
 	graphical_culture="mammalian_01"
-	city_graphical_culture="dirty_01"
+	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
 			category="starwars"
@@ -1681,8 +1681,8 @@
 			file="circle.dds"
 		}
 		colors={
-			"light_purple"
-			"light_purple"
+			"purple"
+			"white"
 			"null"
 			"null"
 		}
@@ -1692,10 +1692,10 @@
 		name="Kirinna Scirn"
 		portrait="echani_female_02"
 		texture=0
-		hair=6
-		clothes=4
-		ruler_title="Chancellor"
-		ruler_title_female="Chancellor"
+		hair=1
+		clothes=2
+		ruler_title="Council Father"
+		ruler_title_female="Council Mother"
 	}
 	spawn_enabled=always
 	ethic="ethic_collectivist"
