@@ -6,11 +6,13 @@ portraits = {
 	character_textures = { "gfx/models/portraits/sith/sith_female_body_03.dds"}}
 	sith_female_04 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" hair_selector = "human_female_hair_01"	greeting_sound = "human_female_greetings_03"
 	character_textures = { "gfx/models/portraits/sith/sith_female_body_04.dds"}}
-	sith_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "human_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	sith_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
 	character_textures = { "gfx/models/portraits/sith/sith_male_body_01.dds"}}	
-	sith_male_03 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "human_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	sith_male_02 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	character_textures = { "gfx/models/portraits/sith/sith_male_body_02.dds"}}	
+	sith_male_03 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
 	character_textures = { "gfx/models/portraits/sith/sith_male_body_03.dds"}}		
-	sith_male_04 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "human_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	sith_male_04 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
 	character_textures = { "gfx/models/portraits/sith/sith_male_body_04.dds"}}		
 }	
 
@@ -26,6 +28,7 @@ portrait_groups = {
 					sith_male_03
 					sith_male_04
 					sith_male_01
+					sith_male_02
 				}
 			}
 			add = {
@@ -50,6 +53,7 @@ portrait_groups = {
 			add = {
 				portraits = {
 					sith_male_01
+					sith_male_02
 					sith_male_03
 					sith_male_04
 					sith_female_01
@@ -69,6 +73,7 @@ portrait_groups = {
 					sith_female_04
 					sith_male_01
 					sith_male_03
+					sith_male_02
 					sith_male_04
 				
 				}
@@ -96,6 +101,7 @@ portrait_groups = {
 					sith_male_01
 					sith_male_03
 					sith_male_04
+					sith_male_02
 					
 				}
 			}
@@ -122,6 +128,7 @@ portrait_groups = {
 				portraits = {
 					sith_male_01
 					sith_male_03
+					sith_male_02
 					sith_male_04
 				
 				}
