@@ -11,7 +11,7 @@ SWGD_HUMAN = {
 	portraits = {
 		"human"
 		"mando"
-		
+		"korunnai"
 	}
 
 	graphical_culture = mammalian_01

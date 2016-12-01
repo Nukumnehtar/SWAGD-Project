@@ -11,16 +11,16 @@ Mandalorian - mostly complete?
 Dathomiri Nightsisters
 Dathomiri Witches (could use human?)
 Kiffar (Quinlan Vos)
-Korunnai (Mace Windu)
+Korunnai (Mace Windu) - completed
 Chalactan (Depa Billaba)
 Ming Po
 
 
 Near-Human:
-Chiss - mostly complete
+Chiss - complete
 Cyborgs?
 Arkanian
-Echani
+Echani - mostly complete (eyes)
 Thyrsian
 Mirilan
 Miraluka
@@ -44,7 +44,7 @@ Berchestian
 
 
 Humanoid:
-Sith - mostly complete?
+Sith - wip
 Zabrak/Nightbrothers
 Twi'lek
 Togruta
