@@ -10,6 +10,7 @@
 SWGD_HUMAN = {
 	portraits = {
 		"human"
+		"imperial"
 		"mando"
 		"korunnai"
 	}
@@ -23,6 +24,7 @@ SWGD_NEAR_HUMAN = {
 	portraits = {
 		"chiss"
 		"echani"
+		"thyrsian"
 				}
 		graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"

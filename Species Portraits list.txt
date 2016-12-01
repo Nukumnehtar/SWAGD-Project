@@ -8,6 +8,7 @@ Human:
 Republic - mostly complete?
 Imperial
 Mandalorian - mostly complete?
+Cyborgs?
 Dathomiri Nightsisters
 Dathomiri Witches (could use human?)
 Kiffar (Quinlan Vos)
@@ -18,7 +19,6 @@ Ming Po
 
 Near-Human:
 Chiss - complete
-Cyborgs?
 Arkanian
 Echani - mostly complete (eyes)
 Thyrsian

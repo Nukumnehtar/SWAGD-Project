@@ -1,6 +1,6 @@
 # This is a template which multiple species can use. 
 
-chiss_female_clothes_01 = {
+imperial_female_clothes_01 = {
 	default = "gfx/models/portraits/human/human_female_clothes_grandmoff.dds"
 	
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
@@ -25,7 +25,6 @@ chiss_female_clothes_01 = {
 		"gfx/models/portraits/human/human_female_outfit_scientist.dds" = { leader_class = scientist }
 		"gfx/models/portraits/human/human_female_clothes_cedfgeneral.dds" = { leader_class = general }
 		"gfx/models/portraits/human/human_female_clothes_cedfadmiral.dds" = { leader_class = admiral }
-		"gfx/models/portraits/chiss/chiss_female_clothes_governer.dds" = { leader_class = governor }
 		"gfx/models/portraits/human/human_female_clothes_grandmoff.dds" = { leader_class = ruler }
 	}
 

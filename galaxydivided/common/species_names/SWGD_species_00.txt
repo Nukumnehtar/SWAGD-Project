@@ -31,6 +31,13 @@ SWGD_HUMAN = {
 		home_system = "Coruscant"
 		name_list = "Republic"
 	}
+	imperial = {
+		name = "Imperial"	
+		plural = "Imperial"
+		home_planet = "Emperor's Throne"
+		home_system = "Sith World"
+		name_list = "Sith"
+	}
 	mando = {
 		name = Mandalorian	
 		plural = Mandalorians
@@ -63,6 +70,13 @@ SWGD_NEAR_HUMAN = {
 		home_system = "Clan Home System"
 		name_list = "Republic"
 	}
+	thyrsian = {
+		name = Thyrsian	
+		plural = Thyrsian
+		home_planet = "Clan Homeworld"
+		home_system = "Clan Home System"
+		name_list = "Republic"
+	}
 	chiss = {
 		name = "Chiss"	
 		plural = "Chiss"
@@ -79,7 +93,7 @@ SWGD_NEAR_HUMAN = {
 		name_list = "MAM2"
 	}
 	
-		mirialan = {s
+	mirialan = {
 		name = Mirialan
 		plural = Mirialans
 		home_planet = Mirial
