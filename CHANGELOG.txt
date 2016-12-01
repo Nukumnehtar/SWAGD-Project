@@ -136,8 +136,10 @@
 -Added Dark/Light Side ethics
 -Expanded territory/systems for Sith, Mandalorians and Hutts.
 -Created compatibility for Ethics & Governments Mod.
--Fixed vassal opinion
+-Fixed relative power vassal opinion (Used to be stronger you were the more they hated you)
 -added new techs and buildings for habitability and colonies
 -added force traits for all leaders and one for species
+-Added portraits for Echani, Sith, Korunnai, Chiss.
+
 
 

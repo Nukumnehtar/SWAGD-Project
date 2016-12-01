@@ -3,15 +3,17 @@
 #maintenance is directly scripted here. 0.25 translates to 0.25 monthly cost (excluding other upkeep modifiers)
 
 
-# Psionic Armies
+############### FORCE ARMIES
+####################
+
 force_adept = {
-	damage = 1.75
+	damage = 2.0
 	morale_damage = 1.5
-	health = 1.25
+	health = 1.5
 	morale = 3.0
 	time = 360
 	maintenance = 0.8
-	icon_frame = 9
+	icon_frame = 13
 	
 	cost = {
 		minerals = 250
@@ -32,17 +34,17 @@ force_adept = {
 }
 
 force_warrior = {
-	damage = 1.75
+	damage = 3.0
 	morale_damage = 1.5
-	health = 1.25
+	health = 3.0
 	morale = 3.0
 	time = 360
 	maintenance = 0.8
-	icon_frame = 9
+	icon_frame = 13
 	
 	cost = {
 		minerals = 250
-		energy = 50
+		energy = 250
 	}
 	
 	prerequisites = { "tech_force_II" }
@@ -59,17 +61,17 @@ force_warrior = {
 }
 
 force_inquisitor = {
-	damage = 1.75
-	morale_damage = 1.5
-	health = 1.25
+	damage = 1.5
+	morale_damage = 5.0
+	health = 1.0
 	morale = 3.0
 	time = 360
 	maintenance = 0.8
-	icon_frame = 9
+	icon_frame = 13
 	
 	cost = {
 		minerals = 250
-		energy = 50
+		energy = 150
 	}
 	
 	prerequisites = { "tech_force_III" }
@@ -86,20 +88,144 @@ force_inquisitor = {
 }
 
 force_master = {
-	damage = 1.75
-	morale_damage = 1.5
-	health = 1.25
-	morale = 3.0
+	damage = 5.0
+	morale_damage = 5.0
+	health = 3.0
+	morale = 5.0
 	time = 360
-	maintenance = 0.8
-	icon_frame = 9
+	maintenance = 2.0
+	icon_frame = 13
 	
 	cost = {
-		minerals = 250
-		energy = 50
+		minerals = 350
+		energy = 350
 	}
 	
 	prerequisites = { "tech_force_IV" }
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+###########Clone ARMIES
+###################
+
+clone_shock = {
+	defensive = yes
+	damage = 2.0
+	health = 2.0
+	morale = 2.0
+	time = 30
+	maintenance = 0.33
+	icon_frame = 7
+	
+	cost = {
+		minerals = 75
+	}
+	
+	prerequisites = { "tech_cloning" }
+	
+	allow = {
+		has_building = "building_clone_vats"
+	}
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+clone_paratrooper = {
+	damage = 3.0
+	health = 1.5
+	morale = 3.0
+	time = 30
+	maintenance = 0.33
+	icon_frame = 7
+	
+	cost = {
+		minerals = 100
+	}
+	
+	prerequisites = { "tech_cloning" }
+	
+	allow = {
+		has_building = "building_clone_vats"
+	}
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+clone_commando = {
+	damage = 3.0
+	morale_damage = 0.5
+	health = 2.0
+	morale = 2.0
+	time = 30
+	maintenance = 0.33
+	icon_frame = 7
+	
+	cost = {
+		minerals = 150
+		energy = 150
+	}
+	
+	prerequisites = { "tech_cloning" }
+	
+	allow = {
+		has_building = "building_clone_vats"
+	}
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+clone_arc = {	
+	damage = 3.5
+	morale_damage = 0.5
+	health = 3.0
+	morale = 3.0
+	time = 30
+	maintenance = 0.33
+	icon_frame = 7
+	
+	cost = {
+		minerals = 200
+		energy = 200
+	}
+	
+	prerequisites = { "tech_cloning" }
+	
+	allow = {
+		has_building = "building_clone_vats"
+	}
 	potential = {
 		from = {
 			NOR = {
