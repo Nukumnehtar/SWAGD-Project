@@ -128,7 +128,7 @@ korriban_system_initializer = {
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
 					create_pop = {
-					species = owner_main_species
+					species = "Imperial"
 					ethos = owner
 				}
 					set_building = "building_power_plant_1"
@@ -141,7 +141,7 @@ korriban_system_initializer = {
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
 					create_pop = {
-					species = owner_main_species
+					species = "Imperial"
 					ethos = owner
 				}
 					set_building = "building_mining_network_1"

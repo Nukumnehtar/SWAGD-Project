@@ -203,8 +203,35 @@ dromund_system_initializer = {
 					amount = 1
 					replace = yes
 				}				
-			}			
-		}
+			}	
+			create_species = {
+				name = "Imperial"
+				class = "SWGD_HUMAN"
+				portrait = "imperial"
+				traits = { trait = "trait_pc_continental_preference" 
+					trait = "trait_resilient" 
+					trait = "trait_deviants" 
+					trait = "trait_talented"
+				}
+			extra_trait_points = 2
+			homeworld = FROM
+			sentient = yes
+			}
+			while = {
+				limit = {
+					count_pops = {
+						limit = { is_sentient = yes }
+						count < 4
+					}
+					free_pop_tiles > 0
+				}
+				best_tile_for_pop = {
+					create_pop = { 
+						species = last_created
+					}
+				}
+			}	
+	}
 
 
         moon = {
@@ -260,7 +287,7 @@ dromund_system_initializer = {
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
 					create_pop = {
-					species = owner_main_species
+					species = "Imperial"
 					ethos = owner
 				}
 					set_building = "building_hydroponics_farm_1"
@@ -286,7 +313,7 @@ dromund_system_initializer = {
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
 					create_pop = {
-					species = owner_main_species
+					species = "Imperial"
 					ethos = owner
 				}
 					set_building = "building_mining_network_1"
@@ -357,8 +384,8 @@ dromund_system_initializer = {
 			every_tile = {
 				limit = { has_building = no has_blocker = no has_pop = no }			
 				set_blocker = tb_ancient_ruins
-			}		
 			}
+	}
 
         moon = {
             name = "Fels Minor"
@@ -377,6 +404,7 @@ dromund_system_initializer = {
         orbit_angle = 266
         size = 22
         has_ring = no
+
 
     }
 }
