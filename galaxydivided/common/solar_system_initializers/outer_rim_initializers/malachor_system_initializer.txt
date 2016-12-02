@@ -92,18 +92,6 @@ malachor_system_initializer = {
 				}
 			}
 				random_tile = {
-						limit = { has_blocker = no has_building = no }
-						create_pop = {
-									species = owner_main_species
-									ethos = owner
-								}
-									add_resource = {
-										resource = minerals
-										amount = 1
-										replace = yes
-								}						
-							}
-				random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_dangerous_wildlife"
 				add_resource = {
@@ -132,7 +120,7 @@ malachor_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_mountain_range"
+				set_blocker = "tb_ancient_ruins"
 				add_resource = {
 					resource = minerals
 					amount = 2
@@ -141,17 +129,13 @@ malachor_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_mountain_range"
+				set_blocker = "tb_ancient_ruins"
 				add_resource = {
 					resource = engineering_research
 					amount = 1
 					replace = yes
 				}				
-			}
-			every_tile = {
-				limit = { has_building = no has_blocker = no has_pop = no }			
-				set_blocker = tb_ancient_ruins
-			}		
+			}	
 			}
 
         moon = {
@@ -185,7 +169,7 @@ malachor_system_initializer = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				create_pop = {
-					species = owner_main_species
+					species = "Imperial"
 					ethos = owner
 				}
 				set_building = "building_capital_1"
@@ -280,7 +264,7 @@ malachor_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_mountain_range"
+				set_blocker = "tb_ancient_ruins"
 				add_resource = {
 					resource = minerals
 					amount = 2
@@ -289,17 +273,13 @@ malachor_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_mountain_range"
+				set_blocker = "tb_ancient_ruins"
 				add_resource = {
 					resource = engineering_research
 					amount = 1
 					replace = yes
 				}				
-			}
-			every_tile = {
-				limit = { has_building = no has_blocker = no has_pop = no }			
-				set_blocker = tb_ancient_ruins
-			}		
+			}	
 			}
 
         moon = {
@@ -456,17 +436,13 @@ malachor_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_mountain_range"
+				set_blocker = "tb_ancient_ruins"
 				add_resource = {
 					resource = engineering_research
 					amount = 1
 					replace = yes
 				}				
 			}
-			every_tile = {
-				limit = { has_building = no has_blocker = no has_pop = no }			
-				set_blocker = tb_ancient_ruins
-			}		
 			}
 
         moon = {

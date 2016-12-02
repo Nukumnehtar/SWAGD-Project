@@ -80,7 +80,7 @@ ziost_system_initializer = {
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
 					create_pop = {
-					species = owner_main_species
+					species = "Imperial"
 					ethos = owner
 				}
 					set_building = "building_mining_network_1"
@@ -124,17 +124,13 @@ ziost_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_mountain_range"
+				set_blocker = "tb_ancient_ruins"
 				add_resource = {
 					resource = minerals
 					amount = 1
 					replace = yes
 				}				
-			}
-			every_tile = {
-				limit = { has_building = no has_blocker = no has_pop = no }			
-				set_blocker = tb_ancient_ruins
-			}		
+			}	
 			}
 		
 

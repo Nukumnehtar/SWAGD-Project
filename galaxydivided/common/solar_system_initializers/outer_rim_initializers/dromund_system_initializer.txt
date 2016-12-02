@@ -144,7 +144,7 @@ dromund_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
+				set_blocker = "tb_dense_jungle"
 				add_resource = {
 					resource = engineering_research
 					amount = 1
@@ -153,7 +153,7 @@ dromund_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
+				set_blocker = "tb_dense_jungle"
 				add_resource = {
 					resource = society_research
 					amount = 1
@@ -162,7 +162,7 @@ dromund_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
+				set_blocker = "tb_dense_jungle"
 				add_resource = {
 					resource = physics_research
 					amount = 1
@@ -171,7 +171,7 @@ dromund_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
+				set_blocker = "tb_dangerous_wildlife"
 				add_resource = {
 					resource = energy
 					amount = 2
@@ -180,21 +180,12 @@ dromund_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
+				set_blocker = "tb_dangerous_wildlife"
 				add_resource = {
 					resource = food
 					amount = 1
 					replace = yes
 				}					
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 1
-					replace = yes
-				}				
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
@@ -213,9 +204,9 @@ dromund_system_initializer = {
 					trait = "trait_deviants" 
 					trait = "trait_talented"
 				}
-			extra_trait_points = 2
-			homeworld = FROM
-			sentient = yes
+				extra_trait_points = 2
+				homeworld = FROM
+				sentient = yes
 			}
 			while = {
 				limit = {
@@ -228,6 +219,11 @@ dromund_system_initializer = {
 				best_tile_for_pop = {
 					create_pop = { 
 						species = last_created
+						ethos = {
+							ethic="ethic_fanatic_militarist"
+							ethic="ethic_fanatic_spiritualist"
+							ethic="ethic_fanatic_collectivist"
+						}
 					}
 				}
 			}	
@@ -271,7 +267,7 @@ dromund_system_initializer = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				create_pop = {
-					species = owner_main_species
+					species = "Imperial"
 					ethos = owner
 				}
 				set_building = "building_capital_1"
@@ -300,7 +296,7 @@ dromund_system_initializer = {
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
 					create_pop = {
-					species = owner_main_species
+					species = "Imperial"
 					ethos = owner
 				}
 					set_building = "building_power_plant_1"
@@ -380,10 +376,6 @@ dromund_system_initializer = {
 					amount = 1
 					replace = yes
 				}				
-			}
-			every_tile = {
-				limit = { has_building = no has_blocker = no has_pop = no }			
-				set_blocker = tb_ancient_ruins
 			}
 	}
 

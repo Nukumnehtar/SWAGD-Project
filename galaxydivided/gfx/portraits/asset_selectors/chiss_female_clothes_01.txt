@@ -78,12 +78,3 @@ chiss_female_clothes_01 = {
 	}
 }
 
-human_female_hair_1 = { 
-	default = "gfx/models/portraits/human/human_female_hair_red_style_01.dds"
-	
-	ruler = {
-	default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-	
-		"gfx/models/portraits/human/human_female_hair_black_style_01.dds" = { owner = { has_government = military_dictatorship } }
-	}
-}

@@ -89,6 +89,3 @@ chiss_human_male_clothes_01 = {
 	}
 }
 
-human_male_hair_1 = { 
-	default = "gfx/models/portraits/human/human_male_hair_blonde_style_03_and_beard_light_style_01.dds"
-}

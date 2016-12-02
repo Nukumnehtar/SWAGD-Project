@@ -109,7 +109,7 @@
 	spawn_enabled=always
 	ethic="ethic_fanatic_militarist"
 	ethic="ethic_fanatic_spiritualist"
-	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_collectivist"
 	trait="trait_resilient"
 	trait="trait_deviants"
 	trait="trait_talented"	
