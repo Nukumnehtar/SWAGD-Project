@@ -104,7 +104,7 @@ endor_system_initializer = {
 						}
 					}
 					create_country = {
-						name = random
+						name = "Ewok Tribes"
 						government = primitive_feudalism
 						species = last_created
 						ethos = {
@@ -138,11 +138,7 @@ endor_system_initializer = {
 							
 						
 					
-					create_colony = {
-						owner = last_created_country
-						species = last_created
-						ethos = owner
-					}
+					
 					while = {
 						count = 2
 						random_tile = {
@@ -173,10 +169,7 @@ endor_system_initializer = {
 							}
 						}
 					}					
-					random_tile = {
-						limit = { has_building = "building_colony_shelter" }
-						remove_building = yes
-					}
+					
 					last_created_country = {		
 							
 							PREV = {

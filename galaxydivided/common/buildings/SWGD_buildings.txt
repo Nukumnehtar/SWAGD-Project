@@ -142,6 +142,253 @@ building_hazardous_life_support_system = {
 	}
 }
 
+building_force_temple = {}
+
+building_force_great_temple = {}
+
+building_force_library = {}
+
+building_force_great_library = {}
+
+building_force_academy = {
+
+base_buildtime = 360
+	planet_unique = yes
+	
+	cost = {
+		minerals = 150
+	}
+	
+	
+	
+	required_resources = {
+		energy = 1
+	}
+
+	army_modifier = {
+		army_damage_mult = 0.10
+	}
+	
+		
+	prerequisites = {
+		"tech_force_I"
+	}
+	
+	ai_special_building = yes
+	
+	ai_allow = {
+		NOT = {
+			fromfrom = {
+				any_owned_planet = {
+					any_tile = {
+						has_building = building_military_academy
+					}
+				}
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			weight = 0
+			from = { 
+				sector_controlled = yes 
+				NOT = { has_building = building_military_academy }
+			}
+		}	
+	}
+}
+
+building_force_great_academy  = {
+
+base_buildtime = 360
+	empire_unique = yes
+	
+	cost = {
+		minerals = 150
+	}
+	planet_modifier = {
+		
+		pop_ethic_shift = -0.05
+		army_damage_mult = 0.10
+		tile_resource_society_research_mult = 0.15
+		
+	}
+	country_modifier = {
+		category_force_research_speed_mult = 0.10
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+
+	army_modifier = {
+		army_damage_mult = 0.20
+	}
+	
+		
+	prerequisites = {
+		"tech_force_III"
+	}
+	
+	ai_special_building = yes
+	
+	ai_allow = {
+		NOT = {
+			fromfrom = {
+				any_owned_planet = {
+					any_tile = {
+						has_building = building_military_academy
+					}
+				}
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			weight = 0
+			from = { 
+				sector_controlled = yes 
+				NOT = { has_building = building_military_academy }
+			}
+		}	
+	}
+}
+
+building_force_tomb = {
+	base_buildtime = @b0time
+	planet_unique = yes
+	requires_pop = no
+	
+	cost = {
+		minerals = @b0cost
+	}
+
+	
+	planet_modifier = {
+		pop_happiness = 0.1
+		pop_ethic_shift = -0.1
+	}
+	
+	
+	ai_weight = {
+		weight = 7000
+		modifier = {
+			weight = 0
+			from = {
+				happiness_planet > 0.90
+				
+			}
+		}	
+	}
+	
+	ai_replace = no
+	
+}
+
+building_force_great_tomb = {} 
+
+
+building_andeddu_keep = {
+	base_buildtime = 10000
+	planet_unique = yes
+	requires_pop = no
+	
+	cost = {
+		minerals = @b0cost
+	}
+
+	
+	planet_modifier = {
+		pop_happiness = -0.80
+		pop_ethic_shift = 0.50
+		planet_migration_all_pull = -1.0
+		tile_resource_minerals_mult = -0.5
+		tile_resource_energy_mult = -0.5
+		tile_resource_food_mult = -0.5
+		category_psionics_research_speed_mult = 0.50
+		category_force_research_speed_mult = 0.50
+		category_society_speed_mult = 0.50
+		country_society_tech_research_speed = 0.1
+	}
+	
+	
+	
+	ai_replace = no
+	
+}
+
+building_sith_pyramid = {
+	base_buildtime = 10000
+	planet_unique = yes
+	requires_pop = no
+	
+	cost = {
+		minerals = @b0cost
+	}
+
+	
+	planet_modifier = {
+		pop_happiness = -0.80
+		pop_ethic_shift = 0.50
+		planet_migration_all_pull = -1.0
+		tile_resource_minerals_mult = -0.5
+		tile_resource_energy_mult = -0.5
+		tile_resource_food_mult = -0.5
+		category_psionics_research_speed_mult = 0.50
+		category_force_research_speed_mult = 0.50
+		category_society_speed_mult = 0.50
+		country_society_tech_research_speed = 0.1
+	}
+	
+	
+	
+	ai_replace = no
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	
 # Colony Shelter
@@ -199,6 +446,28 @@ building_colony_shelter = {
 	
 	ai_replace = no
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Mining Colony
 building_mining_colony = {

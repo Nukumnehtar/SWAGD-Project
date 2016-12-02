@@ -44,6 +44,8 @@
  force:0 "The Force"
  force_desc:0 "The Force is a metaphysical, spiritual, binding, and ubiquitous power that holds enormous importance for both the Jedi and Sith monastic orders."
  
+ 
+ 
  building_life_support_system:0 "Life Support System"
  building_life_support_system_desc:0 "Life support systems utilize technology that allows it to produce necessary chemicals and gases needed to sustain life, it also filters out toxic gases and chemicals."
  building_hazardous_life_support_system:0 "Hazardous Life Support System"
@@ -53,10 +55,15 @@
  building_penal_colony:0 "Penal Colony"
  building_penal_colony_desc:0 "A penal colony is a settlement used to exile prisoners and separate them from the general population by placing them in a remote location, often an outer or distant colony."
  building_recruiting_world:0 "Recruiting World"
- building_recruiting_world:0 "Recruiting worlds are colonies where militaries draw a large number of recruits."
+ building_recruiting_world_desc:0 "Recruiting worlds are colonies where militaries draw a large number of recruits."
  building_research_colony:0 "Research Colony"
  building_research_colony_desc:0 "A research colony is a small outpost built in the effort of conducting research on worlds away from an empire's core systems."
 
+ building_andeddu_keep:0 "Andeddu's Keep"
+ building_andeddu_keep_desc:0 "This structure is a fortress constructed and designed to serve as the stronghold of Darth Andeddu, Dark Lord of the Sith. Far removed from any form of established civilization, Lord Andeddu used the Keep as his personal repository of Sith lore, and also as the location of his secret tomb."
+  building_sith_pyramid:0 "Ancient Sith Temple"
+ building_sith_pyramid_desc:0 "Serving as the final resting places for Sith Lords, their dark side presence poisons the worlds they can be found on. Many deep secrets of Sith Lore and unknown knowledge can often be found for those who dare to delve into its darkest chambers."
+ 
  
  tech_breathing_masks:0 "Breathing Masks" 
  tech_breathing_masks_desc:0 "Latest developments in breathing mask technology has allowed our species to live more comfortably on other planets." 
