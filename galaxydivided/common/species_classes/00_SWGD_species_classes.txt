@@ -26,6 +26,7 @@ SWGD_NEAR_HUMAN = {
 		"echani"
 		"thyrsian"
 		"arkanian"
+		"arkanianos"
 				}
 		graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"

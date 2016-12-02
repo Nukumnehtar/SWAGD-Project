@@ -91,6 +91,13 @@ SWGD_NEAR_HUMAN = {
 		home_system = "Perave"
 		name_list = "MAM2"
 	}
+	arkanianos = {
+		name = "Arkanian Offshoot"	
+		plural = "Arkanian Offshoots"
+		home_planet = "Arkania"
+		home_system = "Perave"
+		name_list = "MAM2"
+	}
 	miraluka = {
 		name = Miraluka
 		plural = Miralukan
