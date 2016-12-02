@@ -262,7 +262,7 @@ jedi_order = {
 	bravery = 1.0
 	
 	military_spending = 0.8
-	colony_spending = 1.0
+	colony_spending = 0.05
 	
 	federation_acceptance = 10
 	nap_acceptance = 20

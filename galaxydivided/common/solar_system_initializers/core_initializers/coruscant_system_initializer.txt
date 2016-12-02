@@ -70,6 +70,10 @@ coruscant_system_initializer = {
      	init_effect = {
 		prevent_anomaly = yes
 		set_capital = yes
+		add_modifier = {
+			modifier = "ecumenopolis"
+			
+			}
 		}
 		
 		init_effect = {

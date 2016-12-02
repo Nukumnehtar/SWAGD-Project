@@ -29,7 +29,7 @@
  force_master_desc:0 "A Force Master is an individual with exceptional devotion and skill in the Force and combat."
  clone_shock:0 "Clone Shock Trooper Company"
  clone_shock_plural:0 "Clone Shock Trooper Companies"
- clone_shock_desc:0 "These Clones are trained as elite shock troopers specifically for deployment in major cities and capital worlds. There,the clone shock troopers serve primarily as security police for government buildings and as prison guards. They also perform duties such as bodyguards for government officials and as urban peacekeepers with some troopers trained specifically for riot control."
+ clone_shock_desc:0 "These Clones are trained as elite shock troopers specifically for deployment in major cities and capital worlds. There, the clone shock troopers serve primarily as security police for government buildings and as prison guards. They also perform duties such as bodyguards for government officials and as urban peacekeepers with some troopers trained specifically for riot control."
  clone_paratrooper:0 "Clone Paratrooper Company"
  clone_paratrooper_plural:0 "Clone Paratrooper Companies"
  clone_paratrooper_desc:0 "Clone paratroopers, also known as clone airborne troopers, are clone troopers who are specially-trained for high-altitude drops using special parachutes and equipment."
@@ -47,7 +47,7 @@
  building_life_support_system:0 "Life Support System"
  building_life_support_system_desc:0 "Life support systems utilize technology that allows it to produce necessary chemicals and gases needed to sustain life, it also filters out toxic gases and chemicals."
  building_hazardous_life_support_system:0 "Hazardous Life Support System"
- building_hazardous_life_support_system_desc:0 "In dangerous environments, a generic Life Support System is not enough and the colony may need that can also produce shielding to protect it from hazardous environments such a volcanic worlds."
+ building_hazardous_life_support_system_desc:0 "In dangerous environments, a generic Life Support System is not enough and the colony may need one that can also produce shielding to protect it from hazardous environments such a volcanic worlds."
  building_mining_colony:0 "Mining Colony"
  building_mining_colony_desc:0 "A mining colony is a small settlement that has the primary purpose of harvesting ores and other resources found usually below the surface of a celestial body or asteroid."
  building_penal_colony:0 "Penal Colony"
@@ -79,7 +79,10 @@
  ethic_light_side_desc:1 "§LThis society has a connection with the Light side of the Force, either through genetic predispositions, culture or their past."
  
  orbital_shipyards: "Orbital Shipyard" 
- orbital_shipyards: "This planet has a shipyard encircling the planet, providing a production boost for spacecraft."
+ orbital_shipyards_desc: "This planet has a shipyard encircling the planet, providing an expansive ability to construct or repair starships."
+ ecumenopolis: "Ecumenopolis"
+ ecumenopolis_desc: "An Ecumenopolis is a type of planet, or in some cases a moon, whose entire surface is covered with a single worldwide city."
+ 
  
  kuat_shipyards: "Orbital Shipyard"
  kuat_shipyards_desc: "The famous Kuat Drive Yards is a group of connected space stations that orbit and completely encircle the planet Kuat as an immense ring."
