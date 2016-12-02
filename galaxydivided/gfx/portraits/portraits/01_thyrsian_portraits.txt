@@ -16,7 +16,7 @@ character_textures = { "gfx/models/portraits/thyrsian/thyrsian_male_body_01.dds"
 character_textures = { "gfx/models/portraits/thyrsian/thyrsian_male_body_02.dds"}}
 	thyrsian_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "thyrsian_male_hair_01"	greeting_sound = "human_male_greetings_05" 
 character_textures = { "gfx/models/portraits/thyrsian/thyrsian_male_body_03.dds"}}	
-	thyrsian_male_04 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "thyrsian_male_hair_01"	greeting_sound = "human_male_greetings_01"
+	thyrsian_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "thyrsian_male_hair_01"	greeting_sound = "human_male_greetings_01"
 character_textures = { "gfx/models/portraits/thyrsian/thyrsian_male_body_04.dds"}}
 	thyrsian_male_05 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "thyrsian_male_hair_01"	greeting_sound = "human_male_greetings_02" 
 character_textures = { "gfx/models/portraits/thyrsian/thyrsian_male_body_05.dds"}}

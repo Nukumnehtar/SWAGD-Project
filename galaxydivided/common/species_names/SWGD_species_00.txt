@@ -84,7 +84,13 @@ SWGD_NEAR_HUMAN = {
 		home_system = "Chiss Space"
 		name_list = "Chiss"
 	}
-		
+	arkanian = {
+		name = "Arkanian"	
+		plural = "Arkanian"
+		home_planet = "Arkania"
+		home_system = "Perave"
+		name_list = "MAM2"
+	}
 	miraluka = {
 		name = Miraluka
 		plural = Miralukan
@@ -92,7 +98,6 @@ SWGD_NEAR_HUMAN = {
 		home_system = Abron
 		name_list = "MAM2"
 	}
-	
 	mirialan = {
 		name = Mirialan
 		plural = Mirialans

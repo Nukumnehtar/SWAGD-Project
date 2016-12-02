@@ -1,0 +1,140 @@
+portraits = {
+	# Arkanian
+	arkanian_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "arkanian_female_hair_01"	greeting_sound = "human_female_greetings_03" character_textures = { "gfx/models/portraits/arkanian/arkanian_female_body_01.dds"}}
+	arkanian_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "arkanian_female_hair_01"	greeting_sound = "human_female_greetings_04"
+character_textures = { "gfx/models/portraits/arkanian/arkanian_female_body_02.dds"}}
+	arkanian_female_03 = {	entity = "portrait_human_female_03_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "arkanian_female_hair_01"	greeting_sound = "human_female_greetings_05"
+character_textures = { "gfx/models/portraits/arkanian/arkanian_female_body_03.dds"}}	
+	arkanian_female_04 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "arkanian_female_hair_01"	greeting_sound = "human_female_greetings_01"
+character_textures = { "gfx/models/portraits/arkanian/arkanian_female_body_04.dds"}}
+
+
+	arkanian_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "arkanian_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+character_textures = { "gfx/models/portraits/arkanian/arkanian_male_body_01.dds"}}	
+	arkanian_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "arkanian_male_hair_01"	greeting_sound = "human_male_greetings_04" 
+character_textures = { "gfx/models/portraits/arkanian/arkanian_male_body_02.dds"}}
+	arkanian_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "arkanian_male_hair_01"	greeting_sound = "human_male_greetings_05" 
+character_textures = { "gfx/models/portraits/arkanian/arkanian_male_body_03.dds"}}	
+	arkanian_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "arkanian_male_hair_01"	greeting_sound = "human_male_greetings_01"
+character_textures = { "gfx/models/portraits/arkanian/arkanian_male_body_04.dds"}}
+}	
+
+portrait_groups = {
+	arkanian = {
+		default = arkanian_male_03
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					arkanian_male_01
+					arkanian_male_02
+					arkanian_male_03
+					arkanian_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					arkanian_female_01
+					arkanian_female_02
+					arkanian_female_03
+					arkanian_female_04
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					arkanian_female_01
+					arkanian_female_02
+					arkanian_female_03
+					arkanian_female_04
+					arkanian_male_01
+					arkanian_male_02
+					arkanian_male_03
+					arkanian_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					arkanian_female_01
+					arkanian_female_02
+					arkanian_female_03
+					arkanian_female_04
+					arkanian_male_01
+					arkanian_male_02
+					arkanian_male_03
+					arkanian_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					arkanian_female_01
+					arkanian_female_02
+					arkanian_female_03
+					arkanian_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					arkanian_male_01
+					arkanian_male_02
+					arkanian_male_03
+					arkanian_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					arkanian_female_01
+					arkanian_female_02
+					arkanian_female_03
+					arkanian_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					arkanian_male_01
+					arkanian_male_02
+					arkanian_male_03
+					arkanian_male_04
+				}
+			}
+		}
+	}		
+		

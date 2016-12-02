@@ -16,7 +16,7 @@ character_textures = { "gfx/models/portraits/echani/echani_male_body_01.dds"}}
 character_textures = { "gfx/models/portraits/echani/echani_male_body_02.dds"}}
 	echani_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "echani_male_hair_01"	greeting_sound = "human_male_greetings_05" 
 character_textures = { "gfx/models/portraits/echani/echani_male_body_03.dds"}}	
-	echani_male_04 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "echani_male_hair_01"	greeting_sound = "human_male_greetings_01"
+	echani_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "echani_male_hair_01"	greeting_sound = "human_male_greetings_01"
 character_textures = { "gfx/models/portraits/echani/echani_male_body_04.dds"}}
 	echani_male_05 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "echani_male_hair_01"	greeting_sound = "human_male_greetings_02" 
 character_textures = { "gfx/models/portraits/echani/echani_male_body_05.dds"}}
