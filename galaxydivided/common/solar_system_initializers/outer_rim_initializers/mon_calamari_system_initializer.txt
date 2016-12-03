@@ -52,7 +52,13 @@ mon_calamari_system_initializer = {
      	init_effect = {
 			prevent_anomaly = yes
 		}
-		
+		every_country = {
+				limit = {
+					has_country_flag = mon_calamari
+				}
+				save_event_target_as = mon_calamari
+			}
+			set_owner = event_target:mon_calamari
 		init_effect = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
@@ -68,12 +74,18 @@ mon_calamari_system_initializer = {
 				}					
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
+				create_pop = {
+									species = owner_main_species
+									ethos = owner
+								}						
 					set_building = "building_hydroponics_farm_1"
 					add_resource = {
 						resource = food
 						amount = 1
 						replace = yes
-					}						
+					}
+					
+					
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -84,6 +96,7 @@ mon_calamari_system_initializer = {
 						replace = yes
 					}						
 				}
+				
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
@@ -91,7 +104,8 @@ mon_calamari_system_initializer = {
 						resource = energy
 						amount = 1
 						replace = yes
-					}						
+					}
+									
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -100,8 +114,43 @@ mon_calamari_system_initializer = {
 						resource = minerals
 						amount = 1
 						replace = yes
-					}						
+					}
+												
+					
+					
 				}				
+			}
+			create_species = {
+				name = "Quarren"
+				class = "MOL"
+				portrait = "mol15"
+				traits = { trait = "trait_pc_ocean_preference" 
+					trait = "trait_resilient" 
+					trait = "trait_strong" 
+					
+				}
+				extra_trait_points = 2
+				homeworld = FROM
+				sentient = yes
+			}
+			
+			while = {
+				limit = {
+					count_pops = {
+						limit = { is_sentient = yes }
+						count < 4
+					}
+					free_pop_tiles > 0
+				}
+				best_tile_for_pop = {
+					create_pop = { 
+						species = last_created
+						ethos = {
+							ethic = ethic_fanatic_xenophobe
+							ethic = ethic_collectivist
+						}
+					}
+				}
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
@@ -163,7 +212,8 @@ mon_calamari_system_initializer = {
 					resource = food
 					amount = 1
 					replace = yes
-				}				
+				}
+			
 			}			
 		}
 
