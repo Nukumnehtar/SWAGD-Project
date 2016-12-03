@@ -120,6 +120,9 @@ taris_system_initializer = {
 		modifiers = None
      	init_effect = {
 		prevent_anomaly = yes
+		add_modifier = {
+			modifier = "ecumenopolis"
+			}
 		}
 		
 		init_effect = {

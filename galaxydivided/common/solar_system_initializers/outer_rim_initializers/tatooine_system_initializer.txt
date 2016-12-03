@@ -162,6 +162,7 @@ tatooine_system_initializer = {
 				class = "PRE_REP"
 				portrait = "pre_rep09"
 				traits = {
+					trait = "trait_pc_desert_preference" 
 					trait = random_presentient_trait
 				}
 				homeworld = FROM

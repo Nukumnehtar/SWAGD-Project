@@ -63,6 +63,11 @@ tython_system_initializer = {
      	init_effect = {
 			prevent_anomaly = yes
 			set_capital = yes
+		add_modifier = {
+			modifier = "pm_wild_storms"
+			modifier = "pm_dangerous_wildlife"
+			modifier = "pm_natural_beauty"
+			}
 		}
 		init_effect = {
 		every_country = {

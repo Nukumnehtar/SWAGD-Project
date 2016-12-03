@@ -76,7 +76,12 @@ empress_teta_system_initializer = {
         orbit_angle = 30
         size = 22
         has_ring = no
-
+     	init_effect = {
+		prevent_anomaly = yes
+		add_modifier = {
+			modifier = "ecumenopolis"
+			}
+		}
 
         moon = {
             name = "Atale"

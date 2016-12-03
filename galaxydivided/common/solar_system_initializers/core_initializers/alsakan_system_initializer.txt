@@ -41,6 +41,9 @@ alsakan_system_initializer = {
 		modifiers = none
      	init_effect = {
 			prevent_anomaly = yes
+		add_modifier = {
+			modifier = "ecumenopolis"
+			}
 		}		
 		init_effect = {
 			random_tile = {

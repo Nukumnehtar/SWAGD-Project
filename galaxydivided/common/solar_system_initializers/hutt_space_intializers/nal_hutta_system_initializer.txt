@@ -291,6 +291,12 @@ nal_hutta_system_initializer = {
             size = 12
             has_ring = no
 			tile_blockers = none
+     	init_effect = {
+			prevent_anomaly = yes
+		add_modifier = {
+			modifier = "ecumenopolis"
+			}
+		}
 			init_effect = {
 			every_country = {
 					limit = {

@@ -72,7 +72,6 @@ coruscant_system_initializer = {
 		set_capital = yes
 		add_modifier = {
 			modifier = "ecumenopolis"
-			
 			}
 		}
 		

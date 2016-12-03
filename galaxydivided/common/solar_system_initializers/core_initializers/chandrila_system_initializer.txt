@@ -31,6 +31,10 @@ chandrila_system_initializer = {
 		modifiers = none
      	init_effect = {
 			prevent_anomaly = yes
+			add_modifier = {
+				modifier = "pm_natural_beauty"
+				modifier = "pm_lush"
+			}
 		}
 		
 		init_effect = {

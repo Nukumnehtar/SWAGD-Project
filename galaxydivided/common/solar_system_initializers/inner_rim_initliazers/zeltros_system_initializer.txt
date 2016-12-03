@@ -190,6 +190,13 @@ zeltros_system_initializer = {
         orbit_angle = 155
         size = 20
         has_ring = no
+     	init_effect = {
+		prevent_anomaly = yes
+		add_modifier = {
+			modifier = "pm_atmospheric_aphrodisiac"
+			modifier = "pm_natural_beauty"
+			}
+		}
 
 
         moon = {
