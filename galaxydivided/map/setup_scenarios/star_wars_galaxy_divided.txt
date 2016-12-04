@@ -1775,7 +1775,7 @@ static_galaxy_scenario = {
 		system = { id = "2023" name = "Peragus" position = { x = -251 y = -252 } }
 		system = { id = "2027" name = "Ileenium" position = { x = -142 y = 330 } }
 		system = { id = "2028" name = "Gree" position = { x = -2 y = -298 }initializer = gree_system_initializer }
-		system = { id = "2029" name = "Astion" position = { x = 4 y = -292 } }
+		system = { id = "2029" name = "Asation" position = { x = 4 y = -292 } }
 		system = { id = "2031" name = "Karazak" position = { x = -198 y = 407 } }
 		system = { id = "2032" name = "Cotellier" position = { x = -115 y = 437 } }
 		system = { id = "2033" name = "Vestar" position = { x = -109 y = 450 } }
@@ -2148,7 +2148,6 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "349" to = "353" }
 				add_hyperlane = { from = "353" to = "350" }
 				add_hyperlane = { from = "349" to = "358" }
-
 				add_hyperlane = { from = "357" to = "356" }
 				add_hyperlane = { from = "356" to = "479" }
 				add_hyperlane = { from = "479" to = "480" }
@@ -2240,7 +2239,6 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "469" to = "472" }
 				add_hyperlane = { from = "304" to = "301" }
 				add_hyperlane = { from = "211" to = "224" }
-
 				add_hyperlane = { from = "577" to = "576" }
 				add_hyperlane = { from = "551" to = "2016"}
 				add_hyperlane = { from = "300" to = "299"}
@@ -2256,7 +2254,8 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "409" to = "2023" }
 				add_hyperlane = { from = "2023" to = "410" }
 				add_hyperlane = { from = "277" to = "2027" }
-				add_hyperlane = { from = "402" to = "2028" }						add_hyperlane = { from = "2028" to = "2029" }
+				add_hyperlane = { from = "402" to = "2029" }						
+				add_hyperlane = { from = "2028" to = "2029" }
 				add_hyperlane = { from = "283" to = "2031" }
 				add_hyperlane = { from = "275" to = "2032" }
 				add_hyperlane = { from = "2032" to = "2033" }
