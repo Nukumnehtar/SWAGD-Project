@@ -369,3 +369,15 @@ empire_name_format = {
 	format = "Echani Command"
 	noun = "Echani"	
 }
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = haruun_kal
+		}
+	}
+	format = "Haruun Kal Representative Council"
+	noun = "Balawai"	
+}

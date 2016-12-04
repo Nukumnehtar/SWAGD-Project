@@ -1139,7 +1139,14 @@ static_galaxy_scenario = {
 		system = { id = "1042" name = "Druckenwell" position = { x = -184 y = 224 } }
 		system = { id = "1067" name = "Makeb" position = { x = -236 y = 135 } initializer = makeb_system_initializer}
 		system = { id = "2016" name = "Anzat" position = { x = -286 y = -87 } }
-		system = { id = "2020" name = "Haruun Kal" position = { x = -75 y = 297 } }
+		system = { id = "2020" name = "Haruun Kal" position = { x = -75 y = 297 } initializer = haruun_kal_system_initializer
+			spawn_weight = {
+					base = 0
+					modifier = {
+						 add = 100000
+						 has_country_flag = haruun_kal
+						}
+					}}
 		system = { id = "2022" name = "Katarr" position = { x = -162 y = -71 } initializer = katarr_system_initializer }
 		system = { id = "2026" name = "Takodana" position = { x = 81 y = 266 } }
 		system = { id = "2085" name = "Neelanon" position = { x = -19 y = 335 } }

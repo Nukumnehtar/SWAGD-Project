@@ -6,11 +6,9 @@ Sith
 
 Human:
 Republic - mostly complete?
-Imperial
+Imperial - mostly complete?
 Mandalorian - mostly complete?
 Cyborgs?
-Dathomiri Nightsisters
-Dathomiri Witches (could use human?)
 Kiffar (Quinlan Vos)
 Korunnai (Mace Windu) - completed
 Chalactan (Depa Billaba)
@@ -152,6 +150,7 @@ Ankura Gungan
 Otolla Gungan
 Aqualish
 Chagrian
+Kalleran
 Vurk
 Karkarodon
 Patrolian
@@ -164,6 +163,12 @@ Jungle Felucian
 Pa'lowick
 Zarian
 
+Reptomammalian:
+Falleen
+Clawdite
+Feeorin
+Advozse
+
 Reptilian:
 Rodian
 Ssi-ruu
@@ -174,12 +179,9 @@ Kwa
 Chistori
 Nikto
 Thisspiasian
-Falleen
-Clawdite
 Felucian
 Bardottan
 Cosian
-Feeorin
 Dashade
 Vodran
 Columi
