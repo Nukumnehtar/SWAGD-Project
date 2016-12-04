@@ -313,8 +313,8 @@
 	species_adjective="Human"
 	species_bio="[Core founder of the Republic] Coruscant is the captial of the ruling government of much of the galaxy that has existed for more than 25 thousand years. The Republic is a representative democracy, composed of various star systems, sectors and member worlds throughout most of the known galaxy. Its central government consisted of three branches: legislative, executive and judicial. The first was the Galactic Senate, a body of elected or appointed representatives. Its main duties included mediating disputes over issues ranging from planetary to galactic-scale, regulating trade routes between star systems, and in theory, represented the interests of Republic citizens. "
 	portrait="human"
-	name="Coruscant City Authority"
-	adjective="Coruscanti"
+	name="Galactic Republic"
+	adjective="Human"
 	government="indirect_democracy"
 	flags={coruscant core_founder SWGD}
 	ftl=hyperdrive
@@ -1678,7 +1678,7 @@
 	species_plural="Echani"
 	species_class="SWGD_NEAR_HUMAN"
 	species_adjective="Echani"
-	species_bio="Echani Command"
+	species_bio="The Echani Command was the government of the Echani, a confederation of six worlds known as the Six Sisters. Headquartered on Eshan, the Command was ruled by an all-female council."
 	portrait="echani"
 	name="Echani Command"
 	adjective="Echani"
@@ -1722,5 +1722,61 @@
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_militarist"
 	trait="trait_strong"
+	trait="trait_natural_engineers"
+}
+
+"Haruun Kal Representative Council"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Balawai"
+	species_plural="Balawai"
+	species_class="SWGD_HUMAN"
+	species_adjective="Balawai"
+	species_bio="The Representative Council was the ruling body of Haruun Kal, headquartered in the city of Pelek Baw (which was largely the extent of its control). It was composed entirely of Balawai, and exclusively served Balawai interests. The Council largely repressed the native Korunnai population. Much of its funding came from off-world supporters of the thyssel bark trade. Branches of the Council's government included a Customs office, a Ministry of Justice, and a civil militia."
+	portrait="human"
+	name="Haruun Kal Representative Council"
+	adjective="Balawai"
+	government="military_junta"
+	flags={	haruun_kal custom_start_screen SWGD}
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Haruun Kal"
+	planet_class="pc_tropical"
+	system_name="Al'Har"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="32.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"blue"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Yarba Idu"
+		portrait="human_male_05"
+		texture=0
+		hair=1
+		clothes=4
+		ruler_title="Council Chief"
+		ruler_title_female="Council Chief"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_militarist"
+	trait="trait_strong"
+	trait="trait_deviants"
 	trait="trait_natural_engineers"
 }
