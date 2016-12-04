@@ -279,7 +279,7 @@ gree_system_initializer = {
 				}
 				random_tile = {
 					limit = { has_building = no has_blocker = no }
-					set_building = "building_dark_matter_power_plant"
+					set_building = "building_border_reducer"
 					add_resource = {
 						resource = energy
 						amount = 1

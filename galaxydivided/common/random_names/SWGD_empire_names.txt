@@ -30,7 +30,7 @@ empire_name_format = {
 			has_country_flag = coruscant
 		}
 	}
-	format = "Coruscant City Authority"
+	format = "Galactic Republic"
 	noun = "Coruscanti"	
 }
 
@@ -70,6 +70,17 @@ empire_name_format = {
 	noun = "Alderaanian"	
 }
 
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = corellian_empire
+		}
+	}
+	format = "Corellian Empire"
+	noun = "Corellian"	
+}
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -368,16 +379,4 @@ empire_name_format = {
 	}
 	format = "Echani Command"
 	noun = "Echani"	
-}
-
-empire_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 10000
-			has_country_flag = haruun_kal
-		}
-	}
-	format = "Haruun Kal Representative Council"
-	noun = "Balawai"	
 }

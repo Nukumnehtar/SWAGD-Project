@@ -311,7 +311,6 @@ building_andeddu_keep = {
 		tile_resource_food_mult = -0.5
 		category_psionics_research_speed_mult = 0.50
 		category_force_research_speed_mult = 0.50
-		category_society_speed_mult = 0.50
 		country_society_tech_research_speed = 0.1
 	}
 	
@@ -721,4 +720,27 @@ building_penal_colony = {
 }
 	
 	
+# Penal Colony
+building_border_reducer = {
+	is_listed = no
+	base_buildtime = 360
 	
+	cost = {
+		minerals = 350
+		
+	}
+	
+	
+	country_modifier = {
+		country_border_mult = -1.5
+	}
+	
+	prerequisites = {
+	}
+			
+	
+		
+	
+	ai_replace = no
+}
+		

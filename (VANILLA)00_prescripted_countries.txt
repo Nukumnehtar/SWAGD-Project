@@ -50,13 +50,9 @@
 		ruler_title_female="Grand Master"
 	}
 	spawn_enabled=always
-	ethic="ethic_individualist"
+	ethic="ethic_pacifist"
 	ethic="ethic_fanatic_spiritualist"
-	ethic="ethic_light_side"
-	ethic="ethic_socialism"
-	ethic="ethic_green"
-	ethic="ethic_pluralist"
-	ethic="ethic_medicine"
+	ethic="ethic_fanatic_xenophile"
 	trait="trait_charismatic"
 	trait="trait_talented"
 	trait="trait_slow_breeders"
@@ -111,17 +107,12 @@
 		heir_title_female=" "
 	}
 	spawn_enabled=always
-	ethic="ethic_collectivist"
-	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
+	ethic="ethic_fanatic_militarist"
 	ethic="ethic_fanatic_spiritualist"
-	ethic="ethic_dark_side"
-	ethic="ethic_expansionist"
-	ethic="ethic_elitist"
+	ethic="ethic_fanatic_collectivist"
 	trait="trait_resilient"
 	trait="trait_deviants"
-	trait="trait_force_attuned"
-	trait="trait_decadent"
+	trait="trait_talented"	
 }
 
 "Mandalorian Warrior Clans"
@@ -175,10 +166,6 @@
 	spawn_enabled=always
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_militarist"
-	ethic="ethic_socialism"
-	ethic="ethic_expansionist"
-	ethic="ethic_space_engineering"
-	ethic="ethic_culture"
 	trait="trait_strong"
 	trait="trait_natural_engineers"
 }
@@ -231,13 +218,9 @@
 		ruler_title_female="Aristocra"
 	}
 	spawn_enabled=always
-	ethic="ethic_collectivist"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
-	ethic="ethic_socialism"
-	ethic="ethic_isolationist"
-	ethic="ethic_elitist"
-	ethic="ethic_space_engineering"
+	ethic="ethic_collectivist"
 	trait="trait_intelligent"
 	trait="trait_talented"
 	trait="trait_solitary"
@@ -251,7 +234,7 @@
 	species_plural="Hutt"
 	species_class="FUN"
 	species_adjective="Hutt"
-	species_bio="The Hutt Ruling Council, alternatively known as the Council of Elders, Hutt Council, Great Hutt Council, or the Grand Council of Nal Hutta, is a five-member council that is the primary ruling body of the Hutt species. The five members were often known informally as the Five Hutt Families, but due to internal politics, individual clans could control more than one seat on the council. The Council handled the day-to-day affairs of the Hutt species, and its leader spoke on behalf of all Hutts in treaties and dealings with other empires."
+	species_bio="The Hutt Ruling Council, alternatively known as the Council of Elders, Hutt Council, Great Hutt Council, or the Grand Council of Nal Hutta, is a five-member council that is the primary ruling body of the Hutt species. The five members were often known informally as the Five Hutt Families, but due to internal politics, individual clans could control more than one seat on the council. The Ruling Council was sometimes referred to as the Grand Council, but that term more accurately applied to the larger Hutt Grand Council; the Ruling Council handled the day-to-day affairs of the Hutt species, and its leader spoke on behalf of all Hutts in treaties and dealings with other empires."
 	portrait="fun12"
 	name="Hutt Clans"
 	adjective="Hutt"
@@ -293,17 +276,14 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_capitalism"
-	ethic="ethic_fanatic_industrial"
-	ethic="ethic_elitist"
-	ethic="ethic_transport"
+	ethic="ethic_fanatic_materialist"
 	trait="trait_repugnant"
 	trait="trait_enduring"
 	trait="trait_thrifty"
 	trait="trait_decadent"
 }
 ###### REPUBLIC CORE WORLDS
-"Galactic Republic"
+"Coruscant City Authority"
 ={
 	name_list="Republic"
 	ship_prefix=""
@@ -1678,7 +1658,7 @@
 	species_plural="Echani"
 	species_class="SWGD_NEAR_HUMAN"
 	species_adjective="Echani"
-	species_bio="Echani Command"
+	species_bio="The Echani Command was the government of the Echani, a confederation of six worlds known as the Six Sisters. Headquartered on Eshan, the Command was ruled by an all-female council."
 	portrait="echani"
 	name="Echani Command"
 	adjective="Echani"
@@ -1720,7 +1700,63 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_militarist"
+	ethic="ethic_militarist"
 	trait="trait_strong"
+	trait="trait_natural_engineers"
+}
+
+"Haruun Kal Representative Council"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Balawai"
+	species_plural="Balawai"
+	species_class="SWGD_HUMAN"
+	species_adjective="Balawai"
+	species_bio="The Representative Council was the ruling body of Haruun Kal, headquartered in the city of Pelek Baw (which was largely the extent of its control). It was composed entirely of Balawai, and exclusively served Balawai interests. The Council largely repressed the native Korunnai population. Much of its funding came from off-world supporters of the thyssel bark trade. Branches of the Council's government included a Customs office, a Ministry of Justice, and a civil militia."
+	portrait="human"
+	name="Haruun Kal Representative Council"
+	adjective="Balawai"
+	government="military_junta"
+	flags={	haruun_kal custom_start_screen SWGD}
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Haruun Kal"
+	planet_class="pc_tropical"
+	system_name="Al'Har"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="starwars"
+			file="32.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"blue"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Yarba Idu"
+		portrait="human_male_05"
+		texture=0
+		hair=1
+		clothes=4
+		ruler_title="Council Chief"
+		ruler_title_female="Council Chief"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_militarist"
+	trait="trait_strong"
+	trait="trait_deviants"
 	trait="trait_natural_engineers"
 }
