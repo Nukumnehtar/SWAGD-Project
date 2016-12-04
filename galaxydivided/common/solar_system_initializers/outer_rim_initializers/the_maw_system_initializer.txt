@@ -1,6 +1,6 @@
 the_maw_system_initializer = {
     name = "The Maw"
-    class = random
+    class = "sc_black_hole"
 
     planet = {
         class = "pc_black_hole"
@@ -240,30 +240,42 @@ the_maw_system_initializer = {
     }
 
     planet = {
-	name = "Abeloth"
+	name = "Abeloth's Planet"
         class = "pc_tropical"
         orbit_distance = 20
         orbit_angle = 200
         has_ring = no
 	size = 15
-
+	init_effect = {
+		random_tile = {
+			limit = { has_blocker = no has_building = no }
+				set_building = "building_great_pyramid"
+				}		
+			
+		random_tile = {					
+			limit = { has_building = no has_blocker = no has_pop = no }			
+				set_blocker = tb_ancient_ruins
+			}		
+		random_tile = {					
+			limit = { has_building = no has_blocker = no has_pop = no }			
+				set_blocker = tb_ancient_ruins
+			}	
+		random_tile = {					
+			limit = { has_building = no has_blocker = no has_pop = no }			
+				set_blocker = tb_ancient_ruins
+			}	
+		}
     }
 
     planet = {
         class = "pc_black_hole"
-        orbit_distance = 15
+        orbit_distance = 30
         orbit_angle = 114
         has_ring = no
 
     }
 
-    planet = {
-        class = "pc_black_hole"
-        orbit_distance = 5
-        orbit_angle = 101
-        has_ring = no
-
-    }
+   
 
    
 
@@ -277,14 +289,14 @@ the_maw_system_initializer = {
 
   
 
-    planet = {
-        class = "pc_black_hole"
-        orbit_distance = 1
-        orbit_angle = 96
-        has_ring = no
-		
+    #planet = {
+    #    class = "pc_black_hole"
+    #    orbit_distance = 1
+    ##    orbit_angle = 96
+    #    has_ring = no
+	#	
 
-    }
+    #}
 
     planet = {
         class = "pc_black_hole"
@@ -310,6 +322,13 @@ the_maw_system_initializer = {
     planet = {
         class = "pc_black_hole"
         orbit_distance = 1
+        orbit_angle = 68
+        has_ring = no
+
+    }
+	    planet = {
+        class = "pc_black_hole"
+        orbit_distance = 50
         orbit_angle = 68
         has_ring = no
 

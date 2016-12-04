@@ -1729,7 +1729,7 @@ static_galaxy_scenario = {
 					}}
 		system = { id = "968" name = "Concord Dawn" position = { x = -147 y = -103 } initializer = concord_dawn_system_initializer }
 		system = { id = "585" name = "Harloen" position = { x = -138 y = -139 } }
-		system = { id = "586" name = "Kessel" position = { x = -351 y = 5 } }
+		system = { id = "586" name = "Kessel" position = { x = -351 y = 5 } initializer = kessel_system_initializer }
 		system = { id = "587" name = "Honoghr" position = { x = -356 y = 12 } }
 		system = { id = "588" name = "Zerm" position = { x = -347 y = 9 } }
 		system = { id = "589" name = "Little Kessel" position = { x = -363 y = 9 } }
@@ -1775,7 +1775,7 @@ static_galaxy_scenario = {
 		system = { id = "2023" name = "Peragus" position = { x = -251 y = -252 } }
 		system = { id = "2027" name = "Ileenium" position = { x = -142 y = 330 } }
 		system = { id = "2028" name = "Gree" position = { x = -2 y = -298 }initializer = gree_system_initializer }
-		system = { id = "2029" name = "Asation" position = { x = 4 y = -292 } }
+		system = { id = "2029" name = "Asation" position = { x = 4 y = -292 } initializer = asation_system_initializer }
 		system = { id = "2031" name = "Karazak" position = { x = -198 y = 407 } }
 		system = { id = "2032" name = "Cotellier" position = { x = -115 y = 437 } }
 		system = { id = "2033" name = "Vestar" position = { x = -109 y = 450 } }
@@ -2457,9 +2457,11 @@ nebula = { name = "Malestrom Nebula" position = { x = 5 y = -205 } radius = 25 }
 nebula = { name = "Llon Nebulae" position = { x = 4 y = 233 } radius = 20 }
 nebula = { name = "StarForge Nebula" position = { x = -45 y = 313 } radius = 30 }
 nebula = { name = "Utegetu Nebula" position = { x = 122 y = -79 } radius = 20 }
-nebula = {name = "The Maw" position = { x = -353 y = 5 } radius = 30 }
+nebula = {name = "Maw Nebulae" position = { x = -353 y = 5 } radius = 30 }
 nebula = { name = "Lira San Nebula" position = { x = -195 y = 450 } radius = 10 }
 nebula = { name = "Red Nebula" position = { x = 172 y = 477 } radius = 20 }
+nebula = { name = "Heart of the Galaxy" position = { x = -1 y = 59 } radius = 15 }
+
 	
 	
 	
