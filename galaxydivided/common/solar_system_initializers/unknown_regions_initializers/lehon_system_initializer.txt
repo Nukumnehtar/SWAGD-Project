@@ -2,7 +2,7 @@ lehon_system_initializer = {
 	name = "Lehon"
    usage = fallen_empire_init
 	class = "rl_standard_stars"
-	flags = {fallen_empire_3}
+	flags = {fallen_empire_4}
 
     planet = {
 	name = "Abo"

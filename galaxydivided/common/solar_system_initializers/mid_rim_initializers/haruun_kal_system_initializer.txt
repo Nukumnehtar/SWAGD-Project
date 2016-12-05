@@ -162,6 +162,7 @@ haruun_kal_system_initializer = {
 					trait = "trait_sedentary"
 					trait = "trait_strong"
 					trait = "trait_communal"
+					trait = "trait_force_attuned"
 				}
 				extra_trait_points = 2
 				homeworld = FROM
