@@ -3,14 +3,13 @@
 orbital_shipyards = {
 		spaceport_ship_build_speed_mult = 0.2
 		country_ship_upgrade_cost_mult = -0.15
-		spaceport_ship_build_cost_mult = -0.1
 		ship_reparation_speed_mult = 0.10
 		ship_reparation_cost_mult = -0.10
 		navy_size_mult = 0.05
 		#country_resource_energy_add = -5
 		#country_resource_minerals_add = -5
-		tile_resource_energy_mult = 0.15
-		tile_resource_minerals_mult = 0.15
+		tile_resource_energy_mult = -0.15
+		tile_resource_minerals_mult = -0.15
 		icon = "gfx/interface/icons/planet_modifiers/orbital_shipyard.dds"
 		icon_frame = 1
 }
@@ -32,3 +31,14 @@ ecumenopolis = {
 	
  
  }
+ 
+
+force_storm = {
+		
+				
+		icon = "gfx/interface/icons/planet_modifiers/capital.dds"
+		icon_frame = 1
+	
+ 
+ }
+ 
