@@ -41,7 +41,7 @@ prakith_system_initializer = {
 
     planet = {
         name = "Prakith"
-        class = "pc_tundra"
+        class = "pc_alpine"
         orbit_distance = 14
         orbit_angle = 102
         size = 20
@@ -59,12 +59,17 @@ prakith_system_initializer = {
 		
 		
 		create_species = {
-						name = "Human"
+						name = "Prakithi"
 						class = "SWGD_HUMAN"
 						portrait = "human"
 						homeworld = THIS
 						traits = {
-							trait = random_traits
+							trait = "trait_pc_continental_preference"
+							trait="trait_force_attuned"
+							trait="trait_resilient"
+							trait="trait_deviants"
+							trait="trait_decadent"
+							trait = "trait_extremely_adaptive"
 						}
 					}
 					create_country = {

@@ -42,6 +42,7 @@ yoggoy_system_initializer = {
 			trait = "trait_rapid_breeders"
 			trait = "trait_venerable"
 			trait = "trait_communal"
+			trait = "trait_adaptive"
 					}
 			extra_trait_points = 2
 			allow_negative_traits = no

@@ -58,6 +58,7 @@ lehon_system_initializer = {
 			traits = { trait = "trait_pc_tropical_preference" 
 			trait = "trait_intelligent" 
 			trait = "trait_natural_engineers"
+			trait = "trait_extremely_adaptive"
 					}
 			extra_trait_points = 2
 			allow_negative_traits = no

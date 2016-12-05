@@ -108,7 +108,7 @@ endor_system_initializer = {
 						government = primitive_feudalism
 						species = last_created
 						ethos = {
-						ethic="ethic_collectivist"
+						ethic="ethic_socialist"
 						ethic="ethic_spiritualist"
 						}
 						flag = {

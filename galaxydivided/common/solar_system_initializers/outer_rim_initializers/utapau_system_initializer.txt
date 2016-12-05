@@ -169,7 +169,7 @@ utapau_system_initializer = {
 
     planet = {
         name = "Utapau"
-        class = "pc_desert"
+        class = "pc_savannah"
         orbit_distance = 53
         orbit_angle = 147
         has_ring = no

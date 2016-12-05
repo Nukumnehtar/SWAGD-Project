@@ -203,6 +203,7 @@ dromund_system_initializer = {
 					trait = "trait_resilient" 
 					trait = "trait_deviants" 
 					trait = "trait_talented"
+					trait = "trait_extremely_adaptive"
 				}
 				extra_trait_points = 2
 				homeworld = FROM

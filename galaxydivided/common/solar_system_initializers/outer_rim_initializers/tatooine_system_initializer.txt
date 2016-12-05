@@ -134,6 +134,7 @@ tatooine_system_initializer = {
 			trait = "trait_solitary" 
 			trait = "trait_sedentary"
 			trait = "trait_strong"
+			trait = "trait_nonadaptive"
 					}
 			extra_trait_points = 2
 				homeworld = FROM

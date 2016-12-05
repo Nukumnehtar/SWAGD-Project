@@ -163,6 +163,7 @@ haruun_kal_system_initializer = {
 					trait = "trait_strong"
 					trait = "trait_communal"
 					trait = "trait_force_attuned"
+					trait = "trait_extremely_adaptive"
 				}
 				extra_trait_points = 2
 				homeworld = FROM

@@ -50,16 +50,18 @@
 		ruler_title_female="Grand Master"
 	}
 	spawn_enabled=always
+	ethic="ethic_light_side"
 	ethic="ethic_individualist"
 	ethic="ethic_fanatic_spiritualist"
-	ethic="ethic_light_side"
+	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_socialism"
 	ethic="ethic_green"
 	ethic="ethic_pluralist"
-	ethic="ethic_medicine"
+	trait="trait_force_attuned"
 	trait="trait_charismatic"
 	trait="trait_talented"
 	trait="trait_slow_breeders"
+	trait="trait_extremely_adaptive"
 }
 
 "Sith Empire"
@@ -79,7 +81,7 @@
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Dromund Kaas"
-	planet_class="pc_tropical"
+	planet_class="pc_continental"
 	system_name="Dromund"
 	initializer=""
 	graphical_culture="sith_01"
@@ -111,17 +113,17 @@
 		heir_title_female=" "
 	}
 	spawn_enabled=always
-	ethic="ethic_collectivist"
-	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
-	ethic="ethic_fanatic_spiritualist"
 	ethic="ethic_dark_side"
+	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_fanatic_spiritualist"
 	ethic="ethic_expansionist"
 	ethic="ethic_elitist"
+	trait="trait_force_attuned"
 	trait="trait_resilient"
 	trait="trait_deviants"
-	trait="trait_force_attuned"
 	trait="trait_decadent"
+	trait="trait_extremely_adaptive"
 }
 
 "Mandalorian Warrior Clans"
@@ -181,6 +183,7 @@
 	ethic="ethic_culture"
 	trait="trait_strong"
 	trait="trait_natural_engineers"
+	trait="trait_extremely_adaptive"
 }
 "Chiss Ascendancy"
 ={
@@ -242,6 +245,7 @@
 	trait="trait_talented"
 	trait="trait_solitary"
 	trait="trait_sedentary"
+	trait="trait_extremely_adaptive"
 }
 "Hutt Clans"
 ={
@@ -301,6 +305,8 @@
 	trait="trait_enduring"
 	trait="trait_thrifty"
 	trait="trait_decadent"
+	trait="trait_very_strong"
+	trait="trait_adaptive"
 }
 ###### REPUBLIC CORE WORLDS
 "Galactic Republic"
@@ -357,6 +363,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
+	trait="trait_extremely_adaptive"
 }
 "Kingdom of Alderaan"
 ={
@@ -375,7 +382,7 @@
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Alderaan"
-	planet_class="pc_alpine"
+	planet_class="pc_continental"
 	system_name="Alderaan"
 	initializer=""
 	graphical_culture="republic_01"
@@ -409,9 +416,11 @@
 	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_fanatic_green"
 	trait="trait_talented"
 	trait="trait_charismatic"
 	trait="trait_deviants"
+	trait="trait_extremely_adaptive"
 }
 "Chandrilan House"
 ={
@@ -464,9 +473,11 @@
 	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_fanatic_green"
 	trait="trait_talented"
 	trait="trait_charismatic"
 	trait="trait_deviants"
+	trait="trait_extremely_adaptive"
 }
 "Corellian Empire"
 ={
@@ -524,6 +535,7 @@
 	trait="trait_sedentary"
 	trait="trait_talented"
 	trait="trait_natural_engineers"
+	trait="trait_extremely_adaptive"
 }
 "Anaxes Commonwealth"
 ={
@@ -580,6 +592,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
+	trait="trait_extremely_adaptive"
 }
 
 "Brentaal Houses"
@@ -637,6 +650,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
+	trait="trait_extremely_adaptive"
 }
 "Duro Consortium"
 ={
@@ -693,6 +707,7 @@
 	trait="trait_nomadic"
 	trait="trait_industrious"
 	trait="trait_deviants"
+	trait="trait_extremely_adaptive"
 }
 
 
@@ -751,7 +766,8 @@
 	ethic="ethic_fanatic_materialist"
 	trait="trait_natural_engineers"
 	trait="trait_thrifty"
-	trait="trait_nonadaptive"
+	trait="trait_deviants"
+	trait="trait_extremely_adaptive"
 }
 
 "Rendili Jurisdictions"
@@ -809,6 +825,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_natural_engineers"
+	trait="trait_extremely_adaptive"
 }
 
 "Alsakan Kingdom"
@@ -867,7 +884,8 @@
 	ethic="ethic_materialist"
 	trait="trait_natural_engineers"
 	trait="trait_thrifty"
-	trait="trait_nonadaptive"
+	trait="trait_deviants"
+	trait="trait_extremely_adaptive"
 }
 
 
@@ -934,6 +952,7 @@
 	trait="trait_intelligent"
 	trait="trait_natural_engineers"
 	trait="trait_deviants"
+	trait="trait_adaptive"
 }
 
 "Utapauan Committee"
@@ -953,7 +972,7 @@
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Utapau"
-	planet_class="pc_desert"
+	planet_class="pc_savannah"
 	system_name="Utapau"
 	initializer=""
 	graphical_culture="arthropoid_01"
@@ -1045,6 +1064,7 @@
 	trait="trait_intelligent"
 	trait="trait_sedentary"
 	trait="trait_charismatic"
+	trait="trait_extremely_adaptive"
 }
 "Council of Kamino"
 ={
@@ -1156,6 +1176,7 @@
 	trait="trait_thrifty"
 	trait="trait_deviants"
 	trait="trait_charismatic"
+	trait="trait_extremely_adaptive"
 }
 "Cathar Tribes"
 ={
@@ -1211,6 +1232,7 @@
 	trait="trait_strong"
 	trait="trait_deviants"
 	trait="trait_communal"
+	trait="trait_adaptive"
 }
 "United Wookiee Clans"
 ={
@@ -1264,9 +1286,10 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
 	trait="trait_enduring"
-	trait="trait_strong"
+	trait="trait_very_strong"
 	trait="trait_communal"
 	trait="trait_sedentary"
+	trait="trait_adaptive"
 }
 "Combined Bothan Clans"
 ={
@@ -1336,7 +1359,7 @@
 	portrait="art1"
 	name="Geonosian Hives"
 	adjective="Geonosian"
-	government="despotic_hegemony"
+	government="communist_dictatorship"
 	flags={geonosian_hives SWGD_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
@@ -1375,9 +1398,11 @@
 	spawn_enabled=always
 	ethic="ethic_fanatic_collectivist"
 	ethic="ethic_materialist"
+	trait="trait_drone_mindset" 
 	trait="trait_fleeting"
 	trait="trait_rapid_breeders"
 	trait="trait_natural_engineers"
+	trait="trait_nonadaptive"
 }
 
 "Ssi-ruuvi Imperium"
@@ -1496,6 +1521,7 @@
 	trait="trait_deviants"
 	trait="trait_resilient"
 	trait="trait_natural_sociologists"
+	trait="trait_extremely_adaptive"
 }
 
 "Rodian Clans"
@@ -1552,8 +1578,8 @@
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_militarist"
 	trait="trait_deviants"
-	trait="trait_adaptive"
 	trait="trait_resilient"
+	trait="trait_extremely_adaptive"
 }
 
 "Neimoidian Trade Collective"
@@ -1668,6 +1694,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
+	trait="trait_extremely_adaptive"
 }
 
 "Echani Command"
@@ -1723,6 +1750,7 @@
 	ethic="ethic_fanatic_militarist"
 	trait="trait_strong"
 	trait="trait_natural_engineers"
+	trait="trait_extremely_adaptive"
 }
 
 "Haruun Kal Representative Council"
@@ -1734,7 +1762,7 @@
 	species_class="SWGD_HUMAN"
 	species_adjective="Balawai"
 	species_bio="The Representative Council was the ruling body of Haruun Kal, headquartered in the city of Pelek Baw (which was largely the extent of its control). It was composed entirely of Balawai, and exclusively served Balawai interests. The Council largely repressed the native Korunnai population. Much of its funding came from off-world supporters of the thyssel bark trade. Branches of the Council's government included a Customs office, a Ministry of Justice, and a civil militia."
-	portrait="Korunnai"
+	portrait="human"
 	name="Haruun Kal Representative Council"
 	adjective="Balawai"
 	government="military_junta"
@@ -1779,4 +1807,5 @@
 	trait="trait_strong"
 	trait="trait_deviants"
 	trait="trait_natural_engineers"
+	trait="trait_extremely_adaptive"
 }
