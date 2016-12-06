@@ -576,9 +576,12 @@ static_galaxy_scenario = {
 						 has_country_flag = echani
 						}
 					}}
-		system = { id = "2073" name = "Thyrsus" position = { x = -84 y = -62 } }
-		system = { id = "2074" name = "Bengali" position = { x = -79 y = -75 } }
-		system = { id = "2075" name = "Almera" position = { x = -94 y = -70 } }
+		system = { id = "2073" name = "Thyrsus" position = { x = -84 y = -62 }
+initializer = thyrsus_system_initializer}
+		system = { id = "2074" name = "Bengali" position = { x = -79 y = -75 }
+initializer = bengali_system_initializer}
+		system = { id = "2075" name = "Almera" position = { x = -94 y = -70 }
+initializer = almera_system_initializer}
 		system = { id = "2076" name = "Nouane" position = { x = -85 y = -81 } }
 		system = { id = "2078" name = "Berchest" position = { x = -88 y = -54 } }
 		system = { id = "2079" name = "Filordis" position = { x = -100 y = -62 } }
@@ -2344,14 +2347,14 @@ static_galaxy_scenario = {
 		system = { id = "1060" name = "Copero" position = { x = 240 y = -39 } }
 		system = { id = "1061" name = "Sarvchi" position = { x = 238 y = -41 } }
 		system = { id = "2037" name = "Zakuul" position = { x = 288 y = 132 } }
-		system = { id = "2038" name = "Zonama Sekot" position = { x = 214 y = 147 } }
+		#system = { id = "2038" name = "Zonama Sekot" position = { x = 214 y = 147 } }
 		system = { id = "2039" name = "Odessen" position = { x = 224 y = 140 } }
 		system = { id = "2040" name = "Ahch-To" position = { x = 140 y = 46 } }
 		system = { id = "2069" name = "CZ-198" position = { x = 138 y = -67 } }
 		system = { id = "2070" name = "O'reen" position = { x = 159 y = 150 } }
 		system = { id = "2072" name = "Yoggoy" position = { x = 167 y = -126 }initializer = yoggoy_system_initializer}
 		system = { id = "2096" name = "Plunder" position = { x = 157 y = -47 }initializer = plunder_system_initializer}
-		system = { id = "2097" name = "Ah'hkhtang" position = { x = 138 y = -14 } }
+		#system = { id = "2097" name = "Ah'hkhtang" position = { x = 138 y = -14 } }
 		system = { id = "2098" name = "Bogo Rai" position = { x = 282 y = -43 } }
 		system = { id = "2099" name = "Celwis" position = { x = 220 y = -45 } }
 		system = { id = "2100" name = "Klasse Ephemora" position = { x = 235 y = -26 } }
@@ -2392,17 +2395,17 @@ static_galaxy_scenario = {
 				add_hyperlane = { from = "1057" to = "2102" }
 				add_hyperlane = { from = "2102" to = "1049" }
 				add_hyperlane = { from = "1049" to = "1047" }
-				add_hyperlane = { from = "217" to = "2038" }
-				add_hyperlane = { from = "2038" to = "2039" }
+				add_hyperlane = { from = "217" to = "2039" }
+				#add_hyperlane = { from = "2038" to = "2039" }
 				add_hyperlane = { from = "2039" to = "2037" }
-				add_hyperlane = { from = "2038" to = "1048" }
+				add_hyperlane = { from = "2039" to = "1048" }
 				add_hyperlane = { from = "1062" to = "2040" }
 				add_hyperlane = { from = "1062" to = "2070" }
-				add_hyperlane = { from = "2070" to = "2038" }
+				add_hyperlane = { from = "2070" to = "2039" }
 				add_hyperlane = { from = "1049" to = "2069" }
 				add_hyperlane = { from = "1047" to = "2072" }
 				add_hyperlane = { from = "2069" to = "2096" }
-				add_hyperlane = { from = "2096" to = "2097" }
+				#add_hyperlane = { from = "2096" to = "2097" }
 				add_hyperlane = { from = "1055" to = "2111" }
 				add_hyperlane = { from = "1052" to = "2109" }
 				add_hyperlane = { from = "2109" to = "1054" }

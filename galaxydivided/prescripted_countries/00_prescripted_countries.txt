@@ -1747,7 +1747,10 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_militarist"
+	ethic="ethic_militarist"
+	ethic="ethic_socialism"
+	ethic="ethic_space_engineering"
+	ethic="ethic_culture"
 	trait="trait_strong"
 	trait="trait_natural_engineers"
 	trait="trait_extremely_adaptive"
@@ -1804,7 +1807,6 @@
 	spawn_enabled=always
 	ethic="ethic_collectivist"
 	ethic="ethic_militarist"
-	trait="trait_strong"
 	trait="trait_deviants"
 	trait="trait_natural_engineers"
 	trait="trait_extremely_adaptive"
