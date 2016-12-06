@@ -10,4 +10,4 @@ tags={
 }
 picture="galaxyatwarsmall.png"
 remote_file_id="775944333"
-supported_version=“1.4.*”
+supported_version="1.4.*"

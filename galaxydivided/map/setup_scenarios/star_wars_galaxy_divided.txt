@@ -2327,7 +2327,7 @@ initializer = almera_system_initializer}
 					}
 		}
 		system = { id = "1049" name = "The Redoubt" position = { x = 135 y = -88 } }
-		system = { id = "1050" name = "Rhigar" position = { x = 253 y = -36 } }
+		system = { id = "1050" name = "Rhigar" position = { x = 253 y = -36 }initializer = rhigar_system_initializer}
 		system = { id = "1051" name = "Csilla" position = { x = 249 y = -51 } initializer = csilla_system_initializer
 			spawn_weight = {
 					base = 0
@@ -2338,14 +2338,14 @@ initializer = almera_system_initializer}
 					}	}
 		system = { id = "1052" name = "Rentor" position = { x = 245 y = -53 } }
 		system = { id = "1053" name = "Cormit" position = { x = 234 y = -47 } }
-		system = { id = "1054" name = "Sposia" position = { x = 249 y = -60 } }
-		system = { id = "1055" name = "Naporar" position = { x = 244 y = -63 } }
+		system = { id = "1054" name = "Sposia" position = { x = 249 y = -60 }initializer = sposia_system_initializer}
+		system = { id = "1055" name = "Naporar" position = { x = 244 y = -63 }initializer = naporar_system_initializer}
 		system = { id = "1056" name = "Ornfra" position = { x = 234 y = -64 } }
 		system = { id = "1057" name = "Schesa" position = { x = 235 y = -70 } }
 		system = { id = "1058" name = "Sharb" position = { x = 231 y = -67 } }
-		system = { id = "1059" name = "Csaus" position = { x = 244 y = -37 } }
-		system = { id = "1060" name = "Copero" position = { x = 240 y = -39 } }
-		system = { id = "1061" name = "Sarvchi" position = { x = 238 y = -41 } }
+		system = { id = "1059" name = "Csaus" position = { x = 244 y = -37 }initializer = csaus_system_initializer}
+		system = { id = "1060" name = "Copero" position = { x = 240 y = -39 }initializer = copero_system_initializer}
+		system = { id = "1061" name = "Sarvchi" position = { x = 238 y = -41 }initializer = sarvchi_system_initializer}
 		system = { id = "2037" name = "Zakuul" position = { x = 288 y = 132 } }
 		#system = { id = "2038" name = "Zonama Sekot" position = { x = 214 y = 147 } }
 		system = { id = "2039" name = "Odessen" position = { x = 224 y = 140 } }
@@ -2358,16 +2358,16 @@ initializer = almera_system_initializer}
 		system = { id = "2098" name = "Bogo Rai" position = { x = 282 y = -43 } }
 		system = { id = "2099" name = "Celwis" position = { x = 220 y = -45 } }
 		system = { id = "2100" name = "Klasse Ephemora" position = { x = 235 y = -26 } }
-		system = { id = "2101" name = "Yashuvhu" position = { x = 223 y = -28 } }
+		system = { id = "2101" name = "Yashuvhu" position = { x = 223 y = -28 }initializer = yashuvhu_system_initializer}
 		system = { id = "2102" name = "Pesfavri" position = { x = 178 y = -79 } }
-		system = { id = "2103" name = "Avidich" position = { x = 256 y = -51 } }
-		system = { id = "2104" name = "Ool" position = { x = 260 y = -49 } }
-		system = { id = "2105" name = "Shihon" position = { x = 261 y = -47 } }
-		system = { id = "2106" name = "Oyokal" position = { x = 264 y = -45 } }
+		system = { id = "2103" name = "Avidich" position = { x = 256 y = -51 }initializer = avidich_system_initializer}
+		system = { id = "2104" name = "Ool" position = { x = 260 y = -49 }initializer = ool_system_initializer}
+		system = { id = "2105" name = "Shihon" position = { x = 261 y = -47 } initializer = shihon_system_initializer}
+		system = { id = "2106" name = "Oyokal" position = { x = 264 y = -45 }initializer = oyokal_system_initializer}
 		system = { id = "2107" name = "Kinoss" position = { x = 273 y = -51 } }
 		system = { id = "2108" name = "Thearterra" position = { x = 261 y = -57 } }
 		system = { id = "2109" name = "Jamiron" position = { x = 247 y = -56 } }
-		system = { id = "2110" name = "Cioral" position = { x = 248 y = -49 } }
+		system = { id = "2110" name = "Cioral" position = { x = 248 y = -49 }initializer = cioral_system_initializer}
 		system = { id = "2111" name = "Cam'co" position = { x = 248 y = -73 } }
 		system = { id = "2112" name = "Noris" position = { x = 235 y = -68 } }
 		system = { id = "2113" name = "Chaf" position = { x = 244 y = -28 } }
@@ -2471,6 +2471,7 @@ nebula = {name = "Maw Nebulae" position = { x = -353 y = 5 } radius = 30 }
 nebula = { name = "Lira San Nebula" position = { x = -195 y = 450 } radius = 10 }
 nebula = { name = "Red Nebula" position = { x = 172 y = 477 } radius = 20 }
 nebula = { name = "Heart of the Galaxy" position = { x = -1 y = 59 } radius = 15 }
+nebula = { name = "Rata Nebula" position = { x = 253 y = -36 } radius = 10 }
 
 	
 	
