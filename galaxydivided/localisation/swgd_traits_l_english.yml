@@ -1,5 +1,9 @@
 ﻿l_english:
 
+trait_ruler_immortal:0 "Immortal"
+trait_ruler_immortal_desc:0 "This character is immortal, whether naturally or through other means."
+
+
 leader_trait_ruler_force_user_I:0 "Powerful Force User"
 leader_trait_ruler_force_user_I_desc:0 "This leader is a powerful force user, having gained mastery of its endless secrets. This ability allows them to manipulate others for the betterment of others or their own hidden agenda."
 
@@ -33,3 +37,5 @@ leader_trait_gen_force_user_III_desc:0 "This leader is an powerful force user, h
 
 trait_force_attuned:0 "Force Attuned"
 trait_force_attuned_desc:0 "This species is considered strongly Force-sensitive, giving them above average talent in many mediums."
+trait_abundant:0 "Abundant"
+trait_abundant_desc: "This species can be found in abundance within the known Galaxy."

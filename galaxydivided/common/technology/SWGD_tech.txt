@@ -157,13 +157,13 @@ tech_force_I = {
 	tier = 1
 	is_rare = yes
 	category = { force }
-	prerequisites = { "tech_centralized_command" }
+	prerequisites = { "tech_psionic_theory " }
 	weight = @tier1weight4
 	
 		
 	weight_modifier = {
 		modifier = {
-			factor = 1.25
+			factor = 1.5
 			has_ethic = ethic_dark_side
 		}
 		modifier = {
@@ -206,7 +206,7 @@ tech_force_II = {
 		
 	weight_modifier = {
 		modifier = {
-			factor = 1.25
+			factor = 1.5
 			has_ethic = ethic_dark_side
 		}
 		modifier = {
@@ -249,7 +249,7 @@ tech_force_III = {
 		
 	weight_modifier = {
 		modifier = {
-			factor = 1.25
+			factor = 1.5
 			has_ethic = ethic_dark_side
 		}
 		modifier = {
@@ -292,7 +292,7 @@ tech_force_IV = {
 		
 	weight_modifier = {
 		modifier = {
-			factor = 1.25
+			factor = 1.5
 			has_ethic = ethic_dark_side
 		}
 		modifier = {

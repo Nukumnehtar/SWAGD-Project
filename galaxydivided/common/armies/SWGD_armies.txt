@@ -19,7 +19,12 @@ force_adept = {
 		minerals = 250
 		energy = 50
 	}
-	
+	allow = {
+		OR = {
+		has_building = "building_force_academy"
+		has_building = "building_force_great_academy"
+		}
+	}
 	prerequisites = { "tech_force_I" }
 	potential = {
 		from = {
@@ -46,7 +51,12 @@ force_warrior = {
 		minerals = 250
 		energy = 250
 	}
-	
+	allow = {
+	OR = {
+		has_building = "building_force_academy"
+		has_building = "building_force_great_academy"
+		}
+	}
 	prerequisites = { "tech_force_II" }
 	potential = {
 		from = {
@@ -62,7 +72,7 @@ force_warrior = {
 
 force_inquisitor = {
 	damage = 1.5
-	morale_damage = 5.0
+	morale_damage = 25.0
 	health = 1.0
 	morale = 3.0
 	time = 360
@@ -73,8 +83,14 @@ force_inquisitor = {
 		minerals = 250
 		energy = 150
 	}
-	
-	prerequisites = { "tech_force_III" }
+	allow = {
+	OR = {
+		has_building = "building_force_academy"
+		has_building = "building_force_great_academy"
+		}
+		has_building = "building_force_library"
+	}
+	prerequisites = { "tech_force_II" }
 	potential = {
 		from = {
 			NOR = {
@@ -90,7 +106,7 @@ force_inquisitor = {
 force_master = {
 	damage = 5.0
 	morale_damage = 5.0
-	health = 3.0
+	health = 4.0
 	morale = 5.0
 	time = 360
 	maintenance = 2.0
@@ -100,7 +116,9 @@ force_master = {
 		minerals = 350
 		energy = 350
 	}
-	
+	allow = {
+		has_building = "building_force_great_academy"
+	}
 	prerequisites = { "tech_force_IV" }
 	potential = {
 		from = {
@@ -148,7 +166,7 @@ clone_shock = {
 }
 
 clone_paratrooper = {
-	damage = 3.0
+	damage = 2.25
 	health = 1.5
 	morale = 3.0
 	time = 30
@@ -177,7 +195,7 @@ clone_paratrooper = {
 }
 
 clone_commando = {
-	damage = 3.0
+	damage = 2.5
 	morale_damage = 0.5
 	health = 2.0
 	morale = 2.0
@@ -208,10 +226,10 @@ clone_commando = {
 }
 
 clone_arc = {	
-	damage = 3.5
-	morale_damage = 0.5
+	damage = 2.75
+	morale_damage = 1.5
 	health = 3.0
-	morale = 3.0
+	morale = 4.0
 	time = 30
 	maintenance = 0.33
 	icon_frame = 7

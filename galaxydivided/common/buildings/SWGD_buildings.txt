@@ -142,17 +142,86 @@ building_hazardous_life_support_system = {
 	}
 }
 
-building_force_temple = {}
+#building_force_temple = {}
 
-building_force_great_temple = {}
+#building_force_great_temple = {}
 
-building_force_library = {}
+####FORCE BUILDINGS##########
 
-building_force_great_library = {}
+building_force_library = {	
+	base_buildtime = @b1time
+	planet_unique = yes
+	cost = {
+		minerals = @b1cost
+	}
+	
+	country_modifier = { 
+		all_technology_research_speed = 0.10
+		category_force_research_speed_mult = 0.10
+	}
+	
+	required_resources = {
+		energy = @b1upkeep
+	}
+	
+	upgrades = {
+		building_force_great_library
+	}	
+	
+	potential = {
+		planet = {
+			NOT = {
+				has_building = building_great_force_library
+				
+			}
+		}
+	}
+	prerequisites = {
+		"tech_force_I"
+	}	
+	
+	}
+	
+
+building_force_great_library = {
+	base_buildtime = @b1time
+	empire_unique = yes
+	is_listed = no
+	cost = {
+		minerals = @b1cost
+	}
+	
+	allow = {
+		custom_tooltip = {
+			text = "building_force_library"
+			planet = {
+				OR = {
+					has_building = "building_force_library"
+									}
+			}
+		}
+	}
+	
+	country_modifier = { 
+		all_technology_research_speed = 0.15
+		category_force_research_speed_mult = 0.25
+	}
+	
+	required_resources = {
+		energy = @b1upkeep
+	}
+	
+	upgrades = {
+		
+	}	
+	
+	prerequisites = {
+		"tech_force_III"
+	}	
+	}
 
 building_force_academy = {
-
-base_buildtime = 360
+	base_buildtime = 360
 	planet_unique = yes
 	
 	cost = {
@@ -167,6 +236,7 @@ base_buildtime = 360
 
 	army_modifier = {
 		army_damage_mult = 0.10
+		army_health = 0.05
 	}
 	
 		
@@ -174,19 +244,13 @@ base_buildtime = 360
 		"tech_force_I"
 	}
 	
-	ai_special_building = yes
 	
-	ai_allow = {
-		NOT = {
-			fromfrom = {
-				any_owned_planet = {
-					any_tile = {
-						has_building = building_military_academy
-					}
-				}
-			}
-		}
+	upgrades = {
+		building_force_great_academy
 	}
+	
+	
+	
 	
 	ai_weight = {
 		weight = 5000
@@ -194,7 +258,7 @@ base_buildtime = 360
 			weight = 0
 			from = { 
 				sector_controlled = yes 
-				NOT = { has_building = building_military_academy }
+				NOT = { has_building = building_force_academy }
 			}
 		}	
 	}
@@ -202,16 +266,29 @@ base_buildtime = 360
 
 building_force_great_academy  = {
 
-base_buildtime = 360
+	base_buildtime = 360
 	empire_unique = yes
 	
 	cost = {
 		minerals = 150
 	}
+	
+	allow = {
+		custom_tooltip = {
+			text = "building_force_academy"
+			planet = {
+				OR = {
+					has_building = "building_force_academy"
+									}
+			}
+		}
+	}
+	
 	planet_modifier = {
-		
-		pop_ethic_shift = -0.05
+				
 		army_damage_mult = 0.10
+		army_health = 0.05
+		pop_ethic_shift = -0.05
 		tile_resource_society_research_mult = 0.15
 		
 	}
@@ -239,7 +316,7 @@ base_buildtime = 360
 			fromfrom = {
 				any_owned_planet = {
 					any_tile = {
-						has_building = building_military_academy
+						has_building = building_force_great_academy
 					}
 				}
 			}
@@ -252,7 +329,7 @@ base_buildtime = 360
 			weight = 0
 			from = { 
 				sector_controlled = yes 
-				NOT = { has_building = building_military_academy }
+				NOT = { has_building = building_force_great_academy }
 			}
 		}	
 	}
@@ -268,11 +345,17 @@ building_force_tomb = {
 	}
 
 	
-	planet_modifier = {
-		pop_happiness = 0.1
+	planet_modifier = {		
 		pop_ethic_shift = -0.1
 	}
 	
+	prerequisites = {
+		"tech_force_II"
+	}
+	
+	upgrades = {
+		building_force_great_tomb
+	}
 	
 	ai_weight = {
 		weight = 7000
@@ -289,13 +372,60 @@ building_force_tomb = {
 	
 }
 
-building_force_great_tomb = {} 
+building_force_great_tomb = {
+	base_buildtime = @b0time
+	empire_unique = yes
+	requires_pop = no
+	is_listed = no
+	cost = {
+		minerals = @b0cost
+	}
+
+		allow = {
+		custom_tooltip = {
+			text = "building_force_tomb"
+			planet = {
+				OR = {
+					has_building = "building_force_tomb"
+									}
+			}
+		}
+	}
+	planet_modifier = {
+		pop_happiness = 0.10
+		pop_ethic_shift = -0.15
+	}
+	
+	country_modifier = {
+	category_psionics_research_speed_mult = 0.10
+	category_force_research_speed_mult = 0.10
+	}
+	
+	prerequisites = {
+		"tech_force_III"
+	}
+	
+	ai_weight = {
+		weight = 7000
+		modifier = {
+			weight = 0
+			from = {
+				happiness_planet > 0.90
+				
+			}
+		}	
+	}
+	
+	ai_replace = no
+	
+} 
 
 
 building_andeddu_keep = {
-	base_buildtime = 10000
+	base_buildtime = 100
 	planet_unique = yes
 	requires_pop = no
+	is_listed = no
 	
 	cost = {
 		minerals = @b0cost
@@ -309,6 +439,8 @@ building_andeddu_keep = {
 		tile_resource_minerals_mult = -0.5
 		tile_resource_energy_mult = -0.5
 		tile_resource_food_mult = -0.5
+		}
+	country_modifier = {	
 		category_psionics_research_speed_mult = 0.50
 		category_force_research_speed_mult = 0.50
 		country_society_tech_research_speed = 0.1
@@ -321,9 +453,10 @@ building_andeddu_keep = {
 }
 
 building_sith_pyramid = {
-	base_buildtime = 10000
+	base_buildtime = 100
 	planet_unique = yes
 	requires_pop = no
+	is_listed = no
 	
 	cost = {
 		minerals = @b0cost
@@ -337,14 +470,14 @@ building_sith_pyramid = {
 		tile_resource_minerals_mult = -0.5
 		tile_resource_energy_mult = -0.5
 		tile_resource_food_mult = -0.5
-		category_psionics_research_speed_mult = 0.50
-		category_force_research_speed_mult = 0.50
-		category_society_speed_mult = 0.50
-		country_society_tech_research_speed = 0.1
+		
 	}
-	
-	
-	
+	country_modifier = {	
+		category_psionics_research_speed_mult = 0.50
+		category_force_research_speed_mult = 0.50		
+		country_society_tech_research_speed = 0.1
+		}
+		
 	ai_replace = no
 	
 }

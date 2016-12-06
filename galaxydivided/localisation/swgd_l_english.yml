@@ -21,9 +21,9 @@
  force_warrior:0 "Force Warrior"
  force_warrior_plural:0 "Force Adepts"
  force_warrior_desc:0 "A Force Warrior is a deadly, expert fighter equipped with a lightsaber and the Force."
- force_inquisitor:0 "Force Inquisitor"
- force_inquisitor_plural:0 "Force Inquisitors"
- force_inquisitor_desc:0 "Inquisitors are powerful Force-wielders, operating primarily within the upper echelons and political circles of a nation. They focus primarily on their Force abiltiies, rather than martial prowess."
+ force_inquisitor:0 "Force Scholar"
+ force_inquisitor_plural:0 "Force Scholar"
+ force_inquisitor_desc:0 "Scholars are powerful Force-wielders, operating primarily within the upper echelons and political circles of a nation. They focus primarily on their Force abiltiies, rather than martial prowess."
  force_master:0 "Force Master"
  force_master_plural:0 "Force Masters"
  force_master_desc:0 "A Force Master is an individual with exceptional devotion and skill in the Force and combat."
@@ -43,7 +43,7 @@
  
  force:0 "The Force"
  force_desc:0 "The Force is a metaphysical, spiritual, binding, and ubiquitous power that holds enormous importance for both the Jedi and Sith monastic orders."
- 
+ category_force_research_speed_mult:0 "Research Speed (The Force)"
  
  
  building_life_support_system:0 "Life Support System"
@@ -58,7 +58,21 @@
  building_recruiting_world_desc:0 "Recruiting worlds are colonies where militaries draw a large number of recruits."
  building_research_colony:0 "Research Colony"
  building_research_colony_desc:0 "A research colony is a small outpost built in the effort of conducting research on worlds away from an empire's core systems."
-
+ 
+ building_force_library:0 "Library"
+ building_force_library_desc:0 "A database containing information relating to the Force and sentient history."
+ building_force_great_library:0 "Great Library"
+ building_force_great_library_desc:0 "A massive library complex consisting of several buildings, here is assembled ancient documents and scrolls detailing every detail of sentient history and ingenuity."
+ building_force_academy:0 "Force Academy"
+ building_force_academy_desc:0 "A facility dedicated to training Force-sensitives, and studying the Force."
+ building_force_great_academy:0 "Great Force Academy"
+ building_force_great_academy_desc:0 "A massive training center built to train Force-sensitives in the many aspects of the Force. As well as being a training ground, a Great Academy may house relics and other valuable knowledge on the Force."
+ building_force_tomb:0 "Tomb"
+ building_force_tomb_desc:0 "Force-sensitives and their artifacts are entombed inside of these crypts."
+ building_force_great_tomb:0 "Great Tomb"
+ building_force_great_tomb_desc:0 "These elaborate tombs contain the last resting place of once powerful Force-sensitives and their mysterious artifacts and relics. Often times these tombs are equipped with traps and other defenses."
+ 
+ 
  building_andeddu_keep:0 "Andeddu's Keep"
  building_andeddu_keep_desc:0 "This structure is a fortress constructed and designed to serve as the stronghold of Darth Andeddu, Dark Lord of the Sith. Far removed from any form of established civilization, Lord Andeddu used the Keep as his personal repository of Sith lore, and also as the location of his secret tomb."
   building_sith_pyramid:0 "Ancient Sith Temple"
@@ -75,10 +89,12 @@
  tech_force_I_desc:0 "Philosophers and scientists from across your worlds gather to share their mystical knowledge, discovering the Force as the metaphysical, spiritual, binding, and ubiquitous power of the cosmos." 
  tech_force_II:0 "Early Force Studies" 
  tech_force_II_desc:0 "library, academy and fighting" 
- tech_force_III:0 "Holocron" 
+ tech_force_III:0 "Ancient Artifact Studies" 
  tech_force_III_desc:0 "great academy,great library  warrior fighter" 
- tech_force_IV:0 "Holocron " 
- tech_force_IV_desc:0 "epic tomb, great fighter" 
+ tech_force_IV:0 "Advanced Force Trials" 
+ tech_force_IV_desc:0 "Whether alone or within an Order, Force-sensitives undergo harsh and sometimes impossible tasks to prove their strength and knowledge of the Force." 
+ tech_force_VI:0 "Unexplored Hologrammic Technology" 
+ tech_force_VI_desc:0 "Through studies of employed patterns of organic crystals and hologrammic technology to capture the appearance and cognitive networks of a holocron's owner, and transform this into a three-dimensional hologram. " 
     
  ethic_dark_side:0 "Dark Side Servants"
  ethic_dark_side_desc:1 "§LThis society has a connection with the Dark side of the Force, either through genetic predispositions, culture or their past."
@@ -134,8 +150,8 @@ personality_jedi_order_desc:0 "An ancient monastic peacekeeping organization uni
 personality_sith_order:0 "Sith Order"
 personality_sith_order_desc:0 "A sect of Force-sensitives who utilize the dark side of the Force. The Sith are the most infamous of all dark side religions, and the members of the cult were often seen as the pinnacle of power within the dark side."
 
-trait_ruler_immortal:0 "Immortal"
-trait_ruler_immortal_desc:0 "This character is immortal, whether naturally or through other means."
+
+
 
  guardian.3001:0 "Horror in the Void"
  guardian.3001.desc:0 "We have encountered some kind of vast entity near [horror_system.GetName],swirling with dark side energy. It appears to exist only partially inside our own universe, with the bulk of the creature still trapped in whatever nightmarish realm it spawned from.\n\nThere is a malevolent intelligence at work here, ancient beyond our concept of time and utterly alien in its design. We can only guess as to its purpose."
