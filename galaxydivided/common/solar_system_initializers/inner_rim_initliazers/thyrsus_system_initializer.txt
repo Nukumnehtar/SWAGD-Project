@@ -39,7 +39,7 @@ thyrsus_system_initializer = {
 					trait = "trait_pc_desert_preference" 
 					trait="trait_strong"
 					trait="trait_natural_engineers"
-					trait="trait_extremely_adaptive"
+					trait="trait_abundant"
 				}
 				extra_trait_points = 2
 				homeworld = FROM

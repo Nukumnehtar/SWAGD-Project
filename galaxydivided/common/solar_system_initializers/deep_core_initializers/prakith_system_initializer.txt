@@ -69,7 +69,7 @@ prakith_system_initializer = {
 							trait="trait_resilient"
 							trait="trait_deviants"
 							trait="trait_decadent"
-							trait = "trait_extremely_adaptive"
+							trait="trait_abundant"
 						}
 					}
 					create_country = {

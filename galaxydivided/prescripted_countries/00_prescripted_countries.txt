@@ -53,7 +53,6 @@
 	ethic="ethic_light_side"
 	ethic="ethic_individualist"
 	ethic="ethic_fanatic_spiritualist"
-	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_socialism"
 	ethic="ethic_green"
 	ethic="ethic_pluralist"
@@ -114,7 +113,7 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_dark_side"
-	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_militarist"
 	ethic="ethic_fanatic_spiritualist"
 	ethic="ethic_expansionist"
@@ -304,9 +303,10 @@
 	trait="trait_repugnant"
 	trait="trait_enduring"
 	trait="trait_thrifty"
+	trait="trait_deviants"
 	trait="trait_decadent"
 	trait="trait_very_strong"
-	trait="trait_adaptive"
+	trait="trait_abundant"
 }
 ###### REPUBLIC CORE WORLDS
 "Galactic Republic"
@@ -952,7 +952,6 @@
 	trait="trait_intelligent"
 	trait="trait_natural_engineers"
 	trait="trait_deviants"
-	trait="trait_adaptive"
 }
 
 "Utapauan Committee"
@@ -1232,7 +1231,6 @@
 	trait="trait_strong"
 	trait="trait_deviants"
 	trait="trait_communal"
-	trait="trait_adaptive"
 }
 "United Wookiee Clans"
 ={
@@ -1289,7 +1287,6 @@
 	trait="trait_very_strong"
 	trait="trait_communal"
 	trait="trait_sedentary"
-	trait="trait_adaptive"
 }
 "Combined Bothan Clans"
 ={
