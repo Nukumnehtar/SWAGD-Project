@@ -61,7 +61,7 @@
 	trait="trait_charismatic"
 	trait="trait_talented"
 	trait="trait_slow_breeders"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 
 "Sith Empire"
@@ -123,7 +123,7 @@
 	trait="trait_resilient"
 	trait="trait_deviants"
 	trait="trait_decadent"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 
 "Mandalorian Warrior Clans"
@@ -183,7 +183,7 @@
 	ethic="ethic_culture"
 	trait="trait_strong"
 	trait="trait_natural_engineers"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 "Chiss Ascendancy"
 ={
@@ -245,7 +245,7 @@
 	trait="trait_talented"
 	trait="trait_solitary"
 	trait="trait_sedentary"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 "Hutt Clans"
 ={
@@ -363,7 +363,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 "Kingdom of Alderaan"
 ={
@@ -420,7 +420,7 @@
 	trait="trait_talented"
 	trait="trait_charismatic"
 	trait="trait_deviants"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 "Chandrilan House"
 ={
@@ -477,7 +477,7 @@
 	trait="trait_talented"
 	trait="trait_charismatic"
 	trait="trait_deviants"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 "Corellian Empire"
 ={
@@ -535,7 +535,7 @@
 	trait="trait_sedentary"
 	trait="trait_talented"
 	trait="trait_natural_engineers"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 "Anaxes Commonwealth"
 ={
@@ -592,7 +592,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 
 "Brentaal Houses"
@@ -650,7 +650,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 "Duro Consortium"
 ={
@@ -707,7 +707,7 @@
 	trait="trait_nomadic"
 	trait="trait_industrious"
 	trait="trait_deviants"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 
 
@@ -767,7 +767,7 @@
 	trait="trait_natural_engineers"
 	trait="trait_thrifty"
 	trait="trait_deviants"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 
 "Rendili Jurisdictions"
@@ -825,7 +825,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_natural_engineers"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 
 "Alsakan Kingdom"
@@ -885,7 +885,7 @@
 	trait="trait_natural_engineers"
 	trait="trait_thrifty"
 	trait="trait_deviants"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 
 
@@ -1064,7 +1064,7 @@
 	trait="trait_intelligent"
 	trait="trait_sedentary"
 	trait="trait_charismatic"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 "Council of Kamino"
 ={
@@ -1176,7 +1176,7 @@
 	trait="trait_thrifty"
 	trait="trait_deviants"
 	trait="trait_charismatic"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 "Cathar Tribes"
 ={
@@ -1521,7 +1521,7 @@
 	trait="trait_deviants"
 	trait="trait_resilient"
 	trait="trait_natural_sociologists"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 
 "Rodian Clans"
@@ -1579,7 +1579,7 @@
 	ethic="ethic_fanatic_militarist"
 	trait="trait_deviants"
 	trait="trait_resilient"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 
 "Neimoidian Trade Collective"
@@ -1694,7 +1694,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 
 "Echani Command"
@@ -1753,7 +1753,7 @@
 	ethic="ethic_culture"
 	trait="trait_strong"
 	trait="trait_natural_engineers"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }
 
 "Haruun Kal Representative Council"
@@ -1809,5 +1809,5 @@
 	ethic="ethic_militarist"
 	trait="trait_deviants"
 	trait="trait_natural_engineers"
-	trait="trait_extremely_adaptive"
+	trait="trait_abundant"
 }

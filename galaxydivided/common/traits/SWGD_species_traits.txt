@@ -7,3 +7,11 @@ trait_force_attuned = {
 		army_damage_mult = 0.10
 	}
 }
+trait_abundant = {
+	cost = 0	
+	initial = no
+	modification = no
+	modifier = {
+		pop_environment_tolerance = 0.15
+	}
+}
