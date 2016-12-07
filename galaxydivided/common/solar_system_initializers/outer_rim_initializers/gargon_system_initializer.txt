@@ -1,7 +1,6 @@
 gargon_system_initializer = {
     name = "Gargon"
     class = "rl_standard_stars"
-	flags = {mandalorian_clans}
 
     planet = {
         class = star

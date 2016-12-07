@@ -1,7 +1,6 @@
 sposia_system_initializer = {
     name = "Sposia"
     class = "rl_standard_stars"
-	flags={chiss_ascendancy}
 
     planet = {
         class = star

@@ -1,7 +1,6 @@
 thule_system_initializer = {
     name = "Thurra"
     class = "rl_standard_stars"
-	flags = {sith_empire}
 
     planet = {
         class = star

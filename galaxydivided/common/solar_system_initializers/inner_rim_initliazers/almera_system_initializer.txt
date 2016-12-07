@@ -1,10 +1,6 @@
 almera_system_initializer = {
     name = "Almera"
     class = "rl_standard_stars"
-	flags = {echani}
-	usage = custom_empire
-	max_instances = 1
-
     planet = {
         class = star
         orbit_distance = 0

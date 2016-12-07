@@ -54,7 +54,7 @@
 	ethic="ethic_individualist"
 	ethic="ethic_fanatic_spiritualist"
 	ethic="ethic_socialism"
-	ethic="ethic_green"
+	#ethic="ethic_green"
 	ethic="ethic_pluralist"
 	trait="trait_force_attuned"
 	trait="trait_charismatic"
@@ -304,7 +304,7 @@
 	trait="trait_thrifty"
 	trait="trait_deviants"
 	trait="trait_decadent"
-	trait="trait_very_strong"
+	#trait="trait_very_strong"
 	trait="trait_abundant"
 }
 ###### REPUBLIC CORE WORLDS
@@ -1283,7 +1283,7 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
 	trait="trait_enduring"
-	trait="trait_very_strong"
+	#trait="trait_very_strong"
 	trait="trait_communal"
 	trait="trait_sedentary"
 }

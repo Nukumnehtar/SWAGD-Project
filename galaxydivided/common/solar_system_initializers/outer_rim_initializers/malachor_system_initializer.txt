@@ -1,7 +1,6 @@
 malachor_system_initializer = {
     name = "Malachor"
     class = "rl_standard_stars"
-	flags = {sith_empire}
 	
     planet = {
         class = star

@@ -2,7 +2,6 @@ korriban_system_initializer = {
     name = "Horuset (Korriban)"
     class = "rl_standard_stars"
     asteroids_distance = 113
-	flags = {sith_empire}
 
     planet = {
         class = star

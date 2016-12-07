@@ -1,7 +1,6 @@
 du_hutta_system_initializer = {
     name = "Du Hutta"
     class = "rl_standard_stars"
-	flags = {hutt_clans}
 
     planet = {
         class = star

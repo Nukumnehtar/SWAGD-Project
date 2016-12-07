@@ -1,7 +1,6 @@
 ziost_system_initializer = {
     name = "Ziost"
     class = "rl_standard_stars"
-	flags = {sith_empire}
 
     planet = {
         class = star

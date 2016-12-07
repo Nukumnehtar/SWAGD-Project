@@ -1,7 +1,6 @@
 sarvchi_system_initializer = {
     name = "Sarvchi"
     class = "rl_standard_stars"
-	flags={chiss_ascendancy}
 
     planet = {
         class = star

@@ -1,7 +1,6 @@
 ordo_system_initializer = {
     name = "Ordo"
     class = "rl_standard_stars"
-	flags = {mandalorian_clans}
 
     planet = {
         class = star

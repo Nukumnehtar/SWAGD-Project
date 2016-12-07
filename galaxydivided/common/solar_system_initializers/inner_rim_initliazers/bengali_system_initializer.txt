@@ -1,9 +1,6 @@
 bengali_system_initializer = {
     name = "Bengali"
     class = "rl_standard_stars"
-	flags = {echani}
-	usage = custom_empire
-	max_instances = 1
 
     planet = {
         class = star

@@ -1,7 +1,6 @@
 csaus_system_initializer = {
-    name = "Cioral"
+    name = "Csaus"
     class = "rl_standard_stars"
-	flags={chiss_ascendancy}
 
     planet = {
         class = star
@@ -21,9 +20,6 @@ csaus_system_initializer = {
 
      	init_effect = {
 			prevent_anomaly = yes
-		add_modifier = {
-			modifier = "ecumenopolis"
-			}
 		}
 		
 		init_effect = {
@@ -166,16 +162,6 @@ csaus_system_initializer = {
 				}				
 			}			
 		}
-
-        moon = {
-            name = "Cioral Minor"
-            class = random
-            orbit_distance = 10
-            orbit_angle = 125
-            has_ring = no
-	    size = 7
-
-        }
 
     }
 

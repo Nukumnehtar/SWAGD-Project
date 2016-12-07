@@ -1,7 +1,6 @@
 nathema_system_initializer = {
     name = "Nathema (Medriaas)"
     class = "rl_standard_stars"
-	flags = {sith_empire}
 
     planet = {
         name = "Medriaas"

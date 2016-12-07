@@ -1,7 +1,6 @@
 copero_system_initializer = {
     name = "Copero"
     class = "rl_standard_stars"
-	flags={chiss_ascendancy}
 
     planet = {
         class = star
