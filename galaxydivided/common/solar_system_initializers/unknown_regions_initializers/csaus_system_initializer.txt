@@ -16,12 +16,6 @@ csaus_system_initializer = {
         size = 17
         has_ring = no
 		tile_blockers = none
-		modifiers = none
-
-     	init_effect = {
-			prevent_anomaly = yes
-		}
-		
 		init_effect = {
 			every_country = {
 					limit = {

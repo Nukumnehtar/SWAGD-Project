@@ -16,11 +16,6 @@ sarvchi_system_initializer = {
         size = 18
         has_ring = no
 		tile_blockers = none
-		modifiers = none
-     	init_effect = {
-			prevent_anomaly = yes
-		}
-		
 		init_effect = {
 			every_country = {
 					limit = {

@@ -16,16 +16,10 @@ cioral_system_initializer = {
         size = 20
         has_ring = no
 		tile_blockers = none
-		modifiers = none
-
-     	init_effect = {
-			prevent_anomaly = yes
-		add_modifier = {
-			modifier = "ecumenopolis"
-			}
-		}
-		
 		init_effect = {
+			add_modifier = {
+				modifier = "ecumenopolis"
+			}
 			every_country = {
 					limit = {
 						has_country_flag = chiss_ascendancy

@@ -290,14 +290,11 @@ nal_hutta_system_initializer = {
             orbit_angle = 319
             size = 12
             has_ring = no
-			tile_blockers = none
-     	init_effect = {
-			prevent_anomaly = yes
-		add_modifier = {
-			modifier = "ecumenopolis"
+		tile_blockers = none
+		init_effect = {
+			add_modifier = {
+				modifier = "ecumenopolis"
 			}
-		}
-			init_effect = {
 			every_country = {
 					limit = {
 						has_country_flag = hutt_clans
