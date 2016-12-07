@@ -1,0 +1,26 @@
+namespace = swgd
+
+#check if planet has population over 24, if so sets it to Ecumenopolis
+
+planet_event = {
+	id = swgd.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		if = {
+			limit = {
+				num_pops > 20
+			}
+			}
+			add_modifier = {
+				modifier = "ecumenopolis"
+			
+				}
+		}	
+}				
+
+
+
+

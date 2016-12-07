@@ -148,7 +148,7 @@ clone_shock = {
 		minerals = 75
 	}
 	
-	prerequisites = { "tech_cloning" }
+	prerequisites = { "tech_centralized_command" }
 	
 	allow = {
 		has_building = "building_clone_vats"
@@ -177,7 +177,7 @@ clone_paratrooper = {
 		minerals = 100
 	}
 	
-	prerequisites = { "tech_cloning" }
+	prerequisites = { "tech_centralized_command" }
 	
 	allow = {
 		has_building = "building_clone_vats"
@@ -208,7 +208,7 @@ clone_commando = {
 		energy = 150
 	}
 	
-	prerequisites = { "tech_cloning" }
+	prerequisites = { "tech_centralized_command" }
 	
 	allow = {
 		has_building = "building_clone_vats"
@@ -239,7 +239,7 @@ clone_arc = {
 		energy = 200
 	}
 	
-	prerequisites = { "tech_cloning" }
+	prerequisites = { "tech_centralized_command" }
 	
 	allow = {
 		has_building = "building_clone_vats"

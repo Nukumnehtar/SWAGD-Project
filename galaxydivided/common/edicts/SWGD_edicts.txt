@@ -1,0 +1,24 @@
+##########################################################################
+# Empire edicts
+##########################################################################
+
+country_edict = {
+	name = "centralise_republic"
+	modifier = {
+		
+	}
+	length = 1
+	influence_cost = 1
+		
+	allow = {
+		
+			has_country_flag = coruscant
+		
+	}
+	effect = {
+		set_country_flag = centralise_republic
+		
+		
+	}
+	
+}

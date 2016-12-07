@@ -557,6 +557,7 @@ country_event = {
 			}
 	
 		hidden_effect = {
+		
 			every_country  = {
 				limit = {
 				has_country_flag = chandrila
@@ -570,6 +571,219 @@ country_event = {
 						
 					}		
 				}
+				every_country  = {
+				limit = {
+				has_country_flag = coruscant
+				
+				}
+				
+				}
+				
 			}
 	}
  } 
+
+ #Centralize Republic
+ 
+ 
+event = {
+	id = republic.20
+	title = republic.20.name
+	desc = republic.20.desc
+	picture = GFX_evt_galactic_senate
+	show_sound = event_alien_signal	
+	location = from
+	is_triggered_only = yes
+		
+	trigger = {
+					has_country_flag = centralise_republic
+				
+				
+	}
+		
+	option = {
+	name = republic.20.a
+	custom_tooltip = "Centralise Republic."
+		ai_chance = { 
+			factor = 100
+			}
+	
+		hidden_effect = {
+		
+			every_country  = {
+				limit = {
+				has_country_flag = coruscant
+				
+				}
+				from = {
+						country_event = { id = republic.21 }
+						}
+				}
+			 
+			}
+	}
+		
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+ country_event = {
+	id = republic.21
+	title = republic.21.name
+	desc = republic.21.desc
+	picture = GFX_evt_galactic_senate
+	#show_sound = event_anthemUFP
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = republic.21.a
+		custom_tooltip = "Derp."
+		
+	hidden_effect = {
+		every_country = {
+			limit = { has_country_flag = coruscant }
+			save_global_event_target_as = coruscant
+		}
+		#every_country = {
+		#	limit = { 
+		#		is_ai = yes
+		#		is_in_federation_with = event_target:coruscant
+			}
+			#set_country_type = ufp_member_world
+			#every_owned_planet = { 
+			#	limit = { is_capital = yes }
+			#	add_modifier = { modifier = pm_federation_member_world }
+			#}
+		#}
+		every_country = {
+			limit = { is_in_federation_with = event_target:coruscant
+			NOT = { has_country_flag = jedi_council }			}
+			
+			#set_country_flag = united_federation_of_planets
+			set_subject_of = {
+				who = event_target:coruscant
+				subject_type = core_member
+			}
+			}
+			every_country = {
+			limit = { is_in_federation_with = event_target:coruscant }
+			set_policy = {
+			policy = slavery
+			option = slavery_not_allowed
+			cooldown = yes
+		}
+		set_policy = {
+			policy = purge
+			option = purge_not_allowed
+			cooldown = yes
+		}	
+		}
+			#change_country_flag = {
+			#	icon = {
+			#		category = "trek"
+			#		file = "Federation4.dds"
+			#	}
+			#	background = {
+			#		category = "backgrounds"
+			#		file = "00_solid.dds"
+			#	}
+			#	colors = { "blue" "black" "null" "null" }
+			#}
+		
+		
+	}
+	
+		
+		#set_country_flag = united_federation_of_planets
+		#hidden_effect = { country_event = { id = theFederation.6 } }
+	}
+
+
+
+ country_event = {
+	id = republic.22
+	title = republic.22.name
+	desc = republic.22.desc
+	picture = GFX_evt_galactic_senate
+	#show_sound = event_anthemUFP
+	is_triggered_only = yes
+	
+	option = {
+		name = republic.22.a
+		custom_tooltip = "Derp."
+		
+	immediate = {
+		every_country = {
+			limit = { has_country_flag = coruscant }
+			save_global_event_target_as = coruscant
+		}
+		#every_country = {
+		#	limit = { 
+		#		is_ai = yes
+		#		is_in_federation_with = event_target:coruscant
+			}
+			#set_country_type = ufp_member_world
+			#every_owned_planet = { 
+			#	limit = { is_capital = yes }
+			#	add_modifier = { modifier = pm_federation_member_world }
+			#}
+		#}
+		every_country = {
+			limit = { is_in_federation_with = event_target:coruscant }
+			every_owned_planet = { 
+				limit = { is_capital = no }
+				set_owner = event_target:coruscant 
+			}
+			every_owned_fleet = {
+				limit = { is_ship_class = shipclass_outpost_station	}
+				set_owner = event_target:coruscant
+				set_controller = event_target:coruscant
+			}
+			every_owned_fleet = {
+				limit = {
+					is_inside_border = event_target:coruscant
+					OR = {
+						is_ship_class = shipclass_mining_station	
+						is_ship_class = shipclass_research_station
+						is_ship_class = shipclass_terraform_station
+						is_ship_class = shipclass_observation_station
+						is_ship_class = shipclass_military_station
+					}
+				}
+				set_owner = event_target:coruscant
+				set_controller = event_target:coruscant
+			}
+			#set_country_flag = united_federation_of_planets
+			set_subject_of = {
+				who = event_target:coruscant
+				subject_type = vassal
+			}
+			#change_country_flag = {
+			#	icon = {
+			#		category = "trek"
+			#		file = "Federation4.dds"
+			#	}
+			#	background = {
+			#		category = "backgrounds"
+			#		file = "00_solid.dds"
+			#	}
+			#	colors = { "blue" "black" "null" "null" }
+			#}
+		}
+		
+	}
+	
+		
+		#set_country_flag = united_federation_of_planets
+		#hidden_effect = { country_event = { id = theFederation.6 } }
+	}
