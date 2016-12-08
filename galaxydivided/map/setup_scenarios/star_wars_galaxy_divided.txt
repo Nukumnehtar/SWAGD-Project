@@ -736,7 +736,14 @@ initializer = almera_system_initializer}
 		system = { id = "657" name = "Belassar" position = { x = 65 y = -76 } }
 		system = { id = "658" name = "Mondress" position = { x = 79 y = -88 } }
 		system = { id = "661" name = "Myomar" position = { x = 53 y = -86 } }
-		system = { id = "662" name = "Dorin" position = { x = 60 y = -81 } initializer = dorin_system_initializer}
+		system = { id = "662" name = "Dorin" position = { x = 60 y = -81 } initializer = dorin_system_initializer
+			spawn_weight = {
+					base = 0
+					modifier = {
+						 add = 100000
+						 has_country_flag = dorin
+						}
+					}}
 		system = { id = "667" name = "Tynna" position = { x = -121 y = 170 } }
 		system = { id = "668" name = "Rhommamool" position = { x = -117 y = 152 } }
 		system = { id = "670" name = "Tlactehon" position = { x = -128 y = 166 } }
@@ -1014,7 +1021,14 @@ initializer = almera_system_initializer}
 		system = { id = "896" name = "Vaced" position = { x = 69 y = -93 } }
 		system = { id = "898" name = "Dalron" position = { x = 65 y = -139 } }
 		system = { id = "899" name = "Keitum" position = { x = 69 y = -134 } }
-		system = { id = "900" name = "Iridonia" position = { x = 48 y = -123 } initializer = iridonia_system_initializer}
+		system = { id = "900" name = "Iridonia" position = { x = 48 y = -123 } initializer = iridonia_system_initializer
+			spawn_weight = {
+					base = 0
+					modifier = {
+						 add = 100000
+						 has_country_flag = zabrak_council
+						}
+					}}
 		system = { id = "901" name = "Fornax" position = { x = 42 y = -111 } }
 		system = { id = "902" name = "Vortex" position = { x = 38 y = -93 } }
 		system = { id = "903" name = "Nentan" position = { x = 29 y = -98 } }

@@ -404,3 +404,27 @@ empire_name_format = {
 	format = "Arkanian Dominion"
 	noun = "Arkanian"	
 }
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = zabrak_council
+		}
+	}
+	format = "Zabrak Council"
+	noun = "Zabrak"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = dorin
+		}
+	}
+	format = "Dorin Republic"
+	noun = "Dorin"	
+}

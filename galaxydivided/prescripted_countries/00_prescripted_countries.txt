@@ -1687,6 +1687,8 @@
 		texture=0
 		hair=6
 		clothes=0
+		ruler_title="Corporate Council CEO"
+		ruler_title_female="Corporate Council CEO"
 	}
 	spawn_enabled=yes
 	ethic="ethic_collectivist"
@@ -1872,3 +1874,124 @@
 	trait="trait_abundant"
 }
 
+"Zabrak Council"
+={
+	name_list="HUM2"
+	ship_prefix=""
+	species_name="Zabrak"
+	species_plural="Zabrak"
+	species_class="SWGD_HUMANOID"
+	species_adjective="Zabrak"
+	species_bio="Iridonia was the homeworld of the Zabrak species. Due to the harsh living conditions, the Zabrak were a hardy species. They took to flight and then space travel as soon as they could develop the technology, and by the time the Duros encountered them, they had already colonized five systems. The Zabrak of Iridonia maintained the most militant culture, and Zabrak youths from the colonies were often sent to the original homeworld for warrior training."
+	portrait="zabrak"
+	name="Zabrak Council"
+	adjective="Zabrak"
+	government="military_republic"
+	flags={	zabrak_council custom_start_screen SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Iridonia"
+	planet_class="pc_arid"
+	system_name="Iridonia"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="republic_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_10.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"black"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Torand Keel"
+		portrait="zabrak_male_01"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="Chancellor"
+		ruler_title_female="Chancellor"
+	}
+	spawn_enabled=yes
+	ethic="ethic_individualist"
+	ethic="ethic_militarist"
+	ethic="ethic_socialism"
+	ethic="ethic_industrial"
+	ethic="ethic_pluralist"
+	ethic="ethic_land_engineering"
+	ethic="ethic_comms"
+	trait="trait_resilient"
+	trait="trait_deviants"
+	trait="trait_strong"
+	trait="trait_quick_learners"
+}
+
+"Dorin Republic"
+={
+	name_list="HUM2"
+	ship_prefix=""
+	species_name="Kel Dor"
+	species_plural="Kel Dor"
+	species_class="SWGD_HUMANOID"
+	species_adjective="Kel Dor"
+	species_bio="Dorin was a dark and dusty planet in the Expansion Region. It was the homeworld of the Kel Dors, with an atmosphere of a unique gas and helium. The planet was situated between two black holes, making access to the planet limited, while space travel for the natives was highly dangerous. The planet was home of the Baran Do, a Force cult predating the Jedi."
+	portrait="kel_dor"
+	name="Dorin Republic"
+	adjective="Dorin"
+	government="indirect_democracy"
+	flags={	dorin custom_start_screen SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Dorin"
+	planet_class="pc_continental"
+	system_name="Dorin"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="republic_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_22.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"gray_18"
+			"hsv_70_9"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Ito Jurn"
+		portrait="kel_dor_male_01"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="President"
+		ruler_title_female="President"
+	}
+	spawn_enabled=yes
+	ethic="ethic_individualist"
+	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_socialism"
+	ethic="ethic_pluralist"
+	ethic="ethic_education"
+	ethic="ethic_culture"
+	trait="trait_communal"
+	trait="trait_repugnant"
+	trait="trait_intelligent"
+}
