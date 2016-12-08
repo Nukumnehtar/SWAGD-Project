@@ -112,7 +112,13 @@ SWGD_NEAR_HUMAN = {
 		home_system = Mirial
 		name_list = "MAM2"
 	}
-
+	zabrak = {
+		name = Zabrak
+		plural = Zabraks
+		home_planet = Iridonia
+		home_system = Iridonia
+		name_list = "MAM3"
+	}
 		
 }
 	
@@ -125,13 +131,7 @@ SWGD_HUMANOID = {
 		home_system = Ryloth
 		name_list = "MAM1"
 	}
-	zabrak = {
-		name = Zabrak
-		plural = Zabraks
-		home_planet = Iridonia
-		home_system = Iridonia
-		name_list = "MAM3"
-	}
+	
 	togruta = {
 		name = Togruta
 		plural = Togruta

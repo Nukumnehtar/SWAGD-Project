@@ -8,12 +8,15 @@
 ###	Default position orientation is lower left.
 ##############################################################
 
-# Arkanian Offshoot
+# Zabrak
 portraits = {
-	zabrak_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "zabrak_female_hair_01"	greeting_sound = "human_female_greetings_03"
+	zabrak_female_01 = {	entity = "portrait_zabrak_female_01_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "zabrak_female_hair_01"	greeting_sound = "human_female_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/zabrak/zabrak_female_body_01.dds"
-			"gfx/models/portraits/zabrak/zabrak_female_body_02.dds"
+			"gfx/models/portraits/zabrak/zabrak_female_body_01_dark_red.dds"			
+			"gfx/models/portraits/zabrak/zabrak_female_body_01_yellow.dds"
+			"gfx/models/portraits/zabrak/zabrak_female_body_01_orange.dds"
+			"gfx/models/portraits/zabrak/zabrak_female_body_01_dark_brown.dds"
 		}
 	}
 	
@@ -21,10 +24,26 @@ portraits = {
 	zabrak_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "zabrak_male_hair_01"	greeting_sound = "human_male_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/zabrak/zabrak_male_body_01.dds"
+			"gfx/models/portraits/zabrak/zabrak_male_body_01.dds"
+			"gfx/models/portraits/zabrak/zabrak_male_body_01_dark_red.dds"			
+			"gfx/models/portraits/zabrak/zabrak_male_body_01_yellow.dds"
+			"gfx/models/portraits/zabrak/zabrak_male_body_01_orange.dds"
+			"gfx/models/portraits/zabrak/zabrak_male_body_01_dark_brown.dds"
+			
+			
+		}
+	}
+	
+		zabrak_male_02 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "zabrak_male_hair_01"	greeting_sound = "human_male_greetings_03"
+		character_textures = {
 			"gfx/models/portraits/zabrak/zabrak_male_body_02.dds"
-			"gfx/models/portraits/zabrak/zabrak_male_body_03.dds"
-			"gfx/models/portraits/zabrak/zabrak_male_body_04.dds"
-			"gfx/models/portraits/zabrak/zabrak_male_body_05.dds"
+			"gfx/models/portraits/zabrak/zabrak_male_body_02_dark_red.dds"			
+			"gfx/models/portraits/zabrak/zabrak_male_body_02_yellow.dds"
+			"gfx/models/portraits/zabrak/zabrak_male_body_02_orange.dds"
+			"gfx/models/portraits/zabrak/zabrak_male_body_02_dark_brown.dds"
+			
+			
+			
 			
 		}
 	}
@@ -41,6 +60,7 @@ portrait_groups = {
 				}
 				portraits = {
 					zabrak_male_01
+					zabrak_male_02
 					
 				}
 			}
@@ -63,7 +83,7 @@ portrait_groups = {
 					zabrak_female_01
 					
 					zabrak_male_01
-					
+					zabrak_male_02
 				}
 			}
 		}		
@@ -75,7 +95,7 @@ portrait_groups = {
 					zabrak_female_01
 					
 					zabrak_male_01
-					
+					zabrak_male_02
 				}
 			}
 		}
@@ -97,7 +117,7 @@ portrait_groups = {
 				}
 				portraits = {
 					zabrak_male_01
-					
+					zabrak_male_02
 				}
 			}
 		}
@@ -120,7 +140,7 @@ portrait_groups = {
 				}
 				portraits = {
 					zabrak_male_01
-					
+					zabrak_male_02
 				}
 			}
 		}
