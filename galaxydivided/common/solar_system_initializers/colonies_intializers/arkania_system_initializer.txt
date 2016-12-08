@@ -186,7 +186,7 @@ arkania_system_initializer = {
 				limit = {
 					count_pops = {
 						limit = { is_sentient = yes }
-						count < 6
+						count < 3
 					}
 					free_pop_tiles > 0
 				}
