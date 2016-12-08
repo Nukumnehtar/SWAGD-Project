@@ -13,6 +13,7 @@ portraits = {
 	kel_dor_female_01 = {	entity = "kel_dor_02_female_01_entity"	clothes_selector = "humanoid_02_male_clothes_01" hair_selector = "kel_dor_female_hair_01"	greeting_sound = "human_female_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/kel_dor/kel_dor_female_body_01.dds"
+			"gfx/models/portraits/kel_dor/kel_dor_female_body_02.dds"
 			
 		}
 	}
@@ -21,6 +22,7 @@ portraits = {
 	kel_dor_male_01 = {	entity = "kel_dor_02_male_01_entity"	clothes_selector = "humanoid_02_male_clothes_01" hair_selector = "kel_dor_male_hair_01"	greeting_sound = "human_male_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/kel_dor/kel_dor_male_body_01.dds"
+			"gfx/models/portraits/kel_dor/kel_dor_male_body_02.dds"
 			
 			
 			
