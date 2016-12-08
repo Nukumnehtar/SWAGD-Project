@@ -405,7 +405,7 @@ static_galaxy_scenario = {
 		system = { id = "194" name = "Damoria" position = { x = -93 y = 45 } }
 		system = { id = "195" name = "Chorax" position = { x = -90 y = 49 } }
 		system = { id = "196" name = "Vladet" position = { x = -90 y = 54 } }
-		system = { id = "197" name = "Cato Neimoidia" position = { x = -91 y = 57 } }
+		system = { id = "197" name = "Cato Neimoidia" position = { x = -91 y = 57 } initializer = cato_neimoidia_system_initializer}
 		system = { id = "198" name = "Hensara" position = { x = -92 y = 59 } }
 		system = { id = "200" name = "Talasea" position = { x = -94 y = 65 } }
 		system = { id = "202" name = "Lankashiir" position = { x = -99 y = 81 } }
@@ -416,7 +416,17 @@ static_galaxy_scenario = {
 		system = { id = "207" name = "Koensayr" position = { x = -88 y = 101 } }
 		system = { id = "208" name = "Aquilae" position = { x = -90 y = 110 } }
 		system = { id = "209" name = "Havricus" position = { x = -88 y = 122 } }
-		system = { id = "2024" name = "Arkania" position = { x = -46 y = -43 } }
+		system = { id = "2024" name = "Arkania" position = { x = -46 y = -43 }
+		initializer = arkania_system_initializer
+			spawn_weight = {
+					base = 0
+					modifier = {
+						 add = 100000
+						 has_country_flag = arkania
+						}
+				}
+
+		}
 		system = { id = "2091" name = "Sern Prime" position = { x = -16 y = 155 } }
 		system = { id = "2093" name = "Phu" position = { x = 45 y = 157 } }
 		system = { id = "2094" name = "Bardotta" position = { x = 48 y = 153 } }

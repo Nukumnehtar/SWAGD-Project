@@ -2,6 +2,9 @@ dromund_system_initializer = {
     name = "Dromund"
     class = "sc_b"
 	flags = {sith_empire}
+	usage = custom_empire
+	max_instances = 1
+
     planet = {
         class = star
         orbit_distance = 0

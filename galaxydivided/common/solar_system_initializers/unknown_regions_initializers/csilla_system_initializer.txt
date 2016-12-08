@@ -2,6 +2,8 @@ csilla_system_initializer = {
     name = "Csilla"
     class = "rl_standard_stars"
 	flags={chiss_ascendancy}
+	usage = custom_empire
+	max_instances = 1
 
     planet = {
         class = star

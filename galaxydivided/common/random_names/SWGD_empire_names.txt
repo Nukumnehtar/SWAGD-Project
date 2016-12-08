@@ -392,3 +392,15 @@ empire_name_format = {
 	format = "Haruun Kal Representative Council"
 	noun = "Balawai"	
 }
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = arkania
+		}
+	}
+	format = "Arkanian Dominion"
+	noun = "Arkanian"	
+}

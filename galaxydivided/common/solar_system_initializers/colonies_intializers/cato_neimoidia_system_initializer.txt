@@ -1,66 +1,30 @@
-neimoidia_system_initializer = {
-    name = "Neimodia"
+cato_neimoidia_system_initializer = {
+    name = "Cato Neimoidia"
     class = "rl_standard_stars"
-    asteroids_distance = 127
-	flags= {neimoidian}
-	usage = custom_empire
-	max_instances = 1
 
     planet = {
-	name = "Nen"
         class = star
         orbit_distance = 0
-        size = 25
+        size = 20
     }
 
     planet = {
-        name = "Deel"
-        class = "pc_molten"
-        orbit_distance = 30
-        orbit_angle = 210
-        size = 10
+        name = "Trantor"
+        class = "pc_barren"
+        orbit_distance = 42
+        orbit_angle = 134
+        size = 11
         has_ring = no
 
     }
 
     planet = {
-        name = "Moonan"
-        class = "pc_toxic"
-        orbit_distance = 39
-        orbit_angle = 102
-        size = 17
-        has_ring = no
-
-
-        moon = {
-            name = "Moonan Minor"
-            class = random
-            orbit_distance = 10
-            orbit_angle = 180
-            size = 6
-            has_ring = no
-
-        }
-
-        moon = {
-            name = "Moonan Major"
-            class = random
-            orbit_distance = 8
-            orbit_angle = 195
-            size = 7
-            has_ring = no
-
-        }
-    }
-
-    planet = {
-        name = "Neimoidia"
+        name = "Cato Neimoidia"
         class = "pc_continental"
-        orbit_distance = 37
-        orbit_angle = 178
+        orbit_distance = 15
+        orbit_angle = 66
         size = 20
         has_ring = no
-		starting_planet = yes
 		tile_blockers = none
 		modifiers = none
      	init_effect = {
@@ -68,8 +32,19 @@ neimoidia_system_initializer = {
 		}
 		
 		init_effect = {
+			every_country = {
+					limit = {
+						has_country_flag = neimoidian
+					}
+					save_event_target_as = neimoidian
+				}
+			set_owner = event_target:neimoidian
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
 				set_building = "building_capital_1"
 				add_resource = {
 					resource = food
@@ -82,6 +57,10 @@ neimoidia_system_initializer = {
 				}					
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
+					create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
 					set_building = "building_hydroponics_farm_1"
 					add_resource = {
 						resource = food
@@ -91,6 +70,10 @@ neimoidia_system_initializer = {
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
+					create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
 					set_building = "building_power_plant_1"
 					add_resource = {
 						resource = energy
@@ -100,6 +83,10 @@ neimoidia_system_initializer = {
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
+					create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
 					set_building = "building_power_plant_1"
 					add_resource = {
 						resource = energy
@@ -109,6 +96,10 @@ neimoidia_system_initializer = {
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
+					create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
 					set_building = "building_mining_network_1"
 					add_resource = {
 						resource = minerals
@@ -137,7 +128,7 @@ neimoidia_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
+				set_blocker = "tb_mountain_range"
 				add_resource = {
 					resource = physics_research
 					amount = 1
@@ -181,133 +172,80 @@ neimoidia_system_initializer = {
 			}			
 		}
 
-
-
         moon = {
-            name = "Neimoidia Minor"
+            name = "Cato Neimoidia Minor"
             class = random
-            orbit_distance = 10
-            orbit_angle = 180
+            orbit_distance = 9
+            orbit_angle = 245
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Cato Neimoidia Major
+            class = random
+            orbit_distance = 4
+            orbit_angle = 13
             size = 7
             has_ring = no
 
         }
-    }
-
-    planet = {
-        name = "Saak Sooin Belt"
-        class = "pc_asteroid"
-        orbit_distance = 21
-        orbit_angle = 253
-        size = 7
-        has_ring = no
 
     }
 
     planet = {
-        name = "Partainu"
-        class = "pc_gas_giant"
-        orbit_distance = 90
-        orbit_angle = 194
-	size = 14
+        name = "Cato Moxik"
+        class = "pc_toxic"
+        orbit_distance = 28
+        orbit_angle = 98
+        size = 13
         has_ring = no
 
 
         moon = {
-            name = "Partainu I"
+            name = "Cato Moxik Minor"
             class = random
             orbit_distance = 10
-            orbit_angle = 158
-            size = 6
-            has_ring = no
-
-        }
-        moon = {
-            name = "Partainu II"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 239
-            size = 3
-            has_ring = no
-
-        }
-        moon = {
-            name = "Partainu III"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 163
-            size = 4
-            has_ring = no
-
-        }
-        moon = {
-            name = "Partainu IV"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 54
+            orbit_angle = 287
             size = 5
             has_ring = no
 
         }
-        moon = {
-            name = "Partainu V"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 95
-            size = 3
-            has_ring = no
 
-        }
-        moon = {
-            name = "Partainu VI"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 95
-            size = 4
-            has_ring = no
+    }
 
-        }
-        moon = {
-            name = "Partainu VII"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 219
-            size = 4
-            has_ring = no
+    planet = {
+        name = "Quoral"
+        class = "pc_frozen"
+        orbit_distance = 74
+        orbit_angle = 111
+	size = 18
+        has_ring = no
 
-        }
-        moon = {
-            name = "Partainu VIII"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 302
-            size = 6
-            has_ring = no
 
-        }
         moon = {
-            name = "Partainu IX"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 112
-            size = 3
-            has_ring = no
-
-        }
-        moon = {
-            name = "Partainu X"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = -16
-            size = 6
-            has_ring = no
-
-        }
-        moon = {
-            name = "Partainu XXII"
+            name = "Quoral I"
             class = random
             orbit_distance = 10
-            orbit_angle = 77
+            orbit_angle = 243
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Quoral II"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 46
+            size = 8
+            has_ring = no
+
+        }
+        moon = {
+            name = "Quoral III"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 135
             size = 5
             has_ring = no
 
