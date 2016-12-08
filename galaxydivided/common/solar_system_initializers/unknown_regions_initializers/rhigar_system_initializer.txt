@@ -159,7 +159,7 @@ rhigar_system_initializer = {
 
         moon = {
             name = "Rhigar I"
-            class = "pc_alpine" #forest
+            class = "pc_alpine"
             orbit_distance = 10
             orbit_angle = 24
             has_ring = no

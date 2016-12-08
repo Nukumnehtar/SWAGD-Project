@@ -53,11 +53,11 @@
 	ethic="ethic_light_side"
 	ethic="ethic_individualist"
 	ethic="ethic_fanatic_spiritualist"
-	ethic="ethic_socialism"
+	#ethic="ethic_socialism"
 	#ethic="ethic_green"
 	ethic="ethic_pluralist"
 	trait="trait_force_attuned"
-	trait="trait_charismatic"
+	#trait="trait_charismatic"
 	trait="trait_slow_breeders"
 	trait="trait_abundant"
 }
@@ -298,14 +298,14 @@
 	ethic="ethic_fanatic_capitalism"
 	ethic="ethic_fanatic_industrial"
 	ethic="ethic_elitist"
-	ethic="ethic_transport"
+	#ethic="ethic_transport"
 	trait="trait_repugnant"
 	trait="trait_enduring"
 	trait="trait_thrifty"
-	trait="trait_deviants"
+	#trait="trait_deviants"
 	trait="trait_decadent"
 	#trait="trait_very_strong"
-	trait="trait_abundant"
+	#trait="trait_abundant"
 }
 ###### REPUBLIC CORE WORLDS
 "Galactic Republic"
@@ -1638,8 +1638,8 @@
 	trait="trait_thrifty"
 	trait="trait_communal"
 	trait="trait_deviants"
-	trait="trait_decadent"
-	trait="trait_natural_engineers"
+	#trait="trait_decadent"
+	#trait="trait_natural_engineers"
 }
 
 "Arkanian Dominion"

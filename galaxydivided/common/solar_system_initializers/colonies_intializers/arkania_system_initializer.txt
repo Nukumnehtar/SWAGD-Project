@@ -173,12 +173,12 @@ arkania_system_initializer = {
 				name = "Arkanian Offshoot"
 				class = "SWGD_NEAR_HUMAN"
 				portrait = "arkanianos"
-			traits = { trait = "trait_pc_arctic_preference" 
-				trait="trait_deviants"
-				trait="trait_natural_engineers"
-				trait="trait_talented"
-					}
-			extra_trait_points = 2
+				traits = { trait = "trait_pc_arctic_preference" 
+					trait="trait_deviants"
+					trait="trait_natural_engineers"
+					trait="trait_talented"
+				}
+				extra_trait_points = 2
 				homeworld = FROM
 				sentient = yes
 			}
@@ -186,7 +186,7 @@ arkania_system_initializer = {
 				limit = {
 					count_pops = {
 						limit = { is_sentient = yes }
-						count < 3
+						count < 6
 					}
 					free_pop_tiles > 0
 				}

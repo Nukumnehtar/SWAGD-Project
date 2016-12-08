@@ -182,7 +182,7 @@ cato_neimoidia_system_initializer = {
 
         }
         moon = {
-            name = "Cato Neimoidia Major
+            name = "Cato Neimoidia Major"
             class = random
             orbit_distance = 4
             orbit_angle = 13
