@@ -42,6 +42,7 @@ SWGD_HUMANOID = {
 
 portraits = {
 		"sith"
+		"kel_dor"
 			}
 		
 		
