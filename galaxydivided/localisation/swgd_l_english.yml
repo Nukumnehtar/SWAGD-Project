@@ -148,8 +148,11 @@ personality_trade_guild_desc:0 "Interplanetary Traders are chiefly concerned wit
 personality_jedi_order:0 "Jedi Order"
 personality_jedi_order_desc:0 "An ancient monastic peacekeeping organization unified by its belief and observance of the light side of the Force. They are guardians of peace and justice in the Galactic Republic."
 personality_sith_order:0 "Sith Order"
-personality_sith_order_desc:0 "A sect of Force-sensitives who utilize the dark side of the Force. The Sith are the most infamous of all dark side religions, and the members of the cult were often seen as the pinnacle of power within the dark side."
-
+personality_sith_order_desc:0 "A sect of Force-sensitives who utilize the dark side of the Force. The Sith are the most infamous of all dark side religions, and the members of the cult were often seen as the pinnacle of power within the dark side. They seek to conquer and subjugate all those that would stand in their way of galactic domination."
+personality_hutt_clans:0 "Hutt Cartel"
+personality_hutt_clans_desc:0 "The Hutt Cartel is a powerful criminal syndicate, or business alliance of Hutts. Though often neutral in galactic affairs, it tended to lean in certain directions if it was worthwhile for them."
+personality_kamino_cloners:0 "Kamino Cloners"
+personality_kamino_cloners_desc:0 "Kaminoans see themselves as a superior form of life, but nevertheless remain polite to outsiders. To them any species seeking self-improvement is worthy of respect, but those who did not were obviously inferior. These tall, elegant beings keep to themselves and are known for their cloning technology."
 
 
 
@@ -166,7 +169,7 @@ personality_sith_order_desc:0 "A sect of Force-sensitives who utilize the dark s
 
 
  republic.1.name:0 "The Republic"
- republic.1.desc:0 "nigga please this tech"
+ republic.1.desc:0 "Together we stand, divided we fall."
  republic.1.a:0 "Let us begin."
 
  
