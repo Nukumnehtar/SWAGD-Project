@@ -1,0 +1,133 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+# Zabrak
+portraits = {
+	togruta_female_01 = {	entity = "togruta_05_female_01_entity"	clothes_selector = "humanoid_05_male_clothes_01" hair_selector = "togruta_female_hair_01"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/togruta/togruta_05_female_body_01.dds"
+			"gfx/models/portraits/togruta/togruta_05_female_body_blue.dds"
+			"gfx/models/portraits/togruta/togruta_05_female_body_green.dds"
+			
+		}
+	}
+
+
+	togruta_male_01 = {	entity = "togruta_05_male_01_entity"	clothes_selector = "humanoid_05_male_clothes_01" hair_selector = "togruta_male_hair_01"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/togruta/togruta_05_male_body_01.dds"
+			"gfx/models/portraits/togruta/togruta_05_male_body_blue.dds"
+			"gfx/models/portraits/togruta/togruta_05_male_body_green.dds"
+			
+		}
+	}
+
+	
+				
+			
+		
+	
+}
+
+portrait_groups = {
+	togruta = {
+		default = togruta_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					togruta_male_01
+					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					togruta_female_01
+					
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					togruta_female_01
+					
+					togruta_male_01
+				
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					togruta_female_01
+					
+					togruta_male_01
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					togruta_female_01
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					togruta_male_01
+					
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					togruta_female_01
+								
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					togruta_male_01
+					
+				}
+			}
+		}
+	}
+}

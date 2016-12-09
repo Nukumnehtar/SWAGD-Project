@@ -28,6 +28,7 @@ SWGD_NEAR_HUMAN = {
 		"arkanian"
 		"arkanianos"
 		"zabrak"
+		
 				}
 		graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"
@@ -43,6 +44,8 @@ SWGD_HUMANOID = {
 portraits = {
 		"sith"
 		"kel_dor"
+		"twilek"
+		"togruta"
 			}
 		
 		
