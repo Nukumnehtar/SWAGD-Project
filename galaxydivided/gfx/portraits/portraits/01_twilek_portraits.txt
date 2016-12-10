@@ -8,7 +8,7 @@
 ###	Default position orientation is lower left.
 ##############################################################
 
-# Zabrak
+# Twilek
 portraits = {
 	twilek_female_01 = {	entity = "twilek_05_female_01_entity"	clothes_selector = "humanoid_05_male_clothes_01" hair_selector = "twilek_female_hair_01"	greeting_sound = "human_female_greetings_04"
 		character_textures = {

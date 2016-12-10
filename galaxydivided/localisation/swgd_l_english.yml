@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  EMPIRE_DESIGN_jedi_council:0 "Jedi Council" 
  name_list_sw_hu: "SW Generic Human"
@@ -14,6 +14,7 @@
  SWGD_HUMAN: "Human"
  SWGD_NEAR_HUMAN: "Near-Human"
  SWGD_HUMANOID: "Humanoid"
+ SWGD_MAM_1: "Hairless Mammalian"
  
  force_adept:0 "Force Adept"
  force_adept_plural:0 "Force Adepts"

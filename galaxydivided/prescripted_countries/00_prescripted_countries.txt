@@ -1942,7 +1942,7 @@
 	ship_prefix=""
 	species_name="Kel Dor"
 	species_plural="Kel Dor"
-	species_class="SWGD_HUMANOID"
+	species_class="SWGD_MAM_1"
 	species_adjective="Kel Dor"
 	species_bio="Dorin was a dark and dusty planet in the Expansion Region. It was the homeworld of the Kel Dors, with an atmosphere of a unique gas and helium. The planet was situated between two black holes, making access to the planet limited, while space travel for the natives was highly dangerous. The planet was home of the Baran Do, a Force cult predating the Jedi."
 	portrait="kel_dor"
@@ -1994,4 +1994,187 @@
 	trait="trait_communal"
 	trait="trait_repugnant"
 	trait="trait_intelligent"
+}
+
+"Zygerrian Slave Empire"
+={
+	name_list="MAM1"
+	ship_prefix=""
+	species_name="Zygerrian"
+	species_plural="Zygerrian"
+	species_class="MAM"
+	species_adjective="Zygerrian"
+	species_bio="The Zygerrian Slave Empire, which was based on Zygerria, stretched across many sectors. They were led by the Zygerrian Slavers Guilds who were loyal to the Monarchs of Zygerria. For thousands of years, the Zygerrians had successfully maintained their slave industry, which supplied luckless labor to unscrupulous masters in the galaxy who then became wealthy and powerful. "
+	portrait="mam3"
+	name="Zygerrian Slave Empire"
+	adjective="Zygerrian"
+	government="despotic_empire"
+	flags={	zygerrian_empire custom_start_screen SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Zygerria"
+	planet_class="pc_savannah"
+	system_name="Zygerria"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="dirty_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"hsv_60_18"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Shultaj Scintel"
+		portrait="mam3"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title_male="Most High King"
+		ruler_title_female="Most High Queen"
+	}
+	spawn_enabled=always
+	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_militarist"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_elitist"
+	ethic="ethic_culture"
+	trait="trait_deviants"
+	trait="trait_decadent"
+	trait="trait_natural_sociologists"
+	trait="trait_thrifty"
+	trait="trait_strong"
+}
+
+"Twi'lek Clan Council"
+={
+	name_list="MAM2"
+	ship_prefix=""
+	species_name="Twi'lek"
+	species_plural="Twi'lek"
+	species_class="SWGD_HUMANOID"
+	species_adjective="Twi'lek"
+	species_bio="Centralized in the capital of Lessu, the Twi'lek Clan Council was formed by five male Twi'leks who represented the Twi'lek clans, and were responsible for community decisions on Ryloth. This system was extremely effective for hundreds of years. When one councilmember died, all the remaining members were to walk the Bright Lands, where they would die for certain."
+	portrait="twilek"
+	name="Twi'lek Clan Council"
+	adjective="Twi'lek"
+	government="military_junta"
+	flags={	twilek_clans custom_start_screen SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Ryloth"
+	planet_class="pc_arid"
+	system_name="Ryloth"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="sangheili_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Chant Secura"
+		portrait="twilek_male_01"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title_male="Council Chief"
+	}
+	spawn_enabled=always
+	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	ethic="ethic_capitalism"
+	ethic="ethic_elitist"
+	ethic="ethic_transport"
+	trait="trait_resilient"
+	trait="trait_deviants"
+	trait="trait_communal"
+	trait="trait_nomadic"
+}
+
+"Togruta Council"
+={
+	name_list="HUM1"
+	ship_prefix=""
+	species_name="Togruta"
+	species_plural="Togruta"
+	species_class="SWGD_HUMANOID"
+	species_adjective="Togruta"
+	species_bio="Togruta had a strong sense of unity and togetherness. On their native homeworld of Shili, they relied on each other and would band together to take a stand against the massive monsters that hunted them, such as the akul. It is said that the creatures of Shili most often attacked in groups, which was even more reason for the native Togruta to work together. Togruta were tranquil and silent, though when the situation called for it they were true warriors. Their fidelity to their beliefs was legendary, as was their happiness within large groups. Togruta, not surprisingly, excelled at teamwork and the ability to associate with different cultures. To an extent, Togruta had an aversion to isolation and made efforts to have friends around for companionship."
+	portrait="togruta"
+	name="Togruta Council"
+	adjective="Togruta"
+	government="peaceful_bureaucracy"
+	flags={	togruta_council custom_start_screen SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Shili"
+	planet_class="pc_continental"
+	system_name="Shili"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="republic_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"hsv_40_36"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Ashla Tau"
+		portrait="togruta_female_01"
+		texture=0
+		hair=0
+		clothes=4
+		ruler_title_male="Prime Patriarch"
+		ruler_title_female="Prime Matriarch"
+	}
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	ethic="ethic_socialism"
+	ethic="ethic_green"
+	ethic="ethic_culture"
+	#trait="trait_force_attuned"
+	trait="trait_communal"
+	trait="trait_deviants"
+	trait="trait_agrarian"
 }

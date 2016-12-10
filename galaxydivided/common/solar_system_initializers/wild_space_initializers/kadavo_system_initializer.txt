@@ -1,35 +1,20 @@
-ryloth_system_initializer = {
-    name = "Ryloth"
+kadavo_system_initializer = {
+    name = "Kadavo"
     class = "rl_standard_stars"
-    asteroids_distance = 205
-	flags = {twilek_clans}
-	usage = custom_empire
-	max_instances = 1
 
     planet = {
-        class = "pc_g_star"
+        class = star
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "Mon Bala"
-        class = "pc_molten"
-        orbit_distance = 20
-        orbit_angle = 205
-        size = 8
+        name = "Kadavo"
+        class = "pc_desert"
+        orbit_distance = 39
+        orbit_angle = 125
+        size = 18
         has_ring = no
-
-    }
-
-    planet = {
-        name = "Ryloth"
-        class = "pc_arid"
-        orbit_distance = 27
-        orbit_angle = 47
-        size = 20
-        has_ring = no
-		starting_planet = yes
 		tile_blockers = none
 		modifiers = none
      	init_effect = {
@@ -37,6 +22,13 @@ ryloth_system_initializer = {
 		}
 		
 		init_effect = {
+			every_country = {
+					limit = {
+						has_country_flag = zygerrian_empire
+					}
+					save_event_target_as = zygerrian_empire
+				}
+			set_owner = event_target:zygerrian_empire	
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				create_pop = {
@@ -108,7 +100,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_active_volcano"
 				add_resource = {
 					resource = engineering_research
 					amount = 1
@@ -117,7 +109,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_active_volcano"
 				add_resource = {
 					resource = society_research
 					amount = 1
@@ -126,7 +118,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_active_volcano"
 				add_resource = {
 					resource = physics_research
 					amount = 1
@@ -135,7 +127,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_active_volcano"
 				add_resource = {
 					resource = energy
 					amount = 2
@@ -162,54 +154,33 @@ ryloth_system_initializer = {
 
 	}
 
-
-        moon = {
-            name = "Ryloth I"
-            class = random
-            orbit_distance = 8
-            orbit_angle = 209
-            has_ring = no
-	    size = 5
-        }
-        moon = {
-            name = "Ryloth II"
-            class = random
-            orbit_distance = 3
-            orbit_angle = 18
-            has_ring = no
-	    size = 6
-        }
-        moon = {
-            name = "Ryloth III"
-            class = random
-            orbit_distance = 3
-            orbit_angle = 165
-            has_ring = no
-	    size = 6
-        }
-        moon = {
-            name = "Ryloth IV"
-            class = random
-            orbit_distance = 3
-            orbit_angle = 78
-            has_ring = no
-	    size = 5
-        }
-        moon = {
-            name = "Ryloth V"
-            class = random
-            orbit_distance = 3
-            orbit_angle = -45
-            has_ring = no
-	    size = 8
-        }
     }
 
     planet = {
-        name = "Or Tuma"
+        name = "Scorb"
+        class = "pc_barren"
+        orbit_distance = 25
+        orbit_angle = 254
+        size = 8
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Zorgia"
+        class = "pc_barren_cold"
+        orbit_distance = 25
+        orbit_angle = 78
+        size = 11
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Orterria"
         class = "pc_arctic"
         orbit_distance = 40
-        orbit_angle = 170
+        orbit_angle = 144
         size = 14
         has_ring = no
 

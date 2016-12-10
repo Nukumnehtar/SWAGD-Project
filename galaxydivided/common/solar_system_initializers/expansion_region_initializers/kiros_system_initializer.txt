@@ -1,42 +1,53 @@
-ryloth_system_initializer = {
-    name = "Ryloth"
+kiros_system_initializer = {
+    name = "Kiros"
     class = "rl_standard_stars"
-    asteroids_distance = 205
-	flags = {twilek_clans}
-	usage = custom_empire
-	max_instances = 1
 
     planet = {
-        class = "pc_g_star"
+        class = star
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "Mon Bala"
-        class = "pc_molten"
-        orbit_distance = 20
-        orbit_angle = 205
-        size = 8
+        name = "Noruop"
+        class = "pc_toxic"
+        orbit_distance = 25
+        orbit_angle = 76
+        size = 10
         has_ring = no
 
     }
 
     planet = {
-        name = "Ryloth"
-        class = "pc_arid"
-        orbit_distance = 27
-        orbit_angle = 47
+        name = "Tangor"
+        class = "pc_molten"
+        orbit_distance = 20
+        orbit_angle = 103
+        size = 12
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Kiros"
+        class = "pc_continental"
+        orbit_distance = 28
+        orbit_angle = 87
         size = 20
         has_ring = no
-		starting_planet = yes
 		tile_blockers = none
 		modifiers = none
      	init_effect = {
 			prevent_anomaly = yes
-		}
-		
+		}		
 		init_effect = {
+			every_country = {
+					limit = {
+						has_country_flag = togruta_council
+					}
+					save_event_target_as = togruta_council
+				}
+			set_owner = event_target:togruta_council	
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				create_pop = {
@@ -108,7 +119,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_dense_jungle"
 				add_resource = {
 					resource = engineering_research
 					amount = 1
@@ -117,7 +128,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_dense_jungle"
 				add_resource = {
 					resource = society_research
 					amount = 1
@@ -126,7 +137,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_dense_jungle"
 				add_resource = {
 					resource = physics_research
 					amount = 1
@@ -135,7 +146,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_dangerous_wildlife"
 				add_resource = {
 					resource = energy
 					amount = 2
@@ -144,7 +155,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_dangerous_wildlife"
 				add_resource = {
 					resource = food
 					amount = 1
@@ -158,60 +169,139 @@ ryloth_system_initializer = {
 					amount = 1
 					replace = yes
 				}				
-			}	
+			}
+	
+		}
 
-	}
+        moon = {
+            name = "Kiros Minor"
+            class = random
+            orbit_distance = 9
+            orbit_angle = 76
+            size = 3
+            has_ring = no
 
+        }
+        moon = {
+            name = "Kiros Major"
+            class = random
+            orbit_distance = 4
+            orbit_angle = 265
+            size = 6
+            has_ring = no
 
-        moon = {
-            name = "Ryloth I"
-            class = random
-            orbit_distance = 8
-            orbit_angle = 209
-            has_ring = no
-	    size = 5
         }
-        moon = {
-            name = "Ryloth II"
-            class = random
-            orbit_distance = 3
-            orbit_angle = 18
-            has_ring = no
-	    size = 6
-        }
-        moon = {
-            name = "Ryloth III"
-            class = random
-            orbit_distance = 3
-            orbit_angle = 165
-            has_ring = no
-	    size = 6
-        }
-        moon = {
-            name = "Ryloth IV"
-            class = random
-            orbit_distance = 3
-            orbit_angle = 78
-            has_ring = no
-	    size = 5
-        }
-        moon = {
-            name = "Ryloth V"
-            class = random
-            orbit_distance = 3
-            orbit_angle = -45
-            has_ring = no
-	    size = 8
-        }
+
     }
 
     planet = {
-        name = "Or Tuma"
-        class = "pc_arctic"
-        orbit_distance = 40
-        orbit_angle = 170
-        size = 14
+        name = "Ertisa"
+        class = "pc_barren_cold"
+        orbit_distance = 30
+        orbit_angle = 197
+        size = 15
         has_ring = no
+
+    }
+
+    planet = {
+        name = "Kirosuss"
+        class = "pc_gas_giant"
+        orbit_distance = 80
+        orbit_angle = 26
+        size = 26
+        has_ring = yes
+
+        moon = {
+            name = "Kirosuss I"
+            class = random
+            orbit_distance = 12
+            orbit_angle = 268
+            size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kirosuss II"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 345
+            size = 3
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kirosuss III"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 133
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kirosuss IV"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 243
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kirosuss V"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 32
+            size = 9
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kirosuss VI"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = -54
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kirosuss VII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 311
+            size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kirosuss VIII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 288
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kirosuss IX"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 77
+            size = 7
+            has_ring = no
+
+        }
+        moon = {
+            name = "Kirosuss X"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 166
+            size = 3
+            has_ring = no
+
+        }
 
     }
 }

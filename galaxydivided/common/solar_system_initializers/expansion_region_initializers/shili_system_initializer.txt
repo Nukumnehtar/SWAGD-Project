@@ -1,42 +1,66 @@
-ryloth_system_initializer = {
-    name = "Ryloth"
+shili_system_initializer = {
+    name = "Shili"
     class = "rl_standard_stars"
-    asteroids_distance = 205
-	flags = {twilek_clans}
+	flags = {togruta_council}
 	usage = custom_empire
 	max_instances = 1
 
     planet = {
-        class = "pc_g_star"
+        class = star
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "Mon Bala"
+        name = "Ga'rik"
         class = "pc_molten"
-        orbit_distance = 20
-        orbit_angle = 205
-        size = 8
+        orbit_distance = 24
+        orbit_angle = 254
+        size = 13
         has_ring = no
 
     }
 
     planet = {
-        name = "Ryloth"
-        class = "pc_arid"
-        orbit_distance = 27
-        orbit_angle = 47
-        size = 20
+        name = "Sorbau"
+        class = "pc_barren"
+        orbit_distance = 22
+        orbit_angle = 132
+        size = 15
+        has_ring = no
+
+        moon = {
+            name = "Sorbau Minor"
+            class = random
+            orbit_distance = 8
+            orbit_angle = 58
+            size = 4
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Shili"
+        class = "pc_continental"
+        orbit_distance = 30
+        orbit_angle = 51
+        size = 22
         has_ring = no
 		starting_planet = yes
 		tile_blockers = none
 		modifiers = none
      	init_effect = {
 			prevent_anomaly = yes
-		}
-		
+		}		
 		init_effect = {
+			every_country = {
+					limit = {
+						has_country_flag = togruta_council
+					}
+					save_event_target_as = togruta_council
+				}
+			set_owner = event_target:togruta_council	
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				create_pop = {
@@ -108,7 +132,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_dense_jungle"
 				add_resource = {
 					resource = engineering_research
 					amount = 1
@@ -117,7 +141,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_dense_jungle"
 				add_resource = {
 					resource = society_research
 					amount = 1
@@ -126,7 +150,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_dense_jungle"
 				add_resource = {
 					resource = physics_research
 					amount = 1
@@ -135,7 +159,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_dangerous_wildlife"
 				add_resource = {
 					resource = energy
 					amount = 2
@@ -144,7 +168,7 @@ ryloth_system_initializer = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_slums"
+				set_blocker = "tb_dangerous_wildlife"
 				add_resource = {
 					resource = food
 					amount = 1
@@ -158,60 +182,93 @@ ryloth_system_initializer = {
 					amount = 1
 					replace = yes
 				}				
-			}	
+			}
+	
+		}
 
-	}
+        moon = {
+            name = "Shili I"
+            class = random
+            orbit_distance = 9
+            orbit_angle = 287
+            size = 3
+            has_ring = no
 
+        }
+        moon = {
+            name = "Shili II"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 63
+            size = 5
+            has_ring = no
 
-        moon = {
-            name = "Ryloth I"
-            class = random
-            orbit_distance = 8
-            orbit_angle = 209
-            has_ring = no
-	    size = 5
         }
         moon = {
-            name = "Ryloth II"
+            name = "Shili III"
             class = random
-            orbit_distance = 3
-            orbit_angle = 18
+            orbit_distance = 2.5
+            orbit_angle = 193
+            size = 4
             has_ring = no
-	    size = 6
+
         }
         moon = {
-            name = "Ryloth III"
+            name = "Shili IV"
             class = random
-            orbit_distance = 3
-            orbit_angle = 165
+            orbit_distance = 2.5
+            orbit_angle = -23
+            size = 3
             has_ring = no
-	    size = 6
+
         }
         moon = {
-            name = "Ryloth IV"
+            name = "Shili V"
             class = random
-            orbit_distance = 3
-            orbit_angle = 78
+            orbit_distance = 2.5
+            orbit_angle = 25
+            size = 7
             has_ring = no
-	    size = 5
+
         }
         moon = {
-            name = "Ryloth V"
+            name = "Shili VI"
             class = random
-            orbit_distance = 3
-            orbit_angle = -45
+            orbit_distance = 2.5
+            orbit_angle = 341
+            size = 5
             has_ring = no
-	    size = 8
+
         }
     }
 
     planet = {
-        name = "Or Tuma"
-        class = "pc_arctic"
-        orbit_distance = 40
-        orbit_angle = 170
-        size = 14
+        name = "Yindop"
+        class = "pc_barren"
+        orbit_distance = 44
+        orbit_angle = 45
+        size = 12
         has_ring = no
 
+        moon = {
+            name = "Yindop Major"
+            class = random
+            orbit_distance = 6
+            orbit_angle = 97
+            size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Yindop Minor"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 151
+            size = 3
+            has_ring = no
+
+        }
+
     }
+
 }

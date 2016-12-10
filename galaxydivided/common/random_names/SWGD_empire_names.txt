@@ -428,3 +428,39 @@ empire_name_format = {
 	format = "Dorin Republic"
 	noun = "Dorin"	
 }
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = zygerrian_empire
+		}
+	}
+	format = "Zygerrian Slave Empire"
+	noun = "Zygerrian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = twilek_clans
+		}
+	}
+	format = "Twi'lek Clan Council"
+	noun = "Twi'lek"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = togruta_council
+		}
+	}
+	format = "Togruta Council"
+	noun = "Togruta"	
+}

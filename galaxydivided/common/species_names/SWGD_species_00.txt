@@ -112,6 +112,11 @@ SWGD_NEAR_HUMAN = {
 		home_system = Mirial
 		name_list = "MAM2"
 	}
+		
+}
+	
+SWGD_HUMANOID = {
+
 	zabrak = {
 		name = Zabrak
 		plural = Zabraks
@@ -119,11 +124,6 @@ SWGD_NEAR_HUMAN = {
 		home_system = Iridonia
 		name_list = "MAM3"
 	}
-		
-}
-	
-SWGD_HUMANOID = {
-
 	twi'lek = {
 		name = Twi'lek
 		plural = Twi'lek
@@ -131,7 +131,6 @@ SWGD_HUMANOID = {
 		home_system = Ryloth
 		name_list = "MAM1"
 	}
-	
 	togruta = {
 		name = Togruta
 		plural = Togruta
@@ -200,7 +199,17 @@ SWGD_HUMANOID = {
 }	
 	
 	
-	
+SWGD_MAM_1 = {
+
+	kel_dor = {
+		name = "Kel Dor"	
+		plural = "Kel Dor"
+		home_planet = "Dorin"
+		home_system = "Dorin"
+		name_list = "MAM3"
+	}
+
+}	
 
 	
 	

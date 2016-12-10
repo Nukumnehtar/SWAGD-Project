@@ -2,7 +2,6 @@ kashyyyk_system_initializer = {
     name = "Kashyyyk (Hsskassi)"
     class = "rl_standard_stars"
     asteroids_distance = 100
-	flags={wookiee_clans}
 
     planet = {
         class = star
@@ -78,6 +77,7 @@ kashyyyk_system_initializer = {
 		starting_planet = yes
 		tile_blockers = none
 		modifiers = none
+	flags={wookiee_clans}
      	init_effect = {
 			prevent_anomaly = yes
 		}		
