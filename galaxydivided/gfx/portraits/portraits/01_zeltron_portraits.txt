@@ -1,0 +1,220 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+# Zeltron
+portraits = {
+	zeltron_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "zeltron_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/zeltron/zeltron_female_body_01.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_01.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_01_magenta.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_01_pink.dds"
+		}
+	}
+	zeltron_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "zeltron_female_hair_01"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/zeltron/zeltron_female_body_02.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_02.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_02_magenta.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_02_pink.dds"
+		}
+	}
+	zeltron_female_03 = {	entity = "portrait_human_female_03_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "zeltron_female_hair_01"	greeting_sound = "human_female_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/zeltron/zeltron_female_body_03.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_03.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_03_magenta.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_03_pink.dds"
+		}
+	}
+	zeltron_female_04 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "zeltron_female_hair_01"	greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/zeltron/zeltron_female_body_04.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_04.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_04_magenta.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_04_pink.dds"
+		}
+	}
+	zeltron_female_05 = {	entity = "portrait_human_female_05_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "zeltron_female_hair_01"	greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/zeltron/zeltron_female_body_05.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_05.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_05_magenta.dds"
+			"gfx/models/portraits/zeltron/zeltron_female_body_05_pink.dds"
+		}
+	}
+
+	zeltron_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "zeltron_male_hair_01"	greeting_sound = "human_male_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/zeltron/zeltron_male_body_01.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_01.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_01_magenta.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_01_pink.dds"
+		}
+	}
+	zeltron_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "zeltron_male_hair_01"	greeting_sound = "human_male_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/zeltron/zeltron_male_body_02.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_02.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_02_magenta.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_02_pink.dds"
+		}
+	}
+	zeltron_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "zeltron_male_hair_01"	greeting_sound = "human_male_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/zeltron/zeltron_male_body_03.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_03.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_03_magenta.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_03_pink.dds"
+		}
+	}
+	zeltron_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "zeltron_male_hair_01"	greeting_sound = "human_male_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/zeltron/zeltron_male_body_04.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_04.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_04_magenta.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_04_pink.dds"
+		}
+	}
+	zeltron_male_05 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "zeltron_male_hair_01"	greeting_sound = "human_male_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/zeltron/zeltron_male_body_05.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_05.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_05_magenta.dds"
+			"gfx/models/portraits/zeltron/zeltron_male_body_05_pink.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	zeltron = {
+		default = zeltron_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zeltron_male_01
+					zeltron_male_02
+					zeltron_male_03
+					zeltron_male_04
+					zeltron_male_05
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zeltron_female_01
+					zeltron_female_02
+					zeltron_female_03
+					zeltron_female_04
+					zeltron_female_05
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zeltron_female_01
+					zeltron_female_02
+					zeltron_female_03
+					zeltron_female_04
+					zeltron_female_05
+					zeltron_male_01
+					zeltron_male_02
+					zeltron_male_03
+					zeltron_male_04
+					zeltron_male_05
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zeltron_female_01
+					zeltron_female_02
+					zeltron_female_03
+					zeltron_female_04
+					zeltron_female_05
+					zeltron_male_01
+					zeltron_male_02
+					zeltron_male_03
+					zeltron_male_04
+					zeltron_male_05
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeltron_female_01
+					zeltron_female_02
+					zeltron_female_03
+					zeltron_female_04
+					zeltron_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeltron_male_01
+					zeltron_male_02
+					zeltron_male_03
+					zeltron_male_04
+					zeltron_male_05
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeltron_female_01
+					zeltron_female_02
+					zeltron_female_03
+					zeltron_female_04
+					zeltron_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeltron_male_01
+					zeltron_male_02
+					zeltron_male_03
+					zeltron_male_04
+					zeltron_male_05
+				}
+			}
+		}
+	}
+}

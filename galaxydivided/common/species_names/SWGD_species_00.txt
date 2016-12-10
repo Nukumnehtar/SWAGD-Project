@@ -112,7 +112,13 @@ SWGD_NEAR_HUMAN = {
 		home_system = Mirial
 		name_list = "MAM2"
 	}
-		
+	zeltron = {
+		name = "Zeltron"	
+		plural = "Zeltron"
+		home_planet = "Zeltros"
+		home_system = "Zel"
+		name_list = "Republic"
+	}	
 }
 	
 SWGD_HUMANOID = {
