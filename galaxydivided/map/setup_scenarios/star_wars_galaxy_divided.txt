@@ -2,10 +2,10 @@ static_galaxy_scenario = {
 	name = "Star Wars: A Galaxy Divided"
 	priority = 0					#priority decides in which order the scenarios are listed
 	default = yes
-	num_empires = { min = 33 max = 40 }	#limits player customization
-	num_empire_default = 33
-	fallen_empire_default = 1
-	fallen_empire_max = 1
+	num_empires = { min = 37 max = 40 }	#limits player customization
+	num_empire_default = 37
+	fallen_empire_default = 3
+	fallen_empire_max = 3
 	advanced_empire_default = 0
 	colonizable_planet_odds = 1.0	
 	random_hyperlanes = no
@@ -2294,8 +2294,7 @@ initializer = almera_system_initializer}
 				add_hyperlane = { from = "968" to = "970" }
 				add_hyperlane = { from = "970" to = "967" }
 				add_hyperlane = { from = "967" to = "951" }
-				add_hyperlane = { from = "430" to = "1068" }
-				add_hyperlane = { from = "415" to = "1066" }
+				add_hyperlane = { from = "430" to = "1068" }				
 				add_hyperlane = { from = "471" to = "468" }
 				add_hyperlane = { from = "468" to = "469" }
 				add_hyperlane = { from = "469" to = "472" }
@@ -2324,8 +2323,7 @@ initializer = almera_system_initializer}
 				add_hyperlane = { from = "232" to = "2035" }
 				add_hyperlane = { from = "2035" to = "235" }
 				add_hyperlane = { from = "278" to = "2034" }
-				add_hyperlane = { from = "422" to = "2055" }
-				add_hyperlane = { from = "2055" to = "1066" }	
+				add_hyperlane = { from = "422" to = "2055" }					
 				add_hyperlane = { from = "968" to = "2041" }
 				add_hyperlane = { from = "367" to = "2047" }
 				add_hyperlane = { from = "2047" to = "2048" }
@@ -2351,6 +2349,7 @@ initializer = almera_system_initializer}
 				add_hyperlane = { from = "2054" to = "2077" }
 				add_hyperlane = { from = "604" to = "2086" }
 				add_hyperlane = { from = "2088" to = "324" }
+				add_hyperlane = { from = "1066" to = "412" }
 
 				
 				

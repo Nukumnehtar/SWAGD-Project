@@ -281,7 +281,7 @@ gree_system_initializer = {
 				}
 				random_tile = {
 					limit = { has_building = no has_blocker = no }
-					set_building = "building_border_reducer"
+					set_building = "building_border_reducer_125"
 					add_resource = {
 						resource = energy
 						amount = 1
@@ -488,6 +488,66 @@ gree_system_initializer = {
 						module = "engineering_bay"
 					}				
 				}
+				create_fleet = {
+				effect = {
+					set_owner = last_created_country
+					create_ship = {
+						name = random
+						design = "Reaper"
+						graphical_culture = last_created_country
+					}
+					set_location = {
+						target = PREV
+						distance = 20
+						angle = 90
+					}
+				}
+			}
+			create_fleet = {
+				effect = {
+					set_owner = last_created_country
+					create_ship = {
+						name = random
+						design = "Reaper"
+						graphical_culture = last_created_country
+					}
+					set_location = {
+						target = PREV
+						distance = 20
+						angle = 180
+					}
+				}
+			}
+			create_fleet = {
+				effect = {
+					set_owner = last_created_country
+					create_ship = {
+						name = random
+						design = "Reaper"
+						graphical_culture = last_created_country
+					}
+					set_location = {
+						target = PREV
+						distance = 20
+						angle = 270
+					}
+				}
+			}
+			create_fleet = {
+				effect = {
+					set_owner = last_created_country
+					create_ship = {
+						name = random
+						design = "Reaper"
+						graphical_culture = last_created_country
+					}
+					set_location = {
+						target = PREV
+						distance = 20
+						angle = 0
+					}
+				}
+			}
 				}
 
         moon = {

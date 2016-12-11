@@ -230,7 +230,7 @@ yoggoy_system_initializer = {
 				}
 				random_tile = {
 					limit = { has_building = no has_blocker = no }
-					set_building = "building_dark_matter_power_plant"
+					set_building = "building_border_reducer_100"
 					add_resource = {
 						resource = energy
 						amount = 1
@@ -473,8 +473,59 @@ yoggoy_system_initializer = {
 						module = "engineering_bay"
 					}				
 				}
+				create_fleet = {
+				effect = {
+					set_owner = last_created_country
+					create_ship = {
+						name = random
+						design = "Reaper"
+						graphical_culture = last_created_country
+					}
+					set_location = {
+						target = PREV
+						distance = 20
+						angle = 90
+					}
+				}
 			}
-
+			create_fleet = {
+				effect = {
+					set_owner = last_created_country
+					create_ship = {
+						name = random
+						design = "Reaper"
+						graphical_culture = last_created_country
+					}
+					set_location = {
+						target = PREV
+						distance = 20
+						angle = 180
+					}
+				}
+			}
+			create_fleet = {
+				name = "Ancient Killik Dreadnought"
+				settings = {
+					spawn_debris = no
+					is_boss = yes
+				}
+				effect = {
+				set_owner = last_created_country
+					create_ship = {
+						name = random
+						design = "Relic"
+						graphical_culture = "npf_01_dirty"
+					}
+					set_location = {
+						target = PREV
+						distance = 60
+						angle = 90
+					}
+					set_fleet_stance = aggressive
+					
+			}
+			}
+	}
 
         moon = {
             name = "Kiliksis"

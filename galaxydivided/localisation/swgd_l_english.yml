@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
  EMPIRE_DESIGN_jedi_council:0 "Jedi Council" 
  name_list_sw_hu: "SW Generic Human"
@@ -73,6 +73,11 @@ l_english:
  building_force_great_tomb:0 "Great Tomb"
  building_force_great_tomb_desc:0 "These elaborate tombs contain the last resting place of once powerful Force-sensitives and their mysterious artifacts and relics. Often times these tombs are equipped with traps and other defenses."
  
+ 
+ building_border_reducer_100:0 "Ancient Ruins"
+ building_border_reducer_100_desc:0 "These ruins fill the nearby landscape, a taste of what once was of these great civilizations."
+  building_border_reducer_125:0 "Ancient Ruins"
+ building_border_reducer_125_desc:0 "These ruins fill the nearby landscape, a taste of what once was of these great civilizations."
  
  building_andeddu_keep:0 "Andeddu's Keep"
  building_andeddu_keep_desc:0 "This structure is a fortress constructed and designed to serve as the stronghold of Darth Andeddu, Dark Lord of the Sith. Far removed from any form of established civilization, Lord Andeddu used the Keep as his personal repository of Sith lore, and also as the location of his secret tomb."
