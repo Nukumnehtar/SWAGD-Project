@@ -73,7 +73,8 @@
  building_force_great_tomb:0 "Great Tomb"
  building_force_great_tomb_desc:0 "These elaborate tombs contain the last resting place of once powerful Force-sensitives and their mysterious artifacts and relics. Often times these tombs are equipped with traps and other defenses."
  
- 
+ building_border_reducer_75:0 "Ancient Ruins"
+ building_border_reducer_75_desc:0 "These ruins fill the nearby landscape, a taste of what once was of these great civilizations."
  building_border_reducer_100:0 "Ancient Ruins"
  building_border_reducer_100_desc:0 "These ruins fill the nearby landscape, a taste of what once was of these great civilizations."
   building_border_reducer_125:0 "Ancient Ruins"

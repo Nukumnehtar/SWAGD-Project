@@ -281,7 +281,7 @@ gree_system_initializer = {
 				}
 				random_tile = {
 					limit = { has_building = no has_blocker = no }
-					set_building = "building_border_reducer_125"
+					set_building = "building_border_reducer_100"
 					add_resource = {
 						resource = energy
 						amount = 1
@@ -545,6 +545,181 @@ gree_system_initializer = {
 						target = PREV
 						distance = 20
 						angle = 0
+					}
+				}
+			}
+			create_fleet = {
+					effect = {
+						set_owner = last_created_country
+						create_ship = {
+							name = "Gree Titan"
+							design = "Imperium"
+							graphical_culture = last_created_country
+						}
+						set_location = {
+							target = PREV
+							distance = 20
+							angle = random 
+						}					
+					}
+				}
+				create_fleet = {
+				effect = {
+					set_owner = last_created_country
+					create_ship = {
+						name = random
+						design = "Supremacy"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Supremacy"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Supremacy"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Supremacy"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Supremacy"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Supremacy"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Supremacy"
+						graphical_culture = last_created_country
+					}				
+					create_ship = {
+						name = random
+						design = "Supremacy"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Supremacy"
+						graphical_culture = last_created_country
+					}				
+					create_ship = {
+						name = random
+						design = "Supremacy"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}					
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}					
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}
+					create_ship = {
+						name = random
+						design = "Glory"
+						graphical_culture = last_created_country
+					}			
+					set_location = {
+						target = PREV
+						distance = 70
+						angle = random 
 					}
 				}
 			}

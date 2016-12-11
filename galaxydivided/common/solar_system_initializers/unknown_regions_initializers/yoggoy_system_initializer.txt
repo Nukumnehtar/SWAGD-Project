@@ -230,7 +230,7 @@ yoggoy_system_initializer = {
 				}
 				random_tile = {
 					limit = { has_building = no has_blocker = no }
-					set_building = "building_border_reducer_100"
+					set_building = "building_border_reducer_75"
 					add_resource = {
 						resource = energy
 						amount = 1

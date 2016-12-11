@@ -1077,7 +1077,7 @@
 	name="Council of Kamino"
 	adjective="Kaminoan"
 	government="science_directorate"
-	flags={kamino_council SWGD_START SWGD}
+	flags={kamino_council  SWGD_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Kamino"
@@ -1690,7 +1690,7 @@
 		ruler_title="Corporate Council CEO"
 		ruler_title_female="Corporate Council CEO"
 	}
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_materialist"
 	ethic="ethic_capitalism"
@@ -1726,8 +1726,8 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="starwars"
-			file="34.dds"
+			category="pirate"
+			file="flag_pirate_10.dds"
 		}
 		background={
 			category="backgrounds"
@@ -1735,7 +1735,7 @@
 		}
 		colors={
 			"purple"
-			"white"
+			"null"
 			"null"
 			"null"
 		}
@@ -1785,16 +1785,16 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="starwars"
-			file="35.dds"
+			category="pointy"
+			file="flag_pointy_24.dds"
 		}
 		background={
 			category="backgrounds"
 			file="00_solid.dds"
 		}
 		colors={
-			"light_blue"
-			"light_blue"
+			"null"
+			"null"
 			"null"
 			"null"
 		}
@@ -1842,8 +1842,8 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="starwars"
-			file="32.dds"
+			category="ornate"
+			file="flag_ornate_7.dds"
 		}
 		background={
 			category="backgrounds"
@@ -1942,7 +1942,7 @@
 	ship_prefix=""
 	species_name="Kel Dor"
 	species_plural="Kel Dor"
-	species_class="SWGD_MAM_1"
+	species_class="SWGD_HUMANOID"
 	species_adjective="Kel Dor"
 	species_bio="Dorin was a dark and dusty planet in the Expansion Region. It was the homeworld of the Kel Dors, with an atmosphere of a unique gas and helium. The planet was situated between two black holes, making access to the planet limited, while space travel for the natives was highly dangerous. The planet was home of the Baran Do, a Force cult predating the Jedi."
 	portrait="kel_dor"
@@ -1995,6 +1995,7 @@
 	trait="trait_repugnant"
 	trait="trait_intelligent"
 }
+
 
 "Zygerrian Slave Empire"
 ={

@@ -899,4 +899,26 @@ building_border_reducer_100 = {
 	
 	ai_replace = no
 }
+
+building_border_reducer_75 = {
+	is_listed = no
+	base_buildtime = 360
+	
+	cost = {
+		minerals = 350
 		
+	}
+	
+	
+	country_modifier = {
+		country_border_mult = -0.75
+	}
+	
+	prerequisites = {
+	}
+			
+	
+		
+	
+	ai_replace = no
+}		
