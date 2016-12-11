@@ -1,6 +1,9 @@
 zeltros_system_initializer = {
     name = "Zel"
     class = "rl_standard_stars"
+	flags = {zeltros_kingdom}
+	usage = custom_empire
+	max_instances = 1
 
     planet = {
         class = "pc_m_star"
@@ -11,7 +14,7 @@ zeltros_system_initializer = {
     planet = {
         name = "Zeloa"
         class = "pc_gas_giant"
-        orbit_distance = 85
+        orbit_distance = 65
         orbit_angle = -159
         size = 22
         has_ring = no
@@ -108,36 +111,9 @@ zeltros_system_initializer = {
 
         }
         moon = {
-            name = "Zeloa XI"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 256
-            size = 4
-            has_ring = no
-
-        }
-        moon = {
-            name = "Zeloa XII"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = -98
-            size = 3
-            has_ring = no
-
-        }
-        moon = {
-            name = "Zeloa XIII"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 6
-            size = 5
-            has_ring = no
-
-        }
-        moon = {
             name = "Zeloa XIV"
             class = random
-            orbit_distance = 2.5
+            orbit_distance = 6
             orbit_angle = 117
             size = 4
             has_ring = no
@@ -148,7 +124,7 @@ zeltros_system_initializer = {
     planet = {
         name = "Zeldiis"
         class = "pc_barren"
-        orbit_distance = 80
+        orbit_distance = 60
         orbit_angle = 128
         size = 16
         has_ring = no
@@ -186,18 +162,137 @@ zeltros_system_initializer = {
     planet = {
         name = "Zeltros"
         class = "pc_gaia"
-        orbit_distance = 25
+        orbit_distance = 24
         orbit_angle = 155
         size = 20
         has_ring = no
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
      	init_effect = {
-		prevent_anomaly = yes
-		add_modifier = {
-			modifier = "pm_atmospheric_aphrodisiac"
-			modifier = "pm_natural_beauty"
-			}
+			prevent_anomaly = yes
 		}
-
+		
+		init_effect = {
+			every_country = {
+					limit = {
+						has_country_flag = zeltros_kingdom
+					}
+					save_event_target_as = zeltros_kingdom
+				}
+			set_owner = event_target:zeltros_kingdom
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
 
         moon = {
             name = "Zeltros I"
@@ -269,7 +364,7 @@ zeltros_system_initializer = {
     planet = {
         name = "Zellone"
         class = "pc_gas_giant"
-        orbit_distance = 80
+        orbit_distance = 75
         orbit_angle = 240
 	size = 25
         has_ring = no
@@ -366,67 +461,14 @@ zeltros_system_initializer = {
 
         }
         moon = {
-            name = "Zellone XI"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 45
-            size = 3
-            has_ring = no
-
-        }
-        moon = {
-            name = "Zellone XII"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 32
-            size = 6
-            has_ring = no
-
-        }
-        moon = {
-            name = "Zellone XIII"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = -84
-            size = 4
-            has_ring = no
-
-        }
-        moon = {
-            name = "Zellone XIV"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 254
-            size = 8
-            has_ring = no
-
-        }
-        moon = {
-            name = "Zellone XV"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = 84
-            size = 5
-            has_ring = no
-
-        }
-        moon = {
-            name = "Zellone XVI"
-            class = random
-            orbit_distance = 2.5
-            orbit_angle = -24
-            size = 4
-            has_ring = no
-
-        }
-        moon = {
             name = "Zellone XVII"
             class = random
-            orbit_distance = 2.5
+            orbit_distance = 6
             orbit_angle = 298
             size = 6
             has_ring = no
 
         }
+
     }
 }

@@ -464,3 +464,15 @@ empire_name_format = {
 	format = "Togruta Council"
 	noun = "Togruta"	
 }
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = zeltros_kingdom
+		}
+	}
+	format = "Kingdom of Zeltros"
+	noun = "Zeltron"	
+}

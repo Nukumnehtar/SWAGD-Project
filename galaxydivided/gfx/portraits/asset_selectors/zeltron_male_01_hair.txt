@@ -1,6 +1,6 @@
 # This is a template which multiple species can use. 
   
-echani_male_hair_01 = {
+zeltron_male_hair_01 = {
 	default = "gfx/models/portraits/human/human_male_hair_orange_style_03_and_beard_light_style_01.dds"
 	
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist

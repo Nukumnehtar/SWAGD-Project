@@ -2178,3 +2178,64 @@
 	trait="trait_deviants"
 	trait="trait_agrarian"
 }
+
+"Kingdom of Zeltros"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Zeltron"
+	species_plural="Zeltrons"
+	species_class="SWGD_NEAR_HUMAN"
+	species_adjective="Zeltron"
+	species_bio="Zeltros was a planet in the Inner Rim, and the homeworld of the Zeltron race. An opulent world, hedonism was the doctrine encouraged by the empathetic Zeltrons, and Zeltros was continuously in a state of never ending revelry. The Zeltron appreciation of beauty in its many forms led to luxurious art and architecture covering the world, and the galaxy's most wealthy favored Zeltros as a vacation destination. Many who came to the planet were taken in by the celebratory atmosphere and the powerful pheromones of the Zeltron people to the point they found it difficult to leave, and even planetary invasions often floundered in the face of Zeltros' planet-wide festivities. Like Naboo, it was ruled by an elective monarchy."
+	portrait="zeltron"
+	name="Kingdom of Zeltros"
+	adjective="Zeltron"
+	government="enlightened_monarchy"
+	flags={zeltros_kingdom SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Zeltros"
+	planet_class="pc_continental"
+	system_name="Zel"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="republic_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"hsv_70_90"
+			"turquoise"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Aliyah Zeldar"
+		portrait="zeltron_female_01"
+		texture=1
+		hair=0
+		clothes=5
+		heir_title="Prince"
+		heir_title_female="Princess"
+	}
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	ethic="ethic_capitalism"
+	ethic="ethic_elitist"
+	ethic="ethic_hospitality"
+	ethic="ethic_culture"
+	trait="trait_charismatic"
+	trait="trait_deviants"
+	trait="trait_talented"
+}
