@@ -4,7 +4,7 @@ togruta_female_hair_01 = {
 	default = "gfx/models/portraits/togruta/togruta_headtail_01_male.dds"
 	
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
-		default = "gfx/models/portraits/togruta/togruta_headtail_01_male_male.dds"
+		default = "gfx/models/portraits/togruta/togruta_headtail_01_male.dds"
 	}
 	
 	#species scope
