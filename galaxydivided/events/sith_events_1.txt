@@ -42,7 +42,7 @@ option = {
     }
   }
   hidden_effect = {
-	
+  give_technology = tech_psionic_theory
   every_owned_leader = {
       limit ={ 
 	  leader_class = ruler 

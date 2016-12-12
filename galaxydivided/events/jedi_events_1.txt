@@ -1,0 +1,33 @@
+namespace = jedi
+
+
+
+event = {
+	id = jedi.1
+	hide_window = yes	
+	
+	immediate = {
+		every_country  = {
+			limit = {
+				has_country_flag = jedi_council
+				
+				
+			}
+			country_event = { id = jedi.2 }
+		}
+		
+	}
+		
+	
+}
+
+
+country_event = {
+  id = jedi.2 
+  hide_window = yes	
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {   give_technology = tech_psionic_theory }
+
+}

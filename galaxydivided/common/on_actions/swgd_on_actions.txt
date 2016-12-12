@@ -4,8 +4,10 @@ on_game_start = {
 		swgd_start.1
 		swgd_start.2
 		swgd_start.3
-		republic.0
-		sith.1		
+		swgd_start.4
+		republic.0		
+		sith.1
+		jedi.1		
 		
 	}
 }
