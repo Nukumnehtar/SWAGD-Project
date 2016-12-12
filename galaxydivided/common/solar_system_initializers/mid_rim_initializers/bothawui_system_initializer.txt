@@ -65,6 +65,13 @@ bothawui_system_initializer = {
 		}
 		
 		init_effect = {
+		every_country = {
+					limit = {
+						has_country_flag = bothan_clans
+					}
+					save_event_target_as = bothan_clans
+				}
+			set_owner = event_target:bothan_clans
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"

@@ -96,6 +96,13 @@ dromund_system_initializer = {
 		}
 		
 		init_effect = {
+		every_country = {
+					limit = {
+						has_country_flag = sith_empire
+					}
+					save_event_target_as = sith_empire
+				}
+			set_owner = event_target:sith_empire
 			create_species = {
 				name = "Imperial"
 				class = "SWGD_HUMAN"

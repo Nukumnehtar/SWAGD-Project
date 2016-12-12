@@ -26,6 +26,13 @@ dorin_system_initializer = {
 		}
 		
 		init_effect = {
+		every_country = {
+					limit = {
+						has_country_flag = dorin
+					}
+					save_event_target_as = dorin
+				}
+			set_owner = event_target:dorin	
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
@@ -91,7 +98,11 @@ dorin_system_initializer = {
 					resource = society_research
 					amount = 1
 					replace = yes
-				}				
+				}
+					create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }

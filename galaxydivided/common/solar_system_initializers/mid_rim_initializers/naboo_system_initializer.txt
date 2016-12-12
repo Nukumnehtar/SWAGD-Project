@@ -51,11 +51,26 @@ naboo_system_initializer = {
 		modifiers = none
      	init_effect = {
 			prevent_anomaly = yes
+			add_modifier = {
+				modifier = "natural_beauty"				
+			}
 		}
 		
 		init_effect = {
+		
+			every_country = {
+					limit = {
+						has_country_flag = naboo_kingdom
+					}
+					save_event_target_as = naboo_kingdom
+				}
+			set_owner = event_target:naboo_kingdom
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
 				set_building = "building_capital_1"
 				add_resource = {
 					resource = food
@@ -146,7 +161,8 @@ naboo_system_initializer = {
 					resource = food
 					amount = 1
 					replace = yes
-				}					
+				}
+				
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
@@ -164,6 +180,35 @@ naboo_system_initializer = {
 					amount = 1
 					replace = yes
 				}				
+			}
+			create_species = {
+				name = "Gungan"
+				class = "REP"
+				portrait = "rep7"
+			traits = { trait = "trait_pc_continental_preference" 
+			trait = "trait_communal" 					
+					}
+			extra_trait_points = 2
+				homeworld = FROM
+				sentient = yes
+			}
+			while = {
+				limit = {
+					count_pops = {
+						limit = { is_sentient = yes }
+						count < 2
+					}
+					free_pop_tiles > 0
+				}
+				best_tile_for_pop = {
+					create_pop = { 
+						species = last_created
+						ethos = {							
+							ethic = ethic_pacifist
+							ethic = ethic_xenophile
+						}
+					}
+				}
 			}			
 		}
 

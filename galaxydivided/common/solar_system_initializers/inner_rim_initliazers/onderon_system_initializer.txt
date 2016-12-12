@@ -44,6 +44,13 @@ onderon_system_initializer = {
 			prevent_anomaly = yes
 		}		
 		init_effect = {
+		every_country = {
+					limit = {
+						has_country_flag = onderon
+					}
+					save_event_target_as = onderon
+				}
+			set_owner = event_target:onderon
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"

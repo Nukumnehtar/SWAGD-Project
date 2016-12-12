@@ -174,6 +174,10 @@ zeltros_system_initializer = {
 		}
 		
 		init_effect = {
+		add_modifier = {
+				modifier = "natural_beauty"
+				modifier = "atmospheric_aphrodisiac"
+			}
 			every_country = {
 					limit = {
 						has_country_flag = zeltros_kingdom

@@ -43,6 +43,13 @@ cathar_system_initializer = {
 		}
 		
 		init_effect = {
+		every_country = {
+					limit = {
+						has_country_flag = cathar_tribes
+					}
+					save_event_target_as = cathar_tribes
+				}
+			set_owner = event_target:cathar_tribes
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"

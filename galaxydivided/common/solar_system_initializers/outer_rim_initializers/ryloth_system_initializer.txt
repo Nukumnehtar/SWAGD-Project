@@ -37,6 +37,13 @@ ryloth_system_initializer = {
 		}
 		
 		init_effect = {
+		every_country = {
+					limit = {
+						has_country_flag = twilek_clans
+					}
+					save_event_target_as = twilek_clans
+				}
+			set_owner = event_target:twilek_clans
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				create_pop = {

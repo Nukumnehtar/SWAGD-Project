@@ -45,6 +45,13 @@ geonosis_system_initializer = {
 		}
 		
 		init_effect = {
+		every_country = {
+					limit = {
+						has_country_flag = geonosian_hives
+					}
+					save_event_target_as = geonosian_hives
+				}
+			set_owner = event_target:geonosian_hives
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
