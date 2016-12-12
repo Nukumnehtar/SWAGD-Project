@@ -111,6 +111,17 @@ csilla_system_initializer = {
 				}				
 			}
 			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_massive_glacier"
 				add_resource = {

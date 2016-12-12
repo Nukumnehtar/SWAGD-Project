@@ -87,8 +87,14 @@ kuat_system_initializer = {
 		init_effect = {
 			add_modifier = {
 			modifier = "orbital_shipyards" 
+			every_country = {
+					limit = {
+						has_country_flag = kuat
+					}
+					save_event_target_as = kuat
+				}
+			set_owner = event_target:kuat
 			
-			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
@@ -155,6 +161,17 @@ kuat_system_initializer = {
 					amount = 1
 					replace = yes
 				}				
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }

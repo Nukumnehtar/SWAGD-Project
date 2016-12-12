@@ -32,12 +32,20 @@ chandrila_system_initializer = {
      	init_effect = {
 			prevent_anomaly = yes
 			add_modifier = {
-				modifier = "pm_natural_beauty"
-				modifier = "pm_lush"
+				modifier = "natural_beauty"
+				modifier = "lush_planet"
 			}
 		}
 		
 		init_effect = {
+		every_country = {
+					limit = {
+						has_country_flag = chandrila
+					}
+					save_event_target_as = chandrila
+				}
+			set_owner = event_target:chandrila
+			
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
@@ -104,6 +112,17 @@ chandrila_system_initializer = {
 					amount = 1
 					replace = yes
 				}				
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }

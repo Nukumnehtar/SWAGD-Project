@@ -58,6 +58,13 @@ arkania_system_initializer = {
 		}
 		
 		init_effect = {
+		every_country = {
+					limit = {
+						has_country_flag = arkania
+					}
+					save_event_target_as = arkania
+				}
+			set_owner = event_target:arkania	
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
@@ -114,7 +121,11 @@ arkania_system_initializer = {
 					resource = engineering_research
 					amount = 1
 					replace = yes
-				}				
+				}
+					create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }

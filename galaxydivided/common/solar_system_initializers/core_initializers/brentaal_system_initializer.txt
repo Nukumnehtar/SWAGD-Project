@@ -95,6 +95,14 @@ brentaal_system_initializer = {
 		}
 		
 		init_effect = {
+		every_country = {
+					limit = {
+						has_country_flag = brentaal
+					}
+					save_event_target_as = brentaal
+				}
+			set_owner = event_target:brentaal
+			
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
@@ -152,6 +160,17 @@ brentaal_system_initializer = {
 					amount = 1
 					replace = yes
 				}				
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
