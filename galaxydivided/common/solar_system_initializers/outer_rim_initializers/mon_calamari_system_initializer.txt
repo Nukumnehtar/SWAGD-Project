@@ -41,7 +41,9 @@ mon_calamari_system_initializer = {
 
     planet = {
         name = "Dac (Mon Cala)"
-        class = "pc_ocean"
+        class = "ocean_shipyards" 			# rwc planet class
+		entity = "planetary_ring1_entity" 	# planets dont inherit entity from class like stars do, need to manually set it, can be different from class!
+		entity_scale = 0.01	
         orbit_distance = 25
         orbit_angle = 71
         size = 20
@@ -51,6 +53,9 @@ mon_calamari_system_initializer = {
 		modifiers = none
      	init_effect = {
 			prevent_anomaly = yes
+		add_modifier = {
+			modifier = "orbital_shipyards"
+				}
 		}
 		every_country = {
 				limit = {
@@ -220,7 +225,7 @@ mon_calamari_system_initializer = {
         moon = {
             name = "Dac Minor"
             class = "pc_barren_cold"
-            orbit_distance = 10
+            orbit_distance = 15
             orbit_angle = 180
             size = 5
             has_ring = no

@@ -114,10 +114,14 @@
  ecumenopolis_desc: "An Ecumenopolis is a type of planet, or in some cases a moon, whose entire surface is covered with a single worldwide city."
  
  
- kuat_shipyards: "Orbital Shipyard"
- kuat_shipyards_desc: "The famous Kuat Drive Yards is a group of connected space stations that orbit and completely encircle the planet Kuat as an immense ring."
- kuat_shipyards_tile:0 "Temperate Terrain"
- kuat_shipyards_tile_desc:0 "Diverse forested terrain with a mild climate."
+ continental_shipyards: "Orbital Shipyard"
+ continental_shipyards_desc: "The often famous Drive Yards are a group of connected space stations that orbit and completely encircle the planet as an immense ring."
+ continental_shipyards_tile:0 "Temperate Terrain"
+ continental_shipyards_tile_desc:0 "Diverse forested terrain with a mild climate."
+ ocean_shipyards: "Orbital Shipyard"
+ ocean_shipyards_desc: "The often famous Drive Yards are a group of connected space stations that orbit and completely encircle the planet as an immense ring."
+ ocean_shipyards_tile:0 "Ocean Terrain"
+ ocean_shipyards_tile_desc:0 "Isolated islands and archipelagos surrounded by ocean."
  
  tb_asteroid_mountains:0 "£blocker   Mountain Range"
  tb_asteroid_mountains_desc:0 "A vast range of tall and impassable mountains stretches across this region of the Asteroid."
