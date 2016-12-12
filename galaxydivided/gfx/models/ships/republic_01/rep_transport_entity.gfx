@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "rep_transport_entity_mesh"
+		file = "gfx/models/ships/republic_01/rep_transport_entity.mesh"
+		scale = 0.3
+
+		meshsettings = {
+			name = "Republic_Transport2:HullShape"
+			index = 0
+			texture_diffuse = "Republic_Transport_diffuse.dds"
+			texture_normal = "Republic_Transport_normal.dds"
+			texture_specular = "Republic_Transport_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

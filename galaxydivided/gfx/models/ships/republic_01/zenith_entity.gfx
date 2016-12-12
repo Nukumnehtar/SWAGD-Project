@@ -2,10 +2,10 @@ objectTypes = {
 	pdxmesh = {
 		name = "zenith_entity_mesh"
 		file = "gfx/models/ships/republic_01/zenith_entity.mesh"
-		scale = 1.5
+		scale = 0.8
 
 		meshsettings = {
-			name = "Republic_Zenith_Cruiser:Hull1|Republic_Zenith_Cruiser:HullShape"
+			name = "Republic_Zenith_Cruiser:HullShape"
 			index = 0
 			texture_diffuse = "zenith_diffuse.dds"
 			texture_normal = "zenith_normal.dds"

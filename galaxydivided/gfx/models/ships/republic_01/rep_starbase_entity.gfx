@@ -1,0 +1,25 @@
+objectTypes = {
+	pdxmesh = {
+		name = "rep_starbase_entity_mesh"
+		file = "gfx/models/ships/republic_01/rep_starbase_entity.mesh"
+		scale = 1.2
+
+		meshsettings = {
+			name = "Old_Republic_Station_Level_7:Level_05Shape"
+			index = 0
+			texture_diffuse = "rep_spaceport_diffuse.dds"
+			texture_normal = "rep_spaceport_normal.dds"
+			texture_specular = "rep_spaceport_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Old_Republic_Station_Level_7:Level_05_LightsShape"
+			index = 0
+			texture_diffuse = "rep_spaceport_lights_diffuse.dds"
+			texture_normal = "rep_spaceport_normal.dds"
+			texture_specular = "rep_spaceport_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}

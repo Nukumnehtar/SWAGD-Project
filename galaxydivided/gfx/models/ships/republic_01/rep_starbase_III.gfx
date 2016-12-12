@@ -1,0 +1,23 @@
+objectTypes = {
+	pdxmesh = {
+		name = "rep_starbase_III_mesh"
+		file = "output/rep_starbase_III.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "I_Rep_Starbase_Level_07:Level_01Shape"
+			index = 0
+			texture_diffuse = "Rep_Starbase_diffuse.dds"
+			texture_normal = "Rep_Starbase_normal.dds"
+			texture_specular = "Rep_Starbase_specular.dds"
+			shader = "PdxMeshRunemaster"
+		}
+
+		meshsettings = {
+			name = "I_Rep_Starbase_Level_07:Level_01_LightsShape"
+			index = 0
+			texture_diffuse = "REP_Starbase_Lights_diffuse.dds"
+			shader = "PdxMeshRunemaster"
+		}
+	}
+}

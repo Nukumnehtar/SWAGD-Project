@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "ebonhawk_entity_mesh"
+		file = "gfx/models/ships/republic_01/ebonhawk_entity.mesh"
+		scale = 0.35
+
+		meshsettings = {
+			name = "Republic_Ebon_Hawk:hullShape"
+			index = 0
+			texture_diffuse = "ebon_hawk_diffuse.dds"
+			texture_normal = "ebon_hawk_normal.dds"
+			texture_specular = "ebon_hawk_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+objectTypes = {
+	pdxmesh = {
+		name = "rep_starbase_I_mesh"
+		file = "gfx/models/ships/republic_01/rep_starbase_I.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "I_Rep_Starbase_Level_01:Level_01Shape"
+			index = 0
+			texture_diffuse = "Rep_Starbase_diffuse.dds"
+			texture_normal = "Rep_Starbase_normal.dds"
+			texture_specular = "Rep_Starbase_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "I_Rep_Starbase_Level_01:Level_01_LightsShape"
+			index = 0
+			texture_diffuse = "REP_Starbase_Lights_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
