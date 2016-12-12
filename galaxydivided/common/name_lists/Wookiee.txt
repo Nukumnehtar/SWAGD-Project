@@ -1,0 +1,158 @@
+### Wookiees
+Wookiee = {
+	randomized = no
+
+	ship_names = {
+		generic = {
+		"Agr" "Kettrifee" "Kas" "Thalmussen" "Sentinel" "Raddaugh Gnasp" "Owool" "Liberator" "Oevvaor"
+		}
+		
+		corvette = {
+		"Agr" "Kettrifee" "Kas" "Thalmussen" "Sentinel" "Raddaugh Gnasp" "Owool" "Liberator" "Oevvaor"
+		}
+		
+		constructor = {
+		"Agr" "Kettrifee" "Kas" "Thalmussen" "Sentinel" "Raddaugh Gnasp" "Owool" "Liberator" "Oevvaor"
+		}
+		
+		colonizer = {
+		"Agr" "Kettrifee" "Kas" "Thalmussen" "Sentinel" "Raddaugh Gnasp" "Owool" "Liberator" "Oevvaor"
+		}
+		
+		science = {
+		"Agr" "Kettrifee" "Kas" "Thalmussen" "Sentinel" "Raddaugh Gnasp" "Owool" "Liberator" "Oevvaor"
+		}
+		
+		destroyer = {
+		"Agr" "Kettrifee" "Kas" "Thalmussen" "Sentinel" "Raddaugh Gnasp" "Owool" "Liberator" "Oevvaor"
+		}
+		
+		cruiser = {
+		"Agr" "Kettrifee" "Kas" "Thalmussen" "Sentinel" "Raddaugh Gnasp" "Owool" "Liberator" "Oevvaor"
+		}
+		
+		battleship = {
+		"Agr" "Kettrifee" "Kas" "Thalmussen" "Sentinel" "Raddaugh Gnasp" "Owool" "Liberator" "Oevvaor"
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		observation_station = { }
+		outpost_station = {			
+			sequential_name = "%O% Frontier Outpost"
+		}
+		
+		transport = {
+		"Agr" "Kettrifee" "Kas" "Thalmussen" "Sentinel" "Raddaugh Gnasp" "Owool" "Liberator" "Oevvaor"
+		}
+
+		military_station_small = {
+			M-1 M-2 M-3 M-4 M-5 M-6 M-7 M-8 M-9 M-10 M-11 M-12 M-13 M-14 M-15 M-16 M-17 M-18 M-19 M-20 M-21 M-22
+			M-23 M-24 M-25 M-26 M-27 M-28 M-29 M-30 M-31 M-32 M-33 M-34 M-35 M-36 M-37 M-38 M-39 M-40 M-41 M-42 M-43 M-44
+		}
+		
+		#military_station_small = { 
+		#	sequential_names = { 
+		#		"Outpost 1" "Outpost 2" "Outpost 3" "Outpost 4" "Outpost 5" "Outpost 6" "Outpost 7" "Outpost 8" "Outpost 9" "Outpost 10" "Outpost 11" "Outpost 12"
+		#		"Outpost 13" "Outpost 14" "Outpost 15" "Outpost 16" "Outpost 17" "Outpost 18" "Outpost 19" "Outpost 20" "Outpost 21" "Outpost 22" "Outpost 23"
+		#		"Outpost 24" "Outpost 25" "Outpost 26" "Outpost 27" "Outpost 28" "Outpost 29" "Outpost 30" "Outpost 31" "Outpost 32" "Outpost 33" "Outpost 34"
+		#		"Outpost 35" "Outpost 36" "Outpost 37" "Outpost 38" "Outpost 39" "Outpost 40"
+		#	}
+		#}
+		
+		military_station_medium = { 
+			"%O% Naval Base"
+		}
+		
+		
+		military_station_large = { 
+			"Naval Depot"		
+		}
+		
+		#military_station_large = { 
+		#	random_names = {
+		#	}
+		#}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Kashyyyk Defense Force"
+		}
+		sequential_name = "%O% Expansionary Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Household Phalanx"
+		}
+
+		assault_army = {
+			sequential_name = "%O% CEDF Occupation Division"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Indentured Rifles"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Army"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Hunter-Killer Group"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Synthetic Rangers"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Force Commando"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Bio-Warfare Division"
+		}
+		
+		gene_warrior_army = {
+			random_names = {
+				"SARC-A 'Widowmakers'" "SARC-B 'Immortals'" "SARC-C 'Berserkers'" "SARC-D 'Assassins'"
+				"SARC-E 'Reapers'" "SARC-F 'Nighthawks'" "SARC-I 'Grey Knights'" 
+			}
+			sequential_name = "%O% Bio-Engineered Squadron"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Kashyyyk Edean Anarrad Bocctyyy Etyyy Kachirho Bolotaur Rrynorrorun Chenataa Hracca Kerritamba Kkowir Korrokrrayyo Alaris Mysess Myyydril Nawataa Neocomora Nyenthi'Oris Woolwarricca Wawaatt Wartaki Vikkilynn Thiss Thikkiiana Skyhook Rwookrrorro Rryatt Palsaang Kepitenochan Okikuti Maarwraawroo Chenachochan Karryntora Hoorrkhukk Rarrhkrrorrho Orriorr Northaykk Truvvhhurr Tunnatutikan Ittummi Kahiyuk Warralokk Grunnrurr Rowrakruk
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		full_names = {
+			first_names_male = {
+Bacca Chewbacca Attichitcuk Achonnko Alrrark Arrogha Arrworr Attabura Attimun Bael Barraak  Barrarrao Black Blark Blaschowwa Bocashunk Bokwarro Bowdaar Broadside Burtiin Busurra Caroowar Cecil Cha'ka Chalmun Chalurrekk Chambamakk Chatook Chawroo Chenlambec Cherioer Chewbaacca Cheyerooto Chorrawl Chrilooc Chuundar Chywarra Dalborra Drrlirm Dryanta Erriya Eugroothwa Fahraark Francis Freyrr Freyyr Friyahrr Gaarkhan Gaartatha Gaharrag Ganarho Gargachykk Garwooken Gerraba Gharcanna Ghraggka Gorbacca Gorwooken Grabathar Grabow Grahuur Grakchawwaa Grarwwaar Grasheel Grashk Grease Grerph Greybok Grimgrim Grouaggerl Groznik Grrallo Grrrwahrr Guania Guanta Gumbaeki Gungi Gwarror Gyylghrard Hahrynyar Hanharr Harrgun Harwakokok Hronk Hrrgn Hurrwarr Isshaddik Jaarak Jaccoba Jakarro Jommillia  Kaarror Kallaarac Kallaova Karundabar Katykam Kentara Kerritamba Kerrithrarr Khyyynett Kiaanta Kichiir Kirlocca Kirratha Kitwarr Kkatamik Kravengash Krendan Krepauk Kriyystak Kropporrr Krotorra Krrsantan Krunch Kuce Kuykenda Lachichuk Lamorrack Lawadaa Liak Lobarorr Lofryyhn Lowbacca Lowhhrick Lumpawaroo Lumpawarrump Mahraccor Merumeru Meust Monsurra Montacca Mordran Motamba Mronk Nagraoao Naloriss Nardakka Nawruun Nerrowr Nilwoon Nyrkar Olayyyk Onurruka Oolovv Ooorlak Oraalarri Orooroo Orrekazzapirr Orrsa Owacchi Quaagan Quagga Radrrl Rakikta Ralera Ralrracheen Rarrook Rashtah Rawarok Reerookachuck Rhirren Rholl Rhylis Rikummee Rojarra Rooarwaa Roogar Rorvek Rorworr Roshyk Rothrrrawr Rowralorr Rowrrhaffee Rrawkee Rrelbocco Rroggerr Rroot Rruurrfhurra Rufarr Ruhr Rukurruka Ryyk Saarcheen Salporin Sarkkin Seri'leo Shoran Shorwarr Snoova Snotharr Snrrrlagga Snufftalon Spetbecca Stalpaac Surracca Syirlabradawk Tahnchukka Takook Tallamitta Tantarra Tarfful Tarkazza Tarkov Tewn Tojjelnoot Tojjevvuk Torque Touda Triebakk Tvrrdko Tyger Tyvokka Ulaaar Ulucca Urartu Urothko Urrurrowo Utchakkaloch Vargi Varoca Vorlocca Vritol Vryyr Vryyyr Warburton Warkin Warrchallra Weebacca Whumparrin Wirartu Wojarra Woorwill Worrroznor Worrumba Wrelaac Wrhisch Wrrlevgebev Wullffwarro Wurokkk Wurrooba Yaawl Yarua Yrrcanna Yubookoo Zaalbar Zhailaut Zherriak Zittaasabba
+				}
+			
+			first_names_female = {
+Anarra Athnalu Attiera Beruga Brahtikka Celso Colara Delinna Dewlanna Dewlannamapia Enacca Froera Frorral Furellas Gchalla Gorrlyn Grakkata Granakk Grayyshk Gworrall Huhunna Hwruarca Ildisa Imarrra Jiprirr Jowdrrl Kallabow Katarra Kitmum Kivvaaa Kohlbacca Kybacca Kymayrr Kyobuk Lohgarra Mallatobuck Nawika Nikaede Ovarra Perusta Raabakyysh Renarra Risstenni Rroorgli Rroow Sebaracca Shrandhnrignh Sirrakuk Sunchoo Syychi Tebeurra Tirranna 
+Whyrrryk Wynni Yawrocca
+	 			}
+
+		second_names = {
+			" "
+			}
+		}
+	}		

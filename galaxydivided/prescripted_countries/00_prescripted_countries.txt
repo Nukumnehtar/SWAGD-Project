@@ -1233,7 +1233,7 @@
 }
 "United Wookiee Clans"
 ={
-	name_list="MAM3"
+	name_list="Wookiee"
 	ship_prefix=""
 	species_name="Wookiee"
 	species_plural="Wookiees"
