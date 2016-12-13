@@ -95,9 +95,9 @@
  tech_force_I:0 "The Force" 
  tech_force_I_desc:0 "Philosophers and scientists from across your worlds gather to share their mystical knowledge, discovering the Force as the metaphysical, spiritual, binding, and ubiquitous power of the cosmos." 
  tech_force_II:0 "Early Force Studies" 
- tech_force_II_desc:0 "library, academy and fighting" 
+ tech_force_II_desc:0 "Attempts to understand the nature of the transcendent and the Force has led to the study of behavior, belief and powers of those that wield it. New techniques of many disciplines, ranging from combat to meditation, are explored and built and tested by Force-users within your empire." 
  tech_force_III:0 "Ancient Artifact Studies" 
- tech_force_III_desc:0 "great academy,great library  warrior fighter" 
+ tech_force_III_desc:0 "The study of ancient Artifacts gavre access to priceless dark or light side items, ancient in their creation but invaluable to Force-users for their potency and unique interaction with the dark or light side of the Force. These artifacts included spellbooks, amulets and talismans, holocrons, swords, scrolls or tomes." 
  tech_force_IV:0 "Advanced Force Trials" 
  tech_force_IV_desc:0 "Whether alone or within an Order, Force-sensitives undergo harsh and sometimes impossible tasks to prove their strength and knowledge of the Force." 
  tech_force_VI:0 "Unexplored Hologrammic Technology" 
@@ -147,7 +147,7 @@ CAPTURE_QUEEN_DESC:0 "After a recent space battle in the [queen_system.GetName] 
  
  START_SCREEN_SITH:0 "The Sith have spent centuries building their strength in the depths of unknown space. The Sith Emperor patiently planned for the day when his Sith Empire would repay the Jedi for the humiliating defeats of the past.\n\nIn that time, generations of Sith have come and gone, working hard and devoting their lives to the dream of vengeance.\n\nAnd now, at long last, we have returned."
  START_SCREEN_MANDO:0 "Mand'alor the Indomitable has fallen.\n\nAfter being taken down by enemy fire and crash landing on Onderon's moon, Dxun, his bloodied and torn corpse was found. Reports say he fought bravely, but eventually succumbed to the moon's dangerous creatures.\n\nBut not all is lost, the mask has been found. While combing the jungles for our fallen leader, there was one who came upon the Mand'alor's mask and, in accordance with our traditions, has claimed it as his own to become the new Mand'alor.\n\nThe people now call upon our Mand'alor once more to lead them to battle and conquest. Will the galaxy once again tremble at the thunderous sound of our armies, sweeping down from the skies?"
- START_SCREEN_REP:0 "As the most advanced civilization in the known galaxy, the Galactic Republic has stood united for more than 21,000 years.\n\nProtected by the legendary Jedi Order, the Republic has defeated all its enemies, including the original Sith Empire in the Great Hyperspace War.\n\nBut now the Galaxy sits at the edge of a knife, will you let it descend into chaos?"
+ START_SCREEN_REP:0 "As the most advanced civilization in the known galaxy, the Galactic Republic has stood united for more than 21,000 years.\n\nProtected by the legendary Jedi Order, the Republic has defeated all its enemies, including the original Sith Empire in the Great Hyperspace War.\n\nBut now the Galaxy sits at the edge of a knife, will you let it descend into chaos? Or will you lead it into a new age of peace and prosperity?"
  START_SCREEN_SWGD_START:0 "The Great Hyperspace War has come and gone, many civilizations have rose from the ashes, intent on making their mark. The legendary Jedi have retreated to their Holy World of Tython, while the Sith are no more.\n\nWill you take your people into a new golden age among the stars? Or will you seek other goals?"
  
  personality_mandalorian_warriors:0 "Mandalorian Crusaders"
@@ -180,8 +180,8 @@ personality_kamino_cloners_desc:0 "Kaminoans see themselves as a superior form o
 
 
  republic.1.name:0 "The Republic"
- republic.1.desc:0 "Together we stand, divided we fall."
- republic.1.a:0 "Let us begin."
+ republic.1.desc:0 "The Old Republic was the Republic of legend, greater than distance or time. No need to note where it was or whence it came, only to know that… it was the Republic."
+ republic.1.a:0 "Together we stand, divided we fall."
 
  
  station_xs:0 "Ancient Sentinel"
