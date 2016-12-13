@@ -1,6 +1,6 @@
 # This is a template which multiple species can use. 
 
-togruta_female_hair_01 = {
+togruta_male_hair_01 = {
 	default = "gfx/models/portraits/togruta/togruta_headtail_01_male.dds"
 	
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist

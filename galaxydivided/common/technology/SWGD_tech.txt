@@ -152,7 +152,7 @@ tech_offworld_habitats = {
 #FORCE
 
 tech_force_I = {
-	cost = @tier1cost4
+	cost = @tier2cost1
 	area = society
 	tier = 1
 	is_rare = yes
@@ -195,7 +195,7 @@ tech_force_I = {
 	
 }
 tech_force_II = {
-	cost = @tier2cost2
+	cost = @tier3cost2
 	area = society
 	tier = 1
 	is_rare = yes
@@ -238,7 +238,7 @@ tech_force_II = {
 	
 }
 tech_force_III = {
-	cost = @tier3cost1
+	cost = @tier3cost3
 	area = society
 	tier = 2
 	is_rare = yes
@@ -281,7 +281,7 @@ tech_force_III = {
 	
 }
 tech_force_IV = {
-	cost = @tier3cost3
+	cost = @tier3cost4
 	area = society
 	tier = 3
 	is_rare = yes
