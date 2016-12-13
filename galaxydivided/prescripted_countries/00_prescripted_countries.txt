@@ -321,7 +321,7 @@
 	name="Galactic Republic"
 	adjective="Human"
 	government="indirect_democracy"
-	flags={coruscant core_founder REP_START SWGD}
+	flags={coruscant core_founder REP_START SWGD custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Coruscant"
@@ -377,7 +377,7 @@
 	name="Kingdom of Alderaan"
 	adjective="Alderaanian"
 	government="enlightened_monarchy"
-	flags={alderaan_kingdom	core_founder REP_START SWGD}
+	flags={alderaan_kingdom	core_founder REP_START SWGD custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Alderaan"
@@ -434,7 +434,7 @@
 	name="Chandrilan House"
 	adjective="Chandrilan"
 	government="moral_democracy"
-	flags={chandrila core_founder REP_START SWGD}
+	flags={chandrila core_founder REP_START SWGD custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Chandrila"
@@ -491,7 +491,7 @@
 	name="Corellian Empire"
 	adjective="Corellian"
 	government="military_junta"
-	flags={corellian_empire core_founder REP_START SWGD}
+	flags={corellian_empire core_founder REP_START SWGD custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Corellia"
@@ -549,7 +549,7 @@
 	name="Anaxes Commonwealth"
 	adjective="Anaxsi"
 	government="indirect_democracy"
-	flags={anaxes core_founder SWGD REP_START}
+	flags={anaxes core_founder SWGD REP_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Anaxes"
@@ -607,7 +607,7 @@
 	name="Brentaal Houses"
 	adjective="Brentaalan"
 	government="plutocratic_oligarchy"
-	flags={brentaal core_founder SWGD REP_START}
+	flags={brentaal core_founder SWGD REP_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Brentaal"
@@ -664,7 +664,7 @@
 	name="Duro Corporate Alliance"
 	adjective="Duro"
 	government="plutocratic_oligarchy"
-	flags={duro core_founder SWGD REP_START}
+	flags={duro core_founder SWGD REP_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Duro"
@@ -730,7 +730,7 @@
 	planet_class="pc_continental"
 	system_name="Kuat"
 	initializer=""
-	flags={kuat core_founder REP_START SWGD}
+	flags={kuat core_founder REP_START SWGD custom_start_screen}
 	graphical_culture="republic_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -782,7 +782,7 @@
 	name="Rendili Shipwrights"
 	adjective="Rendili"
 	government="plutocratic_oligarchy"
-	flags={rendili core_founder REP_START SWGD}
+	flags={rendili core_founder REP_START SWGD custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Rendili"
@@ -841,7 +841,7 @@
 	name="Alsakan Kingdom"
 	adjective="Alsakan"
 	government="plutocratic_oligarchy"
-	flags={alsakan SWGD core_founder REP_START}
+	flags={alsakan SWGD core_founder REP_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Alsakan"
