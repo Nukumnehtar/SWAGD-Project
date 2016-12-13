@@ -14,7 +14,7 @@
 	portrait="human"	
 	adjective="Jedi"
 	government="theocratic_oligarchy"
-	flags={jedi_council SWGD jedi_order}
+	flags={jedi_council SWGD custom_start_screen REP_START jedi_order}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Tython"
@@ -75,7 +75,7 @@
 	name="Sith Empire"
 	adjective="Sith"
 	government="despotic_empire"
-	flags={	sith_empire	custom_start_screen SWGD }
+	flags={	sith_empire	custom_start_screen SWGD  }
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Dromund Kaas"
@@ -137,7 +137,7 @@
 	name="Mandalorian Warrior Clans"
 	adjective="Mandalorian"
 	government="military_dictatorship"
-	flags={	mandalorian_clans custom_start_screen SWGD}
+	flags={	mandalorian_clans custom_start_screen SWGD  }
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Mandalore"
@@ -196,7 +196,7 @@
 	name="Chiss Ascendancy"
 	adjective="Chiss"
 	government="military_junta"
-	flags={chiss_ascendancy SWGD_START SWGD}
+	flags={chiss_ascendancy SWGD_START custom_start_screen SWGD }
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Csilla"
@@ -258,7 +258,7 @@
 	name="Hutt Clans"
 	adjective="Hutt"
 	government="plutocratic_oligarchy"
-	flags={hutt_clans SWGD_START SWGD}
+	flags={hutt_clans custom_start_screen SWGD_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Nal Hutta"
@@ -321,7 +321,7 @@
 	name="Galactic Republic"
 	adjective="Human"
 	government="indirect_democracy"
-	flags={coruscant core_founder SWGD}
+	flags={coruscant core_founder REP_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Coruscant"
@@ -377,7 +377,7 @@
 	name="Kingdom of Alderaan"
 	adjective="Alderaanian"
 	government="enlightened_monarchy"
-	flags={alderaan_kingdom	core_founder SWGD}
+	flags={alderaan_kingdom	core_founder REP_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Alderaan"
@@ -434,7 +434,7 @@
 	name="Chandrilan House"
 	adjective="Chandrilan"
 	government="moral_democracy"
-	flags={chandrila core_founder SWGD}
+	flags={chandrila core_founder REP_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Chandrila"
@@ -491,7 +491,7 @@
 	name="Corellian Empire"
 	adjective="Corellian"
 	government="military_junta"
-	flags={corellian_empire core_founder SWGD}
+	flags={corellian_empire core_founder REP_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Corellia"
@@ -549,7 +549,7 @@
 	name="Anaxes Commonwealth"
 	adjective="Anaxsi"
 	government="indirect_democracy"
-	flags={anaxes core_founder SWGD}
+	flags={anaxes core_founder SWGD REP_START}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Anaxes"
@@ -607,7 +607,7 @@
 	name="Brentaal Houses"
 	adjective="Brentaalan"
 	government="plutocratic_oligarchy"
-	flags={brentaal core_founder SWGD}
+	flags={brentaal core_founder SWGD REP_START}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Brentaal"
@@ -664,7 +664,7 @@
 	name="Duro Corporate Alliance"
 	adjective="Duro"
 	government="plutocratic_oligarchy"
-	flags={duro core_founder SWGD}
+	flags={duro core_founder SWGD REP_START}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Duro"
@@ -730,7 +730,7 @@
 	planet_class="pc_continental"
 	system_name="Kuat"
 	initializer=""
-	flags={kuat SWGD core_founder SWGD}
+	flags={kuat core_founder REP_START SWGD}
 	graphical_culture="republic_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -782,7 +782,7 @@
 	name="Rendili Shipwrights"
 	adjective="Rendili"
 	government="plutocratic_oligarchy"
-	flags={rendili core_founder SWGD}
+	flags={rendili core_founder REP_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Rendili"
@@ -841,7 +841,7 @@
 	name="Alsakan Kingdom"
 	adjective="Alsakan"
 	government="plutocratic_oligarchy"
-	flags={alsakan SWGD core_founder}
+	flags={alsakan SWGD core_founder REP_START}
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Alsakan"
@@ -910,7 +910,7 @@
 	name="Mon Calamari Territories"
 	adjective="Mon calamari"
 	government="indirect_democracy"
-	flags={mon_calamari SWGD_START SWGD}
+	flags={mon_calamari SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Mon Calamari"
@@ -966,7 +966,7 @@
 	name="Utapauan Committee"
 	adjective="Utapauan"
 	government="plutocratic_oligarchy"
-	flags={utapauan_committee trade_guild SWGD_START SWGD}
+	flags={utapauan_committee trade_guild custom_start_screen SWGD_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Utapau"
@@ -1021,7 +1021,7 @@
 	name="Kingdom of Naboo"
 	adjective="Nabooian"
 	government="enlightened_monarchy"
-	flags={naboo_kingdom SWGD_START SWGD}
+	flags={naboo_kingdom SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Naboo"
@@ -1077,7 +1077,7 @@
 	name="Council of Kamino"
 	adjective="Kaminoan"
 	government="science_directorate"
-	flags={kamino_council  SWGD_START SWGD}
+	flags={kamino_council  SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Kamino"
@@ -1132,7 +1132,7 @@
 	name="Bespin Trade Guilds"
 	adjective="Bespinian"
 	government="plutocratic_oligarchy"
-	flags={bespin_guilds trade_guild SWGD_START SWGD}
+	flags={bespin_guilds trade_guild SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Bespin"
@@ -1189,7 +1189,7 @@
 	name="Cathar Tribes"
 	adjective="Cathar"
 	government="military_junta"
-	flags={cathar_tribes SWGD_START SWGD}
+	flags={cathar_tribes SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Cathar"
@@ -1233,7 +1233,7 @@
 }
 "United Wookiee Clans"
 ={
-	name_list="Wookiee"
+	name_list="MAM3"
 	ship_prefix=""
 	species_name="Wookiee"
 	species_plural="Wookiees"
@@ -1244,7 +1244,7 @@
 	name="United Wookiee Clans"
 	adjective="Wookiee"
 	government="military_junta"
-	flags={wookiee_clans SWGD_START SWGD}
+	flags={wookiee_clans SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Kashyyk"
@@ -1298,7 +1298,7 @@
 	species_bio="The Bothan Council, also known as the Combined Clans and Combined Bothan Clans, is the primary political body of Bothawui and the Bothan species. The Council is composed of members of 608 registered clans, with other clans petitioning for membership. The Council has legislative control over all of Bothan Space. The Council elects one of their own members to serve as First Secretary, also called the Council Chief. "
 	portrait="mam10"
 	name="Combined Bothan Clans"
-	flags={bothan_clans SWGD_START SWGD}
+	flags={bothan_clans SWGD_START custom_start_screen SWGD}
 	adjective="Bothan"
 	government="indirect_democracy"
 	ftl=hyperdrive
@@ -1356,7 +1356,7 @@
 	name="Geonosian Hives"
 	adjective="Geonosian"
 	government="communist_dictatorship"
-	flags={geonosian_hives SWGD_START SWGD}
+	flags={geonosian_hives SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Geonosis"
@@ -1415,7 +1415,7 @@
 	name="Ssi-ruuvi Imperium"
 	adjective="Ssi-ruuvi"
 	government="theocratic_oligarchy"
-	flags={ssi_ruuvi SWGD SWGD_START }
+	flags={ssi_ruuvi SWGD custom_start_screen SWGD_START }
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Lwhekk"
@@ -1473,7 +1473,7 @@
 	name="Kingdom of Onderon"
 	adjective="Onderonian"
 	government="despotic_empire"
-	flags={onderon SWGD SWGD_START}
+	flags={onderon SWGD SWGD_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Onderon"
@@ -1534,7 +1534,7 @@
 	name="Rodian Clans"
 	adjective="Rodian"
 	government="despotic_empire"
-	flags={rodian SWGD SWGD_START}
+	flags={rodian SWGD SWGD_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Rodia"
@@ -1592,7 +1592,7 @@
 	name="Neimoidian Trade Collective"
 	adjective="Neimoidian"
 	government="plutocratic_oligarchy"
-	flags={neimoidian SWGD}
+	flags={neimoidian SWGD SWGD_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Neimoidia"
@@ -1655,7 +1655,7 @@
 	name="Arkanian Dominion"
 	adjective="Arkanian"
 	government="plutocratic_oligarchy"
-	flags={	arkania custom_start_screen SWGD}
+	flags={	arkania custom_start_screen SWGD_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Arkania"
@@ -1715,7 +1715,7 @@
 	name="Echani Command"
 	adjective="Echani"
 	government="military_junta"
-	flags={	echani custom_start_screen SWGD}
+	flags={	echani custom_start_screen SWGD SWGD_START}
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Eshan"
@@ -1774,7 +1774,7 @@
 	name="Taris Civil Authority"
 	adjective="Tarisian"
 	government="plutocratic_oligarchy"
-	flags={taris SWGD_START SWGD}
+	flags={taris custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Taris"
@@ -1831,7 +1831,7 @@
 	name="Haruun Kal Representative Council"
 	adjective="Balawai"
 	government="military_junta"
-	flags={	haruun_kal custom_start_screen SWGD}
+	flags={	haruun_kal custom_start_screen SWGD SWGD_START}
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Haruun Kal"
@@ -1887,7 +1887,7 @@
 	name="Zabrak Council"
 	adjective="Zabrak"
 	government="military_republic"
-	flags={	zabrak_council custom_start_screen SWGD}
+	flags={	zabrak_council custom_start_screen SWGD SWGD_START}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Iridonia"
@@ -1949,7 +1949,7 @@
 	name="Dorin Republic"
 	adjective="Dorin"
 	government="indirect_democracy"
-	flags={	dorin custom_start_screen SWGD}
+	flags={	dorin custom_start_screen SWGD SWGD_START}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Dorin"
@@ -2010,7 +2010,7 @@
 	name="Zygerrian Slave Empire"
 	adjective="Zygerrian"
 	government="despotic_empire"
-	flags={	zygerrian_empire custom_start_screen SWGD}
+	flags={	zygerrian_empire custom_start_screen SWGD SWGD_START}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Zygerria"
@@ -2071,7 +2071,7 @@
 	name="Twi'lek Clan Council"
 	adjective="Twi'lek"
 	government="military_junta"
-	flags={	twilek_clans custom_start_screen SWGD}
+	flags={	twilek_clans custom_start_screen SWGD SWGD_START}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Ryloth"
@@ -2131,7 +2131,7 @@
 	name="Togruta Council"
 	adjective="Togruta"
 	government="peaceful_bureaucracy"
-	flags={	togruta_council custom_start_screen SWGD}
+	flags={	togruta_council custom_start_screen SWGD SWGD_START}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Shili"
@@ -2193,7 +2193,7 @@
 	name="Kingdom of Zeltros"
 	adjective="Zeltron"
 	government="enlightened_monarchy"
-	flags={zeltros_kingdom SWGD_START SWGD}
+	flags={zeltros_kingdom custom_start_screen SWGD_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Zeltros"
