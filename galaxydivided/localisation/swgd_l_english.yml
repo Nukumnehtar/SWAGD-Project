@@ -7,6 +7,8 @@
  name_list_Chiss: "Chiss"
  name_list_Jedi: "Jedi"
  name_list_Mandalorian: "Mandalorian"
+ name_list_Hutt: "Hutt"
+ name_list_Wookiee: "Wookiee"
  TRANS_FLEET_NAME:0 "N.$NUMBER$ Assault Battalion"
  sith: "Sith"
  republic: "Republic"

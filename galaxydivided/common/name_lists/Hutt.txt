@@ -1,0 +1,174 @@
+### Fungoid 2
+### Created by Maximilian Olbers
+
+Hutt = {
+	ship_names = {
+		generic = {
+			Yehm-Guulyeg Yehm-Frahan Yehm-Qiigrud Yehm-Priidgynn Yehm-Taagrid Yehm-Neerolg Yehm-Tuurazh Yehm-Phuetl Yehm-Houtrend Yehm-Yglaagd Yehm-Ruuvgru Yehm-Tiiqup Yehm-Daaremt Yehm-Traguud Yehm-Wootunn Yehm-Raaslurg Yehm-Rehm Yehm-Nargudd Yehm-Fiilyub Yehm-Raasud Yehm-Plourh Yehm-Fleeyup Yehm-Putrieeg Yehm-Shaaluv Yehm-Khaarnob Yehm-Truukend Yehm-Gfaleehn Yehm-Yduumen Yehm-Muldaryyn Yehm-Trooghum Yehm-Beiiyud Yehm-Tiipagh Yehm-Sughraad Yehm-Filgfuul Yehm-Buydool
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}
+		outpost_station = {
+			#random_names = { }
+			#sequential_name = "%O% Frontier Outpost"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Quuwo Fleet" "Qaamara Fleet" "Shanbaloo Fleet" "Hooregh Fleet" "Thuuna Fleet" "Hathurr Fleet" "Lurdoosh Fleet" "Groagsuuh Fleet" "Lishureeh Fleet" "Gleggrot Fleet" "Hahmaar Fleet" "Thuurgla Fleet" "Magralha Fleet" "Qroogm Fleet" "Greelmash Fleet" "Kughsee Fleet"
+		}
+		sequential_name = "%O% Fleet"
+	}
+
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Hutt Defense"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Hutt Assault Group"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Cordyceptic Force"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Hutt Clone Formation"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robo-Hutt Group"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Synthetic Biomass"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% PsychoHutts"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Encroachers"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Slime Molds"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Nal-Felooq Nal-Saphand Nal-Puuligh Nal-Sohoodh Nal-Ghirgaal Nal-Qurliidh Nal-Shondaar Nal-Huquell Nal-Ondareen Nal-Gurhiil Nal-Saromyin Nal-Qoleath Nal-Hulaagh Nal-Sabarandh Nal-Knootheg Nal-Shuugrem Nal-Ularaih Nal-Upaadgh Nal-Seroondh Nal-Faliigh Nal-Sahuul Nal-Pabdoon Nal-Pheedhun Nal-Wuudhal Nal-Woraaq
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Sarzar Zingeth
+"Tritiz Choarg" Jabba Arok Aruk Borvo Drooga Karagga Marlo Oruba Rotta Shuma Suudaa Zorba "Brusud Bwalnud" "Finnehl Khan"
+"Troonjiolb Preeskask""Prerginn Huzz""Krortir Tioshog""Kleltiwne Lith""Farigragg Szuggo""Elguumrik Prirg""Zinee Draqezz"
+"Endid Brios""Smokael Spuffrill""Ruastoalb Lisch""Rursek Fallo""Chombesh Skix""Onna Wisirm""Iomralnuuh Vusk""Ekexish Bunehl""Plengenuhl Sziogg""Sirsill Rechrasch""Wemaex Krul""Glarpos Dirdro""Gruggoek Laz""Whalra Szettesk""Rusask Kruth"
+"Prurzailb Runvub""Chonvorble Sush""Erkonyahl Kluntib""Vorrgunvenn Trirm"			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				Jabba Arok Aruk Borvo Drooga Karagga Marlo Oruba Rotta Shuma Suudaa Zorba
+			}
+			
+			regnal_second_names = {
+				"the Hutt"
+			}
+		}
+	}
+}

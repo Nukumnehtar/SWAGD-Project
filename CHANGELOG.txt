@@ -125,21 +125,126 @@
 #######Version 1.1##########
 ############################
 
--Added in a lot of iconic systems
--Updated some of the interface and icons for SW
--Added in shipyard planet type, used for Kuat.
--Sith Ship models updated
--Updated colours, now have access to 120 colours. (Thanks to Veegi for that)
--Removed ship trails
--New event images
--Added in 5 new loading screens
--Added Dark/Light Side ethics
--Expanded territory/systems for Sith, Mandalorians and Hutts.
--Created compatibility for Ethics & Governments Mod.
--Fixed relative power vassal opinion (Used to be stronger you were the more they hated you)
--added new techs and buildings for habitability and colonies
--added force traits for all leaders and one for species
--Added portraits for Echani, Sith, Korunnai, Chiss.
 
+
+Update 1.1 "The Force Unleashed"
+
+
+##Map
+Added Andeddu’s Keep to Prakith
+Added Kessel, Zakuul and a handful of other systems
+Adjusted The Maw to have no overlapping Black holes and proper system class
+
+##Species & Portraits
+Added new species portraits:
+Echani
+Arkanian
+Korunnai
+Sith
+Kel Dor
+Zabrak
+Imperial
+Togruta
+Twilek
+Zeltron
+Changed republic race to all humans
+Add some gungans to Naboo, so people can purge Binks
+
+##Factions
+Expanded starting Sith territory
+Expanded starting Mandalorian territory
+Expanded starting Hutt territory
+Expanded Jedi territory
+Added new factions for the new races
+You can now find and purge Gungans on Naboo
+Added Quarren to Dac (Mon Calamari)
+Add in new Fallen Empires:
+?Gree
+?Killiks
+Expanded Chiss territory
+Added new Namelist:
+Wookie
+New personalities added:
+Kamino
+Hutts
+
+##UI
+Add new Loading Screens
+Updated Main Menu buttons
+Animated Main menu background
+Hologram effect for icons in main menu
+Changed default space station image to SW themed one IG
+
+##Graphics
+Added in complete ship set for Sith
+Added in complete ship set for Republic
+Added new events images
+Now have access to 120 colours for flags. (Thanks to Veegi for that)
+Removed ship trails
+Models for new buildings
+
+##Technologies
+Added new tech category: The Force
+Added tech chain for The Force with 4 techs
+Added two new habitability techs
+
+##Traits
+Added new species trait: Force Attuned
+Added 3 new Force leader traits for each leader type, with increasing power.
+Ethics
+Added two new Force Ethics:
+Dark Side
+Light Side
+
+Created compatibility and integration for Ethics & Governments Mod.
+Updated empires to new available ethics and governments from Ethic & Governments Mod
+
+##Buildings and Units
+Added 2 new habitability buildings for Asteroid and Molten worlds (Only usable through Alphamod for the moment)
+Added new units for Force Tech Chain:
+Force Acolyte: Basic Force unit
+Force Warrior: Balanced Force unit
+Force Inquisitor: Low HP unit with high morale damage.
+Force Master: Powerful Force unit.
+Added new buildings for Force Tech Chain (names are temporary):
+Force Academy (one per planet)
+Great Academy (one per empire)
+Temple (one per planet)
+Great Temple (one per empire)
+Library (one per planet)
+Great Library (one per empire)
+Tomb (one per planet)
+Great Tomb (one per empire)
+Added new Clone Units:
+Clone Shock Trooper Company
+Clone Paratrooper Company
+Clone Commando Squad
+ARC Trooper Squad
+Added new buildings: Sith Pyramid and Andeddu’s Keep
+
+##Miscellaneous Changes
+Fixed relative power vassal opinion (Used to be that the stronger you were the more they hated you)
+Increased core system cap from 5 to 10
+Added new planet type:
+Shipyard: Provides bonuses to ship production and cost, but drains 15% of energy and mineral credits.
+Added new modifiers:
+Ecumonopolis
+Orbital Shipyard
+Adjusted name to A Galaxy Divided: Star Wars to allow for proper overwriting of other mods
+Improved Hyperdrives:
+Removed penalty when outside friendly territory
+Halved the time for windup
+
+##Bug Fixes
+Fix no ethos pops on homeworlds
+Missing hyperlanes:
+Cilpar
+Turkana
+Tyus Cluster
+Jomark
+Devaron
+Fixed modifiers not appearing on some worlds
+
+ 
 
 
