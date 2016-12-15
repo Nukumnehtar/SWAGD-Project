@@ -1898,8 +1898,8 @@
 	city_graphical_culture="republic_01"
 	empire_flag={
 		icon={
-			category="pirate"
-			file="flag_pirate_10.dds"
+			category="zoological"
+			file="flag_zoological_24.dds"
 		}
 		background={
 			category="backgrounds"
