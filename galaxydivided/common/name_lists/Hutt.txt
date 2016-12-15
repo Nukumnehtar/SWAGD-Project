@@ -145,30 +145,21 @@ Hutt = {
 	### CHARACTERS
 
 	character_names = {
-		default = {
-			# A complete name
-			full_names = {
-				Sarzar Zingeth
-"Tritiz Choarg" Jabba Arok Aruk Borvo Drooga Karagga Marlo Oruba Rotta Shuma Suudaa Zorba "Brusud Bwalnud" "Finnehl Khan"
-"Troonjiolb Preeskask""Prerginn Huzz""Krortir Tioshog""Kleltiwne Lith""Farigragg Szuggo""Elguumrik Prirg""Zinee Draqezz"
-"Endid Brios""Smokael Spuffrill""Ruastoalb Lisch""Rursek Fallo""Chombesh Skix""Onna Wisirm""Iomralnuuh Vusk""Ekexish Bunehl""Plengenuhl Sziogg""Sirsill Rechrasch""Wemaex Krul""Glarpos Dirdro""Gruggoek Laz""Whalra Szettesk""Rusask Kruth"
-"Prurzailb Runvub""Chonvorble Sush""Erkonyahl Kluntib""Vorrgunvenn Trirm"			}
+
+		full_names = {
+			first_names_male = {
+			Aarrba Aggaba Ajuur Amdra Ardustagg Arok Aruk Azzim Bakuush Bana Barabbula Bareesh Bargos Barrga Basuda Beeda Beldorion Belhata Blatta Blotus Bo-Dum Bochaba Bogga BolBol Boonda Boonta Boorka Borvo Brebu Brinojja Broga Brolla Budhila Bwahl Corpo Corugg Dalla Damrosch Darga Direus'Pei Dojundo Dorosii Draskha Dreddon Dreyba Dribba Dromo Droog Drooga Durga Duurga Duuurga Ebor Embra Encaasa Filba Ganis Garblaque Gardulla Gargonn Gebbu Gheeta Giradda Glorga Glorzo Godoba Golga Gorbu Gorbus Gorga Gorgo Gorr Graag Graata Graballa Grakkus Grappa Grejic Grelb Grodo Groodo Groola Grubba Gularg Guttu Herogga Hunvar Huska Ingoda Jabba Jax Jeelta Jelasi Jemba Jiliac Jobwah Jocoro Jolla Jorsooda Jurga Juvard Ka'Pa Kabbura Kalna Kaltho Karagga Kata Khobisho Kibbick Kladak Korrda Kossak Kukul Kurka Kutuab Lagra Leero Leurm Lippi Lokaibus Lungru Mageye Malta Manju Mardoc Marlo Mika Mondo-Mod Moosh Morbiss Morbo Morgra Moshudda Moska Motta Narbuj Nashi Nawnam Noako Noggox Noh Norbo Nooga Nuboocha Nullada Nuubsal Nyarla Offra Omeesh Ooroz Orko Orta Oruba Parella Pazda Pizza Plorbaas Popara Portho Prall Prebda Prodoranya Progga Puullo Qibbu Qiltakka Quaffug Randa Rask Raskurro Ribba Riboga Rigorra Rokko Rotta Shala Shebba Shettora Shiltu Shizu Shuma Sibarra Skeedo Smada Smebba Soergg Sonnos Spadda Splugorra Subo  Suuda Suudaa Szajin Tagoonta Tagta Tanda Teemo Teubbo  Thakba Tiranga Tirello Tobba Toborro Toobu Tooga Torga Torphus Torpo Troonol Truugo Tuwas Ungo Urdruua Uta Vago Vedo Velrugha Vogga Voontara Voras Voromuzz Walla Wallanooga Whuddle Wolga Wordro Wunda Yanth Yantuh Ybann Yenchara Zavval Zax Zier Zirchros Ziro Zobara Zochaeb Zodoh Zonnos Zorba
+				}
 			
-			# Always combined with a second name
-			first_names = {
+			first_names_female = {
+			Anachro Borga Churabba Decca Draba Drixo Gardulla Jiliac Jool Krova Kumac Mama Mennac Natja Niima Prello Sassallo Shalera Sutha Tassaa Zietta
+			Aestaith Ahemait Arronda Astella Bel Birthia Blith Blobella Blolba Blubba Blulla Blursa Celathe Chungrirg Daagri Dinabu Emesu Emeu Gajjuzz Holdoeth Idde Iddurpom Jassi Jatheel Jussi Khuskha Kistilb Klim Kualajjaeb Loewnerrbihl Lolduntee Mioshu Moongroess Morpalta Neggoh Ooalah Othe Parla Plemess Pluumbuanya Proki Pugriorzihl Puki Qileffinn Qunjess Rabdaakeh Rarpe Renyaisch Rooppi Rotundha Saphfiri Shenda Sherrbis Skilnoo Skolnirchra Smessoohl Sorge Tatja Tawarit Ualtitith Uardusch Uddliah Ughaelle Vuuwoo Wappa Whomri Worrbona Wurkeskiss Yotjo Yush Zeli Zinoobah Zooltah
+	 			}
+
+		second_names = {
+			Desilijic "Desilijic Tiure" "Desilijic Aarrpo" "Desilijic Tiron" "Desilijic Preor" "Desilijic Kalshi" "Desilijic Ebelt" Vanderijar Kaltemmic Masrii Urdosh Qunaalac Jiramma "Jiramma Baco" "Jiramma Mionne" Hestilic "Hestilic Amura" "Hestilic Shad'ruu" Besadii "Besadii Aora" "Besadii Diori" "Besadii Fir" "Besadii Tai" Bareesh Fenn'ak "Fenn'ak Torill" Gejalli "Gejalli Thokka" Anjiliac "Anjiliac Atirue" "Anjiliac Chiera" "Anjiliac Diresto" "Anjiliac Priare" Dalo Dunk Fa'athra Inijic "Inijic Ar'durv" Nem'ro Nokko "Nokko Vimmas" Illip "Illip Oggurobb" Gorensla Thok Jallissi "Jallissi Gral" Vermilic "Vermilic Scaiti" Vosadii "Vosadii Bezhin"
 			}
-			
-			# Always combined with a first name
-			second_names = {
-			}
-			
-			regnal_first_names = {
-				Jabba Arok Aruk Borvo Drooga Karagga Marlo Oruba Rotta Shuma Suudaa Zorba
-			}
-			
-			regnal_second_names = {
-				"the Hutt"
-			}
+
 		}
-	}
+	}		
 }
