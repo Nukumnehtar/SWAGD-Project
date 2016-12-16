@@ -1,0 +1,619 @@
+ namespace = republic_politics
+ 
+ #Centralize Republic
+ 
+ planet_event = {
+	id = republic_politics.1
+	title = republic_politics.1.name
+	desc = republic_politics.1.desc
+	location = ROOT
+	picture = GFX_evt_senate_building
+	
+	is_triggered_only = yes
+option = {
+		name = republic_politics.1.a
+		custom_tooltip = "Set Member Policies"
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.2 }
+				
+				
+				}
+			}
+	option = {
+		name = republic_politics.1.b
+		custom_tooltip = "Set Taxation Laws"
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.3 }
+				
+				
+				}
+			}
+option = {
+		name = republic_politics.1.c
+		custom_tooltip = "Centralization Laws"
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.4 }
+				
+				
+				}	
+			}
+			option = {
+		name = republic_politics.1.d
+		custom_tooltip = "End this session."
+		ai_chance = { 
+			factor = 100
+			}
+			}		
+			
+}
+
+
+###Set Policies
+
+ planet_event = {
+	id = republic_politics.2
+	title = republic_politics.2.name
+	desc = republic_politics.2.desc
+	location = ROOT
+	picture = GFX_evt_senate_2
+	
+	is_triggered_only = yes
+	
+option = {
+		name = republic_politics.2.a
+		custom_tooltip = "Allows you to set member states' war policies."
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.200 }
+				
+				
+				}
+			}
+	option = {
+		name = republic_politics.2.b
+		custom_tooltip = "THIS FEATURE HAS NOT YET BEEN ADDED"
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.2 }
+				
+				
+				}
+			}
+option = {
+		name = republic_politics.2.c
+		custom_tooltip = "THIS FEATURE HAS NOT YET BEEN ADDED"
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.2 }
+				
+				
+				}	
+			}
+option = {
+		name = republic_politics.2.d
+		custom_tooltip = "THIS FEATURE HAS NOT YET BEEN ADDED"
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.2 }
+				
+				
+				}
+			}
+			
+option = {
+		name = republic_politics.2.e
+		custom_tooltip = "Return to previous options."
+		ai_chance = { 
+			factor = 100
+			}
+			
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.1 }
+				
+				
+				}
+			}		
+}			
+
+
+planet_event = {
+	id = republic_politics.3
+	title = republic_politics.3.name
+	desc = republic_politics.3.desc
+	location = ROOT
+	picture = GFX_evt_galactic_senate
+	
+	is_triggered_only = yes
+	
+option = {
+		name = republic_politics.3.a
+		custom_tooltip = "THIS FEATURE HAS NOT YET BEEN ADDED. WILL ONLY EFFECT SUBJECTS NOT ALLIES"
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.3 }
+				
+				
+				}
+			}
+	
+			
+option = {
+		name = republic_politics.3.b
+		custom_tooltip = "Return to previous options."
+		ai_chance = { 
+			factor = 100
+			}
+			
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.1 }
+				
+				
+				}
+			}		
+			
+
+}
+
+
+
+
+ planet_event = {
+	id = republic_politics.200
+	title = republic_politics.200.name
+	desc = republic_politics.200.desc
+	location = ROOT
+	picture = GFX_evt_republic_troops
+	
+	is_triggered_only = yes
+	
+option = {
+		name = republic_politics.200.a
+		custom_tooltip = "These laws assure that member states will refrain from belligerent actions but will facilitate self-defense when necessary."
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.201 }
+				
+				
+				}
+			}
+	option = {
+		name = republic_politics.200.b
+		custom_tooltip = "The Republic will not lay aside while innocent are slaughtered. These new laws will allow us to intervene in situations that may save lives."
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.202 }
+				
+				
+				}
+			}
+option = {
+		name = republic_politics.200.c
+		custom_tooltip = "Long has bureaucracy stood in the way of saving innocent lives. With these new laws we will be capable of declaring war on any nation should it be in the Republic's interests."
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.203 }
+				
+				
+				}	
+			}
+			
+option = {
+		name = republic_politics.200.d
+		custom_tooltip = "Return to previous options."
+		ai_chance = { 
+			factor = 100
+			}
+			
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.1 }
+				
+				
+				}
+			}		
+}			
+
+
+
+
+
+planet_event = {
+	id = republic_politics.201
+	title = republic_politics.201.name
+	desc = republic_politics.201.desc
+	location = ROOT
+	picture = GFX_evt_galactic_senate
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+	ai_chance = { 
+			factor = 100
+			}
+		name = republic_politics.201.a
+		custom_tooltip = "Derp."
+		
+	hidden_effect = {
+		every_country = {
+			limit = { has_country_flag = coruscant }
+			save_global_event_target_as = coruscant
+		}
+				
+			every_country = {
+			limit = { is_in_federation_with = event_target:coruscant
+				NOT = { has_country_flag = jedi_council }			}
+			
+			set_policy = {
+			policy = war_philosophy 
+			option = "no_wars"
+			cooldown = yes
+		}
+			
+		}
+		}
+		
+		
+	}
+
+}
+
+planet_event = {
+	id = republic_politics.202
+	title = republic_politics.202.name
+	desc = republic_politics.202.desc
+	location = ROOT
+	picture = GFX_evt_galactic_senate
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+	ai_chance = { 
+			factor = 100
+			}
+		name = republic_politics.202.a
+		custom_tooltip = "Derp."
+		
+	hidden_effect = {
+		every_country = {
+			limit = { has_country_flag = coruscant }
+			save_global_event_target_as = coruscant
+		}
+				
+			every_country = {
+			limit = { is_in_federation_with = event_target:coruscant
+				NOT = { has_country_flag = jedi_council }			}
+			
+			set_policy = {
+			policy = war_philosophy 
+			option = "liberation_wars"
+			cooldown = yes
+		}
+			
+		}
+		}
+		
+		
+	}
+
+}
+
+planet_event = {
+	id = republic_politics.203
+	title = republic_politics.203.name
+	desc = republic_politics.203.desc
+	location = ROOT
+	picture = GFX_evt_galactic_senate
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+	ai_chance = { 
+			factor = 100
+			}
+		name = republic_politics.203.a
+		custom_tooltip = "Derp."
+		
+	hidden_effect = {
+		every_country = {
+			limit = { has_country_flag = coruscant }
+			save_global_event_target_as = coruscant
+		}
+				
+			every_country = {
+			limit = { is_in_federation_with = event_target:coruscant
+				NOT = { has_country_flag = jedi_council }			}
+			
+			set_policy = {
+			policy = war_philosophy 
+			option = "unrestricted_wars"
+			cooldown = yes
+		}
+			
+		}
+		}
+		
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+##Set Centralization level
+
+
+planet_event = {
+	id = republic_politics.4
+	title = republic_politics.4.name
+	desc = republic_politics.4.desc
+	location = ROOT
+	picture = GFX_evt_senate_1	
+	is_triggered_only = yes
+	
+option = {
+		name = republic_politics.4.a
+		custom_tooltip = "Turns all current federation members into subjects, they may do indepedent diplomacy, can not colonize and will not drag you into wars but will join yours. The Jedi Council is excluded from this process."
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.401 }
+				
+				
+				}
+			}
+	option = {
+		name = republic_politics.4.b
+		custom_tooltip = "Places all Federation members' non-capital worlds under your control. It also turns all current federation members into subjects, they may do indepedent diplomacy, can not colonize and will not drag you into wars but will join yours. The Jedi Council is excluded from this process."
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.402 }
+				
+				
+				}
+			}
+option = {
+		name = republic_politics.4.c
+		custom_tooltip = "Grants you full control over all planets and fleets of all current federation members. The Jedi Council is excluded from this process."
+		ai_chance = { 
+			factor = 100
+			}
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.403 }
+				
+				
+				}	
+			}
+			
+option = {
+		name = republic_politics.4.d
+		custom_tooltip = "Return to previous options."
+		ai_chance = { 
+			factor = 100
+			}
+			
+			hidden_effect = {
+				
+					planet_event = { id = republic_politics.1 }
+				
+				
+				}
+			}		
+			
+
+}
+
+ planet_event = {
+	id = republic_politics.401
+	title = republic_politics.401.name
+	desc = republic_politics.401.desc
+	location = ROOT
+	picture = GFX_evt_galactic_senate
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+	ai_chance = { 
+			factor = 100
+			}
+		name = republic_politics.401.a
+		custom_tooltip = "Derp."
+		
+	hidden_effect = {
+		every_country = {
+			limit = { has_country_flag = coruscant }
+			save_global_event_target_as = coruscant
+		}
+		
+		every_country = {
+			limit = { is_in_federation_with = event_target:coruscant
+			NOT = { has_country_flag = jedi_council }
+			 }
+			
+			
+			set_subject_of = {
+				who = event_target:coruscant
+				subject_type = core_member
+			}
+			}
+			every_country = {
+			limit = { is_in_federation_with = event_target:coruscant }
+			set_policy = {
+			policy = slavery
+			option = slavery_not_allowed
+			cooldown = yes
+		}
+		set_policy = {
+			policy = purge
+			option = purge_not_allowed
+			cooldown = yes
+		}	
+		}
+		
+		
+	}
+	
+		
+		
+	}
+}
+
+
+planet_event = {
+	id = republic_politics.402
+	title = republic_politics.402.name
+	desc = republic_politics.402.desc
+	picture = GFX_evt_galactic_senate
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = republic_politics.402.a
+		custom_tooltip = "Derp."
+		
+	immediate = {
+		every_country = {
+			limit = { has_country_flag = coruscant }
+			save_global_event_target_as = coruscant
+		}
+		
+		every_country = {
+			limit = { is_in_federation_with = event_target:coruscant
+				NOT = { has_country_flag = jedi_council }
+				NOT = { is_ai = no }
+				}
+		every_owned_planet = { 
+				limit = { is_capital = no }
+				set_owner = event_target:coruscant 
+			}	
+			every_owned_fleet = {
+				limit = { is_ship_class = shipclass_outpost_station	}
+				set_owner = event_target:coruscant
+				set_controller = event_target:coruscant
+			}
+						
+			set_subject_of = {
+				who = event_target:coruscant
+				subject_type = core_member
+			}
+			
+		}
+		}
+		
+	}
+	
+			
+	}
+planet_event = {
+	id = republic_politics.403
+	title = republic_politics.403.name
+	desc = republic_politics.403.desc
+	picture = GFX_evt_galactic_senate
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = republic_politics.403.a
+		custom_tooltip = "Derp."
+		
+	immediate = {
+		every_country = {
+			limit = { has_country_flag = coruscant }
+			save_global_event_target_as = coruscant
+		}
+		
+		every_country = {
+			limit = { is_in_federation_with = event_target:coruscant
+				NOT = { has_country_flag = jedi_council }
+				NOT = { is_ai = no }
+				}
+			
+			every_owned_fleet = {
+				limit = { is_ship_class = shipclass_outpost_station	}
+				set_owner = event_target:coruscant
+				set_controller = event_target:coruscant
+			}
+			every_owned_fleet = {
+				limit = {
+					is_inside_border = event_target:coruscant
+					OR = {
+						is_ship_class = shipclass_mining_station	
+						is_ship_class = shipclass_research_station						
+						is_ship_class = shipclass_observation_station
+						is_ship_class = shipclass_military_station
+						is_ship_class = shipclass_science_ship
+						is_ship_class = shipclass_construction_ship
+						is_ship_class = shipclass_corvette
+						is_ship_class = shipclass_destroyer
+						is_ship_class = shipclass_cruiser
+						is_ship_class = shipclass_battleship
+					}
+				}
+				set_owner = event_target:coruscant
+				set_controller = event_target:coruscant
+			}
+			every_owned_planet = { 
+				limit = { is_capital = yes }
+				set_owner = event_target:coruscant 
+			}
+			
+						
+		}
+		}
+		
+	}
+	
+			
+	}

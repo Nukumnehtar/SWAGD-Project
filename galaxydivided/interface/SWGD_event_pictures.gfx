@@ -8,3 +8,45 @@ spriteTypes = {
 	}
 	
 }
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_senate_1"
+		texturefile = "gfx/event_pictures/senate_1.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_senate_2"
+		texturefile = "gfx/event_pictures/senate_2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_senate_building"
+		texturefile = "gfx/event_pictures/senate_building.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_republic_troops"
+		texturefile = "gfx/event_pictures/republic_troops.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}

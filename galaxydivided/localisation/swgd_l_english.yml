@@ -18,6 +18,11 @@
  SWGD_HUMANOID: "Humanoid"
  SWGD_MAM_1: "Hairless Mammalian"
  
+ edict_centralize_republic:0 "Call Extraordinary Session"
+ edict_centralize_republic_desc:1 "The Supreme Chancellor calls a special meeting of the Galactic Senate, in which every senator is under the obligation to attend.\n\n"
+ SUBJECT_core_world:0 "Core World"
+ SUBJECT_core_world_desc:0 "A member of the Galactic Republic."
+ 
  force_adept:0 "Force Adept"
  force_adept_plural:0 "Force Adepts"
  force_adept_desc:0 "A Force Adept is a Force-sensitive individual still in training, most often they serve under a more experienced force-user."

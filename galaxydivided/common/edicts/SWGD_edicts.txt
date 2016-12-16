@@ -2,23 +2,20 @@
 # Empire edicts
 ##########################################################################
 
-country_edict = {
-	name = "centralise_republic"
+planet_edict = {
+	name = "centralize_republic"
 	modifier = {
 		
 	}
+	influence_cost = 0
 	length = 1
-	influence_cost = 1
-		
 	allow = {
-		
-			has_country_flag = coruscant
+			is_capital = yes
+			#has_country_flag = coruscant
 		
 	}
 	effect = {
-		set_country_flag = centralise_republic
-		
-		
+		planet_event = { id = republic_politics.1 }
 	}
 	
 }
