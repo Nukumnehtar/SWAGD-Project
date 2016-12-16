@@ -353,12 +353,13 @@
 		texture=0
 		hair=5
 		clothes=4
-		ruler_title="Chancellor"
-		ruler_title_female="Chancellor"
+		ruler_title="Supreme Chancellor"
+		ruler_title_female="Supreme Chancellor"
 	}
 	spawn_enabled=always
 	ethic="ethic_fanatic_individualist"
 	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"

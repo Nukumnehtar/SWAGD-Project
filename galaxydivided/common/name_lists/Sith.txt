@@ -223,69 +223,36 @@ Sith = {
 			weight = 25
 		
 			first_names_male = {
-				  Darth 
+				Darth 
 				}
 			first_names_female = {
-			 Darth 
-				
+			 	Darth 
 			}
-			second_names = { 
-				Andeddu Bane Caedus Desolous Krayt Maladi Malak Malgus Nihilus
-				Nihl Phobos Plagueis Rivan Ruin Sion Talon Traya Tenebrous Tyranus Vader Wyrrlok
-				Zannah Sadow Nadd Qel-Droma Kun Pall Glovoc Mekhis Lachris Thanaton Mekhis Marr 
-				Minax Angral Baras Chratis Kressh Scourge Karrid Howl Tarnis Serrok Jaga Thul Bandon Voren
-				Acharon Andru Angral Arctis Decimus Cendence Ekkage Iratus Jadus Synar Vengean Lydeck
-				Tiberius Vowrawn Zhorrid Galaksi Mortis Ravage Nyriss Ouzal Morias
-				Scabrous Skotia Torment Xalek Zyn Calphayus Renning Skar harkun Althe Andru Arzanon Hord Val 
-				
+			second_names_male = { 
+				Abaron Acharon Adas Ajunta Andeddu Andreaus Arctis Ardran Arho Arkous Aruk Avarok Avorr Azamin Bane Baous Baras Bensyn Borthis Caedus Chaskar Cherkolotar Cyrisop Cytharat Dathka Davorak Davros Decimus Desolous Domoru Dor Doruk Dramath Drophan Elcho Engdo Fa'ann Ffon Galall Gorgos Gravid Hakagram Hamar Hestus Hezzoran Horak-mul Howl Igrol Ikoral Jadus Jekhop Kahesh Kalgrath Kantale Karnak Kherus Komok-Da Krannus Kurse Kyyrah Lorus Los Ludo Luthro Malak Malaphar Maraad Marka Marr Materrus Mathiren Millennial Mortis Naga Nihilus Nox Oarr Ogun Orazio Orilltha Paladius Paolen Plagueis Praven Qalar Quux Ramage Rasche Raspir Ravage Ravilan Ra-Zyrth Remulus Rhexa R'hoteb Rictus Rnthmyr Ruin Sajar Scourge Sechel Sek'nos Serevin Serrod Shar Shenayag Sidious Silas Simus Soverus Sylen Tanzu Tenebrae Tenebrous Tetsu Thanaton Thok Torius Tormen Trayus Tulak Twintan Tyranus Uthar Vader Vectivus Venamis Vengean Vex Victun Vincine Vindican Vitiate Vodal Vowrawn Wyrrlok Xedrix Xynso Yshaar Za'heen Zavakon Zythmnr
 			}  		
-		
-			
+			second_names_female = { 
+				Acina Alarii Arosh Athelis Broodica Chane Cognus Desora Ekkage Exal Fahren Gean Gorgos Hadra Hareth Ishla Jael Karrid Keryha Krovos Ladra Lesi Lokess Lorain Loun Lumiya Mekhis Miarta Minax Nyriss Rora Samara Sathel Saviel Shaar Sorzus Synar Talon Trok Valik Wei'val Xiang Yarri Zannah Zash Zavrasha Zhorrid
+				Asiriny Axiqia Azromiu Azukuo Brotmi Chodcua Cihrael Cikke Daxia Dhokiatiuth Domkua Driplan Eqaxliu Equia Eslurae Gelruorius Gralaty Guvasy Ibatte Isakri Isapi Jedialyr Kelae Kivmi Kuhal Matkae Mekiux Mirzotiuth Modiu Ovokuam Repae Rheatcias Salwia Shihsith Slexox Taerga Terriu Tisua Tovea Ubiva Umogia Umogish Uvuxlish Uyusia Vavisiuth Vlamta Vrurtol Walea Wanvia Wravla Xapea Xupmetiuth Yana Yaxae Yexi Zaxiuty Zhoha Zodlush Zrekua
+			}  	
 		}
 		
 		names2 = {
 			weight = 70
 		
 			first_names_male = {
-				  Lord 
+				Abaron Acharon Adas Ajunta Andeddu Andreaus Arctis Ardran Arho Arkous Aruk Avarok Avorr Azamin Bane Baous Baras Bensyn Borthis Caedus Chaskar Cherkolotar Cyrisop Cytharat Dathka Davorak Davros Decimus Desolous Domoru Dor Doruk Dramath Drophan Elcho Engdo Fa'ann Ffon Galall Gorgos Gravid Hakagram Hamar Hestus Hezzoran Horak-mul Howl Igrol Ikoral Jadus Jekhop Kahesh Kalgrath Kantale Karnak Kherus Komok-Da Krannus Kurse Kyyrah Lorus Los Ludo Luthro Malak Malaphar Maraad Marka Marr Materrus Mathiren Millennial Mortis Naga Nihilus Nox Oarr Ogun Orazio Orilltha Paladius Paolen Plagueis Praven Qalar Quux Ramage Rasche Raspir Ravage Ravilan Ra-Zyrth Remulus Rhexa R'hoteb Rictus Rnthmyr Ruin Sajar Scourge Sechel Sek'nos Serevin Serrod Shar Shenayag Sidious Silas Simus Soverus Sylen Tanzu Tenebrae Tenebrous Tetsu Thanaton Thok Torius Tormen Trayus Tulak Twintan Tyranus Uthar Vader Vectivus Venamis Vengean Vex Victun Vincine Vindican Vitiate Vodal Vowrawn Wyrrlok Xedrix Xynso Yshaar Za'heen Zavakon Zythmnr
 				}
 			first_names_female = {
-				Lady 
-				
+				Acina Alarii Arosh Athelis Broodica Chane Cognus Desora Ekkage Exal Fahren Gean Gorgos Hadra Hareth Ishla Jael Karrid Keryha Krovos Ladra Lesi Lokess Lorain Loun Lumiya Mekhis Miarta Minax Nyriss Rora Samara Sathel Saviel Shaar Sorzus Synar Talon Trok Valik Wei'val Xiang Yarri Zannah Zash Zavrasha Zhorrid
+				Asiriny Axiqia Azromiu Azukuo Brotmi Chodcua Cihrael Cikke Daxia Dhokiatiuth Domkua Driplan Eqaxliu Equia Eslurae Gelruorius Gralaty Guvasy Ibatte Isakri Isapi Jedialyr Kelae Kivmi Kuhal Matkae Mekiux Mirzotiuth Modiu Ovokuam Repae Rheatcias Salwia Shihsith Slexox Taerga Terriu Tisua Tovea Ubiva Umogia Umogish Uvuxlish Uyusia Vavisiuth Vlamta Vrurtol Walea Wanvia Wravla Xapea Xupmetiuth Yana Yaxae Yexi Zaxiuty Zhoha Zodlush Zrekua
 			}
 			second_names = { 
-				Andeddu Bane Caedus Desolous Krayt Maladi Malak Malgus Nihilus
-				Nihl Phobos Plagueis Rivan Ruin Sion Talon Traya Tenebrous Tyranus Vader Wyrrlok
-				Zannah Sadow Nadd Qel-Droma Kun Pall Glovoc Mekhis Lachris Thanaton Mekhis Marr 
-				Minax Angral Baras Chratis Kressh Scourge Karrid Howl Tarnis Serrok Jaga Thul Bandon Voren
-				Acharon Andru Angral Arctis Decimus Cendence Ekkage Iratus Jadus Synar Vengean Lydeck
-				Tiberius Vowrawn Zhorrid Galaksi Mortis Ravage Nyriss Ouzal Morias Scabrous Skotia
-				Torment Xalek Zyn Calphayus Renning Skar harkun Althe Andru Arzanon Hord Val 
+				" " Althe Breesh Dakhan Dantos Dilaatuem Dor Dreypa Gal-ram Gapuois Garahe Graush Hord Jaj Kael Kallis Kaur Kempar Kodank Kressh Krev Pall Ragnos Rath Sadow Seake Sek Syn Taliav Tetsu Thos Wroth Yun'weah
 			 		}  	
 			
 			
 		}
-		names3 = {
-			weight = 5
-		
-			first_names_male = {
-				  Apprentice 
-				}
-			first_names_female = {
-				Apprentice 
-				
-			}
-			second_names = { 
-				Andeddu Bane Caedus Desolous Krayt Maladi Malak Malgus Nihilus
-				Nihl Phobos Plagueis Rivan Ruin Sion Talon Traya Tenebrous Tyranus Vader Wyrrlok
-				Zannah Sadow Nadd Qel-Droma Kun Pall Glovoc Mekhis Lachris Thanaton Mekhis Marr 
-				Minax Angral Baras Chratis Kressh Scourge Karrid Howl Tarnis Serrok Jaga Thul Bandon Voren
-				Acharon Andru Angral Arctis Decimus Cendence Ekkage Iratus Jadus Synar Vengean Lydeck
-				Tiberius Vowrawn Zhorrid Galaksi Mortis Ravage Nyriss Ouzal Morias Scabrous Skotia Torment
-				Xalek Zyn Calphayus Renning Skar harkun Althe Andru Arzanon Hord Val 
-			 		}  	
-			
-			
-		}
+
 	}	
 }
