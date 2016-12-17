@@ -233,72 +233,20 @@ sw_hu = {
 
 	character_names = {
 
-		names1 = {			
+		full_names = {			
 			first_names_male = {
-				 Bail Ylenic Kel Gunn Gregory  Abraxis Jonas Xerda Carth Kir Mebba Dagos Adam  Kyle Forren Malcolm Jeho 
-				 Lee  Griggs Milo Aeron  Byrec Strata Lancer Zeak Niuk Lavidean Tanizandar Japla  Aran Rail Zeven Yakown 
-				 Sibar Sair Klai Jonas  Imay Traest Simo Carth Riyan Magnus Boceta Agnook Silus Rowan Coren Jett Linth Annor
-				Ulas Fenn Tal Plo Torin Imay Boone Davith Jorgen Bertos Ress Malius
-				Kale Cregan Galen Zekk Jinn-Tu Jaryn Gentti Yu-Sien Akela Arslan
-				Sidias Haken Biran Vidown Ares Ithan Cul-utaan Thoja Cron Mossi
-				Abric Darg Gaman Naiad Herub Marius Torkin Caton Kane Versita
-				Cric Foxdi Montacca Jospi Baz Kam Erek Arslan Lerak Morla Baxter
-				Talan Thion Kannon Corsair Caster Elden Faelgrom Jack Raltharan
-				Flash Waseem Bendak Kaz Montileu Gonoga Silus Galven Vincenzo Ric
-				Rebar Jebediah Aramil Abraxis Delmi Caalin Rassth Adorn Cyrus
-				Zhar-Khan Adam Predor Tarlson Boaz Bradley Gunn Raltharan Zerrid Bobecc
-				Jelantos Jephego Svante Tesvalo Aeon Dekar Jean-Francois Elen Han Owen
-				Biggs				 
+				Alek Almec Arcann Argin Bail Cassian Cumberlayne Jeron Jon Raymus Wedge
+				Aach Aagon Aalto Aambler Abadaner Aban Abbus-Kelo Acan Ace Acharon Achelon Adalric Adambo Adame Adar Addi'shon Adelhard Adem Aden Admiral Adon-larr Adraas Adrenas Adrick Adun Aeron Afyon Aggadeen Agrippa Airten Ajaan Ajolin Akaste'vel Akobi Alain Alarik Albathius Alcra Alder Alec Alekam Alethios Alger Algrunar Ali-Alann Alif Alim'Gen Alin Alix Alkhara Allia Almak Alon Alozen Alph Alric Altaca Althon Alto Alwynn  Amara Amber Ament Amis Ammon Amzartho Anabar Anarine Anathemos Andan Anders Ando Andra Andrew Andrid Andrik Andru Angral Anlen Anod Anselm Anskow Anson Antayen Antona Antone Antonin Anuli Arac Arakkus Ar'al Aramis Armen Arastide Arber Ardon Ardot  Avinoam B'arin Baylis Beel Belth Bix Blix Boz Braedon Brixus Bryn Cal Cessius Chik Collin Darrus Daymont Deredith Det Djinn Dom Druth Ethan Galiir Gathal Gez Griff Haemon Jae Jagged Jefand Jeg Jesper Jorm Karl Kel Koffi Laetin Lazlo Lithio Mathieu Maxiron Mikos Nahdonnis Osak Paddy Peema Peita Pellas Prewb Raar Rage Ras Reez Rel Rixes Rodo Ruceba Ryley Seraph Sim Tannon Tavid Tavion Tehlan Tendis Tev Tiberus Toob Tor Tren Turon Uri-Los Villis Vol Wain Wes Y'ull Zeen
 				}
 			first_names_female = {
-			Julia Charratha Edaara Bella Callista Mara Seena Areta Cord Cyrinity Nile 
-			Kiyfi Yasmyn Satra Shehish Sarna Krava Roxis Jessa Aqua Maryna Essaj Looriw 
-			Teeana Raena Yula Vifi Vania Jeanida Aerena Nataya Bernarda Geela Lya Sirra Teris Terral Nile
-				Riema Erri Shanna Lyra Pranda Luna Cally Viqi Hadriel Lora Selena Zana
-				Tuija Railin Odona Shyon Walas Rylla Gara Delos Loretta Luhon Delinia
-				Aama Shorya Melfina Davessi Larana Galatea Nola Syna Jauhzmynn Anen Orona
-				Yana Zoras Ree Grace Tantema Myn Una Dalharil Losa Sovi Elaiza Vucora
-				Ava Joi Stryka Tantema Shandra Kely Caileta Taia Siala Reki Maydla Bot
-				Kiandra Xilaren Zulara Ren Karissa Roxis Haruko Jenna Liana Rale Megara
-				Aria Akiva Nalah Erlem Nali Fallah Kotrana Aayla Kalira Arani Fama Lyyr
-				Arcas Rane Nayru Zylas Vexa Kana Beru
-				
+				Amanoa Aphra Padmé Zannah
+				Aaida Aari Acina Ackmena Ada Adana Adnama Aeran Aereena  Agatha Agira Ahlya Aimee Airen Akindra Albea Aldiae Alianda Alinta Alisia Allania Allara Allura Allya Alma Alora Altiss Alva Alvena Alya Alyak Amaya Amber Amee Amie Amni Amy An'bal Anandra Anarq Anda Andra Anga Angela Annissya Anora Ansween Anyarah Anyul Aral  Balia Celana Corellia Corinna Darial Deara Derrica Duala Elga Emppu Facet Feylis Grinte Henrietya Iella Jess Jioie Jord Kaiya Kandria Ketrian Lesle Lomina Lysa Maelrich Maree Margani Mari Merish Momi Myri Nala Nalia Nia Olianna Ona Onnelly Orqiti Pabel Quillara Renalda Renata Salia Soara Syal Talena Terena Tess Tresten Turi Tyla Varin Venra Zena
 			}
 			second_names = { 
-				Elysar Tisa Wahia Wezz Unic Tiovata Nakcohh Vitaan Mefrid Daklan Kenzee Joben Thegas Moryne Holgor 
-				Ijaaz Tromans Sprax Knesos Magnus Lasek Artis Pax Corso Fallon Gundo Ruana Fremlin Thont 
-				Creel Rar Dusat Kessler Shaia El-Theriam VanMeer Vrieska Calway Yamaguchi Riggers Brower Fash Nalto
-				Stryder Dubreas Colsan Terrek Solon Merquise Varn Basai Froud
-				Addacess Elysar Durgen Slahlvo Remex Madowki Hayes Ne Dago Greenback
-				Stithta Ker Driet Klakk Reed Lefex Minn Irokini Roye Danakar Forin
-				Glopio Shenuri Corcer Ordo Wan Tagratt Golladio Adramcsia Jetberg Noth
-				Taske Komo Styles Angavel Tyrnith Yavoog Kelbier Racto Degor Tisa Magre
-				Soylon Lerann Chro Finn Blackmoor Hwang Vekarr Thegas Amon Thiddex Durgen
-				Selkayim Gilder Dhuramav Kodd Morin Kobylarz Tade Solman Bintaghr Marclonus
-				Precore Solborne Bailer Katarn Anjek Dalgas Kast Airerith Halo Tade Clash
-				Jalba Benn Haruhana Roice Lokar Korpil Turon Cavi Deece Braitano Garnik
-				Tyandas Ka'Taramas Nuwest Forte Noshey Gyyll Tallon Lionne Adras Fremlin
-				Peoly Damiel Chup-Pau Drayven Zaposug Bela-Trepada Defelice Monsula Baralein
-				Denive Hodrren Xergo Sarat Vercet Ossaki Kappa Zerga Kopos Aldrecht Bohme
-				Tull Eldrel Marh Darksword Krandor Montag Dimodan Starfallen Artis Fett
-				Mohebbi Runalian Binette Laurent Mavr Ryra Truden Solo Lars
-				Amedda Amidala Andrell Annon Antilles Atanna Baab Barc Bonteri
-				Breemu Bremack Bronk Burtoni Cadaman Callen Clovis Ledwellow Dio
-				Organa
+				Amidala Andor Antilles Apailana Aradan Aresko Naberrie Relik Skywalker Starkiller Sunrider
+				" " Aabe Abias Accu Acib Acoi Acton "Ac Yandar" A'Daasha Adala Adannon Adare Addar Addle Adea Adeen Aden Adollu Adrimetrum Afit Agai'i Agareth  Agolerga Agri Ahid Ahkoeri Ahot Ahuff Aidu Akura Alburass Alde Alder Aldine Aldrete Aleece Algwinn Alima Allashane Alloo Allusis Aloo Altamik Altax Altis Altronel Alvar Alvic Alze Amberson Amithest Anager Anamor Ancher Ancia Ancum Andal Anderlock Andreya Andromias Andsof Anec Aneofo Ange Anglethorn Annix Annon Antab Antana Antin Antyll Anyell Apice Apla Apma Appleton Arabella Aramatha Arana Arandis Arbo Archan Ardan Ardax Ardele Arden Arden-Govia Ardiff Ardine Ardle Ardmore Ardran Arelis Argdran Argen Argo  A'shera Brandl Cressen Dunter Jakien Kraeff Milon Motti Nyrat Ponnar Praji Trask Tukor "Vel Aath" Viest Wessiri
 			}  
 			
-		
-			regnal_first_names_male = {
-				Kam Erek Arslan Lerak Morla Mas Wain Bail Gabrial Dewell Tanner Vi Rush Danry
-			}
-			regnal_first_names_female = {
-				Callista Mara Seena Areta Padmé Fema Mina Bana Tyreca Halle Lexi Leia Alyssa Leanna Arya 
-			}
-			regnal_second_names = {
-				Amedda Amidala Andrell Annon Antilles Atanna Baab Barc Bonteri
-				Breemu Bremack Bronk Burtoni Cadaman Callen Clovis Ledwellow Dio						
-						Panteer Alde Organa Frayus Cortess Killesa
-			}
 		}
 	}	
 }
