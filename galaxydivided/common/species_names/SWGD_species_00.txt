@@ -135,7 +135,7 @@ SWGD_HUMANOID = {
 		plural = Twi'lek
 		home_planet = Ryloth
 		home_system = Ryloth
-		name_list = "MAM1"
+		name_list = "Twileks"
 	}
 	togruta = {
 		name = Togruta

@@ -2061,7 +2061,7 @@
 
 "Twi'lek Clan Council"
 ={
-	name_list="MAM2"
+	name_list="Twileks"
 	ship_prefix=""
 	species_name="Twi'lek"
 	species_plural="Twi'lek"

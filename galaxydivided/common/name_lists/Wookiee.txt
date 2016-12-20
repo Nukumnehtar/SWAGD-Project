@@ -1,6 +1,5 @@
 ### Wookiees
 Wookiee = {
-	randomized = no
 
 	ship_names = {
 		generic = {

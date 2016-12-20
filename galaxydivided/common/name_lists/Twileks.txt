@@ -1,0 +1,182 @@
+### Twi'leks
+Twileks = {
+
+	ship_names = {
+
+		generic = {
+			Mystic Naiad Nautilus Nebula Nimble "North Star" Nymph Obdurate Ocean Onward Oracle Paradox Paragon Pearl Peregrine Perseverance Marksman Rifleman Sniper Trident  Trumpet Truncheon Typhoon Undaunted Venture Versatile Vigorous Viper Vivacious Winger Wizard Wyvern Wolfhound Devastator Warhammer Retribution Senator Tornado Infinity Usurper Utmost Valorous Whirlwind Athena Artemis Vigilance Decimator Indomitable Goliath Sentinel Brilliant Blazer Audacity Gallant Nova Shadow Allegiance Challenger Fearless Protector Guardian Victorious Courageous Defiance Valorous Azrael
+			"Adamantine" "Aralanni" "Ardent IV" "Armistice" "Avengeance" "Ballista" "Bloodstripe" "Borealis"
+			"Caelus" "Caravan" "Chaf Envoy" "Commenor" "Corbantis" "Corellia" "Courteous" "Dauntless" "Defiant"
+			"Deliverance" "Derapha" "Devout" "Empirical" "Empyrean" "Era Daimanos" "Eye of the Storm" "Farstar"
+			"Fastblast" "Galaaron" "Garrote" "Gilagimar" "Halleck" "Hunter" "Intractable" "Ithor Lady"
+			"Justice Crusader" "Kana's Steel" "Lathir" "Liberty" "Lillibanca" "Maelstrom" "Malachite Scent"
+			"Mercy" "Myrkos" "Nebula Chaser" "Nova" "Nova Viper" "Obedience" "Olemp" "Pegasus" "Perspicacity"
+			"Phalanx" "Plooriod Bodkin" "Predominance" "Prosperity" "Purity" "Recalcitrant" "Red Nova" "Redma"
+			"Reliable" "Reliant" "Reluctant" "Republic" "Republic's Return" "Resolve" "Respectable" "Revenge"
+			"Shadowblade" "Spritespray" "Star Dream" "Stark Wing" "Starveil" "Undying" "Vaathkree" "Vainglorious"
+			"Valiant" "Valor" "Vanquisher" "Vinsor" "Visseon" "Wennis" "Yavin's Glory" "Moldy Crow" "Raven's Claw" 
+		}
+
+		corvette = {
+			Agile Archer Arrow Bruiser Cherub Chimera Claymore Broadsword Battleaxe Crossbow Cutlass Deterrent Errant Faithful Fierce Gladius Longbow 
+			Grappler Hammer Vampire Velox Venator Vendetta Venerable Venomous Taciturn Supreme Success Shredder Seraph Serpent Spitfire Stalker Stratagem
+			Scimitar Scorcher Scourge Scythe Revenant Redoubtable Raptor Reaver Prodigal Rapier Prudent Persistent Peerless Myrmidon Indignant Javelin Knight
+			Starwolf Bonaventure Adventure Boxer Buccaneer Cavalier Celestial Chariot Comet Crucible Cyclone Decisive Dexterous Diadem Earnest Eclipse Forger Fortune 
+			Gauntlet Griffin Horizon Hotspur Hurricane Hussar Jubilant Lancer Lightning Magic Mediator Mermaid Meteor Minstrel Miranda Mustang Sharpshooter
+		}
+		
+		destroyer = {
+			Cyclops Centaur Adversary Assassin Dagger Daring Duty Havoc Hero Hunter Justice Impeccable Interceptor Infernal Loyal Matchless Mauler Mayhem Malice
+			Menace Merciless Mischief Monarch Patriot Predator Powerful Punisher Ravager Reaper Savage Spiteful Templar Terminator Terror Thrasher Minotaur
+			Manticore Interdictor Intruder Hydra Enfield Harasser Unbeaten Werewolf Zealous Petulant Phantom Phoenix Pike Pursuer Raider Rainbow Rapid Redemption 
+			Relentless Rigorous Robust Sabre Salvation Sanguine Scarab Scepter "Sea Witch" Siren Sorceress Spearhead Specter Spirit Splendid Stallion Stalwart 
+			Steadfast Strenuous Superb Supernova Surprise Swiftsure Talent Talisman Talon Taurus Tenacious "Thunder Child" Thunderous Tireless Trenchant Righteous
+		}
+		
+		cruiser = {
+			Acheron Achilles Agamemnon Amphion Aquilon Argonaut Argus Ariel Aurora Avernus Bacchus Bucephalus Calliope Calypso Castor Charybdis Circe
+			Cleopatra Constantine Cordelia Cyrus Damocles Daedalus Darius Diomede Dryad Electra Endymion Erebus Fenris Freya Gilgamesh Gorgon Halcyon Hecate
+			Hector Hesperus Janus Jason Juno Jupiter Lancelot Lazarus Leander Leonidas Lysander Maenad Mars Medea Medusa Menestheus Mercury Merlin Minerva
+			Minos Neptune Nessus Nestor Nimrod Niobe Oberon Odin Ophelia Orestes Orpheus Osiris Pandora Penelope Persephone Perseus Phoebe Pluto Poseidon
+			Proteus Pylades Serapis Stygian Tantalus Telemachus Theseus Thor Trajan Triton Venus Adamant Ardent Assail Austere Archon Adroit Aegis Anchor 
+			Corsair Banshee Enchantress Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord 
+		}
+		
+		battleship = {
+			Vengeance Triumphant Nemesis Avenger Champion Conqueror Crusader Glory Immortal Judicator Vanguard Renown Demolisher Dragon Executor Furious Gladiator
+			Magnificent Ogre Onslaught Revenge Vanquisher Vehement Basilisk Tempest Overlord Warrior Titan Colossus Prometheus Nike Paladin Sovereign Repulse
+			Majestic Avatar Behemoth Centurion Citadel Dreadnought Harbinger Juggernaut Leviathan Katana Kraken Cerberus Valkyrie Hyperion Galatea Ambush Vindicator
+		}
+		
+		science = {
+			Crescent Diligent Zephyr Enigma Conquistador Scylla Arbiter Asperity Eminence Astute Alacrity Satyr Prospero Untiring Zenith Torch Remembrance Pilgrim
+			Trailblazer Vagabond Wayfarer Ambassador Emissary Nomad Pathfinder Wanderer Traveler
+		}
+		
+		colonizer = {
+			Godspeed Prophecy "Manifest Destiny" Virtue Potential Expansion "Pioneer Spirit" Prosperity Summit Pinnacle Seeder Harvest Demeter Isis Ceres Exodus
+			Foundation Scion Progeny Obligation Purpose Provider "Shining City" Acquirer Cultivator "Dawn of Civilization" Purity Community Brotherhood
+		}
+		
+		constructor = {
+			Industry Assiduity Effort Laborer Builder Craftsman "Hard Hat" Progress Engineer Promise Service Shelter Beast Creator Developer Forger Foundry 
+			Factory Anvil Pillar Architect Accommodator Ptah Ilmarinen Creidhne Gobannus Luchtaine Goibniu Vishvakarman Tvastar Ikenga Qaynan Ucuetis Ogoun
+		}
+		
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }		
+		observation_station = { }
+		outpost_station = {			
+			sequential_name = "%O% Frontier Outpost"
+		}
+		
+		transport = {
+			"501st Battalion" "301st Battalion" "Black Watch Battalion" "212th Assault Battallion" "41st Elite Corps" "7th Sky Corps"
+			"91st Battallion" "231st Assault Battallion" "Alpha Battallion" "Bravo Battallion" "Delta Battallion" "203rd Assault Battallion"
+			"22nd Elite Corps" "71st Elite Corps"
+		}
+		
+		military_station_small = {
+		
+		Outpost "Orbital Defense" Spacedock
+		
+		}
+		
+		military_station_medium = {
+		"Orbital Security" Port
+		
+		}
+		
+		military_station_large = {
+			Battlestation Citadel Shipyard
+		}
+				
+				
+		 
+		
+	}
+
+	fleet_names = {		
+			sequential_name = "%O% Twi'lek Defense Fleet" 
+		}
+		
+			
+			
+		
+	
+	army_names = {
+		generic = { 
+			sequential_name = "%O% Twi'lek Planetary Guard"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Twi'lek Infantry Company"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Units"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Clone Battalion"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Battledroid Platoon"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Assassin Droid Unit"
+		}
+		
+		psionic_army = { 			
+			sequential_name = "%O% Force Warriors"
+		}
+		
+		xenomorph_army = {
+			random_names = { 
+				"Experimental Unit 'Rahab'" "Experimental Unit 'Jaculus'" "Experimental Unit 'Amaru'" "Experimental Unit 'Orochi'" "Experimental Unit 'Typhon'" "Experimental Unit 'Illuyanka'"
+				"Experimental Unit 'Bakunawa'" "Experimental Unit 'Fafnir'" "Experimental Unit 'Tarasque'" "Experimental Unit 'Tiamat'"
+			}
+			
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Eugenic Vanguard"
+		}
+	}
+
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Rythor Rython
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		full_names = {
+			first_names_male = {
+			Anoon Bolook Beezer Bib Cassa Cham Chom Crattis Deesra Dorv Dorv'Tilsta Fanoste Gobi Griff Guun Hary'nkel Hawk Jek Jinx Jiv Jor Jorol Kaim Kas'im Kelthan Kep Kh'aris K'kur Ko'lek Komad Kopecz Korman Krimyn Kryos Lon Luft Moorint Moran Na'daz Nalen Nat Nerra Newar New'arforrth Nilim Norcuna Ob Onok Orn Pol Qella'tak Ra Rh'ajah Ro Ruyn Sammo Sano Seferiss Shado Shul "Siolo Ur" Siolo'urmanka Tae Tho'natu Tol Tott Tottdon'eeta Tre Van Vhiin Vhiin'Thorla Volnos Wettle Zhar
+			Abdi-Badawzi Adi'son Adon'aris Ados Ahrnell Amada Ammow Andi Anoon'olan Arali Ari Arkahn Arrud Artruk Arvakke Ayjae Badmil Bakishan Bakko Bashenn Batza Beak Beejinz Bengara Bertos Bib'vena Bik Bizu Bobe Boc Bocas'eca Borvo Branak Brazzer Bril'nilim Brin Brin'shak Bro'orvta Bryn B'ura Bynder By't Cabet Cahill Cash Cazne Cazne'olan Cel Cha'ba Chabak Chedd Chee Cheib'Kalla Childar Choster Clars Cola Connus Con'varra Coson Crost Cruva Dahz Danison Dar Dasha Dath Daw Deel Deellsta Dek Dekk'lar Dendim Deon Derg Desvin Dok'madd Dole Dor Dorsil Doton Drenn Drim Dromol Druan Durren Elam Elam'shak Elav Emen Endran Epo Esm Eshgo Evonnus Ewrosa Fabel Fallanji Fassa Feb'Noota Fenrol Fir Firith Flash For'ali Frome Gadsle Galron Ganda Gar Garak Ga'ram Gedron Gele'ren Genesis Gennan Gim Gleelan Glie'oleg Goll Gor Gotan Greggo Grizzlo Grobber Gust Guunta Guzerre Hab Ha'laa Halno'an Halrii Haly Hance Hannak Haronn Harra Has Hassla'tak Hedon Henzen Hid Hogan Hotho Hril Hunnos Iain Ignacio Ilb Inun Irving Ivo Izzat Jac'Ril Jag Jaiteh Jan Jano Jaq Jarrti'Klomas Jart Jebbiz'Foreanda Jefris Jela'han Jer Jettison Jobril Joti Jundo Kabat Kailur Kal Kandon Kapin Karal Kardash Karlo Kaul Ka'van Kelad'den Kelnu Kenna Kesler Keth Khom Khwir Kidd Kiph Klide Kodo Koh Koh'shak Korol Koroma Kraay Ku'amar Kur Kyndern Larith Larrim Larus Lavik Leb Liagri Lobb Loh'khar Lonay Londar Lo'tar Loyada Lu'bratnik Lupo "Lur Arka" Lyman Manion Marclonus Marlo Mathazar Matrik Matto Max Mazer Meric Mi'raj Miles Mirru Mogra'daal Moko Mourne Myahh Mynor Narmn Nars Natho Nawara Nawar'aven Nehimmo Nej'a Nesker Nethlek Niall Nic'ala Nico Noraa'Kazz Nordon Notru'denn Novus Numen Nuro Odumis Oll Olok Oolak Orgadomo Orias Otak'or Otoforli Ozurist Padda Pen'thruta Phaldri Phoca Phylo Plasmajack Pok Poronth Poy Prand Pratari Preens Prengahl Protarius Qoen Qual'om Quatrain Quink Rach'talik Ral Ral'Rai Ranneth Ranso Ratch Ree Reelov Reen Reena Reess Rels Remmik Ren Renk'h Reom Rol'Waran Rond Ropok Roshal Rowo Rowost Ru'up Ryamn Sagrillo San Santo Saol-sar Sarlin Sarnok Sav Saylew Sedriss Seeker Senni Serdo Sertild Shamuillan Silais Silas Skawn Slar-dan Slyd Sol'aa Solen Soler Solrak Spensor Spudwee Squik Stanic Symo Tai'mer Taklan Tal Tal'kina Tanith Tar Tardon Tarquin Tavri Tazonthe Tekku Telleon Tempal Theress To'iir Tindalo Tos Toth'lazhen Tresfor Triggo Troa Troa'shak Tror T'rubba Tru'eb Tul Tymo Tysys Udo Urgrec Uriah Valius Valsil Vanel Vanya Var'soonta Vassk Vekis Vel Vil Viyo Vort Vourk Voyla V'troren Walus Warmalo Warvog Willard Wrenas Wrou Wrou'shak Xor Xosad Yeama Yendor Yerkys Yorl Yorn Yuleph Zalbar Zan Zenith Ziagrom Z'ozpheratu
+				}
+			
+			first_names_female = {
+			Aayla Alema Alora Ann Ara Astraal Atroxa Ayy B'ink Ce'na Daeshara'cor Eleena Fellil Fend'Allomin Finn Futrad Gean Hadiya Hera Illiv Isval Janiah Kolovish Kora Koyi Laranth Lena Leontyne Liana Liv'trai Luna Lunae Lyn Mala Malare Mariineh Ma'ya Mission Miwy Numa Okuvim Oola Oo'rha Orykan Pampy Qualie Rachi Ranna Rianna Seddwia Seer'aa Shaeeah Shakka Shaylai Sienn'rha Sumari Suu Swilja Talon Tann Tasha Teer'aa Tegan Tivva Vant Vette Vokara Xiaan Yadira Yuthura Zaerdra
+			Adery Adra Aemele Alauni Alilia Allia Amille An'Kwee Anakaret Anetia Anglu Anj'a Ann'ya Anspi'shel Anyza Aola Aquillia Ardana Arruna Asadia Babbnod Bahlea Barra Bella Berri Bina B'inka Blancia Borna Bow Bur'n Calia C'ar Caranna Carh'la Carina Carlitina Casandra Cera Cesi Crowley Crystal Dahnis Dai Darnell Daru'da Deel Delan Desha Dia Diap'assik Di'hal'uma Diida Dren Drua Dwitzel Dya-Tamm D'yra Edvaalda Eela Eelie Elin Erin Eryn Eseni Essor Fa'ale Femi Forrod Gelune Ghia Ghitter Gida Grollo Hanna Hekken Hellene Henni Iania Inaldra Indigo Irenez Isbel Issa-Or Ivesa Jacynith Ja'inn Jaller Janice Jari'kyn Jessa Jilia JillJoo Jonra Juda J'virgo Kahrin Kalar'naa Karin Kariya Kar'wa Kayi Kelyan Kahfr Kopri Kor Korkresh Koya Koyi Krin Kuvuta Kylaena Lalo Lanitha Laseema Letta Lhira Lliandri Lola Lora Lubo Lumia'Silbossa Luta Lynaa Lylos Lyt Mad'ahn Makara Mal'aa Margaret Mariyk Marny Masha Mazie Meeva Memah Memcha-Badawzi Mestral Mira Mirri Morgen Nakiya Nalan Nar Naria Natara Nawara Naytha Netula Nib Nima'tar Nolaa Nomi Nowk Nurla Nurls N'var Nyn Onici Oodonnaa Ord Orf Oskara Ot'ona Pala Pharen Portani Propti Prudy Ramana Ramna Redlio Ree Reeayah Resa Reva Reveth Ria Rihn Romi Rousaul Rusa Ryn Rypka Saber Sadelli Samala Samara Sarannah Sari Sarin Saya Seely Seku Shaala Sha'lia Sheani Sheeli Shiri'ani Sia Sil Sinya Siriki Siva Sonou Soolami Soronna Sotna Sparis Strellis Supi Sura Suria Tails Tal'dira Tala'oree Taunt Taya Tee-ubo Teff'ith Tiarsis Tiatkin T'len Toln Tori Tray'la Trea Trella Trezya Tronda Tsar'alla Tsel'rbah Vadria Vaik'anna Valland Vederiat Vora Vyn Wixx Xa Xaban Xanai Xanif Xira Ylla Yraka Yu Yunnarha Yvana Zeena Zheela Zinny Ziril Zoriis
+	 			}
+
+		second_names = {
+			Amersu Ban Barotta Bondara Boon Bril Che Daru Dira Doneeta Drakas Durael Ertay Fenn Forrth Fortuna Freetaa "Free Taa" Freykaa "Frey Kaa" Gella Glie Hansaresh "Han Saresh" Himar Hun Jada Joy Kaa Kor Lawquane Lek Lestin Luurjada "Luur Jada" Mateil Me Minx Nercathi Olan Orfa Quid Raloch Rar Reyes Rha R'lyek Ryloth Ryo Sana Sara Saren Saresh Secura Shak Sitra Sivron Syndulla Taa Tamarik Tao'Ven Tarak Tarkona Thorla Thrica Tilsta Una Utrila Vaal Vari Veila Vida Ziveri
+			" " Aarlaa Aip Allaran Alutana Anjek Ark Arkhee Arkon Asara Aseca Aylay Ayon B'oola B'uncho B'an Bafka Bailer Balse Bare'Ah Barnet Barsoomu Basca Bast Bastra Bek Benpo Berrin Berto'Lo Binz Bix Blankuna Blee Blen Bo'den Bonduna Boresa Brock Brol'trop Brudd Bulba Calisse Chan Chanzor Cholakk Chura Cinn Daan Dac Dae Dakar Danzer De Dervul Dez Dil Distombe Dokura Dojah Doole Dowwop D'ukal Dura Eirriss Ekull Eubarus Eyan Far Featherlight Feen Feshin Fibuna Freykaa Garrulan Gerido Ghon Golor Goodner Goyl Gratius Grelt Greystar Happ Het Hix Hlude'forda Hooth Hozem Idrall Ikle Istee Jab Jarkey Jarrde Jax Jiloma Josen Jyvun Kaar Kablo Kah'ryn Kairn Kaitoova Kaldo Kara Kareen Kashal Kiyanu Kluub Kob Kobad Kobbeth Kolomo Komad Kove Kreen Kru Ksi Kulavinar Kuu'la Kwi'teksa La Lakhasa L'andara Leh Lenda Lew Li Lom Lor Loren Loruk Los Luroon Lys Maccabe Madroo Manka Mannes Maroojj Maroon Martik Meln Mer Mitt'Ayehe Mobok Moola Moro Mrinx Mundi Mutin Muvunc Nall Nalooma "ne Dago" Nenei N'ero Nes Nex "ne Yerres" Niba Norman Norrin Nuro N'yen Ojgrib Oladi Orin Pahn Passik Pastar Pero Phan Pindi Piv Prantis Preyssola Pudundruh Qetora Quis Rackus Radeen Razna Re Red Reyn Rhane Rinn Rooshan Roothes Rugel Ryx Samsin Sarkus Sekla Sel Sembian Semla Senvi Shala Shar Sheek Shrial Shu'ril Sigweed Silon Silverlight Siyan S'kiyah Skyff  Slinthiss Smail Soach Soci Soot Sorzo Sowan Sulas Surool Tallion Talosa Tander Tannon Tara Thebes Thulaka "ti Gardi" Toologin Toqema Toranda Torr Tor'thal Toruna T'rani Trell Tualin Utrila Vaa Valotta Vandreen Var Varula Vaturha Vek Vel Velus Ven ver'Zremp Vorra Vrish Wassleman Wavingstar Wek Wen Wortan Xaroon Yasin Ying Yorksin Yurkal Zavala Zayet Zebb Zebber Zebbin Zian
+			}
+		}
+	}		
+}
