@@ -53,7 +53,7 @@ Gungan = {
 		defense_army = {
 		random_names = {
  		"Armored Cerrabores" "Armored Falumpasets" "Armored Fambaas" "Heyblibber Squadron" "Kaadu Cavalry" "Gungan Catapults   Squad"  "Tribubble Bongo Squadron" "BB-2 Shuttle Squadron" Bongo Behemoths" "Bongo Scouts" "Bongo Laser Squad" "Bongo Missiles Squad"
-"Armored Lerraas" "Gungan Bombers Squadron" "Wild Zalaacas" "Armored Zalaacas" "Booma Cannons" "Raaptur Squadron"	
+"Armored Lerraas" "Gungan Bombers Squadron" "Wild Zalaacas" "Armored Zalaacas" "Booma Grenadiers" "Raaptur Squadron" "Atlatls Throwers" 	
 			}
 			sequential_name = "%O% Gungan Grand Army"
 		}
@@ -61,7 +61,7 @@ Gungan = {
 		assault_army = {
 		random_names = {
  		"Armored Cerrabores" "Armored Falumpasets" "Armored Fambaas" "Heyblibber Squadron" "Kaadu Cavalry" "Gungan Catapults   Squad"  "Tribubble Bongo Squadron" "BB-2 Shuttle Squadron" Bongo Behemoths" "Bongo Scouts" "Bongo Laser Squad" "Bongo Missiles Squad"
-"Armored Lerraas" "Gungan Bombers Squadron" "Wild Zalaacas" "Armored Zalaacas" "Booma Cannons" "Raaptur Squadron"
+"Armored Lerraas" "Gungan Bombers Squadron" "Wild Zalaacas" "Armored Zalaacas" "Booma Grenadiers" "Raaptur Squadron" "Atlatls Throwers"
 			}
 			sequential_name = "%O% Gungan Invasion Army"
 		}
