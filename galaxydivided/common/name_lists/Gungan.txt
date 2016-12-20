@@ -51,10 +51,16 @@ Gungan = {
 
 	army_names = {
 		defense_army = {
+		random_names = {
+ 		"Armored Cerrabores" "Armored Falumpasets" "Armored Fambaas" "Heyblibber Squadron" "Kaadu Cavalry" "Gungan Catapults   Squad"  "Tribubble Bongo Squadron" "BB-2 Shuttle Squadron" Bongo Behemoths" "Bongo Scouts" "Bongo Laser Squad" "Bongo Missiles Squad"
+			}
 			sequential_name = "%O% Defense Shell"
 		}
 			
 		assault_army = {
+		random_names = {
+ 		"Armored Cerrabores" "Armored Falumpasets" "Armored Fambaas" "Heyblibber Squadron" "Kaadu Cavalry" "Gungan Catapults   Squad"  "Tribubble Bongo Squadron" "BB-2 Shuttle Squadron" Bongo Behemoths" "Bongo Scouts" "Bongo Laser Squad" "Bongo Missiles Squad"
+			}
 			sequential_name = "%O% Invasion Shoal"
 		}
 		
