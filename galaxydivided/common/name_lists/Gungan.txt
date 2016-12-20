@@ -145,18 +145,20 @@ Gungan = {
 		full_names = {
 			first_names_male = {
 			
-			Jar "Jar Jar" Pep Rish Lunker Lyonie Rugor Roos 
+			Benbul Jar "Jar Jar" Pep Rish Lunker Lyonie Rugor Roos Heb
             Gallo Kleef Tobler Ganne Augur Aug "Aug Aug" Jynx Wert Tee
 			"Tee Tee" Neesa Bullba Bamfurd Been Gar "Gar Gar" Slarm 
 			Jay "Jay Jay" Abso Bar "Abso Bar" George Zim "Zim Zim"
 			Zam "Zam Zam" "Zim Zam" Big "Big Big" Blue Bola "Bola Bola" 
-			Bar "Bar Bar" BolaBar Boma Mullud Boom "Boom Boom" Brass
-			Brute Cova Piknab Jak "Jak Jak" Copek Cruegar Degoolsby
-			Donn Lo "Lo Lo" Moppo Kin-Ya Kin Ya "Kin Kin" "Ya Ya"
-            Mikfa Fasso Fenton Gallo Ganne Goodrow Neb "Goodrow Neb"
+			Bar "Bar Bar" BolaBar Boma Mullud Boom "Boom Boom" Booto Brass
+			Brute Cova Hoxie Hantik Hassk Piknab Jak "Jak Jak" Copek Cruegar Degoolsby
+			Falyeh Donn Lo "Lo Lo" Moppo Kin-Ya Kin Ya "Kin Kin" "Ya Ya"
+            Mikfa Mik "Mik Mik" Fasso Fenton Gallo Ganne Neb 
             "Neb Neb" Tup "Tup Tup" Odoof Kosa Yin "Yin Yin" "Kosa-Yin"
             Yr'Apaly Roo "Roo-Roo" Broof "Bro Bro" Zazzi Zazzo Aervis Wollod
-			Portillo Spill Zak Spleed
+			Portillo Spill Zak Spleed Marsune Meh'ur Kroke Mokem Oono Nalskel
+			Flossin Rogoe Dubbin "Skub Skub" Skub Friggy Tob "Tob Tob" Toba
+			Gus "Gus-Gus"
 			} 
 			
 			first_names_female = {
@@ -168,19 +170,21 @@ Gungan = {
 			BolanaBara Mulla Booma "Booma Booma" Brassa Bruta Covala
             Piknaba Lob "Lob Lob" Jakie "Jakie Jakie" Copeka Cruegga
 			Degoola Donna Moppa Kina-Yaa "Kina Kina" Kina Yaa "Yaa Yaa"
-			Mikfaa Fassa Fenta Galla Ganna Goodra Nebba "Goodra Nebba"
+			Mikfaa Mika "Mika Mika" Fassa Fenta Galla Ganna Goodra Nebba "Goodra Nebba"
             "Nebba Nebba" Tuppa "Tuppa Tuppa" Odoofa Kosaa Yina "Yina Yina"
 			"Kosaa-Yina" Yr'Apalya Roa "Roa-Roa" Broofa "Broa Broa" Zazia Zazoa
-			Aerva Wolla Portilla Spilla Zaka Spleda
+			Aerva Wolla Portilla Spilla Zaka Spleda "Skubba Skubba" Skubba
+			Frigga "Tobba Tobba" Tobba Gussa "Gussa Gussa"
 			}
 
 		second_names = {
-			Binks Loo Bow Nass Tarpals Ceel Jowil Jopi Bari Bettle
+			Binks Loo Lubble Bow Nass Tarpals Ceel Jowil Jopi Bari Bettle
             Bin Blattis Blismo Bombo Kirs Burmooze Carsels
 			Chucka Dizz Dop Dosun Faaus Fajallan Nob Neb Grizbain
             Grunda Hadu Kelpit Keth Leede Marshoo Modbom Noz Nukkels
 			Noss Omin Paddu Page Pert Quiglee Rimk Sharr Squig Musstoro
-			Toma Toop Tren Wups Wint Yown Wiga Yurdel Zassa Zinga
+			Toma Toop Tren Wupps Wint Yown Wiga Yurdel Zassa Zinga Mor'in
+			Nee Goodrow
 			}
 
 		}
