@@ -233,20 +233,71 @@ sw_hu = {
 
 	character_names = {
 
-		full_names = {			
+		full_names = {	
 			first_names_male = {
-				Alek Almec Arcann Argin Bail Cassian Cumberlayne Jeron Jon Raymus Wedge
-				Aach Aagon Aalto Aambler Abadaner Aban Abbus-Kelo Acan Ace Acharon Achelon Adalric Adambo Adame Adar Addi'shon Adelhard Adem Aden Admiral Adon-larr Adraas Adrenas Adrick Adun Aeron Afyon Aggadeen Agrippa Airten Ajaan Ajolin Akaste'vel Akobi Alain Alarik Albathius Alcra Alder Alec Alekam Alethios Alger Algrunar Ali-Alann Alif Alim'Gen Alin Alix Alkhara Allia Almak Alon Alozen Alph Alric Altaca Althon Alto Alwynn  Amara Amber Ament Amis Ammon Amzartho Anabar Anarine Anathemos Andan Anders Ando Andra Andrew Andrid Andrik Andru Angral Anlen Anod Anselm Anskow Anson Antayen Antona Antone Antonin Anuli Arac Arakkus Ar'al Aramis Armen Arastide Arber Ardon Ardot  Avinoam B'arin Baylis Beel Belth Bix Blix Boz Braedon Brixus Bryn Cal Cessius Chik Collin Darrus Daymont Deredith Det Djinn Dom Druth Ethan Galiir Gathal Gez Griff Haemon Jae Jagged Jefand Jeg Jesper Jorm Karl Kel Koffi Laetin Lazlo Lithio Mathieu Maxiron Mikos Nahdonnis Osak Paddy Peema Peita Pellas Prewb Raar Rage Ras Reez Rel Rixes Rodo Ruceba Ryley Seraph Sim Tannon Tavid Tavion Tehlan Tendis Tev Tiberus Toob Tor Tren Turon Uri-Los Villis Vol Wain Wes Y'ull Zeen
+		Aach Aagon Aalto Aambler Abadaner Aban Abbus-Kelo Acan Ace Adame Adar
+		Addi'shon Addle Adelhard Aden Adon-larr Adraas Adrenas Adrick Adun Aeron
+                Agareth Aggadeen Alric Airten Agrippa Ajaan Ajolin Akaste'vel Akobi Alain  
+		Alaric Albathius Alde Alec Alekam Alethios Alger Algrunar Ali-Alann Alif Alim'Gen
+		Alin Alix Alkhara Allia Almak Almec Alon Alozen Alph Altaca Althon Alwynn Amberson Ament Amis
+		Ammon Amzartho Anabar Anager Anarine Anathemos Andan Anders Ando Andra Andrew Andrid
+		Andrik Andru Ar'al Angber Angral Anlen Anod Anselm Anskow Anson Adem Antone Antonin 
+		Anuli Appleton Arac Arakkus Aramis Arana Armen  Arastide Arber Arcann Ardan Ardax Ardiff
+		Ardle Ardmore Ardot Ardran Avinoam  Argona Argor Argos Arias Ariavos Arigo Aris Arkan
+		Arkeld Arl Arljack Arlo Arlos Armatan Armitage Arnama Arnet Arno Arnothian Arnth Arnus
+		Arrad Arratan Arrax Arric Artano Artok Arturo Arzanon Ash Ashaad Asirr Atali Atar Atmino
+		Atren Augatta Avan Avanj Avarik Averdon Averen Averon Avers Aves Aviso Avrun Azkul Azrakel
+		Ace B'arin Bail Beel Bix Blix Boz Braedon Bryn Brixus Cal Cassian Chik Cinto Cumberlayne Darrus
+		Djinn Druth Det Ethan Galiir Gez Haemon Jae Jagged Jess Jesper Jon Gathal Gideon Jefand Kel Koffi
+		Lazlo Laetin Lesk Maxiron Neet Osak Pabel Paddy Peita Peema Pellas Prewb Raymus Raar Rage Rel Reez
+		Ras Rixes Ruceba Seraph Sim Sio Y'ull Tavion Tavid Tendis Tev Tiberus Toob Tor Turon Villis Wain Wedge
+		Wes Zeen Baboo Bachenkall Bafor Bagitt Bailey Bailie Bairn Bala-Tik Balankin Balaro Balcomb Baldwin
+		Baldy Balek Balisk Balkin Balko Ballala Ballard Ballax Bendodi Balog Balto Bams Bandor Boss Banley
+		Banna Bannos Bant Banz Baradis Barak Baramak Barcel Bardo Barduun Barev Barich Barik Barkale Barksy
+		Barleos Barlow Barney Barnley Baro Barry Barstead Bartam Barth Barthis Bas Bas-Ton Bascome Basile
+		Basso Bastian Bathens Batono Bator Billal Battz Baxton Baysden Baz Be Beau Beckar Becker Beckman Bedareux
+		Bedoch Beebe Beez Beldiss Belkan Beller Bellis Belos Byzal Bzorn	
+		Bels Bemos Benay Benjo Benkin Benn Benni Benok Benthar Benton Bentro Boar Benx Bequesh Berandis 
+		Berethon Bergan Berix Bernie Bertrum Berusal Bewil Bex Billan Biril Birket Birok Black
+		Blagotine Blaide Blainekie Bledsoe Bleeker Blleen Bloodory Bloodworthy Blount Blyes
+		Boakie Boaz Bob Bol Bon Bonze Boonan Boran Boraso Borgin Borm Bornae Bort Bortrek BoShek
+		Bourom Bouyard Braden Brady Bragan Braynor Brayso Breckon Breehld Brinn Brinnie Brint Brinton
+		Brogon Brohmer Brolis Broll Brom Brooser Brothic Brovto Broysc Bruan Brucce Bruckman
+		Bryint Brylin Bry BrysonBular Bulger Bun'DelBur Burne Burque Burr Bursk Bursthed Byrga Byten
+		
 				}
+	
 			first_names_female = {
-				Amanoa Aphra Padmé Zannah
-				Aaida Aari Acina Ackmena Ada Adana Adnama Aeran Aereena  Agatha Agira Ahlya Aimee Airen Akindra Albea Aldiae Alianda Alinta Alisia Allania Allara Allura Allya Alma Alora Altiss Alva Alvena Alya Alyak Amaya Amber Amee Amie Amni Amy An'bal Anandra Anarq Anda Andra Anga Angela Annissya Anora Ansween Anyarah Anyul Aral  Balia Celana Corellia Corinna Darial Deara Derrica Duala Elga Emppu Facet Feylis Grinte Henrietya Iella Jess Jioie Jord Kaiya Kandria Ketrian Lesle Lomina Lysa Maelrich Maree Margani Mari Merish Momi Myri Nala Nalia Nia Olianna Ona Onnelly Orqiti Pabel Quillara Renalda Renata Salia Soara Syal Talena Terena Tess Tresten Turi Tyla Varin Venra Zena
+		Aiolin Amanoa Aphra Atris Bastila Fema Jan Jyn Padmé Rey Tash Tavion Zannah
+		Aaida Aari Acina Ackmena Ada Adana Adnama Aeran Aereena Aeron Agatha Agira Ahlya Aimee Airen Akindra Albea Aldiae   Alianda Alinta Alisia Allania Allara Allura Allya Alma Alora Altiss Alva Alvena Alya Alyak Amaya Amber Amee Amie Amni Amy An'bal Anandra Anarq Anda Andra Anga Angela Anita Annissya Anora Ansween Anyarah Anyul Aral Ariela Arsad Arsha Aryzah Arzhura Asha Ashana Auren Avitla Avrey Azalie Azarea Balia Balmai Baral Bartaph Bat'theria  Camelle Celana Chaney Cinzia Corellia Corinna Darial Darsha Deara Deli Derrica Duala Elga Emppu Fable Facet Feylis Grinte Halsia Henrietya Hermione Iella Jess Jhaka Jioie Jora Jord Junelle Kaiya Kandria Kani Ketrian Lemda Lesle Lilit Lissa Lomina Lynnta Lysa Maelrich Malani Maree Margani Mari Merish Milessa Momi Myri Nala Nalia Nia Olianna Ona Onie Onnelly Orqiti Pabel Pookie Quillara Renalda Renata Salia Sansia Shasheva Soara Sula Syal Talena Terena Tess Tinian Tour Tresten Tria Turi Tyla Varin Venra Vitala Vleen Yasinda Zal Zena Zola
 			}
 			second_names = { 
-				Amidala Andor Antilles Apailana Aradan Aresko Naberrie Relik Skywalker Starkiller Sunrider
-				" " Aabe Abias Accu Acib Acoi Acton "Ac Yandar" A'Daasha Adala Adannon Adare Addar Addle Adea Adeen Aden Adollu Adrimetrum Afit Agai'i Agareth  Agolerga Agri Ahid Ahkoeri Ahot Ahuff Aidu Akura Alburass Alde Alder Aldine Aldrete Aleece Algwinn Alima Allashane Alloo Allusis Aloo Altamik Altax Altis Altronel Alvar Alvic Alze Amberson Amithest Anager Anamor Ancher Ancia Ancum Andal Anderlock Andreya Andromias Andsof Anec Aneofo Ange Anglethorn Annix Annon Antab Antana Antin Antyll Anyell Apice Apla Apma Appleton Arabella Aramatha Arana Arandis Arbo Archan Ardan Ardax Ardele Arden Arden-Govia Ardiff Ardine Ardle Ardmore Ardran Arelis Argdran Argen Argo  A'shera Brandl Cressen Dunter Jakien Kraeff Milon Motti Nyrat Ponnar Praji Trask Tukor "Vel Aath" Viest Wessiri
-			}  
-			
+		A'shera Aabe Abias "Ac Yandar" Accu Acib Acoi Acton Adala Adannon Adare Addar
+		Afit Afyon Agolerga Agri Ahid Ahkoeri Ahot Ahuff Akura Alair Alamant Alaras
+		Alburass Alde Alder Aldine Aldrete Algwinn Allashane Allusis Aloo Altax
+		Altis Alto Alvar Alvic Anamor Ancum Andal Anderlock Andor Andrell Andromias
+		Anec Ange Annix Annon Antab Antilles Antin Antyll Anyell Apice Apla Apma
+		Aramatha Arandis Archan Ardine Arelis Aresko Argdran Argen Argo Argus
+		Argyus Arin Arisster Arkos Armin Arnae Arned Arnjak Arpor Arr Arranda
+		Arrant Arrison Aryon Arzal Asani Asch Ashandrik Ashar Ashen Assam
+		Atma Ato Atrus Attal Auchs  Auglu Autem Avesta Avoa Awson Ayl Ayrvn Azadi
+		Azzameen Azur-Jamin B'risko Ba'al Bach Bada Baddeg Badeleg Badra Badure
+		Baem Bakarn Bakash Baker Bakvalen Balfed Balfour Baliss Balkar Ballow-Reese
+		Balor Balrekk Balu Banai Bandeam Bane Banjeer Bann Bannik Bannon Banolt
+		Banos Banto Baobab Baran Barani Barayel Barc Bardrin Barezz Barje Berenko
+		Baron Barrek Barrezz Barrows Barris Barron Bartmoss Barzon Basdor Baskalar
+		Bast Basteren Bastion Bastra Bata Batch Batross Batta Bayts Bean Bebo Beech
+		Beelyard Beentilles Bek Bel Belar Belden Belissa Belladar Bellsfar Bemming
+		Ben Bendak Bender Bendick Beni Benlip Bennis Bentado Bensen Benu Berek
+                Berge Berkona Berra Beruss Besk Bey Bibble Biktor Bindari Bish Bjalin Blackgate
+		Blaesus Blake Blaze Blendin Blim Blissex Blohk Blood Bloomi Bludder Blys Boddipy
+		Bodhrik Bogan Bola Bombaasa Bondog Bonteri Bordo Borgin Bourne Bragg Brand Branon
+		Brasli Brathis Brazee Breen Brell Bren Brentioch Bridger Brigger Brightwater Brill
+		Briqualon Brunou Brya Buc Budz Buir Bullwin Burkan Bunyea Burba Burb Burku Byrne
+		}  
+
+
+		
 		}
 	}	
 }
