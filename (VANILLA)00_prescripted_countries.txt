@@ -14,7 +14,7 @@
 	portrait="human"	
 	adjective="Jedi"
 	government="theocratic_oligarchy"
-	flags={jedi_council SWGD jedi_order}
+	flags={jedi_council SWGD custom_start_screen REP_START jedi_order}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Tython"
@@ -50,12 +50,12 @@
 		ruler_title_female="Grand Master"
 	}
 	spawn_enabled=always
-	ethic="ethic_pacifist"
-	ethic="ethic_fanatic_spiritualist"
-	ethic="ethic_fanatic_xenophile"
-	trait="trait_charismatic"
-	trait="trait_talented"
+	ethic="ethic_light_side"
+	ethic="ethic_individualist"
+	ethic="ethic_fanatic_spiritualist"		
+	trait="trait_force_attuned"	
 	trait="trait_slow_breeders"
+	trait="trait_abundant"
 }
 
 "Sith Empire"
@@ -71,11 +71,11 @@
 	name="Sith Empire"
 	adjective="Sith"
 	government="despotic_empire"
-	flags={	sith_empire	custom_start_screen SWGD }
+	flags={	sith_empire	custom_start_screen SWGD  }
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Dromund Kaas"
-	planet_class="pc_tropical"
+	planet_class="pc_continental"
 	system_name="Dromund"
 	initializer=""
 	graphical_culture="sith_01"
@@ -107,12 +107,15 @@
 		heir_title_female=" "
 	}
 	spawn_enabled=always
-	ethic="ethic_fanatic_militarist"
-	ethic="ethic_fanatic_spiritualist"
-	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_dark_side"
+	ethic="ethic_collectivist"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"	
+	trait="trait_force_attuned"
 	trait="trait_resilient"
 	trait="trait_deviants"
-	trait="trait_talented"	
+	trait="trait_decadent"
+	trait="trait_abundant"
 }
 
 "Mandalorian Warrior Clans"
@@ -128,7 +131,7 @@
 	name="Mandalorian Warrior Clans"
 	adjective="Mandalorian"
 	government="military_dictatorship"
-	flags={	mandalorian_clans custom_start_screen SWGD}
+	flags={	mandalorian_clans custom_start_screen SWGD  }
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Mandalore"
@@ -165,9 +168,10 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_militarist"
+	ethic="ethic_fanatic_militarist"	
 	trait="trait_strong"
 	trait="trait_natural_engineers"
+	trait="trait_abundant"
 }
 "Chiss Ascendancy"
 ={
@@ -182,7 +186,7 @@
 	name="Chiss Ascendancy"
 	adjective="Chiss"
 	government="military_junta"
-	flags={chiss_ascendancy SWGD_START SWGD}
+	flags={chiss_ascendancy SWGD_START custom_start_screen SWGD }
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Csilla"
@@ -218,28 +222,29 @@
 		ruler_title_female="Aristocra"
 	}
 	spawn_enabled=always
+	ethic="ethic_collectivist"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
-	ethic="ethic_collectivist"
 	trait="trait_intelligent"
 	trait="trait_talented"
 	trait="trait_solitary"
 	trait="trait_sedentary"
+	trait="trait_abundant"
 }
 "Hutt Clans"
 ={
-	name_list="FUN2"
+	name_list="Hutt"
 	ship_prefix=""
 	species_name="Hutt"
 	species_plural="Hutt"
 	species_class="FUN"
 	species_adjective="Hutt"
-	species_bio="The Hutt Ruling Council, alternatively known as the Council of Elders, Hutt Council, Great Hutt Council, or the Grand Council of Nal Hutta, is a five-member council that is the primary ruling body of the Hutt species. The five members were often known informally as the Five Hutt Families, but due to internal politics, individual clans could control more than one seat on the council. The Ruling Council was sometimes referred to as the Grand Council, but that term more accurately applied to the larger Hutt Grand Council; the Ruling Council handled the day-to-day affairs of the Hutt species, and its leader spoke on behalf of all Hutts in treaties and dealings with other empires."
+	species_bio="The Hutt Ruling Council, alternatively known as the Council of Elders, Hutt Council, Great Hutt Council, or the Grand Council of Nal Hutta, is a five-member council that is the primary ruling body of the Hutt species. The five members were often known informally as the Five Hutt Families, but due to internal politics, individual clans could control more than one seat on the council. The Council handled the day-to-day affairs of the Hutt species, and its leader spoke on behalf of all Hutts in treaties and dealings with other empires."
 	portrait="fun12"
 	name="Hutt Clans"
 	adjective="Hutt"
 	government="plutocratic_oligarchy"
-	flags={hutt_clans SWGD_START SWGD}
+	flags={hutt_clans custom_start_screen SWGD_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Nal Hutta"
@@ -275,15 +280,14 @@
 		ruler_title_female="Supreme Mogul"
 	}
 	spawn_enabled=always
-	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_materialist"
+	ethic="ethic_collectivist"	
 	trait="trait_repugnant"
 	trait="trait_enduring"
-	trait="trait_thrifty"
-	trait="trait_decadent"
+	trait="trait_thrifty"	
+	trait="trait_decadent"	
 }
 ###### REPUBLIC CORE WORLDS
-"Coruscant City Authority"
+"Galactic Republic"
 ={
 	name_list="Republic"
 	ship_prefix=""
@@ -293,10 +297,10 @@
 	species_adjective="Human"
 	species_bio="[Core founder of the Republic] Coruscant is the captial of the ruling government of much of the galaxy that has existed for more than 25 thousand years. The Republic is a representative democracy, composed of various star systems, sectors and member worlds throughout most of the known galaxy. Its central government consisted of three branches: legislative, executive and judicial. The first was the Galactic Senate, a body of elected or appointed representatives. Its main duties included mediating disputes over issues ranging from planetary to galactic-scale, regulating trade routes between star systems, and in theory, represented the interests of Republic citizens. "
 	portrait="human"
-	name="Coruscant City Authority"
-	adjective="Coruscanti"
+	name="Galactic Republic"
+	adjective="Human"
 	government="indirect_democracy"
-	flags={coruscant core_founder SWGD}
+	flags={coruscant core_founder REP_START SWGD custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Coruscant"
@@ -337,6 +341,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
+	trait="trait_abundant"
 }
 "Kingdom of Alderaan"
 ={
@@ -351,11 +356,11 @@
 	name="Kingdom of Alderaan"
 	adjective="Alderaanian"
 	government="enlightened_monarchy"
-	flags={alderaan_kingdom	core_founder SWGD}
+	flags={alderaan_kingdom	core_founder REP_START SWGD custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Alderaan"
-	planet_class="pc_alpine"
+	planet_class="pc_continental"
 	system_name="Alderaan"
 	initializer=""
 	graphical_culture="republic_01"
@@ -388,10 +393,11 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_fanatic_pacifist"	
 	trait="trait_talented"
 	trait="trait_charismatic"
 	trait="trait_deviants"
+	trait="trait_abundant"
 }
 "Chandrilan House"
 ={
@@ -406,7 +412,7 @@
 	name="Chandrilan House"
 	adjective="Chandrilan"
 	government="moral_democracy"
-	flags={chandrila core_founder SWGD}
+	flags={chandrila core_founder REP_START SWGD custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Chandrila"
@@ -443,10 +449,11 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_fanatic_pacifist"	
 	trait="trait_talented"
 	trait="trait_charismatic"
 	trait="trait_deviants"
+	trait="trait_abundant"
 }
 "Corellian Empire"
 ={
@@ -461,7 +468,7 @@
 	name="Corellian Empire"
 	adjective="Corellian"
 	government="military_junta"
-	flags={corellian_empire core_founder SWGD}
+	flags={corellian_empire core_founder REP_START SWGD custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Corellia"
@@ -504,6 +511,7 @@
 	trait="trait_sedentary"
 	trait="trait_talented"
 	trait="trait_natural_engineers"
+	trait="trait_abundant"
 }
 "Anaxes Commonwealth"
 ={
@@ -518,7 +526,7 @@
 	name="Anaxes Commonwealth"
 	adjective="Anaxsi"
 	government="indirect_democracy"
-	flags={anaxes core_founder SWGD}
+	flags={anaxes core_founder SWGD REP_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Anaxes"
@@ -560,6 +568,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
+	trait="trait_abundant"
 }
 
 "Brentaal Houses"
@@ -575,7 +584,7 @@
 	name="Brentaal Houses"
 	adjective="Brentaalan"
 	government="plutocratic_oligarchy"
-	flags={brentaal core_founder SWGD}
+	flags={brentaal core_founder SWGD REP_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Brentaal"
@@ -617,6 +626,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
+	trait="trait_abundant"
 }
 "Duro Consortium"
 ={
@@ -631,7 +641,7 @@
 	name="Duro Corporate Alliance"
 	adjective="Duro"
 	government="plutocratic_oligarchy"
-	flags={duro core_founder SWGD}
+	flags={duro core_founder SWGD REP_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Duro"
@@ -673,6 +683,7 @@
 	trait="trait_nomadic"
 	trait="trait_industrious"
 	trait="trait_deviants"
+	trait="trait_abundant"
 }
 
 
@@ -696,7 +707,7 @@
 	planet_class="pc_continental"
 	system_name="Kuat"
 	initializer=""
-	flags={kuat SWGD core_founder SWGD}
+	flags={kuat core_founder REP_START SWGD custom_start_screen}
 	graphical_culture="republic_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -731,7 +742,8 @@
 	ethic="ethic_fanatic_materialist"
 	trait="trait_natural_engineers"
 	trait="trait_thrifty"
-	trait="trait_nonadaptive"
+	trait="trait_deviants"
+	trait="trait_abundant"
 }
 
 "Rendili Jurisdictions"
@@ -747,7 +759,7 @@
 	name="Rendili Shipwrights"
 	adjective="Rendili"
 	government="plutocratic_oligarchy"
-	flags={rendili core_founder SWGD}
+	flags={rendili core_founder REP_START SWGD custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Rendili"
@@ -789,6 +801,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_natural_engineers"
+	trait="trait_abundant"
 }
 
 "Alsakan Kingdom"
@@ -805,7 +818,7 @@
 	name="Alsakan Kingdom"
 	adjective="Alsakan"
 	government="plutocratic_oligarchy"
-	flags={alsakan SWGD core_founder}
+	flags={alsakan SWGD core_founder REP_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Alsakan"
@@ -847,7 +860,8 @@
 	ethic="ethic_materialist"
 	trait="trait_natural_engineers"
 	trait="trait_thrifty"
-	trait="trait_nonadaptive"
+	trait="trait_deviants"
+	trait="trait_abundant"
 }
 
 
@@ -873,7 +887,7 @@
 	name="Mon Calamari Territories"
 	adjective="Mon calamari"
 	government="indirect_democracy"
-	flags={mon_calamari SWGD_START SWGD}
+	flags={mon_calamari SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Mon Calamari"
@@ -929,11 +943,11 @@
 	name="Utapauan Committee"
 	adjective="Utapauan"
 	government="plutocratic_oligarchy"
-	flags={utapauan_committee trade_guild SWGD_START SWGD}
+	flags={utapauan_committee trade_guild custom_start_screen SWGD_START SWGD}
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Utapau"
-	planet_class="pc_desert"
+	planet_class="pc_savannah"
 	system_name="Utapau"
 	initializer=""
 	graphical_culture="arthropoid_01"
@@ -984,7 +998,7 @@
 	name="Kingdom of Naboo"
 	adjective="Nabooian"
 	government="enlightened_monarchy"
-	flags={naboo_kingdom SWGD_START SWGD}
+	flags={naboo_kingdom SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Naboo"
@@ -1025,6 +1039,7 @@
 	trait="trait_intelligent"
 	trait="trait_sedentary"
 	trait="trait_charismatic"
+	trait="trait_abundant"
 }
 "Council of Kamino"
 ={
@@ -1039,7 +1054,7 @@
 	name="Council of Kamino"
 	adjective="Kaminoan"
 	government="science_directorate"
-	flags={kamino_council trade_guild SWGD_START SWGD}
+	flags={kamino_council  SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Kamino"
@@ -1094,7 +1109,7 @@
 	name="Bespin Trade Guilds"
 	adjective="Bespinian"
 	government="plutocratic_oligarchy"
-	flags={bespin_guilds trade_guild SWGD_START SWGD}
+	flags={bespin_guilds trade_guild SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Bespin"
@@ -1136,6 +1151,7 @@
 	trait="trait_thrifty"
 	trait="trait_deviants"
 	trait="trait_charismatic"
+	trait="trait_abundant"
 }
 "Cathar Tribes"
 ={
@@ -1150,7 +1166,7 @@
 	name="Cathar Tribes"
 	adjective="Cathar"
 	government="military_junta"
-	flags={cathar_tribes SWGD_START SWGD}
+	flags={cathar_tribes SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Cathar"
@@ -1194,7 +1210,7 @@
 }
 "United Wookiee Clans"
 ={
-	name_list="MAM3"
+	name_list="Wookiee"
 	ship_prefix=""
 	species_name="Wookiee"
 	species_plural="Wookiees"
@@ -1205,7 +1221,7 @@
 	name="United Wookiee Clans"
 	adjective="Wookiee"
 	government="military_junta"
-	flags={wookiee_clans SWGD_START SWGD}
+	flags={wookiee_clans SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Kashyyk"
@@ -1244,7 +1260,7 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
 	trait="trait_enduring"
-	trait="trait_strong"
+	#trait="trait_very_strong"
 	trait="trait_communal"
 	trait="trait_sedentary"
 }
@@ -1259,7 +1275,7 @@
 	species_bio="The Bothan Council, also known as the Combined Clans and Combined Bothan Clans, is the primary political body of Bothawui and the Bothan species. The Council is composed of members of 608 registered clans, with other clans petitioning for membership. The Council has legislative control over all of Bothan Space. The Council elects one of their own members to serve as First Secretary, also called the Council Chief. "
 	portrait="mam10"
 	name="Combined Bothan Clans"
-	flags={bothan_clans SWGD_START SWGD}
+	flags={bothan_clans SWGD_START custom_start_screen SWGD}
 	adjective="Bothan"
 	government="indirect_democracy"
 	ftl=hyperdrive
@@ -1317,7 +1333,7 @@
 	name="Geonosian Hives"
 	adjective="Geonosian"
 	government="despotic_hegemony"
-	flags={geonosian_hives SWGD_START SWGD}
+	flags={geonosian_hives SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Geonosis"
@@ -1354,10 +1370,11 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_fanatic_collectivist"
-	ethic="ethic_materialist"
+	ethic="ethic_materialist"	
 	trait="trait_fleeting"
 	trait="trait_rapid_breeders"
 	trait="trait_natural_engineers"
+	trait="trait_nonadaptive"
 }
 
 "Ssi-ruuvi Imperium"
@@ -1374,7 +1391,7 @@
 	name="Ssi-ruuvi Imperium"
 	adjective="Ssi-ruuvi"
 	government="theocratic_oligarchy"
-	flags={ssi_ruuvi SWGD SWGD_START }
+	flags={ssi_ruuvi SWGD custom_start_screen SWGD_START }
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Lwhekk"
@@ -1432,7 +1449,7 @@
 	name="Kingdom of Onderon"
 	adjective="Onderonian"
 	government="despotic_empire"
-	flags={onderon SWGD SWGD_START}
+	flags={onderon SWGD SWGD_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Onderon"
@@ -1476,6 +1493,7 @@
 	trait="trait_deviants"
 	trait="trait_resilient"
 	trait="trait_natural_sociologists"
+	trait="trait_abundant"
 }
 
 "Rodian Clans"
@@ -1492,7 +1510,7 @@
 	name="Rodian Clans"
 	adjective="Rodian"
 	government="despotic_empire"
-	flags={rodian SWGD SWGD_START}
+	flags={rodian SWGD SWGD_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Rodia"
@@ -1532,8 +1550,8 @@
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_militarist"
 	trait="trait_deviants"
-	trait="trait_adaptive"
 	trait="trait_resilient"
+	trait="trait_abundant"
 }
 
 "Neimoidian Trade Collective"
@@ -1550,7 +1568,7 @@
 	name="Neimoidian Trade Collective"
 	adjective="Neimoidian"
 	government="plutocratic_oligarchy"
-	flags={neimoidian SWGD}
+	flags={neimoidian SWGD SWGD_START custom_start_screen}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Neimoidia"
@@ -1588,10 +1606,123 @@
 	spawn_as_fallen=no
 	spawn_enabled=always
 	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_materialist"
+	ethic="ethic_fanatic_materialist"	
 	trait="trait_weak"
 	trait="trait_thrifty"
 	trait="trait_communal"
+	trait="trait_deviants"	
+}
+
+"Arkanian Dominion"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Arkanian"
+	species_plural="Arkanian"
+	species_class="SWGD_NEAR_HUMAN"
+	species_adjective="Arkanian"
+	species_bio="The Arkanian Dominion was the corporate meritocracy established on the planet Arkania during the world's early history. Aligned with the Galactic Republic, the Dominion was represented in the Galactic Senate. Made up of members of the Arkanian race, the Dominion was heavily influenced by corporate entities such as the Adasca BioMechanical Corporation of Arkania run by the House of Adasca, an affluent family after whom the capital city Adascopolis was named."
+	portrait="arkanian"
+	name="Arkanian Dominion"
+	adjective="Arkanian"
+	government="plutocratic_oligarchy"
+	flags={	arkania custom_start_screen SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Arkania"
+	planet_class="pc_arctic"
+	system_name="Arkania"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Arkoh Adasca"
+		portrait="arkanian_male_01"
+		texture=0
+		hair=6
+		clothes=0
+		ruler_title="Corporate Council CEO"
+		ruler_title_female="Corporate Council CEO"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_materialist"	
+	trait="trait_deviants"
+	trait="trait_natural_engineers"
+	trait="trait_talented"
+}
+
+"Echani Command"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Echani"
+	species_plural="Echani"
+	species_class="SWGD_NEAR_HUMAN"
+	species_adjective="Echani"
+	species_bio="The Echani Command was the government of the Echani, a confederation of six worlds known as the Six Sisters. Headquartered on Eshan, the Command was ruled by an all-female council."
+	portrait="echani"
+	name="Echani Command"
+	adjective="Echani"
+	government="military_junta"
+	flags={	echani custom_start_screen SWGD SWGD_START}
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Eshan"
+	planet_class="pc_continental"
+	system_name="Eshan"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_10.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"purple"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Kirinna Scirn"
+		portrait="echani_female_02"
+		texture=0
+		hair=1
+		clothes=2
+		ruler_title="Council Father"
+		ruler_title_female="Council Mother"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_militarist"
+	trait="trait_strong"
+	trait="trait_natural_engineers"
+	trait="trait_abundant"
 }
 
 "Taris Civil Authority"
@@ -1607,7 +1738,7 @@
 	name="Taris Civil Authority"
 	adjective="Tarisian"
 	government="plutocratic_oligarchy"
-	flags={taris SWGD_START SWGD}
+	flags={taris custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Taris"
@@ -1618,16 +1749,16 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="starwars"
-			file="35.dds"
+			category="pointy"
+			file="flag_pointy_24.dds"
 		}
 		background={
 			category="backgrounds"
 			file="00_solid.dds"
 		}
 		colors={
-			"light_blue"
-			"light_blue"
+			"null"
+			"null"
 			"null"
 			"null"
 		}
@@ -1648,61 +1779,7 @@
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
-}
-
-"Echani Command"
-={
-	name_list="Republic"
-	ship_prefix=""
-	species_name="Echani"
-	species_plural="Echani"
-	species_class="SWGD_NEAR_HUMAN"
-	species_adjective="Echani"
-	species_bio="The Echani Command was the government of the Echani, a confederation of six worlds known as the Six Sisters. Headquartered on Eshan, the Command was ruled by an all-female council."
-	portrait="echani"
-	name="Echani Command"
-	adjective="Echani"
-	government="military_junta"
-	flags={	echani custom_start_screen SWGD}
-	ftl=hyperdrive
-	weapon="tech_mass_drivers_1"
-	planet_name="Eshan"
-	planet_class="pc_continental"
-	system_name="Eshan"
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="starwars"
-			file="34.dds"
-		}
-		background={
-			category="backgrounds"
-			file="circle.dds"
-		}
-		colors={
-			"purple"
-			"white"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Kirinna Scirn"
-		portrait="echani_female_02"
-		texture=0
-		hair=1
-		clothes=2
-		ruler_title="Council Father"
-		ruler_title_female="Council Mother"
-	}
-	spawn_enabled=always
-	ethic="ethic_collectivist"
-	ethic="ethic_militarist"
-	trait="trait_strong"
-	trait="trait_natural_engineers"
+	trait="trait_abundant"
 }
 
 "Haruun Kal Representative Council"
@@ -1718,7 +1795,7 @@
 	name="Haruun Kal Representative Council"
 	adjective="Balawai"
 	government="military_junta"
-	flags={	haruun_kal custom_start_screen SWGD}
+	flags={	haruun_kal custom_start_screen SWGD SWGD_START}
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Haruun Kal"
@@ -1729,8 +1806,8 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="starwars"
-			file="32.dds"
+			category="ornate"
+			file="flag_ornate_7.dds"
 		}
 		background={
 			category="backgrounds"
@@ -1756,7 +1833,414 @@
 	spawn_enabled=always
 	ethic="ethic_collectivist"
 	ethic="ethic_militarist"
-	trait="trait_strong"
 	trait="trait_deviants"
 	trait="trait_natural_engineers"
+	trait="trait_abundant"
+}
+
+"Zabrak Council"
+={
+	name_list="HUM2"
+	ship_prefix=""
+	species_name="Zabrak"
+	species_plural="Zabrak"
+	species_class="SWGD_HUMANOID"
+	species_adjective="Zabrak"
+	species_bio="Iridonia was the homeworld of the Zabrak species. Due to the harsh living conditions, the Zabrak were a hardy species. They took to flight and then space travel as soon as they could develop the technology, and by the time the Duros encountered them, they had already colonized five systems. The Zabrak of Iridonia maintained the most militant culture, and Zabrak youths from the colonies were often sent to the original homeworld for warrior training."
+	portrait="zabrak"
+	name="Zabrak Council"
+	adjective="Zabrak"
+	government="military_republic"
+	flags={	zabrak_council custom_start_screen SWGD SWGD_START}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Iridonia"
+	planet_class="pc_arid"
+	system_name="Iridonia"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="republic_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"black"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Torand Keel"
+		portrait="zabrak_male_01"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="Chancellor"
+		ruler_title_female="Chancellor"
+	}
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_militarist"	
+	trait="trait_resilient"
+	trait="trait_deviants"
+	trait="trait_strong"
+	trait="trait_quick_learners"
+}
+
+"Dorin Republic"
+={
+	name_list="HUM2"
+	ship_prefix=""
+	species_name="Kel Dor"
+	species_plural="Kel Dor"
+	species_class="SWGD_HUMANOID"
+	species_adjective="Kel Dor"
+	species_bio="Dorin was a dark and dusty planet in the Expansion Region. It was the homeworld of the Kel Dors, with an atmosphere of a unique gas and helium. The planet was situated between two black holes, making access to the planet limited, while space travel for the natives was highly dangerous. The planet was home of the Baran Do, a Force cult predating the Jedi."
+	portrait="kel_dor"
+	name="Dorin Republic"
+	adjective="Dorin"
+	government="indirect_democracy"
+	flags={	dorin custom_start_screen SWGD SWGD_START}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Dorin"
+	planet_class="pc_continental"
+	system_name="Dorin"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="republic_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_22.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"gray_18"
+			"hsv_70_9"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Ito Jurn"
+		portrait="kel_dor_male_01"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="President"
+		ruler_title_female="President"
+	}
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_fanatic_spiritualist"	
+	trait="trait_communal"
+	trait="trait_repugnant"
+	trait="trait_intelligent"
+}
+
+
+"Zygerrian Slave Empire"
+={
+	name_list="MAM1"
+	ship_prefix=""
+	species_name="Zygerrian"
+	species_plural="Zygerrian"
+	species_class="MAM"
+	species_adjective="Zygerrian"
+	species_bio="The Zygerrian Slave Empire, which was based on Zygerria, stretched across many sectors. They were led by the Zygerrian Slavers Guilds who were loyal to the Monarchs of Zygerria. For thousands of years, the Zygerrians had successfully maintained their slave industry, which supplied luckless labor to unscrupulous masters in the galaxy who then became wealthy and powerful. "
+	portrait="mam3"
+	name="Zygerrian Slave Empire"
+	adjective="Zygerrian"
+	government="despotic_empire"
+	flags={	zygerrian_empire custom_start_screen SWGD SWGD_START}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Zygerria"
+	planet_class="pc_savannah"
+	system_name="Zygerria"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="dirty_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"hsv_60_18"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Shultaj Scintel"
+		portrait="mam3"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title_male="Most High King"
+		ruler_title_female="Most High Queen"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_militarist"
+	ethic="ethic_xenophobe"	
+	trait="trait_deviants"
+	trait="trait_decadent"
+	trait="trait_natural_sociologists"
+	trait="trait_thrifty"
+	trait="trait_strong"
+}
+
+"Twi'lek Clan Council"
+={
+	name_list="MAM2"
+	ship_prefix=""
+	species_name="Twi'lek"
+	species_plural="Twi'lek"
+	species_class="SWGD_HUMANOID"
+	species_adjective="Twi'lek"
+	species_bio="Centralized in the capital of Lessu, the Twi'lek Clan Council was formed by five male Twi'leks who represented the Twi'lek clans, and were responsible for community decisions on Ryloth. This system was extremely effective for hundreds of years. When one councilmember died, all the remaining members were to walk the Bright Lands, where they would die for certain."
+	portrait="twilek"
+	name="Twi'lek Clan Council"
+	adjective="Twi'lek"
+	government="military_junta"
+	flags={	twilek_clans custom_start_screen SWGD SWGD_START}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Ryloth"
+	planet_class="pc_arid"
+	system_name="Ryloth"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="sangheili_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Chant Secura"
+		portrait="twilek_male_01"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title_male="Council Chief"
+	}
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"	
+	trait="trait_resilient"
+	trait="trait_deviants"
+	trait="trait_communal"
+	trait="trait_nomadic"
+}
+
+"Togruta Council"
+={
+	name_list="HUM1"
+	ship_prefix=""
+	species_name="Togruta"
+	species_plural="Togruta"
+	species_class="SWGD_HUMANOID"
+	species_adjective="Togruta"
+	species_bio="Togruta had a strong sense of unity and togetherness. On their native homeworld of Shili, they relied on each other and would band together to take a stand against the massive monsters that hunted them, such as the akul. It is said that the creatures of Shili most often attacked in groups, which was even more reason for the native Togruta to work together. Togruta were tranquil and silent, though when the situation called for it they were true warriors. Their fidelity to their beliefs was legendary, as was their happiness within large groups. Togruta, not surprisingly, excelled at teamwork and the ability to associate with different cultures. To an extent, Togruta had an aversion to isolation and made efforts to have friends around for companionship."
+	portrait="togruta"
+	name="Togruta Council"
+	adjective="Togruta"
+	government="peaceful_bureaucracy"
+	flags={	togruta_council custom_start_screen SWGD SWGD_START}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Shili"
+	planet_class="pc_continental"
+	system_name="Shili"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="republic_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"hsv_40_36"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Ashla Tau"
+		portrait="togruta_female_01"
+		texture=0
+		hair=0
+		clothes=4
+		ruler_title_male="Prime Patriarch"
+		ruler_title_female="Prime Matriarch"
+	}
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	trait="trait_communal"
+	trait="trait_deviants"
+	trait="trait_agrarian"
+}
+
+"Kingdom of Zeltros"
+={
+	name_list="Republic"
+	ship_prefix=""
+	species_name="Zeltron"
+	species_plural="Zeltrons"
+	species_class="SWGD_NEAR_HUMAN"
+	species_adjective="Zeltron"
+	species_bio="Zeltros was a planet in the Inner Rim, and the homeworld of the Zeltron race. An opulent world, hedonism was the doctrine encouraged by the empathetic Zeltrons, and Zeltros was continuously in a state of never ending revelry. The Zeltron appreciation of beauty in its many forms led to luxurious art and architecture covering the world, and the galaxy's most wealthy favored Zeltros as a vacation destination. Many who came to the planet were taken in by the celebratory atmosphere and the powerful pheromones of the Zeltron people to the point they found it difficult to leave, and even planetary invasions often floundered in the face of Zeltros' planet-wide festivities. Like Naboo, it was ruled by an elective monarchy."
+	portrait="zeltron"
+	name="Kingdom of Zeltros"
+	adjective="Zeltron"
+	government="enlightened_monarchy"
+	flags={zeltros_kingdom custom_start_screen SWGD_START SWGD}
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Zeltros"
+	planet_class="pc_continental"
+	system_name="Zel"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="republic_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"hsv_70_90"
+			"turquoise"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Aliyah Zeldar"
+		portrait="zeltron_female_01"
+		texture=1
+		hair=0
+		clothes=5
+		heir_title="Prince"
+		heir_title_female="Princess"
+	}
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"	
+	trait="trait_charismatic"
+	trait="trait_deviants"
+	trait="trait_talented"
+}
+
+"Eternal Empire"
+={
+	key="Eternal Empire"
+	name_list="HUM1"
+	ship_prefix=""
+	species_name="Zakuulan"
+	species_plural="Zakuulans"
+	species_class="HUM"
+	species_adjective="Zakuulan"
+	species_bio=""
+	portrait="human"
+	name="Eternal Empire"
+	adjective="Eternal"
+	government="despotic_empire"
+	flags={zakuul custom_start_screen SWGD_START }
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Zakuul"
+	planet_class="pc_tropical"
+	system_name="Zakuul"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"hsv_70_9"
+			"gray_99"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Valkorion"
+		portrait="human_male_01"
+		texture=0
+		hair=27
+		clothes=3
+		ruler_title="Emperor"
+		ruler_title_female="Empress"
+		heir_title="Prince"
+		heir_title_female="Princess"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	spawn_enabled=yes
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_dark_side"
+	trait="trait_natural_engineers"
+	trait="trait_sedentary"
+	trait="trait_force_attuned"
+	trait="trait_decadent"
 }
