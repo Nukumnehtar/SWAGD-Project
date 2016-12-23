@@ -42,112 +42,7 @@
 # ##################
 
 #Improved Breathing Masks (improved habitability)
-tech_breathing_masks = {
-	cost = @tier1cost1
-	area = society
-	tier = 1
-	start_tech = no
-	category = { new_worlds }
-	prerequisites = { "tech_colonization_1" }
-	weight = @tier1weight3 
-	
-	modifier = {
-		pop_environment_tolerance = 0.05
-	}
-	
-	weight_modifier = {
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
-			}
-		}
-	}
-	
-	ai_weight = {
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
-			}
-		}
-	}
-}
 
-
-#Skyworld (Gas)
-
-#Enviro suits (improved habit)
-tech_enviro_suits = {
-	cost = @tier1cost1
-	area = society
-	tier = 2
-	start_tech = no
-	category = { new_worlds }
-	prerequisites = { "tech_breathing_masks" }
-	weight = @tier1weight4 
-	
-	modifier = {
-		pop_environment_tolerance = 0.05
-	}
-	
-	weight_modifier = {
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
-			}
-		}
-	}
-	
-	ai_weight = {
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
-			}
-		}
-	}
-}
-
-#Advanced Pressure Systems (asteroid and barren buildings)
-tech_offworld_habitats = {
-	cost = @tier2cost1
-	area = society
-	tier = 2
-	start_tech = no
-	category = { new_worlds }
-	prerequisites = { "tech_enviro_suits" }
-	weight = @tier2weight1  
-	
-	#Unlocks building_life_support_system
-	
-	weight_modifier = {
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
-			}
-		}
-	}
-	
-	ai_weight = {
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
-			}
-		}
-	}
-}
-
-#Hazardous Environment Habitat 
 
 #FORCE
 
@@ -160,7 +55,8 @@ tech_force_I = {
 	prerequisites = { "tech_psionic_theory" }
 	weight = @tier1weight4
 	
-		
+	gateway = force
+	
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
@@ -191,6 +87,7 @@ tech_force_I = {
 				has_trait = "leader_trait_sci_force_user_III"
 			}
 		}
+		
 	}
 	
 }
@@ -203,7 +100,8 @@ tech_force_II = {
 	prerequisites = { "tech_force_I" }
 	weight = @tier2weight1
 	
-		
+	gateway = force	
+	
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
@@ -246,7 +144,8 @@ tech_force_III = {
 	prerequisites = { "tech_force_II" }
 	weight = @tier2weight2
 	
-		
+	gateway = force
+	
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
@@ -289,6 +188,7 @@ tech_force_IV = {
 	prerequisites = { "tech_force_III" }
 	weight = @tier3weight1
 	
+	gateway = force
 		
 	weight_modifier = {
 		modifier = {
