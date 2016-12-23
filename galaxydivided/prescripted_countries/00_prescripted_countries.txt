@@ -1322,7 +1322,7 @@
 
 "Geonosian Hives"
 ={
-	name_list="MOL3"
+	name_list="Geonosians"
 	ship_prefix=""
 	species_name="Geonosian"
 	species_plural="Geonosians"
