@@ -235,9 +235,9 @@ sw_hu = {
 
 		full_names = {	
 			first_names_male = {
-		Aach Aagon Aalto Aambler Abadaner Aban Abbus-Kelo Acan Ace Adame Adar
+		Aach Aagon Aalto Aambler Abadaner Aban Abbus-Kelo Acan Ace Adame Adar Arvel
 		Addi'shon Addle Adelhard Aden Adon-larr Adraas Adrenas Adrick Adun Aeron
-                Agareth Aggadeen Alric Airten Agrippa Ajaan Ajolin Akaste'vel Akobi Alain  
+        Agareth Aggadeen Alric Airten Agrippa Ajaan Ajolin Akaste'vel Akobi Alain  
 		Alaric Albathius Alde Alec Alekam Alethios Alger Algrunar Ali-Alann Alif Alim'Gen
 		Alin Alix Alkhara Allia Almak Almec Alon Alozen Alph Altaca Althon Alwynn Amberson Ament Amis
 		Ammon Amzartho Anabar Anager Anarine Anathemos Andan Anders Ando Andra Andrew Andrid
@@ -264,13 +264,24 @@ sw_hu = {
 		Bourom Bouyard Braden Brady Bragan Braynor Brayso Breckon Breehld Brinn Brinnie Brint Brinton
 		Brogon Brohmer Brolis Broll Brom Brooser Brothic Brovto Broysc Bruan Brucce Bruckman
 		Bryint Brylin Bry BrysonBular Bulger Bun'DelBur Burne Burque Burr Bursk Bursthed Byrga Byten
+		Trey Lando Caaldra Cabaril Cabbel Caeleb Caerbellak Cafian Cag Cagaran Cam Camaran Camas Cardacs
+		Cardy Careem Cargeloch Carhart Calron Calson Calum Calypho Cal Caladane Calaverous Carli Carlon
+		Carlton Carn Carner Carness Carnor Carns Callef Callen Callow Calders Caleb Calo Calphayus
+        Cathers Caton Cauley Cav Cav'Saran Cavin Cryle Cavwol Cawelyn Cecius Cede Cemma Ceoloe Cerasi Cerik
+		Charny Charol Charpp Charnoq Charnso Cestus Ch'arb Ch'gally Ch'lessan Cha Chael Challer Chambe Crlyn
+		Chang Chappral Chef Chentu Chell Chessiq Chet Chiann Chicora Chatty Chayloss Chedaki Chiraneau Chiron Chorlen Chornarov
+        Cody Clorr Clovis Clydno Clynn Cnorec Coburn Cobus Cogon Colin Collus Colsan Colten Colton Combo
+        Conar Coorta Corin Coris Corlac Corso Corvan Corvin Corvis Corwin Corwyth Cote Cothron Cotin
+		Coy Cravel Cravus Creb Creeve Corlis Crest Crimpler Crimson Crin Crion Criss Cristoff Crix
+		Cronal Cronnin Cronus
+
+
+
+
+
+
 		
-				}
-	
-			first_names_female = {
-		Aiolin Amanoa Aphra Atris Bastila Fema Jan Jyn Padmé Rey Tash Tavion Zannah
-		Aaida Aari Acina Ackmena Ada Adana Adnama Aeran Aereena Aeron Agatha Agira Ahlya Aimee Airen Akindra Albea Aldiae   Alianda Alinta Alisia Allania Allara Allura Allya Alma Alora Altiss Alva Alvena Alya Alyak Amaya Amber Amee Amie Amni Amy An'bal Anandra Anarq Anda Andra Anga Angela Anita Annissya Anora Ansween Anyarah Anyul Aral Ariela Arsad Arsha Aryzah Arzhura Asha Ashana Auren Avitla Avrey Azalie Azarea Balia Balmai Baral Bartaph Bat'theria  Camelle Celana Chaney Cinzia Corellia Corinna Darial Darsha Deara Deli Derrica Duala Elga Emppu Fable Facet Feylis Grinte Halsia Henrietya Hermione Iella Jess Jhaka Jioie Jora Jord Junelle Kaiya Kandria Kani Ketrian Lemda Lesle Lilit Lissa Lomina Lynnta Lysa Maelrich Malani Maree Margani Mari Merish Milessa Momi Myri Nala Nalia Nia Olianna Ona Onie Onnelly Orqiti Pabel Pookie Quillara Renalda Renata Salia Sansia Shasheva Soara Sula Syal Talena Terena Tess Tinian Tour Tresten Tria Turi Tyla Varin Venra Vitala Vleen Yasinda Zal Zena Zola
-			}
+				}			
 			second_names = { 
 		A'shera Aabe Abias "Ac Yandar" Accu Acib Acoi Acton Adala Adannon Adare Addar
 		Afit Afyon Agolerga Agri Ahid Ahkoeri Ahot Ahuff Akura Alair Alamant Alaras
@@ -289,15 +300,50 @@ sw_hu = {
 		Bast Basteren Bastion Bastra Bata Batch Batross Batta Bayts Bean Bebo Beech
 		Beelyard Beentilles Bek Bel Belar Belden Belissa Belladar Bellsfar Bemming
 		Ben Bendak Bender Bendick Beni Benlip Bennis Bentado Bensen Benu Berek
-                Berge Berkona Berra Beruss Besk Bey Bibble Biktor Bindari Bish Bjalin Blackgate
+        Berge Berkona Berra Beruss Besk Bey Bibble Biktor Bindari Bish Bjalin Blackgate
 		Blaesus Blake Blaze Blendin Blim Blissex Blohk Blood Bloomi Bludder Blys Boddipy
 		Bodhrik Bogan Bola Bombaasa Bondog Bonteri Bordo Borgin Bourne Bragg Brand Branon
 		Brasli Brathis Brazee Breen Brell Bren Brentioch Bridger Brigger Brightwater Brill
 		Briqualon Brunou Brya Buc Budz Buir Bullwin Burkan Bunyea Burba Burb Burku Byrne
+		C'baoth Cadaman Cadera Cadix Cadmir Cadoruso Caedus Caglio Cairnwick Calder Calhuu
+		Callat Callum Calrissian Carid Carivus Capra  Carolinden Caros Carper Carplin Carr
+		Carrick Carsan Carsiri Carter Carteri Cartha Cartroll Carvin Carzyn Caslo
+		Casrich Cass Cassian Cassel Cassius Casterfo Caveel Chistor Cavv Cedrax Celaar Celchu Celchu
+		Cerulian Chagras Chalco Chalk Chan Chance Charkron Charu Chasdy Chase Chasser Chassu Cheems
+		Cheever Chiffonage Chizzik Chlorus Cho Choard Choard Choid Cholus Chrin Chronelle Chull Chumu
+		Chun Cibinel Cikartan Cineratus Cipher Ciro Cirrilla Clafdatha Claine Clamont Clancy Classet
+		Clathor Clatto Cleben Clem Clenna Cleroff Cley Clines Cohn Cojahn Colclazure Colf Colgter
+        Condi ConJob Conlath Conro Contispex Contopault Convarion Convorr Coops Coptszt Cor Corazon Corconnan Cordan Corek Cories Cormac Cormin
+		Courser Covell Coven Covington CovisCowall Creip Crel Crell Crespin Cros Cross Crowe Crynyd	Croft Croix
+
+
+
+
 		}  
 
 
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		first_names_female = {
+				Aiolin Amanoa Aphra Atris Bastila Fema Jan Jyn Padmé Rey Tash Tavion Zannah
+				Aaida Aari Acina Ackmena Ada Adana Adnama Aeran Aereena Aeron Agatha Agira Ahlya Aimee Airen Akindra Albea Aldiae Alianda Alinta Alisia Allania Allara Allura Allya Alma Alora Altiss Alva Alvena Alya Alyak Amaya Amber Amee Amie Amni Amy An'bal Anandra Anarq Anda Andra Anga Angela Anita Annissya Anora Ansween Anyarah Anyul Aral Ariela Arsad Arsha Aryzah Arzhura Asha Ashana Auren Avitla Avrey Azalie Azarea Balia Balmai Baral Bartaph Bat'theria  Camelle Celana Chaney Cinzia Corellia Corinna Darial Darsha Deara Deli Derrica Duala Elga Emppu Fable Facet Feylis Grinte Halsia Henrietya Hermione Iella Jess Jhaka Jioie Jora Jord Junelle Kaiya Kandria Kani Ketrian Lemda Lesle Lilit Lissa Lomina Lynnta Lysa Maelrich Malani Maree Margani Mari Merish Milessa Momi Myri Nala Nalia Nia Olianna Ona Onie Onnelly Orqiti Pabel Pookie Quillara Renalda Renata Salia Sansia Shasheva Soara Sula Syal Talena Terena Tess Tinian Tour Tresten Tria Turi Tyla Varin Venra Vitala Vleen Yasinda Zal Zena Zola
+			}
 		}
 	}	
 }
