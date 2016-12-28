@@ -243,7 +243,7 @@ sw_hu = {
 		Ammon Amzartho Anabar Anager Anarine Anathemos Andan Anders Ando Andra Andrew Andrid
 		Andrik Andru Ar'al Angber Angral Anlen Anod Anselm Anskow Anson Adem Antone Antonin 
 		Anuli Appleton Arac Arakkus Aramis Arana Armen  Arastide Arber Arcann Ardan Ardax Ardiff
-		Ardle Ardmore Ardot Ardran Avinoam  Argona Argor Argos Arias Ariavos Arigo Aris Arkan
+		Ardle Ardmore Ardot Ardran Avinoam Ars Argona Argor Argos Arias Ariavos Arigo Aris Arkan
 		Arkeld Arl Arljack Arlo Arlos Armatan Armitage Arnama Arnet Arno Arnothian Arnth Arnus
 		Arrad Arratan Arrax Arric Artano Artok Arturo Arzanon Ash Ashaad Asirr Atali Atar Atmino
 		Atren Augatta Avan Avanj Avarik Averdon Averen Averon Avers Aves Aviso Avrun Azkul Azrakel
@@ -256,7 +256,7 @@ sw_hu = {
 		Banna Bannos Bant Banz Baradis Barak Baramak Barcel Bardo Barduun Barev Barich Barik Barkale Barksy
 		Barleos Barlow Barney Barnley Baro Barry Barstead Bartam Barth Barthis Bas Bas-Ton Bascome Basile
 		Basso Bastian Bathens Batono Bator Billal Battz Baxton Baysden Baz Be Beau Beckar Becker Beckman Bedareux
-		Bedoch Beebe Beez Beldiss Belkan Beller Bellis Belos Byzal Bzorn	
+		Bedoch Beebe Beez Beldiss Belkan Beller Bellis Belos Byzal Bzorn Biggs 
 		Bels Bemos Benay Benjo Benkin Benn Benni Benok Benthar Benton Bentro Boar Benx Bequesh Berandis 
 		Berethon Bergan Berix Bernie Bertrum Berusal Bewil Bex Billan Biril Birket Birok Black
 		Blagotine Blaide Blainekie Bledsoe Bleeker Blleen Bloodory Bloodworthy Blount Blyes
@@ -273,14 +273,20 @@ sw_hu = {
         Cody Clorr Clovis Clydno Clynn Cnorec Coburn Cobus Cogon Colin Collus Colsan Colten Colton Combo
         Conar Coorta Corin Coris Corlac Corso Corvan Corvin Corvis Corwin Corwyth Cote Cothron Cotin
 		Coy Cravel Cravus Creb Creeve Corlis Crest Crimpler Crimson Crin Crion Criss Cristoff Crix
-		Cronal Cronnin Cronus
+		Cronal Cronnin Cronus D'Ashewl D'krn D'Lew D'Vox D'vrosh Daal Dado Daek Dael Dahar Dahm Daiman
+        Dainsom Daiv Dak Dakron Daksh Dalton Damarcus Damaris Damarus Dao Dapp Daquinn Dar
+		Darda Dardan Darebì Dareg Darek Daren Dargus Daggath Darnov Daro Darok Darone Darr
+		Darrik Darrok Darrst Darsin Darthyn Daruula Dash Datoo Dauren Davis Davon Davonn Davos Davrill
+		Davrin Davu Dayja Daz Ramsis Bren Tan Jan Porro Cin Garven 
+		Debbikin Debeli Deegan Deerian Deevis Defain Deflaros Degoren Dehno Dekay Delevar Delfaros Dellin Dellocon
+		Delpho Delquis Delsa Delund Delurin Demtri Den Denbar Dender Dendro Dendu Denetrus Denev Dengar Dengril
+		Denid Denimoor Denin Denna Denner Dennik Deppo Derdram Derec Derish Derliff Dermeg Dermian Dern Dernas
+		Derral Derrin Dervis Desanne Devoris Devotek Devron Devry Devsh DeWolf Dex Dezsetes Dhaiv Dhal Dindau Dindo
+		Ding Dinge Dobbatek Dobberty Dobbs Dolan Dolgis Dolmen Dolo Dominaire Domm Donovan Donovarr Donsull
+		Dorel-Kan Dorgat Dorian Dorja Dorn Dorotsech Dorrick Dortho Downey Draado Draahg Dracen Drage Dragen Drake
+		Drayk Drazin Drek Duno Dree Dreed Drefin Dregg Drelosyn Drexel Dreyf Drezzel Drizan Dro Droman Dromath
+		Drowl Drufeys Drummond Dubeh Dunari Dunaub Deadeye Duncan Durhant Durmat Durpin Durrei Dyshotto Dzoun
 
-
-
-
-
-
-		
 				}			
 			second_names = { 
 		A'shera Aabe Abias "Ac Yandar" Accu Acib Acoi Acton Adala Adannon Adare Addar
@@ -315,30 +321,20 @@ sw_hu = {
 		Clathor Clatto Cleben Clem Clenna Cleroff Cley Clines Cohn Cojahn Colclazure Colf Colgter
         Condi ConJob Conlath Conro Contispex Contopault Convarion Convorr Coops Coptszt Cor Corazon Corconnan Cordan Corek Cories Cormac Cormin
 		Courser Covell Coven Covington CovisCowall Creip Crel Crell Crespin Cros Cross Crowe Crynyd	Croft Croix
-
-
-
-
+		D'Asta D'Baelor D'jek D'lund Dabrini Dacholder Dack Dackett Dadar Dade Dadeferron Dain Daine
+		Dak'win Dak Dal'Nay Dala Dalhney Dallin Dallory Dallows Dambrizi Dameerd Damlo Dance Dandu Dane
+		Danenberger Danga Danglot Dangor Danid Danlé Drugah Dann Dannt Danson Danta Danthe Danu Danurs Danva
+        Daraada Daragon Daral Darb Darba Darcc Darillian Darklighter Darté Dashit Dasol Dastt Datch
+        Davan Davin Davip Dendup DeBell Decar Decimus Declann Decree Dedge Dekker Dekven Delahrg Delan Delckis Deld Deljeevo Delk Delvardus
+		Delvaren DeMain Demaratus Demior Demosal Denzmorren Dep Derlin Derlynn Desh Desnand Dessain Detta Detton Dev
+		Devane Devian Devis Devo Dewes Dewiller DeWitt Dheas Dhil Di Diath Dicium Dienbel Dil Dillems Dilorr Dilsn Din
+		Dinard Dionisio Disra Divini Divinian Divo Dix Diyaz Djambo Djo Dlarit Dlunar Doaba Doan  Dodonna Dogot Doil
+		Dokrett Dolor Dolphe Doluff Dolv Dom Domeet Domi Domo Donar Dondarvan Donell Donn Donos Dooku D'oon Doore Doorn
+		Doran Dorant Dorat Doru Doruggan Dorvan Dos Doshun Doss Dostryt Dovaro Dovlis Dovu  Drallig Drass Draven Draver
+		Dray Drei Dreleene Drell Drellik Drobo Droga Dromath Drommel Droo Droon Drop Drost Dubrok Ducela Duel Dugge Dumat
+		Dumont Duna Dunell Dunerz Dunn Dunoche Dunrik Dunwell Duo Durasha Durgo Durron Durs Durshana Dusat Dustrunner Dyer
+		Dyre Dyrla Dyrra Dysen Dyshkava
 		}  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 		first_names_female = {
 				Aiolin Amanoa Aphra Atris Bastila Fema Jan Jyn Padmé Rey Tash Tavion Zannah
