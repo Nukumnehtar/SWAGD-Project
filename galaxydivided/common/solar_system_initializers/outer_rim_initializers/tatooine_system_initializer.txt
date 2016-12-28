@@ -128,6 +128,7 @@ tatooine_system_initializer = {
 			}
 			create_species = {
 				name = "Ghorfa (Sandpeople)"
+				name_list = "Ghorfas"
 				class = "HUM"
 				portrait = "humanoid_02"
 			traits = { trait = "trait_pc_desert_preference" 
