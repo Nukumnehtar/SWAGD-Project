@@ -71,7 +71,7 @@
 	name="Sith Empire"
 	adjective="Sith"
 	government="despotic_empire"
-	flags={	sith_empire	custom_start_screen SWGD  }
+	flags={	sith_empire custom_start_screen SWGD  }
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Dromund Kaas"
@@ -1682,7 +1682,7 @@
 	name="Echani Command"
 	adjective="Echani"
 	government="military_junta"
-	flags={	echani custom_start_screen SWGD SWGD_START}
+	flags={	echani custom_start_screen SWGD SWGD_START echani_warriors }
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Eshan"
@@ -1908,7 +1908,7 @@
 	name="Dorin Republic"
 	adjective="Dorin"
 	government="indirect_democracy"
-	flags={	dorin custom_start_screen SWGD SWGD_START}
+	flags={	dorin custom_start_screen SWGD SWGD_START baran_do_sages }
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Dorin"
@@ -2243,4 +2243,60 @@
 	trait="trait_sedentary"
 	trait="trait_force_attuned"
 	trait="trait_decadent"
+}
+
+"Chalactan Convocation of Adepts"
+={
+	name="Chalactan Convocation of Adepts"
+	name_list="sw_hu"
+	ship_prefix=""
+	species_name="Chalactan"
+	species_plural="Chalactan"
+	species_class="SWGD_HUMAN"
+	species_adjective="Chalactan"
+	species_bio="The Chalactan Adepts or Adepts of Chalacta were a philosophical-mystic order of Chalactans that studied at the Temple of Illumination. The organization was run by the Convocation of Adepts. Their teachings allowed for invulnerability to mental manipulation and torture."
+	portrait="chalactan"	
+	adjective="Chalactan"
+	government="theocratic_oligarchy"
+	flags={chalactan_convocation SWGD custom_start_screen SWGD_START chalactan_adepts }
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Chalacta"
+	planet_class="pc_continental"
+	system_name="Chalacta"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="dirty_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"red"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Soma Gangi"
+		portrait="chalactan_male_01"
+		texture=26
+		hair=0
+		clothes=4
+		ruler_title="Master of Illumination"
+		ruler_title_female="Master of Illumination"
+	}
+	spawn_enabled=always
+	ethic="ethic_light_side"
+	ethic="ethic_individualist"
+	ethic="ethic_fanatic_spiritualist"		
+	trait="trait_force_attuned"
+	trait="trait_deviants"
 }

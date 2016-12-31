@@ -1159,7 +1159,14 @@ initializer = almera_system_initializer}
 		system = { id = "1014" name = "Ubrikkia" position = { x = -250 y = 27 } }
 		system = { id = "1015" name = "Blimph" position = { x = -229 y = 19 } }
 		system = { id = "1016" name = "Yitabo" position = { x = -248 y = 12 } }
-		system = { id = "1017" name = "Chalacta" position = { x = -275 y = 9 } initializer = chalacta_system_initializer}
+		system = { id = "1017" name = "Chalacta" position = { x = -275 y = 9 } initializer = chalacta_system_initializer
+			spawn_weight = {
+					base = 0
+					modifier = {
+						 add = 100000
+						 has_country_flag = chalactan_convocation
+						}
+					}}
 		system = { id = "1019" name = "Thoksia" position = { x = -229 y = 128 } }
 		system = { id = "1020" name = "Shador" position = { x = -226 y = 132 } }
 		system = { id = "1021" name = "Chokan" position = { x = -219 y = 139 } }

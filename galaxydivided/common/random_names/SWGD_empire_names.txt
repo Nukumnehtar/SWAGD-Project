@@ -488,3 +488,15 @@ empire_name_format = {
 	format = "Eternal Empire"
 	noun = "Eternal"	
 }
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = chalactan_convocation
+		}
+	}
+	format = "Chalactan Convocation of Adepts"
+	noun = "Chalactan"	
+}
