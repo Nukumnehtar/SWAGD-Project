@@ -289,16 +289,16 @@ sw_hu = {
 
 				}			
 			second_names = { 
-		A'shera Aabe Abias "Ac Yandar" Accu Acib Acoi Acton Adala Adannon Adare Addar
+		A'shera Amidala Aabe Abias "Ac Yandar" Accu Acib Acoi Acton Adala Adannon Adare Addar
 		Afit Afyon Agolerga Agri Ahid Ahkoeri Ahot Ahuff Akura Alair Alamant Alaras
-		Alburass Alde Alder Aldine Aldrete Algwinn Allashane Allusis Aloo Altax
+		Amithest Antana Alburass Alde Alder Aldine Aldrete Algwinn Allashane Allusis Aloo Altax
 		Altis Alto Alvar Alvic Anamor Ancum Andal Anderlock Andor Andrell Andromias
 		Anec Ange Annix Annon Antab Antilles Antin Antyll Anyell Apice Apla Apma
 		Aramatha Arandis Archan Ardine Arelis Aresko Argdran Argen Argo Argus
 		Argyus Arin Arisster Arkos Armin Arnae Arned Arnjak Arpor Arr Arranda
 		Arrant Arrison Aryon Arzal Asani Asch Ashandrik Ashar Ashen Assam
 		Atma Ato Atrus Attal Auchs  Auglu Autem Avesta Avoa Awson Ayl Ayrvn Azadi
-		Azzameen Azur-Jamin B'risko Ba'al Bach Bada Baddeg Badeleg Badra Badure
+		Azzameen Azur-Jamin B'risko Ba'al Bagwa Bach Bada Baddeg Badeleg Badra Badure
 		Baem Bakarn Bakash Baker Bakvalen Balfed Balfour Baliss Balkar Ballow-Reese
 		Balor Balrekk Balu Banai Bandeam Bane Banjeer Bann Bannik Bannon Banolt
 		Banos Banto Baobab Baran Barani Barayel Barc Bardrin Barezz Barje Berenko
@@ -333,13 +333,41 @@ sw_hu = {
 		Doran Dorant Dorat Doru Doruggan Dorvan Dos Doshun Doss Dostryt Dovaro Dovlis Dovu  Drallig Drass Draven Draver
 		Dray Drei Dreleene Drell Drellik Drobo Droga Dromath Drommel Droo Droon Drop Drost Dubrok Ducela Duel Dugge Dumat
 		Dumont Duna Dunell Dunerz Dunn Dunoche Dunrik Dunwell Duo Durasha Durgo Durron Durs Durshana Dusat Dustrunner Dyer
-		Dyre Dyrla Dyrra Dysen Dyshkava
+		Dyre Dyrla Dyrra Dysen Dyshkava Billaba Calwell
 		}  
 
 		first_names_female = {
 				Aiolin Amanoa Aphra Atris Bastila Fema Jan Jyn Padmé Rey Tash Tavion Zannah
-				Aaida Aari Acina Ackmena Ada Adana Adnama Aeran Aereena Aeron Agatha Agira Ahlya Aimee Airen Akindra Albea Aldiae Alianda Alinta Alisia Allania Allara Allura Allya Alma Alora Altiss Alva Alvena Alya Alyak Amaya Amber Amee Amie Amni Amy An'bal Anandra Anarq Anda Andra Anga Angela Anita Annissya Anora Ansween Anyarah Anyul Aral Ariela Arsad Arsha Aryzah Arzhura Asha Ashana Auren Avitla Avrey Azalie Azarea Balia Balmai Baral Bartaph Bat'theria  Camelle Celana Chaney Cinzia Corellia Corinna Darial Darsha Deara Deli Derrica Duala Elga Emppu Fable Facet Feylis Grinte Halsia Henrietya Hermione Iella Jess Jhaka Jioie Jora Jord Junelle Kaiya Kandria Kani Ketrian Lemda Lesle Lilit Lissa Lomina Lynnta Lysa Maelrich Malani Maree Margani Mari Merish Milessa Momi Myri Nala Nalia Nia Olianna Ona Onie Onnelly Orqiti Pabel Pookie Quillara Renalda Renata Salia Sansia Shasheva Soara Sula Syal Talena Terena Tess Tinian Tour Tresten Tria Turi Tyla Varin Venra Vitala Vleen Yasinda Zal Zena Zola
-			}
+				Aaida Aari Acina Ackmena Ada Adana Adnama Aeran Aereena Aeron Agatha Agira Ahlya
+				Aimee Airen Akindra Albea Aldiae Alianda Alinta Alisia Allania Allara Allura Allya
+				Alma Alora Altiss Alva Alvena Alya Alyak Amaya Amber Amee Amie Amni Amy An'bal Anandra
+				Anarq Anda Andra Anga Angela Anita Annissya Anora Ansween Anyarah Anyul Aral Ariela Arsad
+				Arsha Aryzah Arzhura Asha Ashana Auren Avitla Avrey Azalie Azarea Balia Balmai Baral
+				Bartaph Bat'theria  Camelle Celana Chaney Cinzia Corellia Corinna Darial Darsha Deara
+				Deli Derrica Duala Elga Emppu Fable Facet Feylis Grinte Halsia Henrietya Hermione Iella
+				Jess Jhaka Jioie Jora Jord Junelle Kaiya Kandria Kani Ketrian Lemda Lesle Lilit Lissa
+				Lomina Lynnta Lysa Maelrich Malani Maree Margani Mari Merish Milessa Momi Myri Nala Nalia
+				Nia Olianna Ona Onie Onnelly Orqiti Pabel Pookie Quillara Renalda Renata Salia Sansia
+				Shasheva Soara Sula Syal Talena Terena Tess Tinian Tour Tresten Tria Turi Tyla Varin Venra
+				Vitala Vleen Yasinda Zal Zena Zola
+				Nyrat Alana Alani Alara Tehlan Jalice Arlaia Apailana Melnea Asani Auben Aula Silvana Aunuanna
+				Odea Aurora Frei Nana Barosa Bathos Bea Alecia Reefa Been Dansra Deena Trina Nari Arrianya
+				Reginna Bel Typolla Keri Belaya Eppie Belina Areta Bella Bellican Bellum Sulen Bemere Bene
+				Lana Tirgee Beraxil Thadlé Berow Doman Eryl Elta Bestia Rasha Matri Shara Silaras Zalin Beylyssa
+				Biabru Bialy Jonava Biller Binalu Jaleela Bini Jantaa Bixene Blessing Sadiki Ana Fiorah Haisha Evie
+				Boble Bodhi Boibole Bolban Dorovio Nella Fira Erinn Kell Cretia Ro-San Z'meer Sunny Bradan Braganta Zayl
+				Brand Brandeh Hela Hera Zai Lees Bree Bana Sharack Breha J'pai Ismar Brenna Vessa Brezwalt
+				Brianna Mira Briila Brin Cala Lillea Timma Lanoree Brontes Nore Brukarra Brukes Brunar
+				Dama Harriet Brusela Brynn Hella Pari Tama Rallcema Dana Cai Caille Calagott
+			    Annora Arkadia Vilia Morrigan Callandri Calle Tendra Calvaria Annileen Kallie Cana Canduri
+				Aeona Thera Gaeriel Marga Tiree Ylanda Cara Carbinol Cardya Careese Leanna Carilla Coli Melina Caroline Reiva Kira Matilda Casey Mandora Catrinna
+			    Kay Telsij CeeCee Cel Mia Winter Celestra Jynne Alysun Jovive Melo Cerasi Lowle Chanath Chai Everi Travia 
+			    Ember Javul Neiya Chenna Viera Olana Chokla AvenLedina Christina Christya Kimmi Tian Taryn Ria Clarrisa Clat
+				Cligot Flaenella Zahara Litassa Amber Kaydel Sarita Cora Coralya Coratanni Sabel 
+				Hella Cordé Swilla Lana Vella Chay Corwell Muriel Couli Dena Josta Laiurea Abagga Viera Andra Jens Crowal Crowley Jeela	
+			
+}
+	
 		}
 	}	
 }
