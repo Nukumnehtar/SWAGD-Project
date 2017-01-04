@@ -10,19 +10,19 @@ Imperial - mostly complete?
 Mandalorian - mostly complete?
 Cyborgs?
 Kiffar (Quinlan Vos)
-Korunnai (Mace Windu) - completed
-Chalactan (Depa Billaba)
+Korunnai (Mace Windu) - complete
+Chalactan (Depa Billaba) - complete
 Ming Po
 
 
 Near-Human:
 Chiss - complete
-Arkanian
+Arkanian - complete
 Echani - mostly complete (eyes)
-Thyrsian
+Thyrsian - complete
 Mirilan
 Miraluka
-Zeltron
+Zeltron - complete
 Rattataki
 Pau’an/Utapauan
 Sarkhai
@@ -42,10 +42,10 @@ Berchestian
 
 
 Humanoid:
-Sith - wip
-Zabrak/Nightbrothers
-Twi'lek
-Togruta
+Sith - WIP
+Zabrak/Nightbrothers - WIP
+Twi'lek - WIP
+Togruta - WIP
 Evocii
 Jawa
 Ghorfa (Sandpeople/Tusken Raider)
@@ -103,7 +103,7 @@ Yuzzum
 Snivvian
 
 Mammilian (Hairless or few hair):
-Kel Dor
+Kel Dor - WIP
 Duros
 Neimoidian
 Taung
