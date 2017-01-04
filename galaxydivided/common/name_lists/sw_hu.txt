@@ -277,7 +277,7 @@ sw_hu = {
         Dainsom Daiv Dak Dakron Daksh Dalton Damarcus Damaris Damarus Dao Dapp Daquinn Dar
 		Darda Dardan Darebì Dareg Darek Daren Dargus Daggath Darnov Daro Darok Darone Darr
 		Darrik Darrok Darrst Darsin Darthyn Daruula Dash Datoo Dauren Davis Davon Davonn Davos Davrill
-		Davrin Davu Dayja Daz Ramsis Bren Tan Jan Porro Cin Garven 
+		Davrin Davu Dayja Daz Ramsis Bren Tan Jan Porro Cin Garven Cornelius Galen
 		Debbikin Debeli Deegan Deerian Deevis Defain Deflaros Degoren Dehno Dekay Delevar Delfaros Dellin Dellocon
 		Delpho Delquis Delsa Delund Delurin Demtri Den Denbar Dender Dendro Dendu Denetrus Denev Dengar Dengril
 		Denid Denimoor Denin Denna Denner Dennik Deppo Derdram Derec Derish Derliff Dermeg Dermian Dern Dernas
@@ -286,7 +286,11 @@ sw_hu = {
 		Dorel-Kan Dorgat Dorian Dorja Dorn Dorotsech Dorrick Dortho Downey Draado Draahg Dracen Drage Dragen Drake
 		Drayk Drazin Drek Duno Dree Dreed Drefin Dregg Drelosyn Drexel Dreyf Drezzel Drizan Dro Droman Dromath
 		Drowl Drufeys Drummond Dubeh Dunari Dunaub Deadeye Duncan Durhant Durmat Durpin Durrei Dyshotto Dzoun
-
+        Eagle Eanjer Earl Earsh Eben Eddon Edease Edern Edgar Edikar Egoreg Egron Eistern Ejai Eker Ekh Ekisp
+		Ekov Elarles Eriquel Eris Erl Erloi Esano Escalion Ezil Ezrim Ezra Ein Eislo
+		Eli Eliasb Eligyn Elior Elis Elizhis Elkin Ellsworth Elmel Elmyo ElrodElsar Elsek Emil Emir Emmens
+		Endicott Enfield Enger Engret Emmett Emory Eoaq Eph Erdan Erelut Ergast Ergel Ergeron Eric Erik 
+		Estopatrin Esture Estus Eth Ethen Etnam Etta Evad Evan Evax Evlen Evran Evun Evvin Ewane Exar Eyvind 
 				}			
 			second_names = { 
 		A'shera Amidala Aabe Abias "Ac Yandar" Accu Acib Acoi Acton Adala Adannon Adare Addar
@@ -333,9 +337,17 @@ sw_hu = {
 		Doran Dorant Dorat Doru Doruggan Dorvan Dos Doshun Doss Dostryt Dovaro Dovlis Dovu  Drallig Drass Draven Draver
 		Dray Drei Dreleene Drell Drellik Drobo Droga Dromath Drommel Droo Droon Drop Drost Dubrok Ducela Duel Dugge Dumat
 		Dumont Duna Dunell Dunerz Dunn Dunoche Dunrik Dunwell Duo Durasha Durgo Durron Durs Durshana Dusat Dustrunner Dyer
-		Dyre Dyrla Dyrra Dysen Dyshkava Billaba Calwell
+		Dyre Dyrla Dyrra Dysen Dyshkava Billaba Calwell E'ron E-elz Eadon Eckels Eckener Edaine Edalm Eddawan Eddis Edisser
+		Edu Eeth Efran  Elban Eldon Elegin Elfwannabe Elgin Elgrin Ell Ellon Elsin Elysar Elzif Ematt Emmert En Enasteri Endac Enkhet Enraj Ensh
+		Erlskel Ern Erne Erso Ervekk Ervic Esan Escalus Eso Estillo Evazan
+		Ebonette Eckener Eclipse Eddawan Edivon Edosunì Egast Ele Ellberger Elna Empor Enasteri
+
 		}  
 
+
+
+		
+		
 		first_names_female = {
 				Aiolin Amanoa Aphra Atris Bastila Fema Jan Jyn Padmé Rey Tash Tavion Zannah
 				Aaida Aari Acina Ackmena Ada Adana Adnama Aeran Aereena Aeron Agatha Agira Ahlya
@@ -365,8 +377,15 @@ sw_hu = {
 			    Ember Javul Neiya Chenna Viera Olana Chokla AvenLedina Christina Christya Kimmi Tian Taryn Ria Clarrisa Clat
 				Cligot Flaenella Zahara Litassa Amber Kaydel Sarita Cora Coralya Coratanni Sabel 
 				Hella Cordé Swilla Lana Vella Chay Corwell Muriel Couli Dena Josta Laiurea Abagga Viera Andra Jens Crowal Crowley Jeela	
-			
+			    Dineé Lyra Jyn Edrii Eelysa Egan Egara Errine Esala Esmelle Ensa Erils Eritha Erkens Erra Halla Ettyk Eyleen Ezeraline
+				Elenzia Elicia Elinda Eliya Eirtaé Elaiza Elora Elspeth Ellik Ellis Ellé Essenton Estoc
+
+
 }
+
+
+
+
 	
 		}
 	}	
