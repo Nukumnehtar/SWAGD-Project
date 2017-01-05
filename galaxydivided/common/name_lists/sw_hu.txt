@@ -235,7 +235,7 @@ sw_hu = {
 
 		full_names = {	
 			first_names_male = {
-		Aach Aagon Aalto Aambler Abadaner Aban Abbus-Kelo Acan Ace Adame Adar Arvel
+		Ablund Aach Aagon Aalto Aambler Abadaner Aban Abbus-Kelo Acan Ace Adame Adar Arvel
 		Addi'shon Addle Adelhard Aden Adon-larr Adraas Adrenas Adrick Adun Aeron
         Agareth Aggadeen Alric Airten Agrippa Ajaan Ajolin Akaste'vel Akobi Alain  
 		Alaric Albathius Alde Alec Alekam Alethios Alger Algrunar Ali-Alann Alif Alim'Gen
@@ -274,10 +274,10 @@ sw_hu = {
         Conar Coorta Corin Coris Corlac Corso Corvan Corvin Corvis Corwin Corwyth Cote Cothron Cotin
 		Coy Cravel Cravus Creb Creeve Corlis Crest Crimpler Crimson Crin Crion Criss Cristoff Crix
 		Cronal Cronnin Cronus D'Ashewl D'krn D'Lew D'Vox D'vrosh Daal Dado Daek Dael Dahar Dahm Daiman
-        Dainsom Daiv Dak Dakron Daksh Dalton Damarcus Damaris Damarus Dao Dapp Daquinn Dar
+        Dainsom Daiv Dak Dakron Daksh Dalton Damarcus Damaris Damarus Dao Dapp Daquinn Dar Eesh
 		Darda Dardan Darebì Dareg Darek Daren Dargus Daggath Darnov Daro Darok Darone Darr
 		Darrik Darrok Darrst Darsin Darthyn Daruula Dash Datoo Dauren Davis Davon Davonn Davos Davrill
-		Davrin Davu Dayja Daz Ramsis Bren Tan Jan Porro Cin Garven Cornelius Galen
+		Davrin Davu Dayja Daz Ramsis Bren Tan Jan Porro Cin Garven Cornelius Galen Dannl Ecclessis
 		Debbikin Debeli Deegan Deerian Deevis Defain Deflaros Degoren Dehno Dekay Delevar Delfaros Dellin Dellocon
 		Delpho Delquis Delsa Delund Delurin Demtri Den Denbar Dender Dendro Dendu Denetrus Denev Dengar Dengril
 		Denid Denimoor Denin Denna Denner Dennik Deppo Derdram Derec Derish Derliff Dermeg Dermian Dern Dernas
@@ -287,11 +287,15 @@ sw_hu = {
 		Drayk Drazin Drek Duno Dree Dreed Drefin Dregg Drelosyn Drexel Dreyf Drezzel Drizan Dro Droman Dromath
 		Drowl Drufeys Drummond Dubeh Dunari Dunaub Deadeye Duncan Durhant Durmat Durpin Durrei Dyshotto Dzoun
         Eagle Eanjer Earl Earsh Eben Eddon Edease Edern Edgar Edikar Egoreg Egron Eistern Ejai Eker Ekh Ekisp
-		Ekov Elarles Eriquel Eris Erl Erloi Esano Escalion Ezil Ezrim Ezra Ein Eislo
+		Ekov Elarles Eriquel Eris Erl Erloi Esano Escalion Ezil Ezrim Ezra Ein Eislo Jake Jango
 		Eli Eliasb Eligyn Elior Elis Elizhis Elkin Ellsworth Elmel Elmyo ElrodElsar Elsek Emil Emir Emmens
 		Endicott Enfield Enger Engret Emmett Emory Eoaq Eph Erdan Erelut Ergast Ergel Ergeron Eric Erik 
 		Estopatrin Esture Estus Eth Ethen Etnam Etta Evad Evan Evax Evlen Evran Evun Evvin Ewane Exar Eyvind 
-				}			
+		Falltower Falrey Falsta Falch Falco Faarl Fable Faedral Far Faradin Faraire Fardi Farn Farng Farnis Farsal
+		Farseam Fatulaine Fauler Feldon Feldron Feleea Fenn Fenris Fenson Feras Ferav Ferdoin Fermin Ferob Ferren
+		Ferrid Ferrig Ferrin Ferron Ferrus Falesh Falk Fardi Fassio Fatulaine Dannl Februs Janus Fixer Florn Grizz Frobb Fruun
+
+		}			
 			second_names = { 
 		A'shera Amidala Aabe Abias "Ac Yandar" Accu Acib Acoi Acton Adala Adannon Adare Addar
 		Afit Afyon Agolerga Agri Ahid Ahkoeri Ahot Ahuff Akura Alair Alamant Alaras
@@ -339,15 +343,16 @@ sw_hu = {
 		Dumont Duna Dunell Dunerz Dunn Dunoche Dunrik Dunwell Duo Durasha Durgo Durron Durs Durshana Dusat Dustrunner Dyer
 		Dyre Dyrla Dyrra Dysen Dyshkava Billaba Calwell E'ron E-elz Eadon Eckels Eckener Edaine Edalm Eddawan Eddis Edisser
 		Edu Eeth Efran  Elban Eldon Elegin Elfwannabe Elgin Elgrin Ell Ellon Elsin Elysar Elzif Ematt Emmert En Enasteri Endac Enkhet Enraj Ensh
-		Erlskel Ern Erne Erso Ervekk Ervic Esan Escalus Eso Estillo Evazan
-		Ebonette Eckener Eclipse Eddawan Edivon Edosunì Egast Ele Ellberger Elna Empor Enasteri
+		Erlskel Ern Erne Erso Ervekk Ervic Esan Escalus Eso Estillo Evazan Fardi Fair
+        Ebonette Eckener Eclipse Eddawan Edivon Edosunì Egast Ele Ellberger Elna Empor Enasteri
+		F'Tuhns Faal Fahm Fain Fain Fal Falcone Falconi Falcris Faldrin Falken Fallon Fallon Falt Fanaso Fandi Fane
+		Fardreamer Farege Fargil Farkus Farlander Farles Farls Farool Farrell Farrell Farseeker Fasalk Fassoola Fateau
+		Faunor Faytonni Feal Feb Feelu Feem Fegel Fel'Kona Fel Felan Felens Felix Felyood Femi Fenic Fenimer Fernandin
+		Ferthyn Feswin Fett Fhernan Fhurek Figg Farrell Ablund Faytonni Fahm Temmt Fhurek Frix
+		Faenel Fahrs Fain Fair Fallatte Falon Farlion Farls Farnmir Farr Fasser Faughn Fawn Fax Fek'ra Felswoop
+		Felth Fharn Fhernan Folee For'deschel Foravis Foreck Forge Fori Forno Foxtrain Fraabaal Fray
 
-		}  
-
-
-
-		
-		
+		} 
 		first_names_female = {
 				Aiolin Amanoa Aphra Atris Bastila Fema Jan Jyn Padmé Rey Tash Tavion Zannah
 				Aaida Aari Acina Ackmena Ada Adana Adnama Aeran Aereena Aeron Agatha Agira Ahlya
@@ -379,14 +384,16 @@ sw_hu = {
 				Hella Cordé Swilla Lana Vella Chay Corwell Muriel Couli Dena Josta Laiurea Abagga Viera Andra Jens Crowal Crowley Jeela	
 			    Dineé Lyra Jyn Edrii Eelysa Egan Egara Errine Esala Esmelle Ensa Erils Eritha Erkens Erra Halla Ettyk Eyleen Ezeraline
 				Elenzia Elicia Elinda Eliya Eirtaé Elaiza Elora Elspeth Ellik Ellis Ellé Essenton Estoc
-
+				Anora Fatil Faylin Chenna Fala Falkun Faylin Feinu Feleema Felicia Fellion Femon Fereden
+				Feresyl Ferreges Ferrel Fessi Feyenn Fia First Flangolial Fionna Flensia Floria Folaris Forta Fovish Frayne
 
 }
 
 
 
 
-	
+
+
 		}
 	}	
 }
