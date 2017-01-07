@@ -12,7 +12,7 @@ static_galaxy_scenario = {
 	##num_nebulas	= 6
 	##nebula_size = 60
 	##nebula_min_dist = 200
-	###new ids after 2171
+	###new ids after 2226
 
 	
 	##Deep Core
@@ -1881,6 +1881,12 @@ initializer = almera_system_initializer}
 		system = { id = "2121" name = "Oseon" position = { x = -361 y = -63 } }
 		system = { id = "2154" name = "Cholganna" position = { x = -344 y = -200 } }
 		system = { id = "2155" name = "Drongar" position = { x = -364 y = -183 } }
+		system = { id = "2202" name = "Zaddja" position = { x = 158 y = 216 } }
+		system = { id = "2203" name = "Gannaria" position = { x = 158 y = 229 } }
+		system = { id = "2204" name = "Codia" position = { x = 143 y = 219 } }
+		system = { id = "2205" name = "Houche" position = { x = 145 y = 263 } }
+		system = { id = "2206" name = "Firrerre" position = { x = 152 y = 275 } }
+		
 
 
 
@@ -1896,7 +1902,13 @@ initializer = almera_system_initializer}
 				add_hyperlane = { from = "833" to = "220" }
 				add_hyperlane = { from = "220" to = "218" }
 				add_hyperlane = { from = "218" to = "219" }
-				add_hyperlane = { from = "219" to = "217" }
+				add_hyperlane = { from = "219" to = "2206" }
+				add_hyperlane = { from = "2206" to = "217" }
+				add_hyperlane = { from = "2206" to = "2205" }
+				add_hyperlane = { from = "217" to = "2203" }
+				add_hyperlane = { from = "2203" to = "2202" }
+				add_hyperlane = { from = "2203" to = "2204" }
+
 				add_hyperlane = { from = "847" to = "256" }
 				add_hyperlane = { from = "846" to = "259" }
 				add_hyperlane = { from = "259" to = "256" }
@@ -2459,7 +2471,7 @@ initializer = almera_system_initializer}
 		system = { id = "2111" name = "Cam'co" position = { x = 248 y = -73 } }
 		system = { id = "2112" name = "Noris" position = { x = 235 y = -68 } }
 		system = { id = "2113" name = "Chaf" position = { x = 244 y = -28 } }
-		system = { id = "2164" name = "Perann Nebula" position = { x = 378 y = 47 } }
+		system = { id = "2164" name = "Perann Nebula" position = { x = 336 y = 47 } }
 		system = { id = "2165" name = "Fitomp" position = { x = 204 y = 73 } }
 		system = { id = "2166" name = "Griwstrick" position = { x = 197 y = 59 } }
 		system = { id = "2167" name = "Hilak" position = { x = 188 y = 91 } }
@@ -2467,6 +2479,56 @@ initializer = almera_system_initializer}
 		system = { id = "2169" name = "Malata" position = { x = 188 y = 81 } }
 		system = { id = "2170" name = "Persappa" position = { x = 180 y = 102 } }
 		system = { id = "2171" name = "Tulpaa" position = { x = 203 y = 97 } }
+		system = { id = "2172" name = "244Core" position = { x = 76 y = 54 } }
+		system = { id = "2173" name = "Zosha" position = { x = 218 y = -132 } }
+		system = { id = "2174" name = "Tarin" position = { x = 183 y = 186 } }
+		system = { id = "2175" name = "Umaren'k" position = { x = 173 y = 158 } }
+		system = { id = "2176" name = "Lao-mon" position = { x = 177 y = 25 } }
+		system = { id = "2177" name = "Wayward" position = { x = 386 y = 62 } }
+		system = { id = "2178" name = "Altiria-Anarris" position = { x = 155 y = -41 } }
+		system = { id = "2179" name = "Til" position = { x = 203 y = 211 } }
+		system = { id = "2180" name = "Oristrom" position = { x = 122 y = -192 } }
+		system = { id = "2181" name = "Kro Var" position = { x = 214 y = 33 } }
+		system = { id = "2182" name = "Quethold" position = { x = 118 y = -207 } }
+		system = { id = "2183" name = "Durace" position = { x = 137 y = -142 } }
+		system = { id = "2184" name = "Niorde" position = { x = 204 y = -118 } }
+		system = { id = "2185" name = "Viis" position = { x = 347 y = -126 } }
+		system = { id = "2186" name = "Geroon" position = { x = 122 y = -51 } }
+		system = { id = "2187" name = "Ardis" position = { x = 193 y = -272 } }
+		system = { id = "2188" name = "UR-2212-GR" position = { x = 135 y = -135 } }
+		system = { id = "2189" name = "UR-6572-AK" position = { x = 178 y = -68 } }
+		system = { id = "2190" name = "UR41-284" position = { x = 226 y = -88 } }
+		system = { id = "2191" name = "Rhand" position = { x = 330 y = 50 } }
+		system = { id = "2192" name = "Kanzer" position = { x = 342 y = 44 } }
+		system = { id = "2193" name = "Muspilli" position = { x = 338 y = 39 } }
+		system = { id = "2194" name = "Nihil" position = { x = 322 y = 45 } }
+		system = { id = "2195" name = "Peroenia" position = { x = 172 y = -217 } }
+		system = { id = "2196" name = "Shor" position = { x = 176 y = -201 } }
+		system = { id = "2197" name = "Giaca" position = { x = 151 y = -238 } }
+		system = { id = "2198" name = "Vagar Praxut" position = { x = 158 y = -15 } }
+		system = { id = "2199" name = "Iol" position = { x = 117 y = 33 } }
+		system = { id = "2200" name = "Tantsor" position = { x = 116 y = -176 } }
+		system = { id = "2201" name = "Volik" position = { x = 152 y = -107 } }
+		system = { id = "2207" name = "Tepixtii" position = { x = 108 y = -217 } }
+		system = { id = "2208" name = "Veroleem" position = { x = 118 y = -130 } }
+		system = { id = "2209" name = "Carrivar" position = { x = 172 y = -10 } }
+		system = { id = "2210" name = "Morcanth" position = { x = 205 y = -114 } }
+		system = { id = "2211" name = "Endelaan" position = { x = 286 y = -291 } }
+		system = { id = "2212" name = "Munlali Mafir" position = { x = 168 y = -183 } }
+		system = { id = "2213" name = "Crakull" position = { x = 210 y = 8 } }
+		system = { id = "2214" name = "Snevu" position = { x = 125 y = -111 } }
+		system = { id = "2215" name = "Gyuel" position = { x = 152 y = -93 } }
+		system = { id = "2216" name = "Mugg Fallow" position = { x = 330 y = -192 } }
+		system = { id = "2217" name = "Explume Minor" position = { x = 230 y = 21 } }
+		system = { id = "2218" name = "Shikitari" position = { x = 180 y = 241 } }
+		system = { id = "2219" name = "Irkalla" position = { x = 104 y = 11 } }
+		system = { id = "2220" name = "Ossertion" position = { x = 168 y = -26 } }
+		system = { id = "2221" name = "Catlia" position = { x = 189 y = -62 } }
+		system = { id = "2222" name = "Crustai" position = { x = 158 y = -80 } }
+		system = { id = "2223" name = "Forbelea" position = { x = 135 y = -43 } }
+		system = { id = "2224" name = "Massoss" position = { x = 172 y = -44 } }
+		system = { id = "2225" name = "Tenupe" position = { x = 118 y = -75 } }
+		system = { id = "2226" name = "Thargo" position = { x = 184 y = -87 } }
 
 
 
@@ -2489,9 +2551,10 @@ initializer = almera_system_initializer}
 				add_hyperlane = { from = "1057" to = "2112" }
 				add_hyperlane = { from = "2112" to = "1056" }
 				add_hyperlane = { from = "1057" to = "2102" }
-				add_hyperlane = { from = "2102" to = "1049" }
-				add_hyperlane = { from = "1049" to = "1047" }
-				add_hyperlane = { from = "217" to = "2039" }
+				add_hyperlane = { from = "2102" to = "2222" }
+				add_hyperlane = { from = "2222" to = "1049" }
+				add_hyperlane = { from = "1049" to = "2215" }
+				add_hyperlane = { from = "2215" to = "1047" }
 				add_hyperlane = { from = "2039" to = "2037" }
 				add_hyperlane = { from = "2170" to = "2070" }
 				add_hyperlane = { from = "1062" to = "2040" }
@@ -2524,6 +2587,69 @@ initializer = almera_system_initializer}
 				add_hyperlane = { from = "2167" to = "2170" }
 				add_hyperlane = { from = "1048" to = "2171" }
 				add_hyperlane = { from = "2171" to = "2039" }
+				add_hyperlane = { from = "2202" to = "2174" }
+				add_hyperlane = { from = "217" to = "2218" }
+				add_hyperlane = { from = "2218" to = "2179" }
+				add_hyperlane = { from = "2179" to = "2174" }
+				add_hyperlane = { from = "2174" to = "2175" }
+				add_hyperlane = { from = "2175" to = "2070" }
+				add_hyperlane = { from = "2166" to = "2181" }
+				add_hyperlane = { from = "2181" to = "2217" }
+				add_hyperlane = { from = "2213" to = "2209" }
+				add_hyperlane = { from = "2213" to = "2217" }
+				add_hyperlane = { from = "2209" to = "2176" }
+				add_hyperlane = { from = "2217" to = "2194" }
+				add_hyperlane = { from = "2194" to = "2191" }
+				add_hyperlane = { from = "2191" to = "2164" }
+				add_hyperlane = { from = "2164" to = "2193" }
+				add_hyperlane = { from = "2164" to = "2192" }
+				add_hyperlane = { from = "2192" to = "2177" }
+				add_hyperlane = { from = "1035" to = "2225" }
+				add_hyperlane = { from = "9" to = "2172" }
+				add_hyperlane = { from = "2172" to = "2199" }
+				add_hyperlane = { from = "2199" to = "2219" }
+				add_hyperlane = { from = "2199" to = "2040" }
+				add_hyperlane = { from = "2096" to = "2178" }
+				add_hyperlane = { from = "2096" to = "2224" }
+				add_hyperlane = { from = "2178" to = "2223" }
+				add_hyperlane = { from = "2223" to = "2186" }
+				add_hyperlane = { from = "2178" to = "2220" }
+				add_hyperlane = { from = "2220" to = "2209" }
+				add_hyperlane = { from = "2220" to = "2198" }
+				add_hyperlane = { from = "2209" to = "2198" }
+				add_hyperlane = { from = "2102" to = "2226" }
+				add_hyperlane = { from = "2102" to = "2189" }
+				add_hyperlane = { from = "2189" to = "2221" }
+				add_hyperlane = { from = "2221" to = "2224" }
+				add_hyperlane = { from = "2226" to = "2190" }
+				add_hyperlane = { from = "2111" to = "2190" }
+				add_hyperlane = { from = "2215" to = "2201" }
+				add_hyperlane = { from = "2215" to = "2201" }
+				add_hyperlane = { from = "2201" to = "2214" }
+				add_hyperlane = { from = "1047" to = "2210" }
+				add_hyperlane = { from = "2210" to = "2190" }
+				add_hyperlane = { from = "2210" to = "2184" }
+				add_hyperlane = { from = "2184" to = "2173" }
+				add_hyperlane = { from = "2072" to = "2183" }
+				add_hyperlane = { from = "2183" to = "2123" }
+				add_hyperlane = { from = "2183" to = "2188" }
+				add_hyperlane = { from = "2188" to = "2208" }
+				add_hyperlane = { from = "2214" to = "2208" }
+				add_hyperlane = { from = "1033" to = "2208" }
+				add_hyperlane = { from = "2183" to = "2212" }
+				add_hyperlane = { from = "2123" to = "2200" }
+				add_hyperlane = { from = "2200" to = "2180" }
+				add_hyperlane = { from = "2180" to = "2182" }
+				add_hyperlane = { from = "2182" to = "2207" }
+				add_hyperlane = { from = "2207" to = "2131" }
+				add_hyperlane = { from = "2180" to = "2212" }
+				add_hyperlane = { from = "2212" to = "2196" }
+				add_hyperlane = { from = "2196" to = "2195" }
+				add_hyperlane = { from = "2195" to = "2197" }
+				add_hyperlane = { from = "2197" to = "2187" }
+				add_hyperlane = { from = "2187" to = "2211" }
+				add_hyperlane = { from = "2211" to = "2216" }
+				add_hyperlane = { from = "2216" to = "2185" }
 
 
 
@@ -2641,6 +2767,11 @@ initializer = almera_system_initializer}
 				add_hyperlane = { from = "2148" to = "2149" }
 
 
+
+
+
+
+
 	##Firefist (Companion Besh)
 
 		system = { id = "2160" name = "Nagi" position = { x = 497 y = 78 } }
@@ -2669,7 +2800,7 @@ nebula = { name = "Red Nebula" position = { x = 172 y = 477 } radius = 20 }
 nebula = { name = "Heart of the Galaxy" position = { x = -1 y = 59 } radius = 15 }
 nebula = { name = "Rata Nebula" position = { x = 253 y = -36 } radius = 10 }
 nebula = { name = "Parthovian Cluster" position = { x = -349 y = -247 } radius = 10 }
-nebula = { name = "Perann Nebula" position = { x = 378 y = 47 } radius = 12 }
+nebula = { name = "Perann Nebula" position = { x = 336 y = 47 } radius = 12 }
 
 	
 	
