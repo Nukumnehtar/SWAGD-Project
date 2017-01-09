@@ -101,12 +101,57 @@
  ethic_culture:0 "Culture" 
  ethic_culture_desc:0 "Rich and ancient Culture of our civilisation is a subject of Peoples pride and an object of Xeno's respect."  
  
+ #####################################
+ # EDICTS
+ #####################################
+
+ policy_fleet_doctrine:0 "War Philosophy"
+ policy_war_philosophy_desc:0 "War is a complex matter, war between stellar nations even more so. How we approach armed conflict is of critical importance to external affairs.\n"
+ unrestricted_wars:0 "Unrestricted Wars"
+ unrestricted_wars_name:0 "Unrestricted Warfare"
+ unrestricted_wars_desc:0 "War is a dish best served frequently, and to those who will not cook for themselves.\n\n§EWars of Aggression are allowed and all wargoals can be freely used.§!" 
+ 
+ 
+ edict_centralize_republic:0 "Call Extraordinary Session"
+ edict_centralize_republic_desc:1 "The Supreme Chancellor calls a special meeting of the Galactic Senate, in which every senator is under the obligation to attend.\n\n"
+ 
+ #####################################
+ # POLICIES
+ #####################################
  
  
  policy_fleet_doctrine:0 "Fleet Doctrine"
  policy_fleet_doctrine_desc:0 "Fleet Doctrine is the expression of how your nation's galactic military forces contribute to campaigns, major operations, battles, and engagements. It is a guide to action, rather than hard and fast rules."
+ swarm_fleet:0 "Swarm"
+ swarm_fleet_name:0 "Swarm"
+ swarm_fleet_desc:0 "By mainting a massive surge in numbers, the military is able to utilize flood tactics to spread itself across its territories.\n\n§EThis style of combat is effective at creating enormous fleets with the intent of overwhelming an enemy by sheer numbers rather than individual skill.§!"
+ mass_conscription_fleet:0 "Mass Conscription"
+ mass_conscription_fleet_name:0 "Mass Conscription"
+ mass_conscription_fleet_desc:0 "Utilizing the compulsory enlistment of individuals, the military is able to swell its numbers at the cost of superior individual training.\n\n§EThis training allows for larger fleet deployments, effective in overrunning the enemy.§!"
+ balanced_fleet:0 "Balanced"
+ balanced_fleet_name:0 "Balanced"
+ balanced_fleet_desc:0 "A balanced approach to military training and composition, allowing for flexibility in its deployment capabilities.\n\n§EThis is the balanced approach by most militaries.§!"
+ specialized_training_fleet:0 "Specialized Training"
+ specialized_training_fleet_name:0 "Specialized Training"
+ specialized_training_fleet_desc:0 "By reducing the size of the military, the various branches are able to improve the training of new recruits and current members to a higher standard that would be otherwise impractical with a larger force.\n\n§EThis training increases the effectiveness of smaller units.§!"
+ elite_training_fleet:0 "Elite Training"
+ elite_training_fleet_name:0 "Elite Training"
+ elite_training_fleet_desc:0 "The military is kept small through rigorous training and selection, allowing the government to spend a tremendous amount of money on each soldier and airman ensuring that they are experts in their field and equipped with the latest and most updated equipment and vehicles.\n\n§EThis training allows small units to be capable of being rapidly deployed with high effectiveness.§!"
+ 
+ 
  policy_foreign_policy:0 "Foreign Policy"
  policy_foreign_policy_desc:0 "Foreign Policy, or Foreign Relations, consists of the self-interest strategies chosen by the state to safeguard its national interests and to achieve goals within its intergalactic relations milieu."
+ isolationism_policy:0 "Isolationism"
+ isolationism_policy_name:0 "Isolationism"
+ isolationism_policy_desc:0 "The nations' interests are best served by keeping the affairs of other countries at a distance. Whether it is to avoid being drawn into dangerous conflicts or simply to ensure the purity of culture, this doctrine seeks to focus all effort on our own advancement."
+ default_foreign_policy:0 "Balanced Approach"
+ default_foreign_policy_name:0 "Balanced Approach"
+ default_foreign_policydesce:0 "Balanced Approach"
+ globalism_policy:0 "Intergalactic Globalism"
+ globalism_policy_name:0 "Intergalactic Globalism"
+ globalism_policy_desc:0 "Intergalactic Globalism"
+ 
+ 
  policy_trade_policy:0 "Trade Policy"
  policy_trade_policy_desc:0 "Trade policy is the nation's position on free trade." 
  policy_market_policy:0 "Market Policy"

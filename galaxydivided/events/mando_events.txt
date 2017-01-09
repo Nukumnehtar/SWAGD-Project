@@ -1,0 +1,181 @@
+namespace = mando
+
+
+#Set of Mandalorian Wars chain
+country_event = {
+	id = mando.0
+	hide_window = yes		
+	#fire_only_once = yes	
+	
+	
+	trigger = {
+		is_country_type = default		
+		NOT = { has_global_flag = mandalore_the_ultimate }		
+			} 
+	mean_time_to_happen = { months = 1 }
+	
+	immediate = {
+		every_country  = {
+			limit = {				
+				NOT = { has_country_flag = mandalorian_clans }
+				
+			}
+			
+			country_event = { id = mando.1 }
+		}
+				
+	}
+		
+	
+}
+
+#Inform galaxy of new Mandalore
+country_event = {
+	id = mando.1
+	title = mando.1.name
+	desc = mando.1.desc
+	picture = GFX_evt_mandalore_the_ultimate
+	show_sound = event_alien_signal		
+	fire_only_once = yes
+	is_triggered_only = yes	
+	mean_time_to_happen = { months = 100 }
+	
+	immediate = {
+		set_global_flag = mandalore_the_ultimate
+				every_country  = {
+					limit = {				
+						NOT = {has_country_flag = mandalorian_clans }
+						
+					}
+					country_event = { id = mando.2 }
+					
+				}
+	
+	}
+	
+	option = {
+		name = mando.1.a
+		#custom_tooltip = "When their leader falls in battle, the most worthy takes his place."
+		ai_chance = { 
+			factor = 100
+			}					
+	}
+	
+	}
+
+#Settling of Dxun
+country_event = {
+	id = mando.2
+	title = mando.2.name
+	desc = mando.2.desc
+	picture = GFX_evt_dxun
+	show_sound = event_alien_signal		
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = { months = 100 }
+	
+	trigger = {
+		has_global_flag = mandalore_the_ultimate
+		
+	
+	}
+	immediate = {
+		
+				every_country  = {
+					limit = {				
+						NOT = {has_country_flag = mandalorian_clans }
+						
+					}
+					country_event = { id = mando.3 }
+					
+				}
+	
+	}
+	
+	option = {
+		name = mando.2.a
+		#custom_tooltip = "When their leader falls in battle, the most worthy takes his place."
+		ai_chance = { 
+			factor = 100
+			}
+			
+		
+	
+		}
+		option = {
+		name = mando.2.b
+		#custom_tooltip = "When their leader falls in battle, the most worthy takes his place."
+			}
+			
+	option = {
+		name = mando.2.c
+		#custom_tooltip = "When their leader falls in battle, the most worthy takes his place."
+			}
+	}
+
+#New recruits
+country_event = {
+	id = mando.3
+	title = mando.3.name
+	desc = mando.3.desc
+	picture = GFX_evt_mandalore_the_ultimate
+	show_sound = event_alien_signal	
+	is_triggered_only = yes	
+	fire_only_once = yes	
+	#mean_time_to_happen = { months = 100 }
+	
+	immediate = {
+		set_global_flag = mandalore_the_ultimate
+				every_country  = {
+					limit = {				
+						NOT = {has_country_flag = mandalorian_clans }
+						
+					}
+					country_event = { id = mando.4 }
+					
+				}
+	
+	}
+	
+	option = {
+		name = mando.3.a
+		#custom_tooltip = "When their leader falls in battle, the most worthy takes his place."
+		ai_chance = { 
+			factor = 100
+			}					
+	}
+	
+	}
+
+#Neo-Crusader movement spreads	
+country_event = {
+	id = mando.4
+	title = mando.4.name
+	desc = mando.4.desc
+	picture = GFX_evt_mandalore_the_ultimate
+	show_sound = event_alien_signal		
+	fire_only_once = yes	
+	#mean_time_to_happen = { months = 100 }
+	
+	immediate = {
+		set_global_flag = mandalore_the_ultimate
+				every_country  = {
+					limit = {				
+						NOT = {has_country_flag = mandalorian_clans }
+						
+					}
+					#country_event = { id = mando.11 }
+					
+				}
+	
+	}
+	
+	option = {
+		name = mando.4.a
+		#custom_tooltip = "When their leader falls in battle, the most worthy takes his place."
+		ai_chance = { 
+			factor = 100
+			}					
+	}
+	
+	}

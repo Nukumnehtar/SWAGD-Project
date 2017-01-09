@@ -19,8 +19,7 @@
  SWGD_MAM_1: "Hairless Mammalian"
  
   
- edict_centralize_republic:0 "Call Extraordinary Session"
- edict_centralize_republic_desc:1 "The Supreme Chancellor calls a special meeting of the Galactic Senate, in which every senator is under the obligation to attend.\n\n"
+
  SUBJECT_core_world:0 "Core World"
  SUBJECT_core_world_desc:0 "A member of the Galactic Republic."
  
@@ -97,6 +96,20 @@
  building_border_reducer_100_desc:0 "These ruins fill the nearby landscape, a taste of what once was of these great civilizations."
   building_border_reducer_125:0 "Ancient Ruins"
  building_border_reducer_125_desc:0 "These ruins fill the nearby landscape, a taste of what once was of these great civilizations."
+ 
+ building_turbolaser_central_command:0 "Turbolaser Central Command"
+ building_turbolaser_central_command_desc:0 "The central command for the defense grid that monitors the turbolaser towers in the region."
+ building_magnapulse_canon:0 "Magnapulse Canon"
+ building_magnapulse_canon_desc:0 ""
+ building_starfighter_hangar:0 "Starfighter Hangar"
+ building_starfighter_hangar_desc:0 ""
+ building_planetary_citadel:0 "Planetary Citadel"
+ building_planetary_citadel_desc:0 ""
+ building_communications_array:0 "Communications Array"
+ building_communications_array_desc:0 ""
+ building_military_intelligence_hq:0 "Military Intelligence HQ"
+ building_military_intelligence_hq_desc:0 ""
+ 
  
  building_andeddu_keep:0 "Andeddu's Keep"
  building_andeddu_keep_desc:0 "This structure is a fortress constructed and designed to serve as the stronghold of Darth Andeddu, Dark Lord of the Sith. Far removed from any form of established civilization, Lord Andeddu used the Keep as his personal repository of Sith lore, and also as the location of his secret tomb."

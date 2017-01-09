@@ -5,7 +5,8 @@ namespace = republic
 
 event = {
 	id = republic.0
-	hide_window = yes	
+	hide_window = yes
+		
 	
 	immediate = {
 		every_country  = {
