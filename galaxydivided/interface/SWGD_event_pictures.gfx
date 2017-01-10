@@ -72,3 +72,14 @@ spriteTypes = {
 	}
 	
 }
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_ecumenopolis"
+		texturefile = "gfx/event_pictures/ecumenopolis.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
