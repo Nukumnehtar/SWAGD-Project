@@ -1,5 +1,9 @@
 ﻿l_english:
 
+ #####################################
+ # Republic Events
+ #####################################
+ 
 republic_politics.1.name:0 "The Galactic Senate Gathers"
 republic_politics.1.desc:0 "As the legislative and executive branch of the Galactic Republic, the Senate's primary duties are to mediate any disputes between star systems, worlds and cultures, to regulate trade between systems, to protect and care for citizens in need and to provide mutual defense in face of threats to the Republic. It is here that laws are deliberated and ratified so that they may effect all member worlds."
 republic_politics.1.a:0 "Set Member Policies"
@@ -29,3 +33,25 @@ republic_politics.200.a:0 "Defensive Wars."
 republic_politics.200.b:0 "Liberation Wars."
 republic_politics.200.c:0 "Unrestricted Wars."
 republic_politics.200.d:0 "We shall discuss another topic."
+
+#####################################
+# Mandalorian Events
+#####################################
+
+mando.1.name:0 "A New Mandalore Rises"
+mando.1.desc:0 "Word has spread that a new leader has risen amongst the fragmented and defeated Mandalorians, his people seem to have titled him 'The Ultimate'. This new leader has begun to encourage a new movement growing among their veterans of the Great Sith War, dubbed the Neo-Crusaders, they value more disciplined and organized methods than their predecessors. One can only speculate what this new Mandalore's plans are for his warrior people, and for the galaxy."
+mando.1.a:0 "Troubling."
+mando.2.name:0 "Mandalorians on Dxun"
+mando.2.desc:0 "Seeking training grounds for his soldiers, Mandalore the Ultimate has begun construction of a great complex among Dxun's deadly forests. According to your advisers, this military outpost appears to be within easy striking distance of many Republic and unaligned worlds."
+mando.2.a:0 "Ensure our forces are on alert."
+mando.2.b:0 "Keep me informed."
+mando.2.c:0 "The Mandalorians are a shattered nation, nothing more."
+mando.3.name:0 "New Recruits"
+mando.3.desc:0 "new recruits"
+mando.3.a:0 "Troubling."
+mando.4.name:0 "Neo crusaders"
+mando.4.desc:0 "Oh boy."
+mando.4.a:0 "Troubling."
+
+
+

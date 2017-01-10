@@ -11,3 +11,9 @@ on_game_start = {
 		
 	}
 }
+
+on_monthly_pulse = {
+	events = {
+		swgd.0
+	}
+}

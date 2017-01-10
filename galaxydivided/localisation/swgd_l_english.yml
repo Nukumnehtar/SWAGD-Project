@@ -18,8 +18,8 @@
  SWGD_HUMANOID: "Humanoid"
  SWGD_MAM_1: "Hairless Mammalian"
  
- edict_centralize_republic:0 "Call Extraordinary Session"
- edict_centralize_republic_desc:1 "The Supreme Chancellor calls a special meeting of the Galactic Senate, in which every senator is under the obligation to attend.\n\n"
+  
+
  SUBJECT_core_world:0 "Core World"
  SUBJECT_core_world_desc:0 "A member of the Galactic Republic."
  
@@ -48,6 +48,16 @@
  clone_arc_plural:0 "Arc Trooper Squads"
  clone_arc_desc:0 "Advanced Recon Commandos, also known as ARC troopers, were an elite variant of clone trooper even rarer than clone commandos. ARC troopers receive special training and often served as leaders or receive challenging assignments not suitable for less specialized clones. These clones are engineered to be fiercely independent, innately creative, and physical superior to any other contemporary soldiers. This, combined with their training in advanced weapons and vehicles, make them veritable one-man armies. They are each given their own unique armor set, which differs greatly from the standard issue kit given to most clone troopers." 
 
+ air_defense_tower:0 "Air Defense Tower"
+ air_defense_tower_plural:0 "Air Defense Towers"
+ air_defense_tower_desc:0 "An Air Defense Tower is a fixed defensive weapons emplacement. Mounting two Gatling-style rapid-fire laser cannons, these potent emplacements are usually erected in areas with a good line of sight. AD Towers are capable of targeting many different kinds of airborne threats, ranging from marauding swoop bikes to low-flying starfighters with relative ease."
+ turbolaser_tower:0 "Turbolaser Tower"
+ turbolaser_tower_plural:0 "Turbolaser Towers"
+ turbolaser_tower_desc:0 "A Turbolaser tower is a planetary surface variant of the ship mounted heavy turbolasers. It requires an enormous amount of power, supplied by the standard base power generators. The turbolaser also had a very slow rate of fire, causing it to become overwhelmed very quickly. Though its firepower was focused mostly on land vehicles, these towers can also be used to protect surface bases from large aerial assault craft. In such cases the main guns could rotate upwards to achieve a completely vertical firing arc."
+ magnapulse_canon:0 "Magnapulse Canon"
+ magnapulse_canon_plural:0 "Magnapulse Canon"
+ magnapulse_canon_desc:0 "The planetary magnapulse cannon was built with a large underground generator and a large rotating plasma cannon above the surface. The cannon fired plasma balls at enemy vehicles, causing massive electrical disturbances that disabled the targets for a time."
+ 
  
  force:0 "The Force"
  force_desc:0 "The Force is a metaphysical, spiritual, binding, and ubiquitous power that holds enormous importance for both the Jedi and Sith monastic orders."
@@ -87,12 +97,33 @@
   building_border_reducer_125:0 "Ancient Ruins"
  building_border_reducer_125_desc:0 "These ruins fill the nearby landscape, a taste of what once was of these great civilizations."
  
+ building_turbolaser_central_command:0 "Turbolaser Central Command"
+ building_turbolaser_central_command_desc:0 "The central command for the defense grid that monitors the turbolaser towers in the region."
+ building_magnapulse_canon:0 "Magnapulse Canon"
+ building_magnapulse_canon_desc:0 ""
+ building_starfighter_hangar:0 "Starfighter Hangar"
+ building_starfighter_hangar_desc:0 ""
+ building_planetary_citadel:0 "Planetary Citadel"
+ building_planetary_citadel_desc:0 ""
+ building_communications_array:0 "Communications Array"
+ building_communications_array_desc:0 ""
+ building_military_intelligence_hq:0 "Military Intelligence HQ"
+ building_military_intelligence_hq_desc:0 ""
+ 
+ 
  building_andeddu_keep:0 "Andeddu's Keep"
  building_andeddu_keep_desc:0 "This structure is a fortress constructed and designed to serve as the stronghold of Darth Andeddu, Dark Lord of the Sith. Far removed from any form of established civilization, Lord Andeddu used the Keep as his personal repository of Sith lore, and also as the location of his secret tomb."
   building_sith_pyramid:0 "Ancient Sith Temple"
  building_sith_pyramid_desc:0 "Serving as the final resting places for Sith Lords, their dark side presence poisons the worlds they can be found on. Many deep secrets of Sith Lore and unknown knowledge can often be found for those who dare to delve into its darkest chambers."
  
- 
+ #####################################
+ # Gateways
+ #####################################
+ gateway_force:0 "§HForce Path§!\n§EThis technology will lead to further knowledge of the Force." 
+ gateway_ground_defense:0 "§HGround Defense Path§!\n§EThis technology will lead to further advancements in planetary defenses." 
+   #####################################
+ # Techs
+ #####################################
  tech_breathing_masks:0 "Breathing Masks" 
  tech_breathing_masks_desc:0 "Latest developments in breathing mask technology has allowed our species to live more comfortably on other planets." 
  tech_enviro_suits:0 "Environment Suits"
@@ -109,12 +140,17 @@
  tech_force_IV_desc:0 "Whether alone or within an Order, Force-sensitives undergo harsh and sometimes impossible tasks to prove their strength and knowledge of the Force." 
  tech_force_VI:0 "Unexplored Hologrammic Technology" 
  tech_force_VI_desc:0 "Through studies of employed patterns of organic crystals and hologrammic technology to capture the appearance and cognitive networks of a holocron's owner, and transform this into a three-dimensional hologram. " 
-    
- ethic_dark_side:0 "Dark Side Servants"
- ethic_dark_side_desc:1 "§LThis society has a connection with the Dark side of the Force, either through genetic predispositions, culture or their past."
- ethic_light_side:0 "Light Side Servants"
- ethic_light_side_desc:1 "§LThis society has a connection with the Light side of the Force, either through genetic predispositions, culture or their past."
- 
+ tech_fixed_defenses:0 "Fixed Defensive Emplacements"
+ tech_fixed_defenses_desc:0 "Developments in fixed defensive emplacements allows for more stable and accurate platforms to be designed for use on a planetary scale."
+ tech_advanced_target_tracking:0 "Advanced Target Tracking"
+ tech_advanced_target_tracking_desc:0 "New target tracking algorithms allow garrisons to increase their defensive capabilities by providing more accurate, and thus more effective, fire support."
+ tech_atmospheric_starfighter_support:0 "Atmospheric Starfighter Support"
+ tech_atmospheric_starfighter_support_desc:0 "By constructing planetary starfighter hangars, garrisons are capable of countering atmospheric and ground threats without having to rely on orbiting fleets."
+ tech_heavy_plasma_ballistics:0 "Heavy Plasma Ballistics"
+ tech_heavy_plasma_ballistics_desc:0 "By constructing underground generators, we are able to outfit planetary canons to fire plasma balls at enemy vehicles or starships, causing massive electrical disturbances that disable and damage the target for a time."
+
+
+
  orbital_shipyards: "Orbital Shipyard" 
  orbital_shipyards_desc: "This planet has a shipyard encircling the planet, providing an expansive ability to construct or repair starships."
  ecumenopolis: "Ecumenopolis"

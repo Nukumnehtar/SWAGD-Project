@@ -1,0 +1,181 @@
+##################
+### TECH COSTS ###
+##################
+#If you change any of these, use replace in files so the values are the same across all files
+
+@tier1cost1 = 240
+@tier1cost2 = 360
+@tier1cost3 = 480
+@tier1cost4 = 600
+
+@tier2cost1 = 900
+@tier2cost2 = 1200
+@tier2cost3 = 1500
+@tier2cost4 = 1800
+
+@tier3cost1 = 2320
+@tier3cost2 = 2840
+@tier3cost3 = 3360
+@tier3cost4 = 3880
+
+####################
+### TECH WEIGHTS ###
+####################
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+# ##################
+# Planetary Defenses Tech 
+# ##################
+
+
+tech_fixed_defenses = {
+	cost = @tier1cost1
+	area = engineering
+	start_tech = no
+	category = { industry }
+	tier = 1	
+	prerequisites = { "tech_space_construction" }
+	weight = @tier2weight1
+	
+	gateway = ground_defense
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}	
+		ai_weight = {
+			factor = 50
+		}
+}
+	
+
+
+tech_advanced_target_tracking = {
+	cost = @tier2cost1
+	area = engineering	
+	start_tech = no
+	category = { computing }
+	tier = 2
+	weight = @tier2weight2
+	prerequisites = { "tech_fixed_defenses" }
+	
+	gateway = ground_defense
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 50
+	}
+}
+
+tech_atmospheric_starfighter_support = {
+	cost = @tier1cost1
+	area = engineering	
+	start_tech = no
+	category = { voidcraft }
+	tier = 2
+	weight = @tier2weight2
+	prerequisites = { "tech_strike_craft_1" "tech_advanced_target_tracking" }
+	
+	gateway = ground_defense
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 50
+	}
+}
+
+tech_heavy_plasma_ballistics = {
+	cost = tier3cost1
+	area = engineering	
+	start_tech = no
+	category = { particles }
+	tier = 3
+	weight = tier3weight1
+	prerequisites = { "tech_advanced_target_tracking" }
+	
+	gateway = ground_defense
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 50
+	}
+}
+

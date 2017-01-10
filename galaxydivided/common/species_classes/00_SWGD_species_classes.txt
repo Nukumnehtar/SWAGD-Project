@@ -13,6 +13,7 @@ SWGD_HUMAN = {
 		"imperial"
 		"mando"
 		"korunnai"
+		"chalactan"
 	}
 
 	graphical_culture = mammalian_01

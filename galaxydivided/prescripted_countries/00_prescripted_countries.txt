@@ -52,12 +52,8 @@
 	spawn_enabled=always
 	ethic="ethic_light_side"
 	ethic="ethic_individualist"
-	ethic="ethic_fanatic_spiritualist"
-	#ethic="ethic_socialism"
-	#ethic="ethic_green"
-	ethic="ethic_pluralist"
-	trait="trait_force_attuned"
-	#trait="trait_charismatic"
+	ethic="ethic_fanatic_spiritualist"		
+	trait="trait_force_attuned"	
 	trait="trait_slow_breeders"
 	trait="trait_abundant"
 }
@@ -75,7 +71,7 @@
 	name="Sith Empire"
 	adjective="Sith"
 	government="despotic_empire"
-	flags={	sith_empire	custom_start_screen SWGD  }
+	flags={	sith_empire custom_start_screen SWGD  }
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Dromund Kaas"
@@ -113,10 +109,8 @@
 	spawn_enabled=always
 	ethic="ethic_dark_side"
 	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_militarist"
-	ethic="ethic_fanatic_spiritualist"
-	ethic="ethic_expansionist"
-	ethic="ethic_elitist"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"	
 	trait="trait_force_attuned"
 	trait="trait_resilient"
 	trait="trait_deviants"
@@ -174,11 +168,7 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_militarist"
-	ethic="ethic_socialism"
-	ethic="ethic_expansionist"
-	ethic="ethic_space_engineering"
-	ethic="ethic_culture"
+	ethic="ethic_fanatic_militarist"	
 	trait="trait_strong"
 	trait="trait_natural_engineers"
 	trait="trait_abundant"
@@ -235,10 +225,6 @@
 	ethic="ethic_collectivist"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
-	ethic="ethic_socialism"
-	ethic="ethic_isolationist"
-	ethic="ethic_elitist"
-	ethic="ethic_space_engineering"
 	trait="trait_intelligent"
 	trait="trait_talented"
 	trait="trait_solitary"
@@ -294,18 +280,11 @@
 		ruler_title_female="Supreme Mogul"
 	}
 	spawn_enabled=always
-	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_capitalism"
-	ethic="ethic_fanatic_industrial"
-	ethic="ethic_elitist"
-	#ethic="ethic_transport"
+	ethic="ethic_collectivist"	
 	trait="trait_repugnant"
 	trait="trait_enduring"
-	trait="trait_thrifty"
-	#trait="trait_deviants"
-	trait="trait_decadent"
-	#trait="trait_very_strong"
-	#trait="trait_abundant"
+	trait="trait_thrifty"	
+	trait="trait_decadent"	
 }
 ###### REPUBLIC CORE WORLDS
 "Galactic Republic"
@@ -353,13 +332,12 @@
 		texture=0
 		hair=5
 		clothes=4
-		ruler_title="Supreme Chancellor"
-		ruler_title_female="Supreme Chancellor"
+		ruler_title="Chancellor"
+		ruler_title_female="Chancellor"
 	}
 	spawn_enabled=always
 	ethic="ethic_fanatic_individualist"
 	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_materialist"
 	trait="trait_industrious"
 	trait="trait_deviants"
 	trait="trait_quick_learners"
@@ -415,8 +393,7 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_pacifist"
-	ethic="ethic_fanatic_green"
+	ethic="ethic_fanatic_pacifist"	
 	trait="trait_talented"
 	trait="trait_charismatic"
 	trait="trait_deviants"
@@ -472,8 +449,7 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_pacifist"
-	ethic="ethic_fanatic_green"
+	ethic="ethic_fanatic_pacifist"	
 	trait="trait_talented"
 	trait="trait_charismatic"
 	trait="trait_deviants"
@@ -1346,7 +1322,7 @@
 
 "Geonosian Hives"
 ={
-	name_list="MOL3"
+	name_list="Geonosians"
 	ship_prefix=""
 	species_name="Geonosian"
 	species_plural="Geonosians"
@@ -1356,7 +1332,7 @@
 	portrait="art1"
 	name="Geonosian Hives"
 	adjective="Geonosian"
-	government="communist_dictatorship"
+	government="despotic_hegemony"
 	flags={geonosian_hives SWGD_START custom_start_screen SWGD}
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
@@ -1394,8 +1370,7 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_fanatic_collectivist"
-	ethic="ethic_materialist"
-	trait="trait_drone_mindset" 
+	ethic="ethic_materialist"	
 	trait="trait_fleeting"
 	trait="trait_rapid_breeders"
 	trait="trait_natural_engineers"
@@ -1631,16 +1606,11 @@
 	spawn_as_fallen=no
 	spawn_enabled=always
 	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_capitalism"
-	ethic="ethic_industrial"
-	ethic="ethic_elitist"
+	ethic="ethic_fanatic_materialist"	
 	trait="trait_weak"
 	trait="trait_thrifty"
 	trait="trait_communal"
-	trait="trait_deviants"
-	#trait="trait_decadent"
-	#trait="trait_natural_engineers"
+	trait="trait_deviants"	
 }
 
 "Arkanian Dominion"
@@ -1693,11 +1663,7 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_capitalism"
-	ethic="ethic_industrial"
-	ethic="ethic_elitist"
-	ethic="ethic_medicine"
+	ethic="ethic_fanatic_materialist"	
 	trait="trait_deviants"
 	trait="trait_natural_engineers"
 	trait="trait_talented"
@@ -1716,7 +1682,7 @@
 	name="Echani Command"
 	adjective="Echani"
 	government="military_junta"
-	flags={	echani custom_start_screen SWGD SWGD_START}
+	flags={	echani custom_start_screen SWGD SWGD_START echani_warriors }
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Eshan"
@@ -1753,10 +1719,7 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_collectivist"
-	ethic="ethic_militarist"
-	ethic="ethic_socialism"
-	ethic="ethic_space_engineering"
-	ethic="ethic_culture"
+	ethic="ethic_fanatic_militarist"
 	trait="trait_strong"
 	trait="trait_natural_engineers"
 	trait="trait_abundant"
@@ -1925,12 +1888,7 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_individualist"
-	ethic="ethic_militarist"
-	ethic="ethic_socialism"
-	ethic="ethic_industrial"
-	ethic="ethic_pluralist"
-	ethic="ethic_land_engineering"
-	ethic="ethic_comms"
+	ethic="ethic_militarist"	
 	trait="trait_resilient"
 	trait="trait_deviants"
 	trait="trait_strong"
@@ -1950,7 +1908,7 @@
 	name="Dorin Republic"
 	adjective="Dorin"
 	government="indirect_democracy"
-	flags={	dorin custom_start_screen SWGD SWGD_START}
+	flags={	dorin custom_start_screen SWGD SWGD_START baran_do_sages }
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Dorin"
@@ -1987,11 +1945,7 @@
 	}
 	spawn_enabled=always
 	ethic="ethic_individualist"
-	ethic="ethic_fanatic_spiritualist"
-	ethic="ethic_socialism"
-	ethic="ethic_pluralist"
-	ethic="ethic_education"
-	ethic="ethic_culture"
+	ethic="ethic_fanatic_spiritualist"	
 	trait="trait_communal"
 	trait="trait_repugnant"
 	trait="trait_intelligent"
@@ -2047,11 +2001,9 @@
 		ruler_title_female="Most High Queen"
 	}
 	spawn_enabled=always
-	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_collectivist"
 	ethic="ethic_militarist"
-	ethic="ethic_xenophobe"
-	ethic="ethic_fanatic_elitist"
-	ethic="ethic_culture"
+	ethic="ethic_xenophobe"	
 	trait="trait_deviants"
 	trait="trait_decadent"
 	trait="trait_natural_sociologists"
@@ -2107,12 +2059,9 @@
 		ruler_title_male="Council Chief"
 	}
 	spawn_enabled=always
-	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_collectivist"
 	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	ethic="ethic_capitalism"
-	ethic="ethic_elitist"
-	ethic="ethic_transport"
+	ethic="ethic_materialist"	
 	trait="trait_resilient"
 	trait="trait_deviants"
 	trait="trait_communal"
@@ -2171,11 +2120,6 @@
 	ethic="ethic_individualist"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
-	ethic="ethic_spiritualist"
-	ethic="ethic_socialism"
-	ethic="ethic_green"
-	ethic="ethic_culture"
-	#trait="trait_force_attuned"
 	trait="trait_communal"
 	trait="trait_deviants"
 	trait="trait_agrarian"
@@ -2232,12 +2176,127 @@
 	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	ethic="ethic_capitalism"
-	ethic="ethic_elitist"
-	ethic="ethic_hospitality"
-	ethic="ethic_culture"
+	ethic="ethic_materialist"	
 	trait="trait_charismatic"
 	trait="trait_deviants"
 	trait="trait_talented"
+}
+
+"Eternal Empire"
+={
+	key="Eternal Empire"
+	name_list="HUM1"
+	ship_prefix=""
+	species_name="Zakuulan"
+	species_plural="Zakuulans"
+	species_class="HUM"
+	species_adjective="Zakuulan"
+	species_bio=""
+	portrait="human"
+	name="Eternal Empire"
+	adjective="Eternal"
+	government="despotic_empire"
+	flags={zakuul custom_start_screen SWGD_START }
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Zakuul"
+	planet_class="pc_tropical"
+	system_name="Zakuul"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"hsv_70_9"
+			"gray_99"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Valkorion"
+		portrait="human_male_01"
+		texture=0
+		hair=27
+		clothes=3
+		ruler_title="Emperor"
+		ruler_title_female="Empress"
+		heir_title="Prince"
+		heir_title_female="Princess"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	spawn_enabled=yes
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_dark_side"
+	trait="trait_natural_engineers"
+	trait="trait_sedentary"
+	trait="trait_force_attuned"
+	trait="trait_decadent"
+}
+
+"Chalactan Convocation of Adepts"
+={
+	name="Chalactan Convocation of Adepts"
+	name_list="sw_hu"
+	ship_prefix=""
+	species_name="Chalactan"
+	species_plural="Chalactan"
+	species_class="SWGD_HUMAN"
+	species_adjective="Chalactan"
+	species_bio="The Chalactan Adepts or Adepts of Chalacta were a philosophical-mystic order of Chalactans that studied at the Temple of Illumination. The organization was run by the Convocation of Adepts. Their teachings allowed for invulnerability to mental manipulation and torture."
+	portrait="chalactan"	
+	adjective="Chalactan"
+	government="theocratic_oligarchy"
+	flags={chalactan_convocation SWGD custom_start_screen SWGD_START chalactan_adepts }
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Chalacta"
+	planet_class="pc_continental"
+	system_name="Chalacta"
+	initializer=""
+	graphical_culture="republic_01"
+	city_graphical_culture="dirty_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"red"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Soma Gangi"
+		portrait="chalactan_male_01"
+		texture=26
+		hair=0
+		clothes=4
+		ruler_title="Master of Illumination"
+		ruler_title_female="Master of Illumination"
+	}
+	spawn_enabled=always
+	ethic="ethic_light_side"
+	ethic="ethic_individualist"
+	ethic="ethic_fanatic_spiritualist"		
+	trait="trait_force_attuned"
+	trait="trait_deviants"
 }

@@ -50,3 +50,36 @@ spriteTypes = {
 	}
 	
 }
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_mandalore_the_ultimate"
+		texturefile = "gfx/event_pictures/mandalore_the_ultimate.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_dxun"
+		texturefile = "gfx/event_pictures/dxun.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_ecumenopolis"
+		texturefile = "gfx/event_pictures/ecumenopolis.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}

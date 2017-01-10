@@ -482,19 +482,171 @@ building_sith_pyramid = {
 	
 }
 
+##defensive##
 
 
+building_turbolaser_central_command = {
+	requires_pop = no
+	base_buildtime = 360
+	
+	cost = {
+		minerals = 350
+		
+	}
+	
+	
+	planet_modifier = {
+		planet_fortification_strength = 0.5
+	}
+	
+	planet_unique = yes
+	level = 1
+	
+	army_modifier = {
+		garrison_health = 0.1
+	}
+	
+	
+	
+	
+	prerequisites = {
+		 "tech_advanced_target_tracking" 
+	}
+	ai_replace = no
+}
 
 
+building_magnapulse_canon = {
+	requires_pop = no
+	base_buildtime = 360
+	
+	cost = {
+		minerals = 350
+		
+	}
+	
+	
+	planet_modifier = {
+		planet_fortification_strength = 0.2
+	}
+	
+	planet_unique = yes	
+	level = 1
+	
+		
+	prerequisites = {
+		 "tech_heavy_plasma_ballistics" 
+	}
+	ai_replace = no
+}
+
+building_starfighter_hangar = {
+	requires_pop = no
+	base_buildtime = 360
+	
+	cost = {
+		minerals = 350
+		
+	}
+	
+	
+	planet_modifier = {
+		planet_fortification_strength = 0.5
+	}
+	
+	level = 1
+	
+	army_modifier = {
+		garrison_health = 0.1
+	}
+	
+	
+	
+	
+	prerequisites = {
+		 "tech_atmospheric_starfighter_support" 
+	}
+	ai_replace = no
+}
 
 
+building_planetary_citadel = {
+	
+	base_buildtime = 360
+	
+	cost = {
+		minerals = 350
+		
+	}
+	
+	
+	planet_modifier = {
+		planet_fortification_strength = 1.0
+	}
+	
+	planet_unique = yes	
+	level = 1
+	
+	army_modifier = {
+		garrison_health = 0.1
+	}
+	
+	
+	
+	
+	prerequisites = {
+		 "tech_colonization_1" 
+	}
+	ai_replace = no
+}
 
-
-
-
-
-
-
+building_communications_array = {
+	base_buildtime = 100
+	planet_unique = yes
+	requires_pop = yes
+	is_listed = yes
+	
+	cost = {
+		minerals = @b0cost
+	}
+	
+	country_modifier = {	
+	
+		pop_migration_speed = 0.10
+		planet_sensor_range_mult = 1.0
+		}
+		
+	ai_replace = no
+	
+}
+building_military_intelligence_hq = {
+	base_buildtime = 100
+	planet_unique = yes
+	requires_pop = yes
+	is_listed = yes
+	
+	cost = {
+		minerals = @b0cost
+	}
+	produced_resources = {
+			influence = 1
+			society_research = @lots
+			sr_intelligence = @lots
+		}
+	
+	planet_modifier = {
+		planet_migration_xeno_pull = -0.1
+		pop_ethic_shift = -0.1
+		planet_sensor_range_mult = 0.1
+		
+	}
+	country_modifier = {	
+		category_military_theory_research_speed_mult = = 0.50		
+		}
+		
+	ai_replace = no
+	
+}
 
 
 

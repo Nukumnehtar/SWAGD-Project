@@ -96,6 +96,7 @@ endor_system_initializer = {
 			init_effect = {
 				create_species = {
 						name = "Ewok"
+						name_list = "Ewoks"
 						class = "MAM"
 						portrait = "mam6"
 						homeworld = THIS

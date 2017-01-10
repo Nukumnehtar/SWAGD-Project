@@ -2,25 +2,247 @@ namespace = swgd
 
 #check if planet has population over 24, if so sets it to Ecumenopolis
 
-planet_event = {
-	id = swgd.1
+
+#triggered monthly to check current status of owned colonies
+event = {
+	id = swgd.0
 	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = { is_country_type = default }
+			country_event = { id = swgd.1 }
+		}
+	}
+}
+
+#triggers every event below so it updates the planets accordingly.
+country_event = {
+	id = swgd.1		
+	is_triggered_only = yes
+	hide_window = yes
+	
+		immediate = {
+			every_owned_planet = {
+					planet_event = { id = swgd.2 }
+					planet_event = { id = swgd.3 }
+					planet_event = { id = swgd.4 }
+					planet_event = { id = swgd.5 }
+					planet_event = { id = swgd.6 }
+					planet_event = { id = swgd.7 }					
+					}				
+		}
+}
+
+#new colony
+planet_event = {
+	id = swgd.2
+	hide_window = yes
+	
+	trigger = {
+		has_owner = yes		
+		is_homeworld = no		
+		num_pops > 0
+		colony_age > 0
+		is_capital = no		
+		NOT = { 			
+			has_planet_flag = new_colony
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+			
+			add_modifier = {
+					modifier = "new_colony"	
+					days = -1					
+					}
+			
+				set_planet_flag = new_colony
+				
+				
+		}		
+			
+}
+
+#developing colony
+planet_event = {
+	id = swgd.3
+	hide_window = yes
+	
+	trigger = {
+		has_owner = yes		
+		is_homeworld = no		
+		num_pops > 4
+		colony_age > 24
+		is_capital = no		
+		NOT = { 			
+			has_planet_flag = developing_colony
+		}
+			has_planet_flag = new_colony
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+			remove_modifier = "new_colony"
+			add_modifier = {
+					modifier = "developing_colony"	
+					days = -1					
+					}
+			
+				set_planet_flag = developing_colony
+				
+				
+		}		
+			
+}
+
+#established colony
+planet_event = {
+	id = swgd.4
+	hide_window = yes
+	
+	trigger = {
+		has_owner = yes		
+		is_homeworld = no		
+		num_pops > 8
+		colony_age > 60
+		is_capital = no
+		has_building = building_capital_1		
+		NOT = { 			
+			has_planet_flag = established_colony
+		}
+		has_planet_flag = developing_colony
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+			remove_modifier = "developing_colony"
+			add_modifier = {
+					modifier = "established_colony"	
+					days = -1					
+					}
+			
+				set_planet_flag = established_colony
+				
+				
+		}		
+			
+}
+
+#developing world
+planet_event = {
+	id = swgd.5
+	hide_window = yes
+	
+	trigger = {
+		has_owner = yes		
+		is_homeworld = no			
+		num_pops > 10
+		colony_age > 100
+		is_capital = no
+		has_building = building_capital_2 
+		NOT = { 			
+			has_planet_flag = developing_world
+		}
+		has_planet_flag = established_colony
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+			remove_modifier = "established_colony"
+			add_modifier = {
+					modifier = "developing_world"	
+					days = -1					
+					}
+			
+				set_planet_flag = developing_world
+				
+				
+		}		
+			
+}
+
+#core world
+planet_event = {
+	id = swgd.6
+	hide_window = yes
+	
+	trigger = {
+		has_owner = yes		
+		is_homeworld = no		
+		num_pops > 12
+		colony_age > 200
+		is_capital = no		
+		NOT = { 			
+			has_planet_flag = core_world
+		}
+		has_building = building_capital_2 
+		has_planet_flag = developing_world
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+			remove_modifier = "developing_world"
+			add_modifier = {
+					modifier = "core_world"	
+					days = -1					
+					}
+			
+				set_planet_flag = core_world
+				
+				
+		}		
+			
+}
+
+#ecumenopolis
+planet_event = {
+	id = swgd.7
+	title = swgd.7.name
+	desc = swgd.7.desc
+	picture = GFX_evt_ecumenopolis
+	show_sound = event_administrative_work_02
+	location = ROOT
+	
+	trigger = {
+		has_owner = yes		
+		is_homeworld = no		
+		num_pops > 22		
+		colony_age > 6
+		is_capital = no
+		has_building = building_capital_2 		
+		NOT = { 			
+			has_planet_flag = ecumenopolis
+			has_modifier = "ecumenopolis"
+		}
+			
+	}
+	
 	is_triggered_only = yes
 	
 	
-	immediate = {
-		if = {
-			limit = {
-				num_pops > 20
-			}
-			}
+		
+		option = {
+			name = swgd.7.a	
+			remove_modifier = "new_colony"
 			add_modifier = {
-				modifier = "ecumenopolis"
-			
+					modifier = "ecumenopolis"	
+					days = -1					
+					}
+			hidden_effect = {
+				set_planet_flag = ecumenopolis
 				}
-		}	
-}				
-
+				
+		}				
+			
+}
 
 
 

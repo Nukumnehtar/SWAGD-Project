@@ -52,6 +52,13 @@ SWGD_HUMAN = {
 		home_system = "Al'Har"
 		name_list = "Republic"
 	}
+	chalactan = {
+		name = "Chalactan"	
+		plural = "Chalactan"
+		home_planet = "Chalacta"
+		home_system = "Chalacta"
+		name_list = "Republic"
+	}
 	revanites = {
 		name = Revanite
 		plural = Revanites
@@ -135,7 +142,7 @@ SWGD_HUMANOID = {
 		plural = Twi'lek
 		home_planet = Ryloth
 		home_system = Ryloth
-		name_list = "MAM1"
+		name_list = "Twileks"
 	}
 	togruta = {
 		name = Togruta

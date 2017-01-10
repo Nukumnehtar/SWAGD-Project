@@ -1,0 +1,155 @@
+### Jawas
+Jawas = {
+
+	ship_names = {
+		generic = {
+		
+		}
+		
+		corvette = {
+		
+		}
+		
+		constructor = {
+		
+		}
+		
+		colonizer = {
+		
+		}
+		
+		science = {
+		
+		}
+		
+		destroyer = {
+		
+		}
+		
+		cruiser = {
+		
+		}
+		
+		battleship = {
+		
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		observation_station = { }
+		outpost_station = {			
+			sequential_name = "%O% Frontier Outpost"
+		}
+		
+		transport = {
+		
+		}
+
+		military_station_small = {
+			M-1 M-2 M-3 M-4 M-5 M-6 M-7 M-8 M-9 M-10 M-11 M-12 M-13 M-14 M-15 M-16 M-17 M-18 M-19 M-20 M-21 M-22
+			M-23 M-24 M-25 M-26 M-27 M-28 M-29 M-30 M-31 M-32 M-33 M-34 M-35 M-36 M-37 M-38 M-39 M-40 M-41 M-42 M-43 M-44
+		}
+		
+		#military_station_small = { 
+		#	sequential_names = { 
+		#		"Outpost 1" "Outpost 2" "Outpost 3" "Outpost 4" "Outpost 5" "Outpost 6" "Outpost 7" "Outpost 8" "Outpost 9" "Outpost 10" "Outpost 11" "Outpost 12"
+		#		"Outpost 13" "Outpost 14" "Outpost 15" "Outpost 16" "Outpost 17" "Outpost 18" "Outpost 19" "Outpost 20" "Outpost 21" "Outpost 22" "Outpost 23"
+		#		"Outpost 24" "Outpost 25" "Outpost 26" "Outpost 27" "Outpost 28" "Outpost 29" "Outpost 30" "Outpost 31" "Outpost 32" "Outpost 33" "Outpost 34"
+		#		"Outpost 35" "Outpost 36" "Outpost 37" "Outpost 38" "Outpost 39" "Outpost 40"
+		#	}
+		#}
+		
+		military_station_medium = { 
+			"%O% Naval Base"
+		}
+		
+		
+		military_station_large = { 
+			"Naval Depot"		
+		}
+		
+		#military_station_large = { 
+		#	random_names = {
+		#	}
+		#}
+	}
+
+	fleet_names = {		
+			sequential_name = "%O% Jawa Defense Fleet" 
+		}
+		
+			
+			
+		
+	
+	army_names = {
+		generic = { 
+			sequential_name = "%O% Jawa Planetary Guard"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Jawa Infantry Company"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Units"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Clone Battalion"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Battledroid Platoon"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Assassin Droid Unit"
+		}
+		
+		psionic_army = { 			
+			sequential_name = "%O% Force Warriors"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Bio-Warfare Division"
+		}
+		gene_warrior_army = {
+			sequential_name = "%O% Eugenic Vanguard"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Eyeta Mos
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		full_names = {
+			first_names_male = {
+				Akial Akkik Aktik Atetu Biguh Biktha Bleb-Blek Blizz Brrik Charl Ch'hedt Daroe Dathcha Deja Eet Efa Empideera Enjikket Ezjenk Hadiir Het Hibli Hrar Iasa Izink Iziz Izzar Jeelvic Jek Jengus Jik'Tal Jiktha Ji'Ni Jreely Kalit Kekit Keth-Keth Kezzit Kiatha Kikkit Kiottja Kitit Kitpth Klepti Klikk Krikit Lonai Maliiki Meerko Meso Miktha Mnek Nbat Nebit Niktha Nolar Pachwenko Panaw Pitkth Pliktu Prnthik Renishi Ribbo R'kik Rkok Snipp Squig Tatakoz Tteek Tek Teokuk Thedit Thint Tiatha Tikkit "Tili Tili" Tteel Ttekket Tweetu Ukchet Uutkik Veek Wassak Wimateeka Wittin Wrex Yeelhoy Zubwen
+				Abluikth Blazz Chith Dekkemiw Hekk Ikchak Krak'chih Krek'koek'kix Obloniit Ok'katki Okkent Snik Snikk Sqer Squt Tebuisseot Thut Tsakchapta Tseezz Tseh Ttent Valadt Vax Vikinzatk Vukchit Wepp Zittjil
+				}
+			
+			first_names_female = {
+				Aguilae Aved Herat Khea Lelek Maz
+				Abut Agiy Ales Anigeed Apifeh Apoevee Aree Atipi Beremam Bhagad Bhohudee Bitipuc Blafatad Blamibas Bliisim Blivota Dafum Dhali Dheke Dhihel Dhikac D'ner D'nidul Ebelek Efali Ejemakth Evi Fiiy Hurewi Imik Kabeos Kakeget K'edi Khuran K'iduvu Kkeqia Kkequ Klenuheekth Knawe K'ura Liikin Lirum Loese Mazaza Mehilah M'erira Mibel Najin Negumin Ney Nipufuc Nkun Nuqi Oheegi Pabal Pada Paka Plekem Q'ikey Q'ivu Qoejiid Rhaden Rhilelad Rine Ripem Rwalis Rwiladat Safee Sebeni Setek Shadasis Siahak Sife Sniveh Thabiih Thay Thurac Ugezil Usa Usoqahs Vamo Vewevoe Wapuk Whebeoh Whelut Whifatas Wutunam
+	 			}
+
+		second_names = {
+			" " B'ay Bet'ario D'nec Fe'li Johs Kkak Kkek Laloo Luun Nkik Nkul Ptaa Qua'lu Sil Sstena Tlek Toomb
+			Ajudakth B'ahu B'azirol Behas B'in D'nivii Evekt K'eoz K'igok Kkariakth Kruisik M'az M'ikth M'imodam Ptikth Q'adaren Q'arul Q'ecoju Soz Thetay Tluiqagim Tlunaki Tuked
+			}
+		}
+	}		
+}

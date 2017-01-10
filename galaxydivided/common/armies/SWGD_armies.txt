@@ -255,3 +255,78 @@ clone_arc = {
 		}
 	}
 }
+
+air_defense_tower = {
+	robotic = yes
+	defensive = yes
+	damage = 5.00
+	health = 100
+	time = 120
+	maintenance = 5.00
+	icon_frame = 14
+	has_species = no
+	
+	cost = {
+		minerals = 150
+		energy = 20
+	}
+	
+	prerequisites = { "tech_fixed_defenses" }
+}
+
+turbolaser_tower = {
+	robotic = yes
+	defensive = yes
+	damage = 15.00
+	health = 150
+	time = 120
+	maintenance = 10.00
+	icon_frame = 15
+	has_species = no
+	
+	cost = {
+		minerals = 150
+		energy = 20
+	}
+	allow = {
+		
+		has_building = "building_turbolaser_central_command"
+	OR = {
+		has_building = "building_power_plant_1"
+		has_building = "building_power_plant_2"
+		has_building = "building_power_plant_3"
+		has_building = "building_power_plant_4"
+		has_building = "building_power_plant_5"
+		has_building = "betharian_power_plant_1"
+		has_building = "betharian_power_plant_2"
+		has_building = "betharian_power_plant_3"
+		has_building = "betharian_power_plant_4"
+		
+		}
+	}
+	
+	prerequisites = { "tech_advanced_target_tracking" }
+}
+
+magnapulse_canon = {
+	robotic = yes
+	defensive = yes
+	damage = 10.00
+	morale_damage = 2.0
+	health = 100
+	time = 120
+	maintenance = 15.00
+	icon_frame = 16
+	has_species = no
+	
+	cost = {
+		minerals = 150
+		energy = 20
+	}
+	allow = {
+	
+		has_building = "building_magnapulse_canon"
+	}
+	
+	prerequisites = { "tech_heavy_plasma_ballistics" }
+}

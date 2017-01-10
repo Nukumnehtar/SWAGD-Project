@@ -1,6 +1,5 @@
 ### Wookiees
 Wookiee = {
-	randomized = no
 
 	ship_names = {
 		generic = {
@@ -77,55 +76,49 @@ Wookiee = {
 		#}
 	}
 
-	fleet_names = {
-		random_names = {
-			"Kashyyyk Defense Force"
+	fleet_names = {		
+			sequential_name = "%O% Wookiee Defense Fleet" 
 		}
-		sequential_name = "%O% Expansionary Fleet"
-	}
+		
+			
+			
+		
 	
 	army_names = {
-	
-		defense_army = {
-			sequential_name = "%O% Household Phalanx"
+		generic = { 
+			sequential_name = "%O% Wookiee Planetary Guard"
 		}
 
 		assault_army = {
-			sequential_name = "%O% CEDF Occupation Division"
+			sequential_name = "%O% Wookiee Infantry Company"
 		}
 		
 		slave_army = {
-			sequential_name = "%O% Indentured Rifles"
+			sequential_name = "%O% Slave Units"
 		}
 		
-		clone_army = { 
-			sequential_name = "%O% Clone Army"
+		clone_army = {
+			sequential_name = "%O% Wookiee Clone Battalion"
 		}
 		
 		robotic_army = {
-			sequential_name = "%O% Hunter-Killer Group"
+			sequential_name = "%O% Battledroid Platoon"
 		}
 		
 		android_army = {
-			sequential_name = "%O% Synthetic Rangers"
+			sequential_name = "%O% Assassin Droid Unit"
 		}
 		
-		psionic_army = { 
-			sequential_name = "%O% Force Commando"
+		psionic_army = { 			
+			sequential_name = "%O% Force Warriors"
 		}
 		
 		xenomorph_army = {
 			sequential_name = "%O% Bio-Warfare Division"
 		}
-		
 		gene_warrior_army = {
-			random_names = {
-				"SARC-A 'Widowmakers'" "SARC-B 'Immortals'" "SARC-C 'Berserkers'" "SARC-D 'Assassins'"
-				"SARC-E 'Reapers'" "SARC-F 'Nighthawks'" "SARC-I 'Grey Knights'" 
-			}
-			sequential_name = "%O% Bio-Engineered Squadron"
+			sequential_name = "%O% Eugenic Vanguard"
 		}
-	}
 
 	planet_names = {
 
