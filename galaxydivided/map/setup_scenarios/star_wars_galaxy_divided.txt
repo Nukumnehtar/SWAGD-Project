@@ -12,7 +12,7 @@ static_galaxy_scenario = {
 	##num_nebulas	= 6
 	##nebula_size = 60
 	##nebula_min_dist = 200
-	###new ids after 2226
+	###new ids after 2234
 
 	
 	##Deep Core
@@ -806,6 +806,10 @@ initializer = almera_system_initializer}
 					}}
 		system = { id = "2030" name = "Kiros" position = { x = -22 y = -96 }initializer = kiros_system_initializer}
 		system = { id = "2087" name = "Celegia" position = { x = -163 y = 28 } }
+		system = { id = "2231" name = "Ord Vaug" position = { x = -35 y = 247 } }
+		system = { id = "2232" name = "Rainos Cluster" position = { x = -26 y = 239 } }
+		system = { id = "2233" name = "Rocantor" position = { x = -30 y = 243 } }
+		system = { id = "2234" name = "Grange" position = { x = -32 y = 246 } }
 
 
 
@@ -896,6 +900,11 @@ initializer = almera_system_initializer}
 				add_hyperlane = { from = "2030" to = "936" }
 				add_hyperlane = { from = "673" to = "678" }
 				add_hyperlane = { from = "2087" to = "700" }
+				add_hyperlane = { from = "625" to = "2232" }
+				add_hyperlane = { from = "2232" to = "2233" }
+				add_hyperlane = { from = "2233" to = "2234" }
+				add_hyperlane = { from = "2234" to = "2231" }
+				add_hyperlane = { from = "2231" to = "620" }
 
 				
 					
@@ -1199,6 +1208,8 @@ initializer = almera_system_initializer}
 		system = { id = "2041" name = "Atollon" position = { x = -233 y = 250 } }
 		system = { id = "2085" name = "Neelanon" position = { x = -19 y = 335 } }
 		system = { id = "2090" name = "Falleen" position = { x = -200 y = 233 } }
+		system = { id = "2228" name = "Jedha" position = { x = -248 y = 50 } }
+		system = { id = "2230" name = "Sarkhai" position = { x = -210 y = 198 } }
 
 
 
@@ -1408,6 +1419,8 @@ initializer = almera_system_initializer}
 				add_hyperlane = { from = "2026" to = "839" }
 				add_hyperlane = { from = "923" to = "2090" }
 				add_hyperlane = { from = "918" to = "2041" }
+				add_hyperlane = { from = "1012" to = "2228" }
+				add_hyperlane = { from = "927" to = "2230" }
 
 
 
@@ -1886,6 +1899,8 @@ initializer = almera_system_initializer}
 		system = { id = "2204" name = "Codia" position = { x = 143 y = 219 } }
 		system = { id = "2205" name = "Houche" position = { x = 145 y = 263 } }
 		system = { id = "2206" name = "Firrerre" position = { x = 152 y = 275 } }
+		system = { id = "2227" name = "Deralia" position = { x = -374 y = 219 } }
+		system = { id = "2229" name = "Fest" position = { x = -34 y = -185 } }
 		
 
 
@@ -2161,7 +2176,8 @@ initializer = almera_system_initializer}
 				add_hyperlane = { from = "496" to = "491" }
 				add_hyperlane = { from = "491" to = "490" }
 				add_hyperlane = { from = "490" to = "489" }
-				add_hyperlane = { from = "489" to = "484" }
+				add_hyperlane = { from = "489" to = "2229" }
+				add_hyperlane = { from = "2229" to = "484" }
 				add_hyperlane = { from = "484" to = "486" }
 				add_hyperlane = { from = "486" to = "482" }
 				add_hyperlane = { from = "482" to = "483" }
@@ -2391,9 +2407,9 @@ initializer = almera_system_initializer}
 				add_hyperlane = { from = "2051" to = "510" }
 				add_hyperlane = { from = "511" to = "2052" }
 				add_hyperlane = { from = "415" to = "447" }
-				add_hyperlane = { from = "447" to = "447" }
-				add_hyperlane = { from = "415" to = "2154" }
+				add_hyperlane = { from = "447" to = "2154" }
 				add_hyperlane = { from = "2154" to = "2155" }
+				add_hyperlane = { from = "566" to = "2227" }
 
 
 				

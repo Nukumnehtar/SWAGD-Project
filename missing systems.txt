@@ -1,18 +1,22 @@
 Missing Systems:
 Lucas Canon:
-Chandrila - Core
-Humbarine - Core
-Uyter - Mid Rim
-Neelanon - Mid Rim
-Sern Prime - Colonies
-Bardotta - Colonies
-Lorrd - Outer Rim
+
 Filoni Canon:
+
 Legends:
+Sarkhai - TOR/Mid Rim
+Deralia - KOTOR/TOR/Revan/Outer Rim - Beyond Rim
+
 Kynachi - Wild Space
-Yanibar - Zeison Sha/Wild Space
 Disney:
-Jedha - Rogue One/Inner-rim/Jedi
+Jedha - Rogue One/Mid Rim/Jedi
+Fest - Rogue One/Outer Rim
+Grange - Rogue One/Galen Erso/Expansion Region
+
 Scarif - Rogue One/Outer Rim
-Riosa - Inner Rim
-Vallt - Rogue One/
+Eadu - Rogue One/Outer Rim
+Kafrene - Rogue One/Expansion Region
+Lah'mu - Rogue One/Outer Rim
+Aria Prime - Rogue One/Lyra
+Riosa - Death Star/Inner Rim
+Vallt - Rogue One/Outer Rim
