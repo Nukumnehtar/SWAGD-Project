@@ -1949,8 +1949,6 @@
 	trait="trait_communal"
 	trait="trait_repugnant"
 	trait="trait_intelligent"
-}
-
 
 "Zygerrian Slave Empire"
 ={
@@ -1999,6 +1997,8 @@
 		clothes=3
 		ruler_title_male="Most High King"
 		ruler_title_female="Most High Queen"
+    heir_title="Prince"
+		heir_title_female="Princess"
 	}
 	spawn_enabled=always
 	ethic="ethic_collectivist"
@@ -2056,7 +2056,7 @@
 		texture=0
 		hair=0
 		clothes=3
-		ruler_title_male="Council Chief"
+		ruler_title="Council Chief"
 	}
 	spawn_enabled=always
 	ethic="ethic_collectivist"
@@ -2228,7 +2228,6 @@
 		hair=0
 		clothes=4
 		ruler_title="Master of Illumination"
-		ruler_title_female="Master of Illumination"
 	}
 	spawn_enabled=always
 	ethic="ethic_light_side"
