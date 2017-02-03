@@ -1,0 +1,229 @@
+ryloth_system_initializer = {
+    name = "Ryloth"
+    class = "rl_standard_stars"
+	flags = {twilek_clans}
+	usage = custom_empire
+	max_instances = 1
+
+    planet = {
+        class = "pc_g_star"
+        orbit_distance = 0
+        size = 20
+    }
+
+    planet = {
+        name = "Mon Bala"
+        class = "pc_molten"
+        orbit_distance = 20
+        orbit_angle = 205
+        size = 8
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Ryloth"
+        class = "pc_arid"
+        orbit_distance = 27
+        orbit_angle = 47
+        size = 20
+        has_ring = no
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+		prevent_anomaly = yes
+			add_modifier = {
+				modifier = "tidal_locked"
+				days = -1
+					}
+			add_modifier = {
+				modifier = "hazardous_weather"
+				days = -1
+					}		
+		every_country = {
+					limit = {
+						has_country_flag = twilek_clans
+					}
+					save_event_target_as = twilek_clans
+				}
+			set_owner = event_target:twilek_clans
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_slums"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_slums"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_slums"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_slums"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_slums"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}	
+
+	}
+
+
+        moon = {
+            name = "Ryloth I"
+            class = random
+            orbit_distance = 8
+            orbit_angle = 209
+            has_ring = no
+	    size = 5
+        }
+        moon = {
+            name = "Ryloth II"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 18
+            has_ring = no
+	    size = 6
+        }
+        moon = {
+            name = "Ryloth III"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 165
+            has_ring = no
+	    size = 6
+        }
+        moon = {
+            name = "Ryloth IV"
+            class = random
+            orbit_distance = 3
+            orbit_angle = 78
+            has_ring = no
+	    size = 5
+        }
+        moon = {
+            name = "Ryloth V"
+            class = random
+            orbit_distance = 3
+            orbit_angle = -45
+            has_ring = no
+	    size = 8
+        }
+    }
+
+    planet = {
+        name = "Or Tuma"
+        class = "pc_arctic"
+        orbit_distance = 40
+        orbit_angle = 170
+        size = 14
+        has_ring = no
+
+    }
+}
