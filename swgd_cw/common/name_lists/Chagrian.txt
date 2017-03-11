@@ -1,0 +1,195 @@
+###CHAGRIAN###
+
+Chagrian = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			Sschlurga Gloib Schlaglur Gollopogg Gaggam Sshloph Paggon Paddagur Saggurss Igorss Ssaamilgus Kaggasch
+			Suggron Kaggassulh Ogassch Ograggass Gisch Saloip Peroig Kudoig Kasablass Iggis Angogga Aglurga Argagg
+			Alpoig Uschlass Uriss Ukaschma Ygglasch Odolss Sismuath Poggora Schashqa Gamuasch Gorgil Illisch Asiggab
+			Umasch Happosch Jaggon Jusch Jakusch Jurgla Laggasch Lurgluss Liggosch Alascha Agguldir Lollusch Loggajis
+			Paggsch Obrogg Tegglosch Tugglusch Iggalasch Waggalusch Wirglurg Wossag Withlasch Gawagga Gijjigg Wergta
+			Iragg Yssagg Boldrosch Bischglur Bossgar Sossagg Higgla Havaggasch Wagolasch Korgasch Schlumon Pathagga
+			Oggal Paschgo Gaschalga Kaschaliss Jaschaglur Jogloib Uggoib Palschoib Urgusch Schalgor Haggusch Iogg
+			Dorgjasch Mildrosch Maggasch Mirglorg Schlobbjor Schashka Gogglir Eglana Jaggogish Oggar Ugascha Iggam 
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }		
+		observation_station = { }
+		outpost_station = {
+			sequential_name = "%O% Frontier Outpost"
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		random_names = {
+			"Boggwoss Squadron" "Reggam Squadron" "Shoggor Squadron" "Paggirim Squadron" "Meggisch Squadron" "Lurggam Squadron" 
+			"Ithagga Squadron" "Juraggi Squadron"
+		}
+		sequential_name = "%O% Nautilus Squadron"
+	}
+	
+	### ARMIES
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Defense Shell"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Invasion Shoal"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Forces"
+		}
+		
+		clone_army = {
+			sequential_name = "Clone Cluster %C%"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Cephalodroids"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Spirit Shells"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psychic Phalanx"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Consuming Swarm"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Ascenders"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			
+			
+			# Always combined with a second name
+			first_names_male = {
+			Ackrahbala Aram Chondrus Mas Kav Charko Barlo Burloo Briqui Fideltin Len Saar Morrun Sul
+			Deniv Rosk Irr Gaar LaaB An Meddus Alnon Mal Man S'rondrus
+			Cheel Ohv Mirr Mors Sohro Fichom Oldon Arrun Morrultin Grevin Koll
+			Laab Ebo Maav Dar Rodov Firoltin Achrusk Nansu Everis Gouge
+			Seet Ahl Sahr Lovor Rall Arkensu Romo Alsal Dumerin Goh Harlal
+			Seeb Soro Eban Chubo Nirro Maarl Dorn Mel Ogoll Redd S'ran
+			Nensu Karhei Jatta Rogun Orso Skav Musori Prashok Phrayan Gogh 
+            Quellon Refain Serrath Sulle Shohn-Lowt Harmon Danison Gromm
+			Wyyrlok
+
+			}
+			first_names_female = {
+			Masa Kava Charka Briqa Fideltia Lena Saarai Morra Sula
+			Roska Irrek Gaarik Laaba Anok Medda Alna Mana S'rondra
+			Cheelya Ohva Mirroi Sohra Ficha Olda Arra Morrultina
+			Laaba Ebik Maavek Darra Roda Firoltia Achruska Nansa 
+			Seeta Ahlya Sahrnok Lova RalA Arkena Romma Alsalia
+			Seebik Sorok Ebai Chuba Nirroi Maara Dornai 
+			Mella Ogolla Redda Oora Muuta Sirrik S'rana
+			Nensa Karheia Jattya Roguna Orsa Skavja Musora Prashoka Phraya Gogha 
+            Quellona Refana Serratha Sulla Shohna Harmona Dania Gromma
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			Avaho Acheron Amedda Bayons Berani Coramma Rusk Missa Dokaas Dekkon Shiran Usempan
+			Corsignis Ransan Drenn Vorrun Ackrabrarsa Dreetik Achansin Otran
+			Atrenn Umansa Asheddan Acharhin Ackramala Lyaak Cerevaas
+			Raatik Olyuutik Orohmissan Alemorsi Aniquan Oresorun
+			Choosk Mayun Lyaas Vendei Onedrinoo Drero Acheras
+			Misharsi Midi Menda Ezag Mordedda Onibamman Salla
+			Rijalli Nanta Ackrachissa Edramma Rahmansa Plood Mora
+			Jempas Demanna Droot Jovas Kaatik Kuum Matt'rik Meeto Pleetik
+			Torvix Zian Varik Venn Gellandi Olyeg
+			}
+			}
+	
+		}
+	}
+}

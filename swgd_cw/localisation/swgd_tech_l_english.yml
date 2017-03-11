@@ -1,0 +1,37 @@
+﻿l_english:
+
+ #####################################
+ # Techs
+ #####################################  
+ tech_breathing_masks:0 "Breathing Masks" 
+ tech_breathing_masks_desc:0 "Latest developments in breathing mask technology has allowed our species to live more comfortably on other planets." 
+ tech_enviro_suits:0 "Environment Suits"
+ tech_enviro_suits_desc:0 "Next generation EVA suits have been modified for mass production for the populace, allowing them for greater production in less than ideal atmospheric condition."
+ tech_offworld_habitats:0 "Offworld Habitats" 
+ tech_offworld_habitats_desc:0 "Advances in atmospheric simulation now allow the construction of habitats on entities with little to no atmosphere." 
+ tech_force_I:0 "The Force" 
+ tech_force_I_desc:0 "Philosophers and scientists from across your worlds gather to share their mystical knowledge, discovering the Force as the metaphysical, spiritual, binding, and ubiquitous power of the cosmos." 
+ tech_force_II:0 "Early Force Studies" 
+ tech_force_II_desc:0 "Attempts to understand the nature of the transcendent and the Force has led to the study of behavior, belief and powers of those that wield it. New techniques of many disciplines, ranging from combat to meditation, are explored, built and tested by Force-users within your empire." 
+ tech_force_III:0 "Ancient Artifact Studies" 
+ tech_force_III_desc:0 "The study of ancient Artifacts gave access to priceless dark or light side items, ancient in their creation but invaluable to Force-users for their potency and unique interaction with the dark or light side of the Force. These artifacts included spellbooks, amulets and talismans, holocrons, swords, scrolls or tomes." 
+ tech_force_IV:0 "Advanced Force Trials" 
+ tech_force_IV_desc:0 "Whether alone or within an Order, Force-sensitives undergo harsh and sometimes impossible tasks to prove their strength and knowledge of the Force." 
+ tech_force_VI:0 "Unexplored Hologrammic Technology" 
+ tech_force_VI_desc:0 "Through studies of employed patterns of organic crystals and hologrammic technology to capture the appearance and cognitive networks of a holocron's owner, and transform this into a three-dimensional hologram." 
+ tech_fixed_defenses:0 "Fixed Defensive Emplacements"
+ tech_fixed_defenses_desc:0 "Developments in fixed defensive emplacements allows for more stable and accurate platforms to be designed for use on a planetary scale."
+ tech_advanced_target_tracking:0 "Advanced Target Tracking"
+ tech_advanced_target_tracking_desc:0 "New target tracking algorithms allow garrisons to increase their defensive capabilities by providing more accurate, and thus more effective, fire support."
+ tech_atmospheric_starfighter_support:0 "Atmospheric Starfighter Support"
+ tech_atmospheric_starfighter_support_desc:0 "By constructing planetary starfighter hangars, garrisons are capable of countering atmospheric and ground threats without having to rely on orbiting fleets."
+ tech_heavy_plasma_ballistics:0 "Heavy Plasma Ballistics"
+ tech_heavy_plasma_ballistics_desc:0 "By constructing underground generators, we are able to outfit planetary canons to fire plasma balls at enemy vehicles or starships, causing massive electrical disturbances that disable and damage the target for a time."
+ #####################################
+ # Gateways
+ ##################################### 
+ 
+ gateway_force:0 "§HForce Path§!\n§EThis technology will lead to further knowledge of the Force." 
+ gateway_ground_defense:0 "§HGround Defense Path§!\n§EThis technology will lead to further advancements in planetary defenses." 
+ 
+ 

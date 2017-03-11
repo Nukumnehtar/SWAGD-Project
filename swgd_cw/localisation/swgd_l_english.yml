@@ -1,0 +1,242 @@
+﻿l_english:
+
+
+ 
+ #####################################
+ # Empire Designs & Bios
+ #####################################  
+ 
+ EMPIRE_DESIGN_jedi_council:0 "Jedi Council"
+ EMPIRE_DESIGN_jedi_council_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 2\n§BDetails§!: A monastic peacekeeping order unified by its belief in the Light Side of the Force.\n\n§BBackground§!: The Jedi are the guardians of peace and justice in the Galactic Republic, and has become perhaps the most well known of the various groups that relied on the Force for their power. Led by a series of Jedi Councils, the Order grew over the millennia despite facing many trials. Most often these threats were engineered by the Sith, the most prominent group of Force sensitives who wield the dark side of the Force."
+ 
+ EMPIRE_DESIGN_galactic_republic:0 "Galactic Republic"
+ EMPIRE_DESIGN_galactic_republic_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 2\n§BDetails§!: Core founder of the Republic\n\n§BBackground§!: Coruscant is the captial of the ruling government of much of the galaxy that has existed for more than 25 thousand years. The Republic is a representative democracy, composed of various star systems, sectors and member worlds throughout most of the known galaxy. Its central government consisted of three branches: legislative, executive and judicial. The first was the Galactic Senate, a body of elected or appointed representatives. Its main duties included mediating disputes over issues ranging from planetary to galactic-scale, regulating trade routes between star systems, and in theory, represented the interests of Republic citizens."
+
+ EMPIRE_DESIGN_chiss_ascendancy:0 "Chiss Ascendancy"
+ EMPIRE_DESIGN_chiss_ascendancy_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 8\n§BDetails§!: A highly structured, isolationist society hidden in the Unknown Regions.\n\n§BBackground§!: The Chiss Ascendancy, sometimes termed Chiss Space or the Chiss Empire by outsiders, is a portion of the galaxy just inside the Unknown Regions that is ruled by the Chiss. The Chiss are governed by an oligarchy of extended Ruling Families from their capital, Csilla. The wider galaxy has had little to no direct contact with Chiss civilians. What is known about them is mediated largely through encounters with military units, and through a few high-level contacts with political and diplomatic delegations."
+
+ EMPIRE_DESIGN_trade_federation:0 "Trade Federation"
+ EMPIRE_DESIGN_trade_federation_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 1\n§BDetails§!: CIS Scum.\n\n§BBackground§!: Neimoidians placed tremendous value on wealth and material possessions, and would go to great lengths to gain money and power, resulting in a stereotype of being greedy and cowardly; however, they are very easily intimidated, and hate combat."
+ 
+ EMPIRE_DESIGN_hutt_clans:0 "Hutt Clans"
+ EMPIRE_DESIGN_hutt_clans_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 4\n§BDetails§!: A group of powerful crime organization governed by a Council, whose members are the heads of the five Hutt families.\n\n§BBackground§!: The Hutt Ruling Council, alternatively known as the Council of Elders, Hutt Council, Great Hutt Council, or the Grand Council of Nal Hutta, is a five-member council that is the primary ruling body of the Hutt species. The five members were often known informally as the Five Hutt Families, but due to internal politics, individual clans could control more than one seat on the council. The Council handled the day-to-day affairs of the Hutt species, and its leader speaks on behalf of all Hutts in treaties and dealings with other empires."
+ 
+ EMPIRE_DESIGN_naboo_kingdom:0 "Kingdom of Naboo"
+ EMPIRE_DESIGN_naboo_kingdom_desc:0 "§BInitial Challenge§!: §RHard§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Kingdom of Naboo, led by the Monarch of Naboo, rules over the planet of Naboo and its territories."
+ 
+ EMPIRE_DESIGN_kamino_council:0 "Kamino Council"
+ EMPIRE_DESIGN_kamino_council_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 2\n§BDetails§!: An isolated society of highly skilled cloners, governed by a Ruling Council. \n\n§BBackground§!: The Council maintains administrative offices in the capital, Tipoca City, which is governed by a Prime Minister. The Prime Minister is the head of the Kamino colony governors that comprises the Ruling Council."
+ 
+ EMPIRE_DESIGN_bespin_guilds:0 "Bespin Trade Guilds"
+ EMPIRE_DESIGN_bespin_guilds_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 2\n§BDetails§!: \n\n§BBackground§!: The Bespin Trade Guilds, led by a Guildmaster, represents the various cities and facilities on the planet Bespin."
+ 
+ 
+ EMPIRE_DESIGN_someone:0 "Something"
+ EMPIRE_DESIGN_someone_desc:0 "§BInitial Challenge§!: §RHard§!§HModerate§!§GEasy§!\n\n§BFaction Type§!: Major\n§BStarting Planets§!: 2\n\n§BDetails§!: \n\n§BBackground§!: Neimoidians placed tremendous value on wealth and material possessions, and would go to great lengths to gain money and power, resulting in a stereotype of being greedy and cowardly; however, they are very easily intimidated, and hate combat."
+  
+ #####################################
+ # Start Screens
+ #####################################  
+ 
+ START_SCREEN_MANDO:0 "Mand'alor the Indomitable has fallen.\n\nAfter being taken down by enemy fire and crash landing on Onderon's moon, Dxun, his bloodied and torn corpse was found. Reports say he fought bravely, but eventually succumbed to the moon's dangerous creatures.\n\nBut not all is lost, the mask has been found. While combing the jungles for our fallen leader, there was one who came upon the Mand'alor's mask and, in accordance with our traditions, has claimed it as his own to become the new Mand'alor.\n\nThe people now call upon our Mand'alor once more to lead them to battle and conquest. Will the galaxy once again tremble at the thunderous sound of our armies, sweeping down from the skies?"
+ START_SCREEN_REP:0 "As the most advanced civilization in the known galaxy, the Galactic Republic has stood united for more than 21,000 years.\n\nProtected by the legendary Jedi Order, the Republic has defeated all its enemies, including the original Sith Empire in the Great Hyperspace War.\n\nBut now the Galaxy sits at the edge of a knife, will you let it descend into chaos? Or will you lead it into a new age of peace and prosperity?"
+ START_SCREEN_SWGD_START:0 "Turmoil has engulfed the Galactic Republic.\n\nThe taxation of trade routes to outlying star systems is in dispute. Hoping to resolve the matter with a blockade of deadly battleships, the greedy Trade Federation has stopped all shipping to the small planet of Naboo.\n\nWill you take your people into a new golden age among the stars? Or will you seek other goals?"
+ 
+ #####################################
+ # Namelists
+ #####################################  
+ 
+ name_list_Chagrian: "Chagrian"
+ name_list_Chiss: "Chiss"
+ name_list_Ewoks: "Ewoks"
+ name_list_Geonosian: "Geonosian"
+ name_list_Ghorfas: "Ghorfas"
+ name_list_Gungang: "Gungan"
+ name_list_Hutt: "Hutt"
+ name_list_Jawa: "Jawa"
+ name_list_Jedi: "Jedi"
+ name_list_Mandalorian: "Mandalorian"
+ name_list_Republic: "Republic"
+ name_list_Sith: "Sith"
+ name_list_sw_hu: "SW Generic Human"
+ name_list_Togruta: "Togruta"
+ name_list_Twilek: "Twi'lek"
+ name_list_Wookiee: "Wookiee"
+  
+ #####################################
+ # Species
+ ##################################### 
+ 
+ sith: "Sith"
+ republic: "Republic"
+ mando: "Mandalorian"
+ SWGD_HUMAN: "Human"
+ SWGD_NEAR_HUMAN: "Near-Human"
+ SWGD_HUMANOID: "Humanoid"
+ SWGD_MAM_1: "Hairless Mammalian"
+ 
+ #####################################
+ # Graphical Cultures
+ ##################################### 
+ 
+ DIRTY:1 "Dirty"
+ AQUATIC:1 "Aquatic"
+ EVIL:1 "Evil"
+ ASARI:1 "Asari"
+ FACTORY:1 "Factory"
+ OVERGROWN:1 "Overgrown"
+ COVENANT:1 "Covenant"
+ SANGHEILI:1 "Sangheili"
+ TAU:1 "Tau" 
+ 
+ #####################################
+ # Traits
+ ##################################### 
+ 
+trait_ruler_immortal:0 "Immortal"
+trait_ruler_immortal_desc:0 "This character is immortal, whether naturally or through other means."
+
+leader_trait_ruler_force_user_I:0 "Powerful Force User"
+leader_trait_ruler_force_user_I_desc:0 "This leader is a powerful force user, having gained mastery of its endless secrets. This ability allows them to manipulate others for the betterment of others or their own hidden agenda."
+
+leader_trait_gov_force_user_I:0 "Adept Force User"
+leader_trait_gov_force_user_I_desc:0 "This leader is an adept force user, having gained some skill in its endless secrets. This ability allows them to manipulate and bargain with others more easily."
+leader_trait_gov_force_user_II:0 "Strong Force User"
+leader_trait_gov_force_user_II_desc:0 "This leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability allows them to manipulate and bargain with others easily."
+leader_trait_gov_force_user_III:0 "Powerful Force User"
+leader_trait_gov_force_user_III_desc:0 "This leader is a powerful force user, having gained mastery in its endless secrets. This ability allows them to manipulate and bargain with others with ease."
+
+leader_trait_sci_force_user_I:0 "Adept Force User"
+leader_trait_sci_force_user_I_desc:0 "This leader is an adept force user, having gained some skill in its endless secrets. This ability grants them a unique awareness in their scientific pursuits."
+leader_trait_sci_force_user_II:0 "Strong Force User"
+leader_trait_sci_force_user_II_desc:0 "This leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability grants them a unique awareness in their scientific pursuits."
+leader_trait_sci_force_user_III:0 "Powerful Force User"
+leader_trait_sci_force_user_III_desc:0 "This leader is a powerful force user, having  gained mastery in its endless secrets. This ability grants them a unique awareness in their scientific pursuits."
+
+leader_trait_adm_force_user_I:0 "Adept Force User"
+leader_trait_adm_force_user_I_desc:0 "This leader is an adept force user, having gained some skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them."
+leader_trait_adm_force_user_II:0 "Strong Force User"
+leader_trait_adm_force_user_II_desc:0 "This leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them."
+leader_trait_adm_force_user_III:0 "Powerful Force User"
+leader_trait_adm_force_user_III_desc:0 "This leader is a powerful force user, having gained mastery in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them, and the ability to considerably boost the morale, stamina, and overall battle prowess of allies through battle meditation."
+
+leader_trait_gen_force_user_I:0 "Adept Force User"
+leader_trait_gen_force_user_I_desc:0 "This leader is an adept force user, having gained some skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them."
+leader_trait_gen_force_user_II:0 "Strong Force User"
+leader_trait_gen_force_user_II_desc:0 "This leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them."
+leader_trait_gen_force_user_III:0 "Powerful Force User"
+leader_trait_gen_force_user_III_desc:0 "This leader is a powerful force user, having gained mastery in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them, and the ability to considerably boost the morale, stamina, and overall battle prowess of allies through battle meditation."
+
+trait_force_attuned:0 "Force Attuned"
+trait_force_attuned_desc:0 "This species is considered strongly Force-sensitive, giving them above average talent in many fields."
+trait_abundant:0 "Abundant"
+trait_abundant_desc: "This species can be found in abundance within the known Galaxy."
+trait_abundant:0 "Cloners"
+trait_abundant_desc: "Members of this species are known for their knowledge and ability as cloners."
+trait_abundant:0 "Droid Engineers"
+trait_abundant_desc: "Members of this species are known for their knowledge and ability at crafting droids."
+
+ #####################################
+ # Tile Blockers
+ ##################################### 
+ 
+ tb_asteroid_mountains:0 "£blocker   Mountain Range"
+ tb_asteroid_mountains_desc:0 "A vast range of tall and impassable mountains stretches across this region of the Asteroid."
+ tb_asteroid_sinkhole_worm:0 "£blocker  Giant Space Slug"
+ tb_asteroid_sinkhole_worm_desc:0 "A giant space slug has taken residence within this hollow of the asteroid."
+ tb_asteroid_crater:0 "£blocker  Massive Crater"
+ tb_asteroid_crater_desc:0 "Something collided with the surface of this asteroid, creating this massive impact crater."
+ tb_lava_lake:0 "£blocker  Lava Lake"
+ tb_lava_lake_desc:0 "A large lake of scorching lava dominates this region."
+ tb_lava_waterfall:0 "£blocker  Lava Waterfall"
+ tb_lava_waterfall_desc:0 "Numerous waterfalls of scorching lava flow down from cliffs in this region."
+ tb_massive_volcano:0 "£blocker  Massive Volcano"
+ tb_massive_volcano_desc:0 "There is a massive active volcano in this region, spewing forth lava and volcanic gases."
+
+ #####################################
+ # Planetary Tiles 
+ ##################################### 
+ 
+ pc_asteroid_tile:0 "Barren Terrain"
+ pc_asteroid_tile_desc:0 "Barren and rocky terrain with numerous craters."
+ pc_molten_tile:0 "Molten Terrain"
+ pc_molten_tile_desc:0 "Scorching and rocky terrain surrounded by numerous lava lakes and rivers."
+ 
+ #####################################
+ # Projects
+ ##################################### 
+
+ 
+ 
+ #####################################
+ # Personalities
+ ##################################### 
+ 
+ personality_mandalorian_warriors:0 "Mandalorian Crusaders"
+ personality_mandalorian_warriors_desc:0 "A society of traditionally nomadic warriors, Mandalorians value honor and martial prowess above all other things. They will seek out worthy foes to fight and have little respect for weaklings and pacifists."
+ personality_core_founder:0 "Core Founder" 
+ personality_core_founder_desc:0 "Core Founders are the founding worlds of the Galactic Republic, which were all located in the Core. They included political players, and other important worlds, to the military, commerce, medical, diplomatic, and philosophical fields."
+ personality_trade_guild:0 "Interplanetary Traders"
+ personality_trade_guild_desc:0 "Interplanetary Traders are chiefly concerned with the flow of commerce, and will avoid fighting unless attacked."
+ personality_jedi_order:0 "Jedi Order"
+ personality_jedi_order_desc:0 "An ancient monastic peacekeeping organization unified by its belief and observance of the light side of the Force. They are guardians of peace and justice in the  Galactic Republic."
+ personality_sith_order:0 "Sith Order"
+ personality_sith_order_desc:0 "A sect of Force-sensitives who utilize the dark side of the Force. The Sith are the most infamous of all dark side religions, and the members of the cult were often seen as the pinnacle of power within the dark side. They seek to conquer and subjugate all those that would stand in their way of galactic domination."
+ personality_hutt_clans:0 "Hutt Cartel"
+ personality_hutt_clans_desc:0 "The Hutt Cartel is a powerful criminal syndicate, or business alliance of Hutts. Though often neutral in galactic affairs, it tended to lean in certain directions if it was worthwhile for them."
+ personality_kamino_cloners:0 "Kamino Cloners"
+ personality_kamino_cloners_desc:0 "Kaminoans see themselves as a superior form of life, but nevertheless remain polite to outsiders. To them any species seeking self-improvement is worthy of respect, but those who did not were obviously inferior. These tall, elegant beings keep to themselves and are known for their cloning technology."
+ 
+ #####################################
+ # Armies
+ #####################################
+
+ force_adept:0 "Force Adept"
+ force_adept_plural:0 "Force Adepts"
+ force_adept_desc:0 "A Force Adept is a Force-sensitive individual still in training, most often they serve under a more experienced force-user."
+ force_warrior:0 "Force Warrior"
+ force_warrior_plural:0 "Force Adepts"
+ force_warrior_desc:0 "A Force Warrior is a deadly, expert fighter equipped with a lightsaber and the Force."
+ force_inquisitor:0 "Force Scholar"
+ force_inquisitor_plural:0 "Force Scholar"
+ force_inquisitor_desc:0 "Scholars are powerful Force-wielders, operating primarily within the upper echelons and political circles of a nation. They focus primarily on their Force abiltiies, rather than martial prowess."
+ force_master:0 "Force Master"
+ force_master_plural:0 "Force Masters"
+ force_master_desc:0 "A Force Master is an individual with exceptional devotion and skill in the Force and combat."
+ clone_shock:0 "Clone Shock Trooper Company"
+ clone_shock_plural:0 "Clone Shock Trooper Companies"
+ clone_shock_desc:0 "These Clones are trained as elite shock troopers specifically for deployment in major cities and capital worlds. There, the clone shock troopers serve primarily as security police for government buildings and as prison guards. They also perform duties such as bodyguards for government officials and as urban peacekeepers with some troopers trained specifically for riot control."
+ clone_paratrooper:0 "Clone Paratrooper Company"
+ clone_paratrooper_plural:0 "Clone Paratrooper Companies"
+ clone_paratrooper_desc:0 "Clone paratroopers, also known as clone airborne troopers, are clone troopers who are specially-trained for high-altitude drops using special parachutes and equipment."
+ clone_commando:0 "Clone Commando Squad"
+ clone_commando_plural:0 "Clone Commando Squads"
+ clone_commando_desc:0 "Often working in squads of four, clone commandos are highly trained and assigned to carry out special operations that the average clone trooper can't't handle. These missions include covert infiltration, sabotage, demolition and assassination, all of which are standard tasks for the clone commandos."
+ clone_arc:0 "ARC Trooper Squad"
+ clone_arc_plural:0 "Arc Trooper Squads"
+ clone_arc_desc:0 "Advanced Recon Commandos, also known as ARC troopers, were an elite variant of clone trooper even rarer than clone commandos. ARC troopers receive special training and often served as leaders or receive challenging assignments not suitable for less specialized clones. These clones are engineered to be fiercely independent, innately creative, and physical superior to any other contemporary soldiers. This, combined with their training in advanced weapons and vehicles, make them veritable one-man armies. They are each given their own unique armor set, which differs greatly from the standard issue kit given to most clone troopers." 
+
+ air_defense_tower:0 "Air Defense Tower"
+ air_defense_tower_plural:0 "Air Defense Towers"
+ air_defense_tower_desc:0 "An Air Defense Tower is a fixed defensive weapons emplacement. Mounting two Gatling-style rapid-fire laser cannons, these potent emplacements are usually erected in areas with a good line of sight. AD Towers are capable of targeting many different kinds of airborne threats, ranging from marauding swoop bikes to low-flying starfighters with relative ease."
+ turbolaser_tower:0 "Turbolaser Tower"
+ turbolaser_tower_plural:0 "Turbolaser Towers"
+ turbolaser_tower_desc:0 "A Turbolaser tower is a planetary surface variant of the ship mounted heavy turbolasers. It requires an enormous amount of power, supplied by the standard base power generators. The turbolaser also had a very slow rate of fire, causing it to become overwhelmed very quickly. Though its firepower was focused mostly on land vehicles, these towers can also be used to protect surface bases from large aerial assault craft. In such cases the main guns could rotate upwards to achieve a completely vertical firing arc."
+ magnapulse_canon:0 "Magnapulse Canon"
+ magnapulse_canon_plural:0 "Magnapulse Canon"
+ magnapulse_canon_desc:0 "The planetary magnapulse cannon was built with a large underground generator and a large rotating plasma cannon above the surface. The cannon fired plasma balls at enemy vehicles, causing massive electrical disturbances that disabled the targets for a time."
+ 
+ #####################################
+ # Subjects
+ #####################################  
+ 
+ SUBJECT_core_world:0 "Core World"
+ SUBJECT_core_world_desc:0 "A member of the Galactic Republic."
+ 
+ #####################################
+ # Miscellaneous
+ ##################################### 
+ 
+ TRANS_FLEET_NAME:0 "N.$NUMBER$ Assault Battalion"
+ 
+ 

@@ -1,0 +1,17 @@
+trait_force_attuned = {
+	cost = 3	
+	
+	modifier = {
+		tile_resource_society_research_mult = 0.10
+		leader_age = 30 
+		army_damage_mult = 0.10
+	}
+}
+trait_abundant = {
+	cost = 0	
+	initial = no
+	modification = no
+	modifier = {
+		pop_environment_tolerance = 0.15
+	}
+}

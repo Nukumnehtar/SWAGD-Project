@@ -1,0 +1,598 @@
+namespace = naboo_crisis
+
+#####################################
+# Naboo Crisis Events
+#####################################
+
+event = {
+	id = naboo_crisis.0
+	hide_window = yes
+		
+	
+	immediate = {
+		every_country  = {
+			limit = {
+				is_country_type = default	
+				
+			}
+			country_event = { id = naboo_crisis.1 }
+		}
+		every_country  = {
+			limit = {
+				is_country_type = default
+				has_country_flag = naboo_kingdom
+				
+			}			
+			every_owned_planet = {
+				limit = { is_capital = yes }
+				add_modifier = {
+					modifier = "naboo_blockade"	
+					days = -1					
+					}
+			
+			}
+		}
+		
+	}
+		
+	
+}
+
+#Blockade of Naboo starts(add modifier)
+country_event = {
+  id = naboo_crisis.1
+  title = naboo_crisis.1.name
+  desc = naboo_crisis.1.desc
+  picture = GFX_evt_naboo_blockade
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	  option = {
+		name = "naboo_crisis.1.a"
+			trigger = {			
+				NOT = { has_country_flag = trade_federation }
+			
+		}
+			hidden_effect = { 			
+					country_event = { id = naboo_crisis.2 days = 5 } 
+				}
+		
+	}
+	option = {
+		name = "naboo_crisis.1.b"		
+		trigger = {			
+				has_country_flag = trade_federation			
+		}
+		hidden_effect = { 			
+					country_event = { id = naboo_crisis.2 days = 5 } 
+				}
+	}
+	
+}
+
+
+#Blockade of Naboo continued
+country_event = {
+  id = naboo_crisis.2
+  title = naboo_crisis.2.name
+  desc = naboo_crisis.2.desc
+  picture = GFX_evt_naboo_blockade
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.2.a"
+			trigger = {
+			
+				NOR = { has_country_flag = trade_federation
+						has_country_flag = naboo_kingdom }
+			
+		}
+			hidden_effect = { 			
+				every_country = { 
+					limit = { 
+							has_country_flag = galactic_republic							 
+						}
+					country_event = { id = naboo_crisis.3 days = 5 } 
+				}	
+				}
+		
+	}
+	
+	option = {
+		name = "naboo_crisis.2.b"
+		
+		trigger = {
+		has_country_flag = naboo_kingdom
+				 
+			
+		}
+		hidden_effect = { 
+				every_country = { 
+					limit = { 
+							has_country_flag = galactic_republic							 
+						}
+					country_event = { id = naboo_crisis.3 days = 5 } 
+				}
+			}
+	}
+	
+	option = {
+		name = "naboo_crisis.2.c"
+				trigger = {			
+					has_country_flag = trade_federation							
+				}
+		hidden_effect = { 
+				every_country = { 
+					limit = { 
+							has_country_flag = galactic_republic							 
+						}
+					country_event = { id = naboo_crisis.3 days = 5 } 
+				}
+			}
+	}
+}
+
+#
+
+
+#Amidala Contacts the Chancellor
+country_event = {
+	id = naboo_crisis.3
+	title = TRANSMISSION
+	desc = "naboo_crisis.3.desc"
+	
+	diplomatic = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = { 
+		random_country = {
+			limit = { has_country_flag = naboo_kingdom }
+			random_owned_leader = {
+			limit = {
+				leader_class = ruler
+			}
+			save_event_target_as = amidalacontact
+			}	
+		}
+	}
+	
+	picture_event_data = {
+		portrait = event_target:amidalacontact
+		planet_background = pc_continental
+		room = "ethic_xenophile_room"
+	}
+	
+	option = {
+		name = naboo_crisis.3.a
+		response_text = naboo_crisis.3.a.response
+		#is_dialog_only = yes
+		hidden_effect = { 
+				every_country = { 
+					limit = { 
+							has_country_flag = jedi_council							
+						}
+					country_event = { id = naboo_crisis.31 days = 5 } 
+				}
+			}
+	}
+	option = {
+		name = naboo_crisis.3.b
+		response_text = naboo_crisis.3.b.response
+		#is_dialog_only = yes
+		trigger = {			
+					is_ai = no							
+				}
+		hidden_effect = { 
+				every_country = { 
+					limit = { 
+							has_country_flag = jedi_council
+							is_ai = no 
+						}
+					country_event = { id = naboo_crisis.71 days = 5 } 
+				}
+			}
+	}
+	option = {
+		name = naboo_crisis.3.b
+		response_text = naboo_crisis.3.b.response
+		#is_dialog_only = yes
+		trigger = {			
+					is_ai = no							
+				}
+		hidden_effect = { 
+				every_country = { 
+					limit = { 
+							has_country_flag = jedi_council
+							is_ai = no 
+						}
+					country_event = { id = naboo_crisis.71 days = 5 } 
+				}
+			}
+	}
+}
+
+#Chancellor asks Jedi for mediation
+country_event = {
+  id = naboo_crisis.31
+  title = naboo_crisis.31.name
+  desc = naboo_crisis.31.desc
+  picture = GFX_evt_ship_in_orbit
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.31.a" #yes
+		hidden_effect = { 			
+				every_country = { 
+					limit = { 
+							has_country_flag = galactic_republic								  	
+						}
+					country_event = { id = naboo_crisis.40 days = 5 } 
+					} 
+			}
+		
+	}
+	option = {
+		name = "naboo_crisis.31.b" #no
+		trigger = {			
+					is_ai = no							
+				}
+		hidden_effect = { 			
+				every_country = { 
+					limit = { 
+							has_country_flag = galactic_republic								  	
+						}
+					country_event = { id = naboo_crisis.41 days = 5 } 
+					} 
+				} 
+			}
+		
+	
+}
+
+#Naboo asks Jedi for mediation
+country_event = {
+  id = naboo_crisis.30
+  title = naboo_crisis.30.name
+  desc = naboo_crisis.30.desc
+  picture = GFX_evt_ship_in_orbit
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.30.a" #yes
+		hidden_effect = { 			
+				every_country = { 
+					limit = { 
+							has_country_flag = naboo_kingdom								  	
+						}
+					country_event = { id = naboo_crisis.40 days = 5 } 
+					}
+			}
+		
+	}
+	option = {
+		trigger = {			
+					is_ai = no							
+				}
+		name = "naboo_crisis.30.b" #no
+		hidden_effect = { 			
+				every_country = { 
+					limit = { 
+							has_country_flag = naboo_kingdom								  	
+						}
+					country_event = { id = naboo_crisis.41 days = 5 } 
+					} 
+			}
+		
+	}
+}
+
+
+
+#Jedi accept and are sent
+country_event = {
+  id = naboo_crisis.40
+  title = naboo_crisis.40.name
+  desc = naboo_crisis.40.desc
+  picture = GFX_evt_ship_in_orbit
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.40.a"
+		hidden_effect = { 
+				every_country = { 
+					limit = { 
+							has_country_flag = trade_federation							
+						}
+					country_event = { id = naboo_crisis.5 days = 5 } 
+				}
+			}
+		
+	}
+}
+
+#Jedi refuse
+country_event = {
+  id = naboo_crisis.41
+  title = naboo_crisis.41.name
+  desc = naboo_crisis.41.desc
+  picture = GFX_evt_ship_in_orbit
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.41.a"
+		hidden_effect = { 			
+				every_country  = {
+					limit = {
+						is_country_type = default	
+					
+					}
+						country_event = { id = naboo_crisis.71 }
+					}
+			}
+		
+	}
+}
+
+
+#Jedi arrive for talks - Trade Federation
+country_event = {
+  id = naboo_crisis.5
+  title = naboo_crisis.5.name
+  desc = naboo_crisis.5.desc
+  picture = GFX_evt_ship_in_orbit
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.5.a"
+		hidden_effect = { 			
+				every_country = { 
+					limit = { 
+							has_country_flag = trade_federation							
+						}
+					country_event = { id = naboo_crisis.6 days = 5 } 
+				}
+			}
+		
+	}
+}
+
+#Jedi have escaped -Trade federation only
+country_event = {
+  id = naboo_crisis.6
+  title = naboo_crisis.6.name
+  desc = naboo_crisis.6.desc
+  picture = GFX_evt_naboo_blockade
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.6.a"
+		hidden_effect = { 
+				every_country = { 
+					limit = { 
+							has_country_flag = jedi_council							
+						}
+					country_event = { id = naboo_crisis.51 days = 5 } 
+				}
+				every_country = { 					
+					country_event = { id = naboo_crisis.70 days = 5 } 
+					}
+				
+			}
+		
+	}
+}
+
+#Lost contact with Jedi - Council  Only
+country_event = {
+  id = naboo_crisis.51
+  title = naboo_crisis.51.name
+  desc = naboo_crisis.51.desc
+  picture = GFX_evt_hangar_bay
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+	 name = "naboo_crisis.51.a"
+		hidden_effect = {	
+				
+			}
+		
+	}
+}
+
+#invasion of naboo (Queen Escapes)
+country_event = {
+  id = naboo_crisis.70
+  title = naboo_crisis.70.name
+  desc = naboo_crisis.70.desc
+  picture = GFX_evt_ground_combat
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.70.a"
+		hidden_effect = { 			
+				country_event = { id = naboo_crisis.8 days = 5 } 
+			}
+		
+	}
+}
+
+
+#invasion of naboo (Queen Kidnapped)
+country_event = {
+  id = naboo_crisis.71
+  title = naboo_crisis.71.name
+  desc = naboo_crisis.71.desc
+  picture = GFX_evt_ground_combat
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.71.a"
+		hidden_effect = { 			
+				country_event = { id = naboo_crisis.10 days = 5 } 
+			}
+		
+	}
+}
+
+#Amidala at Senate
+country_event = {
+  id = naboo_crisis.8
+  title = naboo_crisis.8.name
+  desc = naboo_crisis.8.desc
+  picture = GFX_evt_galactic_senate
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.8.a"
+		hidden_effect = { 			
+				country_event = { id = naboo_crisis.9 days = 5 } 
+			}
+		
+	}
+}
+
+#Amidala calls for vote of no confidence, which starts an election for chancellor
+country_event = {
+  id = naboo_crisis.9
+  title = naboo_crisis.9.name
+  desc = naboo_crisis.9.desc
+  picture = GFX_evt_senate_1
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.9.a"
+		hidden_effect = { 			
+				every_country = { 
+					country_event = { id = naboo_crisis.10 days = 5 }				
+				} 
+			}
+		
+	}
+}
+
+#Battle of Naboo
+country_event = {
+  id = naboo_crisis.10
+  title = naboo_crisis.10.name
+  desc = naboo_crisis.10.desc
+  picture = GFX_evt_naboo
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.10.a"
+		hidden_effect = { 			
+				country_event = { id = naboo_crisis.11 days = 5 } 
+			}
+		
+	}
+}
+
+#Trade Federation Defeated
+country_event = {
+  id = naboo_crisis.11
+  title = naboo_crisis.11.name
+  desc = naboo_crisis.11.desc
+  picture = GFX_evt_metropolis
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "naboo_crisis.11.a"
+		hidden_effect = { 			
+			every_country = { 
+					country_event = { id = naboo_crisis.12 days = 5 }				
+				} 	
+			}
+		
+	}
+}
+
+
+#Palpatine is elected Chancellor
+country_event = {
+  id = naboo_crisis.12
+  title = naboo_crisis.12.name
+  desc = naboo_crisis.12.desc
+  picture = GFX_evt_senate_1
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+ immediate = {
+		create_leader = {
+			type = ruler
+			species = owner_main_species
+			name = "Palpatine"
+			skill = 5
+			traits = {}
+		}
+		assign_leader = last_created_leader
+	}
+
+	option = {
+		name = naboo_crisis.12.a
+		custom_tooltip = "fallen_empires.4.a.tooltip"
+		hidden_effect = { 			
+						#country_event = { id = naboo_crisis.10 days = 5 } 
+					}		
+	}
+}

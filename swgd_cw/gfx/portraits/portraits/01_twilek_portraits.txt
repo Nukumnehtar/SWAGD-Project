@@ -1,0 +1,166 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+# Twilek
+portraits = {
+	twilek_female_01 = {	entity = "twilek_05_female_01_entity"	clothes_selector = "humanoid_05_male_clothes_01" hair_selector = "twilek_female_hair_01"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/twilek/twilek_female_body_01_blue.dds"
+			
+		}
+	}
+
+	twilek_female_02 = {	entity = "twilek_05_female_01_entity"	clothes_selector = "humanoid_05_male_clothes_01" hair_selector = "twilek_female_hair_02"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/twilek/twilek_female_body_01_red.dds"
+			
+		}
+	}	
+	
+	twilek_female_03 = {	entity = "twilek_05_female_01_entity"	clothes_selector = "humanoid_05_male_clothes_01" hair_selector = "twilek_female_hair_03"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/twilek/twilek_female_body_01_green.dds"
+			
+		}
+	}	
+	
+	twilek_male_01 = {	entity = "twilek_05_male_01_entity"	clothes_selector = "humanoid_05_male_clothes_01" hair_selector = "twilek_male_hair_01"	greeting_sound = "human_male_greetings_03"
+		character_textures = {
+		"gfx/models/portraits/twilek/twilek_male_body_01_blue.dds"
+			
+			
+		}
+	}
+		twilek_male_02 = {	entity = "twilek_05_male_01_entity"	clothes_selector = "humanoid_05_male_clothes_01" hair_selector = "twilek_male_hair_02"	greeting_sound = "human_male_greetings_03"
+		character_textures = {
+		"gfx/models/portraits/twilek/twilek_male_body_01_green.dds"
+			
+			
+		}
+	}
+	
+		twilek_male_03 = {	entity = "twilek_05_male_01_entity"	clothes_selector = "humanoid_05_male_clothes_01" hair_selector = "twilek_male_hair_03"	greeting_sound = "human_male_greetings_03"
+		character_textures = {
+		"gfx/models/portraits/twilek/twilek_male_body_01_red.dds"
+			
+			
+		}
+	}
+	
+			
+		
+	
+}
+
+portrait_groups = {
+	twilek = {
+		default = twilek_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					twilek_male_01
+					twilek_male_02
+					twilek_male_03
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					twilek_female_01
+					twilek_female_02
+					twilek_female_03
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					twilek_female_01
+					twilek_female_02
+					twilek_female_03
+					twilek_male_01
+					twilek_male_02
+					twilek_male_03
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					twilek_female_01
+					twilek_female_02
+					twilek_female_03
+					twilek_male_01
+					twilek_male_02
+					twilek_male_03
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					twilek_female_01
+					twilek_female_02
+					twilek_female_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					twilek_male_01
+					twilek_male_02
+					twilek_male_03
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					twilek_female_01
+					twilek_female_02
+					twilek_female_03					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					twilek_male_01
+					twilek_male_02
+					twilek_male_03
+				}
+			}
+		}
+	}
+}

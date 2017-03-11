@@ -1,0 +1,65 @@
+##########################################################################
+# Empire edicts
+##########################################################################
+
+
+country_edict = {
+	name = "form_cis"
+	modifier = {
+		
+	}
+	
+	influence_cost = 20000
+	
+	potential = {		
+			has_country_flag = trade_federation
+			}
+	
+	allow = {
+		
+			#has_country_flag = clone_wars
+		
+	}
+	
+	ai_weight = {
+		weight = 10
+				
+	}	
+	
+	effect = {
+		country_event = { id = galactic_empire.1 }
+	}
+	
+}
+
+
+
+
+country_edict = {
+	name = "form_galactic_empire"
+	modifier = {
+		
+	}
+	
+	influence_cost = 200000
+	
+	potential = {		
+			has_country_flag = galactic_republic
+			}
+	
+	allow = {
+		
+			#has_country_flag = clone_wars
+		
+	}
+	
+	ai_weight = {
+		weight = 10
+				
+	}	
+	
+	effect = {
+		country_event = { id = galactic_empire.1 }
+	}
+	
+}

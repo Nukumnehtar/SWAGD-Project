@@ -1,0 +1,67 @@
+﻿l_english:
+
+ #####################################
+ # General Buildings
+ ##################################### 
+
+ building_life_support_system:0 "Life Support System"
+ building_life_support_system_desc:0 "Life support systems utilize technology that allows it to produce necessary chemicals and gases needed to sustain life, it also filters out toxic gases and chemicals."
+ building_hazardous_life_support_system:0 "Hazardous Life Support System"
+ building_hazardous_life_support_system_desc:0 "In dangerous environments, a generic Life Support System is not enough and the colony may need one that can also produce shielding to protect it from hazardous environments such a volcanic worlds."
+ 
+ #####################################
+ # Force Buildings
+ #####################################  
+ 
+ building_force_library:0 "Library"
+ building_force_library_desc:0 "A database containing information relating to the Force and sentient history."
+ building_force_great_library:0 "Great Library"
+ building_force_great_library_desc:0 "A massive library complex consisting of several buildings, here is assembled ancient documents and scrolls detailing every detail of sentient history and ingenuity."
+ building_force_academy:0 "Force Academy"
+ building_force_academy_desc:0 "A facility dedicated to training Force-sensitives, and studying the Force."
+ building_force_great_academy:0 "Great Force Academy"
+ building_force_great_academy_desc:0 "A massive training center built to train Force-sensitives in the many aspects of the Force. As well as being a training ground, a Great Academy may house relics and other valuable knowledge on the Force."
+ building_force_tomb:0 "Tomb"
+ building_force_tomb_desc:0 "Force-sensitives and their artifacts are entombed inside of these crypts."
+ building_force_great_tomb:0 "Great Tomb"
+ building_force_great_tomb_desc:0 "These elaborate tombs contain the last resting place of once powerful Force-sensitives and their mysterious artifacts and relics. Often times these tombs are equipped with traps and other defenses."
+ 
+ #####################################
+ # Defensive Buildings
+ ##################################### 
+ 
+ building_turbolaser_central_command:0 "Turbolaser Central Command"
+ building_turbolaser_central_command_desc:0 "The central command for the defense grid that monitors the turbolaser towers in the region."
+ building_magnapulse_canon:0 "Magnapulse Canon"
+ building_magnapulse_canon_desc:0 " "
+ building_starfighter_hangar:0 "Starfighter Hangar"
+ building_starfighter_hangar_desc:0 " "
+ building_planetary_citadel:0 "Planetary Citadel"
+ building_planetary_citadel_desc:0 " "
+ building_communications_array:0 "Communications Array"
+ building_communications_array_desc:0 " "
+ building_military_intelligence_hq:0 "Military Intelligence HQ"
+ building_military_intelligence_hq_desc:0 " "
+ 
+ 
+ #####################################
+ # Special Buildings
+ ##################################### 
+ 
+ building_andeddu_keep:0 "Andeddu's Keep"
+ building_andeddu_keep_desc:0 "This structure is a fortress constructed and designed to serve as the stronghold of Darth Andeddu, Dark Lord of the Sith. Far removed from any form of established civilization, Lord Andeddu used the Keep as his personal repository of Sith lore, and also as the location of his secret tomb."
+ building_sith_pyramid:0 "Ancient Sith Temple"
+ building_sith_pyramid_desc:0 "Serving as the final resting places for Sith Lords, their dark side presence poisons the worlds they can be found on. Many deep secrets of Sith Lore and unknown knowledge can often be found for those who dare to delve into its darkest chambers."
+ 
+ #####################################
+ # Fallen Empire Buildings
+ ##################################### 
+ 
+ building_border_reducer_75:0 "Ancient Ruins"
+ building_border_reducer_75_desc:0 "These ruins fill the nearby landscape, a taste of what once was of these great civilizations."
+ building_border_reducer_100:0 "Ancient Ruins"
+ building_border_reducer_100_desc:0 "These ruins fill the nearby landscape, a taste of what once was of these great civilizations."
+ building_border_reducer_125:0 "Ancient Ruins"
+ building_border_reducer_125_desc:0 "These ruins fill the nearby landscape, a taste of what once was of these great civilizations."
+ 
+ 

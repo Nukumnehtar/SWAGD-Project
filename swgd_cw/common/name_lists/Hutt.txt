@@ -1,0 +1,168 @@
+### Fungoid 2
+### Created by Maximilian Olbers
+
+Hutt = {
+	ship_names = {
+		generic = {
+			Yehm-Guulyeg Yehm-Frahan Yehm-Qiigrud Yehm-Priidgynn Yehm-Taagrid Yehm-Neerolg Yehm-Tuurazh Yehm-Phuetl Yehm-Houtrend Yehm-Yglaagd Yehm-Ruuvgru Yehm-Tiiqup Yehm-Daaremt Yehm-Traguud Yehm-Wootunn Yehm-Raaslurg Yehm-Rehm Yehm-Nargudd Yehm-Fiilyub Yehm-Raasud Yehm-Plourh Yehm-Fleeyup Yehm-Putrieeg Yehm-Shaaluv Yehm-Khaarnob Yehm-Truukend Yehm-Gfaleehn Yehm-Yduumen Yehm-Muldaryyn Yehm-Trooghum Yehm-Beiiyud Yehm-Tiipagh Yehm-Sughraad Yehm-Filgfuul Yehm-Buydool
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}
+		outpost_station = {
+			#random_names = { }
+			#sequential_name = "%O% Frontier Outpost"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Quuwo Fleet" "Qaamara Fleet" "Shanbaloo Fleet" "Hooregh Fleet" "Thuuna Fleet" "Hathurr Fleet" "Lurdoosh Fleet" "Groagsuuh Fleet" "Lishureeh Fleet" "Gleggrot Fleet" "Hahmaar Fleet" "Thuurgla Fleet" "Magralha Fleet" "Qroogm Fleet" "Greelmash Fleet" "Kughsee Fleet"
+		}
+		sequential_name = "%O% Fleet"
+	}
+
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Hutt Defense"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Hutt Assault Group"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Cordyceptic Force"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Hutt Clone Formation"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robo-Hutt Group"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Synthetic Biomass"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% PsychoHutts"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Encroachers"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Slime Molds"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Nal-Felooq Nal-Saphand Nal-Puuligh Nal-Sohoodh Nal-Ghirgaal Nal-Qurliidh Nal-Shondaar Nal-Huquell Nal-Ondareen Nal-Gurhiil Nal-Saromyin Nal-Qoleath Nal-Hulaagh Nal-Sabarandh Nal-Knootheg Nal-Shuugrem Nal-Ularaih Nal-Upaadgh Nal-Seroondh Nal-Faliigh Nal-Sahuul Nal-Pabdoon Nal-Pheedhun Nal-Wuudhal Nal-Woraaq
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		full_names = {
+			first_names_male = {
+Aarrba Aboglor Aggaba Ajuur Alorig Amdra Ardustagg Arok Aruk Azzim Bakuush Bagglosch Bana Barabbula Bareesh Bargos Barrga Basuda Beeda Beldorion Belhata Bhanogg Blatta Blotus Blurvol Bo-Dum Bochaba Bogga BolBol Boonda Boonta Boorka Borvo Brebu Brinojja Broagussa
+Broga Brolla Bronvu Brossar Budhila Bwahl Bweppios Chijjun Corpo Corugg Cunnon Dalla Damrosch Darga Direus'Pei Dojundo Dorosii
+Draskha Dreddon Dreyba Dribba Dribso Dromo Droog Drooga Durga Duurga Duuurga Ebor Embra Encaasa Ethogg Fa'athra Filba Gamdro Ganis Garblaque Gardulla Gargonn Garma Gebbu Gheeta Ghetmar Giradda Glabonsch Glosch Glorga Glorim Glorzo Godoba Golga Gorbu Gorbus Gorga Gorgo Gorr Graag Graata Graballa Grakkus Grappa Grejic Grelb Grodo Groodo Groola Grubba Gularg Guttu Herogga Hunvar Huska Ingoda Jabba Jax Jeelta Jelasi Jemba Jiliac Jobwah Jocoro Jolla Jorsooda Jurga Juvard Ka'Pa Kabbura Kalna Kaltho Karagga Kata Khobisho
+Kibbick Kladak Korrda Kossak Kukul Kurka Kutuab Lagra Leero Leurm Lippi Lokaibus Lonvarpa Lungru Mageye Malta Manju Mardoc Marlo Mika Mondo-Mod Moosh Morbiss Orbo Morgra Moshudda Moska Motta Narbuj Nashi Nawnam Noako Noggox Noh Norbo Nooga Nuboocha Nullada Nuubsal Nyarla Offra Omeesh Ooroz Orko Orta Oruba Parella Pazda Pizza Plorbaas Popara Portho Prall Prebda Prodoranya Progga Puullo Qibbu Qiltakka Quaffug Randa Rask Raskurro Ribba Riboga Rigorra Rokko Rotta Shala Shebba Shettora Shiltu Shizu Shuma Sibarra Skeedo Smada Smebba Soergg Sonnos Spadda Splugorra Subo  Suuda Suudaa Szajin Tagoonta Tagta Tanda Teemo Teubbo  Thakba Tiranga Tirello Tobba Toborro Toobu Tooga Torga Torphus Torpo Troonol Truugo Tuwas Ungo Urdruua Uta Vago Vedo Velrugha Vogga Voontara Voras Voromuzz Walla Wallanooga Whuddle Wolga Wordro Wunda Yanth Yantuh Ybann Yenchara Zavval Zax Zier Zirchros Ziro Zobara Zochaeb Zodoh Zonnos Zorba
+				          }
+			
+			first_names_female = {
+Abogla Aestaith Ahemait Alorga Anachro Arronda Astella Bel Birthia Blith Blobella Blolba Blubba Blulla Blursa Borga Celathe Chungrirg Churabba Daagri Decca Dinabu Draba Drixo Emesu Emeu Gardulla Gajjuzz Holdoeth Idde Iddurpom Jassi Jatheel Jiliac Jool Jussi Khuskha Kistilb Klim Krova Kualajjaeb Kumac Loewnerrbihl Lolduntee Mama Mennac Mioshu Moongroess Morpalta Natja Neggoh Niima Ooalah Othe Paggra Parla Plemess Pluumbuanya Prello Proki Pugriorzihl Puki Qileffinn Qunjess Rabdaakeh Rarpe Renyaisch Rooppi Rotta Rotundha Saggla Saphfiri Sassallo Shalera Shenda Sherrbis Shuma Skilnoo Skoda Skolnirchra Smessoohl Sorge Sutha Suudaa Taggla Tanda Tassaa Tatja Tawarit Ualtitith Uardusch Uddliah Ughaelle Vuuwoo Wappa Whomri Worrbona Velbelia Yerdetin Wurkeskiss Yotjo Yush Zeli Zietta Zinoobah Zooltah
+	 			}
+
+		second_names = {
+Besadii "Besadii Aora" "Besadii Aarrpo" "Besadii Ar'durv" "Besadii Diori" "Besadii Oggurobb" "Besadii Shad'ruu" "Besadii Tai" "Besadii Tiure" "Besadii Torill" Desilijic "Desilijic Aora" "Desilijic Aarrpo" "Desilijic Ar'durv" "Desilijic Ebelt" "Desilijic Oggurobb" "Desilijic Preor" "Desilijic Kalshi" "Desilijic Shad'ruu" "Desilijic Tai" "Desilijic Tiron" "Desilijic Tiure" "Desilijic Torill" Fenn'ak "Fenn'ak Aora" "Fenn'ak Aarrpo" "Fenn'ak Ar'durv" "Fenn'ak Oggurobb" "Fenn'ak Shad'ruu" "Fenn'ak Tai" "Fenn'ak Tiure" "Fenn'ak Torill" Hestilic "Hestilic Amura" "Hestilic Aora" "Hestilic Aarrpo" "Hestilic Ar'durv" "Hestilic Oggurobb" "Hestilic Shad'ruu" "Hestilic Tai" "Hestilic Tiure" "Hestilic Torill" Illip "Illip Aora" "Illip Aarrpo" "Illip Ar'durv" "Illip Oggurobb" "Illip Shad'ruu" "Illip Tai" "Illip Tiure" "Illip Torill" Inijic "Inijic Aora" "Inijic Aarrpo" "Inijic Ar'durv" "Inijic Oggurobb" "Inijic Shad'ruu" "Inijic Tai" "Inijic Tiure" "Inijic Torill" Vanderijar Kaltemmic Masrii Urdosh Qunaalac Jiramma "Jiramma Baco" "Jiramma Mionne" Gejalli "Gejalli Thokka" Anjiliac "Anjiliac Atirue" "Anjiliac Chiera" "Anjiliac Diresto" "Anjiliac Priare" Dalo Dunk Fa'athra Nem'ro Nokko "Nokko Vimmas" Gorensla Thok Jallissi "Jallissi Gral" Vermilic "Vermilic Scaiti" Vosadii "Vosadii Bezhin"
+
+			}
+
+		}
+	}		
+}

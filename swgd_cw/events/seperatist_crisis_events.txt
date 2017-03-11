@@ -1,0 +1,50 @@
+namespace = seperatist_crisis
+
+#####################################
+# Seperatist Crisis Events
+#####################################
+
+
+
+
+
+
+
+
+#CIS is formed (if AI, dissolve into CIS, if human, join federation)
+country_event = {
+  id = seperatist_crisis.1
+  title = seperatist_crisis.1.name
+  desc = seperatist_crisis.1.desc
+  picture = GFX_evt_naboo_blockade
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "seperatist_crisis.1.a"
+		effect = { 			
+				set_empire_name = "Confederacy of Independent Systems"				
+				set_country_flag = cis				 
+				change_country_flag = {									
+						icon={
+							category="starwarssilver"
+							file="31.dds"
+						}
+						background={
+							category="backgrounds"
+							file="00_solid.dds"
+						}
+						colors={
+							"gray_0"
+							"gray_9"
+							"null"
+							"null"
+						}
+	
+				}		
+			}
+		}
+}

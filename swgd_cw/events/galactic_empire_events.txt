@@ -1,0 +1,45 @@
+namespace = galactic_empire
+
+#####################################
+# Galactic Empire Events
+#####################################
+
+#Announcement 
+country_event = {
+  id = galactic_empire.1
+  title = galactic_empire.1.name
+  desc = galactic_empire.1.desc
+  picture = GFX_evt_naboo_blockade
+  show_sound = event_laboratory_sound
+  is_triggered_only = yes
+  fire_only_once = yes	
+
+  immediate = {  }
+		  
+	 option = {
+		name = "galactic_empire.1.a"
+		effect = { 			
+				set_empire_name = "Galactic Empire"				
+				set_country_flag = galactic_empire 
+				remove_country_flag = galactic_republic 
+				change_country_flag = {									
+						icon={
+							category="starwarssilver"
+							file="31.dds"
+						}
+						background={
+							category="backgrounds"
+							file="00_solid.dds"
+						}
+						colors={
+							"gray_0"
+							"gray_9"
+							"null"
+							"null"
+						}
+	
+				}		
+			}
+		}
+}
+

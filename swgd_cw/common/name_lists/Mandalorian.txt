@@ -1,0 +1,191 @@
+### Mandalorian Names
+Mandalorian = {
+	
+
+	ship_names = {
+
+		generic = {
+		Aaray Aay'han Abesh Abiik Adade Adate Adiik Ad'ika Ad Ade Agol Aka Akaan Akaan'ade Akaata 
+		Akalenedat Alii'gai Aliik Aliit Alor Alor'ad Aloriya Alor'uus Al'verde Anade Aran Araniik
+		Ara'nov Arasuum Arpat Aru'e Aruetii Ash'ad Baar Baarpir Baar'ur Ba'buir Ba'jur Balac 
+		Ba'vodu Behot Beroya Bes'bavar Besbe Besbe'trayce Bes'bev Be'senaar Beskad  Beskar 
+		Beskar'ad Beskar'gam Bes'laar Be'sol Besom Bes'uliik Beten  Bev  Beviin  Bevik  Bic 
+		Bines Birgaan Birikad Buir Burc'ya Buy'ce Ca Cabur Chakaar Cuy'val Cyar'ika Cyar'tomade 
+		Dar'buir Dar'jetii Dar'yaim Dha Di'kut Droten Gra'tua Haran Ibi'tuur Jai'galaar Jetii'kad
+		Jetiise Kad Kal Kom'rk Kot Kote Kov'nyn Kyr'am Mar'eyce Mirshe Mir'shupur Ne'tra gal 
+		Norac Orar Or'dinii Ori'ramikad Ori'vod Osik Parjai Prudii Rang Riduur Runi Shabuir
+		Shebs Shereshoy Shig Shuk'orok Tal Tihaar Tor Tra Tracinya Tracyn Troan Tsad 
+		Tuur Uj'alay Vencuyot Ver'alor Verd Vhett Vod Werda 
+		} 
+		
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		observation_station = { }
+		outpost_station = {			
+			sequential_name = "%O% Frontier Outpost"
+		}
+		
+		transport = {
+			"Mandalorian Transport"
+		}
+		
+		military_station_small = {
+		
+		Outpost "Orbital Defense" Spacedock
+		
+		}
+		
+		military_station_medium = {
+		"Orbital Security" Port
+		
+		}
+		
+		military_station_large = {
+			Battlestation Citadel Shipyard
+		}
+				
+		 
+		
+	}
+
+	fleet_names = {
+		random_names = {
+			 "Battlefleet Vengeance" "Battlefleet Basilisk"  "Battlefleet Indomitable" "Battlefleet Mandalore"
+			 "Battlefleet Crusader" "Battlefleet Avenger" "Battlefleet Decimator" "Battlefleet Protector"
+			 "Battlefleet Eradicator" "Battlefleet Victory"
+		}
+		
+			}
+			
+		
+	
+	army_names = {
+		generic = { 
+			sequential_name = "%O% Mandalorian Planetary Guard"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Mandalorian Crusader Company"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Units"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Clone Battalion"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Battledroid Platoon"
+		}
+		
+		android_army = {
+			sequential_name = "%O% HK Assassin Unit"
+		}
+		
+		psionic_army = { 			
+			sequential_name = "%O% Mandalorian Force-sensitive Warriors"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Basilisk War Droid Unit"
+			
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Taung Warriors"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 25
+		
+			first_names_male = {
+				  Akaavi Rage Almec Amzartho Boba Jango Dalash Jos Valk Tarro Braum
+				  Deron Breyer Davu Dagg Roggar Karin Deth Jindo Roegr Cassus
+				  Torian Mavrix Jaster Montross Silas Myles Demagol Rohlan Canderous
+				}
+			first_names_female = {
+			  Shae Akshae Val Benna Karin Gen Sabine Anya Vhonte 
+			  Aama Shorya Melfina Davessi Larana Galatea Nola Ailyn
+			  Arya Lyanna
+				
+			}
+			second_names = { 
+				Varaad Vizla Sharatt Farr Fett Cadera Ordo Chorn Lok Beroya Terhvo Kelborn Keldau Kryze
+				Lone Priest Rook Skirata Beviin Bralor Mereel Dyre
+			}  		
+		
+			
+		}	
+		
+			
+	}
+}	
+

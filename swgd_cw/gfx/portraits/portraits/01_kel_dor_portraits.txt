@@ -1,0 +1,131 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+# Zabrak
+portraits = {
+	kel_dor_female_01 = {	entity = "kel_dor_02_female_01_entity"	clothes_selector = "humanoid_02_male_clothes_01" hair_selector = "kel_dor_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/kel_dor/kel_dor_female_body_01.dds"
+			"gfx/models/portraits/kel_dor/kel_dor_female_body_02.dds"
+			
+		}
+	}
+	
+	
+	kel_dor_male_01 = {	entity = "kel_dor_02_male_01_entity"	clothes_selector = "humanoid_02_male_clothes_01" hair_selector = "kel_dor_male_hair_01"	greeting_sound = "human_male_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/kel_dor/kel_dor_male_body_01.dds"
+			"gfx/models/portraits/kel_dor/kel_dor_male_body_02.dds"
+			
+			
+			
+		}
+	}
+	
+		
+	
+}
+
+portrait_groups = {
+	kel_dor = {
+		default = kel_dor_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					kel_dor_male_01
+					
+					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					kel_dor_female_01
+					
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					kel_dor_female_01
+					
+					kel_dor_male_01
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					kel_dor_female_01
+					
+					kel_dor_male_01
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					kel_dor_female_01
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					kel_dor_male_01
+					
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					kel_dor_female_01
+										
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					kel_dor_male_01
+					
+				}
+			}
+		}
+	}
+}

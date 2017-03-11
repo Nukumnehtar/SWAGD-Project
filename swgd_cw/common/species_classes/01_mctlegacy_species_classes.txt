@@ -1,0 +1,77 @@
+# Number of entries controlls amount to choose from in designer  I.E.   "mol1" "mol2" "mol3" "mol4"
+# graphical_culture is connected to the looks used for ships and cities, see "common/graphical_culture/"
+# Portraits here are one you can choose from in the character creater. For prescripted races they are grabbed straight from the .gfx file. 
+# can specify playable=no to disable people from picking specified class.
+# can specify randomized=no to filter specified class from randomization.
+
+DIRTY = {
+	randomized = no
+	
+	graphical_culture = dirty_01
+	#graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+AQUATIC = {
+	randomized = no
+
+	graphical_culture = aquatic_01
+	#graphical_culture = fungoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+EVIL = {
+	randomized = no
+
+	graphical_culture = evil_01
+	#graphical_culture = arthropoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+ASARI = {
+	randomized = no
+
+	graphical_culture = asari_01
+	#graphical_culture = avian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+FACTORY = {
+	randomized = no
+
+	graphical_culture = factory_01
+	#graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+OVERGROWN = {
+	randomized = no
+
+	graphical_culture = overgrown_01
+	#graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+COVENANT = {
+	randomized = no
+
+	graphical_culture = covenant_01
+	#graphical_culture = avian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+SANGHEILI = {
+	randomized = no
+
+	graphical_culture = sangheili_01
+	#graphical_culture = avian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+TAU = {
+	randomized = no
+
+	graphical_culture = tau_01
+	#graphical_culture = fungoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

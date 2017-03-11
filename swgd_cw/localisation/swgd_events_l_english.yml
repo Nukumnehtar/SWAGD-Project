@@ -1,0 +1,146 @@
+﻿l_english:
+
+ #####################################
+ # Vanilla Events
+ ##################################### 
+  
+ prethoryn_scourge_chain_desc:0 "Our galaxy has been invaded by a ravenous swarm of spacefaring creatures that seem intent on consuming all life in their path. The rampage of these Yuuzhan Vong invaders must be stopped before their numbers overwhelm us."
+ CAPTURE_QUEEN_DESC:0 "After a recent space battle in the [queen_system.GetName] system, a Yuuzhan Vong Queen was badly injured and left for dead by the rest of the Vong. The creature is still alive, however. Capturing it would be a major intelligence coup." 
+  
+ country.999.a:0 "May the force be with us."
+ country.999.a.pac:0 "May the force be with us." 
+ country.999.a.mil:0 "May the force be with us."
+ country.999.a.spirit:0 "May the force be with us." 
+ country.999.a.material:0 "Stay on target." 
+ country.999.a.phile:0 "May the force be with us."
+ country.999.a.phobe:0 "I have a bad feeling about this."
+ country.999.a.coll:0 "I have a bad feeling about this."
+ country.999.a.ind:0 "May the force be with us." 
+ 
+ station_xs:0 "Ancient Sentinel"
+ station_xs_plural:0 "Ancient Sentinels"
+ station_s:0 "Ancient Defender"
+ station_s_plural:0 "Ancient Defenders"
+ station_m:0 "Ancient Warden"
+ station_m_plural:0 "Ancient Wardens"
+ station_l:0 "Ancient Guardian"
+ station_l_plural:0 "Ancient Guardians"
+ station_xl:0 "Ancient Rakatan Vault"
+ station_xl_plural:0 "Ancient Rakatan Vaults"
+ guardian.515.name:0 "Ancient Rakatan Fortress"
+ guardian.515.c.reply:0 "They were your masters once, and ours. Their name is no longer known by the younger races, but they were the Rakata. Their Infinite Empire used their potent Force-powered technologies to conquer and enslave every other species they came across throughout the known galaxy. They must have been fond of puzzles and enigmas. The only items recovered from the fortress in the past are metal shapes used in contraptions inside, to be rearranged to some satisfactory solutions. Those who brought them back did so because they failed and barely escaped with their lives. Many others didn't."
+ 
+ guardian.3001:0 "Horror in the Void"
+ guardian.3001.desc:0 "We have encountered some kind of vast entity near [horror_system.GetName], swirling with dark side energy. It appears to exist only partially inside our own universe, with the bulk of the creature still trapped in whatever nightmarish realm it spawned from.\n\nThere is a malevolent intelligence at work here, ancient beyond our concept of time and utterly alien in its design. We can only guess as to its purpose."
+ guardian.3001.a:0 "I have a bad feeling about this."
+ guardian.3003.desc:2 "The dark side entity which attempted to breach our universe near [guardians_horror_system.GetName] has been banished back into its own realm. Only time will tell if its influence has been sufficiently weakened to keep it there for good.\n\nWe are detecting some kind of anomalous residual energy that must have been left behind by the dimensional rifts the creature opened. Studying this dark side energy more closely could potentially lead to scientific breakthroughs."
+ guardian.3004.intro:2 "Our study of the dark side energy anomalies produced by the [guardians_horror_system.GetName] dimensional rifts has finally yielded results. The energies involved in the creation of these portals are unlike any we have ever encountered."
+
+ #####################################
+ # Naboo Crisis
+ ##################################### 
+ 
+ naboo_crisis.1.name:0 "The Blockade of Naboo"
+ naboo_crisis.1.desc:0 "Determined to strike back against what they see as belligerent legislation, Trade Federation battleships have blockaded the midrim world of Naboo. Viceroy Gunray's official statement declares that it is a protest of the new shipping lane taxes, and threatens that any attempts to break the embargo would be met with deadly force, and is prepared to see Naboo starve unless the regulations are removed.\n\nQueen Amidala of Naboo has requested formal Republic intervention. In response, Chancellor Valorum has called a special Senate session."
+ naboo_crisis.1.a:0 "The Federation has gone too far this time."
+ naboo_crisis.1.b:0 "The Republic are the villains here, not us."
+ 
+ naboo_crisis.2.name:0 "The Blockade of Naboo"
+ naboo_crisis.2.desc:0 "As the blockade continues, supplies begin to become scarce, leaving the Naboo people with an eerie quiet in their streets and a sense of panic.\n\nQueen Amidala's Council of Governors have advised her to wait while their representative to the Senate, Senator Palpatine, tries to find support in the Galactic Senate."
+ naboo_crisis.2.a:0 "They need aid."
+ naboo_crisis.2.b:0 "We cannot go on like this."
+ naboo_crisis.2.c:0 "They will give in soon."
+ 
+ naboo_crisis.3.name:0 "The Blockade of Naboo"
+ naboo_crisis.3.desc:0 "Greetings Supreme Chancellor, this is Queen Amidala of Naboo.\n\nI will not mince words; The passivity of the Senate is killing my people. I am holding you personally responsible for the blockade Chancellor, and every day the Senate bickers more of our people starve in their homes. Your inaction is taking bread out of the mouths of Naboo's children.\n\nWill you not help us?"
+ naboo_crisis.3.a:0 "I will do what I can." 
+ naboo_crisis.3.b:0 "There is nothing I can do."
+ naboo_crisis.3.c:0 "I refuse to help."
+ naboo_crisis.3.a.response:0 "Thank you, Chancellor." 
+ naboo_crisis.3.b.response:0 "Then perhaps it is time for a new Chancellor, one with the strength to act."
+ naboo_crisis.3.c.response:0 "How can you abandon us in our hour of need?"
+ 
+ naboo_crisis.31.name:0 "Jedi Ambassadors"  
+ naboo_crisis.31.desc:0 "The Supreme Chancellor has appealed quietly and directly to the Jedi Council to ask for mediators. In repsonse, Master Windu of the Council has secretly dispatched two Jedi, Qui-Gon Jinn and his Padawan, Obi-Wan Kenobi, to meet with the Federation Viceroy and ensure the Federation's withdrawal from the system."
+ naboo_crisis.31.a:0 "Yes."
+ naboo_crisis.31.b:0 "No."
+ naboo_crisis.32.name:0 "Jedi Ambassadors"  
+ naboo_crisis.32.desc:0 "The Queen of Naboo has appealed quietly and directly to the Jedi Council to ask for mediators. In repsonse, Master Windu of the Council has secretly dispatched two Jedi, Qui-Gon Jinn and his Padawan, Obi-Wan Kenobi, to meet with the Federation Viceroy and ensure the Federation's withdrawal from the system."
+ naboo_crisis.32.a:0 "Yes."
+ naboo_crisis.32.b:0 "No." 
+  
+ naboo_crisis.40.name:0 "Jedi Ambassadors"  
+ naboo_crisis.40.desc:0 "The Supreme Chancellor has appealed quietly and directly to the Jedi Council to ask for mediators. In repsonse, Master Windu of the Council has secretly dispatched two Jedi, Qui-Gon Jinn and his Padawan, Obi-Wan Kenobi, to meet with the Federation Viceroy and ensure the Federation's withdrawal from the system."
+ naboo_crisis.40.a:0 "May the force be with them."
+ 
+ naboo_crisis.41.name:0 "Jedi Refuse"  
+ naboo_crisis.41.desc:0 "The Jedi have refused"
+ naboo_crisis.41.a:0 "Sad."
+  
+ naboo_crisis.5.name:0 "Jedi Arrive"  
+ naboo_crisis.5.desc:0 "The Jedi have arrived for talks"
+ naboo_crisis.5.a:0 "Sad."
+  
+ naboo_crisis.6.name:0 "Escaped Jedi"  
+ naboo_crisis.6.desc:0 "After a thorough search of the ship, the Jedi are nowhere to be found. They must have somehow escaped onto the surface with our invasion force."
+ naboo_crisis.6.a:0 "Alert our ground forces."
+ 
+ naboo_crisis.51.name:0 "Contact Lost"  
+ naboo_crisis.51.desc:0 "Shortly after arriving in Naboo space, we seem to have lost contact with Master Qui-Gon and his padawan, Obi-Wan Kenobi.  Oddly, we are also unable to hail their ship. "
+ naboo_crisis.51.a:0 "I have a bad feeling about this."
+ 
+ naboo_crisis.70.name:0 "Invasion of Naboo"  
+ naboo_crisis.70.desc:0 "The Battle has begun but the Queen has escaped!."
+ naboo_crisis.70.a:0 "This will not end well."
+ 
+ naboo_crisis.71.name:0 "Invasion of Naboo"  
+ naboo_crisis.71.desc:0 "The Battle has begun but the Queen has been captured!."
+ naboo_crisis.71.a:0 "This will not end well."
+ 
+ naboo_crisis.8.name:0 "Amidala at the Senate"  
+ naboo_crisis.8.desc:0 "Where is the proof of this invasion! I was not elected to watch my people suffer and die while you discuss this invasion in a committee!"
+ naboo_crisis.8.a:0 "Ok."
+ 
+ naboo_crisis.9.name:0 "Vote of No Confidence"
+ naboo_crisis.9.desc:0 "Chancellor pls"
+ naboo_crisis.9.a:0 "Ok."
+ 
+ naboo_crisis.10.name:0 "Battle of Naboo"
+ naboo_crisis.10.desc:0 "Battle of naboo begins."
+ naboo_crisis.10.a:0 "Ok."
+  
+ naboo_crisis.11.name:0 "Trade Federation Defeated"
+ naboo_crisis.11.desc:0 "Trade federation is defeated."
+ naboo_crisis.11.a:0 "Ok."
+ 
+ naboo_crisis.12.name:0 "Palpatine Elected"
+ naboo_crisis.12.desc:0 "Trade federation is defeated."
+ naboo_crisis.12.a:0 "Ok."
+ 
+ #####################################
+ # Vanilla Events
+ ##################################### 
+ 
+ station_xs:0 "Ancient Sentinel"
+ station_xs_plural:0 "Ancient Sentinels"
+ station_s:0 "Ancient Defender"
+ station_s_plural:0 "Ancient Defenders"
+ station_m:0 "Ancient Warden"
+ station_m_plural:0 "Ancient Wardens"
+ station_l:0 "Ancient Guardian"
+ station_l_plural:0 "Ancient Guardians"
+ station_xl:0 "Ancient Rakatan Vault"
+ station_xl_plural:0 "Ancient Rakatan Vaults"
+ guardian.515.name:0 "Ancient Rakatan Fortress"
+ guardian.515.c.reply:0 "They were your masters once, and ours. Their name is no longer known by the younger races, but they were the Rakata. Their Infinite Empire used their potent Force-powered technologies to conquer and enslave every other species they came across throughout the known galaxy. They must have been fond of puzzles and enigmas. The only items recovered from the fortress in the past are metal shapes used in contraptions inside, to be rearranged to some satisfactory solutions. Those who brought them back did so because they failed and barely escaped with their lives. Many others didn't."
+  
+ country.999.a:0 "The force is with us."
+ country.999.a.pac:0 "The force is with us."
+ country.999.a.mil:0 "The force is with us."
+ country.999.a.spirit:0 "The force is with us."
+ country.999.a.material:0 "The force is with us."
+ country.999.a.phile:0 "The force is with us.."
+ country.999.a.phobe:0 "The force is with us."
+ country.999.a.ind:0 "The force is with us."
+ 
+  

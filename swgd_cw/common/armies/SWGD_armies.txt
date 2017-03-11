@@ -1,0 +1,332 @@
+#Defensive armies can't transport of the planet
+#Garrison armies are created by pops
+#maintenance is directly scripted here. 0.25 translates to 0.25 monthly cost (excluding other upkeep modifiers)
+
+
+############### FORCE ARMIES
+####################
+
+force_adept = {
+	damage = 2.0
+	morale_damage = 1.5
+	health = 1.5
+	morale = 3.0
+	time = 360
+	maintenance = 0.8
+	icon_frame = 13
+	
+	cost = {
+		minerals = 250
+		energy = 50
+	}
+	allow = {
+		OR = {
+		has_building = "building_force_academy"
+		has_building = "building_force_great_academy"
+		}
+	}
+	prerequisites = { "tech_force_I" }
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+force_warrior = {
+	damage = 3.0
+	morale_damage = 1.5
+	health = 3.0
+	morale = 3.0
+	time = 360
+	maintenance = 0.8
+	icon_frame = 13
+	
+	cost = {
+		minerals = 250
+		energy = 250
+	}
+	allow = {
+	OR = {
+		has_building = "building_force_academy"
+		has_building = "building_force_great_academy"
+		}
+	}
+	prerequisites = { "tech_force_II" }
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+force_inquisitor = {
+	damage = 1.5
+	morale_damage = 25.0
+	health = 1.0
+	morale = 3.0
+	time = 360
+	maintenance = 0.8
+	icon_frame = 13
+	
+	cost = {
+		minerals = 250
+		energy = 150
+	}
+	allow = {
+	OR = {
+		has_building = "building_force_academy"
+		has_building = "building_force_great_academy"
+		}
+		has_building = "building_force_library"
+	}
+	prerequisites = { "tech_force_II" }
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+force_master = {
+	damage = 5.0
+	morale_damage = 5.0
+	health = 4.0
+	morale = 5.0
+	time = 360
+	maintenance = 2.0
+	icon_frame = 13
+	
+	cost = {
+		minerals = 350
+		energy = 350
+	}
+	allow = {
+		has_building = "building_force_great_academy"
+	}
+	prerequisites = { "tech_force_IV" }
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+###########Clone ARMIES
+###################
+
+clone_shock = {
+	defensive = yes
+	damage = 2.0
+	health = 2.0
+	morale = 2.0
+	time = 30
+	maintenance = 0.33
+	icon_frame = 7
+	
+	cost = {
+		minerals = 75
+	}
+	
+	prerequisites = { "tech_centralized_command" }
+	
+	allow = {
+		has_building = "building_clone_vats"
+	}
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+clone_paratrooper = {
+	damage = 2.25
+	health = 1.5
+	morale = 3.0
+	time = 30
+	maintenance = 0.33
+	icon_frame = 7
+	
+	cost = {
+		minerals = 100
+	}
+	
+	prerequisites = { "tech_centralized_command" }
+	
+	allow = {
+		has_building = "building_clone_vats"
+	}
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+clone_commando = {
+	damage = 2.5
+	morale_damage = 0.5
+	health = 2.0
+	morale = 2.0
+	time = 30
+	maintenance = 0.33
+	icon_frame = 7
+	
+	cost = {
+		minerals = 150
+		energy = 150
+	}
+	
+	prerequisites = { "tech_centralized_command" }
+	
+	allow = {
+		has_building = "building_clone_vats"
+	}
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+clone_arc = {	
+	damage = 2.75
+	morale_damage = 1.5
+	health = 3.0
+	morale = 4.0
+	time = 30
+	maintenance = 0.33
+	icon_frame = 7
+	
+	cost = {
+		minerals = 200
+		energy = 200
+	}
+	
+	prerequisites = { "tech_centralized_command" }
+	
+	allow = {
+		has_building = "building_clone_vats"
+	}
+	potential = {
+		from = {
+			NOR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+				is_species = "ROBOT_POP_SPECIES_3"
+				is_sentient = no
+			}
+		}
+	}
+}
+
+air_defense_tower = {
+	robotic = yes
+	defensive = yes
+	damage = 5.00
+	health = 100
+	time = 120
+	maintenance = 5.00
+	icon_frame = 14
+	has_species = no
+	
+	cost = {
+		minerals = 150
+		energy = 20
+	}
+	
+	prerequisites = { "tech_fixed_defenses" }
+}
+
+turbolaser_tower = {
+	robotic = yes
+	defensive = yes
+	damage = 15.00
+	health = 150
+	time = 120
+	maintenance = 10.00
+	icon_frame = 15
+	has_species = no
+	
+	cost = {
+		minerals = 150
+		energy = 20
+	}
+	allow = {
+		
+		has_building = "building_turbolaser_central_command"
+	OR = {
+		has_building = "building_power_plant_1"
+		has_building = "building_power_plant_2"
+		has_building = "building_power_plant_3"
+		has_building = "building_power_plant_4"
+		has_building = "building_power_plant_5"
+		has_building = "betharian_power_plant_1"
+		has_building = "betharian_power_plant_2"
+		has_building = "betharian_power_plant_3"
+		has_building = "betharian_power_plant_4"
+		
+		}
+	}
+	
+	prerequisites = { "tech_advanced_target_tracking" }
+}
+
+magnapulse_canon = {
+	robotic = yes
+	defensive = yes
+	damage = 10.00
+	morale_damage = 2.0
+	health = 100
+	time = 120
+	maintenance = 15.00
+	icon_frame = 16
+	has_species = no
+	
+	cost = {
+		minerals = 150
+		energy = 20
+	}
+	allow = {
+	
+		has_building = "building_magnapulse_canon"
+	}
+	
+	prerequisites = { "tech_heavy_plasma_ballistics" }
+}

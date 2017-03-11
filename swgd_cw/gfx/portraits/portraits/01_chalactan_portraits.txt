@@ -1,0 +1,351 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+# Chalactan
+portraits = {
+	chalactan_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "human_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/chalactan/chalactan_female_body_01.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_low.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_low_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_low_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_low_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_low_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_2_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_2_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_2_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_2_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_2_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_2_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_2_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_2_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_3_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_3_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_3_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_3_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_3_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_3_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_3_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_3_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_4_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_4_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_4_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_4_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_4_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_4_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_4_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_01_4_beads_chin_eyes.dds"
+		}
+	}
+
+	chalactan_female_03 = {	entity = "portrait_human_female_03_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "human_female_hair_03"	greeting_sound = "human_female_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/chalactan/chalactan_female_body_03.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_low.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_low_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_low_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_low_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_low_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_2_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_2_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_2_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_2_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_2_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_2_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_2_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_2_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_3_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_3_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_3_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_3_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_3_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_3_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_3_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_3_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_4_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_4_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_4_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_4_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_4_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_4_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_4_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_03_4_beads_chin_eyes.dds"
+		}
+	}
+	chalactan_female_04 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "human_female_hair_04"	greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/chalactan/chalactan_female_body_04.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_low.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_low_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_low_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_low_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_low_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_2_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_2_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_2_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_2_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_2_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_2_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_2_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_2_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_3_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_3_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_3_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_3_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_3_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_3_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_3_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_3_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_4_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_4_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_4_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_4_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_4_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_4_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_4_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_female_body_04_4_beads_chin_eyes.dds"
+		}
+	}
+
+	chalactan_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "human_male_hair_01"	greeting_sound = "human_male_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/chalactan/chalactan_male_body_01.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_low.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_low_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_low_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_low_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_low_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_2_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_2_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_2_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_2_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_2_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_2_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_2_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_2_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_3_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_3_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_3_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_3_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_3_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_3_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_3_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_3_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_4_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_4_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_4_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_4_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_4_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_4_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_4_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_01_4_beads_chin_eyes.dds"
+		}
+	}
+
+	chalactan_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "human_male_hair_03"	greeting_sound = "human_male_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/chalactan/chalactan_male_body_03.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_low.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_low_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_low_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_low_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_low_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_2_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_2_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_2_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_2_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_2_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_2_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_2_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_2_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_3_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_3_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_3_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_3_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_3_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_3_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_3_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_3_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_4_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_4_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_4_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_4_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_4_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_4_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_4_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_03_4_beads_chin_eyes.dds"
+		}
+	}
+	chalactan_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "human_male_hair_04"	greeting_sound = "human_male_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/chalactan/chalactan_male_body_04.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_low.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_low_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_low_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_low_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_low_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_2_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_2_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_2_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_2_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_2_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_2_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_2_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_2_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_3_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_3_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_3_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_3_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_3_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_3_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_3_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_3_beads_chin_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_4_beads.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_4_beads_all.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_4_beads_head.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_4_beads_head_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_4_beads_head_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_4_beads_eyes.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_4_beads_chin.dds"
+			"gfx/models/portraits/chalactan/chalactan_male_body_04_4_beads_chin_eyes.dds"
+		}
+	}
+
+}
+
+portrait_groups = {
+	chalactan = {
+		default = chalactan_female_03
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					chalactan_male_01
+					chalactan_male_03
+					chalactan_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					chalactan_female_01
+					chalactan_female_03
+					chalactan_female_04
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					chalactan_female_01
+					chalactan_female_03
+					chalactan_female_04
+					chalactan_male_01
+					chalactan_male_03
+					chalactan_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					chalactan_female_01
+					chalactan_female_03
+					chalactan_female_04
+					chalactan_male_01
+					chalactan_male_03
+					chalactan_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					chalactan_female_01
+					chalactan_female_03
+					chalactan_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					chalactan_male_01
+					chalactan_male_03
+					chalactan_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					chalactan_female_01
+					chalactan_female_03
+					chalactan_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					chalactan_male_01
+					chalactan_male_03
+					chalactan_male_04
+				}
+			}
+		}
+	}
+}

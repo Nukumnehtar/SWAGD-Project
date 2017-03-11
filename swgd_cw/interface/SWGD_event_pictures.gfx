@@ -1,0 +1,129 @@
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_senate_1"
+		texturefile = "gfx/event_pictures/senate_1.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_senate_2"
+		texturefile = "gfx/event_pictures/senate_2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_senate_building"
+		texturefile = "gfx/event_pictures/senate_building.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_republic_troops"
+		texturefile = "gfx/event_pictures/republic_troops.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_mandalore_the_ultimate"
+		texturefile = "gfx/event_pictures/mandalore_the_ultimate.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_ecumenopolis"
+		texturefile = "gfx/event_pictures/ecumenopolis.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_blueprints_city"
+		texturefile = "gfx/event_pictures/blueprints_city.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_ecumenopolis2"
+		texturefile = "gfx/event_pictures/ecumenopolis2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_prisonersofwar"
+		texturefile = "gfx/event_pictures/prisonersofwar.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_burned_home"
+		texturefile = "gfx/event_pictures/burned_home.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_naboo_blockade"
+		texturefile = "gfx/event_pictures/naboo_blockade.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_naboo"
+		texturefile = "gfx/event_pictures/naboo.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}

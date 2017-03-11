@@ -1,0 +1,395 @@
+naboo_system_initializer = {
+	name = "Naboo"
+    class = "rl_standard_stars"
+	flags={naboo_kingdom}
+	
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+
+    planet = {
+        name = "Moth"
+        class = "pc_molten"
+        orbit_distance = 24
+        orbit_angle = 222
+        size = 8
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Erep"
+        class = "pc_molten"
+        orbit_distance = 8
+        orbit_angle = 167
+        size = 12
+        has_ring = no
+
+
+        moon = {
+            name = "Erep Minor"
+            class = random
+            orbit_distance = 8
+            orbit_angle = 35
+            size = 5
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Naboo"
+        class = "pc_continental"		
+        orbit_distance = 28
+        orbit_angle = 139
+        size = 20
+        has_ring = no
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+     	init_effect = {
+			prevent_anomaly = yes
+			add_modifier = {
+				modifier = "natural_beauty"				
+			}
+		}
+		
+		init_effect = {
+		
+			every_country = {
+					limit = {
+						has_country_flag = naboo_kingdom
+					}
+					save_event_target_as = naboo_kingdom
+				}
+			set_owner = event_target:naboo_kingdom
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}
+				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}
+			create_species = {
+				name = "Gungan"
+				class = "REP"
+				portrait = "rep7"
+			traits = { trait = "trait_pc_continental_preference" 
+			trait = "trait_communal" 					
+					}
+			extra_trait_points = 2
+				homeworld = FROM
+				sentient = yes
+			}
+			while = {
+				limit = {
+					count_pops = {
+						limit = { is_sentient = yes }
+						count < 2
+					}
+					free_pop_tiles > 0
+				}
+				best_tile_for_pop = {
+					create_pop = { 
+						species = last_created
+						ethos = {							
+							ethic = ethic_pacifist
+							ethic = ethic_xenophile
+						}
+					}
+				}
+			}			
+		}
+
+
+
+        moon = {
+            name = "Ohma-D'un"
+            class = "pc_ocean"
+            orbit_distance = 6
+            orbit_angle = 237
+            size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Roro"
+            class = "pc_tropical"
+            orbit_distance = 4
+            orbit_angle = 303
+            size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Naboo III"
+            class = "pc_barren_cold"
+            orbit_distance = 5
+            orbit_angle = 241
+            size = 4
+            has_ring = no
+
+        }
+
+    }
+
+    planet = {
+        name = "Widow"
+        class = "pc_barren_cold"
+        orbit_distance = 52
+        orbit_angle = 352
+        size = 15
+        has_ring = no
+
+
+        moon = {
+            name = "Widow Minor"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 123
+            size = 5
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Storm"
+        class = "pc_gas_giant"
+        orbit_distance = 70
+        orbit_angle = 195
+        size = 24
+        has_ring = no
+
+
+        moon = {
+            name = "Storm I"
+            class = random
+            orbit_distance = 7
+            orbit_angle = 16
+            size = 3
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm II"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 151
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm III"
+            class = "pc_tundra"
+            orbit_distance = 2
+            orbit_angle = 56
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm IV"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 71
+            size = 3
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm V"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 173
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm VI"
+            class = random
+            orbit_distance = 2
+            orbit_angle = 155
+            size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm VII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 138
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm VIII"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 69
+            size = 4
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm IX"
+            class = random
+            orbit_distance = 2.5
+            orbit_angle = 76
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm X"
+            class = "pc_tundra"
+            orbit_distance = 2.5
+            orbit_angle = 279
+            size = 6
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm XXVI"
+            class = "pc_arctic"
+            orbit_distance = 10
+            orbit_angle = 89
+            size = 5
+            has_ring = no
+
+        }
+        moon = {
+            name = "Storm XXXII"
+            class = random
+            orbit_distance = 10
+            orbit_angle = 89
+            size = 4
+            has_ring = no
+
+        }
+
+    }
+
+    planet = {
+        name = "Behpour"
+        class = "pc_arid"
+        orbit_distance = 68
+        orbit_angle = 260
+        size = 5
+        has_ring = no
+
+    }
+}

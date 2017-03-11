@@ -1,0 +1,66 @@
+
+#COUNTRY
+"NAME" = {
+	name = ""
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = ""
+	ship_prefix = ""
+	
+	species_name = ""
+	species_plural = ""	
+	species_adjective = ""
+	species_class = ""
+	trait = ""	
+	trait = ""	
+	portrait = ""	
+	adjective = ""
+	
+	government = ""
+	ethic = ""
+	ethic = ""
+	ethic = ""	
+	
+	flags = { SWGD custom_start_screen  }
+	
+	weapon = ""
+	ftl = hyperdrive
+	
+	planet_name = ""
+	planet_class = ""	
+	system_name = ""
+	initializer = ""	
+	
+	graphical_culture = ""
+	city_graphical_culture = ""
+	
+	empire_flag = {
+		icon = {
+			category = ""
+			file = ""
+		}
+		background = {
+			category = ""
+			file = ""
+		}
+		colors = {
+			""
+			""
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender = male
+		name = ""
+		portrait = ""
+		texture = 
+		hair = 
+		clothes = 
+		ruler_title = ""
+		ruler_title_female = ""
+	}
+
+}

@@ -1,0 +1,478 @@
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = jedi_council
+		}
+	}
+	format = "Jedi Council"
+	noun = "Jedi"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = galactic_empire
+		}
+	}
+	format = "Galactic Empire"
+	noun = "Imperial"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = galactic_republic
+		}
+	}
+	format = "Galactic Republic"
+	noun = "Coruscanti"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = anaxes
+		}
+	}
+	format = "Anaxes Commonwealth"
+	noun = "Anaxi"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = brentaal
+		}
+	}
+	format = "Brentaal Houses"
+	noun = "Brentaalan"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = alderaan_kingdom
+		}
+	}
+	format = "Kingdom of Alderaan"
+	noun = "Alderaanian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = corellian_empire
+		}
+	}
+	format = "Corellian Empire"
+	noun = "Corellian"	
+}
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = alderaan_kingdom
+		}
+	}
+	format = "Kingdom of Alderaan"
+	noun = "Alderaanian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = chandrila
+		}
+	}
+	format = "Chandrilan House"
+	noun = "Chandrilan"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = duro
+		}
+	}
+	format = "Duro Corporate Alliance"
+	noun = "Duro"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = kuat
+		}
+	}
+	format = "Kuat Aristocracy"
+	noun = "Kuati"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = rendili 
+		}
+	}
+	format = "Rendili Shipwrights"
+	noun = "Rendili"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = alsakan
+		}
+	}
+	format = "Alsakan Kingdom"
+	noun = "Alsakan"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = mon_calamari
+		}
+	}
+	format = "Mon Calamari Territories"
+	noun = "Mon Calamari"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = 
+		}
+	}
+	format = ""
+	noun = ""	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = hutt_clans
+		}
+	}
+	format = "Hutt Clans"
+	noun = "Hutt"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = utapauan_committee 
+		}
+	}
+	format = "Utapauan Committee"
+	noun = "Utapauan"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = naboo_kingdom
+		}
+	}
+	format = "Kingdom of Naboo"
+	noun = "Nabooian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = kamino_council
+		}
+	}
+	format = "Council of Kamino"
+	noun = "Kaminoan"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = bespin_guilds
+		}
+	}
+	format = "Bespin Trade Guilds"
+	noun = "Bespinian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = cathar_tribes
+		}
+	}
+	format = "Cathar Tribes"
+	noun = "Cathar"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = wookiee_clans
+		}
+	}
+	format = "United Wookiee Clans"
+	noun = "Wookiee"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = bothan_clans
+		}
+	}
+	format = "Combined Bothan Clans"
+	noun = "Bothan"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = mandalorian_clans
+		}
+	}
+	format = "Mandalorian Warrior Clans"
+	noun = "Mandalorian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = geonosian_hives
+		}
+	}
+	format = "Geonosian Hives"
+	noun = "Geonosian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = chiss_ascendancy
+		}
+	}
+	format = "Chiss Ascendancy"
+	noun = "Chiss"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = ssi_ruuvi
+		}
+	}
+	format = "Ssi-ruuvi Imperium"
+	noun = "Ssi-ruuvi"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = onderon
+		}
+	}
+	format = "Kingdom of Onderon"
+	noun = "Onderonian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = rodian
+		}
+	}
+	format = "Rodian Clans"
+	noun = "Rodian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = trade_federation
+		}
+	}
+	format = "Trade Federation"
+	noun = "Trade Federation"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = taris
+		}
+	}
+	format = "Taris Civil Authority"
+	noun = "Tarisian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = echani
+		}
+	}
+	format = "Echani Command"
+	noun = "Echani"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = haruun_kal
+		}
+	}
+	format = "Haruun Kal Representative Council"
+	noun = "Balawai"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = arkania
+		}
+	}
+	format = "Arkanian Dominion"
+	noun = "Arkanian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = zabrak_council
+		}
+	}
+	format = "Zabrak Council"
+	noun = "Zabrak"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = dorin
+		}
+	}
+	format = "Dorin Republic"
+	noun = "Dorin"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = zygerrian_empire
+		}
+	}
+	format = "Zygerrian Slave Empire"
+	noun = "Zygerrian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = twilek_clans
+		}
+	}
+	format = "Twi'lek Clan Council"
+	noun = "Twi'lek"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = togruta_council
+		}
+	}
+	format = "Togruta Council"
+	noun = "Togruta"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = zeltros_kingdom
+		}
+	}
+	format = "Kingdom of Zeltros"
+	noun = "Zeltron"	
+}

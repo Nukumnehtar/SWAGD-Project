@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ethic_light_side"
+		texturefile = "gfx/interface/icons/ethics/ethic_light_side.dds"
+	}	
+	spriteType = {
+		name = "GFX_ethic_dark_side"
+		texturefile = "gfx/interface/icons/ethics/ethic_dark_side.dds"
+	}
+}

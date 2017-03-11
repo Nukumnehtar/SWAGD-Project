@@ -1,0 +1,34 @@
+namespace = swgd_start
+
+event = {
+	id = swgd_start.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		every_country  = {
+			limit = {
+				has_country_flag = galactic_republic
+			}
+			save_event_target_as = galactic_republic
+		}
+		
+
+		every_country = {
+
+			limit = {
+				has_country_flag = jedi_council					
+				
+			}
+			establish_communications_no_message = event_target:galactic_republic
+			establish_contact = event_target:galactic_republic
+							
+		}
+		
+	
+	
+	}
+		
+	
+}
+	

@@ -1,0 +1,200 @@
+Gungan = {
+	ship_names = {
+		generic = {
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}
+		outpost_station = {
+			#random_names = { }
+			#sequential_name = "%O% Frontier Outpost"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Boggwoss Squadron" "Reggam Squadron" "Shoggor Squadron" "Paggirim Squadron" "Meggisch Squadron" "Lurggam Squadron" 
+			"Ithagga Squadron" "Juraggi Squadron"
+		}
+		sequential_name = "%O% Fleet"
+	}
+
+	army_names = {
+		defense_army = {
+			random_names = {
+			"Armored Cerrabores" "Armored Falumpasets" "Armored Fambaas" "Heyblibber Squadron" "Kaadu Cavalry" "Gungan Catapults Squad"  "Tribubble Bongo Squadron" "BB-2 Shuttle Squadron" "Bongo Behemoths" "Bongo Scouts" "Bongo Laser Squad" "Bongo Missiles Squad"
+			"Armored Lerraas" "Gungan Bombers Squadron" "Wild Zalaacas" "Armored Zalaacas" "Booma Grenadiers" "Raaptur Squadron" "Atlatls Throwers" 	
+				}
+				sequential_name = "%O% Gungan Grand Army"
+		}
+			
+		assault_army = {
+			random_names = {
+			"Armored Cerrabores" "Armored Falumpasets" "Armored Fambaas" "Heyblibber Squadron" "Kaadu Cavalry" "Gungan Catapults   Squad"  "Tribubble Bongo Squadron" "BB-2 Shuttle Squadron" "Bongo Behemoths" "Bongo Scouts" "Bongo Laser Squad" "Bongo Missiles Squad"
+			"Armored Lerraas" "Gungan Bombers Squadron" "Wild Zalaacas" "Armored Zalaacas" "Booma Grenadiers" "Raaptur Squadron" "Atlatls Throwers"
+				}
+			sequential_name = "%O% Gungan Invasion Army"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Forces"
+		}
+		
+		clone_army = {
+			sequential_name = "Clone Cluster %C%"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Cephalodroids"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Spirit Shells"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psychic Phalanx"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Consuming Swarm"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Ascenders"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		full_names = {
+			first_names_male = {
+			
+			Benbul Jar "Jar Jar" Pep Rish Lunker Lyonie Rugor Roos Heb
+            Gallo Kleef Tobler Ganne Augur Aug "Aug Aug" Jynx Wert Tee
+			"Tee Tee" Neesa Bullba Bamfurd Been Gar "Gar Gar" Slarm 
+			Jay "Jay Jay" Abso Bar "Abso Bar" George Zim "Zim Zim"
+			Zam "Zam Zam" "Zim Zam" Big "Big Big" Blue Bola "Bola Bola" 
+			Bar "Bar Bar" BolaBar Boma Mullud Boom "Boom Boom" Booto Brass
+			Brute Cova Hoxie Hantik Hassk Piknab Jak "Jak Jak" Copek Cruegar Degoolsby
+			Falyeh Donn Lo "Lo Lo" Moppo Kin-Ya Kin Ya "Kin Kin" "Ya Ya"
+            Mikfa Mik "Mik Mik" Fasso Fenton Gallo Ganne Neb 
+            "Neb Neb" Tup "Tup Tup" Odoof Kosa Yin "Yin Yin" "Kosa-Yin"
+            Yr'Apaly Roo "Roo-Roo" Broof "Bro Bro" Zazzi Zazzo Aervis Wollod
+			Portillo Spill Zak Spleed Marsune Meh'ur Kroke Mokem Oono Nalskel
+			Flossin Rogoe Dubbin "Skub Skub" Skub Friggy Tob "Tob Tob" Toba
+			Gus "Gus-Gus"
+			} 
+			
+			first_names_female = {
+			Jara "Jara Jara" Peppi Risha Lunka Lyona Ruga Roosa
+			Galla Kleefaa Tobla Ganna Augara Augie Jynxa Werta Teers
+            Neesada Bulliba Bamfurda Bena "Gara Gara" Slarma Jaya "Jaya Jaya"
+			Absa Bara "Absa Bara" Georgia Zima "Zima Zima" "Zama Zama"
+			Zama "Zima Zama" Biga "Biga Biga" Bluetta Bolana Bara "Bara Bara"
+			BolanaBara Mulla Booma "Booma Booma" Brassa Bruta Covala
+            Piknaba Lob "Lob Lob" Jakie "Jakie Jakie" Copeka Cruegga
+			Degoola Donna Moppa Kina-Yaa "Kina Kina" Kina Yaa "Yaa Yaa"
+			Mikfaa Mika "Mika Mika" Fassa Fenta Galla Ganna Goodra Nebba "Goodra Nebba"
+            "Nebba Nebba" Tuppa "Tuppa Tuppa" Odoofa Kosaa Yina "Yina Yina"
+			"Kosaa-Yina" Yr'Apalya Roa "Roa-Roa" Broofa "Broa Broa" Zazia Zazoa
+			Aerva Wolla Portilla Spilla Zaka Spleda "Skubba Skubba" Skubba
+			Frigga "Tobba Tobba" Tobba Gussa "Gussa Gussa"
+			}
+
+		second_names = {
+			Binks Loo Lubble Bow Nass Tarpals Ceel Jowil Jopi Bari Bettle
+            Bin Blattis Blismo Bombo Kirs Burmooze Carsels
+			Chucka Dizz Dop Dosun Faaus Fajallan Nob Neb Grizbain
+            Grunda Hadu Kelpit Keth Leede Marshoo Modbom Noz Nukkels
+			Noss Omin Paddu Page Pert Quiglee Rimk Sharr Squig Musstoro
+			Toma Toop Tren Wupps Wint Yown Wiga Yurdel Zassa Zinga Mor'in
+			Nee Goodrow
+			}
+
+		}
+	}		
+}
