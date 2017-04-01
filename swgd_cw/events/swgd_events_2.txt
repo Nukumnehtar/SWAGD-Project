@@ -1,0 +1,37 @@
+namespace = swgd
+
+country_event = {
+	id = swgd.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		
+			#every_country = {
+				#limit = {
+				#	has_country_flag = core_founder
+					
+				#}
+				#set_subject_of = {
+				#	who = event_target:galactic_republic
+				#	subject_type = republic_member_state
+				#}
+			#}
+			
+			every_country = {
+				limit = {
+					has_country_flag = SWGD
+					NOR = {
+						is_country_type = fallen_empire
+						has_country_flag = chiss_ascendancy
+						has_country_flag = ssi_ruuvi_imperium
+					}
+				}
+				establish_communications_no_message = event_target:galactic_republic
+				establish_contact = event_target:galactic_republic
+			}
+			
+		
+	}
+
+}

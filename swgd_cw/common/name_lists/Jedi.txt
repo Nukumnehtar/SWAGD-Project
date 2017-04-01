@@ -1,4 +1,4 @@
-### Jedi Names
+﻿### Jedi Names
 Jedi = {
 	
 
@@ -222,7 +222,7 @@ Jedi = {
 				
 			}
 			second_names = { 
-				Baas Nisis Barkan Yoda Din Dorak Druur Quel-Droma Revan Dorak Wyellett Yonlach
+				Baas Nisis Barkan Din Dorak Druur Quel-Droma Revan Dorak Wyellett Yonlach
 				Pall Vash Ban Shan Surik Darach Kreia Windu Allusis Hammer Jinn Ki-Adi-Mundi Koon
 				Tiin Fisto Secura Hett Kenobi Balmor Unduli Vos Kantoo Sifo-Dyas Ropal Balmor 
 				Actrion Kil Krell Farfalla Hoth Kae Dar Surik Acaadi Esan Renstal Carrick Kace Jaska

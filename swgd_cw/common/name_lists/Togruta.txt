@@ -1,4 +1,4 @@
-### Togruta
+﻿### Togruta
 Togruta = {
 
 	ship_names = {

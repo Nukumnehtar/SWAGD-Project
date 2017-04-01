@@ -50,7 +50,7 @@ guardians_artist_init_01 = {
 	planet = {
 		count = 1
 		orbit_distance = 30
-		class = rl_habitable_normal
+		class = rl_unhabitable_planets
 		orbit_angle = { min = 90 max = 270 }
 		size = 25
 		
@@ -70,9 +70,12 @@ guardians_artist_init_01 = {
 					}
 				}
 				create_country = {
-					name = "The Artisan Troupe"
+					name = "NAME_Artisan_Troupe"
 					type = enclave
-					government = "artist_government"
+					authority = "auth_democratic"
+					civics = {
+						civic = civic_artist_collective
+					}
 					species = last_created
 					flag = {
 						icon = {
@@ -101,13 +104,13 @@ guardians_artist_init_01 = {
 					set_country_flag = artist_enclave_country
 					set_graphical_culture = mammalian_01
 					create_fleet = {
-						name = "Ars Artem"
+						name = "NAME_Ars_Artem"
 						settings = { spawn_debris = no }
 						effect = {
 							set_owner = prev
 							create_ship = {
 								name = random
-								design = "Artist Enclave Station"
+								design = "NAME_Artist_Enclave_Station"
 								graphical_culture = prev
 							}
 							set_location = {
@@ -131,13 +134,13 @@ guardians_artist_init_01 = {
 				else = {
 					event_target:artist_enclave_country = {
 						create_fleet = {
-							name = "Ars Artem"
+							name = "NAME_Ars_Artem"
 							settings = { spawn_debris = no }
 							effect = {
 								set_owner = prev
 								create_ship = {
 									name = random
-									design = "Artist Enclave Station"
+									design = "NAME_Artist_Enclave_Station"
 									graphical_culture = prev
 									#effect = {
 									#	save_event_target_as = station_location
@@ -203,7 +206,7 @@ guardians_artist_init_02 = {
 
 	max_instances = 1
 	#spawn_chance = 100
-	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 16	# scales by galaxy size (1000 stars = 10x base)
 	
 	flags = { guardians_artists_system enclave }
 	
@@ -228,7 +231,7 @@ guardians_artist_init_02 = {
 	planet = {
 		count = 1
 		orbit_distance = 30
-		class = rl_habitable_normal
+		class = rl_unhabitable_planets
 		orbit_angle = { min = 90 max = 270 }
 		size = 25
 		
@@ -248,9 +251,12 @@ guardians_artist_init_02 = {
 					}
 				}
 				create_country = {
-					name = "The Artisan Troupe"
+					name = "NAME_Artisan_Troupe"
 					type = enclave
-					government = "artist_government"
+					authority = "auth_democratic"
+					civics = {
+						civic = civic_artist_collective
+					}
 					species = last_created
 					flag = {
 						icon = {
@@ -279,13 +285,13 @@ guardians_artist_init_02 = {
 					set_country_flag = artist_enclave_country
 					set_graphical_culture = mammalian_01
 					create_fleet = {
-						name = "Ars Artem"
+						name = "NAME_Ars_Artem"
 						settings = { spawn_debris = no }
 						effect = {
 							set_owner = prev
 							create_ship = {
 								name = random
-								design = "Artist Enclave Station"
+								design = "NAME_Artist_Enclave_Station"
 								graphical_culture = prev
 							}
 							set_location = {
@@ -309,13 +315,13 @@ guardians_artist_init_02 = {
 				else = {
 					event_target:artist_enclave_country = {
 						create_fleet = {
-							name = "Ars Artem"
+							name = "NAME_Ars_Artem"
 							settings = { spawn_debris = no }
 							effect = {
 								set_owner = prev
 								create_ship = {
 									name = random
-									design = "Artist Enclave Station"
+									design = "NAME_Artist_Enclave_Station"
 									graphical_culture = prev
 									#effect = {
 									#	save_event_target_as = station_location
@@ -380,8 +386,7 @@ guardians_artist_init_03 = {
 	}
 
 	max_instances = 1
-	#spawn_chance = 100
-	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 12	# scales by galaxy size (1000 stars = 10x base)
 	
 	flags = { guardians_artists_system enclave }
 	
@@ -406,7 +411,7 @@ guardians_artist_init_03 = {
 	planet = {
 		count = 1
 		orbit_distance = 30
-		class = rl_habitable_normal
+		class = rl_unhabitable_planets
 		orbit_angle = { min = 90 max = 270 }
 		size = 25
 		
@@ -426,9 +431,12 @@ guardians_artist_init_03 = {
 					}
 				}
 				create_country = {
-					name = "The Artisan Troupe"
+					name = "NAME_Artisan_Troupe"
 					type = enclave
-					government = "artist_government"
+					authority = "auth_democratic"
+					civics = {
+						civic = civic_artist_collective
+					}
 					species = last_created
 					flag = {
 						icon = {
@@ -457,13 +465,13 @@ guardians_artist_init_03 = {
 					set_country_flag = artist_enclave_country
 					set_graphical_culture = mammalian_01
 					create_fleet = {
-						name = "Ars Artem"
+						name = "NAME_Ars_Artem"
 						settings = { spawn_debris = no }
 						effect = {
 							set_owner = prev
 							create_ship = {
 								name = random
-								design = "Artist Enclave Station"
+								design = "NAME_Artist_Enclave_Station"
 								graphical_culture = prev
 							}
 							set_location = {
@@ -487,13 +495,13 @@ guardians_artist_init_03 = {
 				else = {
 					event_target:artist_enclave_country = {
 						create_fleet = {
-							name = "Ars Artem"
+							name = "NAME_Ars_Artem"
 							settings = { spawn_debris = no }
 							effect = {
 								set_owner = prev
 								create_ship = {
 									name = random
-									design = "Artist Enclave Station"
+									design = "NAME_Artist_Enclave_Station"
 									graphical_culture = prev
 									#effect = {
 									#	save_event_target_as = station_location
@@ -560,7 +568,7 @@ guardians_curator_init_01 = {
 	max_instances = 1
 	#spawn_chance = 100
 	#sigma (2) always spawns
-	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 12	# scales by galaxy size (1000 stars = 10x base)
 	
 	flags = { guardians_curators_system enclave }
 	
@@ -577,9 +585,12 @@ guardians_curator_init_01 = {
 				#homeworld = this
 			}
 			create_country = {
-				name = "Curator Alpha Enclave"
+				name = "NAME_Curator_Alpha_Enclave"
 				type = enclave
-				government = curator_government
+				authority = "auth_oligarchic"
+				civics = {
+					civic = civic_ancient_preservers
+				}
 				species = last_created
 				flag = {
 					icon = {
@@ -600,7 +611,7 @@ guardians_curator_init_01 = {
 				#ethos = random
 				ethos = {
 					ethic = ethic_fanatic_materialists
-					ethic = ethic_collectivist
+					ethic = ethic_authoritarian
 				}
 				ignore_initial_colony_error = yes
 			}
@@ -608,13 +619,13 @@ guardians_curator_init_01 = {
 				set_country_flag = curator_enclave_country
 				set_graphical_culture = mammalian_01
 				create_fleet = {
-					name = "Curator Alpha Enclave"
+					name = "NAME_Curator_Alpha_Enclave"
 					settings = { spawn_debris = no }
 					effect = {
 						set_owner = prev
 						create_ship = {
 							name = random
-							design = "Curator Enclave Station"
+							design = "NAME_Curator_Enclave_Station"
 							graphical_culture = prev
 						}
 						set_location = {
@@ -639,122 +650,131 @@ guardians_curator_init_01 = {
 		}
 	}
 	
-	change_orbit = 45
+	change_orbit = 60
+	planet = {
+		count = 3
+		orbit_distance = 0
+		class = "rl_unhabitable_planets"
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 15 max = 25 }
+	}
 	
-	planet = {
-		class = "pc_ringworld_habitable_damaged"
-		name = "Ring Segment A"
-		orbit_angle = 30
-		orbit_distance = 0
-		
-		init_effect = {
-			create_ambient_object = {
-				type = "large_debris_object"
-				location = THIS
-			}
-		}
-	}
-	planet = {
-		class = "pc_ringworld_tech_damaged"
-		name = "Ring Segment B"
-		orbit_angle = 30
-		orbit_distance = 0
-	}
-	planet = {
-		class = "pc_ringworld_seam_damaged"
-		name = "Ring Segment C"
-		orbit_angle = 30
-		orbit_distance = 0
-		
-		init_effect = {
-			create_ambient_object = {
-				type = "medium_debris_01_object"
-				location = THIS
-			}
-		}
-	}
-	planet = {
-		class = "pc_ringworld_habitable_damaged"
-		name = "Ring Segment D"
-		orbit_angle = 30
-		orbit_distance = 0
-	}
-	planet = {
-		class = "pc_ringworld_tech_damaged"
-		name = "Ring Segment E"
-		orbit_angle = 30
-		orbit_distance = 0
-		
-		init_effect = {
-			create_ambient_object = {
-				type = "small_debris_object"
-				location = THIS
-			}
-		}
-	}
-	planet = {
-		class = "pc_ringworld_seam_damaged"
-		name = "Ring Segment F"
-		orbit_angle = 30
-		orbit_distance = 0
-	}
-	planet = {
-		class = "pc_ringworld_habitable_damaged"
-		name = "Ring Section G"
-		orbit_angle = 30
-		orbit_distance = 0
-		
-		init_effect = {
-			create_ambient_object = {
-				type = "medium_debris_02_object"
-				location = THIS
-			}
-		}
-	}
-	planet = {
-		class = "pc_ringworld_tech_damaged"
-		name = "Ring Segment H"
-		orbit_angle = 30
-		orbit_distance = 0
-	}
-	planet = {
-		class = "pc_ringworld_seam_damaged"
-		name = "Ring Segment I"
-		orbit_angle = 30
-		orbit_distance = 0
-		
-		init_effect = {
-			create_ambient_object = {
-				type = "large_debris_object"
-				location = THIS
-			}
-		}
-	}
-	planet = {
-		class = "pc_ringworld_habitable_damaged"
-		name = "Ring Segment J"
-		orbit_angle = 30
-		orbit_distance = 0
-	}
-	planet = {
-		class = "pc_ringworld_tech_damaged"
-		name = "Ring Segment K"
-		orbit_angle = 30
-		orbit_distance = 0
-		
-		init_effect = {
-			create_ambient_object = {
-				type = "small_debris_object"
-				location = THIS
-			}
-		}
-	}
-	planet = {
-		class = "pc_ringworld_seam_damaged"
-		name = "Ring Segment L"
-		orbit_angle = 30
-		orbit_distance = 0
-	}
+	#change_orbit = 45
+
+	#planet = {
+	#	class = "pc_ringworld_habitable_damaged"
+	#	name = "Ring Segment A"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#	
+	#	init_effect = {
+	#		create_ambient_object = {
+	#			type = "large_debris_object"
+	#			location = THIS
+	#		}
+	#	}
+	#}
+	#planet = {
+	#	class = "pc_ringworld_tech_damaged"
+	#	name = "Ring Segment B"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#}
+	#planet = {
+	#	class = "pc_ringworld_seam_damaged"
+	#	name = "Ring Segment C"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#	
+	#	init_effect = {
+	#		create_ambient_object = {
+	#			type = "medium_debris_01_object"
+	#			location = THIS
+	#		}
+	#	}
+	#}
+	#planet = {
+	#	class = "pc_ringworld_habitable_damaged"
+	#	name = "Ring Segment D"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#}
+	#planet = {
+	#	class = "pc_ringworld_tech_damaged"
+	#	name = "Ring Segment E"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#	
+	#	init_effect = {
+	#		create_ambient_object = {
+	#			type = "small_debris_object"
+	#			location = THIS
+	#		}
+	#	}
+	#}
+	#planet = {
+	#	class = "pc_ringworld_seam_damaged"
+	#	name = "Ring Segment F"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#}
+	#planet = {
+	#	class = "pc_ringworld_habitable_damaged"
+	#	name = "Ring Section G"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#	
+	#	init_effect = {
+	#		create_ambient_object = {
+	#			type = "medium_debris_02_object"
+	#			location = THIS
+	#		}
+	#	}
+	#}
+	#planet = {
+	#	class = "pc_ringworld_tech_damaged"
+	#	name = "Ring Segment H"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#}
+	#planet = {
+	#	class = "pc_ringworld_seam_damaged"
+	#	name = "Ring Segment I"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#	
+	#	init_effect = {
+	#		create_ambient_object = {
+	#			type = "large_debris_object"
+	#			location = THIS
+	#		}
+	#	}
+	#}
+	#planet = {
+	#	class = "pc_ringworld_habitable_damaged"
+	#	name = "Ring Segment J"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#}
+	#planet = {
+	#	class = "pc_ringworld_tech_damaged"
+	#	name = "Ring Segment K"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#	
+	#	init_effect = {
+	#		create_ambient_object = {
+	#			type = "small_debris_object"
+	#			location = THIS
+	#		}
+	#	}
+	#}
+	#planet = {
+	#	class = "pc_ringworld_seam_damaged"
+	#	name = "Ring Segment L"
+	#	orbit_angle = 30
+	#	orbit_distance = 0
+	#}
 	
 	init_effect = {
 		create_ambient_object = {
@@ -832,9 +852,12 @@ guardians_curator_init_02 = {
 				#homeworld = this
 			}
 			create_country = {
-				name = "Curator Sigma Enclave"
+				name = "NAME_Curator_Sigma_Enclave"
 				type = enclave
-				government = curator_government
+				authority = "auth_oligarchic"
+				civics = {
+					civic = civic_ancient_preservers
+				}
 				species = last_created
 				flag = {
 					icon = {
@@ -855,7 +878,7 @@ guardians_curator_init_02 = {
 				#ethos = random
 				ethos = {
 					ethic = ethic_fanatic_materialists
-					ethic = ethic_collectivist
+					ethic = ethic_authoritarian
 				}
 				ignore_initial_colony_error = yes
 			}
@@ -863,13 +886,13 @@ guardians_curator_init_02 = {
 				set_country_flag = curator_enclave_country
 				set_graphical_culture = mammalian_01
 				create_fleet = {
-					name = "Curator Sigma Enclave"
+					name = "NAME_Curator_Sigma_Enclave"
 					settings = { spawn_debris = no }
 					effect = {
 						set_owner = prev
 						create_ship = {
 							name = random
-							design = "Curator Enclave Station"
+							design = "NAME_Curator_Enclave_Station"
 							graphical_culture = prev
 						}
 						set_location = {
@@ -913,7 +936,7 @@ guardians_curator_init_03 = {
 
 	max_instances = 1
 	#spawn_chance = 100
-	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 16	# scales by galaxy size (1000 stars = 10x base)
 	
 	flags = { guardians_curators_system enclave }
 	
@@ -934,9 +957,12 @@ guardians_curator_init_03 = {
 				#homeworld = this
 			}
 			create_country = {
-				name = "Curator Lambda Enclave"
+				name = "NAME_Curator_Lambda_Enclave"
 				type = enclave
-				government = curator_government
+				authority = "auth_oligarchic"
+				civics = {
+					civic = civic_ancient_preservers
+				}
 				species = last_created
 				flag = {
 					icon = {
@@ -957,7 +983,7 @@ guardians_curator_init_03 = {
 				#ethos = random
 				ethos = {
 					ethic = ethic_fanatic_materialists
-					ethic = ethic_collectivist
+					ethic = ethic_authoritarian
 				}
 				ignore_initial_colony_error = yes
 			}
@@ -965,13 +991,13 @@ guardians_curator_init_03 = {
 				set_country_flag = curator_enclave_country
 				set_graphical_culture = mammalian_01
 				create_fleet = {
-					name = "Curator Lambda Enclave"
+					name = "NAME_Curator_Lambda_Enclave"
 					settings = { spawn_debris = no }
 					effect = {
 						set_owner = prev
 						create_ship = {
 							name = random
-							design = "Curator Enclave Station"
+							design = "NAME_Curator_Enclave_Station"
 							graphical_culture = prev
 						}
 						set_location = {
@@ -1079,7 +1105,7 @@ guardians_trader_init_01 = {
 				save_event_target_as = GuardiansTradersPlanet
 				set_planet_flag = guardians_traders_planet
 				create_species = {
-					name = Xuri
+					name = "NAME_Xuri"
 					plural = Xuri
 					class = random
 					portrait = random
@@ -1089,9 +1115,12 @@ guardians_trader_init_01 = {
 					#homeworld = this
 				}
 				create_country = {
-					name = "XuraCorp"
+					name = "NAME_XuraCorp"
 					type = enclave
-					government = trader_government
+					authority = "auth_oligarchic"
+					civics = {
+						civic = civic_trading_conglomerate
+					}
 					species = last_created
 					flag = {
 						icon = {
@@ -1112,7 +1141,7 @@ guardians_trader_init_01 = {
 					#ethos = random
 					ethos = {
 						ethic = ethic_xenophile
-						ethic = ethic_collectivist
+						ethic = ethic_authoritarian
 						ethic = ethic_pacifist
 					}
 					ignore_initial_colony_error = yes
@@ -1122,13 +1151,13 @@ guardians_trader_init_01 = {
 					set_country_flag = trader_enclave_country_1
 					set_graphical_culture = mammalian_01
 					create_fleet = {
-						name = "XuraCorp HQ"
+						name = "NAME_XuraCorp_HQ"
 						settings = { spawn_debris = no }
 						effect = {
 							set_owner = prev
 							create_ship = {
 								name = random
-								design = "Trader Enclave Station"
+								design = "NAME_Trader_Enclave_Station"
 								graphical_culture = prev
 							}
 							set_location = {
@@ -1174,7 +1203,7 @@ guardians_trader_init_02 = {
 
 	max_instances = 1
 	#spawn_chance = 100
-	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 16	# scales by galaxy size (1000 stars = 10x base)
 
 	flags = { guardians_traders_system enclave }
 
@@ -1212,7 +1241,7 @@ guardians_trader_init_02 = {
 				save_event_target_as = GuardiansTradersPlanet
 				set_planet_flag = guardians_traders_planet
 				create_species = {
-					name = Riggan
+					name = "NAME_Riggan"
 					plural = Riggans
 					class = random
 					portrait = random
@@ -1222,9 +1251,12 @@ guardians_trader_init_02 = {
 					#homeworld = this
 				}
 				create_country = {
-					name = "Riggan Commerce Exchange"
+					name = "NAME_Riggan_Commerce_Exchange"
 					type = enclave
-					government = trader_government
+					authority = "auth_oligarchic"
+					civics = {
+						civic = civic_trading_conglomerate
+					}
 					species = last_created
 					flag = {
 						icon = {
@@ -1245,7 +1277,7 @@ guardians_trader_init_02 = {
 					#ethos = random
 					ethos = {
 						ethic = ethic_xenophile
-						ethic = ethic_collectivist
+						ethic = ethic_authoritarian
 						ethic = ethic_pacifist
 					}
 					ignore_initial_colony_error = yes
@@ -1255,13 +1287,13 @@ guardians_trader_init_02 = {
 					set_country_flag = trader_enclave_country_2
 					set_graphical_culture = mammalian_01
 					create_fleet = {
-						name = "Grand Bazaar"
+						name = "NAME_Grand_Bazaar"
 						settings = { spawn_debris = no }
 						effect = {
 							set_owner = prev
 							create_ship = {
 								name = random
-								design = "Trader Enclave Station"
+								design = "NAME_Trader_Enclave_Station"
 								graphical_culture = prev
 							}
 							set_location = {
@@ -1307,7 +1339,7 @@ guardians_trader_init_03 = {
 
 	max_instances = 1
 	#spawn_chance = 100
-	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 12	# scales by galaxy size (1000 stars = 10x base)
 
 	flags = { guardians_traders_system enclave }
 
@@ -1345,7 +1377,7 @@ guardians_trader_init_03 = {
 				save_event_target_as = GuardiansTradersPlanet
 				set_planet_flag = guardians_traders_planet
 				create_species = {
-					name = Muutagan
+					name = "NAME_Muutagan"
 					plural = Muutagans
 					class = random
 					portrait = random
@@ -1355,9 +1387,12 @@ guardians_trader_init_03 = {
 					#homeworld = this
 				}
 				create_country = {
-					name = "Muutagan Merchant Guild"
+					name = "NAME_Muutagan_Merchant_Guild"
 					type = enclave
-					government = trader_government
+					authority = "auth_oligarchic"
+					civics = {
+						civic = civic_trading_conglomerate
+					}
 					species = last_created
 					flag = {
 						icon = {
@@ -1378,7 +1413,7 @@ guardians_trader_init_03 = {
 					#ethos = random
 					ethos = {
 						ethic = ethic_xenophile
-						ethic = ethic_collectivist
+						ethic = ethic_authoritarian
 						ethic = ethic_pacifist
 					}
 					ignore_initial_colony_error = yes
@@ -1388,13 +1423,13 @@ guardians_trader_init_03 = {
 					set_country_flag = trader_enclave_country_3
 					set_graphical_culture = mammalian_01
 					create_fleet = {
-						name = "Muutag Station"
+						name = "NAME_Muutag_Station"
 						settings = { spawn_debris = no }
 						effect = {
 							set_owner = prev
 							create_ship = {
 								name = random
-								design = "Trader Enclave Station"
+								design = "NAME_Trader_Enclave_Station"
 								graphical_culture = prev
 							}
 							set_location = {
@@ -1443,7 +1478,7 @@ guardians_init_stellarites = {
 	max_instances = 1
 	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
 	
-	flags = { guardians_stellarite_system guardian }
+	flags = { guardians_stellarite_system guardian hostile_system }
 	
 	asteroids_distance = { min = 30 max = 120 }
 	
@@ -1523,7 +1558,7 @@ guardians_init_dragon = {
 	max_instances = 1
 	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
 
-	flags = { guardians_dragon_system guardian }
+	flags = { guardians_dragon_system guardian hostile_system }
 
 	planet = {
 		count = 1
@@ -1545,7 +1580,7 @@ guardians_init_dragon = {
 		has_ring = no
 
 		init_effect = {
-			set_name = "Dragon's Hoard"
+			set_name = "NAME_Dragons_Hoard"
 			set_planet_flag = hoard_planet
 			save_global_event_target_as = guardian_dragon_planet
 			prevent_anomaly = yes
@@ -1555,7 +1590,7 @@ guardians_init_dragon = {
 			}
 
 			create_country = {
-				name = "Voidwyrm"
+				name = "NAME_Voidwyrm"
 				type = guardian_dragon
 				flag = {
 					icon = {
@@ -1581,7 +1616,7 @@ guardians_init_dragon = {
 			}
 
 			create_fleet = {
-				name = "Ether Drake"
+				name = "NAME_Ether_Drake"
 				settings = {
 					spawn_debris = no
 					is_boss = yes
@@ -1589,8 +1624,8 @@ guardians_init_dragon = {
 				effect = {
 					set_owner = event_target:guardian_dragon_country
 					create_ship = {
-						name = "Avice"
-						design = "Grand Dragon"
+						name = "NAME_Avice"
+						design = "NAME_Grand_Dragon"
 					}
 					set_fleet_flag = dragon_fleet
 					set_location = event_target:guardian_dragon_planet
@@ -1676,7 +1711,7 @@ guardians_init_horror = {
 	class = "sc_black_hole"
 	usage = misc_system_init
 	
-	flags = { guardians_horror_system guardian }
+	flags = { guardians_horror_system guardian hostile_system }
 	
 	usage_odds = {
 		base = 0
@@ -1709,7 +1744,7 @@ guardians_init_dreadnought = {
 	usage = misc_system_init
 	asteroids_distance = 50
 	
-	flags = { guardians_dreadnought_system guardian }
+	flags = { guardians_dreadnought_system guardian hostile_system }
 	
 	usage_odds = {
 		base = 0
@@ -1738,7 +1773,7 @@ guardians_init_dreadnought = {
 		init_effect = {
 			save_event_target_as = dreadnought_sun
 			create_country = {
-				name = "Automated Dreadnought"
+				name = "NAME_Automated_Dreadnought"
 				type = guardian_dreadnought
 				flag = {
 					icon = {
@@ -1774,7 +1809,7 @@ guardians_init_dreadnought = {
 				set_country_flag = automated_dreadnought_country
 			}
 			create_fleet = {
-				name = "Automated Dreadnought"
+				name = "NAME_Automated_Dreadnought"
 				settings = {
 					spawn_debris = no
 					is_boss = yes
@@ -1783,8 +1818,8 @@ guardians_init_dreadnought = {
 					set_owner = event_target:automated_dreadnought_country
 					save_global_event_target_as = automated_dreadnought
 					create_ship = {
-						name = "Juuk'Tidir"
-						design = "Relic"
+						name = "NAME_JuukTidir"
+						design = "NAME_Relic"
 						graphical_culture = "npf_01_dirty"
 					}
 					set_location = {
@@ -2086,7 +2121,7 @@ guardians_init_hive = {
 	usage = misc_system_init
 	asteroids_distance = 160
 	
-	flags = { guardians_hive_system guardian }
+	flags = { guardians_hive_system guardian hostile_system }
 	
 	usage_odds = {
 		base = 0
@@ -2261,7 +2296,7 @@ guardians_init_hive = {
 
 #Technosphere
 guardians_init_technosphere = {
-	name = "Gargantua"
+	name = "NAME_Gargantua"
 	class = sc_black_hole
 	usage = misc_system_init
 	usage_odds = {
@@ -2279,7 +2314,7 @@ guardians_init_technosphere = {
 	max_instances = 1
 	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
 	
-	flags = { guardians_technosphere_system guardian }
+	flags = { guardians_technosphere_system guardian hostile_system }
 	
 	planet = {
 		count = 1
@@ -2290,7 +2325,7 @@ guardians_init_technosphere = {
 		has_ring = no
 
 		init_effect = {
-			set_name = "Gargantua"
+			set_name = "NAME_Gargantua"
 			#change_planet_size = 20
 			prevent_anomaly = yes
 		}
@@ -2303,7 +2338,7 @@ guardians_init_technosphere = {
 			}
 			orbital_deposit_tile = { clear_deposits = yes }
 			create_country = {
-				name = "Infinity Machine"
+				name = "NAME_Infinity_Machine"
 				type = guardian_sphere
 				flag = {
 					icon = {
@@ -2338,7 +2373,7 @@ guardians_init_technosphere = {
 				}			
 				set_graphical_culture = techno
 				create_fleet = {
-					name = "The Infinity Machine"
+					name = "NAME_The_Infinity_Machine"
 					settings = {
 						spawn_debris = no
 						is_boss = yes
@@ -2346,8 +2381,8 @@ guardians_init_technosphere = {
 					effect = {
 						set_owner = event_target:guardian_technosphere_country
 						create_ship = {
-							name = "I-O"
-							design = "Infinity Machine"
+							name = "NAME_I_O"
+							design = "NAME_Infinity_Machine"
 						}
 						set_fleet_flag = technosphere_fleet
 						set_location = {
@@ -2386,7 +2421,7 @@ guardians_init_fortress = {
 	max_instances = 1
 	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
 
-	flags = { guardians_fortress_system guardian enigmatic_system }
+	flags = { guardians_fortress_system guardian enigmatic_system hostile_system }
 
 	planet = {
 		count = 1
@@ -2449,7 +2484,7 @@ guardians_init_fortress = {
 							count = 1 #just to show-case that formation will tile
 							create_ship = {
 								name = ""
-								design = "Ancient Vault"
+								design = "NAME_Ancient_Vault"
 								graphical_culture = "ancient"
 								
 								effect = {
@@ -2459,82 +2494,82 @@ guardians_init_fortress = {
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Guardian"
+								design = "NAME_Ancient_Guardian"
 								graphical_culture = "ancient"
 							}			
 							create_ship = {
 								name = ""
-								design = "Ancient Guardian"
+								design = "NAME_Ancient_Guardian"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Warden"
+								design = "NAME_Ancient_Warden"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Warden"
+								design = "NAME_Ancient_Warden"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Defender"
+								design = "NAME_Ancient_Defender"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Defender"
+								design = "NAME_Ancient_Defender"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Defender"
+								design = "NAME_Ancient_Defender"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Defender"
+								design = "NAME_Ancient_Defender"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Sentinel"
+								design = "NAME_Ancient_Sentinel"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Sentinel"
+								design = "NAME_Ancient_Sentinel"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Sentinel"
+								design = "NAME_Ancient_Sentinel"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Sentinel"
+								design = "NAME_Ancient_Sentinel"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Sentinel"
+								design = "NAME_Ancient_Sentinel"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Sentinel"
+								design = "NAME_Ancient_Sentinel"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Sentinel"
+								design = "NAME_Ancient_Sentinel"
 								graphical_culture = "ancient"
 							}
 							create_ship = {
 								name = ""
-								design = "Ancient Sentinel"
+								design = "NAME_Ancient_Sentinel"
 								graphical_culture = "ancient"
 							}
 						}
@@ -2572,16 +2607,26 @@ guardians_init_fortress = {
 	}
 	
 	change_orbit = 25
+
+	planet = {
+		count = { min = 1 max = 2 }
+		orbit_distance = 15
+		class = "rl_habitable_normal"
+		orbit_angle = { min = 270 max = 359 }
+		size = { min = 8 max = 20 }
+	}
 	
 	planet = {
-		count = { min = 3 max = 7 }
+		count = { min = 1 max = 5 }
 		orbit_distance = 20
+		class = "rl_unhabitable_planets"
 		orbit_angle = { min = 90 max = 270 }
 		
 		change_orbit = @base_moon_distance
 		
 		moon = {
 			count = { min = 0 max = 1 }
+			class = "rl_unhabitable_planets"
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -2610,7 +2655,7 @@ guardians_init_wraith = {
 	max_instances = 1
 	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
 
-	flags = { guardians_wraith_system guardian }
+	flags = { guardians_wraith_system guardian hostile_system }
 
 	planet = {
 		count = 1

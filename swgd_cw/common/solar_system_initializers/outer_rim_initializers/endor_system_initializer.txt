@@ -105,7 +105,11 @@ endor_system_initializer = {
 					}
 					create_country = {
 						name = "Ewok Tribes"
-						government = primitive_feudalism
+						authority = random
+									civics = {
+										civic = civic_secret_of_fire
+										civic = civic_the_wheel
+									}
 						species = last_created
 						ethos = {
 						ethic="ethic_socialist"

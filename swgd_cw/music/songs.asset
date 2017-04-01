@@ -1,0 +1,83 @@
+music = {
+	name = "darth_revan_theme"
+	file = "darth_revan_theme.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "acrosstatooine"
+	file = "acrosstatooine.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "acrossthestars"
+	file = "acrossthestars.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "eternalthrone"
+	file = "eternalthrone.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "imperialmarchheroic"
+	file = "imperialmarchheroic.ogg"
+	volume = 0.80
+}
+
+
+music = {
+	name = "swtormusic_2"
+	file = "swtormusic_2.ogg"
+	volume = 0.80
+}
+
+
+music = {
+	name = "swtormusic_6"
+	file = "swtormusic_6.ogg"
+	volume = 0.80
+}
+
+
+music = {
+	name = "swtormusic_7"
+	file = "swtormusic_7.ogg"
+	volume = 0.80
+}
+
+
+music = {
+	name = "swtormusic_8"
+	file = "swtormusic_8.ogg"
+	volume = 0.80
+}
+
+
+music = {
+	name = "swtormusic_24"
+	file = "swtormusic_24.ogg"
+	volume = 0.80
+}
+
+
+music = {
+	name = "swtormusic_32"
+	file = "swtormusic_32.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "swtormusic_54"
+	file = "swtormusic_54.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "tradefederationinvasion"
+	file = "tradefederationinvasion.ogg"
+	volume = 0.80
+}

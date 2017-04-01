@@ -1,4 +1,4 @@
-### Galactic Common names
+﻿### Galactic Common names
 sw_hu = {
 	
 

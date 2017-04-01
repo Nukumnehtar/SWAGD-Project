@@ -1,0 +1,44 @@
+## Light Side
+pop_faction_name_parts_list = {
+	key = "dark_side_names"
+	parts = {
+		"Shadow Cult" = 1
+		"Witches of Shadow" = 1
+		"Sith Cult" = 1
+		"Prophets of the Dark Side" = 1
+		"Dark Sorcerers" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "dark_side"
+		}
+	}
+	format = "<dark_side_names>"
+}
+
+## Imperialists
+pop_faction_name_parts_list = {
+	key = "light_side_names"
+	parts = {
+		"Order of Light" = 1
+		"Knights of Brilliance" = 1
+		"Council of Peace" = 1
+		"Brotherhood of Serenity" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "light_side"
+		}
+	}
+	format = "<light_side_names>"
+}

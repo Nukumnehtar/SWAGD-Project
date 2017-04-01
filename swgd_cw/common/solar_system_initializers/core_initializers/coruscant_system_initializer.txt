@@ -6,7 +6,7 @@ coruscant_system_initializer = {
         name = "Coruscant Prime"
         class = star
         orbit_distance = 0
-        size = 30		
+        size = 30
     }
 
     planet = {
@@ -15,7 +15,8 @@ coruscant_system_initializer = {
         orbit_distance = 27
         orbit_angle = 197
         has_ring = no
-		    }
+
+    }
 
     planet = {
         name = "Platoril"
@@ -56,7 +57,7 @@ coruscant_system_initializer = {
 
     planet = {
         name = "Coruscant"
-		flags = { coruscant }
+		flags = {coruscant}
         class = "pc_continental"
 		orbit_distance = 13
         orbit_angle = 100
@@ -66,19 +67,23 @@ coruscant_system_initializer = {
 		starting_planet = yes			
 		tile_blockers = none
 		modifiers = None
-     	
+     	init_effect = {
+		prevent_anomaly = yes
+		set_capital = yes
+		add_modifier = {
+			modifier = "ecumenopolis"
+			}
+		}
+		
 		init_effect = {
-			prevent_anomaly = yes
 			every_country = {
 					limit = {
 						has_country_flag = galactic_republic
 					}
-					save_event_target_as = galactic_republic_stations
+					save_event_target_as = galactic_republic
 				}
-			set_owner = event_target:galactic_republic_stations
-		}
-		
-		init_effect = {			
+			set_owner = event_target:galactic_republic
+			
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
@@ -129,35 +134,6 @@ coruscant_system_initializer = {
 				}				
 			}
 			random_tile = {
-					limit = {
-						has_blocker = no
-						has_grown_pop = no
-						has_growing_pop = no
-					}
-					create_pop = {
-						species = owner
-						ethos = owner
-					}
-				}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_hydroponics_farm_1"
-				add_resource = {
-					resource = food
-					amount = 1
-					replace = yes
-				}						
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_mining_network_1"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}						
-			}				
-			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_failing_infrastructure"
 				add_resource = {
@@ -198,7 +174,7 @@ coruscant_system_initializer = {
 				set_blocker = "tb_decrepit_dwellings"
 				add_resource = {
 					resource = food
-					amount = 2
+					amount = 1
 					replace = yes
 				}					
 			}
@@ -206,66 +182,42 @@ coruscant_system_initializer = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_decrepit_dwellings"
 				add_resource = {
-					resource = minerals
+					resource = energy
 					amount = 1
 					replace = yes
 				}				
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_building = "building_power_plant_1"
 				add_resource = {
-					resource = energy
+					resource = food
 					amount = 1
 					replace = yes
 				}				
 			}
-			
-		
-			
-		}
-		
-		moon = {
-            name = "Jedi Temple"
-            class = "pc_continental"
-            orbit_distance = 2
-            orbit_angle = 152
-            size = 10
-            has_ring = no
-			starting_planet = no
-			tile_blockers = none
-			modifiers = none
-     		init_effect = {
-				prevent_anomaly = yes
-				}
-			init_effect = {
-			
-				every_country = {
-					limit = {
-						has_country_flag = jedi_council
-					}
-					save_event_target_as = jedi_council
-				}
-				set_owner = event_target:jedi_council						
-				set_capital = yes	
-				while = {
-				count = 2
 				random_tile = {
-					limit = {
-						has_blocker = no
-						has_grown_pop = no
-						has_growing_pop = no
-					}
-					create_pop = {
-						species = owner
-						ethos = owner
-					}
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
 				}
-			  }	
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
 			}
-			
-		} 
-		
+		}
+
+	 moon = {
+            name = "Jedi Temple"
+            class = "pc_tundra"
+            orbit_distance = 0
+            orbit_angle = 0
+            size = 4
+            has_ring = no
+
+        }
+
         moon = {
             name = "Centax-1"
             class = "pc_tundra"
@@ -307,8 +259,6 @@ coruscant_system_initializer = {
         }
     }
 
-	
-		
     planet = {
         name = "Muscave"
         class = "pc_gas_giant"
@@ -466,29 +416,4 @@ coruscant_system_initializer = {
         has_ring = yes
 
     }
-	
-	init_effect = {		
-		every_system_planet = {
-				surveyed = {
-					set_surveyed = yes
-					surveyor = event_target:galactic_republic_stations
-				}
-			}	
-		every_system_planet = {
-			limit = { has_deposit_for = shipclass_mining_station 
-			has_mining_station = no }
-			create_mining_station = {
-				owner = event_target:galactic_republic_stations
-			}
-			
-		}		
-		every_system_planet = {
-			limit = { has_deposit_for = shipclass_research_station
-			has_research_station = no }
-			create_research_station = {
-				owner = event_target:galactic_republic_stations
-			}
-			
-		}
-	}
 }

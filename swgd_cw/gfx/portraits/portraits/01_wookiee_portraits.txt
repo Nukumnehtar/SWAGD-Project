@@ -1,0 +1,117 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+
+portraits = {
+
+
+	wookiee_male = {	entity = "portrait_mammalian_13_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "mammalian_01_greetings"
+			character_textures = {
+					"gfx/models/portraits/wookiee/wookiee_male_01.dds"
+					"gfx/models/portraits/wookiee/wookiee_male_02.dds"					
+				}
+	}
+	
+	wookiee_female = {	entity = "portrait_mammalian_13_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "mammalian_01_greetings"
+			character_textures = {
+					"gfx/models/portraits/wookiee/wookiee_female_01.dds"
+				
+				}
+	}
+}
+
+
+
+portrait_groups = {
+	wookiee = {
+		
+		default = wookiee_male
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					wookiee_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					wookiee_female
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					wookiee_male
+					wookiee_female
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					wookiee_male
+					wookiee_female
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					wookiee_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					wookiee_male
+				}
+			}		
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					wookiee_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					wookiee_male
+				}
+			}
+		}
+	}
+}

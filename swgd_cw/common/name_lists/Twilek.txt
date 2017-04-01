@@ -1,5 +1,5 @@
-### Twi'lek
-Twilek = {
+﻿### Twi'lek
+twilek = {
 
 	ship_names = {
 

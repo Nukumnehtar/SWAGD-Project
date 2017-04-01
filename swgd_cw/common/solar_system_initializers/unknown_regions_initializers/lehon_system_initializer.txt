@@ -67,7 +67,11 @@ lehon_system_initializer = {
 			name = "Infinite Empire Remnants"
 			type = fallen_empire
 			ignore_initial_colony_error = yes
-			government = stagnated_ascendancy
+			authority = random
+			civics = {
+				civic = civic_lethargic_leadership
+				civic = civic_empire_in_decline
+			}
 			species = last_created
 			ethos = {
 				ethic = ethic_fanatic_xenophobe

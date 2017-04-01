@@ -1,0 +1,51 @@
+song = {
+	name = "darth_revan_theme"
+}
+
+song = {
+	name = "acrossthestars"
+}
+
+song = {
+	name = "eternalthrone"
+}
+
+song = {
+	name = "acrosstatooine"
+}
+
+song = {
+	name = "imperialmarchheroic"
+}
+
+song = {
+	name = "swtormusic_2"
+}
+
+song = {
+	name = "swtormusic_6"
+}
+
+song = {
+	name = "swtormusic_7"
+}
+
+song = {
+	name = "swtormusic_8"
+}
+
+song = {
+	name = "swtormusic_24"
+}
+
+song = {
+	name = "swtormusic_32"
+}
+
+song = {
+	name = "swtormusic_54"
+}
+
+song = {
+	name = "tradefederationinvasion"
+}

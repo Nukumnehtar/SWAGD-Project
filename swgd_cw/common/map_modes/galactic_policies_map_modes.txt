@@ -1,0 +1,164 @@
+#Scope layout:
+# this = the country who owns the borders we a re coloring
+# from = the country who we are coloring for, usually the player
+
+#example = {
+#	icon = "GFX_some_icon"		-- which icon to use in the main gui
+#	hardcoded_tooltip = opinion -- override tooltip generation with a hardcoded method. Currently supported: opinion
+#	can_change_point_of_view = yes	-- can the player click on other empires to see the map mode from their point of view?
+#	enable_terra_incognita = yes	-- should terra incognita be rendered when this map mode is active?
+#	
+#	color = {						-- the bread and butter of the map modes. A country will be colored with the first color block who's condition is met
+#		value = rgb { 1.0 0.0 0.0 1.0 }	-- you can also use hsv {...}
+#		custom_tooltip = "SOME_STRING"	-- Tooltip to be shown if this is the selected color. suports [This.GetName] etc
+#		condition = {
+#			...							-- simple AND trigger for evaluation. Will also generate a tooltip if neither hardcoded_tooltip or custom_tooltip is defined
+#		}
+#	}
+#}
+
+
+religious_policy_map_mode = {
+	icon = "GFX_map_mode_religious_policy"
+	enable_terra_incognita = no
+	shortcut = "CTRL+r"
+	
+	color = {
+        value = hsv { 0.0 0.0 0.5 1.0 }				#grey for boring
+        #custom_tooltip = "MAP_MODE_NO_CONTACT"
+        condition = {
+            has_policy_flag = atheism
+            #always = no
+        }
+    }
+	
+	color = {
+         value = hsv { 0.6 1.0 1.0 1.0 }		#blue for okay I guess
+        #custom_tooltip = "MAP_MODE_NO_CONTACT"
+        condition = {
+            has_policy_flag = secularized
+            #always = no
+        }
+    }
+	
+	color = {
+         value = hsv { 0.0 1.0 1.0 1.0 }		#bright red for some heresy
+        #custom_tooltip = "MAP_MODE_NO_CONTACT"
+        condition = {
+            has_policy_flag = pluralism
+            #always = no
+        }
+    }
+	
+	color = {
+         value = hsv { 0.0 1.0 0.5 1.0 }		#dark red for no heresy
+        #custom_tooltip = "MAP_MODE_NO_CONTACT"
+        condition = {
+            has_policy_flag = moralism
+            #always = no
+        }
+    }
+	
+}
+
+media_rights_map_mode = {
+	icon = "GFX_map_mode_media_rights"
+	enable_terra_incognita = no
+	shortcut = "CTRL+m"
+	
+	color = {
+        value = hsv { 0.0 1.0 1.0 1.0 }			#red for North Korea is best Korea
+        #custom_tooltip = "Derp"
+        condition = {
+            has_policy_flag = state_media
+            #always = no
+        }
+    }
+	
+	color = {
+         value = hsv { 0.15 1.0 1.0 1.0 }		#Yellow for some no furry porn
+        #custom_tooltip = "MAP_MODE_NO_CONTACT"
+        condition = {
+            has_policy_flag = censored_media
+            #always = no
+        }
+    }
+	
+	color = {
+         value = hsv { 0.6 1.0 1.0 1.0 } 		#blue for everything is okay
+        #custom_tooltip = "MAP_MODE_NO_CONTACT"
+        condition = {
+            has_policy_flag = free_media
+            #always = no
+        }
+    }
+
+	
+}
+
+foreign_policy_map_mode = {
+	icon = "GFX_map_mode_foreign_policy"
+	enable_terra_incognita = no
+	shortcut = "CTRL+p"
+	
+	color = {
+        value = hsv { 0.0 1.0 1.0 1.0 }			#red for USA early 20th century style
+        #custom_tooltip = "Derp"
+        condition = {
+            has_policy_flag = isolationism
+            #always = no
+        }
+    }
+	
+	color = {
+         value = hsv { 0.33 1.0 0.5 1.0 }		#green for I kind of want to trade with iran but not really
+        #custom_tooltip = "MAP_MODE_NO_CONTACT"
+        condition = {
+            has_policy_flag = balanced_foreign_policy
+            #always = no
+        }
+    }
+	
+	color = {
+         value = hsv { 0.6 1.0 1.0 1.0 } 		#blue for trade it all
+        #custom_tooltip = "MAP_MODE_NO_CONTACT"
+        condition = {
+            has_policy_flag = globalism
+            #always = no
+        }
+    }
+}
+
+clone_wars_map_mode = {
+	icon = "GFX_map_mode_clone_wars"
+	enable_terra_incognita = no
+	shortcut = "CTRL+r"
+	
+	color = {
+        value = hsv { 0.0 1.0 1.0 1.0 }			#red for CIS scum 
+        #custom_tooltip = "Derp"
+        condition = {
+            has_country_flag = cis_aligned
+            #always = no
+        }
+    }
+	
+	color = {
+         value = hsv { 0.15 1.0 1.0 1.0 }		#Yellow for neutral scum
+        #custom_tooltip = "MAP_MODE_NO_CONTACT"
+        condition = {
+            has_country_flag = neutral_aligned
+            #always = no
+        }
+    }
+	
+	color = {
+         value = hsv { 0.6 1.0 1.0 1.0 } 		#blue for order 66, soon.
+        #custom_tooltip = "MAP_MODE_NO_CONTACT"
+        condition = {
+            has_country_flag = republic_aligned
+            #always = no
+        }
+    }
+	
+}

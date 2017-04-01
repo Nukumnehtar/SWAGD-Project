@@ -1,0 +1,447 @@
+﻿l_english:
+
+
+ 
+ #####################################
+ # Empire Designs & Bios
+ #####################################  
+ 
+ EMPIRE_DESIGN_jedi_council:0 "Jedi Council"
+ EMPIRE_DESIGN_jedi_council_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 2\n§BDetails§!: A monastic peacekeeping order unified by its belief in the Light Side of the Force.\n\n§BBackground§!: The Jedi are the guardians of peace and justice in the Galactic Republic, and has become perhaps the most well known of the various groups that relied on the Force for their power. Led by a series of Jedi Councils, the Order grew over the millennia despite facing many trials. Most often these threats were engineered by the Sith, the most prominent group of Force sensitives who wield the dark side of the Force."
+ 
+ EMPIRE_DESIGN_galactic_republic:0 "Galactic Republic"
+ EMPIRE_DESIGN_galactic_republic_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 1\n§BDetails§!: Core founder of the Republic\n\n§BBackground§!: Coruscant is the captial of the ruling government of much of the galaxy that has existed for more than 25 thousand years. The Republic is a representative democracy, composed of various star systems, sectors and member worlds throughout most of the known galaxy. Its central government consisted of three branches: legislative, executive and judicial. The first was the Galactic Senate, a body of elected or appointed representatives. Its main duties included mediating disputes over issues ranging from planetary to galactic-scale, regulating trade routes between star systems, and in theory, represented the interests of Republic citizens."
+ 
+ EMPIRE_DESIGN_chiss_ascendancy:0 "Chiss Ascendancy"
+ EMPIRE_DESIGN_chiss_ascendancy_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 8\n§BDetails§!: A highly structured, isolationist society hidden in the Unknown Regions.\n\n§BBackground§!: The Chiss Ascendancy, sometimes termed Chiss Space or the Chiss Empire by outsiders, is a portion of the galaxy just inside the Unknown Regions that is ruled by the Chiss. The Chiss are governed by an oligarchy of extended Ruling Families from their capital, Csilla. The wider galaxy has had little to no direct contact with Chiss civilians. What is known about them is mediated largely through encounters with military units, and through a few high-level contacts with political and diplomatic delegations."
+
+ EMPIRE_DESIGN_trade_federation:0 "Trade Federation"
+ EMPIRE_DESIGN_trade_federation_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 1\n§BDetails§!: CIS Scum.\n\n§BBackground§!: Neimoidians placed tremendous value on wealth and material possessions, and would go to great lengths to gain money and power, resulting in a stereotype of being greedy and cowardly; however, they are very easily intimidated, and hate combat."
+ 
+ EMPIRE_DESIGN_intergalactic_banking_clan:0 "Intergalactic Banking Clan"
+ EMPIRE_DESIGN_intergalactic_banking_clan_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: CIS Scum.\n\n§BBackground§!: Neimoidians placed tremendous value on wealth and material possessions, and would go to great lengths to gain money and power, resulting in a stereotype of being greedy and cowardly; however, they are very easily intimidated, and hate combat."
+ 
+ EMPIRE_DESIGN_techno_union:0 "Techno Union"
+ EMPIRE_DESIGN_techno_union_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: CIS Scum.\n\n§BBackground§!: Neimoidians placed tremendous value on wealth and material possessions, and would go to great lengths to gain money and power, resulting in a stereotype of being greedy and cowardly; however, they are very easily intimidated, and hate combat."
+ 
+ EMPIRE_DESIGN_hutt_clans:0 "Hutt Clans"
+ EMPIRE_DESIGN_hutt_clans_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 7\n§BDetails§!: A group of powerful crime organization governed by a Council, whose members are the heads of the five Hutt families.\n\n§BBackground§!: The Hutt Ruling Council, alternatively known as the Council of Elders, Hutt Council, Great Hutt Council, or the Grand Council of Nal Hutta, is a five-member council that is the primary ruling body of the Hutt species. The five members were often known informally as the Five Hutt Families, but due to internal politics, individual clans could control more than one seat on the council. The Council handled the day-to-day affairs of the Hutt species, and its leader speaks on behalf of all Hutts in treaties and dealings with other empires."
+ 
+ EMPIRE_DESIGN_naboo_kingdom:0 "Kingdom of Naboo"
+ EMPIRE_DESIGN_naboo_kingdom_desc:0 "§BInitial Challenge§!: §RHard§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Kingdom of Naboo, led by the Monarch of Naboo, rules over the planet of Naboo and its territories."
+ 
+ EMPIRE_DESIGN_kamino_council:0 "Kamino Council"
+ EMPIRE_DESIGN_kamino_council_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: An isolated society of highly skilled cloners, governed by a Ruling Council. \n\n§BBackground§!: The Council maintains administrative offices in the capital, Tipoca City, which is governed by a Prime Minister. The Prime Minister is the head of the Kamino colony governors that comprises the Ruling Council."
+ 
+ EMPIRE_DESIGN_bespin_guilds:0 "Bespin Trade Guilds"
+ EMPIRE_DESIGN_bespin_guilds_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Bespin Trade Guilds, led by a Guildmaster, represents the various cities and facilities on the planet Bespin."
+ 
+ 
+ EMPIRE_DESIGN_chalactan_convocation:0 "Chalactan Convocation of Adepts"
+ EMPIRE_DESIGN_chalactan_convocation_desc:0 "§BInitial Challenge§!: §RHard§!§HModerate§!§GEasy§!\n\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n\n§BDetails§!: \n\n§BBackground§!: The Chalactan Adepts or Adepts of Chalacta were a philosophical-mystic order of Chalactans that studied at the Temple of Illumination. The organization was run by the Convocation of Adepts. Their teachings allowed for invulnerability to mental manipulation and torture."
+ 
+ EMPIRE_DESIGN_mandalorian_clans:0 "Mandalorian Clans"
+ EMPIRE_DESIGN_mandalorian_clans_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 7\n§BDetails§!: \n\n§BBackground§!: A society of traditionally nomadic warriors, the Mandalorians do not recognize bureaucracy. Division of labor sorted itself out organically. A warrior needed to be self-sufficient and competent, and each warrior was responsible for their own feeding and supplying. Mandalorian clans were led by chieftains—usually senior members of the clans chosen for their wisdom—and the loose affiliation and cooperation between them was the closest the Mandalorians had to a standard government; the clans and their chieftains were all subordinate to the Mand'alor, the one individual recognized as sole ruler of the Mandalorians and the nearest Mandalorian parallel for a proper head-of-state."
+  
+ EMPIRE_DESIGN_haruun_kal_council:0 "Haruun Kal Representative Council"
+ EMPIRE_DESIGN_haruun_kal_council_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Representative Council was the ruling body of Haruun Kal, headquartered in the city of Pelek Baw (which was largely the extent of its control). It was composed entirely of Balawai, and exclusively served Balawai interests. The Council largely repressed the native Korunnai population. Much of its funding came from off-world supporters of the thyssel bark trade. Branches of the Council's government included a Customs office, a Ministry of Justice, and a civil militia."
+ 
+ EMPIRE_DESIGN_zabrak_council:0 "Zabrak Council"
+ EMPIRE_DESIGN_zabrak_council_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n§BBackground§!: Iridonia was the homeworld of the Zabrak species. Due to the harsh living conditions, the Zabrak were a hardy species. They took to flight and then space travel as soon as they could develop the technology, and by the time the Duros encountered them, they had already colonized five systems. The Zabrak of Iridonia maintained the most militant culture, and Zabrak youths from the colonies were often sent to the original homeworld for warrior training."
+ 
+ EMPIRE_DESIGN_dorin_republic:0 "Dorin Republic"
+ EMPIRE_DESIGN_dorin_republic_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n\n§BDetails§!: \n§BBackground§!: Dorin was a dark and dusty planet in the Expansion Region. It was the homeworld of the Kel Dors, with an atmosphere of a unique gas and helium. The planet was situated between two black holes, making access to the planet limited, while space travel for the natives was highly dangerous. The planet was home of the Baran Do, a Force cult predating the Jedi."
+ 
+ EMPIRE_DESIGN_zygerrian_empire:0 "Zygerrian Slave Empire"
+ EMPIRE_DESIGN_zygerrian_empire_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 2\n§BDetails§!: The Zygerrian Slave Empire, which is based on Zygerria, stretches across sectors in the edge of the Eastern Unknown Regions.  \n\n§BBackground§!: For thousands of years, the Zygerrians had successfully maintained their slave industry, which supplied luckless labor to unscrupulous masters in the galaxy who then became wealthy and powerful. They sold slave labor throughout the galaxy for thousands of years before the Jedi Order destroyed the Empire in a conflict, confining them to their isolated space. Despite their empire being shattered, the Zygerrian trade continued in the form of the Zygerrian Slavers Guild. They are led by the Guilds who are loyal to the Monarchs of Zygerria."
+ 
+ EMPIRE_DESIGN_twilek_clans:0 "Twi'lek Clan Council"
+ EMPIRE_DESIGN_twilek_clans_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n\n§BDetails§!: \n§BBackground§!: Centralized in the capital of Lessu, the Twi'lek Clan Council was formed by five male Twi'leks who represented the Twi'lek clans, and were responsible for community decisions on Ryloth. This system was extremely effective for hundreds of years. When one councilmember died, all the remaining members were to walk the Bright Lands, where they would die for certain."
+ 
+ EMPIRE_DESIGN_togruta_dominion:0 "Togruta Royal Dominion"
+ EMPIRE_DESIGN_togruta_dominion_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: Togruta had a strong sense of unity and togetherness. On their native homeworld of Shili, they relied on each other and would band together to take a stand against the massive monsters that hunted them, such as the akul. It is said that the creatures of Shili most often attacked in groups, which was even more reason for the native Togruta to work together. The Togruta of Shili were ruled by a monarchy of the Vashee Dynasty. Togruta were tranquil and silent, though when the situation called for it they were true warriors. Their fidelity to their beliefs was legendary, as was their happiness within large groups. Togruta, not surprisingly, excelled at teamwork and the ability to associate with different cultures. To an extent, Togruta had an aversion to isolation and made efforts to have friends around for companionship." 
+ 
+ EMPIRE_DESIGN_zeltros_kingdom:0 "Kingdom of Zeltros"
+ EMPIRE_DESIGN_zeltros_kingdom_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n\n§BDetails§!: \n§BBackground§!: Zeltros was a planet in the Inner Rim, and the homeworld of the Zeltron race. An opulent world, hedonism was the doctrine encouraged by the empathetic Zeltrons, and Zeltros was continuously in a state of never ending revelry. The Zeltron appreciation of beauty in its many forms led to luxurious art and architecture covering the world, and the galaxy's most wealthy favored Zeltros as a vacation destination. Many who came to the planet were taken in by the celebratory atmosphere and the powerful pheromones of the Zeltron people to the point they found it difficult to leave, and even planetary invasions often floundered in the face of Zeltros' planet-wide festivities. Like Naboo, it was ruled by an elective monarchy."
+
+ EMPIRE_DESIGN_mon_calamari_territories:0 "Mon Calamari Territories"
+ EMPIRE_DESIGN_mon_calamari_territories_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: Fish people."
+ 
+ EMPIRE_DESIGN_utapauan_committee:0 "Utapauan Committee"
+ EMPIRE_DESIGN_utapauan_committee_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Utapauan Committee is the governing body of Utapau. It consists of Pau'an representatives from each of Utapau's cities."
+ 
+ EMPIRE_DESIGN_cathar_tribes:0 "Cathar Tribes"
+ EMPIRE_DESIGN_cathar_tribes_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Cathar Tribes live in cities built into giant trees, and are organized into clans governed by Elders."
+ 
+ EMPIRE_DESIGN_bothan_clans:0 "Combined Bothan Clans"
+ EMPIRE_DESIGN_bothan_clans_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Bothan Council, also known as the Combined Clans and Combined Bothan Clans, is the primary political body of Bothawui and the Bothan species. The Council is composed of members of 608 registered clans, with other clans petitioning for membership. The Council has legislative control over all of Bothan Space. The Council elects one of their own members to serve as First Secretary, also called the Council Chief."
+ 
+ EMPIRE_DESIGN_geonosian_hives:0 "Geonosian Hives"
+ EMPIRE_DESIGN_geonosian_hives_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Geonosians are a caste dominated civilization, led by an Archduke, ruler of Geonosis. In Geonosian society there are two main types of Geonosians: the wingless drones that mostly worked as laborers and the winged aristocracy, which include royal warriors serving as scouts and providing security to the hive. Geonosian society exists for the benefit of the elite of Geonosian society. Their caste system has evolved over millennia. Geonosians are born into specific castes divided along the lines of their physical attributes."
+
+ EMPIRE_DESIGN_ssi_ruuvi_imperium:0 "Ssi-ruuvi Imperium"
+ EMPIRE_DESIGN_ssi_ruuvi_imperium_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Ssi-ruuvi Imperium is the government and holdings of the Ssi-ruuvi. The Shreeftut, leader of the Imperium, reigns over a swathe of the Unknown Regions known as the Ssi-ruuk Star Cluster from the capital of the Imperium, Lwhekk. The Imperium was also governed by the Conclave and the Elders Council, who elected the Shreeftut."
+ 
+ EMPIRE_DESIGN_onderon_kingdom:0 "Kingdom of Onderon"
+ EMPIRE_DESIGN_onderon_kingdom_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The native Humans of Onderon have long struggled against the beasts that inhabit the planet. Eventually building a huge walled city, Iziz, to protect themselves. Like people of many other fringe worlds, the Onderonians have a distrust of non-Humans. Long ago, Freedon Nadd conquered the planet and sent his opponents into the wilderness without any protection from the animals. These outcasts soon learned to defend themselves, and eventually formed a society.  Many of the wilderness Beast Lords prospered in recent decades since the end of the Great Sith War, thanks to off-world trade going back two generations. And due to the merging of the two societies."
+ 
+ EMPIRE_DESIGN_rodian_clans:0 "Rodian Clans"
+ EMPIRE_DESIGN_rodian_clans_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: Rodians were infamous for their violent culture, which sprang from the difficulties of life in the jungles of their homeworld. Though they were often relegated to the fringes of galactic society as bounty hunters or criminal henchmen, Rodians were not merely simple-minded thugs. As Rodian society developed and their technology improved, the leader of the most powerful clan, the Soammei clan, eventually proclaimed himself Inta'si'rin'na, or Grand Protector of the Rodians. Through the rest of Rodian history, the title of Grand Protector shifted from clan to clan as loyalties and power shifted. Grand Protectors ruled all of Rodia as dictators."
+ 
+ EMPIRE_DESIGN_arkania_dominion:0 "Arkanian Dominion"
+ EMPIRE_DESIGN_arkania_dominion_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Arkanian Dominion was the corporate meritocracy established on the planet Arkania during the world's early history. Aligned with the Galactic Republic, the Dominion was represented in the Galactic Senate. Made up of members of the Arkanian race, the Dominion was heavily influenced by corporate entities such as the Adasca BioMechanical Corporation of Arkania run by the House of Adasca, an affluent family after whom the capital city Adascopolis was named."
+ 
+ EMPIRE_DESIGN_echani_command:0 "Echani Command"
+ EMPIRE_DESIGN_echani_command_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Major\n§BStarting Planets§!: 6\n§BDetails§!: \n\n§BBackground§!: The Echani Command was the government of the Echani, a confederation of six worlds known as the Six Sisters. Headquartered on Eshan, the Command was ruled by an all-female council."
+ 
+ EMPIRE_DESIGN_taris_authority:0 "Taris Civil Authority"
+ EMPIRE_DESIGN_taris_authority_desc:0 "§BInitial Challenge§!: §HModerate§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: Taris is an urban planet in the fifth orbit of its star, located in the Taris system, within the Ojoster sector, of the Outer Rim Territories, in turn Taris is orbited by four moons, including Rogue. The planet's ecumenopolis quickly developed over a century of prosperity, and as a result the planet suffered from massive overpopulation. Once a galactic nexus that earned great wealth from its strategic position on hyperspace routes, Taris' importance declined with the discovery of improved trade routes, and the planet rapidly fell into decay. The remainder of the planet's history was wrought with civil disorder and social unrest. As it turned to industry as a means of compensation for its economic troubles, its oceans became polluted, eliminating the planet's main food source. Famine spread among the lower classes while the rich hoarded what few supplies remained. The resulting strife led to the Tarisian Civil War, the start of lasting prejudices between the Humanocentric Tarisian nobles and the largely alien underclass. The city became segmented, and the lower classes were banned from living in the upper levels of Taris."
+
+ EMPIRE_DESIGN_alderaan_kingdom:0 "Kingdom of Alderaan"
+ EMPIRE_DESIGN_alderaan_kingdom_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Alderaanian Parliament was a governing body of the Kingdom of Alderaan. The parliament was founded after King Darrus Alde united the planet under his rule early in its history, prior to the formation of the Galactic Republic. Only members from the noble houses of Alderaan were eligible to serve in the parliament. The nobility of Alderaan were responsible for ruling the planet and choosing the reigning monarch in often vicious, always intricate games of local politics."
+
+ EMPIRE_DESIGN_chandrilan_house:0 "Chandrilan House"
+ EMPIRE_DESIGN_chandrilan_house_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: Known as a jewel of the Core Worlds, Chandrila was a natural beauty protected and nurtured by its people. The Chandrilan House, a democratically moral governing body, are dedicated to keeping a balanced ecosystem and environment for the planet."
+
+ EMPIRE_DESIGN_corellian_council:0 "Corellian Council"
+ EMPIRE_DESIGN_corellian_council_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: Diktat was the title of the head of state of Corellia. He or She was elected by the Corellian Council every 20 years." 
+ 
+ EMPIRE_DESIGN_anaxes_commonwealth:0 "Anaxes Commonwealth"
+ EMPIRE_DESIGN_anaxes_commonwealth_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: Known as the Defender of the Core, for millennia it was the site of the Republic Navy's primary fleet base and War College. It was considered the site of naval power, tradition and prestige bythe Galactic Republic." 
+ 
+ EMPIRE_DESIGN_brentaal_houses:0 "Brentaal Houses"
+ EMPIRE_DESIGN_brentaal_houses_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: The Brentaal Houses were the influential families that ran the planet Brentaal's trade guilds. They represented the citizens in Brentaal's democratic government."
+ 
+ EMPIRE_DESIGN_duros_house:0 "Duros High House"
+ EMPIRE_DESIGN_duros_house_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: One of the earliest starfaring races, the Duros established a vast, grand starship constuction industry in the Duro system that rivaled the one in the Corellian system. The Duros set up their government around a consortium of starship construction corporations, with all important political decisions made by the stockholders of the corporations. This meant that any Duros that held stock in a company could participate in the administration of the system. Many Duros were pilots and explorers, and were adventurous, though sometimes rash."
+ 
+ EMPIRE_DESIGN_kuat_aristocracy:0 "Kuat Aristocracy"
+ EMPIRE_DESIGN_kuat_aristocracy_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: Kuat was a vital shipbuilding and industrial planet located in the Kuat system of the galaxy's Core Worlds region. Known for the prestigious Kuat Drive Yards corporation and its large shipyards, the planet notably produced warships for the Galactic Republic."
+ 
+ EMPIRE_DESIGN_rendili_jurisdictions:0 "Rendili Jurisdictions"
+ EMPIRE_DESIGN_rendili_jurisdictions_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: Rendili was one of the core founders of the Republic, ruled by an Arch-Provost. It was the headquarters of Rendili Stardrive founded in 20,000 BBY and the shipwrights Rendili Hyperworks."
+ 
+ EMPIRE_DESIGN_alsakan_kingdom:0 "Alsakan Kingdom"
+ EMPIRE_DESIGN_alsakan_kingdom_desc:0 "§BInitial Challenge§!: §GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: Alsakan was an ecumenopolis world in the Alsakan system in the Core Worlds. A Core Founder on the Perlemian Trade Route, Alsakan was an ancient, wealthy world that had been a major political player for centuries, and was responsible for the seventeen Alsakan Conflicts that had been fought with Coruscant over the nature and shape of the early Galactic Republic."
+ 
+ EMPIRE_DESIGN_someone:0 "Something"
+ EMPIRE_DESIGN_someone_desc:0 "§BInitial Challenge§!: §RHard§!§HModerate§!§GEasy§!\n§BFaction Type§!: Minor\n§BStarting Planets§!: 1\n§BDetails§!: \n\n§BBackground§!: Neimoidians placed tremendous value on wealth and material possessions, and would go to great lengths to gain money and power, resulting in a stereotype of being greedy and cowardly; however, they are very easily intimidated, and hate combat."
+  
+ #####################################
+ # Start Screens
+ #####################################  
+ 
+ START_SCREEN_BEGIN:0 "You may begin when ready."
+ 
+ START_SCREEN_MANDO:0 "Mand'alor the Indomitable has fallen.\n\nAfter being taken down by enemy fire and crash landing on Onderon's moon, Dxun, his bloodied and torn corpse was found. Reports say he fought bravely, but eventually succumbed to the moon's dangerous creatures.\n\nBut not all is lost, the mask has been found. While combing the jungles for our fallen leader, there was one who came upon the Mand'alor's mask and, in accordance with our traditions, has claimed it as his own to become the new Mand'alor.\n\nThe people now call upon our Mand'alor once more to lead them to battle and conquest. Will the galaxy once again tremble at the thunderous sound of our armies, sweeping down from the skies?"
+ START_SCREEN_REP:0 "As the most advanced civilization in the known galaxy, the Galactic Republic has stood united for more than 21,000 years.\n\nProtected by the legendary Jedi Order, the Republic has defeated all its enemies, including the original Sith Empire in the Great Hyperspace War.\n\nBut now the Galaxy sits at the edge of a knife, will you let it descend into chaos? Or will you lead it into a new age of peace and prosperity?"
+ START_SCREEN_SWGD_START:0 "Turmoil has engulfed the Galactic Republic.\n\nFor decades, numerous planets, species, and groups have been trying to reduce the power of the Galactic Senate, lower or eliminate taxes, or withdraw from the Republic for various isolationist or xenophobic reasons. Spurred by the disillusioned Count Dooku and the failure of the Senate to even vote on the Financial Reform Act, a bill with the goal to address and reduce the amount of corruption, various corporations and planets have began to withdraw from the Senate, organizing themselves into a loose separatist movement.\n\nThe Galaxy stands divided, will you let it descend into chaos and war? Or will you lead it into a new age of peace and prosperity?"
+ 
+ #####################################
+ # Namelists
+ #####################################  
+ 
+ name_list_Chagrian: "Chagrian"
+ name_list_Chiss: "Chiss"
+ name_list_Ewoks: "Ewoks"
+ name_list_Geonosian: "Geonosian"
+ name_list_Ghorfas: "Ghorfas"
+ name_list_Gungang: "Gungan"
+ name_list_Hutt: "Hutt"
+ name_list_Jawa: "Jawa"
+ name_list_Jedi: "Jedi"
+ name_list_Mandalorian: "Mandalorian"
+ name_list_Republic: "Republic"
+ name_list_Sith: "Sith"
+ name_list_sw_hu: "SW Generic Human"
+ name_list_Togruta: "Togruta"
+ name_list_twilek: "Twi'lek"
+ name_list_Wookiee: "Wookiee"
+  
+ #####################################
+ # Species
+ ##################################### 
+ 
+ sith: "Sith"
+ republic: "Republic"
+ mando: "Mandalorian"
+ SWGD_HUMAN: "Human"
+ SWGD_NEAR_HUMAN: "Near-Human"
+ SWGD_HUMANOID: "Humanoid"
+ SWGD_MAM_1: "Hairless Mammalian"
+ DROID: "Droid"
+ GAST: "Gastropod"
+ 
+ #####################################
+ # Graphical Cultures
+ ##################################### 
+ 
+ DIRTY:1 "Dirty"
+ AQUATIC:1 "Aquatic"
+ EVIL:1 "Evil"
+ ASARI:1 "Asari"
+ FACTORY:1 "Factory"
+ OVERGROWN:1 "Overgrown"
+ COVENANT:1 "Covenant"
+ SANGHEILI:1 "Sangheili"
+ TAU:1 "Tau" 
+ 
+ #####################################
+ # Ethics
+ ##################################### 
+   
+ ethic_dark_side:0 "Dark Side"
+ ethic_dark_side_desc:1 "§LEvil is a word used by the ignorant and the weak. The dark side is about survival. The strength of the dark side lies with the power of the individual. The Force comes from within."
+ 
+ ethic_light_side:0 "Light Side"
+ ethic_light_side_desc:1 "§LThe Force must be used for knowledge and defense. Never for attack. To know truly what is right, is when you are at peace, passive. When you are calm."
+ 
+ #####################################
+ # Tile Blockers
+ ##################################### 
+ 
+ tb_asteroid_mountains:0 "£blocker   Mountain Range"
+ tb_asteroid_mountains_desc:0 "A vast range of tall and impassable mountains stretches across this region of the Asteroid."
+ tb_asteroid_sinkhole_worm:0 "£blocker  Giant Space Slug"
+ tb_asteroid_sinkhole_worm_desc:0 "A giant space slug has taken residence within this hollow of the asteroid."
+ tb_asteroid_crater:0 "£blocker  Massive Crater"
+ tb_asteroid_crater_desc:0 "Something collided with the surface of this asteroid, creating this massive impact crater."
+ tb_lava_lake:0 "£blocker  Lava Lake"
+ tb_lava_lake_desc:0 "A large lake of scorching lava dominates this region."
+ tb_lava_waterfall:0 "£blocker  Lava Waterfall"
+ tb_lava_waterfall_desc:0 "Numerous waterfalls of scorching lava flow down from cliffs in this region."
+ tb_massive_volcano:0 "£blocker  Massive Volcano"
+ tb_massive_volcano_desc:0 "There is a massive active volcano in this region, spewing forth lava and volcanic gases."
+
+ #####################################
+ # Planetary Tiles 
+ ##################################### 
+ 
+ pc_asteroid_tile:0 "Barren Terrain"
+ pc_asteroid_tile_desc:0 "Barren and rocky terrain with numerous craters."
+ pc_molten_tile:0 "Molten Terrain"
+ pc_molten_tile_desc:0 "Scorching and rocky terrain surrounded by numerous lava lakes and rivers."
+ 
+ #####################################
+ # Projects
+ ##################################### 
+
+ #####################################
+ # Policies
+ ##################################### 
+ 
+ policy_fleet_composition:0 "Fleet Composition"
+ policy_fleet_composition_desc:0 "Fleet Composition is the expression of how your nation's naval forces organizes and equips its starships and naval personnel for combat.\n"
+ swarm_fleet:0 "Swarm"
+ swarm_fleet_name:0 "Swarm"
+ swarm_fleet_desc:0 "By mainting a massive surge in numbers, the military is able to utilize flood tactics to spread itself across its territories.\n\n§EThis style of combat is effective at creating enormous fleets with the intent of overwhelming an enemy by sheer numbers rather than individual skill.§!\n\n"
+ mass_conscription_fleet:0 "Mass Conscription"
+ mass_conscription_fleet_name:0 "Mass Conscription"
+ mass_conscription_fleet_desc:0 "Utilizing the compulsory enlistment of individuals, the military is able to swell its numbers at the cost of superior individual training.\n\n§EThis training allows for larger fleet deployments, effective in overrunning the enemy.§!\n\n"
+ balanced_fleet:0 "Balanced"
+ balanced_fleet_name:0 "Balanced"
+ balanced_fleet_desc:0 "A balanced approach to military training and composition, allowing for flexibility in its deployment capabilities.\n\n§EThis is the balanced approach by most militaries.§!\n\n"
+ specialized_training_fleet:0 "Specialized Training"
+ specialized_training_fleet_name:0 "Specialized Training"
+ specialized_training_fleet_desc:0 "By reducing the size of the military, the various branches are able to improve the training of new recruits and current members to a higher standard that would be otherwise impractical with a larger force.\n\n§EThis training increases the effectiveness of smaller units.§!\n\n"
+ elite_training_fleet:0 "Elite Training"
+ elite_training_fleet_name:0 "Elite Training"
+ elite_training_fleet_desc:0 "The military is kept small through rigorous training and selection, allowing the government to spend a tremendous amount of money on each soldier and airman ensuring that they are experts in their field and equipped with the latest and most updated equipment and vehicles.\n\n§EThis training allows small units to be capable of being rapidly deployed with high effectiveness.§!\n\n"
+ 
+ policy_army_doctrine:0 "Army Doctrine"
+ policy_army_doctrine_desc:0 "Army Doctrine is the expression of how your nation's planetary military forces contribute to campaigns, major operations, battles, and engagements.\n"
+ swarm_army_focus:0 "Swarm"
+ swarm_army_focus_name:0 "Swarm" 
+ swarm_army_focus_desc:0 "The majority of your ground forces travel in endless swarms that reap relentless destruction against its foes. However, these armies are more alike to mindless beasts than trained soldiers.\n\n§EThey come at you in a tide of creatures so thick a blind man could score a hit ten times out of ten. Any man who can hold a gun can hit one. But no matter how many you kill with your guns, there will always be more.§!\n\n"  
+ overwhelming_force_focus:0 "Overwhelming Force"
+ overwhelming_force_focus_name:0 "Overwhelming Force"
+ overwhelming_force_focus_desc:0 "By overwhelming the enemy with monumental numbers and devastating artillery your forces hammer the enemy into submission.\n\n§EMost of you will probably not live to see your second year and most of you will probably never see your homeworlds again, but I can guarantee you that when you do fall, glory will be yours. We are the Sledgehammer, there is no defense we can not break.§!\n\n"  
+ traditional_focus:0 "Traditional Focus"
+ traditional_focus_name:0 "Traditional Focus" 
+ traditional_focus_desc:0 "The Traditional Focus relies on a diverse and well trained military that allows it to be flexible in its operations.\n\n§EArmor, Infantry, and Support units working together in well organized teams are far more effective than the same forces used separately.§!\n\n"
+ unbreakable_defense_focus:0 "Unbreakable Defense"
+ unbreakable_defense_focus_name:0 "Unbreakable Defense"
+ unbreakable_defense_focus_desc:0 "By neglecting offense and focusing training primarily on advanced defensive operations, your improvised and static field fortifications and the resilience of your soldiers are second to none.\n\n§ENeither pride nor foolhardiness drove the defenders' zeal. They had passed beyond the fear of death. Their glorious stand will never be forgotten, for even with their last breath the enemy was driven back once more.§!\n\n" 
+ guerrilla_tactics_focus:0 "Guerilla Tactics"
+ guerrilla_tactics_focus_name:0 "Guerilla Tactics"
+ guerrilla_tactics_focus_desc:0 "Guerrilla warfare is a form of irregular warfare in which a small group of our combatants such as paramilitary personnel, armed civilians, or irregulars use ambushes, sabotage, hit-and-run tactics, and mobility to fight a larger and less-mobile traditional military.\n\n§EThe enemy advances, we retreat; the enemy camps, we harass; the enemy tires, we attack; the enemy retreats, we pursue.§!\n\n" 
+ elite_chapters:0 "Elite Chapters"
+ elite_chapters_name:0 "Elite Chapters"
+ elite_chapters_desc:0 "Abandoning traditional military organisation for the formation of Elite Chapters, your armies are made up of a select elite that go through rigorous training. Whether from their indoctrination or genetic modification, these members are physically stronger and far more resilient than the average member of your species.\n\n§EHardened in the forge of their harsh and unforgiving training, eager for battle and honour. They are the scalpel.§!\n\n"
+ 
+ policy_foreign_policy:0 "Foreign Policy"
+ policy_foreign_policy_desc:0 "Foreign Policy, or Foreign Relations, consists of the self-interest strategies chosen by the state to safeguard its national interests and to achieve goals within its intergalactic relations milieu.\n"
+ isolationism:0 "Isolationism"
+ isolationism_name:0 "Isolationism"
+ isolationism_desc:0 "The nations' interests are best served by keeping the affairs of other countries at a distance. Whether it is to avoid being drawn into dangerous conflicts or simply to ensure the purity of culture, this doctrine seeks to focus all effort on our own advancement.\n\n§EThis policy benefits a defensive and self-improvement focus at the cost of relations with other galactic entities.§!\n\n"
+ balanced_foreign_policy:0 "Balanced Foreign Policy"
+ balanced_foreign_policy_name:0 "Balanced Foreign Policy"
+ balanced_foreign_policy_desc:0 "Only by maintaining a balanced approach to our foreign relations can our nation continue to strive for greatness. We must be open to interact with others in the galaxy while also ensuring our own success is not neglected.\n\n§ETThis is the balanced approach by most governments.§!\n\n"
+ globalism:0 "Intergalactic Globalism"
+ globalism_name:0 "Intergalactic Globalism"
+ globalism_desc:0 "As we further explore the stars we must cooperate with the others that populate the endless void of space. Only by integrating the countless intergalactic views, products, ideas, and other aspects of the cultures that surround us can we achieve prosperity.\n\n§EThis policy promotes friendly relations with the many other entities within the galaxy.§!\n\n"
+ 
+ 
+ policy_trade_policy:0 "Trade Laws"
+ policy_trade_policy_desc:0 "Trade policy is the nation's position on free trade.\n"
+ protectionism:0 "Protectionism"
+ protectionism_name:0 "Protectionism"
+ protectionism_desc:0 "Protectionism is a government policy of taxation and discrimination against foreign imports.\n\n"
+ balanced_trade:0 "Balanced Trade"
+ balanced_trade_name:0 "Balanced Trade"
+ balanced_trade_desc:0 "Balanced Trade is a policy that provides a more intermediate approach to free trade. While trade is not completely free flowing, neither does it restrict foreign products to the extent of protectionist agendas.\n\n"
+ free_trade:0 "Free Trade"
+ free_trade_name:0 "Free Trade"
+ free_trade_desc:0 "Free trade is a policy explicitly aimed at allowing a free flow of goods across borders without undue interference by government officials, laws, or taxes.\n\n"
+ 
+ policy_market_policy:0 "Market Laws"
+ policy_market_policy_desc:0 "Market policy determines your national system of economic management.\n"
+ laissez_faire:0 "Laissez Faire"
+ laissez_faire_name:0 "Laissez Faire"
+ laissez_faire_desc:0 "Laissez Faire is a hands-off government policy that sees the market as the ultimate tool for progress, and believes that markets spontaneously organize human activity.\n\n"
+ interventionism:0 "Interventionism"
+ interventionism_name:0 "Interventionism"
+ interventionism_desc:0 "This policy finds the market to be a useful tool for growth, but that it needs occasional help from the government to succeed.\n\n"
+ mixed_economy:0 "Mixed Economy"
+ mixed_economy_name:0 "Mixed Economy"
+ mixed_economy_desc:0 "Mixed Economy is an economic system combining private and public enterprise.\n\n"
+ state_capitalism:0 "State Capitalism"
+ state_capitalism_name:0 "State Capitalism"
+ state_capitalism_desc:0 "State capitalism demands that the state control the primary aspects of the economy, but leave the market to handle the less important things.\n\n"
+ planned_economy:0 "Planned Economy"
+ planned_economy_name:0 "Planned Economy"
+ planned_economy_desc:0 "The planned economy, also known as central planning, socializes the control of all economic resources into the hands of the state. All economic decisions are made by the state, and the market is excluded from functioning in the state in question.\n\n"
+ 
+ policy_religious_policy:0 "Religious Policy"
+ policy_religious_policy_desc:0 "Religious policy determines your national stance on religion. This represents your government attitude towards religion, both broadly and in the context of the state religion.\n"
+ atheism:0 "Atheism"
+ atheism_name:0 "Atheism"
+ atheism_desc:0 "Atheism is the opposite of moralism. Rather than holding up one religion as the one true word, atheism actively attacks all religion as illegitimate.\n\n"
+ secularized:0 "Secularized"
+ secularized_name:0 "Secularized"
+ secularized_desc:0 "Secularism is the stance that the government has no place in religion, and should abstain from any and all involvement in religious affairs of any kind.\n\n"
+ pluralism:0 "Pluralism"
+ pluralism_name:0 "Pluralism"
+ pluralism_desc:0 "This policy holds that each citizen has the right to his own religious views, and that the religious majority (where there is one) has no right to infringe upon this free practice.\n\n"
+ moralism:0 "Moralism"
+ moralism_name:0 "Moralism"
+ moralism_desc:0 "Moralism promotes one religion above all others, and actively seeks to spread the state religion to religious minorities.\n\n"
+ 
+ 
+ policy_media_rights:0 "Media Rights"
+ policy_media_rights_desc:0 "The media rights of your nation dictate who controls the means of communication and information.\n"
+ state_media:0 "State Media"
+ state_media_name:0 "State Media"
+ state_media_desc:0 "This choice restricts the media only to state-run or state-sanctioned bodies, allowing for almost total government control over information.\n\n"
+ censored_media:0 "Censored Media"
+ censored_media_name:0 "Censored Media"
+ censored_media_desc:0 "This option allows for a somewhat free media, but the government reserves the right to censor out material that it finds offensive or antagonistic to its goals.\n\n"
+ free_media:0 "Free Media" 
+ free_media_name:0 "Free Media" 
+ free_media_desc:0 "This options frees the media of government control. Information flows freely, and people are left to decide for themselves.\n\n" 
+ 
+ #####################################
+# Opinion 
+#####################################
+
+opinion_policy_foreign_policy:0 "Foreign Policy"
+opinion_policy_trade_policy:0 "Trade Policy"
+opinion_policy_religious_policy:0 "Religious Policy"
+opinion_policy_media_rights:0 "Media Rights"
+
+#####################################
+# Map Modes 
+#####################################
+
+religious_policy_map_mode:0 "Religious Policy Map Mode"
+religious_policy_map_mode_desc:0 "Empire borders will be colored based on their current Relgious Policy."
+media_rights_map_mode:0 "Media Rights Map Mode"
+media_rights_map_mode_desc:0 "Empire borders will be colored based on the Media Rights within their country."
+foreign_policy_map_mode:0 "Foreign Policy Map Mode"
+foreign_policy_map_mode_desc:0 "Empire borders will be colored based on their current government's Foreign Policy."
+clone_wars_map_mode:0 "Clone Wars Map Mode"
+clone_wars_map_mode_desc:0 "Empire borders will be colored based on their alignement during the Clone Wars."
+
+ 
+ 
+ #####################################
+ # Personalities
+ ##################################### 
+ 
+ personality_mandalorian_warriors:0 "Mandalorian Crusaders"
+ personality_mandalorian_warriors_desc:0 "A society of traditionally nomadic warriors, Mandalorians value honor and martial prowess above all other things. They will seek out worthy foes to fight and have little respect for weaklings and pacifists."
+ personality_core_founder:0 "Core Founder" 
+ personality_core_founder_desc:0 "Core Founders are the founding worlds of the Galactic Republic, which were all located in the Core. They included political players, and other important worlds, to the military, commerce, medical, diplomatic, and philosophical fields."
+ personality_trade_guild:0 "Interplanetary Traders"
+ personality_trade_guild_desc:0 "Interplanetary Traders are chiefly concerned with the flow of commerce, and will avoid fighting unless attacked."
+ personality_jedi_order:0 "Jedi Order"
+ personality_jedi_order_desc:0 "An ancient monastic peacekeeping organization unified by its belief and observance of the light side of the Force. They are guardians of peace and justice in the  Galactic Republic."
+ personality_sith_order:0 "Sith Order"
+ personality_sith_order_desc:0 "A sect of Force-sensitives who utilize the dark side of the Force. The Sith are the most infamous of all dark side religions, and the members of the cult were often seen as the pinnacle of power within the dark side. They seek to conquer and subjugate all those that would stand in their way of galactic domination."
+ personality_hutt_clans:0 "Hutt Cartel"
+ personality_hutt_clans_desc:0 "The Hutt Cartel is a powerful criminal syndicate, or business alliance of Hutts. Though often neutral in galactic affairs, it tended to lean in certain directions if it was worthwhile for them."
+ personality_kamino_cloners:0 "Kamino Cloners"
+ personality_kamino_cloners_desc:0 "Kaminoans see themselves as a superior form of life, but nevertheless remain polite to outsiders. To them any species seeking self-improvement is worthy of respect, but those who did not were obviously inferior. These tall, elegant beings keep to themselves and are known for their cloning technology."
+ 
+ #####################################
+ # Armies
+ #####################################
+
+ force_adept:0 "Force Adept"
+ force_adept_plural:0 "Force Adepts"
+ force_adept_desc:0 "A Force Adept is a Force-sensitive individual still in training, most often they serve under a more experienced force-user."
+ force_warrior:0 "Force Warrior"
+ force_warrior_plural:0 "Force Adepts"
+ force_warrior_desc:0 "A Force Warrior is a deadly, expert fighter equipped with a lightsaber and the Force."
+ force_inquisitor:0 "Force Scholar"
+ force_inquisitor_plural:0 "Force Scholar"
+ force_inquisitor_desc:0 "Scholars are powerful Force-wielders, operating primarily within the upper echelons and political circles of a nation. They focus primarily on their Force abiltiies, rather than martial prowess."
+ force_master:0 "Force Master"
+ force_master_plural:0 "Force Masters"
+ force_master_desc:0 "A Force Master is an individual with exceptional devotion and skill in the Force and combat."
+ clone_shock:0 "Clone Shock Trooper Company"
+ clone_shock_plural:0 "Clone Shock Trooper Companies"
+ clone_shock_desc:0 "These Clones are trained as elite shock troopers specifically for deployment in major cities and capital worlds. There, the clone shock troopers serve primarily as security police for government buildings and as prison guards. They also perform duties such as bodyguards for government officials and as urban peacekeepers with some troopers trained specifically for riot control."
+ clone_paratrooper:0 "Clone Paratrooper Company"
+ clone_paratrooper_plural:0 "Clone Paratrooper Companies"
+ clone_paratrooper_desc:0 "Clone paratroopers, also known as clone airborne troopers, are clone troopers who are specially-trained for high-altitude drops using special parachutes and equipment."
+ clone_commando:0 "Clone Commando Squad"
+ clone_commando_plural:0 "Clone Commando Squads"
+ clone_commando_desc:0 "Often working in squads of four, clone commandos are highly trained and assigned to carry out special operations that the average clone trooper can't't handle. These missions include covert infiltration, sabotage, demolition and assassination, all of which are standard tasks for the clone commandos."
+ clone_arc:0 "ARC Trooper Squad"
+ clone_arc_plural:0 "Arc Trooper Squads"
+ clone_arc_desc:0 "Advanced Recon Commandos, also known as ARC troopers, were an elite variant of clone trooper even rarer than clone commandos. ARC troopers receive special training and often served as leaders or receive challenging assignments not suitable for less specialized clones. These clones are engineered to be fiercely independent, innately creative, and physical superior to any other contemporary soldiers. This, combined with their training in advanced weapons and vehicles, make them veritable one-man armies. They are each given their own unique armor set, which differs greatly from the standard issue kit given to most clone troopers." 
+
+ air_defense_tower:0 "Air Defense Tower"
+ air_defense_tower_plural:0 "Air Defense Towers"
+ air_defense_tower_desc:0 "An Air Defense Tower is a fixed defensive weapons emplacement. Mounting two Gatling-style rapid-fire laser cannons, these potent emplacements are usually erected in areas with a good line of sight. AD Towers are capable of targeting many different kinds of airborne threats, ranging from marauding swoop bikes to low-flying starfighters with relative ease."
+ turbolaser_tower:0 "Turbolaser Tower"
+ turbolaser_tower_plural:0 "Turbolaser Towers"
+ turbolaser_tower_desc:0 "A Turbolaser tower is a planetary surface variant of the ship mounted heavy turbolasers. It requires an enormous amount of power, supplied by the standard base power generators. The turbolaser also had a very slow rate of fire, causing it to become overwhelmed very quickly. Though its firepower was focused mostly on land vehicles, these towers can also be used to protect surface bases from large aerial assault craft. In such cases the main guns could rotate upwards to achieve a completely vertical firing arc."
+ magnapulse_canon:0 "Magnapulse Canon"
+ magnapulse_canon_plural:0 "Magnapulse Canon"
+ magnapulse_canon_desc:0 "The planetary magnapulse cannon was built with a large underground generator and a large rotating plasma cannon above the surface. The cannon fired plasma balls at enemy vehicles, causing massive electrical disturbances that disabled the targets for a time."
+ 
+ #####################################
+ # Subjects
+ #####################################  
+ 
+ SUBJECT_republic_member_state:0 "Core World"
+ SUBJECT_republic_member_state_desc:0 "A member of the Galactic Republic."
+ 
+ #####################################
+ # Miscellaneous
+ ##################################### 
+ 
+
+ 
+ 
+ TRANS_FLEET_NAME:0 "N.$NUMBER$ Assault Battalion"
+ 
+ ROBOT_POP_PROTOCOL:0 "Protocol Droids"
+ ROBOT_POP_FARMING:0 "Farming Droids"
+ 
+ buildable_farming_droid:1 "$Farming Droid$"
+ buildable_farming_droid_desc:1 "$trait_farming_droid$" 
+ buildable_protocol_droid:1 "$Protocol Droid$"
+ buildable_protocol_droid_desc:1 "$trait_protocol_droid$"

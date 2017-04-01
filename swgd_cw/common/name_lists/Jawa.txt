@@ -1,4 +1,4 @@
-### Jawas
+﻿### Jawas
 Jawa = {
 
 	ship_names = {

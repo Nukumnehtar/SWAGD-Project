@@ -147,4 +147,138 @@ tech_offworld_habitats = {
 	}
 }
 
-#Hazardous Environment Habitat 
+#Hazardous Environment Habitat
+tech_hazardous_habitats = {
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	start_tech = no
+	category = { new_worlds }
+	prerequisites = { "tech_offworld_habitats" }
+	weight = @tier2weight2 
+	
+	#Unlocks building_life_support_system
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}
+
+
+
+
+ 
+tech_molten_excavation = {
+	cost = @tier2cost2
+	area = society
+	tier = 2
+	start_tech = no
+	category = { new_worlds }
+	prerequisites = { "tech_hazardous_habitats" }
+	weight = @tier2weight1  
+	
+	#Unlocks building_life_support_system
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}
+
+tech_advanced_air_operations = {
+	cost = @tier2cost2
+	area = society
+	tier = 2
+	start_tech = no
+	category = { military_theory }
+	prerequisites = { "tech_centralized_command"  }
+	weight = @tier2weight1  
+	
+	#Unlocks building_life_support_system
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+}
+
+
+tech_special_operations_command = {
+	cost = @tier2cost2
+	area = society
+	tier = 2
+	start_tech = no
+	category = { military_theory }
+	prerequisites = { "tech_centralized_command" }
+	weight = @tier2weight1  
+	
+	#Unlocks building_life_support_system
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+}
+
+

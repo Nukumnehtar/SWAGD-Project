@@ -182,3 +182,10 @@ trait_pc_ringworld_habitable_preference = {
 		pc_ringworld_habitable_habitability = 1.0
 	}
 }
+trait_pc_habitat_preference = {
+	icon = "gfx/interface/icons/traits/trait_pc_ring_preference.dds"
+	modification = no
+	modifier = {
+		pc_habitat_habitability = 1.0
+	}
+}

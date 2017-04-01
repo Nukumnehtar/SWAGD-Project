@@ -21,6 +21,7 @@ tb_asteroid_sinkhole_worm = {
 	}
 	
 	
+	
 }
 
 tb_lava_lake = {
@@ -43,7 +44,7 @@ tb_lava_lake = {
 		
 	}
 	
-	prerequisites = { "tech_tb_molten_tech" }
+	prerequisites = { "tech_molten_excavation" }
 }
 
 tb_massive_volcano = {
@@ -66,7 +67,7 @@ tb_massive_volcano = {
 		
 	}
 	
-	prerequisites = { "tech_tb_molten_tech" }
+	prerequisites = { "tech_tb_volcano" }
 }
 
 tb_lava_waterfall = {
@@ -89,5 +90,5 @@ tb_lava_waterfall = {
 		
 	}
 	
-	prerequisites = { "tech_tb_molten_tech" }
+	prerequisites = { "tech_molten_excavation" }
 }

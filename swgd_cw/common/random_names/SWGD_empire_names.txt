@@ -39,7 +39,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = anaxes
+			has_country_flag = anaxes_commonwealth
 		}
 	}
 	format = "Anaxes Commonwealth"
@@ -51,7 +51,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = brentaal
+			has_country_flag = brentaal_houses
 		}
 	}
 	format = "Brentaal Houses"
@@ -75,22 +75,11 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = corellian_empire
+			has_country_flag = corellian_council
 		}
 	}
-	format = "Corellian Empire"
+	format = "Corellian Council"
 	noun = "Corellian"	
-}
-empire_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 10000
-			has_country_flag = alderaan_kingdom
-		}
-	}
-	format = "Kingdom of Alderaan"
-	noun = "Alderaanian"	
 }
 
 empire_name_format = {
@@ -98,7 +87,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = chandrila
+			has_country_flag = chandrilan_house
 		}
 	}
 	format = "Chandrilan House"
@@ -110,10 +99,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = duro
+			has_country_flag = duros_house
 		}
 	}
-	format = "Duro Corporate Alliance"
+	format = "Duros High House"
 	noun = "Duro"	
 }
 
@@ -122,7 +111,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = kuat
+			has_country_flag = kuat_aristocracy
 		}
 	}
 	format = "Kuat Aristocracy"
@@ -134,7 +123,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = rendili 
+			has_country_flag = rendili_jurisdictions 
 		}
 	}
 	format = "Rendili Shipwrights"
@@ -146,7 +135,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = alsakan
+			has_country_flag = alsakan_kingdom
 		}
 	}
 	format = "Alsakan Kingdom"
@@ -314,7 +303,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = ssi_ruuvi
+			has_country_flag = ssi_ruuvi_imperium
 		}
 	}
 	format = "Ssi-ruuvi Imperium"
@@ -326,7 +315,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = onderon
+			has_country_flag = onderon_kingdom
 		}
 	}
 	format = "Kingdom of Onderon"
@@ -338,7 +327,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = rodian
+			has_country_flag = rodian_clans
 		}
 	}
 	format = "Rodian Clans"
@@ -362,7 +351,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = taris
+			has_country_flag = taris_authority
 		}
 	}
 	format = "Taris Civil Authority"
@@ -374,7 +363,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = echani
+			has_country_flag = echani_command
 		}
 	}
 	format = "Echani Command"
@@ -386,7 +375,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = haruun_kal
+			has_country_flag = haruun_kal_council
 		}
 	}
 	format = "Haruun Kal Representative Council"
@@ -398,7 +387,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = arkania
+			has_country_flag = arkania_dominion
 		}
 	}
 	format = "Arkanian Dominion"
@@ -422,7 +411,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = dorin
+			has_country_flag = dorin_republic
 		}
 	}
 	format = "Dorin Republic"
@@ -458,10 +447,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			has_country_flag = togruta_council
+			has_country_flag = togruta_dominion
 		}
 	}
-	format = "Togruta Council"
+	format = "Togruta Royal Dominion"
 	noun = "Togruta"	
 }
 
@@ -475,4 +464,40 @@ empire_name_format = {
 	}
 	format = "Kingdom of Zeltros"
 	noun = "Zeltron"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = chalactan_convocation
+		}
+	}
+	format = "Chalactan Convocation of Adepts"
+	noun = "Chalactan"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = techno_union
+		}
+	}
+	format = "Techno Union"
+	noun = "Union"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = intergalactic_banking_clan
+		}
+	}
+	format = "Intergalactic Banking Clan"
+	noun = "Clan"	
 }

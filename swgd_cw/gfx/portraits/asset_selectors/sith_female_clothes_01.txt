@@ -31,50 +31,18 @@ sith_female_clothes_01 = {
 
 	#leader scope 
 	ruler = { #for rulers
-		default = "gfx/models/portraits/sith/sith_female_04.dds"
+		default = "gfx/models/portraits/sith/sith_female_clothes_governer.dds"
 		
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = military_dictatorship } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = martial_empire } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = military_junta } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = ordered_stratocracy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = military_republic } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = martial_demarchy } }
+		"gfx/models/portraits/sith/sith_female_clothes_governer.dds" = { owner = { has_militarist_government = yes } }
 	
-		"gfx/models/portraits/sith/sith_female_clothes_general.dds" = { owner = { has_government = pirate_codex } }
-	
-	
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = divine_mandate } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = transcendent_empire } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = theocratic_oligarchy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = theocratic_republic } }
+		"gfx/models/portraits/sith/sith_female_clothes_governer.dds" = { owner = { has_generic_government = yes } }
 		
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = irenic_monarchy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = despotic_empire } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = star_empire } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = transcendent_republic } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = direct_democracy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = moral_democracy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = irenic_democracy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = indirect_democracy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = democratic_utopia } }
+		"gfx/models/portraits/sith/sith_female_01.dds" = { owner = { has_pacifist_government = yes  } }
 	
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = stagnated_ascendancy } }
+		"gfx/models/portraits/sith/sith_female_clothes_governer.dds" = { owner = { has_primitive_government = yes } }
 		
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = despotic_hegemony } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = enlightened_monarchy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = transcendent_oligarchy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = plutocratic_oligarchy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = peaceful_bureaucracy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = irenic_protectorate } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = mega_corporation } }
-	
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = primitive_feudalism } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = fragmented_nations } }
+		"gfx/models/portraits/sith/sith_female_clothes_governer.dds" = { owner = { has_materialist_government = yes } }
 		
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = science_directorate } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = illuminated_technocracy } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = subconscious_consensus } }
-		"gfx/models/portraits/sith/sith_female_04.dds" = { owner = { has_government = ai_overlordship } }
 	}
 }
 
@@ -84,6 +52,6 @@ sith_female_hair_1 = {
 	ruler = {
 	default = "gfx/models/portraits/sith/sith_female_hair_black_style_01.dds"
 	
-		"gfx/models/portraits/sith/sith_female_hair_black_style_01.dds" = { owner = { has_government = military_dictatorship } }
+		"gfx/models/portraits/sith/sith_female_hair_black_style_01.dds" = { owner = { has_militarist_government = yes } }
 	}
 }

@@ -1,4 +1,4 @@
-### Geonosians
+﻿### Geonosians
 Geonosian = {
 
 	ship_names = {

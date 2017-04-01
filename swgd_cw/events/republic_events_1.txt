@@ -1,0 +1,141 @@
+namespace = republic
+
+
+#Start Republic formation immediately after start
+
+country_event = {
+	id = republic.0
+	hide_window = yes
+		
+	
+	immediate = {
+		every_country  = {
+			limit = {
+				OR = {
+					has_country_flag = core_founder
+					has_country_flag = galactic_republic					
+				}
+			}
+			country_event = { id = republic.1 }
+		}
+		
+	}
+		
+	
+}
+
+
+							
+#Give federation tech and set flag to activate join republic event chain for each republic empire
+
+country_event = {
+	id = republic.1
+	hide_window = yes
+	location = from
+	
+	immediate = {				
+						
+				if = {
+					limit = { has_federation = no }
+				from = {
+				set_timed_country_flag = { flag = ai_no_leave_fed days = 7200 }
+				join_alliance = {
+					who = root
+					name = "Galactic Republic"
+					}
+				}
+				else = {	
+					from = {
+						set_timed_country_flag = { flag = ai_no_leave_fed days = 7200 }
+						join_alliance = {
+							who = root
+						}	
+					}
+				}
+				
+			}
+			
+			
+		
+	}
+}
+	
+
+
+#Create Federation with core republic members
+
+country_event = {
+	id = republic.2
+	title = republic.2.name
+	desc = republic.2.desc
+	picture = GFX_evt_galactic_senate
+	show_sound = event_alien_signal
+	location = root		
+	is_triggered_only = yes
+	hide_window = yes
+	
+		
+	immediate = {
+				
+		if = {
+			limit = {
+			NOT = { is_in_federation_with = root }
+			NOT = {has_country_flag = republic_member}
+			}
+			from = {
+				join_alliance = {
+					who = root
+					name = "Galactic Republic"
+				}
+				set_country_flag = republic_member
+				
+			}
+			else = {	
+				from = {
+					join_alliance = {
+						who = root
+					}	
+					set_country_flag = republic_member
+					
+				}
+			}
+		}
+	}
+}
+	 
+	 
+
+#Jedi 
+country_event = {
+	id = republic.10
+	title = republic.10.name
+	desc = republic.10.desc
+	picture = GFX_evt_galactic_senate
+	show_sound = event_alien_signal	
+	location = from
+	is_triggered_only = yes
+	fire_only_once = yes
+	hide_window = yes
+		
+	
+		
+	immediate = {		
+		
+			every_country  = {
+				limit = {
+				has_country_flag = jedi_council
+				NOT = {has_country_flag = republic_member}
+				NOT = { is_in_federation_with = root }
+				}
+				from = {	
+						country_event = { id = republic.2 } 
+									
+						
+					}		
+			
+			}
+	}		
+ }
+
+
+ 

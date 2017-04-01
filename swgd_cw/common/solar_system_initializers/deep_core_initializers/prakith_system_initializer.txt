@@ -74,14 +74,27 @@ prakith_system_initializer = {
 					}
 					create_country = {
 						name = "Cult of Malevolence"
-						government = primitive_feudalism
+						authority = random
+						civics = {
+							civic = civic_increasing_urbanization
+							civic = civic_atmospheric_pollution
+						}
 						species = last_created
 						ethos = {
 						ethic="ethic_dark_side"
-						ethic="ethic_fanatic_spiritualist"
-						ethic="ethic_fanatic_militarist"
+						ethic="ethic_spiritualist"
+						ethic="ethic_militarist"
 						}
-						flag = {							
+						
+						flag = {	
+							icon = {
+								category = "spherical"
+								file = "flag_spherical_22.dds"
+							}
+							background= {
+								category = "backgrounds"
+								file = "new_dawn.dds"
+							}
 							colors={
 								"black"
 								"red"

@@ -1,0 +1,25 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+
+portraits = {
+
+
+	rodian = {	entity = "portrait_reptilian_04_entity"	clothes_selector = "reptilian_slender_clothes_04" hair_selector = "no_texture" 	greeting_sound = "reptilian_01_greetings"
+			character_textures = {
+					"gfx/models/portraits/rodian/rodian_male_01.dds"
+					"gfx/models/portraits/rodian/rodian_male_02.dds"
+					"gfx/models/portraits/rodian/rodian_male_03.dds"
+					
+				}
+	}
+	
+}

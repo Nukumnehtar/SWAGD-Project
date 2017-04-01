@@ -50,7 +50,11 @@ yoggoy_system_initializer = {
 			name = "The Colony"
 			type = fallen_empire
 			ignore_initial_colony_error = yes
-			government= "military_dictatorship"
+			authority = random
+			civics = {
+				civic = civic_lethargic_leadership
+				civic = civic_empire_in_decline
+			}
 			#ftl=hyperdrive			
 			species = last_created
 			ethos = {

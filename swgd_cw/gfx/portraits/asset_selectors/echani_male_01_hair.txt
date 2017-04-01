@@ -127,15 +127,8 @@ echani_male_hair_01 = {
 		
 		random = {
 			trigger = { 
-				OR = {
-					owner = { has_government = military_dictatorship } 
-					owner = { has_government = military_junta } 
-					owner = { has_government = ordered_stratocracy } 
-					owner = { has_government = military_republic } 
-					owner = { has_government = military_dictatorship } 
-					owner = { has_government = martial_demarchy } 
-					owner = { has_government = pirate_codex } 
-				}
+				owner = { has_militarist_government = yes }
+
 			}
 				
 			list = {
@@ -158,12 +151,7 @@ echani_male_hair_01 = {
 		
 		random = {
 			trigger = { 
-				OR = {
-					owner = { has_government = divine_mandate } 
-					owner = { has_government = transcendent_empire } 
-					owner = { has_government = theocratic_oligarchy } 
-					owner = { has_government = theocratic_republic } 
-				}
+				owner = { has_spiritualist_government = yes }
 			}	
 			
 			list = {
@@ -185,34 +173,15 @@ echani_male_hair_01 = {
 		
 		random = {
 			trigger = { 
-				OR = {
-					owner = { has_government = irenic_monarchy } 
-					owner = { has_government = despotic_empire } 
-					owner = { has_government = star_empire } 
-					owner = { has_government = transcendent_republic } 
-					owner = { has_government = direct_democracy } 
-					owner = { has_government = moral_democracy } 
-					owner = { has_government = irenic_democracy } 
-					owner = { has_government = democratic_utopia }
-					
-					owner = { has_government = stagnated_ascendancy } 
-					
-					owner = { has_government = despotic_hegemony } 
-					owner = { has_government = enlightened_monarchy } 
-					owner = { has_government = transcendent_oligarchy } 
-					owner = { has_government = plutocratic_oligarchy } 
-					owner = { has_government = peaceful_bureaucracy } 
-					owner = { has_government = irenic_protectorate } 
-					owner = { has_government = mega_corporation } 
-					
-					owner = { has_government = fragmented_nations } 
-					owner = { has_government = primitive_feudalism } 	
-					
-					owner = { has_government = ai_overlordship } 
-					owner = { has_government = science_directorate } 					
-					owner = { has_government = illuminated_technocracy } 
-					owner = { has_government = subconscious_consensus } 
-					
+				owner = {
+					OR = {
+						has_authority = auth_oligarchic
+						has_authority = auth_democratic
+						has_authority = auth_imperial
+						has_authority = auth_dictatorial
+						has_primitive_government = yes
+						has_government = gov_stagnant_ascendancy
+					}
 				}
 			}
 			

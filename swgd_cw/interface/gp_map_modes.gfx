@@ -1,0 +1,30 @@
+spriteTypes = {
+		
+	spriteType = {
+		name = "GFX_map_mode_foreign_policy"
+		texturefile = "gfx/interface/icons/map_mode_foreign_policy.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_map_mode_religious_policy"
+		texturefile = "gfx/interface/icons/map_mode_religious_policy.dds"
+		noOfFrames = 2
+	}	
+		
+	spriteType = {
+		name = "GFX_map_mode_media_rights"
+		texturefile = "gfx/interface/icons/map_mode_media_rights.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_map_mode_clone_wars"
+		texturefile = "gfx/interface/icons/map_mode_clone_wars.dds"
+		noOfFrames = 2
+	}
+
+	
+}
+	
+	

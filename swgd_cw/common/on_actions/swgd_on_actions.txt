@@ -1,15 +1,16 @@
 # Triggers when the game starts
 on_game_start = {
-	events = {
-		swgd_start.1		
-		swgd_start.2
-		swgd_start.3		
+	events = {		
+				
+						
 	}
 }
 
 on_press_begin = {
 	events = {
-		naboo_crisis.0
-		
+		swgd_start.0	
 	}
+
+
 }
+

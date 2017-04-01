@@ -118,7 +118,130 @@ mandalore_system_initializer = {
 		starting_planet = yes
 		tile_blockers = none
 		modifiers = none
-     	
+     	init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+		every_country = {
+					limit = {
+						has_country_flag = mandalorian_clans
+					}
+					save_event_target_as = mandalorian_clans
+				}
+			set_owner = event_target:mandalorian_clans
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
 
 
         moon = {
@@ -138,7 +261,95 @@ mandalore_system_initializer = {
             size = 7
             has_ring = no
 			tile_blockers = none
-	}		
+			init_effect = {
+			every_country = {
+					limit = {
+						has_country_flag = mandalorian_clans
+					}
+					save_event_target_as = mandalorian_clans
+				}
+			set_owner = event_target:mandalorian_clans	
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+				set_building = "building_colony_shelter"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}
+				
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 2
+						replace = yes
+					}						
+				}
+				}
+				random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_mountain_range"
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_mountain_range"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_mountain_range"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dangerous_wildlife"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dangerous_wildlife"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+						
+			
+			}
+
+        }
 
     }
 
@@ -150,7 +361,93 @@ mandalore_system_initializer = {
         size = 12
         has_ring = no
 			tile_blockers = none
+			init_effect = {
+			every_country = {
+					limit = {
+						has_country_flag = mandalorian_clans
+					}
+					save_event_target_as = mandalorian_clans
+				}
+			set_owner = event_target:mandalorian_clans	
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+				set_building = "building_colony_shelter"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}
+				
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 2
+						replace = yes
+					}						
+				}
+				}
+				random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dense_jungle"
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dense_jungle"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dense_jungle"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dangerous_wildlife"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_dangerous_wildlife"
+				add_resource = {
+					resource = society_research
+					amount = 2
+					replace = yes
+				}				
+			}
+						
 			
+			}
 
         moon = {
             name = "Mandallia Minor"

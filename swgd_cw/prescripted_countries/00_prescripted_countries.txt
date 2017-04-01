@@ -21,8 +21,13 @@ galactic_republic = {
 	portrait = "human"
 	adjective = "Republic"
 	
-	government = "indirect_democracy"
-	ethic = "ethic_fanatic_individualist"
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
 	ethic = "ethic_xenophile"
 	
 	flags = { galactic_republic core_founder REP_START SWGD custom_start_screen }
@@ -85,10 +90,15 @@ jedi_council = {
 	portrait = "human"	
 	adjective = "Jedi"	
 	
-	government = "theocratic_oligarchy"
+	authority = "auth_oligarchic"
+	civics={
+		"civic_exalted_priesthood"
+		"civic_meritocracy"
+	}
+	government = gov_holy_tribunal
 	ethic = "ethic_light_side"
-	ethic = "ethic_individualist"
-	ethic = "ethic_fanatic_spiritualist"	
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_spiritualist"	
 	
 	flags = { jedi_council SWGD custom_start_screen REP_START jedi_order }
 	
@@ -124,10 +134,10 @@ jedi_council = {
 	ruler = {
 		gender = male
 		name = "Yoda"
-		portrait = "human_male_04"
+		portrait = "yoda"
 		texture = 0
-		hair = 5
-		clothes = 4
+		hair = 0
+		clothes = 0
 		ruler_title = "Grand Master"
 		ruler_title_female = "Grand Master"
 	}
@@ -150,13 +160,18 @@ trade_federation = {
 	trait = "trait_thrifty"
 	trait = "trait_communal"
 	trait = "trait_deviants"	
-	portrait = "mol5"
+	portrait = "neimoidian"
 	adjective = "Neimoidian"
 	
 	species_bio = "Neimoidians placed tremendous value on wealth and material possessions, and would go to great lengths to gain money and power, resulting in a stereotype of being greedy and cowardly; however, they are very easily intimidated, and hate combat."
 		
-	government = "plutocratic_oligarchy"
-	ethic = "ethic_collectivist"
+	authority = "auth_oligarchic"
+	civics={
+		"civic_corporate_dominion"
+		"civic_syncretic_evolution"
+	}
+	government = gov_megacorporation
+	ethic = "ethic_egalitarian"
 	ethic = "ethic_fanatic_materialist"	
 	
 	flags = { trade_federation SWGD SWGD_START custom_start_screen}
@@ -191,9 +206,9 @@ trade_federation = {
 	}
 	ruler={
 		gender = male
-		name = " Nute Gunray"
-		portrait = "mol5"
-		texture = 4
+		name = "Nute Gunray"
+		portrait = "neimoidian"
+		texture = 0
 		hair = 0
 		clothes = 0
 		ruler_title = "Viceroy"
@@ -215,19 +230,24 @@ hutt_clans = {
 	species_name = "Hutt"
 	species_plural = "Hutt"	
 	species_adjective = "Hutt"
-	species_class = "FUN"
+	species_class = "GAST"
 	trait = "trait_repugnant"
 	trait = "trait_enduring"
 	trait = "trait_thrifty"	
 	trait = "trait_decadent"	
-	portrait = "fun12"	
+	portrait = "hutt"	
 	adjective = "Hutt"
 	
 	species_bio = "The Hutt Ruling Council, alternatively known as the Council of Elders, Hutt Council, Great Hutt Council, or the Grand Council of Nal Hutta, is a five-member council that is the primary ruling body of the Hutt species. The five members were often known informally as the Five Hutt Families, but due to internal politics, individual clans could control more than one seat on the council. The Council handled the day-to-day affairs of the Hutt species, and its leader speaks on behalf of all Hutts in treaties and dealings with other empires."
 	
 	
-	government = "plutocratic_oligarchy"
-	ethic = "ethic_fanatic_collectivist"
+	authority = "auth_oligarchic"
+	civics={
+		"civic_cutthroat_politics"
+		"civic_slaver_guilds"
+	}
+	government = gov_executive_committee
+	ethic = "ethic_fanatic_authoritarian"
 	ethic = "ethic_materialist"	
 	
 	flags = { hutt_clans custom_start_screen SWGD_START SWGD }
@@ -264,22 +284,375 @@ hutt_clans = {
 	ruler = {
 		gender= male
 		name = "Shunbloor the Hutt"
-		portrait = "fun12"
-		texture = 0
-		hair = 0
-		clothes = 0
+		portrait = "hutt"
+		texture=0
+		hair=0
+		clothes=0		
 		ruler_title = "Supreme Mogul"
 		ruler_title_female = "Supreme Mogul"
 	}
 
 }
 
-#####################################
-# Republic Core FACTIONS
-#####################################
+chiss_ascendancy = {
+	name = "Chiss Ascendancy"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Chiss"
+	ship_prefix = " "
+	
+	species_name = "Chiss"
+	species_plural = "Chiss"	
+	species_adjective = "Chiss"
+	species_class = "SWGD_NEAR_HUMAN"
+	trait="trait_intelligent"
+	trait="trait_talented"
+	trait="trait_solitary"
+	trait="trait_sedentary"
+	portrait = "chiss"	
+	adjective = "Chiss"	
+	
+	authority = "auth_oligarchic"
+	civics={
+		"civic_aristocratic_elite"
+		"civic_distinguished_admiralty"
+	}
+	government = gov_military_junta
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	
+	flags = { SWGD custom_start_screen chiss_ascendancy isolationist }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Csilla"
+	planet_class = "pc_arctic"
+	system_name = "Csilla"
+	initializer = "csilla_system_initializer"
+	
+	graphical_culture = "avian_01"
+	city_graphical_culture = "covenant_01"
+	
+	empire_flag={
+		icon={
+			category = "custom"
+			file = "chiss_logo.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender = male
+		name = "Hess'ras'inrokini"
+		portrait = "chiss_male_01"
+		texture = 0
+		hair = 6
+		clothes = 1
+		ruler_title = "Aristocra"
+		ruler_title_female = "Aristocra"
+	}
+
+}
+
+
+#Mandalorian Clans
+ mandalorian_clans = {
+	name = "Mandalorian Warrior Clans"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Mandalorian"
+	ship_prefix = ""
+	
+	species_name = "Mandalorian"
+	species_plural = "Mandalorians"	
+	species_adjective = "Mandalorian"
+	species_class = "SWGD_HUMAN"
+	trait = "trait_strong"
+	trait = "trait_natural_engineers"
+	portrait = "human"	
+	adjective = "Mandalorian"
+	
+	authority = "auth_dictatorial"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	government = gov_martial_dictatorship
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_militarist"	
+	
+	flags = { mandalorian_clans custom_start_screen SWGD  }
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Mandalore"
+	planet_class = "pc_continental"	
+	system_name = "Mandalore"
+	initializer = "mandalore_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "dirty_01"
+	
+	empire_flag = {
+		icon={
+			category = "starwars"
+			file = "flag_series_10.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "circle.dds"
+		}
+		colors = {
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender = male
+		name = "the Ultimate"
+		portrait = "mando_male_04"
+		texture = 0
+		hair = 9
+		clothes = 2
+		ruler_title = "Mand'alor"
+		ruler_title_female = "Mand'alor"
+	}
+
+}
+
+#Arkanian Dominion
+arkania_dominion = {
+	name = "Arkanian Dominion"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Arkanian"
+	species_plural = "Arkanians"	
+	species_adjective = "Arkanian"
+	species_class = "SWGD_NEAR_HUMAN"
+	trait="trait_deviants"
+	trait="trait_natural_engineers"
+	trait="trait_talented"
+	portrait = "arkanian"	
+	adjective = "Arkanian"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"	
+	
+	flags = { arkania_dominion custom_start_screen SWGD_START SWGD  }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Arkania"
+	planet_class = "pc_arctic"	
+	system_name = "Arkania"
+	initializer = "arkania_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="pointy"
+			file="flag_pointy_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name="Arkoh Adasca"
+		portrait="arkanian_male_01"
+		texture=0
+		hair=6
+		clothes=0
+		ruler_title="Corporate Council CEO"
+		ruler_title_female="Corporate Council CEO"
+	}
+
+}
+
+
+#Echani Command
+echani_command = {
+	name = "Echani Command"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Echani"
+	species_plural = "Echani"	
+	species_adjective = "Echani"
+	species_class = "SWGD_NEAR_HUMAN"
+	trait="trait_strong"
+	trait="trait_natural_engineers"
+	portrait = "echani"	
+	adjective = "Echani"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"
+	
+	flags = { echani_command custom_start_screen SWGD SWGD_START echani_warriors  }
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Eshan"
+	planet_class = "pc_continental"	
+	system_name = "Eshan"
+	initializer = "eshan_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="pirate"
+			file="flag_pirate_10.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"purple"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Kirinna Scirn"
+		portrait="echani_female_02"
+		texture=0
+		hair=1
+		clothes=2
+		ruler_title="Council Father"
+		ruler_title_female="Council Mother"
+	}
+
+}
+
+#Zygerrian Slave Empire
+zygerrian_empire = {
+	name = "Zygerrian Slave Empire"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "MAM1"
+	ship_prefix = ""
+	
+	species_name = "Zygerrian"
+	species_plural = "Zygerrians"	
+	species_adjective = "Zygerrian"
+	species_class = "MAM"
+	trait="trait_deviants"
+	trait="trait_decadent"
+	trait="trait_natural_sociologists"
+	trait="trait_thrifty"
+	trait="trait_strong"
+	portrait = "mam3"	
+	adjective = "Zygerrian"
+	
+	authority = "auth_imperial"
+	civics = {  }
+	government = gov_martial_dictatorship
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_militarist"
+	
+	flags = { zygerrian_empire custom_start_screen SWGD SWGD_START  }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Zygerria"
+	planet_class = "pc_savannah"	
+	system_name = "Zygerria"
+	initializer = "zygerria_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "dirty_01"
+	
+	empire_flag = {
+		icon={
+			category="domination"
+			file="domination_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"hsv_60_18"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Shultaj Scintel"
+		portrait="mam3"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="Most High King"
+		ruler_title_female="Most High Queen"
+		heir_title="Prince"
+		heir_title_female="Princess"
+	}
+
+}
 
 #####################################
-# Minor FACTIONS
+# Republic FACTIONS
 #####################################
 
 naboo_kingdom = {
@@ -303,7 +676,12 @@ naboo_kingdom = {
 	species_bio = "The Kingdom of Naboo, led by the Monarch of Naboo, rules over the planet of Naboo and its territories."
 	
 	
-	government = "enlightened_monarchy"
+	authority = "auth_democratic"
+	civics={
+		"civic_agrarian_idyll"
+		"civic_meritocracy"
+	}
+	government = gov_moral_democracy
 	ethic = "ethic_fanatic_xenophile"
 	ethic = "ethic_pacifist"
 	
@@ -352,6 +730,892 @@ naboo_kingdom = {
 
 }
 
+
+#Kingdom of Alderaan
+alderaan_kingdom = {
+	name = "Kingdom of Alderaan"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Alderaanian"
+	species_plural = "Alderaanians"	
+	species_adjective = "Alderaanian"
+	species_class = "SWGD_HUMAN"
+	trait="trait_talented"
+	trait="trait_charismatic"
+	trait="trait_deviants"
+	portrait = "human"	
+	adjective = "Alderaanian"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_environmentalist"
+		"civic_agrarian_idyll"
+	}
+	government = gov_moral_democracy
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_pacifist"	
+	
+	flags = { alderaan_kingdom	core_founder REP_START SWGD custom_start_screen  }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Alderaan"
+	planet_class = "pc_continental"	
+	system_name = "Alderaan"
+	initializer = "alderaan_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "asari_01"
+	
+	empire_flag = {
+		icon={
+			category="pointy"
+			file="flag_pointy_7.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"orange"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Alyssa Organa"
+		portrait="human_female_01"
+		texture=0
+		hair=9
+		clothes=5
+		ruler_title = "King"
+		ruler_title_female = "Queen"
+		heir_title="Prince"
+		heir_title_female=" Princess"
+	}
+
+}
+
+
+#Chandrilan House
+chandrilan_house = {
+	name = "Chandrilan House"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Chandrilan"
+	species_plural = "Chandrilans"	
+	species_adjective = "Chandrilan"
+	species_class = "SWGD_HUMAN"
+	trait="trait_talented"
+	trait="trait_charismatic"
+	trait="trait_deviants"
+	portrait = "human"	
+	adjective = "Chandrilan"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_environmentalist"
+		"civic_agrarian_idyll"
+	}
+	government = gov_moral_democracy
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_pacifist"	
+	
+	flags = { chandrilan_house core_founder REP_START SWGD custom_start_screen  }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Chandrila"
+	planet_class = "pc_continental"	
+	system_name = "Chandrila"
+	initializer = "chandrila_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="starwars"
+			file="45.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"black"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Elenna Horil"
+		portrait="human_female_01"
+		texture=0
+		hair=6
+		clothes=5
+		ruler_title="President"
+		ruler_title_female="President"
+	}
+
+}
+
+
+#Corellian Council
+corellian_council = {
+	name = "Corellian Council"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "sw_hu"
+	ship_prefix = ""
+	
+	species_name = "Corellian"
+	species_plural = "Corellians"	
+	species_adjective = "Corellian"
+	species_class = "SWGD_HUMAN"
+	trait="trait_deviants"
+	trait="trait_sedentary"
+	trait="trait_talented"
+	trait="trait_natural_engineers"
+	portrait = "human"	
+	adjective = "Corellian"
+	
+	authority = "auth_oligarchic"
+	civics={
+		"civic_citizen_service"
+		"civic_distinguished_admiralty"
+	}
+	government = gov_citizen_stratocracy
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	ethic="ethic_egalitarian"
+	
+	flags = { corellian_council core_founder REP_START SWGD custom_start_screen }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Corellia"
+	planet_class = "pc_continental"	
+	system_name = "Corellia"
+	initializer = "corellia_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="domination"
+			file="domination_22.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"red_orange"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Shyla Merricope"
+		portrait="human_female_01"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Diktat"
+		ruler_title_female="Diktat"
+	}
+
+}
+
+
+#Anaxes Commonwealth
+anaxes_commonwealth = {
+	name = "Anaxes Commonwealth"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Anaxsi"
+	species_plural = "Anaxsi"	
+	species_adjective = "Anaxsi"
+	species_class = "SWGD_HUMAN"
+	trait="trait_industrious"
+	trait="trait_deviants"
+	trait="trait_quick_learners"
+	portrait = "human"	
+	adjective = "Anaxsi"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_distinguished_admiralty"
+		"civic_nationalistic_zeal"
+	}
+	government = gov_military_commissariat
+	ethic="ethic_egalitarian"
+	ethic="ethic_materialist"
+	ethic="ethic_militarist"
+	
+	flags = { anaxes_commonwealth core_founder SWGD REP_START custom_start_screen  }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Anaxes"
+	planet_class = "pc_continental"	
+	system_name = "Anaxes"
+	initializer = ""	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="blocky"
+			file="flag_blocky_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"turquoise"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name="Cyrus Blackmoor"
+		portrait="human_male_03"
+		texture=0
+		hair=11
+		clothes=4
+		ruler_title="President"
+		ruler_title_female="President"
+	}
+
+}
+
+
+#Brentaal Houses
+brentaal_houses = {
+	name = "Brentaal Houses"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Brentaalan"
+	species_plural = "Brentaalans"	
+	species_adjective = "Brentaalan"
+	species_class = "SWGD_HUMAN"
+	trait="trait_industrious"
+	trait="trait_deviants"
+	trait="trait_quick_learners"	
+	portrait = "human"	
+	adjective = "Brentaalan"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_mining_guilds"
+		"civic_parliamentary_system"
+	}
+	government = gov_direct_democracy
+	ethic="ethic_egalitarian"
+	ethic="ethic_materialist"
+	ethic="ethic_xenophile"
+	
+	flags = { brentaal_houses core_founder SWGD REP_START custom_start_screen  }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Brentaal"
+	planet_class = "pc_continental"	
+	system_name = "Brentaal"
+	initializer = "brentaal_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="human"
+			file="flag_human_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Carth Brentioch"
+		portrait="human_female_01"
+		texture=0
+		hair=6
+		clothes=3
+		ruler_title="House Patriarch"
+		ruler_title_female="House Matriarch"
+	}
+
+}
+
+
+#Duro Consortium
+duros_house = {
+	name = "Duro High House"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "MAM1"
+	ship_prefix = ""
+	
+	species_name = "Duros"
+	species_plural = "Duros"	
+	species_adjective = "Duros"
+	species_class = "MOL"
+	trait="trait_nomadic"
+	trait="trait_industrious"
+	trait="trait_deviants"
+	portrait = "duros"	
+	adjective = "Duros"
+	
+	authority = "auth_oligarchic"
+	civics={
+		"civic_corporate_dominion"
+		"civic_efficient_bureaucracy"
+	}
+	government = gov_megacorporation
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	
+	flags = { duros_house core_founder SWGD REP_START custom_start_screen }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Duro"
+	planet_class = "pc_tropical"	
+	system_name = "Duro"
+	initializer = "duro_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="blocky"
+			file="flag_blocky_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Etro Vookto"
+		portrait="duros"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="Chief Representative Officer"
+		ruler_title_female="Chief Representative Officer"
+	}
+
+}
+
+
+#Kuat Aristocracy
+kuat_aristocracy = {
+	name = "Kuat Aristocracy"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Kuati"
+	species_plural = "Kuatis"	
+	species_adjective = "Kuati"
+	species_class = "HUM"
+	trait="trait_natural_engineers"
+	trait="trait_thrifty"
+	trait="trait_deviants"
+	portrait = "human"	
+	adjective = "Kuati"
+	
+	authority = "auth_oligarchic"
+	civics={
+		"civic_distinguished_admiralty"
+		"civic_aristocratic_elite"
+	}
+	government = gov_executive_committee
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_materialist"
+	
+	flags = { kuat_aristocracy core_founder REP_START SWGD custom_start_screen }
+	
+	weapon = "tech_missiles_1"
+	ftl = hyperdrive
+	
+	planet_name = "Kuat"
+	planet_class = "pc_continental"	
+	system_name = "Kuat"
+	initializer = "kuat_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="starwarssilver"
+			file="44.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Sarna Lerann"
+		portrait="human_female_04"
+		texture=0
+		hair=15
+		clothes=3
+		ruler_title="Ambassador"
+		ruler_title_female="Matriarch"
+	}
+
+}
+
+
+#Rendili Jurisdictions
+rendili_jurisdictions = {
+	name = "Rendili Jurisdictions"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Rendili"
+	species_plural = "Rendili"	
+	species_adjective = "Rendili"
+	species_class = "SWGD_HUMAN"
+	trait="trait_industrious"
+	trait="trait_deviants"
+	trait="trait_natural_engineers"	
+	portrait = "human"	
+	adjective = "Rendili"
+	
+	authority = "auth_oligarchic"
+	civics={
+		"civic_corporate_dominion"
+		"civic_idealistic_foundation"
+	}
+	government = gov_megacorporation
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	
+	flags = { rendili_jurisdictions core_founder REP_START SWGD custom_start_screen  }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Rendili"
+	planet_class = "pc_continental"	
+	system_name = "Rendili"
+	initializer = "rendili_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="pirate"
+			file="flag_pirate_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name="Alistar Dayne"
+		portrait="human_male_04"
+		texture=0
+		hair=7
+		clothes=1
+		ruler_title="Arch-Provost"
+		ruler_title_female="Arch-Provost"
+	}
+
+}
+
+
+#Alsakan Kingdom
+alsakan_kingdom = {
+	name = "Alsakan Kingdom"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Alsakan"
+	species_plural = "Alsakans"	
+	species_adjective = "Alsakan"
+	species_class = "HUM"
+	trait="trait_natural_engineers"
+	trait="trait_thrifty"
+	trait="trait_deviants"
+	portrait = "human"	
+	adjective = "Alsakan"
+	
+	authority = "auth_oligarchic"
+	civics={
+		"civic_aristocratic_elite"
+		"civic_idealistic_foundation"
+	}
+	government = gov_military_junta
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	
+	flags = { alsakan_kingdom SWGD core_founder REP_START custom_start_screen }
+	
+	weapon = "tech_missiles_1"
+	ftl = hyperdrive
+	
+	planet_name = "Alsakan"
+	planet_class = "pc_continental"	
+	system_name = "Alsakan"
+	initializer = "alsakan_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="domination"
+			file="domination_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"indigo"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Vania Drayven"
+		portrait="human_female_03"
+		texture=0
+		hair=15
+		clothes=3
+		ruler_title="Ambassador"
+		ruler_title_female="Ambassador"
+	}
+
+}
+
+#####################################
+# CIS FACTIONS
+#####################################
+
+techno_union = {
+	name = "Techno Union"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+	
+	name_list = "FUN2"
+	ship_prefix = " "
+	
+	species_name = "Skakoan"
+	species_plural = "Skakoans"
+	species_adjective = "Skakoan"
+	species_class = "MOL"
+	trait = "trait_weak"
+	trait = "trait_thrifty"
+	trait = "trait_communal"
+	trait = "trait_deviants"	
+	portrait = "skakoan"
+	adjective = "Skakoan"
+	
+	species_bio = "Neimoidians placed tremendous value on wealth and material possessions, and would go to great lengths to gain money and power, resulting in a stereotype of being greedy and cowardly; however, they are very easily intimidated, and hate combat."
+		
+	authority = "auth_oligarchic"
+	civics={
+		"civic_corporate_dominion"
+		"civic_mechanists"
+	}
+	government = gov_megacorporation
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_materialist"
+	
+	flags = { techno_union SWGD SWGD_START custom_start_screen isolationist }
+	
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Skako"
+	planet_class = "pc_continental"	
+	initializer = ""
+	system_name = "Skako"
+	
+	graphical_culture = "arthropoid_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon={
+			category="spherical"
+			file="flag_spherical_20.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"hsv_70_9"
+			"hsv_40_9"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender = male
+		name = "Wat Tambor"
+		portrait = "skakoan"
+		texture = 0
+		hair = 0
+		clothes = 0
+		ruler_title = "Foreman"
+		ruler_title_female = "Foreman"
+	}
+	
+		
+}
+
+intergalactic_banking_clan = {
+	name = "Intergalactic Banking Clan"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+	
+	name_list = "FUN2"
+	ship_prefix = " "
+	
+	species_name = "Muun"
+	species_plural = "Muun"
+	species_adjective = "Muun"
+	species_class = "MOL"
+	trait = "trait_weak"
+	trait = "trait_thrifty"
+	trait = "trait_communal"
+	trait = "trait_deviants"	
+	portrait = "mol5"
+	adjective = "Muun"
+	
+	species_bio = "Neimoidians placed tremendous value on wealth and material possessions, and would go to great lengths to gain money and power, resulting in a stereotype of being greedy and cowardly; however, they are very easily intimidated, and hate combat."
+		
+	authority = "auth_oligarchic"
+	civics={
+		"civic_corporate_dominion"
+		"civic_efficient_bureaucracy"
+	}
+	government = gov_megacorporation
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_fanatic_materialist"	
+	
+	flags = { intergalactic_banking_clan SWGD SWGD_START custom_start_screen}
+	
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Muunilinst"
+	planet_class = "pc_continental"	
+	initializer = ""
+	system_name = "Muunilinst"
+	
+	graphical_culture = "arthropoid_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon={
+			category="spherical"
+			file="flag_spherical_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"hsv_light_50_54"
+			"gray_18"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender = male
+		name = "San Hill"
+		portrait = "mol1"
+		texture = 4
+		hair = 0
+		clothes = 0
+		ruler_title = "Chairman"
+		ruler_title_female = "Chairman"
+	}
+	
+		
+}
+
+#Geonosian Hives
+geonosian_hives = {
+	name = "Geonosian Hives"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Geonosian"
+	ship_prefix = ""
+	
+	species_name = "Geonosian"
+	species_plural = "Geonosians"	
+	species_adjective = "Geonosian"
+	species_class = "ART"
+	trait="trait_fleeting"
+	trait="trait_rapid_breeders"
+	trait="trait_natural_engineers"
+	trait="trait_nonadaptive"
+	portrait = "art1"	
+	adjective = "Geonosian"
+	
+	authority = "auth_imperial"
+	civics={
+		"civic_cutthroat_politics"
+		"civic_aristocratic_elite"
+	}
+	government = gov_despotic_hegemony
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_materialist"
+	
+	flags = { geonosian_hives SWGD_START custom_start_screen SWGD  }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Geonosis"
+	planet_class = "pc_desert"	
+	system_name = "Geonosis"
+	initializer = "geonosis_system_initializer"	
+	
+	graphical_culture = "arthropoid_01"
+	city_graphical_culture = "molluscoid_01"
+	
+	empire_flag = {
+		icon={
+			category="zoological"
+			file="flag_zoological_19.dds"
+		}
+		background={
+			category="backgrounds"
+			file="pattern_01.dds"
+		}
+		colors={
+			"dark_brown"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Sirthi"
+		portrait="art1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Archduke"
+		ruler_title_female="Archduke"
+	}
+
+}
+
+#####################################
+# Minor FACTIONS
+#####################################
+
 kamino_council = {
 	name = "Council of Kamino"
 	spawn_enabled = always # yes / no / always
@@ -372,7 +1636,12 @@ kamino_council = {
 	
 	species_bio = "The Ruling Council is the governing body of the planet Kamino. The Council maintains administrative offices in the capital, Tipoca City, which is governed by a Prime Minister. The Prime Minister is the head of the Kamino colony governors that comprises the Ruling Council."
 	
-	government = "science_directorate"
+	authority = "auth_oligarchic"
+	civics={
+		"civic_efficient_bureaucracy"
+		"civic_functional_architecture"
+	}
+	government = gov_executive_committee
 	ethic = "ethic_xenophile"
 	ethic = "ethic_fanatic_materialist"
 	
@@ -419,6 +1688,802 @@ kamino_council = {
 
 }
 
+
+#Zabrak Council
+zabrak_council = {
+	name = "Zabrak Council"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "HUM2"
+	ship_prefix = ""
+	
+	species_name = "Zabrak"
+	species_plural = "Zabraks"	
+	species_adjective = "Zabrak"
+	species_class = "SWGD_HUMANOID"
+	trait="trait_resilient"
+	trait="trait_deviants"
+	trait="trait_strong"
+	trait="trait_quick_learners"
+	portrait = "zabrak"	
+	adjective = "Zabrak"
+	
+	authority = "auth_oligarchic"
+	civics = {  }
+	government = gov_military_junta
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_militarist"
+    ethic = "ethic_materialist"
+	
+	flags = { zabrak_council custom_start_screen SWGD SWGD_START }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Iridonia"
+	planet_class = "pc_arid"	
+	system_name = "Iridonia"
+	initializer = "iridonia_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="zoological"
+			file="flag_zoological_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"black"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name="Torand Keel"
+		portrait="zabrak_male_01"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="Chancellor"
+		ruler_title_female="Chancellor"
+	}
+
+}
+
+#Dorin Republic
+dorin_republic = {
+	name = "Dorin Republic"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "HUM2"
+	ship_prefix = ""
+	
+	species_name = "Kel Dor"
+	species_plural = "Kel Dors"	
+	species_adjective = "Kel Dor"
+	species_class = "SWGD_HUMANOID"
+	trait="trait_communal"
+	trait="trait_repugnant"
+	trait="trait_intelligent"
+	portrait = "kel_dor"	
+	adjective = "Kel Dor"
+	
+	authority = "auth_oligarchic"
+	civics={
+		"civic_exalted_priesthood"
+		"civic_free_haven"
+	}
+	government = gov_holy_tribunal
+	ethic="ethic_egalitarian"
+	ethic="ethic_spiritualist"		
+	ethic = "ethic_xenophile"
+	
+	flags = { dorin_republic custom_start_screen SWGD SWGD_START baran_do_sages  }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Dorin"
+	planet_class = "pc_continental"	
+	system_name = "Dorin"
+	initializer = "dorin_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="pointy"
+			file="flag_pointy_22.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"gray_18"
+			"hsv_70_9"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name="Ito Jurn"
+		portrait="kel_dor_male_01"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="President"
+		ruler_title_female="President"
+	}
+
+}
+
+
+
+
+
+#Twi'lek Clan Council
+twilek_clans = {
+	name = "Twi'lek Clan Council"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "twilek"
+	ship_prefix = ""
+	
+	species_name = "Twi'lek"
+	species_plural = "Twi'leks"	
+	species_adjective = "Twi'lek"
+	species_class = "SWGD_HUMANOID"
+	trait="trait_resilient"
+	trait="trait_deviants"
+	trait="trait_communal"
+	trait="trait_nomadic"
+	portrait = "twilek"	
+	adjective = "Twi'lek"
+	
+	authority = "auth_oligarchic"
+	civics={
+		"civic_slaver_guilds"
+		"civic_warrior_culture"
+	}
+	government = gov_war_council
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"	
+	
+	flags = { twilek_clans custom_start_screen SWGD SWGD_START }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Ryloth"
+	planet_class = "pc_arid"	
+	system_name = "Ryloth"
+	initializer = "ryloth_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "sangheili_01"
+	
+	empire_flag = {
+		icon={
+			category="zoological"
+			file="flag_zoological_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name="Chant Secura"
+		portrait="twilek_male_01"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="Council Chief"
+	}
+
+}
+
+
+#Togruta Royal Dominion
+togruta_dominion = {
+	name = "Togruta Royal Dominion"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Togruta"
+	ship_prefix = ""
+	
+	species_name = "Togruta"
+	species_plural = "Togrutas"	
+	species_adjective = "Togruta"
+	species_class = "SWGD_HUMANOID"
+	trait="trait_communal"
+	trait="trait_deviants"
+	trait="trait_agrarian"
+	portrait = "togruta"	
+	adjective = "Togruta"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_agrarian_idyll"
+		"civic_idealistic_foundation"
+	}
+	government = gov_moral_democracy
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	
+	flags = { togruta_dominion custom_start_screen SWGD SWGD_START  }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Shili"
+	planet_class = "pc_continental"	
+	system_name = "Shili"
+	initializer = "shili_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="ornate"
+			file="flag_ornate_16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"hsv_40_36"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Ashla Vashee"
+		portrait="togruta_female_01"
+		texture=0
+		hair=0
+		clothes=4
+		heir_title="Prince"
+		heir_title_female="Princess"
+	}
+
+}
+
+#Kingdom of Zeltros
+zeltros_kingdom = {
+	name = "Kingdom of Zeltros"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Zeltron"
+	species_plural = "Zeltrons"	
+	species_adjective = "Zeltron"
+	species_class = "SWGD_NEAR_HUMAN"
+	trait="trait_charismatic"
+	trait="trait_deviants"
+	trait="trait_talented"
+	portrait = "zeltron"	
+	adjective = "Zeltron"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"
+	
+	flags = { zeltros_kingdom custom_start_screen SWGD_START SWGD }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Zeltros"
+	planet_class = "pc_continental"	
+	system_name = "Zel"
+	initializer = "zeltros_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="spherical"
+			file="flag_spherical_8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"hsv_70_90"
+			"turquoise"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Aliyah Zeldar"
+		portrait="zeltron_female_01"
+		texture=1
+		hair=0
+		clothes=5
+		heir_title="Prince"
+		heir_title_female="Princess"
+	}
+
+}
+
+
+#Mon Calamari Territories
+mon_calamari_territories = {
+	name = "Mon Calamari Territories"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "ART2"
+	ship_prefix = ""
+	
+	species_name = "Mon Calamari"
+	species_plural = "Mon Calamari"	
+	species_adjective = "Mon Calamari"
+	species_class = "MOL"
+	trait="trait_intelligent"
+	trait="trait_natural_engineers"
+	trait="trait_deviants"
+	portrait = "mon_calamari"	
+	adjective = "Mon Calamari"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"
+	
+	flags = { mon_calamari_territories SWGD_START custom_start_screen SWGD }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Mon Calamari"
+	planet_class = "pc_ocean"	
+	system_name = "Mon Calamari"
+	initializer = "mon_calamari_system_initializer"	
+	
+	graphical_culture = "fungoid_01"
+	city_graphical_culture = "aquatic_01"
+	
+	empire_flag = {
+		icon={
+			category="starwars"
+			file="13.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"dark_blue"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name=""
+		portrait="mon_calamari"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="Senator"
+		ruler_title_female="Senator"
+	}
+
+}
+
+
+#Utapauan Committee
+utapauan_committee = {
+	name = "Utapauan Committee"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "MAM3"
+	ship_prefix = ""
+	
+	species_name = "Pau'an"
+	species_plural = "Pau'ans"	
+	species_adjective = "Pau'an"
+	species_class = "ART"
+	trait="trait_venerable"
+	trait="trait_solitary"
+	trait="trait_nonadaptive"
+	portrait = "art6"	
+	adjective = "Pau'an"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"
+	
+	flags = { utapauan_committee trade_guild custom_start_screen SWGD_START SWGD  }
+	
+	weapon = "tech_missiles_1"
+	ftl = hyperdrive
+	
+	planet_name = "Utapau"
+	planet_class = "pc_savannah"	
+	system_name = "Utapau"
+	initializer = "utapau_system_initializer"	
+	
+	graphical_culture = "arthropoid_01"
+	city_graphical_culture = "sangheili_01"
+	
+	empire_flag = {
+		icon={
+			category="spherical"
+			file="flag_spherical_15.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"dark_brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Thaloth"
+		portrait="art6"
+		texture=0
+		hair=0
+		clothes=2
+		ruler_title="Port Administrator"
+		ruler_title_female="Port Administrator"
+	}
+
+}
+
+
+#Cathar Tribes
+cathar_tribes = {
+	name = "Cathar Tribes"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "MAM3"
+	ship_prefix = ""
+	
+	species_name = "Cathar"
+	species_plural = "Cathars"	
+	species_adjective = "Cathar"
+	species_class = "SWGD_HUMAN"
+	trait="trait_strong"
+	trait="trait_deviants"
+	trait="trait_communal"
+	portrait = "mam14"	
+	adjective = "Cathar"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"
+	
+	flags = { cathar_tribes SWGD_START custom_start_screen SWGD }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Cathar"
+	planet_class = "pc_savannah"	
+	system_name = "Cathar"
+	initializer = "cathar_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "overgrown_01"
+	
+	empire_flag = {
+		icon={
+			category="zoological"
+			file="flag_zoological_12.dds"
+		}
+		background={
+			category="backgrounds"
+			file="diagonal.dds"
+		}
+		colors={
+			"dark_brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name="Jesslur"
+		portrait="mam14"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Elder"
+		ruler_title_female="Elder"
+	}
+
+}
+
+
+#Combined Bothan Clans
+bothan_clans = {
+	name = "Combined Bothan Clans"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "MAM3"
+	ship_prefix = ""
+	
+	species_name = "Bothan"
+	species_plural = "Bothans"	
+	species_adjective = "Bothan"
+	species_class = "SWGD_HUMAN"
+	trait="trait_talented"
+	trait="trait_quick_learners"
+	trait="trait_deviants"
+	portrait = "bothan"	
+	adjective = "Bothan"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"
+	
+	flags = { bothan_clans SWGD_START custom_start_screen SWGD }
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Bothawui"
+	planet_class = "pc_continental"	
+	system_name = "Bothawui"
+	initializer = "bothawui_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="blocky"
+			file="flag_blocky_20.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"burgundy"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name="Thaloth"
+		portrait="bothan"
+		texture=0
+		hair=0
+		clothes=4
+		ruler_title="First Secretary"
+		ruler_title_female="First Secretary"
+	}
+
+}
+
+
+#Kingdom of Onderon
+onderon_kingdom = {
+	name = "Kingdom of Onderon"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "sw_hu"
+	ship_prefix = "ISS"
+	
+	species_name = "Onderonian"
+	species_plural = "Onderonians"	
+	species_adjective = "Onderonian"
+	species_class = "HUM"
+	trait="trait_quick_learners"
+	trait="trait_deviants"
+	trait="trait_resilient"
+	trait="trait_natural_sociologists"
+	portrait = "human"	
+	adjective = "Onderonian"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"
+	
+	flags = { onderon_kingdom SWGD SWGD_START custom_start_screen }
+	
+	weapon = "tech_missiles_1"
+	ftl = hyperdrive
+	
+	planet_name = "Onderon"
+	planet_class = "pc_tropical"	
+	system_name = "Onderon"
+	initializer = "onderon_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="zoological"
+			file="flag_zoological_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"dark_brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=female
+		name="Talia"
+		portrait="human_female_04"
+		texture=0
+		hair=4
+		clothes=5
+		ruler_title="King"
+		ruler_title_female="Queen"
+	}
+
+}
+
+#Rodian Clans
+rodian_clans = {
+	name = "Rodian Clans"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "MOL3"
+	ship_prefix = ""
+	
+	species_name = "Rodian"
+	species_plural = "Rodians"	
+	species_adjective = "Rodian"
+	species_class = "REP"
+	trait="trait_deviants"
+	trait="trait_resilient"
+	portrait = "rodian"	
+	adjective = "Rodian"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"	
+	
+	flags = { rodian_clans SWGD SWGD_START custom_start_screen }
+	
+	weapon = "tech_missiles_1"
+	ftl = hyperdrive
+	
+	planet_name = "Rodia"
+	planet_class = "pc_tropical"	
+	system_name = "Rodia"
+	initializer = "rodia_system_initializer"	
+	
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "reptilian_01"
+	
+	empire_flag = {
+		icon={
+			category="domination"
+			file="domination_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"burgundy"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name="Hako Tan"
+		portrait="rodian"
+		texture=0
+		hair=0
+		clothes=2
+		ruler_title="Grand Protector"
+		ruler_title_female="Grand Protector"
+	}
+
+}
+
+
+
 bespin_guilds = {
 	name = "Bespin Trade Guilds"
 	spawn_enabled = always # yes / no / always
@@ -440,8 +2505,13 @@ bespin_guilds = {
 	species_bio = "The Bespin Trade Guilds, led by a Guildmaster, represents the various cities and facilities on the planet Bespin."
 	
 	
-	government = "plutocratic_oligarchy"
-	ethic = "ethic_individualist"
+	authority = "auth_oligarchic"
+	civics={
+		"civic_corporate_dominion"
+		"civic_mining_guilds"
+	}
+	government = gov_megacorporation
+	ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
 	ethic = "ethic_pacifist"	
 	
@@ -488,55 +2558,59 @@ bespin_guilds = {
 
 }
 
-chiss_ascendancy = {
-	name = "Chiss Ascendancy"
+#Chalactan Convocation of Adepts
+chalactan_convocation = {
+	name = "Chalactan Convocation of Adepts"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
 	
-	name_list = "Chiss"
-	ship_prefix = " "
+	name_list = "sw_hu"
+	ship_prefix = ""
 	
-	species_name = "Chiss"
-	species_plural = "Chiss"	
-	species_adjective = "Chiss"
-	species_class = "SWGD_NEAR_HUMAN"
-	trait="trait_intelligent"
-	trait="trait_talented"
-	trait="trait_solitary"
-	trait="trait_sedentary"
-	portrait = "chiss"	
-	adjective = "Chiss"	
+	species_name = "Chalactan"
+	species_plural = "Chalactans"	
+	species_adjective = "Chalactan"
+	species_class = "SWGD_HUMAN"
+	trait="trait_force_attuned"
+	trait="trait_deviants"
+	portrait = "chalactan"	
+	adjective = "Chalactan"
 	
-	government = "military_junta"
-	ethic="ethic_collectivist"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
+	authority = "auth_oligarchic"
+	civics={
+		"civic_exalted_priesthood"
+		"civic_idealistic_foundation"
+	}
+	government = gov_holy_tribunal
+	ethic="ethic_light_side"
+	ethic="ethic_egalitarian"
+	ethic="ethic_spiritualist"	
 	
-	flags = { SWGD custom_start_screen chiss_ascendancy }
+	flags = { chalactan_convocation SWGD custom_start_screen SWGD_START chalactan_adepts  }
 	
 	weapon = "tech_lasers_1"
 	ftl = hyperdrive
 	
-	planet_name = "Csilla"
-	planet_class = "pc_arctic"
-	system_name = "Csilla"
-	initializer = "csilla_system_initializer"
+	planet_name = "Chalacta"
+	planet_class = "pc_continental"	
+	system_name = "Chalacta"
+	initializer = "chalacta_system_initializer"	
 	
-	graphical_culture = "avian_01"
-	city_graphical_culture = "covenant_01"
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "dirty_01"
 	
-	empire_flag={
+	empire_flag = {
 		icon={
-			category = "custom"
-			file = "chiss_logo.dds"
+			category = "ornate"
+			file = "flag_ornate_8.dds"
 		}
 		background = {
 			category = "backgrounds"
-			file = "00_solid.dds"
+			file = "triangle_split.dds"
 		}
 		colors = {
-			"dark_grey"
-			"black"
+			"red"
+			"orange"
 			"null"
 			"null"
 		}
@@ -544,19 +2618,228 @@ chiss_ascendancy = {
 	
 	ruler = {
 		gender = male
-		name = "Hess'ras'inrokini"
-		portrait = "chiss_male_01"
-		texture = 0
-		hair = 6
-		clothes = 1
-		ruler_title = "Aristocra"
-		ruler_title_female = "Aristocra"
+		name = "Soma Gangi"
+		portrait = "chalactan_male_01"
+		texture = 26
+		hair = 0
+		clothes = 4
+		ruler_title = "Master of Illumination"
+		ruler_title_female = "Master of Illumination"
 	}
 
 }
 
-#####################################
-# Unknown FACTIONS
-#####################################
+#Haruun Kal Representative Council
+haruun_kal_council = {
+	name = "Haruun Kal Representative Council"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Balawai"
+	species_plural = "Balawai"	
+	species_adjective = "Balawai"
+	species_class = "SWGD_HUMAN"
+	trait="trait_deviants"
+	trait="trait_natural_engineers"
+	portrait = "human"	
+	adjective = "Balawai"
+	
+	authority = "auth_dictatorial"
+	civics = {  }
+	government = gov_citizen_stratocracy
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic = "ethic_materialist"
+	
+	flags = { haruun_kal_council custom_start_screen SWGD SWGD_START }
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Haruun Kal"
+	planet_class = "pc_tropical"	
+	system_name = "Al'Har"
+	initializer = ""	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon = {
+			category = "ornate"
+			file = "flag_ornate_7.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "vertical.dds"
+		}
+		colors = {
+			"blue"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender = male
+		name = "Yarba Idu"
+		portrait = "human_male_05"
+		texture = 0
+		hair = 1
+		clothes = 4
+		ruler_title = "Council Chief"
+		ruler_title_female = "Council Chief"
+	}
+
+}
 
 
+#Taris Civil Authority
+taris_authority = {
+	name = "Taris Civil Authority"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "Republic"
+	ship_prefix = ""
+	
+	species_name = "Tarisian"
+	species_plural = "Tarisians"	
+	species_adjective = "Tarisian"
+	species_class = "SWGD_HUMAN"
+	trait="trait_industrious"
+	trait="trait_deviants"
+	trait="trait_quick_learners"
+	portrait = "human"	
+	adjective = "Tarisian"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"
+	
+	flags = { taris_authority custom_start_screen SWGD  }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Taris"
+	planet_class = "pc_continental"	
+	system_name = "Taris"
+	initializer = "taris_system_initializer"	
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon={
+			category="pointy"
+			file="flag_pointy_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"null"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name="Jorrah Norn"
+		portrait="human_male_02"
+		texture=0
+		hair=6
+		clothes=4
+		ruler_title="Chancellor"
+		ruler_title_female="Chancellor"
+	}
+
+}
+
+
+
+
+#Ssi-ruuvi Imperium
+ssi_ruuvi_imperium = {
+	name = "Ssi-ruuvi Imperium"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	
+	name_list = "REP2"
+	ship_prefix = ""
+	
+	species_name = "Ssi-ruu"
+	species_plural = "Ssi-ruuk"	
+	species_adjective = "Ssi-ruu"
+	species_class = "REP"
+	trait="trait_strong"
+	trait="trait_enduring"
+	trait="trait_resilient"
+	trait="trait_sedentary"
+	portrait = "rep14"	
+	adjective = "Ssi-ruu"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	government = gov_representative_democracy
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"	
+	
+	flags = { ssi_ruuvi_imperium SWGD custom_start_screen SWGD_START  }
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Lwhekk"
+	planet_class = "pc_tropical"	
+	system_name = "Lwhekk"
+	initializer = "lwhekk_system_initializer"	
+	
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "reptilian_01"
+	
+	empire_flag = {
+		icon={
+			category="starwars"
+			file="23.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"orange"
+			"turquoise"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name=""
+		portrait="rep14"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Shreeftut"
+		ruler_title_female="Shreeftut"
+	}
+
+}

@@ -2,8 +2,8 @@ static_galaxy_scenario = {
 	name = "Star Wars: A Galaxy Divided"
 	priority = 0					#priority decides in which order the scenarios are listed
 	default = yes
-	num_empires = { min = 2 max = 40 }	#limits player customization
-	num_empire_default = 4
+	num_empires = { min = 38 max = 40 }	#limits player customization
+	num_empire_default = 38
 	fallen_empire_default = 3
 	fallen_empire_max = 3
 	advanced_empire_default = 0
@@ -35,7 +35,7 @@ static_galaxy_scenario = {
 		system = { id = "25" name = "Ojom" position = { x = -45 y = 69 } initializer = ojom_system_initializer }
 		system = { id = "26" name = "Hakassi" position = { x = -48 y = 64 } initializer = hakassi_system_initializer }
 		system = { id = "27" name = "Ebaq" position = { x = -45 y = 60 } initializer = ebaq_system_initializer }
-		system = { id = "2095" name = "Force Cluster" position = { x = -1 y = 59 } }
+		system = { id = "2095" name = "Galactic Center" position = { x = -1 y = 59 } initializer = galactic_center_system_initializer }
 
 
 
@@ -110,7 +110,7 @@ static_galaxy_scenario = {
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = brentaal
+						 has_country_flag = brentaal_houses
 						}
 					}}
 		system = { id = "73" name = "Chandrila" position = { x = -23 y = -14 }initializer = chandrila_system_initializer
@@ -118,7 +118,7 @@ static_galaxy_scenario = {
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = chandrila
+						 has_country_flag = chandrilan_house
 						}
 					}}
 		system = { id = "74" name = "Corulag" position = { x = -21 y = -12 } }
@@ -127,7 +127,7 @@ static_galaxy_scenario = {
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = anaxes
+						 has_country_flag = anaxes_commonwealth
 						}
 					}}
 		system = { id = "76" name = "Grizmallt" position = { x = -12 y = -7 } }
@@ -137,11 +137,18 @@ static_galaxy_scenario = {
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = alsakan
+						 has_country_flag = alsakan_kingdom
 						}
 					}}
 		system = { id = "78" name = "Tepasi" position = { x = -38 y = -8 } }
-		system = { id = "79" name = "Skako" position = { x = -32 y = -4 } }
+		system = { id = "79" name = "Skako" position = { x = -32 y = -4 } 
+		spawn_weight = {
+					base = 0
+					modifier = {
+						 add = 100000
+						 has_country_flag = techno_union
+						}
+					}}
 		system = { id = "80" name = "Basilisk" position = { x = -26 y = -3 } }
 		system = { id = "82" name = "Yulant" position = { x = -14 y = 7 } }
 		system = { id = "83" name = "Aargau" position = { x = -17 y = 8 } }
@@ -174,7 +181,7 @@ static_galaxy_scenario = {
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = kuat
+						 has_country_flag = kuat_aristocracy
 						}
 					}}
 		system = { id = "107" name = "Talravin" position = { x = -64 y = 31 } }
@@ -199,7 +206,7 @@ static_galaxy_scenario = {
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = corellian_empire
+						 has_country_flag = corellian_council
 						}
 					}}
 		system = { id = "128" name = "Duro" position = { x = -63 y = 80 } initializer = duro_system_initializer
@@ -207,7 +214,7 @@ static_galaxy_scenario = {
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = duro
+						 has_country_flag = duros_house
 						}
 					}
 					}
@@ -228,7 +235,7 @@ static_galaxy_scenario = {
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = rendili
+						 has_country_flag = rendili_jurisdictions
 						}
 					}}
 		system = { id = "2025" name = "Hosnian" position = { x = -63 y = 116 } }
@@ -415,7 +422,7 @@ static_galaxy_scenario = {
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = arkania
+						 has_country_flag = arkania_dominion
 						}
 				}
 
@@ -557,7 +564,7 @@ static_galaxy_scenario = {
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = onderon
+						 has_country_flag = onderon_kingdom
 						}
 					}}
 		system = { id = "803" name = "Roqoo Depot" position = { x = -152 y = -26 } }
@@ -582,8 +589,8 @@ static_galaxy_scenario = {
 		spawn_weight = {
 					base = 0
 					modifier = {
+						 has_country_flag = echani_command
 						 add = 100000
-						 has_country_flag = echani
 						}
 					}}
 		system = { id = "2073" name = "Thyrsus" position = { x = -84 y = -62 }
@@ -740,7 +747,7 @@ initializer = almera_system_initializer}
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = dorin
+						 has_country_flag = dorin_republic
 						}
 					}}
 		system = { id = "667" name = "Tynna" position = { x = -121 y = 170 } }
@@ -794,7 +801,7 @@ initializer = almera_system_initializer}
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = togruta_council
+						 has_country_flag = togruta_dominion
 						}
 					}}
 		system = { id = "2030" name = "Kiros" position = { x = -22 y = -96 }initializer = kiros_system_initializer}
@@ -1193,7 +1200,7 @@ initializer = almera_system_initializer}
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = haruun_kal
+						 has_country_flag = haruun_kal_council
 						}
 					}}
 		system = { id = "2022" name = "Katarr" position = { x = -162 y = -71 } initializer = katarr_system_initializer }
@@ -1462,7 +1469,7 @@ initializer = almera_system_initializer}
 		system = { id = "245" name = "Shumavar" position = { x = -38 y = 388 } }
 		system = { id = "246" name = "Atravis" position = { x = -30 y = 397 } }
 		system = { id = "247" name = "Tosste" position = { x = -14 y = 416 } }
-		system = { id = "248" name = "Mustafar" position = { x = -7 y = 414 } }
+		system = { id = "248" name = "Mustafar" position = { x = -7 y = 414 } initializer = mustafar_system_initializer }
 		system = { id = "250" name = "Koda Station" position = { x = 117 y = 340 } }
 		system = { id = "251" name = "Cmaoli Di" position = { x = -77 y = 324 } }
 		system = { id = "252" name = "Sullust" position = { x = -66 y = 328 } }
@@ -1521,7 +1528,7 @@ initializer = almera_system_initializer}
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = rodian
+						 has_country_flag = rodian_clans
 						}
 					}}
 		system = { id = "302" name = "Tatooine" position = { x = -271 y = 283 } initializer = tatooine_system_initializer}
@@ -1612,7 +1619,14 @@ initializer = almera_system_initializer}
 		system = { id = "382" name = "Ord Sedra" position = { x = 34 y = -226 } }
 		system = { id = "383" name = "Venestria" position = { x = 24 y = -228 } }
 		system = { id = "384" name = "Kwevron" position = { x = 15 y = -226 } }
-		system = { id = "385" name = "Muunilinst" position = { x = 34 y = -231 } }
+		system = { id = "385" name = "Muunilinst" position = { x = 34 y = -231 }
+		spawn_weight = {
+					base = 0
+					modifier = {
+						 add = 100000
+						 has_country_flag = intergalactic_banking_clan
+						}
+					} }
 		system = { id = "386" name = "Jaemus" position = { x = 36 y = -247 } }
 		system = { id = "388" name = "Bastion" position = { x = 38 y = -272 } }
 		system = { id = "391" name = "Dubrillion" position = { x = 14 y = -262 } }
@@ -1725,7 +1739,7 @@ initializer = almera_system_initializer}
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = mon_calamari
+						 has_country_flag = mon_calamari_territories
 						}
 					}}
 		system = { id = "505" name = "Hinakuu" position = { x = -397 y = -128 } }
@@ -1796,7 +1810,7 @@ initializer = almera_system_initializer}
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = taris
+						 has_country_flag = taris_authority
 						}
 					}}
 		system = { id = "581" name = "Bandomeer" position = { x = -134 y = -135 } }
@@ -2426,7 +2440,7 @@ initializer = almera_system_initializer}
 					base = 0
 					modifier = {
 						 add = 100000
-						 has_country_flag = ssi_ruuvi
+						 has_country_flag = ssi_ruuvi_imperium
 						}
 					}}
 		system = { id = "1047" name = "Ilum" position = { x = 173 y = -103 } }

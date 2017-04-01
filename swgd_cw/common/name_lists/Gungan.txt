@@ -1,4 +1,4 @@
-Gungan = {
+﻿Gungan = {
 	ship_names = {
 		generic = {
 		}

@@ -1,4 +1,4 @@
-### Ewoks
+﻿### Ewoks
 Ewoks = {
 
 	ship_names = {

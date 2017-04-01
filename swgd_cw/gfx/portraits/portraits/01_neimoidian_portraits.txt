@@ -1,0 +1,25 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+
+portraits = {
+
+
+	neimoidian = {	entity = "portrait_molluscoid_05_entity" clothes_selector = "molluscoid_slender_clothes_01" hair_selector = "no_texture" greeting_sound = "molluscoid_01_greetings" 
+			character_textures = {
+					"gfx/models/portraits/neimoidian/neimoidian_male_01.dds"
+					"gfx/models/portraits/neimoidian/neimoidian_male_02.dds"
+					#"gfx/models/portraits/neimoidian/hutt_male_03.dds"
+					
+				}
+	}
+	
+}

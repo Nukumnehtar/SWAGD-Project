@@ -1,0 +1,373 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+
+# Opinions of Interference Policy
+opinion_policy_foreign_policy = {
+	opinion = {
+		base = 0
+		modifier = {
+			add = -5
+			has_ethic = "ethic_xenophile"
+			FROM = {
+				has_policy_flag = isolationism
+			}
+		}
+
+		modifier = {
+			add = -10
+			has_ethic = "ethic_fanatic_xenophile"
+			FROM = {
+				has_policy_flag = isolationism
+			}
+		}
+
+		modifier = {
+			add = 10
+			has_policy_flag = isolationism
+			FROM = {
+				has_policy_flag = isolationism
+			}
+		}
+		
+		modifier = {
+			add = -5
+			has_ethic = "ethic_xenophobe"
+			FROM = {
+				has_policy_flag = globalism
+			}
+		}
+
+		modifier = {
+			add = -10
+			has_ethic = "ethic_fanatic_xenophobe"
+			FROM = {
+				has_policy_flag = globalism
+			}
+		}
+
+		modifier = {
+			add = 10
+			has_policy_flag = globalism
+			FROM = {
+				has_policy_flag = globalism
+			}
+		}
+	}
+}
+
+opinion_policy_trade_policy = {
+	opinion = {
+		base = 0
+		modifier = {
+			add = -5
+			has_policy_flag = balanced_trade
+			FROM = {
+				has_policy_flag = protectionism
+			}
+		}
+
+		modifier = {
+			add = -10
+			has_policy_flag = free_trade
+			FROM = {
+				has_policy_flag = protectionism
+			}
+		}
+
+		modifier = {
+			add = 10
+			has_policy_flag = protectionism
+			FROM = {
+				has_policy_flag = protectionism
+			}
+		}
+		
+		modifier = {
+			add = -5
+			has_policy_flag = protectionism
+			FROM = {
+				has_policy_flag = balanced_trade
+			}
+		}
+
+		modifier = {
+			add = -10
+			has_policy_flag = protectionism
+			FROM = {
+				has_policy_flag = free_trade
+			}
+		}
+
+		modifier = {
+			add = 10
+			OR = {
+				has_policy_flag = free_trade
+				has_policy_flag = balanced_trade
+				}
+			FROM = {
+				OR = {
+					has_policy_flag = free_trade
+					has_policy_flag = balanced_trade
+				}				
+			}
+		}
+	}
+}
+
+opinion_policy_religious_policy = {
+	opinion = {
+		base = 0
+		#ATHEISM
+		modifier = {
+			add = -5
+			has_ethic = "ethic_egalitarian"
+			NOT = { has_ethic = "ethic_fanatic_materialist" }
+			FROM = {
+				has_policy_flag = atheism
+			}
+		}
+
+		modifier = {
+			add = -15			
+			has_ethic = "ethic_spiritualist"			
+			FROM = {
+				has_policy_flag = atheism
+			}
+		}
+		
+		modifier = {
+			add = -30			
+			has_ethic = "ethic_fanatic_spiritualist"
+			FROM = {
+				has_policy_flag = atheism
+			}
+		}
+		
+		modifier = {
+			add = 15			
+			has_ethic = "ethic_materialist"			
+			FROM = {
+				has_policy_flag = atheism
+			}
+		}
+		
+		modifier = {
+			add = 30			
+			has_ethic = "ethic_fanatic_materialist"
+			FROM = {
+				has_policy_flag = atheism
+			}
+		}
+		
+		modifier = {
+			add = 10
+			has_policy_flag = atheism
+			FROM = {
+				OR = {
+					has_policy_flag = atheism
+					has_policy_flag = secularized
+				}
+			}
+		}
+		#SECULARIZED
+		modifier = {
+			add = -10			
+			has_ethic = "ethic_spiritualist"			
+			FROM = {
+				has_policy_flag = secularized
+			}
+		}
+		
+		modifier = {
+			add = -20			
+			has_ethic = "ethic_fanatic_spiritualist"
+			FROM = {
+				has_policy_flag = secularized
+			}
+		}
+		
+		modifier = {
+			add = 10			
+			has_ethic = "ethic_materialist"			
+			FROM = {
+				has_policy_flag = secularized
+			}
+		}
+		
+		modifier = {
+			add = 20			
+			has_ethic = "ethic_fanatic_materialist"
+			FROM = {
+				has_policy_flag = secularized
+			}
+		}
+
+		modifier = {
+			add = 10
+			has_policy_flag = secularized
+			FROM = {
+				OR = {
+					has_policy_flag = atheism
+					has_policy_flag = secularized
+				}
+			}
+		}
+		
+		#PLURALISM
+		modifier = {
+			add = 10			
+			has_ethic = "ethic_spiritualist"			
+			FROM = {
+				has_policy_flag = pluralism
+			}
+		}
+		
+		modifier = {
+			add = 20			
+			has_ethic = "ethic_fanatic_spiritualist"
+			FROM = {
+				has_policy_flag = pluralism
+			}
+		}
+		
+		modifier = {
+			add = -10			
+			has_ethic = "ethic_materialist"			
+			FROM = {
+				has_policy_flag = pluralism
+			}
+		}
+		
+		modifier = {
+			add = -20			
+			has_ethic = "ethic_fanatic_materialist"
+			FROM = {
+				has_policy_flag = pluralism
+			}
+		}
+
+		modifier = {
+			add = 10
+			has_policy_flag = pluralism
+			FROM = {
+				OR = {
+					has_policy_flag = moralism
+					has_policy_flag = pluralism
+				}
+			}
+		}
+		#MORALISM
+		modifier = {
+			add = 15			
+			has_ethic = "ethic_spiritualist"			
+			FROM = {
+				has_policy_flag = moralism
+			}
+		}
+		
+		modifier = {
+			add = 30			
+			has_ethic = "ethic_fanatic_spiritualist"
+			FROM = {
+				has_policy_flag = moralism
+			}
+		}
+		
+		modifier = {
+			add = -15			
+			has_ethic = "ethic_materialist"			
+			FROM = {
+				has_policy_flag = moralism
+			}
+		}
+		
+		modifier = {
+			add = -30			
+			has_ethic = "ethic_fanatic_materialist"
+			FROM = {
+				has_policy_flag = moralism
+			}
+		}
+
+		modifier = {
+			add = 10
+			has_policy_flag = moralism
+			FROM = {
+				OR = {
+					has_policy_flag = moralism
+					has_policy_flag = pluralism
+				}
+			}
+		}
+		
+	}	
+}
+
+opinion_policy_media_rights = {
+	opinion = {
+		base = 0
+		#State Media
+		modifier = {
+			add = -15
+			has_ethic = "ethic_egalitarian"			
+			FROM = {
+				has_policy_flag = state_media
+			}
+		}
+
+		modifier = {
+			add = -30			
+			has_ethic = "ethic_fanatic_egalitarian"			
+			FROM = {
+				has_policy_flag = state_media
+			}
+		}				
+		
+		#Censored Media
+		modifier = {
+			add = -10
+			has_ethic = "ethic_egalitarian"			
+			FROM = {
+				has_policy_flag = censored_media
+			}
+		}
+
+		modifier = {
+			add = -20			
+			has_ethic = "ethic_fanatic_egalitarian"			
+			FROM = {
+				has_policy_flag = censored_media
+			}
+		}
+		
+		#Free Media
+		modifier = {
+			add = 15
+			has_ethic = "ethic_egalitarian"			
+			FROM = {
+				has_policy_flag = free_media
+			}
+		}
+
+		modifier = {
+			add = 30			
+			has_ethic = "ethic_fanatic_egalitarian"			
+			FROM = {
+				has_policy_flag = free_media
+			}
+		}
+		
+		modifier = {
+			add = -30			
+			has_ethic = "ethic_fanatic_authoritarian"			
+			FROM = {
+				has_policy_flag = free_media
+			}
+		}
+		
+		
+	}
+
+}
+

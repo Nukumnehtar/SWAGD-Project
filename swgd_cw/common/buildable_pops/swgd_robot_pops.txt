@@ -1,0 +1,110 @@
+buildable_farming_droid = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		OR = {
+			has_policy_flag = ai_servitude
+			has_policy_flag = ai_full_rights
+		}
+	}
+	
+	potential = {		
+	}
+	
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+	
+	species = {
+		name = "ROBOT_POP_FARMING"
+		class = "DROID"
+		portrait = "farming_droid1"
+		traits = {
+			trait = "trait_mechanical"
+			trait = "trait_farming_droid"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food 
+			value = 30.0
+		}
+		pops_auto_growth = 1.0		
+
+		pops_can_be_colonizers = no
+		pops_can_migrate = no
+		pops_can_reproduce = no
+		pops_can_join_factions = no
+		pop_maintenance = 1
+		pops_can_be_slaves = no
+		can_generate_leaders = no
+		can_be_modified = no
+		pops_have_happiness = no
+		pop_ethics = no
+	}
+}
+
+buildable_protocol_droid = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		OR = {
+			has_policy_flag = ai_servitude
+			has_policy_flag = ai_full_rights
+		}
+	}
+	
+	potential = {
+		
+	}
+	
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+	
+	species = {
+		name = "ROBOT_POP_PROTOCOL"
+		class = "DROID"
+		portrait = "protocol_droid1"
+		traits = {
+			trait = "trait_mechanical"
+			trait = "trait_protocol_droid"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food 
+			value = 30.0
+		}
+		pops_auto_growth = 1.0		
+
+		pops_can_be_colonizers = no
+		pops_can_migrate = no
+		pops_can_reproduce = no
+		pops_can_join_factions = no
+		pop_maintenance = 1
+		pops_can_be_slaves = no
+		can_generate_leaders = no
+		can_be_modified = no
+		pops_have_happiness = no
+		pop_ethics = no
+	}
+}

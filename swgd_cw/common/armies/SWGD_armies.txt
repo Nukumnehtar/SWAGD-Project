@@ -297,10 +297,6 @@ turbolaser_tower = {
 		has_building = "building_power_plant_3"
 		has_building = "building_power_plant_4"
 		has_building = "building_power_plant_5"
-		has_building = "betharian_power_plant_1"
-		has_building = "betharian_power_plant_2"
-		has_building = "betharian_power_plant_3"
-		has_building = "betharian_power_plant_4"
 		
 		}
 	}

@@ -1,0 +1,17 @@
+﻿l_english:
+ ####################################
+ #	Pop factions
+ ####################################
+ # Demand TITLES are run straight from a pop faction with no
+ # assembled event scope, [Owner.GetName] to get country name.
+ # Tooltips, DESCS and events use the usual [Root.Owner.GetName]
+
+
+ ### NEW FACTIONS
+
+ # Descriptors
+ pft_dark_side:2 "Dark Side Faction"
+ pft_dark_side_desc:2 "Dark Side Factions desire the nation to promote individual passion and strength. While the light side is about maintaining the status quo, the dark side is about change and evolution."
+ 
+ pft_light_side:2 "Light Side Faction"
+ pft_light_side_desc:2 "Light Side Factions desire the nation to be concerned with the ideas of good, generosity, healing, and wisdom, as opposed to evil, harm, and hasty judgment."

@@ -67,7 +67,11 @@ gree_system_initializer = {
 			name = "Gree Enclave"
 			type = fallen_empire
 			ignore_initial_colony_error = yes
-			government = stagnated_ascendancy
+			authority = random
+			civics = {
+				civic = civic_lethargic_leadership
+				civic = civic_empire_in_decline
+			}
 			#ftl = wormhole			
 			species = last_created
 			ethos = {

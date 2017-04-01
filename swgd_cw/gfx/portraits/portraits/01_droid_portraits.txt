@@ -1,0 +1,50 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+##############################################################
+### Settings for character portrait
+
+portraits = {
+
+	### DEBUG ###################################
+	debug = {
+		#spriteType = "GFX_portrait_mam1"
+		#entity = "portrait_mammalian_06_presentient_entity"
+		#entity = "portrait_mammalian_14_entity"
+		#entity = "portrait_reptilian_11_entity"
+		entity = "portrait_avian_14_entity"
+		#entity = "portrait_molluscoid_13_entity"
+		#entity = "portrait_fungoid_10_entity"
+		#entity = "portrait_arthropoid_10_entity"
+		entity = "frontend_background_entity"
+		clothes_selector = "no_texture" 
+		hair_selector = "no_texture"
+		#character_textures = {
+		#			"gfx/models/portraits/mammalian/mammalian_normal_alien_06_1.dds"
+		#			"gfx/models/portraits/mammalian/mammalian_normal_alien_06_2.dds"
+		#			"gfx/models/portraits/mammalian/mammalian_normal_alien_06_3.dds"
+		#			"gfx/models/portraits/mammalian/mammalian_normal_alien_06_4.dds"
+		#		}
+	}
+
+		
+	# Droids
+	protocol_droid1 = {	entity = "portrait_robot_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "mammalian_01_greetings" 
+	character_textures = {
+	"gfx/models/portraits/droid/protocol_droid_01.dds"
+		}	
+	}
+	farming_droid1 = {	entity = "portrait_robot_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "mammalian_01_greetings" 
+	character_textures = {
+	"gfx/models/portraits/droid/farming_droid_01.dds"
+		}
+	}
+	
+}

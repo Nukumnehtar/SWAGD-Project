@@ -1,0 +1,24 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+
+portraits = {
+
+
+	skakoan = {	entity = "portrait_mammalian_14_entity"	clothes_selector = "skakoan_clothes_01" hair_selector = "no_texture" greeting_sound = "reptilian_01_greetings"
+			character_textures = {
+					"gfx/models/portraits/skakoan/skakoan_male_01.dds"
+					
+					
+				}
+	}
+	
+}

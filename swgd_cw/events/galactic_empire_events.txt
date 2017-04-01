@@ -18,7 +18,7 @@ country_event = {
 		  
 	 option = {
 		name = "galactic_empire.1.a"
-		effect = { 			
+		hidden_effect = { 			
 				set_empire_name = "Galactic Empire"				
 				set_country_flag = galactic_empire 
 				remove_country_flag = galactic_republic 

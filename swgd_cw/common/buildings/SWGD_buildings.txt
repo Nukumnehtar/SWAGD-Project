@@ -94,7 +94,7 @@ building_life_support_system = {
 	}
 	
 	planet_modifier = {
-		pop_environment_tolerance = 0.80
+		pop_environment_tolerance = 0.60
 		pop_growth_req_mult = 0.75	
 	}
 	
@@ -133,12 +133,12 @@ building_hazardous_life_support_system = {
 	}
 	
 	planet_modifier = {
-		pop_environment_tolerance = 0.80
+		pop_environment_tolerance = 0.60
 		pop_growth_req_mult = 0.75	
 	}
 	
 	prerequisites = {
-		"tech_offworld_habitats"
+		"tech_hazardous_habitats"
 	}
 }
 
@@ -291,7 +291,7 @@ building_force_great_academy  = {
 	}
 	planet_modifier = {
 	
-		pop_ethic_shift = -0.05
+		pop_government_ethic_attraction = -0.5
 		tile_resource_society_research_mult = 0.15
 		
 	}
@@ -349,7 +349,7 @@ building_force_tomb = {
 
 	
 	planet_modifier = {		
-		pop_ethic_shift = -0.1
+		pop_government_ethic_attraction = -0.5
 	}
 	
 	prerequisites = {
@@ -396,7 +396,7 @@ building_force_great_tomb = {
 	}
 	planet_modifier = {
 		pop_happiness = 0.10
-		pop_ethic_shift = -0.15
+		pop_government_ethic_attraction = -0.5
 	}
 	
 	country_modifier = {
@@ -437,7 +437,7 @@ building_andeddu_keep = {
 	
 	planet_modifier = {
 		pop_happiness = -0.80
-		pop_ethic_shift = 0.50
+		pop_government_ethic_attraction = -0.5
 		planet_migration_all_pull = -1.0
 		tile_resource_minerals_mult = -0.5
 		tile_resource_energy_mult = -0.5
@@ -468,7 +468,7 @@ building_sith_pyramid = {
 	
 	planet_modifier = {
 		pop_happiness = -0.80
-		pop_ethic_shift = 0.50
+		pop_government_ethic_attraction = -0.5
 		planet_migration_all_pull = -1.0
 		tile_resource_minerals_mult = -0.5
 		tile_resource_energy_mult = -0.5
@@ -645,7 +645,7 @@ building_military_intelligence_hq = {
 	
 	planet_modifier = {
 		planet_migration_xeno_pull = -0.1
-		pop_ethic_shift = -0.1
+		pop_government_ethic_attraction = -0.5
 		planet_sensor_range_mult = 0.1
 		
 	}

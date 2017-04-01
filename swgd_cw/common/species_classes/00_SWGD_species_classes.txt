@@ -48,6 +48,13 @@ SWGD_HUMANOID = {
 		"zabrak"
 		"twilek"
 		"togruta"
+		"neimoidian"
+		"duros"
+		"rodian"
+		"skakoan"
+		"bothan"
+		"mon_calamari"
+
 			}		
 
 	graphical_culture = mammalian_01
@@ -61,9 +68,36 @@ SWGD_MAM_1 = {
 	randomized = no
 	portraits = {
 		"kel_dor"
+		"wookiee"
 			}
 
 	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+	
+
+}
+
+GAST = {	
+	randomized = no
+	portraits = {
+		"hutt"
+			}
+
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+	
+
+}
+
+DROID = {
+	#playable = { always = no }	
+	randomized = no
+	portraits = {
+		"protocol_droid1"
+		"farming_droid1"
+			}
+
+	graphical_culture = ai_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 	
 
