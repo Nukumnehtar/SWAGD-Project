@@ -226,8 +226,9 @@ trade_policy = {
 	modifier = {		 
 		 planet_migration_xeno_pull = -0.10
 		 country_trade_attractiveness = -0.15
-		 building_time_mult = -0.10
+		 building_time_mult = -0.20
 		 planet_building_cost_mult = 0.10
+		 country_resource_unity_mult = 0.10
 		}
 		
 	AI_weight = {
@@ -657,7 +658,7 @@ religious_policy = {
 		
 		
 		modifier = {
-			
+			pop_ethic_spiritualist_attraction_mult = -0.15
 		}
 		
 		AI_weight = {
@@ -766,7 +767,7 @@ religious_policy = {
 		
 				
 		modifier = {
-		pop_government_ethic_attraction = -0.5	
+			pop_ethic_spiritualist_attraction_mult = 0.05
 		}
 		
 		valid = {      
@@ -777,26 +778,13 @@ religious_policy = {
 				factor = 2
 				has_valid_ai_personality = no
 				is_ai = no
-				has_ethic = "ethic_spiritualist"		
-				has_ethic = "ethic_fanatic_egalitarian"
-					
-				NOR = {
-					has_ethic = "ethic_materialist"
-					has_ethic = "ethic_fanatic_materialist"
+				OR = {
+				has_ethic = "ethic_fanatic_spiritualist"
+				has_ethic = "ethic_spiritualist"	
 				}
+								
 			}
-			modifier = {
-				factor = 2
-				has_valid_ai_personality = no
-				is_ai = no
-				has_ethic = "ethic_fanatic_spiritualist"		
-				has_ethic = "ethic_egalitarian"
-					
-				NOR = {
-					has_ethic = "ethic_materialist"
-					has_ethic = "ethic_fanatic_materialist"
-				}
-			}
+			
 			modifier = {
 				factor = 2				
 				has_valid_ai_personality = yes
@@ -831,7 +819,7 @@ religious_policy = {
 		
 		
 		modifier = {
-	 
+			pop_ethic_spiritualist_attraction_mult = 0.15
 		}
 		valid = {
 		  
@@ -845,6 +833,9 @@ religious_policy = {
 					has_ethic = "ethic_spiritualist"
 					has_ethic = "ethic_fanatic_spiritualist"
 				}
+				NOR = { has_ethic = "ethic_egalitarian"
+						has_ethic = "ethic_fanatic_egalitarian" 
+						}
 			}
 			modifier = {
 				factor = 2
@@ -901,7 +892,8 @@ media_rights = {
 		
 		
 		modifier = {
-			pop_government_ethic_attraction = -0.5
+			pop_happiness = -0.05			
+			pop_government_ethic_attraction = 0.10
 	 
 		}
 		
@@ -945,25 +937,10 @@ media_rights = {
 		AI_weight = {
 			modifier = {
 				factor = 2
-				has_valid_ai_personality = no
-				is_ai = no
 				OR = {
-				has_ethic = ethic_fanatic_militarist
-				has_ethic = ethic_militarist
-				has_election_type = none
-				}
-				NOR = {
-					has_ethic = "ethic_egalitarian"
-					has_ethic = "ethic_fanatic_egalitarian"
-				}
-			}				
-			modifier = {
-				factor = 2
-				has_valid_ai_personality = yes
 				is_ai = yes
-				OR = {
-				has_ethic = ethic_fanatic_militarist
-				has_ethic = ethic_militarist
+				has_ethic = "ethic_fanatic_militarist"
+				has_ethic = "ethic_militarist"
 				has_election_type = none
 				}
 				NOR = {
@@ -994,7 +971,9 @@ media_rights = {
 		
 		
 		modifier = {
-			pop_ethic_egalitarian_attraction_mult = 0.15	 
+			
+			pop_happiness = 0.05
+			country_resource_unity_mult = -0.05				
 		}
 	
 		valid = {		
@@ -1012,7 +991,7 @@ media_rights = {
 				}
 			}
 			modifier = {
-				factor = 10
+				factor = 2
 				has_valid_ai_personality = yes
 				is_ai = yes
 				OR = {
@@ -1024,9 +1003,7 @@ media_rights = {
 				}
 				NOR = {					
 					has_ethic = "ethic_authoritarian"
-					has_ethic = "ethic_fanatic_authoritarian"
-					has_ethic = "ethic_militarist"
-					has_ethic = "ethic_fanatic_militarist"
+					has_ethic = "ethic_fanatic_authoritarian"					
 					has_election_type = none
 				}
 			}

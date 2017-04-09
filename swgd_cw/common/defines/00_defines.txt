@@ -31,7 +31,7 @@
 		GALAXY_SHOW_FILTERICONS_ZOOM 	= 300 # Camera zoom interval to show filter icons
 
 		SHOW_FLEETS_ZOOM 			= 300 # Show fleet icons instead of ship icons above this height
-		HIDE_ORBITS_ZOOM 			= 0
+		HIDE_ORBITS_ZOOM 			= 2
 
 		ZOOM_STEPS_GALAXY 			  = { 100 200 400 600 900 1500 3000 } 	# Galaxy zoom steps
 		# ZOOM_STEPS_SYSTEM_PERCENTAGES = { 0.01 0.05 0.25 0.5 1.0 1.5 3.0 } # System zoom steps in percent relative to the system size
@@ -96,9 +96,9 @@
 		
 		DEAD_SHIP_DRAG						= 15.0	# When ships die reduce their speed with x / second
 	
-		ORBIT_HSV							= { 0.44 0.8 0.6 }
-		SYSTEM_INNER_BORDER_HSV				= { 0.0 0.0 1.0 }
-		SYSTEM_OUTER_BORDER_HSV				= { 0.1 0.8 0.9 }
+		ORBIT_HSV								= { 0.1 0.1 0.1 }
+		SYSTEM_INNER_BORDER_HSV					= { 0.0 0.0 0.4 }
+		SYSTEM_OUTER_BORDER_HSV					= { 0.0 0.0 0.0 }
 
 
 		SYSTEM_LINE_ALPHA_FADE_STEP			= { 1 6 }			# Fade alpha betweeen zoom step X and Y

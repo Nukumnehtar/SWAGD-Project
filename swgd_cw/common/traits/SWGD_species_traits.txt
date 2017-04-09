@@ -19,20 +19,20 @@ trait_abundant = {
 }
 
 trait_geneticists = {
-	cost = 2	
+	cost = 1	
 	initial = yes
 	modification = no
 	modifier = {
-		category_biology_research_speed_mult = 0.15
+		category_biology_research_speed_mult = 0.25
 	}
 }
 
 trait_droid_engineers = {
-	cost = 2	
+	cost = 1	
 	initial = yes
 	modification = no
 	modifier = {
-		category_industry_research_speed_mult = 0.15
+		category_industry_research_speed_mult = 0.25
 	}
 }
 
@@ -74,3 +74,94 @@ trait_protocol_droid = {
 		pop_consumer_goods_mult = -100
 	}
 }
+
+#Human Background Traits
+
+trait_coruscanti = {
+	cost = 0
+	initial = no
+	randomized = no
+	modification = no
+}
+
+trait_corellian = {
+	icon = "gfx/interface/icons/traits/trait_coruscanti.dds"
+	cost = 0
+	initial = no
+	randomized = no
+	modification = no
+}
+
+trait_kuati = {
+	icon = "gfx/interface/icons/traits/trait_coruscanti.dds"
+	cost = 0
+	initial = no
+	randomized = no
+	modification = no
+}
+
+trait_brentaalan = {
+	icon = "gfx/interface/icons/traits/trait_coruscanti.dds"
+	cost = 0
+	initial = no
+	randomized = no
+	modification = no
+}
+
+trait_mandalorian = {
+	cost = 0
+	initial = no
+	randomized = no
+	modification = no
+}
+
+trait_nabooian = {
+	icon = "gfx/interface/icons/traits/trait_coruscanti.dds"
+	cost = 0
+	initial = no
+	randomized = no
+	modification = no
+}
+
+trait_alderaanian = {
+	icon = "gfx/interface/icons/traits/trait_coruscanti.dds"
+	cost = 0
+	initial = no
+	randomized = no
+	modification = no
+}
+
+trait_chandrilan = {
+	icon = "gfx/interface/icons/traits/trait_coruscanti.dds"
+	cost = 0
+	initial = no
+	randomized = no
+	modification = no
+}
+
+
+trait_anaxsi = {
+	icon = "gfx/interface/icons/traits/trait_coruscanti.dds"
+	cost = 0
+	initial = no
+	randomized = no
+	modification = no
+}
+
+
+trait_rendili = {
+	icon = "gfx/interface/icons/traits/trait_coruscanti.dds"
+	cost = 0
+	initial = no
+	randomized = no
+	modification = no
+}
+
+trait_alsakan = {
+	icon = "gfx/interface/icons/traits/trait_coruscanti.dds"
+	cost = 0
+	initial = no
+	randomized = no
+	modification = no
+}
+

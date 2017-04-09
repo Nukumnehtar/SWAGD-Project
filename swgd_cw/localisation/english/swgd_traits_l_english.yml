@@ -1,52 +1,80 @@
 ﻿l_english:
 
 #####################################
- # Traits
- ##################################### 
+# Traits
+##################################### 
  
 trait_ruler_immortal:0 "Immortal"
-trait_ruler_immortal_desc:0 "This character is immortal, whether naturally or through other means."
+trait_ruler_immortal_desc:0 "§HThis character is immortal, whether naturally or through other means.§!"
 
 leader_trait_ruler_force_user_I:0 "Powerful Force User"
-leader_trait_ruler_force_user_I_desc:0 "This leader is a powerful force user, having gained mastery of its endless secrets. This ability allows them to manipulate individuals and groups for the betterment of others or their own hidden agenda."
+leader_trait_ruler_force_user_I_desc:0 "§HThis leader is a powerful force user, having gained mastery of its endless secrets. This ability allows them to manipulate individuals and groups for the betterment of others or their own hidden agenda.§!"
 
 leader_trait_gov_force_user_I:0 "Adept Force User"
-leader_trait_gov_force_user_I_desc:0 "This leader is an adept force user, having gained some skill in its endless secrets. This ability allows them to manipulate and bargain with others more easily."
+leader_trait_gov_force_user_I_desc:0 "§HThis leader is an adept force user, having gained some skill in its endless secrets. This ability allows them to manipulate and bargain with others more easily.§!"
 leader_trait_gov_force_user_II:0 "Strong Force User"
-leader_trait_gov_force_user_II_desc:0 "This leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability allows them to manipulate and bargain with others easily."
+leader_trait_gov_force_user_II_desc:0 "§HThis leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability allows them to manipulate and bargain with others easily.§!"
 leader_trait_gov_force_user_III:0 "Powerful Force User"
-leader_trait_gov_force_user_III_desc:0 "This leader is a powerful force user, having gained mastery in its endless secrets. This ability allows them to manipulate and bargain with others with ease."
+leader_trait_gov_force_user_III_desc:0 "§HThis leader is a powerful force user, having gained mastery in its endless secrets. This ability allows them to manipulate and bargain with others with ease.§!"
 
 leader_trait_sci_force_user_I:0 "Adept Force User"
-leader_trait_sci_force_user_I_desc:0 "This leader is an adept force user, having gained some skill in its endless secrets. This ability grants them a unique awareness in their scientific pursuits."
+leader_trait_sci_force_user_I_desc:0 "§HThis leader is an adept force user, having gained some skill in its endless secrets. This ability grants them a unique awareness in their scientific pursuits.§!"
 leader_trait_sci_force_user_II:0 "Strong Force User"
-leader_trait_sci_force_user_II_desc:0 "This leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability grants them a unique awareness in their scientific pursuits."
+leader_trait_sci_force_user_II_desc:0 "§HThis leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability grants them a unique awareness in their scientific pursuits.§!"
 leader_trait_sci_force_user_III:0 "Powerful Force User"
-leader_trait_sci_force_user_III_desc:0 "This leader is a powerful force user, having  gained mastery in its endless secrets. This ability grants them a unique awareness in their scientific pursuits."
+leader_trait_sci_force_user_III_desc:0 "§HThis leader is a powerful force user, having  gained mastery in its endless secrets. This ability grants them a unique awareness in their scientific pursuits.§!"
 
 leader_trait_adm_force_user_I:0 "Adept Force User"
-leader_trait_adm_force_user_I_desc:0 "This leader is an adept force user, having gained some skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them."
+leader_trait_adm_force_user_I_desc:0 "§HThis leader is an adept force user, having gained some skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them.§!"
 leader_trait_adm_force_user_II:0 "Strong Force User"
-leader_trait_adm_force_user_II_desc:0 "This leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them."
+leader_trait_adm_force_user_II_desc:0 "§HThis leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them.§!"
 leader_trait_adm_force_user_III:0 "Powerful Force User"
-leader_trait_adm_force_user_III_desc:0 "This leader is a powerful force user, having gained mastery in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them, and the ability to considerably boost the morale, stamina, and overall battle prowess of allies through battle meditation."
+leader_trait_adm_force_user_III_desc:0 "§HThis leader is a powerful force user, having gained mastery in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them, and the ability to considerably boost the morale, stamina, and overall battle prowess of allies through battle meditation.§!"
 
 leader_trait_gen_force_user_I:0 "Adept Force User"
-leader_trait_gen_force_user_I_desc:0 "This leader is an adept force user, having gained some skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them."
+leader_trait_gen_force_user_I_desc:0 "§HThis leader is an adept force user, having gained some skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them.§!"
 leader_trait_gen_force_user_II:0 "Strong Force User"
-leader_trait_gen_force_user_II_desc:0 "This leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them."
+leader_trait_gen_force_user_II_desc:0 "§HThis leader is a strong force user, having gained a sophisticated skill in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them.§!"
 leader_trait_gen_force_user_III:0 "Powerful Force User"
-leader_trait_gen_force_user_III_desc:0 "This leader is a powerful force user, having gained mastery in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them, and the ability to considerably boost the morale, stamina, and overall battle prowess of allies through battle meditation."
+leader_trait_gen_force_user_III_desc:0 "§HThis leader is a powerful force user, having gained mastery in its endless secrets. This ability grants them a unique charisma that boosts the men and women fighting alongside them, and the ability to considerably boost the morale, stamina, and overall battle prowess of allies through battle meditation.§!"
 
 trait_force_attuned:0 "Force Attuned"
-trait_force_attuned_desc:0 "This species is considered strongly Force-sensitive, giving them above average talent in many fields."
+trait_force_attuned_desc:0 "§HThis species is considered strongly Force-sensitive, giving them above average talent in many fields.§!"
 trait_abundant:0 "Abundant"
-trait_abundant_desc: "This species can be found in abundance within the known Galaxy."
+trait_abundant_desc: "§HThis species can be found in abundance within the known Galaxy.§!"
 trait_geneticists:0 "Natural Geneticists"
-trait_geneticists_desc: "Members of this species are known for their instinctive knowledge and ability as geneticists and cloners."
+trait_geneticists_desc: "§HMembers of this species are known for their instinctive knowledge and ability as geneticists and cloners.§!"
 trait_droid_engineers:0 "Droid Engineers"
-trait_droid_engineers_desc: "Members of this species are known for their knowledge and ability at crafting droids."
+trait_droid_engineers_desc: "§HMembers of this species are known for their knowledge and ability at crafting droids.§!"
 trait_farming_droid:0 "Farming Droid"
-trait_farming_droid_desc: "A farming droid is a droid whose job is to aid sentients with various tasks around agricultural land."
+trait_farming_droid_desc: "§HA farming droid is a droid whose job is to aid sentients with various tasks around agricultural land.§!"
 trait_protocol_droid:0 "Protocol Droid"
-trait_protocol_droid_desc: "A protocol droid is a droid whose job is to aid sentients with their etiquette and relations with each other in the galaxy."
+trait_protocol_droid_desc: "§HA protocol droid is a droid whose job is to aid sentients with their etiquette and relations with each other in the galaxy.§!"
+
+#####################################
+# Origin Traits
+##################################### 
+
+trait_coruscanti:0 "Coruscanti"
+trait_coruscanti_desc:0 "§EThis is an origin trait, which determines a pop's clothing.§!\n\n§LThis portion of the population originated from the planet Coruscant.§!"
+trait_mandalorian:0 "Mandalorian"
+trait_mandalorian_desc:0 "§EThis is an origin trait, which determines a pop's clothing.§!\n\n§LThis portion of the population are bound by their Mandalorian culture.§!"
+trait_anaxsi:0 "Anaxsi"
+trait_anaxsi_desc:0 "§EThis is an origin trait, which determines a pop's clothing.§!\n\n§LThis portion of the population originated from the planet Anaxes.§!"
+trait_nabooian:0 "Nabooian"
+trait_nabooian_desc:0 "§EThis is an origin trait, which determines a pop's clothing.§!\n\n§LThis portion of the population originated from the planet Naboo.§!"
+trait_alderaanian:0 "Alderaanian"
+trait_alderaanian_desc:0 "§EThis is an origin trait, which determines a pop's clothing.§!\n\n§LThis portion of the population originated from the planet Alderaan.§!"
+trait_brentaalan:0 "Brentaalan"
+trait_brentaalan_desc:0 "§EThis is an origin trait, which determines a pop's clothing.§!\n\n§LThis portion of the population originated from the planet Brentaal.§!"
+trait_kuati:0 "Kuati"
+trait_kuati_desc:0 "§EThis is an origin trait, which determines a pop's clothing.§!\n\n§LThis portion of the population originated from the planet Kuat.§!"
+trait_corellian:0 "Corellian"
+trait_corellian_desc:0 "§EThis is an origin trait, which determines a pop's clothing.§!\n\n§LThis portion of the population originated from the planet Corellia.§!"
+trait_chandrilan:0 "Chandrilan"
+trait_chandrilan_desc:0 "§EThis is an origin trait, which determines a pop's clothing.§!\n\n§LThis portion of the population originated from the planet Chandrila.§!"
+trait_rendili:0 "Rendili"
+trait_rendili_desc:0 "§EThis is an origin trait, which determines a pop's clothing.§!\n\n§LThis portion of the population originated from the planet Rendili.§!"
+trait_alsakan:0 "Alsakan"
+trait_alsakan_desc:0 "§EThis is an origin trait, which determines a pop's clothing.§!\n\n§LThis portion of the population originated from the planet Alsakan.§!"
+

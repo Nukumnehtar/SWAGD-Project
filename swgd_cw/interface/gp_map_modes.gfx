@@ -17,6 +17,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/map_mode_media_rights.dds"
 		noOfFrames = 2
 	}
+
+	spriteType = {
+		name = "GFX_map_mode_empty"
+		texturefile = "gfx/interface/icons/map_mode_empty.dds"
+		noOfFrames = 2
+	}
+	
 	
 	spriteType = {
 		name = "GFX_map_mode_clone_wars"

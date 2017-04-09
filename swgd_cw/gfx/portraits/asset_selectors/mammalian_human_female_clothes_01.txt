@@ -14,7 +14,37 @@ mammalian_human_female_clothes_01 = {
 	
 	#pop scope
 	pop = { #for a specific pop
-		default = "gfx/models/portraits/human/human_female_clothes_governer.dds"
+		default = "gfx/models/portraits/human/human_female_clothes_governor.dds"
+		random = {
+			trigger = { OR = {
+						pop = { has_trait = coruscanti }
+						pop = { has_trait = trait_corellian }
+						pop = { has_trait = trait_kuati }
+						pop = { has_trait = trait_brentaalan }
+						pop = { has_trait = trait_nabooian }
+						pop = { has_trait = trait_alderaanian }
+						pop = { has_trait = trait_chandrilan }
+						pop = { has_trait = trait_anaxsi }
+						pop = { has_trait = trait_rendili }
+						pop = { has_trait = trait_alsakan }						
+						} }
+			list = {
+				"gfx/models/portraits/human/human_female_outfit_scientist.dds"
+				"gfx/models/portraits/human/human_female_clothes_governor.dds"
+				"gfx/models/portraits/human/human_female_clothes_admiral.dds"
+				"gfx/models/portraits/human/human_female_clothes_ruler.dds"
+			}
+		}
+		
+		random = {
+			trigger = { pop = { has_trait = trait_mandalorian } }
+			list = {
+				"gfx/models/portraits/human/mando_female_01.dds"
+				"gfx/models/portraits/human/mando_female_02.dds"
+				"gfx/models/portraits/human/mando_female_03.dds"
+				"gfx/models/portraits/human/mando_female_leader.dds"
+			}
+		}
 		
 	#	"gfx/models/portraits/human/human_female_clothes_admiral.dds" 	= { tile = { has_building = building_power_plant_1 } }
 	#	"gfx/models/portraits/human/human_female_outfit_scientist.dds" 	= { tile = { has_building = building_engineering_facility_1 } }
@@ -25,8 +55,9 @@ mammalian_human_female_clothes_01 = {
 		"gfx/models/portraits/human/human_female_outfit_scientist.dds" = { leader_class = scientist }
 		"gfx/models/portraits/human/human_female_clothes_general.dds" = { leader_class = general }
 		"gfx/models/portraits/human/human_female_clothes_admiral.dds" = { leader_class = admiral }
-		"gfx/models/portraits/human/human_female_clothes_governer.dds" = { leader_class = governor }
+		"gfx/models/portraits/human/human_female_clothes_governor.dds" = { leader_class = governor }
 		"gfx/models/portraits/human/human_female_clothes_grandmoff.dds" = { leader_class = ruler}
+		
 	}
 
 	#leader scope 
@@ -42,6 +73,8 @@ mammalian_human_female_clothes_01 = {
 		"gfx/models/portraits/human/human_female_clothes_grandmoff.dds" = { owner = { has_primitive_government = yes } }
 		
 		"gfx/models/portraits/human/human_female_clothes_grandmoff.dds" = { owner = { has_materialist_government = yes } }
+		
+		"gfx/models/portraits/human/mando_female_leader.dds" = { owner = { has_country_flag = mandalorian_clans } }
 		
 	}
 }

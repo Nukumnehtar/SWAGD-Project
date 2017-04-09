@@ -16,7 +16,12 @@
 #		}
 #	}
 #}
-
+empty_map_mode = {
+	icon = "GFX_map_mode_empty"
+	enable_terra_incognita = no
+	#shortcut = "CTRL+r"
+	
+}
 
 religious_policy_map_mode = {
 	icon = "GFX_map_mode_religious_policy"
@@ -127,38 +132,4 @@ foreign_policy_map_mode = {
             #always = no
         }
     }
-}
-
-clone_wars_map_mode = {
-	icon = "GFX_map_mode_clone_wars"
-	enable_terra_incognita = no
-	shortcut = "CTRL+r"
-	
-	color = {
-        value = hsv { 0.0 1.0 1.0 1.0 }			#red for CIS scum 
-        #custom_tooltip = "Derp"
-        condition = {
-            has_country_flag = cis_aligned
-            #always = no
-        }
-    }
-	
-	color = {
-         value = hsv { 0.15 1.0 1.0 1.0 }		#Yellow for neutral scum
-        #custom_tooltip = "MAP_MODE_NO_CONTACT"
-        condition = {
-            has_country_flag = neutral_aligned
-            #always = no
-        }
-    }
-	
-	color = {
-         value = hsv { 0.6 1.0 1.0 1.0 } 		#blue for order 66, soon.
-        #custom_tooltip = "MAP_MODE_NO_CONTACT"
-        condition = {
-            has_country_flag = republic_aligned
-            #always = no
-        }
-    }
-	
 }
