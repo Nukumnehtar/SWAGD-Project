@@ -99,6 +99,17 @@ DROID = {
 
 	graphical_culture = ai_01
 	move_pop_sound_effect = "moving_pop_confirmation"
-	
 
+}
+
+#For ships
+
+REPUBLIC = {
+	randomized = no
+
+	portraits = {
+	}
+	
+	graphical_culture = republic_cw_01
+	move_pop_sound_effect = "moving_pop_confirmation"
 }

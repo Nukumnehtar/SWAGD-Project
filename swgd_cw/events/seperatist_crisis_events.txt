@@ -30,22 +30,32 @@ country_event = {
 		name = "seperatist_crisis.1.a"
 		hidden_effect = { 			
 				set_empire_name = "Confederacy of Independent Systems"				
-				set_country_flag = cis				 
-				change_country_flag = {									
+				set_country_flag = cis
+				remove_country_flag = trade_federation
+				create_leader = {
+					type = ruler
+					species = owner_main_species
+					name = Dooku
+					skill = 3
+					traits = {}
+				}
+				assign_leader = last_created_leader
+				change_country_flag = {						
 						icon={
 							category="starwarssilver"
-							file="31.dds"
+							file="14.dds"
 						}
 						background={
 							category="backgrounds"
 							file="00_solid.dds"
 						}
 						colors={
-							"gray_0"
-							"gray_9"
+							"dark_blue"
+							"gray_99"
 							"null"
 							"null"
 						}
+	
 	
 				}		
 			}

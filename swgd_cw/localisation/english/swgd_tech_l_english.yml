@@ -3,6 +3,9 @@
  #####################################
  # Techs
  #####################################  
+ 
+ category_force_research_speed_mult:0 "Research Speed (The Force)"
+ 
  tech_breathing_masks:0 "Breathing Masks" 
  tech_breathing_masks_desc:0 "Latest developments in breathing mask technology has allowed our species to live more comfortably on other planets." 
  tech_enviro_suits:0 "Environment Suits"
@@ -27,6 +30,7 @@
  tech_atmospheric_starfighter_support_desc:0 "By constructing planetary starfighter hangars, garrisons are capable of countering atmospheric and ground threats without having to rely on orbiting fleets."
  tech_heavy_plasma_ballistics:0 "Heavy Plasma Ballistics"
  tech_heavy_plasma_ballistics_desc:0 "By constructing underground generators, we are able to outfit planetary canons to fire plasma balls at enemy vehicles or starships, causing massive electrical disturbances that disable and damage the target for a time."
+ 
  #####################################
  # Gateways
  ##################################### 

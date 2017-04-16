@@ -1,0 +1,203 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_Jovan_Station_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Jovan_Station.mesh"
+		scale = 1.5
+
+		meshsettings = {
+			name = "Level_5_BaseShape"
+			index = 0
+			texture_diffuse = "st_Jovan_Station_diffuse.dds"
+			texture_normal = "st_Jovan_Station_normal.dds"
+			texture_specular = "st_Jovan_Station_specular.dds"
+			shader = "PdxMeshTerra"
+		}
+
+		meshsettings = {
+			name = "Level_5_LightsShape"
+			index = 0
+			texture_diffuse = "st_Jovan_Station_Lights_diffuse.dds"
+			#texture_normal = "st_Jovan_Station_Lights_normal.dds"
+			texture_specular = "st_Jovan_Station_Lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Mining_Station_mesh"
+		file = "gfx/models/ships/republic_cw_01/sw_Empire_01_Mining_Station.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "sw_Empire_01_Mining_Station_diffuse.dds"
+			texture_normal = "sw_Empire_01_Mining_Station_normal.dds"
+			texture_specular = "sw_Empire_01_Mining_Station_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "Observation_Station_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Observation_Station.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_Station_diffuse.dds"
+			texture_normal = "st_Empire_Station_normal.dds"
+			texture_specular = "st_Empire_Station_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Empire_Station_L_diffuse.dds"
+			texture_specular = "st_Empire_Station_L_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Outpost_Station_mesh"
+		file = "gfx/models/ships/republic_cw_01/sw_Empire_01_Outpost_Station.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "sw_Empire_01_outpost_diffuse.dds"
+			texture_normal = "sw_Empire_01_outpost_normal.dds"
+			texture_specular = "sw_Empire_01_outpost_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Research_Station_mesh"
+		file = "gfx/models/ships/republic_cw_01/sw_Empire_01_Research_Station.mesh"
+		scale = 0.8
+
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "sw_Empire_01_Research_diffuse.dds"
+			texture_normal = "sw_Empire_01_Research_normal.dds"
+			texture_specular = "sw_Empire_01_Research_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Valor_Station_mesh"
+		file = "gfx/models/ships/republic_cw_01/sw_Empire_01_Valor_Station.mesh"
+		scale = 1.5
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "sw_Empire_01_Valor_Station_diffuse.dds"
+			texture_normal = "sw_Empire_01_Valor_Station_normal.dds"
+			texture_specular = "sw_Empire_01_Valor_Station_specular.dds"
+			shader = "PdxMeshTerra"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_empire_Wormhole_station_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Empire_Wormhole_station.mesh"
+		scale = 0.3
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_wormhole1_diffuse.dds"
+			texture_normal = "st_Empire_wormhole1_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Empire_wormhole2_diffuse.dds"
+			texture_normal = "st_Empire_wormhole2_normal.dds"
+			texture_specular = "st_Empire_wormhole2_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Shipyard_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Empire_Shipyard.mesh"
+		scale = 0.7
+		
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_Shipyard_diffuse.dds"
+			texture_normal = "st_Empire_Shipyard_normal.dds"
+			texture_specular = "st_Empire_Shipyard_specular.dds"
+			shader = "PdxMeshTerra"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "Lights_Grid_Orange_Desaturated_Dense_diffuse.dds"
+			#texture_normal = "Lights_Grid_Orange_Desaturated_Dense_normal.dds"
+			texture_specular = "Lights_Grid_Orange_Desaturated_Dense_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "st_Empire_Shipyard_hangar_diffuse.dds"
+			texture_normal = "st_Empire_Shipyard_hangar_normal.dds"
+			texture_specular = "st_Empire_Shipyard_hangar_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_01_Comm_Station_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Empire_01_Comm_Station.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_01_Comm_Station_diffuse.dds"
+			texture_normal = "st_Empire_01_Comm_Station_normal.dds"
+			texture_specular = "st_Empire_01_Comm_Station_specular.dds"
+			shader = "PdxMeshTerra"
+		}
+	}
+}
+
+
+

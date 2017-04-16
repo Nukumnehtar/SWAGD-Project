@@ -1,0 +1,19 @@
+########################
+### ANOMALY EVENTS ###
+########################
+#potential = ship scope
+
+#All discoveries assigned weight 1
+
+
+# Ancient Sith Temple
+anomaly = {
+	event = anomaly.1
+	category = "UHB_ANCIENT_RUINS_1_CAT"
+
+	weight = 10000
+	
+	potential = {
+		always = yes
+	}
+}

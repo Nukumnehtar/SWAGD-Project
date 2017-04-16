@@ -190,6 +190,9 @@
  # Ethics
  ##################################### 
    
+ pop_ethic_dark_side_attraction_mult:0 "Dark Side Ethics Attraction"  
+ pop_ethic_light_side_attraction_mult:0 "Light Side Ethics Attraction"  
+   
  ethic_dark_side:0 "Dark Side"
  ethic_dark_side_desc:1 "§LEvil is a word used by the ignorant and the weak. The dark side is about survival. The strength of the dark side lies with the power of the individual. The Force comes from within."
  

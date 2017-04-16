@@ -45,7 +45,8 @@ telos_system_initializer = {
         orbit_distance = 20
         orbit_angle = 180
         size = 20
-        has_ring = no
+        has_ring = no		
+		tile_blockers = none
 		starting_planet = yes
 		init_effect = {
 		

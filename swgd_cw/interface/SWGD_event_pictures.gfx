@@ -127,3 +127,14 @@ spriteTypes = {
 	}
 	
 }
+
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_ancient_sith_temple"
+		texturefile = "gfx/event_pictures/ancient_sith_temple.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+}

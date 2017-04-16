@@ -35,7 +35,7 @@ alpheridies_system_initializer = {
         orbit_angle = 49
         size = 20
         has_ring = no
-
+		
         moon = {
             name = "Shrowd"
             class = random

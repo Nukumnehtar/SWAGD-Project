@@ -1,0 +1,401 @@
+objectTypes = {
+
+    # Red
+	
+	pdxparticle = {
+		name = "st_empire_0_05_exhaust_idle_particle"
+		type = "st_empire_01_ship_exhaust_idle_file"
+		scale = 0.05
+	}
+	
+    pdxparticle = {
+		name = "st_empire_0_1_exhaust_idle_particle"
+		type = "st_empire_01_ship_exhaust_idle_file"
+		scale = 0.1
+	}
+    
+	#White
+	
+	pdxparticle = {
+		name = "st_empire_0_5_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_1_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_1_25_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 1.25
+	}
+	
+	pdxparticle = {
+		name = "st_empire_1_5_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 1.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_2_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 2.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_2_5_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 2.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_3_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 3.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_3_5_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 3.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_4_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 4.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_4_5_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 4.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_5_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 5.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_6_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 6.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_6_5_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 6.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_7_5_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 7.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_8_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 8.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_9_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 9.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_10_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 10.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_11_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 11.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_12_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 12.0
+	}
+	
+	# OBLONG
+	
+	pdxparticle = {
+		name = "st_empire_01_1_0_exhaust_oblong_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_large_file"
+		scale = 3.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_01_0_1_exhaust_oblong_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_large_file"
+		scale = 0.5
+	}
+	
+	
+	
+	
+	
+	# Moving
+	
+	# Red
+	
+	pdxparticle = {
+		name = "st_empire_0_05_ship_exhaust_moving_particle"
+		type = "st_empire_01_ship_exhaust_file"
+		scale = 0.05
+	}
+	
+	pdxparticle = {
+		name = "st_empire_0_1_ship_exhaust_moving_particle"
+		type = "st_empire_01_ship_exhaust_file"
+		scale = 0.1
+	}
+	
+	# White
+	
+	pdxparticle = {
+		name = "st_empire_0_5_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_1_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_1_25_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 1.25
+	}
+	
+	pdxparticle = {
+		name = "st_empire_1_5_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 1.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_2_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 2.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_2_5_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 2.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_3_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 3.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_3_5_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 3.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_5_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 5.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_4_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 4.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_4_5_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 4.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_6_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 6.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_6_5_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 6.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_7_5_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 7.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_8_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 8.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_9_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 9.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_10_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 10.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_11_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 11.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_12_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 12.0
+	}
+	
+	# OBLONG
+	
+	pdxparticle = {
+		name = "st_empire_01_1_5_ship_exhaust_oblong_moving_particle"
+		type = "mammalian_01_ship_exhaust_oblong_file"
+		scale = 3.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_01_0_1_ship_exhaust_oblong_moving_particle"
+		type = "arthropoid_01_ship_exhaust_oblong_file"
+		scale = 0.5
+	}
+	
+	# Allegiance
+	
+	pdxparticle = {
+		name = "st_empire_a_0_1_exhaust_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_0_5_exhaust_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_1_0_exhaust_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_1_5_exhaust_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 1.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_2_0_exhaust_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 2.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_2_5_exhaust_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 2.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_5_0_exhaust_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 5.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_6_0_exhaust_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 6.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_8_0_exhaust_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 8.0
+	}
+	
+	#Moving 
+	
+	pdxparticle = {
+		name = "st_empire_a_0_1_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_0_5_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_1_5_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 1.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_2_5_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 2.5
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_5_0_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 5.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_6_0_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 6.0
+	}
+	
+	pdxparticle = {
+		name = "st_empire_a_8_0_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 8.0
+	}
+	
+	
+	
+	
+	
+}

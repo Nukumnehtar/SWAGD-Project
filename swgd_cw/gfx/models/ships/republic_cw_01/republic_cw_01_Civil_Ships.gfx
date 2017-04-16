@@ -1,0 +1,101 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_Colony_Ship_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Colony_Ship.mesh"
+		scale = 0.6
+
+		meshsettings = {
+			name = "ColonyShape"
+			index = 0
+			texture_diffuse = "st_Imperial_Transport_diffuse.dds"
+			texture_normal = "st_Imperial_Transport_normal.dds"
+			texture_specular = "st_Imperial_Transport_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "ColonyShape"
+			index = 1
+			texture_diffuse = "st_Imperial_Transport_Lights_diffuse.dds"
+			texture_normal = "st_Imperial_Transport_Lights_normal.dds"
+			texture_specular = "st_Imperial_Transport_Lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "st_Gozanti_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Gozanti.mesh"
+		scale = 1.2
+
+		meshsettings = {
+			name = "GozantiShape"
+			index = 0
+			texture_diffuse = "st_Gozanti_diffuse.dds"
+			texture_normal = "st_Gozanti_normal.dds"
+			texture_specular = "st_Gozanti_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_01_Y8_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Empire_01_Y8.mesh"
+		scale = 0.6
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_01_Y8_diffuse.dds"
+			texture_normal = "st_Empire_01_Y8_normal.dds"
+			texture_specular = "st_Empire_01_Y8_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Empire_01_Y8_Cargo_diffuse.dds"
+			texture_normal = "st_Empire_01_Y8_Cargo_normal.dds"
+			texture_specular = "st_Empire_01_Y8_Cargo_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "st_Empire_01_Y8_Bridge_diffuse.dds"
+			texture_normal = "st_Empire_01_Y8_Bridge_normal.dds"
+			texture_specular = "st_Empire_01_Y8_Bridge_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "st_Empire_01_Y8_Glass_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Lambda_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Empire_Lambda.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_Lambda_diffuse.dds"
+			texture_normal = "st_Empire_Lambda_normal.dds"
+			texture_specular = "st_Empire_Lambda_specular.dds"
+			shader = "PdxMeshTerra"
+		}
+	}
+}

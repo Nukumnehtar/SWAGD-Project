@@ -2532,7 +2532,7 @@ bespin_guilds = {
 	ftl = hyperdrive
 	
 	planet_name = "Bespin"
-	planet_class = "pc_continental"	
+	planet_class = "pc_gas_giant_station"	
 	system_name = "Bespin"
 	initializer = "bespin_system_initializer"	
 	

@@ -51,18 +51,19 @@ bespin_system_initializer = {
 
         moon = {
             name = "Bespin Colonies"
-            class = "pc_continental"
+            class = "pc_gas_giant_station"
             orbit_distance = 2
             orbit_angle = 152
             size = 20
             has_ring = no
 			starting_planet = yes
-		tile_blockers = none
-		modifiers = none
+			tile_blockers = none
+			modifiers = none
      		init_effect = {
 			prevent_anomaly = yes
-		}
-		        moon = {
+			}
+		}	
+		 moon = {
             name = "H'gaard"
             class = "pc_frozen"
             orbit_distance = 9

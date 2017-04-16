@@ -1,0 +1,19 @@
+﻿l_english:
+
+ #####################################
+ # Anomalies
+ #####################################
+ 
+ ancient_sith_temple_category:0 "Ancient Temple"
+ ancient_sith_temple_category_desc:0 "An ancient and impressive structure lies on [Root.GetName]'s surface, practically begging for some archaeological work."
+ 
+ 
+ swgd_anomaly.1.name:0 "Ancient Answers"
+ swgd_anomaly.1.desc:0 "The [Root.GetName] has found an ancient structure on [From.GetName]. It seems to be the only one of its kind on the planet - Science Officer [Root.GetLeaderName] speculates that it was a meant to remain hidden.\n\nIt bears ancient marks and symbolism that we have never seen, and preliminary scans by the [Root.GetName] indicate that its interior design is extremely complex."
+ swgd_anomaly.1.a: 0 "Let's take a look."
+ swgd_anomaly.1.b: 0 "I have a bad feeling about this."
+ swgd_anomaly.1.d: 0 "Leave it be."
+
+
+ 
+  

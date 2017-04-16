@@ -27,7 +27,7 @@ country_edict = {
 	}	
 	
 	effect = {
-		country_event = { id = galactic_empire.1 }
+		country_event = { id = seperatist_crisis.1 }
 	}
 	
 }

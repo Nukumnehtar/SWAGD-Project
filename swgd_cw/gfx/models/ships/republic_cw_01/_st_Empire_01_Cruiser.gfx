@@ -1,0 +1,34 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_Acclamator_M3L1_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Acclamator_M3L1.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "AcclamatorShape"
+			index = 0
+			texture_diffuse = "st_Empire_Acclamator_diffuse.dds"
+			texture_normal = "st_Empire_Acclamator_normal.dds"
+			texture_specular = "st_Empire_Acclamator_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "AcclamatorShape"
+			index = 1
+			texture_diffuse = "st_Empire_Costum_Lights_diffuse.dds"
+			texture_normal = "st_Empire_Costum_Lights_normal.dds"
+			texture_specular = "st_Empire_Costum_Lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Acclamator_S2M2_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Acclamator_S2M2.mesh"
+		scale = 0.8
+	}
+}

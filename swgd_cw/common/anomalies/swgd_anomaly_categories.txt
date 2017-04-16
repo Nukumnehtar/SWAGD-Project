@@ -1,0 +1,50 @@
+############################
+### DISCOVERY CATEGORIES ###
+############################
+# potential = planet scope
+# on_success = ship scope
+# on_fail = ship scope
+# on_critical_fail = ship scope
+# level = level of discovery that is checked against scientist level
+# risk = risk of researching the discovery (defaults to NDefines::NGameplay:anomaly_RISK_DEFAULT)
+
+# For on_success, on_fail, on_critical_fail
+# FROM = planet scope
+# ROOT = ship scope
+# Ex. on_fail, ship_event would have the planet in From.From
+
+# Crashed Ship (Asteroid)
+anomaly_category = {
+	key = "ancient_sith_temple_category"
+	desc = "ancient_sith_temple_category_desc"
+	picture = GFX_evt_ancient_alien_temple
+	level = 2
+	#risk = 30
+	
+	spawn_chance = {		
+		modifier = {
+			add = 3
+			habitable_planet = yes
+		}
+	}
+	
+	on_success = {
+	}
+
+	on_fail = {
+		ship_event = { id = anomaly_failure.1 }
+	}
+
+	on_critical_fail = {
+		random_list = {
+			16 = { ship_event = { id = anomaly_failure.400 } }
+			16 = { ship_event = { id = anomaly_failure.401 } }
+			16 = { ship_event = { id = anomaly_failure.402 } }
+			16 = { ship_event = { id = anomaly_failure.403 } }
+			16 = { ship_event = { id = anomaly_failure.404 } }
+			16 = { ship_event = { id = anomaly_failure.405 } }
+		}
+	}
+}
+
+	

@@ -1,7 +1,8 @@
 # Triggers when the game starts
 on_game_start = {
 	events = {		
-				
+		swgd_game_start.1
+		swgd_game_start.2
 						
 	}
 }

@@ -1,0 +1,213 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_Costum_Corvette_S3_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Costum_Corvette_S3.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "CorvetteShape"
+			index = 0
+			texture_diffuse = "st_Empire_Custom_Corvette_diffuse.dds"
+			texture_normal = "st_Empire_Custom_Corvette_normal.dds"
+			texture_specular = "st_Empire_Custom_Corvette_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "CorvetteShape"
+			index = 1
+			texture_diffuse = "st_Empire_Arquitens_Lights_diffuse.dds"
+			texture_normal = "st_Empire_Arquitens_Lights_normal.dds"
+			texture_specular = "st_Empire_Arquitens_Lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Gozanti_Corvette_S1_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Gozanti_Corvette_S1.mesh"
+		scale = 0.15
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Gozanti_diffuse.dds"
+			texture_normal = "st_Gozanti_normal.dds"
+			texture_specular = "st_Gozanti_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_IPV4_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Empire_IPV4.mesh"
+		scale = 0.6
+
+		meshsettings = {
+			name = "IPV1Shape"
+			index = 0
+			texture_diffuse = "st_Empire_IPV_diffuse.dds"
+			texture_normal = "st_Empire_IPV_normal.dds"
+			texture_specular = "st_Empire_IPV_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "IPV1Shape"
+			index = 1
+			texture_diffuse = "st_Empire_MC_Lights_diffuse.dds"
+			texture_normal = "st_Empire_MC_Lights_normal.dds"
+			texture_specular = "st_Empire_MC_Lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "IPV1Shape"
+			index = 2
+			texture_diffuse = "st_Empire_SmallRadar_diffuse.dds"
+			texture_normal = "st_Empire_SmallRadar_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_CR90H_H1_mesh"
+		file = "gfx/models/ships/republic_cw_01/sw_Empire_01_Cr90_Hangar.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "HULShape"
+			index = 0
+			texture_diffuse = "st_Empire_CR90_Hull_diffuse.dds"
+			texture_normal = "st_Empire_CR90_Hull_normal.dds"
+			texture_specular = "st_Empire_CR90_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HULShape"
+			index = 1
+			texture_diffuse = "st_Empire_CR90_Weapons_diffuse.dds"
+			texture_normal = "st_Empire_CR90_Weapons_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HULShape"
+			index = 2
+			texture_diffuse = "st_Empire_CR90H_diffuse.dds"
+			texture_normal = "st_Empire_CR90H_normal.dds"
+			texture_specular = "st_Empire_CR90H_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HULShape"
+			index = 3
+			texture_diffuse = "st_Empire_CR90_Detail_diffuse.dds"
+			texture_normal = "st_Empire_CR90_Detail_normal.dds"
+			texture_specular = "st_Empire_CR90_Detail_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_CR90_Science_mesh"
+		file = "gfx/models/ships/republic_cw_01/sw_Empire_01_Cr90_Science.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "Cr90Shape"
+			index = 0
+			texture_diffuse = "st_Empire_CR90_Science_diffuse.dds"
+			texture_normal = "st_Empire_CR90_Hull_normal.dds"
+			texture_specular = "st_Empire_CR90_Science_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Cr90Shape"
+			index = 1
+			texture_diffuse = "st_Empire_CR90_Detail_diffuse.dds"
+			texture_normal = "st_Empire_CR90_Detail_normal.dds"
+			texture_specular = "st_Empire_CR90_Detail_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Cr90Shape"
+			index = 2
+			texture_diffuse = "st_Empire_CR90_Weapons_diffuse.dds"
+			texture_normal = "st_Empire_CR90_Weapons_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_CR90_M1S2_mesh"
+		file = "gfx/models/ships/republic_cw_01/sw_Empire_01_Cr90.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "Cr90Shape"
+			index = 0
+			texture_diffuse = "st_Empire_CR90_Hull_diffuse.dds"
+			texture_normal = "st_Empire_CR90_Hull_normal.dds"
+			texture_specular = "st_Empire_CR90_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Cr90Shape"
+			index = 1
+			texture_diffuse = "st_Empire_CR90_Weapons_diffuse.dds"
+			texture_normal = "st_Empire_CR90_Weapons_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Cr90Shape"
+			index = 2
+			texture_diffuse = "st_Empire_CR90_Detail_diffuse.dds"
+			texture_normal = "st_Empire_CR90_Detail_normal.dds"
+			texture_specular = "st_Empire_CR90_Detail_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

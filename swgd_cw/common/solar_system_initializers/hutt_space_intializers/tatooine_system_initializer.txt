@@ -119,9 +119,8 @@ tatooine_system_initializer = {
 				best_tile_for_pop = {
 					create_pop = { 
 						species = last_created
-						ethos = {
-							ethic = ethic_collectivist
-							ethic = ethic_fanatic_materialist
+						ethos = {							
+							ethic = ethic_materialist
 						}
 					}
 				}
@@ -152,9 +151,8 @@ tatooine_system_initializer = {
 				best_tile_for_pop = {
 					create_pop = { 
 						species = last_created
-						ethos = {
-							ethic = ethic_fanatic_xenophobe
-							ethic = ethic_fanatic_militarist
+						ethos = {							
+							ethic = ethic_militarist
 						}
 					}
 				}

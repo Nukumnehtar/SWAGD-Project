@@ -49,7 +49,7 @@ prakith_system_initializer = {
 		init_effect = {
 		random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_building = "building_great_pyramid"
+				set_building = "building_andeddu_keep"
 				add_resource = {
 					resource = food
 					amount = 3

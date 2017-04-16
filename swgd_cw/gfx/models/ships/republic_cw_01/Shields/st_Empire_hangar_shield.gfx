@@ -1,0 +1,155 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_Gladiator_hangar_shield_mesh"
+		file = "gfx/models/ships/republic_cw_01/Shields/st_Gladiator_hangar_shield.mesh"
+		scale = 0.55
+
+		meshsettings = {
+			name = "ShieldShape"
+			index = 0
+			texture_diffuse = "Shield_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_CR90H_shield_mesh"
+		file = "gfx/models/ships/republic_cw_01/Shields/st_Empire_CR90H_shield.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "ShieldShape"
+			index = 0
+			texture_diffuse = "Shield_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Nebulon_B_hangar_shield_mesh"
+		file = "gfx/models/ships/republic_cw_01/Shields/st_Nebulon_B_hangar_shield.mesh"
+		scale = 0.75
+
+		meshsettings = {
+			name = "ShieldShape"
+			index = 0
+			texture_diffuse = "Shield_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Escort_Carrier_Shield_mesh"
+		file = "gfx/models/ships/republic_cw_01/Shields/st_Escort_Carrier_Shield.mesh"
+		scale = 0.65
+
+		meshsettings = {
+			name = "ShieldShape"
+			index = 0
+			texture_diffuse = "Shield_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_VSDI_hangar_shield_mesh"
+		file = "gfx/models/ships/republic_cw_01/Shields/st_VSDI_hangar_shield.mesh"
+		scale = 0.45
+
+		meshsettings = {
+			name = "ShieldShape"
+			index = 0
+			texture_diffuse = "Shield_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Shipyard_shield_mesh"
+		file = "gfx/models/ships/republic_cw_01/Shields/st_Empire_Shipyard_shield.mesh"
+		scale = 0.7
+
+		meshsettings = {
+			name = "ShieldShape"
+			index = 0
+			texture_diffuse = "Shield_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Tonn_shield_mesh"
+		file = "gfx/models/ships/republic_cw_01/Shields/st_Empire_Tonn_shield.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "hangar1Shape"
+			index = 0
+			texture_diffuse = "Shield_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_VSD_II_cruiser_shield_mesh"
+		file = "gfx/models/ships/republic_cw_01/Shields/st_VSD_II_cruiser_shield.mesh"
+		scale = 0.48
+
+		meshsettings = {
+			name = "ShieldShape"
+			index = 0
+			texture_diffuse = "Shield_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Immo_Shield_mesh"
+		file = "gfx/models/ships/republic_cw_01/Shields/st_Empire_Immo_Shield.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			name = "ShieldShape"
+			index = 0
+			texture_diffuse = "Shield_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

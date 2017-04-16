@@ -14,7 +14,7 @@ kashyyyk_system_initializer = {
         class = "pc_molten"
         orbit_distance = 30
         orbit_angle = 193
-	size = 10
+		size = 10
         has_ring = no
 
 
@@ -23,7 +23,7 @@ kashyyyk_system_initializer = {
             class = random
             orbit_distance = 8
             orbit_angle = 180
-	    size = 5
+			size = 5
             has_ring = no
 
         }
@@ -34,7 +34,7 @@ kashyyyk_system_initializer = {
         class = "pc_toxic"
         orbit_distance = 25
         orbit_angle = 0
-	size = 12
+		size = 12
         has_ring = no
 
 
@@ -43,7 +43,7 @@ kashyyyk_system_initializer = {
             class = random
             orbit_distance = 7
             orbit_angle = 247
-	    size = 4
+			size = 4
             has_ring = no
 
         }
@@ -52,7 +52,7 @@ kashyyyk_system_initializer = {
             class = random
             orbit_distance = 3
             orbit_angle = 293
-	    size = 8
+			size = 8
             has_ring = no
 
         }
@@ -61,7 +61,7 @@ kashyyyk_system_initializer = {
             class = random
             orbit_distance = 2.5
             orbit_angle = 10
-	    size = 5
+			size = 5
             has_ring = no
 
         }
@@ -72,12 +72,12 @@ kashyyyk_system_initializer = {
         class = "pc_tropical"
         orbit_distance = 26
         orbit_angle = 280
-	size = 20
+		size = 20
         has_ring = no	
 		starting_planet = yes
 		tile_blockers = none
 		modifiers = none
-	flags={wookiee_clans}
+		flags={wookiee_clans}
      	
 
 
@@ -95,7 +95,7 @@ kashyyyk_system_initializer = {
             class = random
             orbit_distance = 3
             orbit_angle = 91
-	   size = 5
+			size = 5
             has_ring = no
 
         }
@@ -104,7 +104,7 @@ kashyyyk_system_initializer = {
             class = random
             orbit_distance = 4
             orbit_angle = 20
-	    size = 7
+			size = 7
             has_ring = no
 
         }

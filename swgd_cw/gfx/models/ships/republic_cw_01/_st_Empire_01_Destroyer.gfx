@@ -1,0 +1,39 @@
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Arq_S2M1_mesh"
+		file = "gfx/models/ships/republic_cw_01/st_Empire_Arq_S2M1.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_Arquitens_Hull_diffuse.dds"
+			texture_normal = "st_Empire_Arquitens_Hull_normal.dds"
+			texture_specular = "st_Empire_Arquitens_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Empire_Arquitens_Detail_diffuse.dds"
+			texture_normal = "st_Empire_Arquitens_Detail_normal.dds"
+			texture_specular = "st_Empire_Arquitens_Detail_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "st_Empire_Arquitens_Lights_diffuse.dds"
+			texture_normal = "st_Empire_Arquitens_Lights_normal.dds"						
+			texture_specular = "st_Empire_Arquitens_Lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+
+
+

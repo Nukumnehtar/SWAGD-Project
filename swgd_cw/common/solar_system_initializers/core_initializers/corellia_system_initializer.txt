@@ -17,9 +17,9 @@ corellia_system_initializer = {
         orbit_angle = 212
         size = 20
         has_ring = no
-		starting_planet = yes
-		tile_blockers = none
-		modifiers = none
+	starting_planet = yes
+	tile_blockers = none
+	modifiers = none
      	init_effect = {
 			prevent_anomaly = yes
 		}
